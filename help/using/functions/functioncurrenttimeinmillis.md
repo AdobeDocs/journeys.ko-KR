@@ -1,0 +1,45 @@
+---
+title: currentTimeInMillis
+description: currentTimeInMillis 함수에 대해 알아보기
+page-status-flag: never-activated
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+contentOwner: sauviat
+audience: rns
+content-type: reference
+topic-tags: journeys
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+
+---
+
+
+# currentTimeInMillis {#currentTimeInMillis}
+
+현재 시간을 epoch 밀리초 단위로 반환합니다.
+
+## 카테고리
+
+날짜
+
+## 함수 구문
+
+`currentTimeInMillis()`
+
+## 매개 변수
+
+이 함수는 매개 변수를 사용하지 않습니다.
+
+## 서명 및 반환된 문자
+
+`currentTimeInMillis()`
+
+정수를 반환합니다.
+
+## 예
+
+`currentTimeInMillis()`
+
+&quot;1544712617131&quot;을 반환합니다.
