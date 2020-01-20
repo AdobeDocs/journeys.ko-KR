@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
+source-git-commit: 6e7d89f4a9cb56b7b87cfc73ad7a9c7c4dc323a3
 
 ---
 
@@ -20,6 +20,11 @@ source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
 
 이 페이지에는 경로 지정 오케스트레이션에 대한 모든 설명서 업데이트가 나열됩니다.
 여정 오케스트레이션 릴리스 노트를 참조할 수도 [있습니다](../release-notes/release-notes.md).
+
+## 2020년 1월 {#january-2020}
+
+* [경험 이벤트](../datasource/adobe-experience-platform-data-source.md) 및 [세그먼트에](../functions/functioninsegment.md)대한 가져오기 제한이 추가되었습니다.
+* getBestSendTime [문서가](../functions/functiongetbestsendtime.md) 업데이트되었습니다.
 
 ## 2019년 12월 {#december-2019}
 
@@ -32,4 +37,3 @@ source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
 * [조건부 지침](../expression/conditional-instruction.md) 및 [컬렉션 관리](../expression/collection-management-functions.md) 섹션이 이동 및 업데이트되었습니다.
 * 함수 [섹션이](../expression/functions.md) 새 예제와 함께 업데이트되었습니다.
 * toDateTime [함수](../functions/functiontodatetime.md) 설명서가 시간대 구문 변경을 반영하도록 업데이트되었습니다.
-
