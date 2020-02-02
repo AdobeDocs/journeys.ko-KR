@@ -9,12 +9,20 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # 유저 인터페이스 {#concept_rcq_lqt_52b}
+
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_home&quot;
+>title=&quot;여정 목록&quot;
+>abstract=&quot;경로 목록을 사용하면 모든 여정을 한 번에 볼 수 있으며 진행 상태를 확인하고 기본적인 작업을 수행할 수 있습니다. 여행을 복제, 중지 또는 삭제할 수 있습니다. 여정에 따라 특정 작업을 사용할 수 없을 수 있습니다. 예를 들어 중단된 여정을 중지하거나 삭제할 수 없습니다. 검색 막대를 사용하여 여정을 검색할 수도 있습니다.&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;데모 비디오 보기&quot;
+
 
 >[!NOTE]
 >
