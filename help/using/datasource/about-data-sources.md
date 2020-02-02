@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # 데이터 소스 정보 {#concept_s1s_dqt_52b}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_datasources&quot;
+>title=&quot;데이터 소스 정보&quot;
+>abstract=&quot;데이터 소스 구성은 기술 사용자가 항상 수행합니다. 데이터 소스 구성을 사용하면 시스템에 대한 연결을 정의하여 다음 경우에 사용할 추가 정보를 검색할 수 있습니다.동작의 조건 정의, 매개 변수 및 개인화 데이터, 사용자 정의 대기 정의, 사용자 정의 시간대 정의.&quot;
 
 데이터 소스 구성은 항상 **기술 사용자가**&#x200B;수행합니다.
 
