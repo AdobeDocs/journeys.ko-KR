@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # 이벤트 정보 {#concept_gfj_fqt_52b}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_events&quot;
+>title=&quot;이벤트 정보&quot;
+>abstract=&quot;이벤트는 사람에 연결됩니다. 이것은 개인의 행동과 관련이 있습니다(예: 제품을 구입하거나 가게를 방문하거나 웹 사이트를 나가는 사람 등). 또는 사람과 연결된 어떤 것(예: 한 사람이 10,000개의 충성도 포인트에 도달함) 이는 여정 오케스트레이션이 최상의 다음 동작을 구성할 수 있도록 귀담아 들을 것입니다.&quot;
 
 이벤트는 개인에게 연결됩니다. 이것은 개인의 행동과 관련이 있습니다(예: 제품을 구입하거나 가게를 방문하거나 웹 사이트를 나가는 사람 등). 또는 사람과 연결된 어떤 것(예: 한 사람이 10,000개의 충성도 포인트에 도달함) 이는 고객 여정 통합 관리가 향후 최고의 동작을 구성할 수 있도록 귀기울일 것입니다.
 
