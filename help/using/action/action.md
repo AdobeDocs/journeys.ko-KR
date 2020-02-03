@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
+source-git-commit: d018072f2cbf2b8804c5c678f84cc8e25e3e86f4
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 >[!CONTEXTUALHELP]
 >id=&quot;jo_actions&quot;
 >title=&quot;작업 정보&quot;
->abstract=&quot;여기에서 메시지를 보낼 시스템과의 연결을 정의합니다. 여기에 정의된 작업은 작업 카테고리의 왼쪽 팔레트에서 사용할 수 있습니다.&quot;
+>abstract=&quot;여기에서 메시지를 보낼 시스템과의 연결을 정의합니다. 그러면 여기에 정의된 작업을 작업 카테고리의 왼쪽 팔레트에서 사용할 수 있습니다. &quot;
 
 사용자 지정 작업의 구성은 항상 **기술 사용자가**&#x200B;수행합니다.
 
