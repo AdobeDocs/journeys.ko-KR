@@ -20,7 +20,7 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 >[!CONTEXTUALHELP]
 >id=&quot;jo_home&quot;
 >title=&quot;여정 목록&quot;
->abstract=&quot;경로 목록을 사용하면 모든 여정을 한 번에 볼 수 있으며 진행 상태를 확인하고 기본적인 작업을 수행할 수 있습니다. 여행을 복제, 중지 또는 삭제할 수 있습니다. 여정에 따라 특정 작업을 사용할 수 없을 수 있습니다. 예를 들어, 완료된 여정을 중지하거나 삭제할 수 없습니다. 검색 막대를 사용하여 여정을 검색할 수도 있습니다.&quot;
+>abstract=&quot;경로 목록을 사용하면 모든 여정을 한 번에 볼 수 있으며 진행 상태를 확인하고 기본적인 작업을 수행할 수 있습니다. 여행을 복제, 중지 또는 삭제할 수 있습니다. 여정에 따라 특정 작업을 사용할 수 없을 수 있습니다. 예를 들어 중단된 여정을 중지하거나 삭제할 수 없습니다. 검색 막대를 사용하여 여정을 검색할 수도 있습니다.&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;데모 비디오 보기&quot;
 
 
@@ -40,13 +40,9 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ![](../assets/journey1bis.png)
 
-상단 메뉴를 사용하면 경로 관리(Journey Orchestration)의 다양한 기능을 탐색할 수 있습니다.( **[!UICONTROL Home]**&#x200B;여정),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**
+상단 메뉴를 사용하면 경로 통합 운영의 다양한 기능을 탐색할 수 있습니다.( **[!UICONTROL Home]**&#x200B;여정),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**
 
 ![](../assets/journey2.png)
-
-화면의 오른쪽 위 모서리에 있는 ![](../assets/icon-context.png) 아이콘을 클릭하여 컨텍스트 도움말을 표시합니다. 여정 운영 목록 화면(여정, 이벤트, 작업 및 데이터 소스)에서 사용할 수 있습니다. 이를 통해 현재 기능에 대한 빠른 설명을 보고 관련 문서 및 비디오에 액세스할 수 있습니다.
-
-![](../assets/journey2bis.png)
 
 ## 검색 및 필터링{#section_lgm_hpz_pgb}
 
