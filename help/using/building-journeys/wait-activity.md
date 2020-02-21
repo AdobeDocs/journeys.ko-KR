@@ -11,14 +11,14 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
 
 # 대기 활동{#section_rlm_nft_dgb}
 
-경로에서 다음 활동을 실행하기 전에 기다리려면 **[!UICONTROL Wait]**활동을 사용할 수 있습니다. 이를 통해 다음 활동이 실행될 시점을 정의할 수 있습니다. 다음 네 가지 옵션을 사용할 수 있습니다.
+경로에서 다음 활동을 실행하기 전에 기다리려면 **[!UICONTROL Wait]** 활동을 사용할 수 있습니다. 이를 통해 다음 활동이 실행될 시점을 정의할 수 있습니다. 다음 네 가지 옵션을 사용할 수 있습니다.
 
 * [지속 시간](#duration)
 * [고정 날짜](#fixed_date)
@@ -37,7 +37,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 >
 >최대 대기 기간은 30일입니다.
 >
->테스트 모드에서는 모든 대기 활동이 자동으로 5초로 설정됩니다. 이렇게 하면 테스트 결과에 신속하게 액세스할 수 있습니다.
+>테스트 모드에서 Wait time **in test** 매개 변수를 사용하면 각 대기 활동이 지속될 시간을 정의할 수 있습니다. 기본 시간은 10초입니다. 이렇게 하면 테스트 결과를 신속하게 얻을 수 있습니다. 자세한 내용은 [](../building-journeys/testing-the-journey.md)
 
 ## 기간 대기{#duration}
 
@@ -75,10 +75,10 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 >
 >경로의 첫 번째 이벤트에는 네임스페이스가 있어야 합니다.
 >
->이 기능은 **[!UICONTROL Email]**활동 후에만 사용할 수 있습니다. Adobe Campaign Standard가 필요합니다.
+>이 기능은 **[!UICONTROL Email]** 활동 후에만 사용할 수 있습니다. Adobe Campaign Standard가 필요합니다.
 
-1. 필드에서 이메일 전송을 최적화할 시간을 **[!UICONTROL Amount of time]**정의합니다.
-1. 필드에서 **[!UICONTROL Optimization type]**최적화를 통해 클릭 수를 늘릴지 아니면 열지를 선택합니다.
+1. 필드에서 이메일 전송을 최적화할 시간을 **[!UICONTROL Amount of time]** 정의합니다.
+1. 필드에서 **[!UICONTROL Optimization type]** 최적화를 통해 클릭 수를 늘릴지 아니면 열지를 선택합니다.
 1. 기본 **시간** 필드에서 예측 전송 시간 점수를 사용할 수 없는 경우 대기할 기본 시간을 정의합니다.
 
    >[!NOTE]
