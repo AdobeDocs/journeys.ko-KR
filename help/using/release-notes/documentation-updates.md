@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
 
 ---
 
@@ -20,6 +20,21 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 이 페이지에는 경로 지정 오케스트레이션에 대한 모든 설명서 업데이트가 나열됩니다.
 여정 오케스트레이션 릴리스 노트를 참조할 수도 [있습니다](../release-notes/release-notes.md).
+
+## 2020년 3월 {#march-2020}
+
+* 여러 이벤트 트리거가 테스트 모드 섹션에 [추가되었습니다 자세히 보기](../building-journeys/testing-the-journey.md#firing_events)
+* 테스트 모드 섹션이 테스트 **** 매개 변수의 새 대기 시간과 관련하여 업데이트되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md)
+* 테스트 로그 섹션이 외부 호출 오류 코드 및 응답으로 업데이트되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md#viewing_logs)
+* 이제 시간대 관리는 여정 속성 패널에서 중앙에서 이루어집니다. 자세한 [내용](../building-journeys/changing-properties.md#timezone) 및 [여기](../building-journeys/timezone-management.md)
+* 고객 여정 디자이너 섹션이 최근 개선 사항을 반영하도록 업데이트되었습니다. [자세한 내용](../building-journeys/using-the-journey-designer.md)
+* 인터페이스 설명이 컨텍스트 도움말에 대한 정보로 업데이트되었습니다. [자세한 내용](../about/user-interface.md#section_ksq_zr1_ffb)
+* XDM **필드를**&#x200B;검색할 때 친숙한 이름이 표시됩니다. 관련 섹션이 업데이트되었습니다. [자세한 내용](../about/user-interface.md#friendly-names-display)
+
+
+## 2020년 2월 {#february-2020}
+
+* 바로 가기 섹션이 업데이트되었습니다. C **키보드** 단축키를 사용하면 모든 목록 화면에서 새 항목을 만들 수 있습니다. [자세한 내용](../about/user-interface.md#section_ksq_zr1_ffb)
 
 ## 2020년 1월 {#january-2020}
 
