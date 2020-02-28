@@ -1,5 +1,5 @@
 ---
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 translation-type: tm+mt
 
 ---
@@ -20,7 +20,7 @@ translation-type: tm+mt
 
 ## 기고자 라이센스 계약
 
-본 프로젝트에 대한 모든 제3자 기여도는 서명된 증여자 사용권 계약을 동반해야 합니다. 이를 통해 Adobe에 프로젝트의 일부로 기여도를 재배포할 수 있는 권한을 부여합니다. [CLA에 서명합니다](http://opensource.adobe.com/cla.html). Adobe CLA를 한 번만 제출하면 되므로 이전에 제출했다면 충분히 제출하십시오!
+본 프로젝트에 대한 모든 제3자 기여도는 서명된 증여자 사용권 계약을 동반해야 합니다. 이를 통해 Adobe에 프로젝트의 일부로 기여도를 재배포할 수 있는 권한을 부여합니다. [CLA에 서명합니다](https://opensource.adobe.com/cla.html). Adobe CLA를 한 번만 제출하면 되므로 이전에 제출했다면 충분히 제출하십시오!
 
 ## 코드 검토
 
