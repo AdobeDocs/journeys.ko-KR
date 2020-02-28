@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
+source-git-commit: 538b350165365479caef499a74346381643033d5
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
 
 ## 조건 활동 정보 {#about_condition}
 
-여러 조건을 정의하려면 **[!UICONTROL Add a path]**클릭합니다. 각 조건에 대해 활동 후 캔버스에 새 경로가 추가됩니다.
+여러 조건을 정의하려면 **[!UICONTROL Add a path]** 클릭합니다. 각 조건에 대해 활동 후 캔버스에 새 경로가 추가됩니다.
 
 ![](../assets/journey47.png)
 
@@ -37,7 +37,7 @@ source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
 
 ![](../assets/journey48.png)
 
-을 선택하여 정의된 조건에 해당되지 않는 대상에 대해 다른 경로를 만들 수 **[!UICONTROL Show path for other cases than the one(s) above]**있습니다. 분할 조건에서는 이 옵션을 사용할 수 없습니다. 비율[분할을](#percentage_split)참조하십시오.
+을 선택하여 정의된 조건에 해당되지 않는 대상에 대해 다른 경로를 만들 수 **[!UICONTROL Show path for other cases than the one(s) above]**&#x200B;있습니다. 분할 조건에서는 이 옵션을 사용할 수 없습니다. 비율 [분할을](#percentage_split)참조하십시오.
 
 단순 모드에서는 필드 조합을 기반으로 간단한 쿼리를 수행할 수 있습니다. 사용 가능한 모든 필드가 화면 왼쪽에 표시됩니다. 필드를 주 영역으로 드래그하여 놓습니다. 서로 다른 요소를 결합하려면 다른 그룹 및/또는 그룹 수준을 만들기 위해 요소를 서로 잠급니다. 그런 다음 논리 연산자를 선택하여 동일한 수준에 있는 요소를 결합할 수 있습니다.
 
@@ -58,7 +58,11 @@ source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
 
 ## 시간 조건{#time_condition}
 
-이렇게 하면 하루 중 시간 및/또는 요일에 따라 다른 작업을 수행할 수 있습니다. 예를 들어 주중에는 낮 동안 SMS 메시지를 전송하고, 주중에는 밤에 이메일을 보내도록 결정할 수 있습니다. 이 조건에 대한 특정 시간대를 정의할 수 있습니다. 을 [](../building-journeys/timezone-management.md)참조하십시오.
+이렇게 하면 하루 중 시간 및/또는 요일에 따라 다른 작업을 수행할 수 있습니다. 예를 들어 주중에는 낮 동안 SMS 메시지를 전송하고, 주중에는 밤에 이메일을 보내도록 결정할 수 있습니다.
+
+>[!NOTE]
+>
+>시간대는 더 이상 조건에 한정되지 않으며 이제 경로 속성의 경로 수준에서 정의됩니다. 을 [](../building-journeys/timezone-management.md)참조하십시오.
 
 ![](../assets/journey51.png)
 
@@ -75,6 +79,10 @@ source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
 
 ## 날짜 조건 {#date_condition}
 
-날짜를 기준으로 다른 흐름을 정의할 수 있습니다. 예를 들어, 사용자가 &quot;판매&quot; 기간 동안 단계를 입력하는 경우 특정 메시지를 보냅니다. 남은 1년 동안 다른 메시지를 보내시면 됩니다. 날짜 조건을 정의할 때는 시간대를 지정해야 합니다. 을 [](../building-journeys/timezone-management.md)참조하십시오.
+날짜를 기준으로 다른 흐름을 정의할 수 있습니다. 예를 들어, 사용자가 &quot;판매&quot; 기간 동안 단계를 입력하는 경우 특정 메시지를 보냅니다. 남은 1년 동안 다른 메시지를 보내시면 됩니다.
+
+>[!NOTE]
+>
+>시간대는 더 이상 조건에 한정되지 않으며 이제 경로 속성의 경로 수준에서 정의됩니다. 을 [](../building-journeys/timezone-management.md)참조하십시오.
 
 ![](../assets/journey53.png)
