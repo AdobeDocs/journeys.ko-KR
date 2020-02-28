@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 3efe73dbfee331e2cc42ec737f0258f482171998
+source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
 
 ---
 
@@ -73,18 +73,15 @@ source-git-commit: 3efe73dbfee331e2cc42ec737f0258f482171998
 
 ![](../assets/journey4.png)
 
-## XDM 필드 이름 표시{#friendly-names-display}
+## 데이터 플랫폼 필드 탐색 {#friendly-names-display}
 
-XDM 필드 이름은 [이벤트 페이로드를](../event/defining-the-payload-fields.md)정의하고 [표현식 편집기에서](../datasource/field-groups.md) 필드를 선택할 때 필드 이름 및 표시 이름 아래에 스키마에서 정의됩니다 [](../expression/expressionadvanced.md).
-필드를 선택하면 해당 기술 이름과 필드 이름이 표시됩니다.
+[이벤트 페이로드를](../event/defining-the-payload-fields.md)정의하고 [필드 그룹 페이로드를](../datasource/field-groups.md) 정의하며 [표현식 편집기에서](../expression/expressionadvanced.md)필드를 선택하면 필드 이름 외에 표시 이름이 표시됩니다. 이 정보는 경험 데이터 모델의 스키마 정의에서 검색됩니다.
 
-표시 이름을 대체할 친숙한 이름을 정의하기 위해 스키마를 설정할 때 &quot;xdm:alternateDisplayInfo&quot;와 같은 설명자를 제공할 수 있습니다. 또한 스키마 필드의 &quot;title&quot; 및 &quot;description&quot; 값을 수정할 수도 있습니다.
-
-친숙한 이름을 사용할 수 있으면 필드가 로 표시됩니다 `<friendly-name>(<name>)`. 친숙한 이름을 사용할 수 없는 경우 표시 이름이 표시됩니다(예: `<display-name>(<name>)`). 정의된 이름이 없으면 필드의 기술 이름만 표시됩니다 `<name>`.
-
-API 호출을 통해 친숙한 이름 설명자를 구성할 수 있습니다. 자세한 내용은 스키마 레지스트리 [개발자 안내서를](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)참조하십시오.
+스키마를 설정하는 동안 &quot;xdm:alternateDisplayInfo&quot;와 같은 설명자가 제공된 경우 사용자에게 친숙한 이름이 표시 이름을 대체합니다. &quot;eVars&quot; 및 일반 필드로 작업할 때 특히 유용합니다.API 호출을 통해 친숙한 이름 설명자를 구성할 수 있습니다. 자세한 내용은 스키마 레지스트리 [개발자 안내서를](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)참조하십시오.
 
 ![](../assets/xdm-from-descriptors.png)
+
+친숙한 이름을 사용할 수 있으면 필드가 로 표시됩니다 `<friendly-name>(<name>)`. 친숙한 이름을 사용할 수 없는 경우 표시 이름이 표시됩니다(예: `<display-name>(<name>)`). 정의된 이름이 없으면 필드의 기술 이름만 표시됩니다 `<name>`.
 
 >[!NOTE]
 >
