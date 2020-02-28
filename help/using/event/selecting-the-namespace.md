@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 411ecf0ec4dc6a87c4e129b40f2918799bef54bf
 
 ---
 
@@ -22,7 +22,12 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 사전 정의된 항목 중 하나를 사용하거나 ID 네임스페이스 서비스를 사용하여 새 네임스페이스 서비스를 만들 수 있습니다. 이 [페이지를](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)참조하십시오.
 
-기본 ID가 있는 스키마를 선택하면 **[!UICONTROL Key]**및**[!UICONTROL Namespace]** 필드가 미리 채워집니다. ID가 정의되지 않은 경우 기본 _키로 identityMap > id_ 를 선택합니다. 그런 다음 네임스페이스를 선택해야 합니다. 그러면 **[!UICONTROL Namespace]**idMap > id를 사용하여 키가 미리&#x200B;_채워집니다_.
+기본 ID가 있는 스키마를 선택하면 **[!UICONTROL Key]** 및 **[!UICONTROL Namespace]** 필드가 미리 채워집니다. ID가 정의되지 않은 경우 기본 _키로 identityMap > id_ 를 선택합니다. 그런 다음 네임스페이스를 선택해야 합니다. 그러면 **[!UICONTROL Namespace]** idMap > id를 사용하여 키가 미리 _채워집니다_.
+
+필드를 선택하면 기본 ID 필드에 태그가 지정됩니다.
+
+![](../assets/primary-identity.png)
+
 
 드롭다운 목록에서 네임스페이스를 선택합니다.
 
