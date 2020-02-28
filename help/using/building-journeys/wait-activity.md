@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 >
 >최대 대기 기간은 30일입니다.
 >
->테스트 모드에서는 모든 대기 활동이 자동으로 5초로 설정됩니다. 이렇게 하면 테스트 결과에 신속하게 액세스할 수 있습니다.
+>테스트 모드에서 Wait time **in test** 매개 변수를 사용하면 각 대기 활동이 지속될 시간을 정의할 수 있습니다. 기본 시간은 10초입니다. 이렇게 하면 테스트 결과를 신속하게 얻을 수 있습니다. 자세한 내용은 [](../building-journeys/testing-the-journey.md)
 
 ## 기간 대기{#duration}
 
@@ -47,19 +47,19 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ## 고정 날짜 대기{#fixed_date}
 
-다음 활동을 실행할 날짜를 선택합니다. 고정 날짜를 정의할 때는 시간대를 지정해야 합니다. 을 [](../building-journeys/timezone-management.md)참조하십시오.
+다음 활동을 실행할 날짜를 선택합니다.
 
 ![](../assets/journey56.png)
 
 ## 사용자 지정 대기{#custom}
 
-이 옵션을 사용하면 이벤트 또는 데이터 소스에서 오는 필드를 기반으로 하는 고급 표현식을 사용하여 사용자 지정 날짜(예: 2020년 7월 12일 오후 5시)를 정의할 수 있습니다. 사용자 지정 기간(예: 7일)을 정의할 수 없습니다. 표현식 편집기의 표현식은 dateTimeOnly 형식을 제공해야 합니다. 을 [](../expression/expressionadvanced.md)참조하십시오. dateTimeOnly 형식에 대한 자세한 내용은 [](../expression/data-types.md)
+이 옵션을 사용하면 이벤트 또는 데이터 소스에서 오는 필드를 기반으로 하는 고급 표현식을 사용하여 사용자 지정 날짜(예: 2020년 7월 12일 오후 5시)를 정의할 수 있습니다. 사용자 지정 기간(예: 7일)을 정의할 수 없습니다. 표현식 편집기의 표현식은 dateTimeOnly 형식을 제공해야 합니다. 을 [](../expression/expressionadvanced.md)참조하십시오. dateTimeOnly 형식에 대한 자세한 내용은 을 참조하십시오 [](../expression/data-types.md).
 
 >[!NOTE]
 >
 >dateTimeOnly 표현식을 활용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예:toDateTimeOnly(@{Event.offerOpened.activity.endTime}), 이벤트 필드의 형식은 2016-08-12T09:46:06입니다.
 >
->사용자 지정 대기 구성 창의 다른 위치에 **시간대가** 필요합니다. 따라서 2016-08-12T09:46:06.982-05와 같은 전체 ISO-8601 타임스탬프 믹싱 시간 및 시간대 오프셋을 가리킬 때 인터페이스에서 직접 가리킬 수 없습니다. 을 [](../building-journeys/timezone-management.md)참조하십시오.
+>시간대는 **** 여정의 속성에 필요합니다. 따라서 2016-08-12T09:46:06.982-05와 같은 전체 ISO-8601 타임스탬프 믹싱 시간 및 시간대 오프셋을 가리킬 때 인터페이스에서 직접 가리킬 수 없습니다. 을 [](../building-journeys/timezone-management.md)참조하십시오.
 
 ![](../assets/journey57.png)
 
