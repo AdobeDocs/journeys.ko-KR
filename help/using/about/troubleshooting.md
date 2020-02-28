@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 
 ---
 
@@ -25,6 +25,10 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 캔버스의 활동 자체에 경고 기호가 표시되어 오류가 나타납니다. 커서를 느낌표 위에 놓으면 오류 메시지가 표시됩니다. 활동을 클릭하면 경고가 표시된 선이 표시됩니다. 예를 들어 필수 필드가 비어 있으면 오류가 표시됩니다.
 
 ![](../assets/journey63.png)
+
+예를 들어 캔버스에서 두 활동의 연결이 끊기면 경고가 표시됩니다.
+
+![](../assets/canvas-disconnected.png)
 
 전환 **[!UICONTROL Test]** 및 **[!UICONTROL Publish]** 단추 옆에 경고 기호를 표시할 수 있습니다. 이 경고 표시는 시스템에서 감지한 오류를 표시하며 테스트 모드 활성화 또는 경로 게시를 방지합니다. 대부분의 경우, 시스템에서 감지한 오류는 활동에 표시되는 오류에 연결되어 있지만 경우에 따라 다른 문제와 연결됩니다. 이 경우 오류 설명을 사용하여 문제를 식별할 수 있습니다. 문제를 식별할 수 없는 경우 세부 정보를 복사하여 관리자나 지원을 위해 전송할 수 있습니다. 테스트 및 게시 차단 오류를 차단하는 오류는 비슷합니다.
 
