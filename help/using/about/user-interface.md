@@ -9,20 +9,19 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 3efe73dbfee331e2cc42ec737f0258f482171998
 
 ---
 
 
-# 유저 인터페이스 {#concept_rcq_lqt_52b}
+# 유저 인터페이스{#concept_rcq_lqt_52b}
 
 
 >[!CONTEXTUALHELP]
 >id=&quot;jo_home&quot;
 >title=&quot;여정 목록&quot;
->abstract=&quot;경로 목록을 사용하면 모든 여정을 한 번에 볼 수 있으며 진행 상태를 확인하고 기본적인 작업을 수행할 수 있습니다. 여행을 복제, 중지 또는 삭제할 수 있습니다. 여정에 따라 특정 작업을 사용할 수 없을 수 있습니다. 예를 들어 중단된 여정을 중지하거나 삭제할 수 없습니다. 검색 막대를 사용하여 여정을 검색할 수도 있습니다.&quot;
+>abstract=&quot;경로 목록을 사용하면 모든 여정을 한 번에 볼 수 있으며 진행 상태를 확인하고 기본적인 작업을 수행할 수 있습니다. 여행을 복제, 중지 또는 삭제할 수 있습니다. 여정에 따라 특정 작업을 사용할 수 없을 수 있습니다. 예를 들어, 완료된 여정을 중지하거나 삭제할 수 없습니다. 검색 막대를 사용하여 여정을 검색할 수도 있습니다.&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;데모 비디오 보기&quot;
-
 
 >[!NOTE]
 >
@@ -40,9 +39,13 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ![](../assets/journey1bis.png)
 
-상단 메뉴를 사용하면 경로 통합 운영의 다양한 기능을 탐색할 수 있습니다.( **[!UICONTROL Home]**&#x200B;여정),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**
+상단 메뉴를 사용하면 경로 관리(Journey Orchestration)의 다양한 기능을 탐색할 수 있습니다.( **[!UICONTROL Home]**&#x200B;여정),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**
 
 ![](../assets/journey2.png)
+
+화면의 오른쪽 위 모서리에 있는 ![](../assets/icon-context.png) 아이콘을 클릭하여 컨텍스트 도움말을 표시합니다. 여정 운영 목록 화면(여정, 이벤트, 작업 및 데이터 소스)에서 사용할 수 있습니다. 이를 통해 현재 기능에 대한 빠른 설명을 보고 관련 문서 및 비디오에 액세스할 수 있습니다.
+
+![](../assets/journey2bis.png)
 
 ## 검색 및 필터링{#section_lgm_hpz_pgb}
 
@@ -52,11 +55,13 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 및 **[!UICONTROL Data Sources]**&#x200B;목록에서 **[!UICONTROL Events]** 작성 필터를 **[!UICONTROL Actions]** 사용하여 **** 작성 날짜 및 사용자를 필터링합니다. 예를 들어 지난 30일 동안 만든 이벤트만 표시하도록 선택할 수 있습니다.
 
-경로 목록(아래 **[!UICONTROL Home]**)에서 경로 **[!UICONTROL Creation filters]**&#x200B;외에, 상태 및 버전(**[!UICONTROL Status and version filters]**)에 따라 표시된 여정을 필터링할 수도 있습니다. 특정 이벤트, 필드 그룹 또는 작업(**[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**)을 사용하는 여행만 표시하도록 선택할 수도 있습니다. 발행일 또는 사용자를 선택할 수 **[!UICONTROL Publication filters]** 있습니다. 예를 들어, 어제 게시된 최신 버전의 라이브 여행만 표시하도록 선택할 수 있습니다. 을 [](../building-journeys/using-the-journey-designer.md)참조하십시오.
+경로 목록(아래 **[!UICONTROL Home]**)에서 경로 **[!UICONTROL Creation filters]**&#x200B;외에, 상태 및 버전(**[!UICONTROL Status and version filters]**)에 따라 표시된 여정을 필터링할 수도 있습니다. 특정 이벤트, 필드 그룹 또는 작업(**[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**)을 사용하는 여행만 표시하도록 선택할 수도 있습니다. **[!UICONTROL Publication filters]** 게시 날짜 또는 사용자를 선택할 수 있습니다. 예를 들어, 어제 게시된 최신 버전의 라이브 여행만 표시하도록 선택할 수 있습니다. 을 [](../building-journeys/using-the-journey-designer.md)참조하십시오.
 
 >[!NOTE]
 >
 >표시된 열은 목록 오른쪽 상단의 구성 단추를 사용하여 개인화할 수 있습니다. 개인화는 각 사용자에 대해 저장됩니다.
+
+및 **[!UICONTROL Last update]** **[!UICONTROL Last update by]** 열을 사용하면 여행의 마지막 업데이트가 언제 발생했고 어떤 사용자가 작업을 수행했는지 표시할 수 있습니다.
 
 ![](../assets/journey74.png)
 
@@ -67,6 +72,23 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 다른 목록에서 각 요소에 대해 기본 작업을 수행할 수 있습니다. 예를 들어 항목을 복제하거나 삭제할 수 있습니다.
 
 ![](../assets/journey4.png)
+
+## XDM 필드 이름 표시{#friendly-names-display}
+
+XDM 필드 이름은 [이벤트 페이로드를](../event/defining-the-payload-fields.md)정의하고 [표현식 편집기에서](../datasource/field-groups.md) 필드를 선택할 때 필드 이름 및 표시 이름 아래에 스키마에서 정의됩니다 [](../expression/expressionadvanced.md).
+필드를 선택하면 해당 기술 이름과 필드 이름이 표시됩니다.
+
+표시 이름을 대체할 친숙한 이름을 정의하기 위해 스키마를 설정할 때 &quot;xdm:alternateDisplayInfo&quot;와 같은 설명자를 제공할 수 있습니다. 또한 스키마 필드의 &quot;title&quot; 및 &quot;description&quot; 값을 수정할 수도 있습니다.
+
+친숙한 이름을 사용할 수 있으면 필드가 로 표시됩니다 `<friendly-name>(<name>)`. 친숙한 이름을 사용할 수 없는 경우 표시 이름이 표시됩니다(예: `<display-name>(<name>)`). 정의된 이름이 없으면 필드의 기술 이름만 표시됩니다 `<name>`.
+
+API 호출을 통해 친숙한 이름 설명자를 구성할 수 있습니다. 자세한 내용은 스키마 레지스트리 [개발자 안내서를](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)참조하십시오.
+
+![](../assets/xdm-from-descriptors.png)
+
+>[!NOTE]
+>
+>스키마 결합에서 필드를 선택하면 친숙한 이름이 검색되지 않습니다.
 
 ## 다양한 단축키 사용{#section_ksq_zr1_ffb}
 
