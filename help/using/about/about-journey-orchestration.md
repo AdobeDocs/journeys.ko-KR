@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: fed6fd8d8ee497ec47727f7297dc72f319fabe27
+source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
 
 ---
 
@@ -48,4 +48,3 @@ Journey Orchestration은 경험 플랫폼과 통합된 애플리케이션 서비
 >[!NOTE]
 >
 >이 설명서는 제품의 최근 변경 사항을 반영하도록 자주 업데이트됩니다. 그러나 일부 스크린샷은 제품의 인터페이스와 약간 다를 수 있습니다.
-
