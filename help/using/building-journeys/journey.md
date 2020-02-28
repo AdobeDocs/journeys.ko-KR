@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: d5c013ed6031e8138a8e2c099fc28af82966d3ec
 
 ---
 
@@ -29,13 +29,13 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 여정을 만들고 게시하는 주요 단계는 다음과 같습니다.
 
-1. 상단 메뉴에서 **[!UICONTROL Home]**탭을 클릭합니다.
+1. 상단 메뉴에서 **[!UICONTROL Home]** 탭을 클릭합니다.
 
    여행 목록이 표시됩니다. 인터페이스에 [](../building-journeys/using-the-journey-designer.md) 대한 자세한 내용은 을 참조하십시오.
 
    ![](../assets/journey30.png)
 
-1. 을 **[!UICONTROL Create]**클릭하여 새 경로를 만듭니다.
+1. 을 **[!UICONTROL Create]** 클릭하여 새 경로를 만듭니다.
 
    ![](../assets/journey31.png)
 
@@ -44,7 +44,6 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
    ![](../assets/journey32.png)
 
 1. 먼저 팔레트의 이벤트 활동을 캔버스로 드래그하여 놓습니다. 활동을 두 번 클릭하여 캔버스에 추가할 수도 있습니다.
-
 
    ![](../assets/journey33.png)
 
@@ -56,7 +55,7 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
    ![](../assets/journey36.png)
 
-## 고객 여정 종료{#ending_a_journey}
+## 고객 여정 종료 {#ending_a_journey}
 
 다음 두 가지 방법으로 여행을 종료할 수 있습니다.
 
@@ -64,4 +63,3 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 * 이 사람은 조건 활동(또는 조건이 있는 대기 활동)에 도달하고 조건이 일치하지 않습니다.
 
 그런 다음, 다시 입장할 수 있다면, 그 사람은 그 여행에 다시 들어갈 수 있습니다. 을 [](../building-journeys/changing-properties.md)참조하십시오.
-
