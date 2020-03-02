@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8be9cd1803ab2f7093934424c36fcd7407a4a20a
+source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 ---
 
@@ -47,7 +47,6 @@ source-git-commit: 8be9cd1803ab2f7093934424c36fcd7407a4a20a
 
 기본값을 필드 이름과 연결할 수 있습니다. 구문은 다음과 같습니다.
 
-
 ```
 // event field
 @{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
@@ -71,7 +70,9 @@ source-git-commit: 8be9cd1803ab2f7093934424c36fcd7407a4a20a
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
-**맵에**&#x200B;정의된 필드 참조맵에서 요소를 검색하려면 지정된 키와 함께 입력 함수를 사용합니다. 예를 들어 선택한 네임스페이스에 따라 이벤트의 키를 정의할 때 사용됩니다. 네임스페이스 선택을 참조하십시오. 자세한 내용은 을 참조하십시오 [](../event/selecting-the-namespace.md).
+**맵에 정의된 필드 참조**
+
+맵에서 요소를 검색하기 위해 주어진 키가 있는 입력 함수를 사용합니다. 예를 들어 선택한 네임스페이스에 따라 이벤트의 키를 정의할 때 사용됩니다. 네임스페이스 선택을 참조하십시오. 자세한 내용은 을 참조하십시오 [](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
