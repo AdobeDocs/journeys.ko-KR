@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
+source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
 
 ---
 
@@ -79,7 +79,7 @@ source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
 <td>
 <p>경로 디자이너의 왼쪽에 있는 경로 <strong>팔레트가</strong>향상되었습니다.</p>
 <ul>
-<li>**Search*** 막대 옆에 있는 새 아이콘을 사용하면 팔레트에서 사용할 수 없는 요소(예: 여정에 사용된 요소와 다른 네임스페이스를 사용하는 이벤트)를 숨기거나 표시할 수 있습니다. 기본적으로 사용할 수 없는 항목은 숨겨집니다.</li>
+<li>검색 막대 옆에 있는 새 <strong>아이콘을 사용하면</strong> 팔레트에서 사용할 수 없는 요소(예: 여정에 사용된 요소와 다른 네임스페이스를 사용하는 이벤트)를 숨기거나 표시할 수 있습니다. 기본적으로 사용할 수 없는 항목은 숨겨집니다.</li>
 <li>검색 <strong>필드를 사용할</strong> 때 이제 각 캔버스 활동 카테고리에 대한 결과 수가 표시됩니다.</li>
 <li>다른 활동 카테고리 간의 탐색이 개선되었습니다.</li>
 </ul>
