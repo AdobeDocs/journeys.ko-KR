@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 외부 데이터 소스를 사용하면 타사 시스템에 대한 연결을 정의할 수 있습니다. 예를 들어 호텔 예약 시스템을 사용하여 개인이 회의실을 등록했는지 확인할 수 있습니다. Adobe Experience Platform 데이터 소스가 아닌 원하는 만큼의 외부 데이터 소스를 만들 수 있습니다.
 
-POST 또는 GET 및 반환 JSON을 사용하는 REST API가 지원됩니다. API 키, 기본 및 사용자 정의 인증 모드가 지원됩니다.
+POST 또는 GET 및 return JSON을 사용하는 REST API가 지원됩니다. API 키, 기본 및 사용자 정의 인증 모드가 지원됩니다.
 
 일기 예보 서비스에 대해 예를 들어 실시간 날씨 데이터에 따라 고객 여정의 행동을 사용자 정의할 수 있습니다.
 
@@ -34,7 +34,7 @@ POST 또는 GET 및 반환 JSON을 사용하는 REST API가 지원됩니다. API
 
 다음은 새 외부 데이터 소스를 만들고 구성하는 기본 단계입니다.
 
-1. 데이터 소스 목록에서 새 외부 데이터 소스를 **[!UICONTROL Add]**만들려면 을 클릭합니다.
+1. 데이터 소스 목록에서 새 외부 데이터 소스를 **[!UICONTROL Add]** 만들려면 을 클릭합니다.
 
    ![](../assets/journey25.png)
 
@@ -57,7 +57,7 @@ POST 또는 GET 및 반환 JSON을 사용하는 REST API가 지원됩니다. API
 
    ![](../assets/journey27.png)
 
-1. 외부 서비스 구성에 따라 인증을 구성합니다. **[!UICONTROL No authentication]****[!UICONTROL Basic]****[!UICONTROL Custom]**또는**[!UICONTROL API key]**&#x200B;를 참조하십시오. 사용자 정의 인증 모드에 대한 자세한 내용은 을 참조하십시오 [](../datasource/external-data-sources.md#section_wjp_nl5_nhb). 이 예에서는 다음을 선택합니다.
+1. 외부 서비스 구성에 따라 인증을 구성합니다. **[!UICONTROL No authentication]****[!UICONTROL Basic]****[!UICONTROL Custom]** 또는 **[!UICONTROL API key]**&#x200B;를 참조하십시오. 사용자 정의 인증 모드에 대한 자세한 내용은 을 참조하십시오 [](../datasource/external-data-sources.md#section_wjp_nl5_nhb). 이 예에서는 다음을 선택합니다.
 
 
    * **[!UICONTROL Type]**:&quot;API 키&quot;
@@ -70,20 +70,20 @@ POST 또는 GET 및 반환 JSON을 사용하는 REST API가 지원됩니다. API
 
 &quot;long/lat&quot; 매개 변수 세트의 경우 다음 정보가 있는 필드 그룹을 만듭니다.
 
-* **[!UICONTROL Used in]**:필드 그룹을 사용하는 여정 수를 표시합니다. 이 필드 그룹을 사용하여 여행 목록을 표시하려면**[!UICONTROL View journeys]** 아이콘을 클릭합니다.
+* **[!UICONTROL Used in]**:필드 그룹을 사용하는 여정 수를 표시합니다. 이 필드 그룹을 사용하여 여행 목록을 표시하려면 **[!UICONTROL View journeys]** 아이콘을 클릭합니다.
 * **[!UICONTROL Method]**:post 또는 GET 메서드를 선택합니다. 이 경우 GET 메서드를 선택합니다.
 * **[!UICONTROL Cache duration]**:우리의 경우, 우리는 날씨가 10분 동안 캐시되기를 원합니다.
-* **[!UICONTROL Response Payload]**:필드 내부를 클릭하고**[!UICONTROL Payload]** 호출에서 반환되는 페이로드의 예를 붙여 넣습니다. 예를 들어 날씨 API 웹 사이트에서 발견된 페이로드를 사용했습니다. 필드 유형이 올바른지 확인합니다. API가 호출될 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 현재 전달된 페이로드를 **[!UICONTROL Paste a new payload]**변경하려면 을(를) 클릭할 수 있습니다.
-* **[!UICONTROL Dynamic Values]**:예제에서 &quot;long,lat&quot;라는 혼수로 구분된 다른 매개 변수를 입력합니다. 매개 변수 값은 실행 컨텍스트에 따라 달라지므로, 이 값은 여정에서 정의됩니다. 을[](../expression/expressionadvanced.md)참조하십시오.
+* **[!UICONTROL Response Payload]**:필드 내부를 클릭하고 **[!UICONTROL Payload]** 호출에서 반환되는 페이로드의 예를 붙여 넣습니다. 예를 들어 날씨 API 웹 사이트에서 발견된 페이로드를 사용했습니다. 필드 유형이 올바른지 확인합니다. API가 호출될 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 현재 전달된 페이로드를 **[!UICONTROL Paste a new payload]** 변경하려면 을(를) 클릭할 수 있습니다.
+* **[!UICONTROL Dynamic Values]**:예제에서 &quot;long,lat&quot;라는 혼수로 구분된 다른 매개 변수를 입력합니다. 매개 변수 값은 실행 컨텍스트에 따라 달라지므로, 이 값은 여정에서 정의됩니다. 을 [](../expression/expressionadvanced.md)참조하십시오.
 * **[!UICONTROL Sent Payload]**:이 필드는 예제에 표시되지 않습니다. POST 메서드를 선택하는 경우에만 사용할 수 있습니다. 타사 시스템으로 보낼 페이로드를 붙여 넣습니다.
 
-매개 변수가 필요한 GET 호출의 경우 **[!UICONTROL Parameters]**필드에 매개 변수를 입력하면 호출이 끝날 때 매개 변수가 자동으로 추가됩니다. POST 호출의 경우 다음을 수행해야 합니다.
+매개 변수가 필요한 GET 호출의 경우 **[!UICONTROL Parameters]** 필드에 매개 변수를 입력하면 호출이 끝날 때 매개 변수가 자동으로 추가됩니다. POST 호출의 경우 다음을 수행해야 합니다.
 
-* 아래 예에서 **[!UICONTROL Parameter]**필드에 호출 시 전달할 매개 변수를 나열합니다.&quot;identifier&quot;).
+* 아래 예에서 **[!UICONTROL Parameter]** 필드에 호출 시 전달할 매개 변수를 나열합니다.&quot;identifier&quot;).
 * 전송된 페이로드 본문에 동일한 구문을 사용하여 지정할 수도 있습니다. 이렇게 하려면 다음을 추가해야 합니다.&quot;param&quot;:&quot;name of your parameter&quot; (아래 예에서:&quot;identifier&quot;). 아래 구문을 따르십시오.
 
    ```
-   {“id”:{“param”:“identifier”}}
+   {"id":{"param":"identifier"}}
    ```
 
 ![](../assets/journey29.png)
@@ -141,7 +141,7 @@ POST 또는 GET 및 반환 JSON을 사용하는 REST API가 지원됩니다. API
     (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
     "endpoint": "<URL of the authentication endpoint>",
     "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
-    (optional) "headers: {
+    (optional) "headers": {
         "<header name>": "<header value>",
         ...
     },
