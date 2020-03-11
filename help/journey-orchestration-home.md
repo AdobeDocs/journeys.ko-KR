@@ -4,7 +4,7 @@ solution: Journeys
 title: 고객 여정 운영 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
+source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
 
 ## 시작하기
 
-* **[고객 여정 운영](using/action/working-with-adobe-campaign.md)**<br/>고객 여정 통합 운영에 대한 자세한 내용을 살펴보십시오.
+* **[고객 여정 운영](using/about/about-journey-orchestration.md)**<br/>고객 여정 통합 운영에 대한 자세한 내용을 살펴보십시오.
 
 * **[첫 번째 여정](using/about/get-started.md)**<br/>구축 여정 통합 운영을 설정하고 첫 번째 여정 구축을 위한 주요 단계를 살펴볼 수 있습니다.
 
@@ -34,7 +34,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
     <div>
     <a href="using/about/troubleshooting.md"><strong>문제 해결</strong></a>
     </div>
-    <em></em>여행 문제를 해결하는 데 사용할 수 있는 다양한 툴을 살펴보십시오.
+    <em>여행 문제를 해결하는 데 사용할 수 있는 다양한 툴을 살펴보십시오.</em>
     <br>
   </td>
   <td valign="top">
@@ -44,7 +44,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
     <div>
     <a href="using/usecase/building-the-journey.md"><strong>사용 사례</strong></a>
     </div>
-    <em></em>단계별 고급 고객 여정을 만드는 방법을 살펴보십시오.
+    <em>단계별 고급 고객 여정을 만드는 방법을 살펴보십시오.</em>
     <br>
   </td>
   <td valign="top">
