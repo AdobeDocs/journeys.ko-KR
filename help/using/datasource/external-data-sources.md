@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
+source-git-commit: a1c4eed8360efcbfcaa5e54c8831e1a4b2ecc02e
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
 
 POST 또는 GET 및 return JSON을 사용하는 REST API가 지원됩니다. API 키, 기본 및 사용자 정의 인증 모드가 지원됩니다.
 
-일기 예보 서비스에 대해 예를 들어 실시간 날씨 데이터에 따라 고객 여정의 행동을 사용자 정의할 수 있습니다.
+일기 예보 서비스에 대해 예를 들어 실시간 날씨 데이터에 따라 고객 여정의 행동을 맞춤화할 수 있습니다.
 
 다음은 API 호출의 두 가지 예입니다.
 
@@ -94,6 +94,11 @@ POST 또는 GET 및 return JSON을 사용하는 REST API가 지원됩니다. API
 
 ## 사용자 정의 인증 모드{#section_wjp_nl5_nhb}
 
+>[!CONTEXTUALHELP]
+>id=&quot;jo_authentication_payload&quot;
+>title=&quot;사용자 정의 인증 정보&quot;
+>abstract=&quot;사용자 정의 인증 모드는 OAuth2와 같은 API 래핑 프로토콜을 호출하는 복잡한 인증에 사용됩니다. 작업 실행은 2단계 프로세스입니다. 첫째, 액세스 토큰을 생성하기 위해 끝점에 대한 호출이 수행됩니다. 그런 다음 액세스 토큰이 동작의 HTTP 요청에 삽입됩니다.&quot;
+
 이 인증 모드는 OAuth2와 같은 API 래핑 프로토콜을 호출하는 데 자주 사용되는 복잡한 인증에 사용되며 작업에 대한 실제 HTTP 요청에 주입될 액세스 토큰을 검색하는 데 사용됩니다.
 
 사용자 정의 인증을 구성할 때 아래 단추를 클릭하여 사용자 정의 인증 페이로드가 올바르게 구성되어 있는지 확인할 수 있습니다.
@@ -104,7 +109,7 @@ POST 또는 GET 및 return JSON을 사용하는 REST API가 지원됩니다. API
 
 ![](../assets/journey29-ter.png)
 
-이 인증을 통해 작업 실행은 두 가지 단계로 이루어집니다.
+이 인증을 통해 작업 실행은 두 단계로 이루어집니다.
 
 1. 끝점을 호출하여 액세스 토큰을 생성합니다.
 1. 올바른 방식으로 액세스 토큰을 삽입하여 REST API를 호출합니다.
