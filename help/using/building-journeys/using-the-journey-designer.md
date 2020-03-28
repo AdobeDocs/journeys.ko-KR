@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18f5d56e77958fc33c8e5e7e9d450943207a6017
+source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
 ---
 
@@ -21,12 +21,6 @@ source-git-commit: 18f5d56e77958fc33c8e5e7e9d450943207a6017
 경로 홈 메뉴를 사용하면 여행 **목록을 볼 수 있습니다**. 새 경로를 만들거나 기존 경로를 클릭하여 **경로 디자이너의 인터페이스를**&#x200B;엽니다. 디자이너는 다음 영역으로 구성됩니다.팔레트, 캔버스 및 활동 구성 창
 
 ## 여정 목록 {#journey_list}
-
->[!CONTEXTUALHELP]
->id=&quot;jo_home&quot;
->title=&quot;여정 목록&quot;
->abstract=&quot;경로 목록을 사용하면 모든 여정을 한 번에 볼 수 있으며 진행 상태를 확인하고 기본적인 작업을 수행할 수 있습니다. 여행을 복제, 중지 또는 삭제할 수 있습니다. 여정에 따라 특정 작업을 사용할 수 없을 수 있습니다. 예를 들어 완료된 여정은 삭제하거나 다시 시작할 수 없습니다. 새 버전을 만들거나 복제할 수 있습니다. 검색 막대를 사용하여 여정을 검색할 수도 있습니다.&quot;
->additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;데모 비디오 보기&quot;
 
 경로 **목록을** 사용하면 모든 여정을 한 번에 볼 수 있으며 진행 상태를 확인하고 기본적인 작업을 수행할 수 있습니다. 여행을 복제, 중지 또는 삭제할 수 있습니다. 여정에 따라 특정 작업을 사용할 수 없을 수 있습니다. 예를 들어 완료된 여정은 삭제하거나 다시 시작할 수 없습니다. 새 버전을 만들거나 복제할 수 있습니다. 검색 막대를 사용하여 여행을 검색할 수도 있습니다.
 
