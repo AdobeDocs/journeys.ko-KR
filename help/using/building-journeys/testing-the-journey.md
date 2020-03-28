@@ -1,5 +1,5 @@
 ---
-title: 고객 여정 테스트
+title: 여정 테스트
 description: '고객 여정 테스트에 대한 자세한 내용 '
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,12 +11,12 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
+source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
 ---
 
 
-# 고객 여정 테스트{#testing_the_journey}
+# 여정 테스트{#testing_the_journey}
 
 여행을 테스트하기 전에 모든 오류를 해결해야 합니다. 을 [](../about/troubleshooting.md#section_h3q_kqk_fhb)참조하십시오.
 
@@ -86,7 +86,9 @@ source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 * _currentstep_:개인이 여행 중인 단계. 보다 쉽게 식별하려면 활동에 레이블을 추가하는 것이 좋습니다.
 * _currentstep_ > 단계:개인 경로의 상태(실행 중, 완료, 오류 또는 시간 초과)입니다. 자세한 내용은 아래를 참조하십시오.
 * _currentstep_ > _extraInfo_:오류 및 기타 컨텍스트 정보에 대한 설명입니다.
+* _currentstep_ > _fetchErrors_:이 단계 동안 발생한 데이터 가져오기 오류에 대한 정보입니다.
 * _externalKeys_:이벤트에 정의된 주요 공식의 값.
 * _elementsData_:경로 지정 시 데이터 소스를 사용하는 경우 고객 여정에서 검색한 데이터
 * _transitionHistory_:개인이 수행한 단계 목록. 이벤트의 경우 페이로드가 표시됩니다.
+* _actionExecutionErrors_ :발생한 오류에 대한 정보입니다.
 
