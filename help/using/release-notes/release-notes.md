@@ -1,5 +1,5 @@
 ---
-title: 년 릴리스 정보
+title: 릴리스 정보
 description: 릴리스 노트에 대한 자세한 내용
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
+source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
 
 ## 1분기 릴리스 - 2020년 3월 {#q1-release---march-2020}
 
-**새로운 기능**
+**새로운 기능?**
 
 <table>
 <thead>
@@ -59,7 +59,7 @@ source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
 <p>이제 시간대 관리는 여정 속성 패널에서 중앙에서 이루어집니다. 경로 속성에 두 개의 매개 변수가 추가되었습니다.</p>
 <img src="../assets/rn-timezone.png"/>
 <ul>
-<li>시간대 <strong>드롭다운</strong> 목록을 사용하면 특정 시간대를 선택할 수 있습니다. 기본적으로 브라우저의 표준 시간대가 사용됩니다.</li>
+<li>시간대 <strong>드롭다운</strong> 목록을 사용하면 특정 시간대를 선택할 수 있습니다. 기본적으로 브라우저의 표준 시간대가 사용됩니다. </li>
 <li>프로필 <strong>표준 시간대</strong> 확인란을 사용하여 여정에 들어오는 사람의 경험 플랫폼 프로필 표준 시간대를 사용할 수 있습니다(가능한 경우). 그렇지 않은 경우 드롭다운 목록에 정의된 시간대가 사용됩니다. 이 기능은 네임스페이스가 없는 이벤트를 사용하는 여정과 호환되지 않습니다.</li>
 </ul>
 <p>자세한 내용은 속성 <a href="../building-journeys/changing-properties.md#timezone">및</a> 시간대 관리 <a href="../building-journeys/timezone-management.md">섹션을</a> 참조하십시오.</p>
@@ -129,7 +129,7 @@ source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
 
 고객 여정 통합 운영을 통해 이벤트, Adobe Experience Platform의 정보 또는 타사 API 서비스의 데이터를 기반으로 한 컨텍스트 기반의 실시간 통합 기능을 사용할 수 있습니다. 이 애플리케이션은 여러 단계로 구성된 흐름에서 소비자의 프로필과 행동을 기반으로 고객에게 적합한 다음 최고의 행동이라고 합니다. 이는 최적의 타이밍뿐만 아니라 Adobe Campaign Standard 트랜잭션 메시징 기능(Adobe Campaign Standard 필요) 또는 타사 시스템의 알림을 통해 고객에게 푸시 알림을 전송하는 등의 작업 유형으로 구성됩니다. 이러한 결정은 규칙과 Sensei 점수를 기반으로 합니다.
 
-[고객 여정 통합 운영에 대한 자세한](../action/working-with-adobe-campaign.md) 내용을 살펴보십시오.
+[](../action/working-with-adobe-campaign.md)Journey Orchestration에 대해 자세히 알아보십시오.
 
 추가 리소스:
 
