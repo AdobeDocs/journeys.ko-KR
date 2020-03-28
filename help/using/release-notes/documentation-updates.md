@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18f5d56e77958fc33c8e5e7e9d450943207a6017
+source-git-commit: 6f196f22d4f5b03973bead78d3fe5454f109734d
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 18f5d56e77958fc33c8e5e7e9d450943207a6017
 ## 2020년 3월 {#march-2020}
 
 * 여정에서 사용된 사용자 지정 작업에 대한 제한 사항이 업데이트되었습니다. URL 필드 및 **인증** 매개 변수를 수정할 수도 **있습니다** . [자세한 내용](../action/about-custom-action-configuration.md)
-* 새 컨텍스트 도움말 항목이 추가되었습니다. 이제 사용자 정의 인증 페이로드 창(작업 및 데이터 소스)에 이 [섹션으로](../datasource/external-data-sources.md#section_wjp_nl5_nhb)연결되는 도움말 아이콘이 표시됩니다. 이제 여정 목록 도움말 아이콘도 이 [섹션으로](../building-journeys/using-the-journey-designer.md#journey_list)연결됩니다.
+* 새 컨텍스트 도움말 항목이 추가되었습니다. 이제 사용자 정의 인증 페이로드 창(작업 및 데이터 소스)에 이 [섹션으로](../datasource/external-data-sources.md#section_wjp_nl5_nhb)연결되는 도움말 아이콘이 표시됩니다.
 * 이제 완성된 여정은 멈출 수 있다. [자세한 내용](../building-journeys/using-the-journey-designer.md)
 * 인터페이스 설명 섹션이 재구성되었습니다. [자세한 내용](../about/user-interface.md)
 * 여러 이벤트 트리거가 테스트 모드 섹션에 [추가되었습니다 자세히 보기](../building-journeys/testing-the-journey.md#firing_events)
