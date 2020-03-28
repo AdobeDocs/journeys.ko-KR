@@ -9,19 +9,12 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
+source-git-commit: bc5b29eefa4d787cd448352252823a616489d8c8
 
 ---
 
 
-# 유저 인터페이스{#concept_rcq_lqt_52b}
-
-
->[!CONTEXTUALHELP]
->id=&quot;jo_home&quot;
->title=&quot;여정 목록&quot;
->abstract=&quot;경로 목록을 사용하면 모든 여정을 한 번에 볼 수 있으며 진행 상태를 확인하고 기본적인 작업을 수행할 수 있습니다. 여행을 복제, 중지 또는 삭제할 수 있습니다. 여정에 따라 특정 작업을 사용할 수 없을 수 있습니다. 예를 들어, 완료된 여정을 중지하거나 삭제할 수 없습니다. 검색 막대를 사용하여 여정을 검색할 수도 있습니다.&quot;
->additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;데모 비디오 보기&quot;
+# 사용자 인터페이스{#concept_rcq_lqt_52b}
 
 >[!NOTE]
 >
@@ -29,7 +22,7 @@ source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
 >
 >이 설명서는 제품의 최근 변경 사항을 반영하도록 자주 업데이트됩니다. 그러나 일부 스크린샷은 제품의 인터페이스와 약간 다를 수 있습니다.
 
-## 인터페이스 살펴보기{#section_jsq_zr1_ffb}
+## 고객 여정 통합 운영 액세스{#accessing_journey_orchestration}
 
 경로 지정 오케스트레이션 인터페이스에 액세스하려면 오른쪽 상단의 **[!UICONTROL App Selector]** 아이콘을 클릭합니다. 오른쪽 **[!UICONTROL Journey Orchestration]**&#x200B;아래에서 &quot;경험 플랫폼&quot; 을 클릭합니다.
 
@@ -38,6 +31,14 @@ source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
 또한 **[!UICONTROL Quick access]** 섹션의 Experience Cloud 홈 페이지에서 경로 오케스트레이션에 액세스할 수 있습니다.
 
 ![](../assets/journey1bis.png)
+
+## 인터페이스 살펴보기{#section_jsq_zr1_ffb}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_home&quot;
+>title=&quot;여정 목록&quot;
+>abstract=&quot;경로 목록을 사용하면 모든 여정을 한 번에 볼 수 있으며 진행 상태를 확인하고 기본적인 작업을 수행할 수 있습니다. 여행을 복제, 중지 또는 삭제할 수 있습니다. 여정에 따라 특정 작업을 사용할 수 없을 수 있습니다. 예를 들어 완료된 여정은 삭제하거나 다시 시작할 수 없습니다. 새 버전을 만들거나 복제할 수 있습니다. 검색 막대를 사용하여 여정을 검색할 수도 있습니다.&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;데모 비디오 보기&quot;
 
 상단 메뉴를 사용하면 경로 관리(Journey Orchestration)의 다양한 기능을 탐색할 수 있습니다.( **[!UICONTROL Home]**&#x200B;여정),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**
 
@@ -61,7 +62,7 @@ source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
 >
 >표시된 열은 목록 오른쪽 상단의 구성 단추를 사용하여 개인화할 수 있습니다. 개인화는 각 사용자에 대해 저장됩니다.
 
-및 **[!UICONTROL Last update]** **[!UICONTROL Last update by]** 열을 사용하면 여행의 마지막 업데이트가 언제 발생했고 어떤 사용자가 작업을 수행했는지 표시할 수 있습니다.
+및 **[!UICONTROL Last update]** 열을 사용하면 여행의 마지막 업데이트가 언제 수행되고 사용자가 작업을 수행했는지 표시할 수 **[!UICONTROL Last update by]** 있습니다.
 
 ![](../assets/journey74.png)
 
@@ -110,7 +111,7 @@ _팝업:_
 
 _이벤트에서 데이터 소스 또는 작업 구성 창:_
 
-* 저장하지 않고 **escape** 키를 눌러 구성 창을 닫습니다.
+* 저장하지 않고 구성 창을 닫으려면 **escape** 키를 누릅니다.
 * 을 눌러 수정 내용을 **[!UICONTROL Enter]** 저장하고 구성 창을 닫습니다.
 * 구성할 다른 필드 사이를 이동하려면 **Tab** 키를 누릅니다.
 
