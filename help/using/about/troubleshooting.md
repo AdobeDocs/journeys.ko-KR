@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 
 이러한 도구를 통해 전송하는 API 호출이 올바르게 전송되었는지 여부를 확인할 수 있습니다. 오류가 다시 발생하면 호출에 문제가 있음을 의미합니다. 페이로드, 헤더(특히 조직 ID) 및 대상 URL을 다시 확인합니다. 관리자에게 표시할 올바른 URL을 요청할 수 있습니다.
 
-이벤트는 소스에서 여정 오케스트레이션으로 직접 푸시되지 않습니다. Journey Orchestration은 Experience Platform의 스트리밍 통합 API에 의존합니다. 따라서 이벤트 관련 문제의 경우 이 [페이지에서](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingestion_FAQ.md) 스트리밍 통합 API 문제 해결을 참조할 수 있습니다.
+이벤트는 소스에서 여정 오케스트레이션으로 직접 푸시되지 않습니다. Journey Orchestration은 Experience Platform의 스트리밍 통합 API에 의존합니다. 따라서 이벤트 관련 문제의 경우 이 [페이지에서](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) 스트리밍 통합 API 문제 해결을 참조할 수 있습니다.
 
 ## 사람들이 여정에 들어오는지 확인{#section_x4v_zzs_dgb}
 
