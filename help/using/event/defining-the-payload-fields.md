@@ -11,16 +11,16 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
 
 # 페이로드 필드 정의 {#concept_yrw_3qt_52b}
 
-페이로드 정의를 사용하면 시스템에서 경로의 이벤트에서 수신할 정보와 이벤트에 연결된 사람을 식별하는 키를 선택할 수 있습니다. 페이로드는 Experience Cloud XDM 필드 정의를 기반으로 합니다. XDM에 대한 자세한 내용은 이 [페이지를](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)참조하십시오.
+페이로드 정의를 사용하면 시스템에서 경로의 이벤트에서 수신할 정보와 이벤트에 연결된 사람을 식별하는 키를 선택할 수 있습니다. 페이로드는 Experience Cloud XDM 필드 정의를 기반으로 합니다. XDM에 대한 자세한 내용은 이 [페이지를](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)참조하십시오.
 
-1. 목록에서 XDM 스키마를 선택하고 **[!UICONTROL Payload]**필드 또는**[!UICONTROL Edit]** 아이콘을 클릭합니다.
+1. 목록에서 XDM 스키마를 선택하고 **[!UICONTROL Payload]** 필드 또는 **[!UICONTROL Edit]** 아이콘을 클릭합니다.
 
    ![](../assets/journey8.png)
 
@@ -38,12 +38,12 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
    >[!NOTE]
    >
-   >이 **[!UICONTROL eventID]**필드는 선택한 필드 목록에 자동으로 추가되므로 경로 지정 오케스트레이션에서 이벤트를 식별할 수 있습니다. 이벤트를 실행하는 시스템에서 ID를 생성할 수 없으며 페이로드 미리 보기에서 사용할 수 있는 ID를 사용해야 합니다. 을[](../event/previewing-the-payload.md)참조하십시오.
+   >이 **[!UICONTROL eventID]** 필드는 선택한 필드 목록에 자동으로 추가되므로 경로 지정 오케스트레이션에서 이벤트를 식별할 수 있습니다. 이벤트를 실행하는 시스템에서 ID를 생성할 수 없으며 페이로드 미리 보기에서 사용할 수 있는 ID를 사용해야 합니다. 을 [](../event/previewing-the-payload.md)참조하십시오.
 
-1. 필요한 필드 선택이 완료되면 을 **[!UICONTROL Save]**클릭하거나 을 누릅니다**[!UICONTROL Enter]**.
+1. 필요한 필드 선택이 완료되면 을 **[!UICONTROL Save]** 클릭하거나 을 누릅니다 **[!UICONTROL Enter]**.
 
    ![](../assets/journey11.png)
 
-   선택한 필드의 수가 **[!UICONTROL Payload]**필드에 표시됩니다.
+   선택한 필드의 수가 **[!UICONTROL Payload]** 필드에 표시됩니다.
 
    ![](../assets/journey12.png)
