@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: bc5b29eefa4d787cd448352252823a616489d8c8
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
@@ -35,10 +35,10 @@ source-git-commit: bc5b29eefa4d787cd448352252823a616489d8c8
 ## 인터페이스 살펴보기{#section_jsq_zr1_ffb}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_home&quot;
->title=&quot;여정 목록&quot;
->abstract=&quot;경로 목록을 사용하면 모든 여정을 한 번에 볼 수 있으며 진행 상태를 확인하고 기본적인 작업을 수행할 수 있습니다. 여행을 복제, 중지 또는 삭제할 수 있습니다. 여정에 따라 특정 작업을 사용할 수 없을 수 있습니다. 예를 들어 완료된 여정은 삭제하거나 다시 시작할 수 없습니다. 새 버전을 만들거나 복제할 수 있습니다. 검색 막대를 사용하여 여정을 검색할 수도 있습니다.&quot;
->additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;데모 비디오 보기&quot;
+>id="jo_home"
+>title="여정 목록 정보"
+>abstract="경로 목록을 사용하면 모든 여정을 한 번에 볼 수 있으며 진행 상태를 확인하고 기본적인 작업을 수행할 수 있습니다. 여행을 복제, 중지 또는 삭제할 수 있습니다. 여정에 따라 특정 작업을 사용할 수 없을 수 있습니다. 예를 들어 완료된 여정은 삭제하거나 다시 시작할 수 없습니다. 새 버전을 만들거나 복제할 수 있습니다. 검색 막대를 사용하여 여행을 검색할 수도 있습니다."
+>additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="데모 비디오 보기"
 
 상단 메뉴를 사용하면 경로 관리(Journey Orchestration)의 다양한 기능을 탐색할 수 있습니다.( **[!UICONTROL Home]**&#x200B;여정),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**
 
@@ -78,7 +78,7 @@ source-git-commit: bc5b29eefa4d787cd448352252823a616489d8c8
 
 [이벤트 페이로드를](../event/defining-the-payload-fields.md)정의하고 [필드 그룹 페이로드를](../datasource/field-groups.md) 정의하며 [표현식 편집기에서](../expression/expressionadvanced.md)필드를 선택하면 필드 이름 외에 표시 이름이 표시됩니다. 이 정보는 경험 데이터 모델의 스키마 정의에서 검색됩니다.
 
-스키마를 설정하는 동안 &quot;xdm:alternateDisplayInfo&quot;와 같은 설명자가 제공된 경우 사용자에게 친숙한 이름이 표시 이름을 대체합니다. &quot;eVars&quot; 및 일반 필드로 작업할 때 특히 유용합니다.API 호출을 통해 친숙한 이름 설명자를 구성할 수 있습니다. 자세한 내용은 스키마 레지스트리 [개발자 안내서를](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)참조하십시오.
+스키마를 설정하는 동안 &quot;xdm:alternateDisplayInfo&quot;와 같은 설명자가 제공된 경우 사용자에게 친숙한 이름이 표시 이름을 대체합니다. &quot;eVars&quot; 및 일반 필드로 작업할 때 특히 유용합니다.API 호출을 통해 친숙한 이름 설명자를 구성할 수 있습니다. 자세한 내용은 스키마 레지스트리 [개발자 안내서를](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)참조하십시오.
 
 ![](../assets/xdm-from-descriptors.png)
 
