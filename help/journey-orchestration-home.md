@@ -3,8 +3,8 @@ keywords: Journeys;home;popular topics
 solution: Journeys
 title: Journey Orchestration 제품 설명서
 topic: Premium
-translation-type: ht
-source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
+translation-type: tm+mt
+source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 
 ---
 
@@ -22,6 +22,8 @@ source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 * **[이벤트 구성](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>여정에서 유의해야 할 이벤트를 구성하는 방법을 알아보십시오.
 
 * **[Journey Orchestration 액세스 권한 부여](using/about/access-management.md)**<br/>제품 프로필 및 권한을 통해 사용자 액세스를 관리하는 방법을 알아보십시오.
+
+* **[새로운](using/release-notes/release-notes.md)**<br/>기능 최신 릴리스에 대한 자세한 내용을 살펴보십시오.
 
 ## 상위 페이지
 
@@ -62,9 +64,9 @@ source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 
 ## 추가 자료
 
-* [Experience Platform](https://www.adobe.com/kr/experience-platform/documentation-and-developer-resources.html)
-* [실시간 고객 프로필](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)
-* [Experience Cloud XDM 필드 정의](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)
-* [ID 네임스페이스](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
-* [스트리밍 수집 API](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
-* [Adobe Campaign Standard 트랜잭션 메시지](https://docs.adobe.com/content/help/ko/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+* [Experience Platform 설명서](https://www.adobe.com/kr/experience-platform/documentation-and-developer-resources.html)
+* [실시간 고객 프로필 설명서](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+* [Experience Cloud XDM 필드 정의](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
+* [ID 네임스페이스 설명서](https://docs.adobe.com/content/help/en/experience-platform/identity/home.html)
+* [스트리밍 수집 API](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)
+* [Campaign Standard 트랜잭션 메시지 설명서](https://docs.adobe.com/content/help/ko/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
