@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 411ecf0ec4dc6a87c4e129b40f2918799bef54bf
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 411ecf0ec4dc6a87c4e129b40f2918799bef54bf
 
 키는 이벤트 페이로드 데이터의 필드나 필드 조합이 이벤트 페이로드 데이터의 일부이며, 시스템에서 이벤트와 연관된 사람을 식별할 수 있도록 합니다. 키(예: Experience Cloud ID, CRM ID 또는 이메일 주소)는
 
-실시간 고객 프로파일 데이터베이스에 저장된 데이터를 활용하려면 실시간 고객 프로파일 서비스에서 프로파일 ID로 정의한 정보를 이벤트 키로 선택해야 [합니다](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md).
+실시간 고객 프로파일 데이터베이스에 저장된 데이터를 활용하려면 실시간 고객 프로파일 서비스에서 프로파일 ID로 정의한 정보를 이벤트 키로 선택해야 [합니다](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html).
 
 그러면 시스템이 이벤트와 개인의 프로필 간의 조정을 수행할 수 있습니다. 기본 ID가 있는 스키마를 선택하면 **[!UICONTROL Key]** 및 **[!UICONTROL Namespace]** 필드가 미리 채워집니다. ID가 정의되지 않은 경우 기본 _키로 identityMap > id_ 를 선택합니다. 그런 다음 네임스페이스를 선택해야 합니다. 그러면 **[!UICONTROL Namespace]** idMap > id를 사용하여 키가 미리 _채워집니다_.
 
