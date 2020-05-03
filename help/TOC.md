@@ -1,10 +1,10 @@
 ---
 product: Journeys
 audience: end-user
-user-guide-title: Journey Orchestration Help
+user-guide-title: Journey Orchestration 도움말
 index: true
-translation-type: ht
-source-git-commit: 22569d66acb1637efc346f77864302b9e2cb6070
+translation-type: tm+mt
+source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
 
 ---
 
@@ -23,6 +23,7 @@ source-git-commit: 22569d66acb1637efc346f77864302b9e2cb6070
    + [문제 해결](using/about/troubleshooting.md)
 + 이벤트 구성 {#events-journeys}
    + [이벤트](using/event/about-events.md)
+   + [ExperienceEvent 스키마 정보](using/event/experience-event-schema.md)
    + [페이로드 필드 정의](using/event/defining-the-payload-fields.md)
    + [네임스페이스 선택](using/event/selecting-the-namespace.md)
    + [이벤트 키 정의](using/event/defining-the-event-key.md)
@@ -72,6 +73,7 @@ source-git-commit: 22569d66acb1637efc346f77864302b9e2cb6070
       + [필드 참조](using/expression/field-references.md)
       + [컬렉션 관리 기능](using/expression/collection-management-functions.md)
       + [연산자](using/expression/operators.md)
+      + [예제](using/expression/advanced-editor-use-cases.md)
    + 함수 {#main-functions-journey}
       + [기본 함수](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
