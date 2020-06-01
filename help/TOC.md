@@ -3,8 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Journey Orchestration 도움말
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
+workflow-type: ht
+source-wordcount: '307'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
    + [문제 해결](using/about/troubleshooting.md)
 + 이벤트 구성 {#events-journeys}
    + [이벤트](using/event/about-events.md)
-   + [ExperienceEvent 스키마 정보](using/event/experience-event-schema.md)
+   + [ExperienceEvent 스키마](using/event/experience-event-schema.md)
    + [페이로드 필드 정의](using/event/defining-the-payload-fields.md)
    + [네임스페이스 선택](using/event/selecting-the-namespace.md)
    + [이벤트 키 정의](using/event/defining-the-event-key.md)
