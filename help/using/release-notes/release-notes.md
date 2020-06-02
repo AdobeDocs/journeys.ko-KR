@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
-workflow-type: ht
-source-wordcount: '758'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 796eff7751941720fc069dd8c7bed5c1f0e4a8fe
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 72%
 
 ---
 
@@ -23,6 +23,72 @@ ht-degree: 100%
 
 이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 [설명서 업데이트](../release-notes/documentation-updates.md)도 확인할 수 있습니다.
+
+## 2분기 릴리스 - 2020년 6월 {#q2-release---june-2020}
+
+<table>
+<thead>
+<tr>
+<th><strong>향상된 Adobe Experience Platform 통합</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>다음과 같은 플랫폼 통합이 개선되었습니다.</p>
+<ul>
+<li><p>새로운 활동을 통해 플랫폼 세그먼트 입장/출구의 의견 수렴을 통해 사람들이 여행 중에 들어오거나 앞으로 이동할 수 있습니다. <a href="../building-journeys/event-activities.md#segment-qualification">자세한 내용</a></p>
+<img src="../assets/rn-segment7.png"/>
+</li>
+<li><p>새로운 세그먼트 탭 덕분에 이제 경로 관리 인터페이스를 종료하지 않고도 플랫폼 세그먼트를 만들고 편집할 <strong>수</strong> 있습니다. 유효 가용성: 2020년 6월 15일 <a href="../segment/about-segments.md">자세한 내용</a></p>
+<img src="../assets/rn-segment1.png"/>
+</li>
+<li><p>단순 표현식 편집기에서 플랫폼 세그먼트가 이제 탐색 트리에 바로 나열되므로 "이 사람이 세그먼트 A에 속합니까?"와 같은 조건을 쉽게 설정할 수 있습니다. <a href="../segment/using-a-segment.md">자세한 내용</a></p>
+<img src="../assets/rn-segment4.png"/>
+</li>
+<li><p>이제 고객 여정 운영(Journey Orchestration)이 Adobe 데이터 플랫폼으로 자동 전달되고, 그 다음 단계는 개별 고객이 수행해야 하는 단계입니다. 여기에는 발생할 수 있는 오류가 포함됩니다. 이 정보는 분석 또는 세그멘테이션을 위해 사용할 수 있습니다. <a href="../building-journeys/sharing-overview.md">자세한 내용</a></p>
+<img src="../assets/rn-sharing.png"/>
+</li>
+<li><p>이제 고객 여정 통합 운영을 프로덕션 및 비프로덕션 플랫폼 샌드박스와 연결할 수 있습니다. 유효 가용성: 2020년 6월 15일 <a href="../about/access-management.md#sandboxes">자세한 내용</a></p>
+</li>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>고객 여정 디자이너 및 테스트 모드 개선 사항</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>경로 디자이너 및 테스트 모드에서는 다음과 같은 사항이 개선되었습니다.</p>
+<ul>
+<li><p>이제 1이나 N 경로 활동을 선택하여 붙여넣기 활동을 한 여정에서 다른 여정으로 복사할 수 있습니다. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">자세한 내용</a></p>
+<img src="../assets/rn-copy-paste1.png"/>
+</li>
+<li><p>테스트 프로파일을 작성하기 위한 이벤트를 실행한 후 색상이 지정된 시각적 흐름 덕분에 여정의 진행 상태를 확인할 수 있습니다. 여정에서 오류가 발생하는 경우 오류의 세부 사항도 표시됩니다. <a href="../building-journeys/testing-the-journey.md#firing_events">자세한 내용</a></p>
+<img src="../assets/rn-journeytest6.png"/>
+</li>
+<li>The <strong>Finished</strong> journey state has to be named <strong>Closed (no entrance)</strong> to more reflect what this state is 의미하는지 잘 반영하도록 변경되었습니다.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+**기타 개선 사항**
+
+타사 시스템에 너무 많은 API 호출을 보내지 않도록 새로운 공개 API를 도입하여 &quot;매핑&quot; 규칙을 설정합니다. 매핑 규칙을 사용하면 API 끝점에 대한 최대 호출 수(밀리초)를 정의할 수 있습니다. [자세한 내용](../api/capping.md)
+
+이제 액세스 제어 기능을 통해 사용자 액세스 관리를 세부적으로 수행할 수 있습니다. 유효 가용성: 2020년 6월 15일 [자세한 내용](../about/access-management.md#create-product-profile)
+
+이제 APAC(호주 데이터 센터)에서 고객 여정 통합 운영을 이용할 수 있습니다. 유효 가용성: 2020년 6월 15일
+
+여정 오케스트레이션 인터페이스는 일본어로 제공됩니다.
 
 ## 1분기 릴리스 - 2020년 3월 {#q1-release---march-2020}
 
