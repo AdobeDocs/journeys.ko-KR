@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0bf8ce5974b7be684a156d5c5445dca122213237
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3b19e771b6fa3a679a36398c12417b190ee7ff18
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 77%
 
 ---
 
@@ -24,12 +24,24 @@ ht-degree: 100%
 이 페이지에는 Journey Orchestration의 설명서 업데이트 내용이 모두 포함되어 있습니다.
 Journey Orchestration [릴리스 정보](../release-notes/release-notes.md)도 확인할 수 있습니다.
 
+## 2020년 6월 {#june-2020}
+
+* 사용자 지정 인증 데이터 소스에 대한 토큰의 캐시 지속 시간을 변경하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* 종료(입장 없음)로 변경된 **완료** 경로 상태 이름 **을 반영하도록 스크린샷 및 텍스트를 업데이트했습니다**.
+* 인터페이스에 대한 언어가 정의된 방식에 대한 정보가 추가되었습니다. [자세한 내용](../about/user-interface.md)
+* 개별 경로의 상태 목록이 [테스트 모드 로그 섹션으로](../building-journeys/testing-the-journey.md#viewing_logs) 이동되었습니다.
+
+## 2020년 4월 {#april-2020}
+
+* 사용자가 첫 번째 이벤트를 구성하는 데 도움이 되도록 경험 이벤트 스키마 정의에 새 섹션이 추가되었습니다. [자세한 내용](../event/experience-event-schema.md)
+* 경로 관리 문서의 홈 페이지가 유용한 추가 링크로 업데이트되었습니다. [자세한 내용](../../journey-orchestration-home.md)
+
 ## 2020년 3월 {#march-2020}
 
 * 테스트 로그 섹션에 _actionExecutionErrors_ 및 _fetchErrors_&#x200B;의 매개 변수 설명이 추가되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md#viewing_logs)
 * 경로에 사용되는 사용자 지정 작업 관련 제한이 업데이트되었습니다. **URL** 필드 및 **Authentication** 매개 변수도 수정할 수 있습니다. [자세한 내용](../action/about-custom-action-configuration.md)
 * 새 상황별 도움말 항목이 추가되었습니다. 이제 작업 및 데이터 소스의 사용자 지정 인증 페이로드 창에 도움말 아이콘이 포함되어 있습니다. 해당 아이콘을 클릭하면 이 [섹션](../datasource/external-data-sources.md#section_wjp_nl5_nhb)으로 이동하게 됩니다.
-* 이제는 완료된 여정도 정지할 수 있습니다. [자세한 내용](../building-journeys/using-the-journey-designer.md)
+* 폐쇄적인 여정은 이제 멈출 수 있다. [자세한 내용](../building-journeys/using-the-journey-designer.md)
 * 인터페이스 설명 섹션의 구성이 변경되었습니다. [자세한 내용](../about/user-interface.md)
 * 여러 이벤트를 트리거하는 방법이 테스트 모드 섹션에 추가되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md#firing_events)
 * 새 **테스트의 대기 시간** 매개 변수 관련 내용이 추가되어 테스트 모드 섹션이 업데이트되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md)
@@ -39,10 +51,10 @@ Journey Orchestration [릴리스 정보](../release-notes/release-notes.md)도 �
 * 상황별 도움말 관련 정보가 추가되어 인터페이스 설명이 업데이트되었습니다. [자세한 내용](../about/user-interface.md#section_ksq_zr1_ffb)
 * 이제 **XDM 필드**&#x200B;를 탐색할 때 친숙한 이름이 표시됩니다. 해당 내용을 반영하여 관련 섹션이 업데이트되었습니다. [자세한 내용](../about/user-interface.md#friendly-names-display)
 
-
 ## 2020년 2월 {#february-2020}
 
 * 바로 가기 섹션이 업데이트되었습니다. **C** 바로 가기를 사용하면 모든 목록 화면에서 새 항목을 만들 수 있습니다. [자세한 내용](../about/user-interface.md#section_ksq_zr1_ffb)
+* 데이터 소스 [및](../datasource/about-data-sources.md) 작업 [](../action/action.md) 개요 페이지가 개선되었습니다.
 
 ## 2020년 1월 {#january-2020}
 
