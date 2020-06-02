@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 88%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="데이터 소스"
->abstract="데이터 소스는 항상 기술 사용자가 구성해야 합니다. 데이터 소스를 구성하면 경로에서 사용할 추가 정보 검색을 위해 시스템에 대한 연결을 정의할 수 있습니다. 이러한 추가 정보에는 조건 정의, 작업의 매개 변수 및 개인화 데이터, 사용자 지정 대기 정의, 사용자 지정 시간대 정의 등이 있습니다."
+>abstract="데이터 소스는 항상 기술 사용자가 구성해야 합니다. 데이터 소스 구성을 사용하면 시스템에 대한 연결을 정의하여 여정에 사용할 추가 정보를 검색할 수 있습니다. 조건 정의, 매개 변수 및 개인화 데이터의 액션, 사용자 정의 대기 정의, 시간대 정의."
 
 데이터 소스를 구성하면 경로에서 사용할 추가 정보 검색을 위해 시스템에 대한 연결을 정의할 수 있습니다. 이러한 추가 정보에는 다음과 같은 항목이 포함됩니다.
 
 * [조건 정의](../building-journeys/condition-activity.md)
 * [작업](../action/action.md)의 매개 변수 및 개인화 데이터
 * [사용자 지정 대기 정의](../building-journeys/wait-activity.md#custom)
-* [사용자 지정 시간대 정의](../building-journeys/timezone-management.md)
+* [시간대 정의](../building-journeys/timezone-management.md)
 
 경로가 이벤트 페이로드에서 전송되는 로컬 데이터만 활용하는 경우에는 이 구성을 수행하지 않아도 됩니다. 예를 들어 경로에 이벤트, 그리고 해당 이벤트의 데이터만 사용하는 이메일 활동이 차례로 포함되어 있다면 데이터 소스를 구성할 필요가 없습니다.
 
