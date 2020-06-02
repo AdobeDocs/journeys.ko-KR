@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
-workflow-type: ht
-source-wordcount: '995'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 817df02d78c4b9d213895cd7201ab1c2c883b188
+workflow-type: tm+mt
+source-wordcount: '1021'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Journey Orchestration을 최대한 활용하려면 인터넷 브라우저로 Chrome을 사용하는 것이 좋습니다.
+>Journey Orchestration을 최대한 활용하려면 인터넷 브라우저로 Chrome을 사용하는 것이 좋습니다. 인터페이스는 IMS에 정의된 언어로 표시됩니다. IMS 언어가 여정 오케스트레이션에서 지원되지 않는 경우 인터페이스가 영어로 표시됩니다.
 >
 >이 설명서는 제품의 최근 변경 사항을 반영하여 자주 업데이트됩니다. 그러나 실제 제품 인터페이스와 약간 다른 스크린샷도 있습니다.
 
@@ -40,7 +40,7 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 Jou
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="경로 목록"
->abstract="경로 목록에서는 모든 경로를 한꺼번에 표시하여 해당 상태를 확인하고 기본적인 작업을 수행할 수 있습니다. 경로 복제, 정지, 삭제도 가능합니다. 특정 작업은 수행할 수 없는 경로도 있습니다. 예를 들어 완료된 경로는 삭제하거나 재시작할 수 없습니다. 단, 완료된 경로에서 새 버전을 만들거나 완료된 경로를 복제할 수는 있습니다. 검색 창에서 경로를 검색할 수도 있습니다."
+>abstract="경로 목록에서는 모든 경로를 한꺼번에 표시하여 해당 상태를 확인하고 기본적인 작업을 수행할 수 있습니다. 경로 복제, 정지, 삭제도 가능합니다. 특정 작업은 수행할 수 없는 경로도 있습니다. 예를 들어 닫힌 여정은 삭제하거나 다시 시작할 수 없습니다. 단, 완료된 경로에서 새 버전을 만들거나 완료된 경로를 복제할 수는 있습니다. 검색 창에서 경로를 검색할 수도 있습니다."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="데모 비디오 시청"
 
 상단 메뉴에서는 **[!UICONTROL Home]**(경로),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**&#x200B;과 같은 Journey Orchestration의 다양한 기능 간을 이동할 수 있습니다.
