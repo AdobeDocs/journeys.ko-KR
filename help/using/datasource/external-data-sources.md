@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a1c4eed8360efcbfcaa5e54c8831e1a4b2ecc02e
-workflow-type: ht
-source-wordcount: '1214'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5e2e95090df708d72ade6366a62ea42eff3ac7f2
+workflow-type: tm+mt
+source-wordcount: '1270'
+ht-degree: 95%
 
 ---
 
@@ -163,4 +163,30 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
     },
     "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'"
 }
+```
+
+사용자 정의 인증 데이터 소스에 대한 토큰의 캐시 지속 시간을 변경할 수 있습니다. 다음은 사용자 정의 인증 페이로드의 예입니다. 캐시 지속 시간은 &quot;cacheDuration&quot; 매개 변수에 정의됩니다. 캐시에 생성된 토큰의 보존 기간을 지정합니다. 단위는 밀리초, 초, 분, 시간, 일, 개월, 년일 수 있습니다.
+
+```
+"authentication": {
+    "type":"customAuthorization",
+    "authorizationType":"Bearer",
+    "endpoint":"http://localhost:${port}/epsilon/oauth2/access_token",
+    "method":"POST",
+    "headers": {
+        "Authorization":"Basic EncodeBase64(${epsilonClientId}:${epsilonClientSecret})"
+        },
+    "body": {
+        "bodyType":"form",
+        "bodyParams": {
+             "scope":"cn mail givenname uid employeeNumber",
+             "grant_type":"password",
+             "username":"${epsilonUserName}",
+             "password":"${epsilonUserPassword}"
+             }
+        },
+    "tokenInResponse":"json://access_token",
+    "cacheDuration":
+             { "duration":5, "timeUnit":"seconds" }
+    }
 ```
