@@ -3,11 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Journey Orchestration 도움말
 index: true
-translation-type: ht
-source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b199c8c2d0940b5ba3b0093cf8a654739249263d
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 87%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 100%
       + [사용자 지정 작업 제한](using/action/custom-action-limitations.md)
       + [URL 구성](using/action/url-configuration.md)
       + [메시지 매개 변수 정의](using/action/defining-the-message-parameters.md)
++ 플랫폼 세그먼트 사용 {#configuring-segment}
+   + [플랫폼 세그먼트 정보](using/segment/about-segments.md)
+   + [세그먼트 만들기](using/segment/creating-a-segment.md)
+   + [조건에서 세그먼트 사용](using/segment/using-a-segment.md)
 + 여정 구축 {#building-journeys}
    + 여정 구축 {#about-journey-building}
       + [여정 만들기](using/building-journeys/journey.md)
@@ -67,6 +71,13 @@ ht-degree: 100%
          + [사용자 지정 작업 사용](using/building-journeys/using-custom-actions.md)
    + [여정 테스트](using/building-journeys/testing-the-journey.md)
    + [여정 게시](using/building-journeys/publishing-the-journey.md)
+   + 플랫폼과 고객 여정 공유 {#sharing-journey-steps}
+      + [고객 여정 단계 공유 개요](using/building-journeys/sharing-overview.md)
+      + [journeySteps events 일반 필드](using/building-journeys/sharing-common-fields.md)
+      + [journeyStep events 작업 실행 필드](using/building-journeys/sharing-execution-fields.md)
+      + [journeyStep 이벤트 데이터 가져오기 필드](using/building-journeys/sharing-fetch-fields.md)
+      + [journeyStep 이벤트 ID 필드](using/building-journeys/sharing-identity-fields.md)
+      + [경로 필드](using/building-journeys/sharing-journey-fields.md)
 + 고급 표현식 편집기 사용 {#building-advanced-conditions-journeys}
    + [고급 표현식 편집기](using/expression/expressionadvanced.md)
    + 구문 {#syntax}
@@ -163,4 +174,6 @@ ht-degree: 100%
       + [데이터 소스 구성](using/usecase/configuring-the-data-sources.md)
       + [여정 구축](using/usecase/building-the-journey.md)
    + [피로 점수 활용](using/usecase/leveraging-fatigue-scores.md)
++ API 작업{#working-with-apis}
+   + [API 매핑](using/api/capping.md)
 
