@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b238c1851ae640b3146b8457931e1c416387c76a
+source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 
 
 # 조건에서 세그먼트 사용 {#using-a-segment}
-
->6월 15일에 여정 오케스트레이션에서 세그먼트 탭 및 세그먼트 생성/수정을 사용할 수 있습니다.
 
 이 섹션에서는 경로 조건에 세그먼트를 사용하는 방법을 설명합니다.
 여정에서 **세그먼트 자격** 이벤트를 사용하는 방법에 대해서는 [이벤트 활동을 참조하십시오](../building-journeys/event-activities.md#segment-qualification).
