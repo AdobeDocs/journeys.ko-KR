@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 ## fetchOriginErrorCode
 
-쿼리 중인 시스템 경로 오케스트레이션에서 제공하는 오류 코드입니다. 예를 들어 404, 500 등이 될 수 있습니다.
+시스템에서 제공하는 오류 코드를 쿼리하고 [!DNL Journey Orchestration] 있습니다. 예를 들어 404, 500 등이 될 수 있습니다.
 
 유형: 문자열
 
