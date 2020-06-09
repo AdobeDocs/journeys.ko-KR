@@ -11,31 +11,34 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9b8d4bebe024e90733cb1ae6d31b36fb6ce4b606
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 0%
 
 ---
 
 
 
-# 경로 오케스트레이션 이벤트에 대한 ExperienceEvent 스키마 정보
+# 이벤트에 대한 ExperienceEvent 스키마 [!DNL Journey Orchestration] 정보
 
-여정 통합 이벤트는 스트리밍 통합 기능을 통해 Adobe Experience Platform으로 전송되는 XDM 경험 이벤트입니다.
+[!DNL Journey Orchestration] 이벤트는 스트리밍 통합(Streaming Ingestion)을 통해 Adobe Experience Platform으로 전송되는 XDM Experience Events입니다.
 
-이와 같이, 여정 오케스트레이션의 이벤트를 설정하기 위한 중요한 전제 조건은 플랫폼의 경험 데이터 모델(또는 XDM) 및 XDM 경험 이벤트 스키마를 구성하는 방법과 XDM 형식 데이터를 플랫폼으로 스트리밍하는 방법에 익숙한 것입니다.
+이와 같이, 이벤트 설정을 위한 중요한 전제 조건 [!DNL Journey Orchestration] 은 플랫폼의 경험 데이터 모델(XDM)과 XDM 경험 이벤트 스키마를 구성하는 방법과 XDM 형식 데이터를 플랫폼으로 스트리밍하는 방법에 익숙한 것입니다.
 
-## 경로 관리 이벤트에 대한 스키마 요구 사항
+## 이벤트에 대한 스키마 요구 [!DNL Journey Orchestration] 사항
 
-여정 오케스트레이션 이벤트를 설정하는 첫 번째 단계는 이벤트를 나타내는 XDM 스키마와 플랫폼에서 이벤트의 인스턴스를 기록하도록 만들어진 데이터 세트를 갖는 것입니다. 이벤트에 대한 데이터 세트가 반드시 필요한 것은 아니지만 특정 데이터 세트에 이벤트를 전송하면 나중에 참조하고 분석할 수 있도록 사용자의 이벤트 내역을 유지할 수 있으므로 항상 좋은 생각입니다. 이벤트에 적합한 스키마와 데이터 세트가 아직 없는 경우 이러한 두 작업 모두 플랫폼 웹 인터페이스에서 수행할 수 있습니다.
+이벤트를 설정하는 첫 번째 단계 [!DNL Journey Orchestration] 는 이벤트를 나타내는 XDM 스키마와 플랫폼에서 이벤트의 인스턴스를 기록하기 위해 만들어진 데이터 세트를 갖는 것입니다. 이벤트에 대한 데이터 세트가 반드시 필요한 것은 아니지만 특정 데이터 세트에 이벤트를 전송하면 나중에 참조하고 분석할 수 있도록 사용자의 이벤트 내역을 유지할 수 있으므로 항상 좋은 생각입니다. 이벤트에 적합한 스키마와 데이터 세트가 아직 없는 경우 이러한 두 작업 모두 플랫폼 웹 인터페이스에서 수행할 수 있습니다.
 
 ![](../assets/schema1.png)
 
-경로 관리 이벤트에 사용되는 모든 XDM 스키마는 다음 요구 사항을 충족해야 합니다.
+이벤트에 사용될 모든 XDM 스키마는 다음 요구 사항을 [!DNL Journey Orchestration] 충족해야 합니다.
 
 * 스키마는 XDM ExperienceEvent 클래스여야 합니다.
 
 ![](../assets/schema2.png)
 
-* 스키마에는 오케스트레이션 eventID 믹신이 포함되어야 합니다. 여정 오케스트레이션은 이 필드를 사용하여 여정에 사용된 이벤트를 식별합니다.
+* 스키마에는 오케스트레이션 eventID 믹신이 포함되어야 합니다. [!DNL Journey Orchestration] 이 필드를 사용하여 여정에 사용된 이벤트를 식별합니다.
 
 ![](../assets/schema3.png)
 
