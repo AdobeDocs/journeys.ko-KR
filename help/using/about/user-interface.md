@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 817df02d78c4b9d213895cd7201ab1c2c883b188
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 96%
+source-wordcount: '1007'
+ht-degree: 88%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->Journey Orchestration을 최대한 활용하려면 인터넷 브라우저로 Chrome을 사용하는 것이 좋습니다. 인터페이스는 IMS에 정의된 언어로 표시됩니다. IMS 언어가 여정 오케스트레이션에서 지원되지 않는 경우 인터페이스가 영어로 표시됩니다.
+>To get the best out of [!DNL Journey Orchestration], we recommend using Chrome as your Internet browser. 인터페이스는 IMS에 정의된 언어로 표시됩니다. IMS 언어가 지원되지 않는 경우 인터페이스 [!DNL Journey Orchestration]가 영어로 표시됩니다.
 >
 >이 설명서는 제품의 최근 변경 사항을 반영하여 자주 업데이트됩니다. 그러나 실제 제품 인터페이스와 약간 다른 스크린샷도 있습니다.
 
-## Journey Orchestration 액세스{#accessing_journey_orchestration}
+## 액세스 [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Journey Orchestration 인터페이스에 액세스하려면 오른쪽 위의 **[!UICONTROL App Selector]** 아이콘을 클릭합니다. 그런 다음 오른쪽의 &quot;Experience Platform&quot; 아래에서 **[!UICONTROL Journey Orchestration]**&#x200B;을 클릭합니다.
+To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. 그런 다음 오른쪽의 &quot;Experience Platform&quot; 아래에서 **[!UICONTROL Journey Orchestration]**&#x200B;을 클릭합니다.
 
 ![](../assets/journey1.png)
 
-Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 Journey Orchestration에 액세스할 수도 있습니다.
+You can also access [!DNL Journey Orchestration] from the Experience Cloud home page, in the **[!UICONTROL Quick access]** section.
 
 ![](../assets/journey1bis.png)
 
@@ -43,11 +43,11 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 Jou
 >abstract="경로 목록에서는 모든 경로를 한꺼번에 표시하여 해당 상태를 확인하고 기본적인 작업을 수행할 수 있습니다. 경로 복제, 정지, 삭제도 가능합니다. 특정 작업은 수행할 수 없는 경로도 있습니다. 예를 들어 닫힌 여정은 삭제하거나 다시 시작할 수 없습니다. 단, 완료된 경로에서 새 버전을 만들거나 완료된 경로를 복제할 수는 있습니다. 검색 창에서 경로를 검색할 수도 있습니다."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="데모 비디오 시청"
 
-상단 메뉴에서는 **[!UICONTROL Home]**(경로),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**&#x200B;과 같은 Journey Orchestration의 다양한 기능 간을 이동할 수 있습니다.
+The top menus allow you to navigate through the different functionalities of [!DNL Journey Orchestration]: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
 
-화면 오른쪽 위의 ![](../assets/icon-context.png) 아이콘을 클릭하면 상황별 도움말이 표시됩니다. 경로, 이벤트, 작업, 데이터 소스 등의 다양한 Journey Orchestration 목록 화면에서 이 아이콘이 제공됩니다. 이 아이콘을 통해 현재 사용 중인 기능의 간략한 설명을 확인하고 관련 문서와 비디오에 액세스할 수 있습니다.
+화면 오른쪽 위의 ![](../assets/icon-context.png) 아이콘을 클릭하면 상황별 도움말이 표시됩니다. It is available across the different [!DNL Journey Orchestration] list screens (journeys, events, actions and data sources). 이 아이콘을 통해 현재 사용 중인 기능의 간략한 설명을 확인하고 관련 문서와 비디오에 액세스할 수 있습니다.
 
 ![](../assets/journey2bis.png)
 
@@ -93,7 +93,7 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 Jou
 
 ## 다양한 단축키 사용{#section_ksq_zr1_ffb}
 
-Journey Orchestration 인터페이스에서는 다음과 같은 여러 단축키를 사용할 수 있습니다.
+Here are the different shortcuts available in the [!DNL Journey Orchestration]&#39;s interface.
 
 _경로, 작업, 데이터 소스 또는 이벤트 목록:_
 
