@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 1%
 
 ---
 
@@ -70,19 +73,19 @@ source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 <listExpression>.all(<condition>)
 ```
 
-예를 들어 모든 앱 사용자 중에서 IOS 13을 사용하여 앱을 가져올 수 있습니다(부울 표현식 &quot;app used == IOS 13&quot;). 이 함수의 결과는 부울 표현식과 일치하는 항목을 포함하는 필터링된 목록입니다(예:앱 사용자 1, 앱 사용자 34, 앱 사용자 432).
+예를 들어 모든 앱 사용자 중에서 IOS 13(부울 표현식 &quot;app used == IOS 13&quot;)을 사용하는 앱을 가져올 수 있습니다. 이 함수의 결과는 부울 표현식과 일치하는 항목이 포함된 필터링된 목록입니다(예: 앱 사용자 1, 앱 사용자 34, 앱 사용자 432).
 
-데이터 소스 조건 활동에서 함수의 결과가 null인지 여부를 확인할 수 **[!UICONTROL all]** 있습니다. 또한 이 **[!UICONTROL all]** 함수를 같은 다른 함수와 결합할 수도 **[!UICONTROL count]**&#x200B;있습니다. 자세한 내용은 데이터 소스 [조건 활동을](../building-journeys/condition-activity.md#data_source_condition)참조하십시오.
+데이터 소스 조건 활동에서 함수 결과가 null인지 여부를 확인할 수 **[!UICONTROL all]** 있습니다. 또한 이 **[!UICONTROL all]** 함수를 같은 다른 함수와 결합할 수도 있습니다 **[!UICONTROL count]**. 자세한 내용은 [데이터 소스 조건 활동을 참조하십시오](../building-journeys/condition-activity.md#data_source_condition).
 
 **예 1:**
 
-사용자가 특정 버전의 응용 프로그램을 설치했는지 확인하려고 합니다. 이 경우 버전이 1.0인 모바일 애플리케이션과 연관된 모든 푸시 알림 토큰을 받습니다.그런 다음 반환된 토큰 목록에 하나 이상의 요소가 포함되어 있는지 확인하는 **[!UICONTROL count]** 함수를 사용하여 조건을 수행합니다.
+사용자가 특정 버전의 응용 프로그램을 설치했는지 확인하려고 합니다. 따라서 버전이 1.0인 모바일 응용 프로그램과 연결된 모든 푸시 알림 토큰을 가져옵니다. 그런 다음 반환된 토큰 목록에 하나 이상의 요소가 포함되어 있는지 확인하는 **[!UICONTROL count]** 기능을 사용하여 조건을 수행합니다.
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
 ```
 
-결과는 참이다.
+결과는 사실이다.
 
 **예 2:**
 
@@ -92,7 +95,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
 ```
 
-결과는 참입니다.
+결과는 참이다.
 
 <!--Alternatively, you can check if there is no token in the collection:
 
@@ -114,12 +117,12 @@ Note that when the condition in the **all()** function is empty, the filter will
 
 In both cases, the result of the expression is **3**.
 
-A query of experience events recorded on the platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which Journey Orchestration sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the platform. For example, when using the .all() syntax to query experience events from the platform, we recommend enforcing the exclusion of the current event (by requiring an
+A query of experience events recorded on the platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which [!DNL Journey Orchestration] sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the platform. For example, when using the .all() syntax to query experience events from the platform, we recommend enforcing the exclusion of the current event (by requiring an
 earlier timestamp) in order to only consider prior events.-->
 
 >[!NOTE]
 >
->**all()** 함수의 필터링 조건이 비어 있으면 필터는 목록의 모든 요소를 반환합니다. **그러나 컬렉션의 요소 수를 계산하기 위해 모든 함수가 필요하지 않습니다.**
+>**all()** 함수의 필터링 조건이 비어 있으면 필터는 목록의 모든 요소를 반환합니다. **그러나 컬렉션의 요소 수를 계산하기 위해 모든 기능이 필요하지 않습니다.**
 
 
 ```
@@ -130,7 +133,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 **예 3:**
 
-여기에서 지난 24시간 동안 개인이 커뮤니케이션을 받지 않았는지 확인합니다. 컬렉션의 두 요소를 기반으로 하는 두 개의 표현식을 사용하여 ExperiencePlatform 데이터 소스에서 검색된 경험 이벤트 컬렉션을 필터링합니다. 특히 이벤트의 타임스탬프는 **[!UICONTROL nowWithDelta]** 함수에서 반환되는 dateTime과 비교됩니다.
+여기서 우리는 한 개인이 지난 24시간 내에 어떠한 커뮤니케이션도 받지 못했는지를 확인합니다. 컬렉션의 두 요소를 기준으로 두 개의 표현식을 사용하여 ExperiencePlatform 데이터 소스에서 검색된 경험 이벤트 컬렉션을 필터링합니다. 특히, 이벤트의 타임스탬프는 함수에서 반환된 dateTime과 **[!UICONTROL nowWithDelta]** 비교됩니다.
 
 ```
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -138,7 +141,7 @@ count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
    currentDataPackField.timestamp > nowWithDelta(-1, "days")).timestamp}) == 0
 ```
 
-두 조건과 일치하는 경험 이벤트가 없으면 결과는 true입니다.
+두 조건과 일치하는 경험 이벤트가 없으면 결과가 true입니다.
 
 **예 4:**
 
@@ -171,13 +174,13 @@ The result will be:
 >[!NOTE]
 >
 >**[!UICONTROL currentEventField]** 이벤트 컬렉션 및 **currentDataPackField를 조작할 때만 사용할 수 있습니다.**
->데이터 소스 컬렉션을 조작할 때. Adobe에서 **[!UICONTROL all]**&#x200B;및 Adobe와 **[!UICONTROL first]** 함께 컬렉션을 처리할 **[!UICONTROL last]**때
+>데이터 소스 컬렉션을 조작할 때. Adobe에서 컬렉션 **[!UICONTROL all]**&#x200B;을 처리하는 **[!UICONTROL first]** **[!UICONTROL last]**경우
 >컬렉션의 각 요소를 하나씩 루프합니다. **[!UICONTROL currentEventField]** 및 **currentDataPackField**
->이 반복되는 요소에 해당합니다.
+>이 반복 중인 요소에 해당합니다.
 
 **&quot;first(`<condition>`)&quot; 및 &quot;last(`<condition>`)&quot; 함수**
 
-또한 **[!UICONTROL first]** 및 **[!UICONTROL last]** 함수를 사용하면 필터를 만족하는 목록의 첫 번째/마지막 요소를 반환하는 동안 컬렉션의 필터 정의를 사용할 수 있습니다.
+또한 **[!UICONTROL first]** 및 **[!UICONTROL last]** 함수를 사용하면 필터를 충족하는 목록의 첫 번째/마지막 요소를 반환하면서 컬렉션의 필터 정의를 사용할 수 있습니다.
 
 _`<listExpression>.first(<condition>)`_
 
@@ -195,7 +198,7 @@ _`<listExpression>.last(<condition>)`_
 
 **예 2:**
 
-이 표현식은 버전이 1.0인 모바일 응용 프로그램과 연결된 마지막 푸시 알림 토큰을 반환합니다.
+이 표현식은 버전이 1.0인 모바일 응용 프로그램에 연결된 마지막 푸시 알림 토큰을 반환합니다.
 
 ```
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
@@ -205,14 +208,14 @@ _`<listExpression>.last(<condition>)`_
 
 >[!NOTE]
 >
->경험 이벤트는 시간 역순으로 Experience Platform에서 컬렉션으로 검색됩니다.
+>경험 이벤트는 시간순 역순으로 컬렉션으로 경험 플랫폼에서 검색됩니다.
 >* **[!UICONTROL first]** 함수는 최신 이벤트를 반환합니다.
->* **[!UICONTROL last]** 함수는 가장 오래된 함수를 반환합니다.
+>* **[!UICONTROL last]** 함수는 가장 오래된 것을 반환합니다.
 
 
 **예 3:**
 
-DMA ID에 대해 0이 아닌 값이 있는 첫 번째(가장 최근) Adobe Analytics 이벤트의 값이 602인지 여부를 확인합니다.
+DMA ID에 대해 0이 아닌 값이 있는 첫 번째(가장 최근) Adobe Analytics 이벤트의 값이 602와 같은지 확인합니다.
 
 ```
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
