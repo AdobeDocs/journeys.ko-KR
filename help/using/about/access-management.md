@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 2a53413c79f0213434f9ca6a7847bd7f20fbf41e
+source-git-commit: a3114ffe7c087645e97caf3a77e7649d922945eb
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 0%
+source-wordcount: '794'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 액세스 관리 기본 정보 {#about-access-management}
 
-여정 통합 운영에서는 사용자에게 일련의 권한 및 샌드박스를 할당하여 액세스 가능한 인터페이스의 일부를 정의할 수 있습니다.
+[!DNL Journey Orchestration] 사용자가 액세스할 수 있는 인터페이스의 일부를 정의하는 권한을 사용자에게 할당할 수 있습니다.
 
 관리 콘솔에 액세스할 수 있는 관리자가 관리할 수 있습니다. 관리 콘솔에 대한 자세한 내용은 이 [설명서를 참조하십시오](https://helpx.adobe.com/enterprise/managing/user-guide.html).
 
@@ -56,19 +56,19 @@ ht-degree: 0%
 * **[!UICONTROL Publish journeys]**
 * **[!UICONTROL Manage reports]**
 
-권한 및 여정 오케스트레이션의 다양한 기능 간의 호환성 아래에서 확인할 수 있습니다.
+권한 간의 호환성 및 다양한 기능 [!DNL Journey Orchestration]을 확인할 수 있습니다.
 
 ![](../assets/journey_permission.png)
 
 ## 제품 프로필 만들기 {#create-product-profile}
 
-고객 여정 운영(Journey Orchestration)을 사용하면 고유한 제품 프로필을 만들고 사용자에게 일련의 권한 및 샌드박스를 할당할 수 있습니다. 제품 프로필을 사용하면 인터페이스에서 특정 기능 또는 개체에 대한 액세스를 승인하거나 거부할 수 있습니다.
+[!DNL Journey Orchestration] 고유한 제품 프로필을 만들고 사용자에게 일련의 권한 및 샌드박스를 할당할 수 있도록 해줍니다. 제품 프로필을 사용하면 인터페이스에서 특정 기능 또는 개체에 대한 액세스를 승인하거나 거부할 수 있습니다.
 
 샌드박스를 만들고 관리하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서를 참조하십시오](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html).
 
 제품 프로필을 만들고 권한 및 샌드박스 세트를 지정하려면:
 
-1. 관리 콘솔에서 선택합니다 **[!UICONTROL Journey orchestration]**. 탭에서 **[!UICONTROL Product profile]** 을 클릭합니다 **[!UICONTROL New Profile]**.
+1. 관리 콘솔에서 선택합니다 **[!UICONTROL Journey Orchestration]**. 탭에서 **[!UICONTROL Product profile]** 을 클릭합니다 **[!UICONTROL New Profile]**.
 
 1. 새 제품 프로필 **[!UICONTROL Profile Name]** 에 **[!UICONTROL Description]** 및 을 추가합니다. 프로필을 **[!UICONTROL Display name]** 변경하려면 선택을 취소하고 **[!UICONTROL Same as Profile Name]** 을 입력합니다 **[!UICONTROL Display name]**.
 
@@ -86,26 +86,26 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >이제 고객 여정 통합 운영을 프로덕션 및 비프로덕션 플랫폼 샌드박스와 연결할 수 있습니다. 유효 가용성: 2020년 6월 15일
+   >플랫폼 샌드박스는 베타 기능입니다.
    <br>샌드박스에 대한 자세한 내용은 이 [섹션을 참조하십시오](../about/access-management.md#sandboxes).
 
 1. 필요한 경우 아래 **[!UICONTROL Included Permission Items]**&#x200B;에서 제품 프로필에 대한 권한을 제거하려면 X 아이콘을 클릭합니다.
 
 1. 권한 카테고리에서 **[!UICONTROL Authoring]** 위와 동일한 단계를 수행하여 제품 프로필에 권한을 추가합니다.
-   <br>권한 및 여정 오케스트레이션의 다양한 기능 간의 권한 및 호환성에 대한 자세한 내용은 이 [섹션을 참조하십시오](../about/access-management.md#about-access-management).
+   <br>권한 간의 권한 및 호환성 [!DNL Journey Orchestration]에 대한 자세한 내용은 이 [섹션을 참조하십시오](../about/access-management.md#about-access-management).
 
 1. 완료되면 을 클릭합니다 **[!UICONTROL Save]**.
 
-이제 제품 프로필이 만들어지고 구성됩니다. 이제 이 프로필에 연결된 사용자가 여정 오케스트레이션에 연결할 수 있습니다.
+이제 제품 프로필이 만들어지고 구성됩니다. 이제 이 프로필에 연결된 사용자가 연결할 수 있습니다 [!DNL Journey Orchestration].
 
 ## 제품 프로필 할당 {#assigning-product-profile}
 
 제품 프로필은 조직 내에서 동일한 권한을 공유하는 사용자 집합에 할당됩니다.
 권한이 할당된 모든 기본 제품 프로필 목록은 이 섹션에서 찾을 수 있습니다.
 
-경로 지정 오케스트레이션에 액세스할 수 있도록 사용자가 제품 프로필을 지정하려면
+사용자가 액세스할 제품 프로필을 지정하려면 다음을 수행합니다 [!DNL Journey Orchestration].
 
-1. 관리 콘솔에서 선택합니다 **[!UICONTROL Journey orchestration]**.
+1. 관리 콘솔에서 선택합니다 **[!UICONTROL Journey Orchestration]**.
 
    ![](../assets/user_management.png)
 
@@ -123,18 +123,18 @@ ht-degree: 0%
 
    ![](../assets/user_management_4.png)
 
-그러면 사용자가 여정 오케스트레이션 인스턴스로 리디렉션되는 이메일을 수신하게 됩니다.
+그러면 사용자가 인스턴스로 리디렉션되는 이메일을 [!DNL Journey Orchestration] 수신하게 됩니다.
 
 ## 샌드박스 사용 {#sandboxes}
 
 >[!NOTE]
 >
->이제 고객 여정 통합 운영을 프로덕션 및 비프로덕션 플랫폼 샌드박스와 연결할 수 있습니다. 유효 가용성: 2020년 6월 15일
+>플랫폼 샌드박스는 베타 기능입니다.
 
-고객 여정 운영(Journey Orchestration)을 사용하면 인스턴스를 샌드박스라는 분리된 가상 환경으로 분할할 수 있습니다.
+[!DNL Journey Orchestration] 인스턴스를 샌드박스라는 분리된 가상 환경으로 분할할 수 있습니다.
 샌드박스는 관리 콘솔에서 제품 프로필을 통해 할당됩니다. 샌드박스를 할당하는 방법에 대한 자세한 내용은 이 [섹션을 참조하십시오](../about/access-management.md#create-product-profile).
 
-여정 오케스트레이션은 지정된 조직에 대해 만들어진 플랫폼 샌드박스를 반영합니다.
+[!DNL Journey Orchestration] 는 지정된 조직에 대해 만들어진 플랫폼 샌드박스를 반영합니다.
 Adobe Experience Platform 인스턴스에서 플랫폼 샌드박스를 생성하거나 재설정할 수 있습니다. 자세한 단계는 [샌드박스 사용자 안내서를](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) 참조하십시오.
 
 화면의 왼쪽 상단에 샌드박스 전환기 컨트롤이 있습니다. 샌드박스에서 다른 샌드박스로 전환하려면 전환기에서 현재 활성 샌드박스를 클릭하고 드롭다운 목록에서 다른 샌드박스를 선택합니다.
