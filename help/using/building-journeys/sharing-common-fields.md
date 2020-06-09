@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 이 혼합은 journeyStepEvent 및 journeyStepProfileEvent가 공유합니다.
 
-고객 여정 오케스트레이션이 Adobe 데이터 플랫폼으로 전송하는 공통 XDM 필드입니다. 여정에서 처리되는 모든 단계에 대해 공통 필드가 전송됩니다. 사용자 정의 작업 및 개발에 더 구체적인 필드가 사용됩니다.
+이러한 필드는 Adobe 데이터 플랫폼으로 [!DNL Journey Orchestration] 전송되는 일반적인 XDM 필드입니다. 여정에서 처리되는 모든 단계에 대해 공통 필드가 전송됩니다. 사용자 정의 작업 및 개발에 더 구체적인 필드가 사용됩니다.
 
 이러한 필드 중 일부는 특정 처리 패턴(작업 실행, 데이터 가져오기 등)에서만 사용할 수 있습니다. 를 사용하여 이벤트의 크기를 제한합니다.
 
