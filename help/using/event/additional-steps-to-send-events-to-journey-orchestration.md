@@ -11,30 +11,33 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 3%
 
 ---
 
 
 
-# 여정 오케스트레이션으로 이벤트를 전송하는 추가 단계 {#concept_xrz_n1q_y2b}
+# Additional steps to send events to [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
 
 >[!NOTE]
 >
->이벤트를 만들 때 여정 오케스트레이션은 이 이벤트에 대한 ID를 자동으로 생성합니다. 이벤트를 실행하는 시스템에서 ID를 생성할 수 없으며 페이로드 미리 보기에서 사용할 수 있는 ID를 사용해야 합니다. 을 [](../event/previewing-the-payload.md)참조하십시오.
+>이벤트를 만들 때 이 이벤트에 대한 ID가 자동으로 [!DNL Journey Orchestration] 생성됩니다. 이벤트를 밀어 넣는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 사용해야 합니다. [](../event/previewing-the-payload.md)을 참조하십시오.
 
-여정 오케스트레이션에 전송될 이벤트를 **[!UICONTROL Streaming Ingestion APIs]** 구성하려면 다음 단계를 따라야 합니다.
+전송할 이벤트 **[!UICONTROL Streaming Ingestion APIs]** 와 에서 사용될 이벤트를 구성하려면 다음 [!DNL Journey Orchestration]단계를 따라야 합니다.
 
-1. 데이터 플랫폼 API에서 입력 URL을 가져옵니다(스트리밍 통합 [API 참조](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)).
-1. 페이로드 미리 보기에서 **[!UICONTROL Event]** 메뉴의 페이로드를 복사합니다. 을 [](../event/defining-the-payload-fields.md)참조하십시오.
+1. 데이터 플랫폼 API에서 입력 URL을 가져옵니다(스트리밍 통합 API 참조 [](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/streaming/overview.html)).
+1. 메뉴의 페이로드 미리 보기에서 페이로드를 **[!UICONTROL Event]** 복사합니다. [](../event/defining-the-payload-fields.md)을 참조하십시오.
 
 그런 다음 복사한 페이로드를 사용하여 이벤트를 스트리밍 통합 API로 푸시하는 데이터 시스템을 구성해야 합니다.
 
 1. 스트리밍 통합 API URL(입구라고 함)에 대한 POST API 호출을 설정합니다.
-1. 스트리밍 통합 API에 대한 API 호출의 본문(&quot;데이터 섹션&quot;)에서 경로 오케스트레이션에서 복사한 페이로드를 사용합니다. 예를 보려면 아래를 참조하십시오
-1. 페이로드에 있는 모든 변수를 가져올 위치를 결정합니다. 예:이벤트가 주소를 전달해야 하는 경우 붙여넣은 페이로드에 &quot;주소&quot;가 표시됩니다.&quot;string&quot;. &quot;string&quot;은 메시지를 보낼 사람의 이메일인 오른쪽 값을 자동으로 채우는 변수로 대체해야 합니다. 페이로드 미리 보기의 **[!UICONTROL Header]** 섹션에서 작업을 용이하게 하는 많은 값을 자동으로 채웁니다.
+1. API 호출의 본문 [!DNL Journey Orchestration] (&quot;데이터 섹션&quot;)에서 복사한 페이로드를 스트리밍 통합 API로 사용합니다. 예를 보려면 아래를 참조하십시오
+1. 페이로드에 있는 모든 변수를 가져올 위치를 결정합니다. 예: 이벤트가 주소를 전달해야 하는 경우 붙여넣은 페이로드에는 &quot;주소&quot;가 표시됩니다. &quot;string&quot;입니다. &quot;string&quot;은 메시지를 보낼 사람의 이메일인 오른쪽 값을 자동으로 채우는 변수로 대체되어야 합니다. 페이로드 미리 보기의 **[!UICONTROL Header]** 섹션에서 작업을 용이하게 할 것으로 예상되는 많은 값을 자동으로 채웁니다.
 1. 본문 유형으로 &quot;application/json&quot;을 선택합니다.
-1. 키 &quot;x-gw-ims-org-id&quot;를 사용하여 헤더에 IMS ORG ID를 전달합니다. 이 값에 대해 IMS ORG ID(&quot;XXX@AdobeOrg&quot;)를 사용합니다.
+1. 키 &quot;x-gw-ims-org-id&quot;를 사용하여 헤더에 IMS ORG ID를 전달합니다. 이 값에 대해 IMS ORG ID(&quot;XXX@AdobeOrg&quot;)를 사용하십시오.
 
 다음은 스트리밍 통합 API 이벤트의 예입니다.
 
@@ -95,4 +98,4 @@ source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 &quot;데이터&quot; 부분을 붙여넣을 위치를 쉽게 식별하기 위해 https://jsonformatter.curiousconcept.com과 같은 JSON 시각화 도구를 사용할 수 [있습니다](https://jsonformatter.curiousconcept.com)
 
-스트리밍 통합 API 문제를 해결하려면 이 [페이지를](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html)참조하십시오.
+스트리밍 통합 API 문제를 해결하려면 이 [페이지를 참조하십시오](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html).
