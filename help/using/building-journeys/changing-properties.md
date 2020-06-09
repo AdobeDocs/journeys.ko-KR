@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20ffc07586ba34d94b2b2369b23be867d8488363
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 여정이 시간에 민감한 경우 매우 짧은 **[!UICONTROL Timeout and error]** 값을 정의하는 것이 좋습니다(예: 동작을 몇 초 이상 지연할 수 없기 때문에(사람의 실시간 위치에 응답) 여정이 덜 민감한 경우 더 긴 값을 사용하여 올바른 응답을 보내기 위해 호출된 시스템에 더 많은 시간을 줄 수 있습니다.
 
-여정 오케스트레이션은 전역 시간 초과도 사용합니다. 다음 [섹션을 참조하십시오](#global_timeout).
+[!DNL Journey Orchestration] 전역 시간 초과도 사용합니다. 다음 [섹션을 참조하십시오](#global_timeout).
 
 ## 전역 경로 제한 시간 {#global_timeout}
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->고객 여정 운영(Journey Orchestration)은 개인 정보 수신 거부, 액세스 또는 삭제 요청에 직접적으로 반응하지 않습니다. 그러나 글로벌 시간 초과는 개인 사용자가 어떠한 여행에서도 30일 이상 머무르지 못하도록 합니다.
+>[!DNL Journey Orchestration] 개인정보 보호 옵트아웃, 액세스 또는 삭제 요청에 직접 응답하지 않습니다. 그러나 글로벌 시간 초과는 개인 사용자가 어떠한 여행에서도 30일 이상 머무르지 못하도록 합니다.
 
 30일 여정 시간이 초과돼 다시 입장할 수 없는 상황이라 30일 이상 재진입 차단 장치가 필요한지 알 수 없다. 실제로 입국 후 30일 만에 모든 여행 정보를 지워버리기 때문에 30일 전에 들어온 사람도 알 수 없다.
 
