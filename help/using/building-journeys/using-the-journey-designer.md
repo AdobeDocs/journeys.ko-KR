@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7bdba1be0b5fe95417038c0d6788e76b155104aa
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1339'
 ht-degree: 4%
 
 ---
@@ -65,7 +65,7 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 팔레트에서 활동을 클릭하면 **활동 구성 창이** 나타납니다. 필수 필드를 입력합니다. 활동을 삭제하려면 **[!UICONTROL Delete]** 아이콘을 클릭합니다. 수정 사항 **[!UICONTROL Cancel]** 을 취소하거나 확인하려면 을 **[!UICONTROL Ok]** 클릭하십시오. 활동을 삭제하려면 하나 또는 여러 개의 활동을 선택하고 백스페이스 키를 누를 수도 있습니다. Esc 키를 누르면 활동 구성 창이 닫힙니다.
 
-캔버스에서 작업 및 이벤트 활동은 아래에 표시되는 이벤트 또는 작업의 이름과 함께 아이콘으로 표시됩니다. 활동 구성 창에서 **[!UICONTROL Label]** 필드를 사용하여 활동 이름에 접미사를 추가할 수 있습니다. 이러한 레이블은 이벤트 및 작업의 사용을 상황에 맞게 만드는 데 도움이 됩니다. 특히 여정에서 동일한 이벤트 또는 작업을 여러 번 사용하는 경우 더욱 그렇습니다. 여정 오케스트레이션 보고에서 추가한 레이블을 볼 수도 있습니다.
+캔버스에서 작업 및 이벤트 활동은 아래에 표시되는 이벤트 또는 작업의 이름과 함께 아이콘으로 표시됩니다. 활동 구성 창에서 **[!UICONTROL Label]** 필드를 사용하여 활동 이름에 접미사를 추가할 수 있습니다. 이러한 레이블은 이벤트 및 작업의 사용을 상황에 맞게 만드는 데 도움이 됩니다. 특히 여정에서 동일한 이벤트 또는 작업을 여러 번 사용하는 경우 더욱 그렇습니다. 보고에 추가한 레이블을 볼 수도 [!DNL Journey Orchestration] 있습니다.
 
 ![](../assets/journey59bis.png)
 
