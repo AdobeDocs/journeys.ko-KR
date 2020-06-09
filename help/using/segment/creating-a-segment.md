@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b238c1851ae640b3146b8457931e1c416387c76a
+source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '139'
 ht-degree: 5%
 
 ---
@@ -22,9 +22,7 @@ ht-degree: 5%
 
 # 세그먼트 만들기 {#creating-a-segment}
 
->6월 15일에 여정 오케스트레이션에서 세그먼트 탭 및 세그먼트 생성/수정을 사용할 수 있습니다.
-
-플랫폼 세그멘테이션 서비스를 사용하여 세그먼트를 만들거나 [여정](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) 오케스트레이션에서 직접 이러한 세그먼트에 액세스하여 만들 수 있습니다.
+플랫폼 세그멘테이션 서비스를 사용하여 [세그먼트를 만들거나](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) , 직접 액세스하여 만들 수 있습니다 [!DNL Journey Orchestration].
 
 1. 상단 메뉴에서 **[!UICONTROL Segments]** 탭을 클릭합니다. 플랫폼 세그먼트 목록이 표시됩니다. 목록에서 특정 세그먼트를 검색할 수 있습니다.
 
