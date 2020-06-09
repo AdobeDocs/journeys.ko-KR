@@ -11,18 +11,18 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b19e771b6fa3a679a36398c12417b190ee7ff18
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 77%
+source-wordcount: '494'
+ht-degree: 74%
 
 ---
 
 
 # 설명서 업데이트 정보
 
-이 페이지에는 Journey Orchestration의 설명서 업데이트 내용이 모두 포함되어 있습니다.
-Journey Orchestration [릴리스 정보](../release-notes/release-notes.md)도 확인할 수 있습니다.
+This page lists all the documentation updates for [!DNL Journey Orchestration].
+You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
 ## 2020년 6월 {#june-2020}
 
@@ -34,7 +34,7 @@ Journey Orchestration [릴리스 정보](../release-notes/release-notes.md)도 �
 ## 2020년 4월 {#april-2020}
 
 * 사용자가 첫 번째 이벤트를 구성하는 데 도움이 되도록 경험 이벤트 스키마 정의에 새 섹션이 추가되었습니다. [자세한 내용](../event/experience-event-schema.md)
-* 경로 관리 문서의 홈 페이지가 유용한 추가 링크로 업데이트되었습니다. [자세한 내용](../../journey-orchestration-home.md)
+* 설명서의 홈 페이지가 [!DNL Journey Orchestration] 유용한 추가 링크로 업데이트되었습니다. [자세한 내용](../../journey-orchestration-home.md)
 
 ## 2020년 3월 {#march-2020}
 
