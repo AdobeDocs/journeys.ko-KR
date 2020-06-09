@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 796eff7751941720fc069dd8c7bed5c1f0e4a8fe
+source-git-commit: a4e2e5737e5d22775e45038f296be2131ac9f54f
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 72%
+source-wordcount: '1094'
+ht-degree: 71%
 
 ---
 
@@ -46,8 +46,8 @@ ht-degree: 72%
 <li><p>단순 표현식 편집기에서 플랫폼 세그먼트가 이제 탐색 트리에 바로 나열되므로 "이 사람이 세그먼트 A에 속합니까?"와 같은 조건을 쉽게 설정할 수 있습니다. <a href="../segment/using-a-segment.md">자세한 내용</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>이제 고객 여정 운영(Journey Orchestration)이 Adobe 데이터 플랫폼으로 자동 전달되고, 그 다음 단계는 개별 고객이 수행해야 하는 단계입니다. 여기에는 발생할 수 있는 오류가 포함됩니다. 이 정보는 분석 또는 세그멘테이션을 위해 사용할 수 있습니다. <a href="../building-journeys/sharing-overview.md">자세한 내용</a></p>
-<img src="../assets/rn-sharing.png"/>
+<li><p>이제 여정 운영(Journey Orchestration)은 Adobe 데이터 플랫폼으로 이동 중 진행되는 모든 단계를 자동으로 전달합니다. 여기에는 발생할 수 있는 오류가 포함됩니다. 이 정보는 특정 경로 또는 모든 여행에 대한 경로 단계 이벤트에 대한 쿼리를 실행하여 보고 및 문제 해결을 수행하는 데 사용할 수 있습니다. <a href="../building-journeys/sharing-overview.md">자세한 내용</a></p>
+<img src="../assets/rn-journeystepevent.png"/>
 </li>
 <li><p>이제 고객 여정 통합 운영을 프로덕션 및 비프로덕션 플랫폼 샌드박스와 연결할 수 있습니다. 유효 가용성: 2020년 6월 15일 <a href="../about/access-management.md#sandboxes">자세한 내용</a></p>
 </li>
