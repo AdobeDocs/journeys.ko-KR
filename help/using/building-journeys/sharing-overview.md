@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96c84047952eed8835879b1375bce6326c55fd35
+source-git-commit: c4335cf1f94172fabed1099d3772bc539adb02ef
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->기본적으로 데이터 세트는 실시간 프로필 서비스에 대해 활성화되지 않습니다. 프로필 서비스에서 데이터 세트를 사용하려면 데이터 세트를 활성화해야 합니다(**프로필** 전환). 많은 양의 이벤트가 할당량의 저장 공간을 차지한다는 점을 주의하십시오. 프로필에 대한 데이터 세트를 활성화하기 전에 주의해서 진행하십시오
->
->![](../assets/sharing4.png)
-
->[!NOTE]
->
->Journeys는 Journey Step Profile 이벤트를 Platform으로 전송할지 여부를 결정할 수 있습니다. 여정은 이것을 결정하는 기술 전환을 유지합니다.
->
->![](../assets/techtoggle.png)
+>실시간 프로필 서비스에 대해 데이터 집합을 설정할 수 없습니다. 프로필 **토글이** 꺼져 있는지 확인하십시오
 
 Journey는 데이터 발생 시 스트리밍 방식으로 데이터를 전송합니다. 쿼리 서비스를 사용하여 이 데이터를 쿼리할 수 있습니다. 고객 경로 분석 또는 기타 BI 도구에 연결하여 이러한 단계와 관련된 데이터를 볼 수 있습니다.
 
