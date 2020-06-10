@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 83e0476b8efd779256549788ff73f32531e08934
+source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 테스트에서 경로를 열 때 표시되는 경로는 마지막으로 실행된 테스트에 해당합니다.
 
-시각적인 흐름은 여정으로 전송된 이벤트가 이벤트 구성 화면에서 정의된 경우에만 표시됩니다. 이벤트가 외부에서 정의된 경우(예: Postman 사용), 시각적 흐름이 표시되지 않습니다.
+시각적 흐름은 인터페이스를 통해 이벤트가 트리거되는지 외부적으로 트리거되는지(예: Postman 사용) 확인합니다.
 
 ## 로그 보기 {#viewing_logs}
 
