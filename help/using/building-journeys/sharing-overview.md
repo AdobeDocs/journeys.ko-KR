@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
+source-git-commit: 96c84047952eed8835879b1375bce6326c55fd35
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -35,9 +35,9 @@ ht-degree: 0%
 >
 >![](../assets/sharing4.png)
 
->[!]
+>[!NOTE]
 >
->Journeys는 Journey Step Profile 이벤트를 플랫폼으로 전송할지 여부에 상관없이 기능을 제공합니다.  여정은 이것을 결정하는 기술 전환을 유지합니다.
+>Journeys는 Journey Step Profile 이벤트를 Platform으로 전송할지 여부를 결정할 수 있습니다. 여정은 이것을 결정하는 기술 전환을 유지합니다.
 >
 >![](../assets/techtoggle.png)
 
