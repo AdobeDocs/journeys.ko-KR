@@ -1,6 +1,6 @@
 ---
 title: 매핑 API 설명
-description: 매핑 API에 대해 자세히 알아보십시오.
+description: 매핑 API에 대한 자세한 내용을 살펴보십시오.
 contentOwner: sauviat
 products: journeys
 audience: audiences
@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 58495028d41d1d18739a8ea9c7f0622a0cf6ca4d
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,13 @@ ht-degree: 0%
 
 ## 리소스
 
-Coping [!DNL Journey Orchestration] API는 [여기에서](https://adobedocs.github.io/JourneyAPI/docs/)사용할 수 있는 Swagger 파일 내에 설명되어 있습니다.
+>[!NOTE]
+>
+>Coping [!DNL Journey Orchestration] API는 [여기에서](https://adobedocs.github.io/JourneyAPI/docs/)사용할 수 있는 Swagger 파일 내에 설명되어 있습니다.
 
 이 API를 [!DNL Journey Orchestration] 인스턴스와 함께 사용하려면 AdobeIO 콘솔을 사용해야 합니다. 먼저 Adobe 개발자 콘솔 [로 시작을](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 수행한 다음 이 페이지의 섹션을 사용할 수 있습니다.
 
-통합을 테스트하고 준비하려면 [여기에서 Postman 컬렉션을 이용할 수 있습니다](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+통합을 테스트하고 준비하려면 [여기에서 Postman 컬렉션을 이용할 수 있습니다](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 ## 인증
 
@@ -44,7 +46,7 @@ Coping [!DNL Journey Orchestration] API는 [여기에서](https://adobedocs.gith
 
 >[!CAUTION]
 >
->Adobe IO에서 인증서를 관리하려면 조직 또는 관리 콘솔에서 <b>개발자 계정에</b> 대한 <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html">시스템 관리자</a> 권한이 있어야 합니다.
+>Adobe IO에서 인증서를 관리하려면 조직 또는 관리 콘솔에서 <b>개발자 계정에</b> 대한 [시스템 관리자](https://helpx.adobe.com/enterprise/using/manage-developers.html) 권한이 있어야 합니다.
 
 1. **디지털 인증서가 있는지**&#x200B;확인하거나 필요한 경우 디지털 인증서를 만듭니다. 인증서와 함께 제공된 공개 및 개인 키는 다음 단계에 필요합니다.
 1. **Adobe IO에서[!DNL Journey Orchestration]서비스** 통합을 새로 만들어 구성합니다. 제품 프로필 액세스 권한은 [!DNL Journey Orchestration] Adobe Experience Platform에 필요합니다. 그러면 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).
@@ -166,7 +168,7 @@ canDeploy **메서드를** 호출하면 프로세스는 구성을 검증하고 �
 
 이 섹션에서는 매핑 구성을 관리하기 위해 수행할 수 있는 5가지 주요 사용 사례를 확인할 수 있습니다 [!DNL Journey Orchestration].
 
-테스트 및 구성에 도움이 되도록 Postman 컬렉션을 [여기에서 사용할 수 있습니다](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+테스트 및 구성에 도움이 되도록 Postman 컬렉션을 [여기에서 사용할 수 있습니다](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 이 Postman Collection은 __[Adobe I/O 콘솔의 통합](https://console.adobe.io/integrations)> 직접__&#x200B;사용해 보기 > Postman용다운로드를 통해 생성된 Postman 변수 컬렉션을 공유하도록 설정되었으며, 이 컬렉션은 선택한 통합 값을 갖는 Postman 환경 파일을 생성합니다.
 
@@ -174,7 +176,7 @@ Postman에 다운로드 및 업로드한 후에는 다음 두 가지 변수를 �
 * `{JO_HOST}` : [!DNL Journey Orchestration] 게이트웨이 URL
 * `{BASE_PATH}` : API의 시작 지점. 값은 &#39;/authoring&#39;입니다.
 
-
+다음 섹션에서는 사용 사례를 수행하기 위한 Rest API 호출 순서 목록을 확인할 수 있습니다.
 
 Use-Case n &quot;1: **새로운 매핑 구성 만들기 및 배포**
 
