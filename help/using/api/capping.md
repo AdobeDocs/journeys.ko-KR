@@ -1,6 +1,6 @@
 ---
 title: 매핑 API 설명
-description: 매핑 API에 대한 자세한 내용을 살펴보십시오.
+description: 매핑 API에 대해 자세히 알아보십시오.
 contentOwner: sauviat
 products: journeys
 audience: audiences
@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 58495028d41d1d18739a8ea9c7f0622a0cf6ca4d
+source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 >
 >Coping [!DNL Journey Orchestration] API는 [여기에서](https://adobedocs.github.io/JourneyAPI/docs/)사용할 수 있는 Swagger 파일 내에 설명되어 있습니다.
 
-이 API를 [!DNL Journey Orchestration] 인스턴스와 함께 사용하려면 AdobeIO 콘솔을 사용해야 합니다. 먼저 Adobe 개발자 콘솔 [로 시작을](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 수행한 다음 이 페이지의 섹션을 사용할 수 있습니다.
+이 API를 [!DNL Journey Orchestration] 인스턴스와 함께 사용하려면 AdobeI/O 콘솔을 사용해야 합니다. 먼저 Adobe 개발자 콘솔 [로 시작을](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 수행한 다음 이 페이지의 섹션을 사용할 수 있습니다.
 
 통합을 테스트하고 준비하려면 [여기에서 Postman 컬렉션을 이용할 수 있습니다](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
@@ -42,14 +42,14 @@ ht-degree: 0%
 
 ### API 액세스 설정
 
-[!DNL Journey Orchestration] API 액세스는 아래 단계를 통해 설정됩니다. 이러한 각 단계는 [Adobe IO 설명서에 자세히 설명되어 있습니다](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+[!DNL Journey Orchestration] API 액세스는 아래 단계를 통해 설정됩니다. 이러한 각 단계는 [Adobe I/O 설명서에 자세히 설명되어 있습니다](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!CAUTION]
 >
->Adobe IO에서 인증서를 관리하려면 조직 또는 관리 콘솔에서 <b>개발자 계정에</b> 대한 [시스템 관리자](https://helpx.adobe.com/enterprise/using/manage-developers.html) 권한이 있어야 합니다.
+>Adobe I/O에서 인증서를 관리하려면 조직 또는 관리 콘솔에서 <b>개발자 계정에</b> 대한 [시스템 관리자](https://helpx.adobe.com/enterprise/using/manage-developers.html) 권한이 있는지확인하십시오.
 
 1. **디지털 인증서가 있는지**&#x200B;확인하거나 필요한 경우 디지털 인증서를 만듭니다. 인증서와 함께 제공된 공개 및 개인 키는 다음 단계에 필요합니다.
-1. **Adobe IO에서[!DNL Journey Orchestration]서비스** 통합을 새로 만들어 구성합니다. 제품 프로필 액세스 권한은 [!DNL Journey Orchestration] Adobe Experience Platform에 필요합니다. 그러면 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).
+1. **Adobe I/O에서[!DNL Journey Orchestration]서비스** 통합을 새로 만들어 구성합니다. 제품 프로필 액세스 권한은 [!DNL Journey Orchestration] 및 Adobe Experience Platform에 필요합니다. 그러면 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).
 1. **이전에 생성된 자격 증명에서 JWT(JSON Web Token)** 을 만들어 개인 키로 서명합니다. JWT는 ID를 확인하고 API에 대한 액세스 권한을 부여하는 데 필요한 모든 ID 및 보안 정보를 인코딩합니다. 이 단계는 이 [섹션에 자세히 설명되어 있습니다](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **POST 요청이나 개발자 콘솔 인터페이스를 통해 JWT를 액세스** 토큰과 교환합니다. 이 액세스 토큰은 API 요청의 각 헤더에서 사용해야 합니다.
 
@@ -65,7 +65,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * **&lt;조직>**: 귀하의 개인 조직 ID이며, Adobe가 각 인스턴스에 대해 하나의 조직 ID를 제공합니다.
 
    * &lt;조직>: 프로덕션 인스턴스
-   조직 ID 값을 얻으려면 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 새로운 통합을 만들 때 Adobe I/O로 가져올 수도 있습니다(라이센스 목록 참조 <a href="https://www.adobe.io/authentication.html">Adobe IO 설명서</a>).
+   조직 ID 값을 얻으려면 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 새로운 통합을 만들 때 Adobe I/O로 가져올 수도 있습니다(라이센스 목록 참조 <a href="https://www.adobe.io/authentication.html">Adobe I/O 설명서</a>).
 
 * **&lt;ACCESS_TOKEN>**: POST 요청을 통해 JWT를 교환할 때 검색된 개인 액세스 토큰입니다.
 
@@ -79,14 +79,14 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 | 메서드 | 경로 | 설명 |
 |---|---|---|
-| POST | list/endpointConfigs | 끝점 매핑 구성 목록 가져오기 |
-| POST | /endpointConfigs | 끝점 매핑 구성 만들기 |
-| POST | /endpointConfigs/{uid}/deploy | 끝점 매핑 구성 배포 |
-| POST | /endpointConfigs/{uid}/배포 취소 | 끝점 매핑 구성 배포 취소 |
-| POST | /endpointConfigs/{uid}/canDeploy | 끝점 매핑 구성을 배포할 수 있는지 여부 확인 |
-| PUT | /endpointConfigs/{uid} | 끝점 매핑 구성 업데이트 |
-| GET | /endpointConfigs/{uid} | 끝점 매핑 구성 검색 |
-| 삭제 | /endpointConfigs/{uid} | 설정 구성 삭제 |
+| [!DNL POST] | list/endpointConfigs | 끝점 매핑 구성 목록 가져오기 |
+| [!DNL POST] | /endpointConfigs | 끝점 매핑 구성 만들기 |
+| [!DNL POST] | /endpointConfigs/{uid}/deploy | 끝점 매핑 구성 배포 |
+| [!DNL POST] | /endpointConfigs/{uid}/배포 취소 | 끝점 매핑 구성 배포 취소 |
+| [!DNL POST] | /endpointConfigs/{uid}/canDeploy | 끝점 매핑 구성을 배포할 수 있는지 여부 확인 |
+| [!DNL PUT] | /endpointConfigs/{uid} | 끝점 매핑 구성 업데이트 |
+| [!DNL GET] | /endpointConfigs/{uid} | 끝점 매핑 구성 검색 |
+| [!DNL DELETE] | /endpointConfigs/{uid} | 설정 구성 삭제 |
 
 구성을 만들거나 업데이트할 때 페이로드 구문과 무결성을 보장하기 위해 검사가 자동으로 수행됩니다.
 일부 문제가 발생하는 경우 작업 중에 경고 또는 오류가 반환되어 구성을 수정할 수 있습니다.
@@ -172,9 +172,10 @@ canDeploy **메서드를** 호출하면 프로세스는 구성을 검증하고 �
 
 이 Postman Collection은 __[Adobe I/O 콘솔의 통합](https://console.adobe.io/integrations)> 직접__&#x200B;사용해 보기 > Postman용다운로드를 통해 생성된 Postman 변수 컬렉션을 공유하도록 설정되었으며, 이 컬렉션은 선택한 통합 값을 갖는 Postman 환경 파일을 생성합니다.
 
-Postman에 다운로드 및 업로드한 후에는 다음 두 가지 변수를 추가해야 합니다. `{JO_HOST}` 및 `{Base_Path}`.
+Postman에 다운로드 및 업로드한 후에는 다음 세 가지 변수를 추가해야 합니다. `{JO_HOST}`,`{Base_Path}` and `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] 게이트웨이 URL
 * `{BASE_PATH}` : API의 시작 지점. 값은 &#39;/authoring&#39;입니다.
+* `{SANDBOX_NAME}` : API 작업이 수행되는 샌드박스 이름에 해당하는 헤더 **x-sandbox-name** (예: &#39;prod&#39;). 자세한 내용은 [샌드박스 개요를](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) 참조하십시오.
 
 다음 섹션에서는 사용 사례를 수행하기 위한 Rest API 호출 순서 목록을 확인할 수 있습니다.
 
