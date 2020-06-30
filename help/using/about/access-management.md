@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: a3114ffe7c087645e97caf3a77e7649d922945eb
+source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '782'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 1%
    * 보고서 관리
    >[!NOTE]
    >
-   >**[!UICONTROL Administrators]** 는 Adobe Campaign Standard에서 트랜잭션 메시지(또는 메시지 템플릿)를 작성, 에디션 및 게시할 수 있는 유일한 제품 프로필입니다. 이 제품 프로필은 Adobe Campaign Standard를 사용하여 여행 중에 메시지를 전송하는 경우에 필요합니다.
+   >**[!UICONTROL Administrators]** 는 Adobe Campaign Standard에서 트랜잭션 메시지(또는 메시지 템플릿)를 작성, 에디션 및 게시할 수 있는 유일한 제품 프로필입니다. Adobe Campaign Standard을 사용하여 여행 중에 메시지를 전송하는 경우 이 제품 프로필이 필요합니다.
 
 * **[!UICONTROL Standard User]**: 경로 관리와 같은 기본적인 액세스 권한이 있는 사용자 이 제품 프로필에는 다음 권한이 포함됩니다.
    * 여정 관리
@@ -68,7 +68,9 @@ ht-degree: 1%
 
 제품 프로필을 만들고 권한 및 샌드박스 세트를 지정하려면:
 
-1. 관리 콘솔에서 선택합니다 **[!UICONTROL Journey Orchestration]**. 탭에서 **[!UICONTROL Product profile]** 을 클릭합니다 **[!UICONTROL New Profile]**.
+1. Admin Console에서 을 선택합니다 **[!UICONTROL Journey Orchestration]**. 탭에서 **[!UICONTROL Product profile]** 을 클릭합니다 **[!UICONTROL New Profile]**.
+
+   ![](../assets/user_management_5.png)
 
 1. 새 제품 프로필 **[!UICONTROL Profile Name]** 에 **[!UICONTROL Description]** 및 을 추가합니다. 프로필을 **[!UICONTROL Display name]** 변경하려면 선택을 취소하고 **[!UICONTROL Same as Profile Name]** 을 입력합니다 **[!UICONTROL Display name]**.
 
@@ -76,23 +78,28 @@ ht-degree: 1%
 
 1. 완료되면 을 클릭합니다 **[!UICONTROL Done]**. 이제 새 제품 프로필이 만들어집니다.
 
+   ![](../assets/user_management_6.png)
+
 1. 새 제품 프로필을 선택하여 권한 관리를 시작합니다. 탭에서 **[!UICONTROL Users]** 제품 프로필에 사용자를 추가합니다. For more on this, refer to this [page](../about/access-management.md#assigning-product-profile).
 
 1. 위의 설명과 동일한 단계를 수행하여 제품 프로필 **[!UICONTROL Admin]** 에 추가합니다.
 
 1. 탭에서 **[!UICONTROL Permissions]** 두 카테고리 중 하나를 **[!UICONTROL Sandbox]** 선택하거나 **[!UICONTROL Authoring]** 페이지를 열고 제품 프로필에 대한 권한을 추가 **[!UICONTROL Edit Permissions]** 또는 제거합니다.
 
-1. 권한 카테고리에서 **[!UICONTROL Sandbox]** 제품 프로필에 할당할 샌드박스를 선택합니다. 프로필 **[!UICONTROL Available Permissions Items]**&#x200B;에 샌드박스를 지정하려면 아래에서 더하기(+) 아이콘을 클릭합니다.
+   ![](../assets/user_management_7.png)
 
-   >[!NOTE]
-   >
-   >플랫폼 샌드박스는 베타 기능입니다.
-   <br>샌드박스에 대한 자세한 내용은 이 [섹션을 참조하십시오](../about/access-management.md#sandboxes).
+1. 권한 카테고리에서 **[!UICONTROL Sandbox]** 제품 프로필에 할당할 샌드박스를 선택합니다. 프로필 **[!UICONTROL Available Permissions Items]**&#x200B;에 샌드박스를 지정하려면 아래에서 더하기(+) 아이콘을 클릭합니다. 샌드박스에 대한 자세한 내용은 이 [섹션을 참조하십시오](../about/access-management.md#sandboxes).
+
+   ![](../assets/user_management_8.png)
 
 1. 필요한 경우 아래 **[!UICONTROL Included Permission Items]**&#x200B;에서 제품 프로필에 대한 권한을 제거하려면 X 아이콘을 클릭합니다.
 
+   ![](../assets/user_management_9.png)
+
 1. 권한 카테고리에서 **[!UICONTROL Authoring]** 위와 동일한 단계를 수행하여 제품 프로필에 권한을 추가합니다.
    <br>권한 간의 권한 및 호환성 [!DNL Journey Orchestration]에 대한 자세한 내용은 이 [섹션을 참조하십시오](../about/access-management.md#about-access-management).
+
+   ![](../assets/user_management_10.png)
 
 1. 완료되면 을 클릭합니다 **[!UICONTROL Save]**.
 
@@ -105,7 +112,7 @@ ht-degree: 1%
 
 사용자가 액세스할 제품 프로필을 지정하려면 다음을 수행합니다 [!DNL Journey Orchestration].
 
-1. 관리 콘솔에서 선택합니다 **[!UICONTROL Journey Orchestration]**.
+1. Admin Console에서 을 선택합니다 **[!UICONTROL Journey Orchestration]**.
 
    ![](../assets/user_management.png)
 
@@ -127,14 +134,10 @@ ht-degree: 1%
 
 ## 샌드박스 사용 {#sandboxes}
 
->[!NOTE]
->
->플랫폼 샌드박스는 베타 기능입니다.
-
 [!DNL Journey Orchestration] 인스턴스를 샌드박스라는 분리된 가상 환경으로 분할할 수 있습니다.
 샌드박스는 관리 콘솔에서 제품 프로필을 통해 할당됩니다. 샌드박스를 할당하는 방법에 대한 자세한 내용은 이 [섹션을 참조하십시오](../about/access-management.md#create-product-profile).
 
-[!DNL Journey Orchestration] 는 지정된 조직에 대해 만들어진 플랫폼 샌드박스를 반영합니다.
-Adobe Experience Platform 인스턴스에서 플랫폼 샌드박스를 생성하거나 재설정할 수 있습니다. 자세한 단계는 [샌드박스 사용자 안내서를](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) 참조하십시오.
+[!DNL Journey Orchestration] 는 해당 조직에 대해 만들어진 Platform 샌드박스를 반영합니다.
+Adobe Experience Platform 인스턴스에서 Platform 샌드박스를 생성하거나 재설정할 수 있습니다. 자세한 단계는 [샌드박스 사용자 안내서를](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) 참조하십시오.
 
 화면의 왼쪽 상단에 샌드박스 전환기 컨트롤이 있습니다. 샌드박스에서 다른 샌드박스로 전환하려면 전환기에서 현재 활성 샌드박스를 클릭하고 드롭다운 목록에서 다른 샌드박스를 선택합니다.
