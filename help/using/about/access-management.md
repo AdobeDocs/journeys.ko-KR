@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
+source-git-commit: c99ff0755a75c9262bf6ebe73172fe76d3f78f48
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 1%
@@ -78,7 +78,7 @@ ht-degree: 1%
 
 1. 완료되면 을 클릭합니다 **[!UICONTROL Done]**. 이제 새 제품 프로필이 만들어집니다.
 
-   ![](../assets/user_management_6.png)
+   ![](../assets/user_management_1.png)
 
 1. 새 제품 프로필을 선택하여 권한 관리를 시작합니다. 탭에서 **[!UICONTROL Users]** 제품 프로필에 사용자를 추가합니다. For more on this, refer to this [page](../about/access-management.md#assigning-product-profile).
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 
    ![](../assets/user_management_7.png)
 
-1. 권한 카테고리에서 **[!UICONTROL Sandbox]** 제품 프로필에 할당할 샌드박스를 선택합니다. 프로필 **[!UICONTROL Available Permissions Items]**&#x200B;에 샌드박스를 지정하려면 아래에서 더하기(+) 아이콘을 클릭합니다. 샌드박스에 대한 자세한 내용은 이 [섹션을 참조하십시오](../about/access-management.md#sandboxes).
+1. 권한 카테고리에서 **[!UICONTROL Sandboxes]** 제품 프로필에 할당할 샌드박스를 선택합니다. 프로필 **[!UICONTROL Available Permissions Items]**&#x200B;에 샌드박스를 지정하려면 아래에서 더하기(+) 아이콘을 클릭합니다. 샌드박스에 대한 자세한 내용은 이 [섹션을 참조하십시오](../about/access-management.md#sandboxes).
 
    ![](../assets/user_management_8.png)
 
