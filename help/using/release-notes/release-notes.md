@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 556dbe88d2717a387e5f0ce8795c9fa02a45ac6f
+source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 70%
+source-wordcount: '1095'
+ht-degree: 71%
 
 ---
 
@@ -35,22 +35,22 @@ ht-degree: 70%
 <tbody>
 <tr>
 <td>
-<p>다음과 같은 플랫폼 통합이 개선되었습니다.</p>
+<p>다음과 같은 Platform 통합 기능이 개선되었습니다.</p>
 <ul>
-<li><p>새로운 활동을 통해 플랫폼 세그먼트 입장/출구의 의견 수렴을 통해 사람들이 여행 중에 들어오거나 앞으로 이동할 수 있습니다. <a href="../building-journeys/event-activities.md#segment-qualification">자세한 내용</a></p>
+<li><p>새로운 활동을 통해 Platform 세그먼트 입장/출구의 의견 수렴을 통해 사람들이 여행 중에 들어오거나 앞으로 이동할 수 있습니다. <a href="../building-journeys/event-activities.md#segment-qualification">자세한 내용</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>새로운 세그먼트 탭 덕분에 이제 경로 관리 인터페이스를 종료하지 않고도 플랫폼 세그먼트를 만들고 편집할 <strong>수</strong> 있습니다.<a href="../segment/about-segments.md">자세한 내용</a></p>
+<li><p>이제 새 세그먼트 탭 덕분에 Journey Orchestration 인터페이스를 종료하지 않고도 Platform 세그먼트를 만들고 편집할 <strong>수</strong> 있습니다.<a href="../segment/about-segments.md">자세한 내용</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>단순 표현식 편집기에서 플랫폼 세그먼트가 이제 탐색 트리에 바로 나열되므로 "이 사람이 세그먼트 A에 속합니까?"와 같은 조건을 쉽게 설정할 수 있습니다.<a href="../segment/using-a-segment.md">자세한 내용</a></p>
+<li><p>단순 표현식 편집기에서 이제 Platform 세그먼트가 탐색 트리에 직접 나열되므로 "이 사람이 세그먼트 A에 속합니까?"와 같은 조건을 쉽게 설정할 수 있습니다.<a href="../segment/using-a-segment.md">자세한 내용</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>이제 여정 운영(Journey Orchestration)은 Adobe 데이터 플랫폼으로 이동 중 진행되는 모든 단계를 자동으로 전달합니다. 여기에는 발생할 수 있는 오류가 포함됩니다. 이 정보는 특정 경로 또는 모든 여행에 대한 경로 단계 이벤트에 대한 쿼리를 실행하여 보고 및 문제 해결을 수행하는 데 사용할 수 있습니다. <a href="../building-journeys/sharing-overview.md">자세한 내용</a></p>
+<li><p>이제 Journey Orchestration은 Adobe 데이터 Platform으로 이동 중에 수행되는 단계를 자동으로 전달합니다. 여기에는 발생할 수 있는 오류가 포함됩니다. 이 정보는 특정 경로 또는 모든 여행에 대한 경로 단계 이벤트에 대한 쿼리를 실행하여 보고 및 문제 해결을 수행하는 데 사용할 수 있습니다. <a href="../building-journeys/sharing-overview.md">자세한 내용</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>이제 고객 여정 통합 운영을 프로덕션 및 비프로덕션 플랫폼 샌드박스와 연결할 수 있습니다. 샌드박스는 베타 기능입니다. 유효 가용성: 2020년 6월 30일 <a href="../about/access-management.md#sandboxes">자세한 내용</a></p>
+<li><p>이제 Journey Orchestration을 프로덕션 및 비프로덕션 Platform 샌드박스에 연결할 수 있습니다. 샌드박스는 베타 기능입니다. <a href="../about/access-management.md#sandboxes">자세한 내용</a></p>
 </li>
 </td>
 </tr>
@@ -87,9 +87,9 @@ ht-degree: 70%
 
 이제 액세스 제어 기능을 통해 사용자 액세스 관리를 세부적으로 수행할 수 있습니다. 유효 가용성: 2020년 6월 30일 [자세한 내용](../about/access-management.md#create-product-profile)
 
-이제 APAC(호주 데이터 센터)에서 고객 여정 통합 운영을 이용할 수 있습니다. 유효 가용성: 2020년 6월 30일
+이제 APAC(호주 데이터 센터)에서 Journey Orchestration을 사용할 수 있습니다. 유효 가용성: 2020년 6월 30일
 
-여정 오케스트레이션 인터페이스는 일본어로 제공됩니다.
+Journey Orchestration 인터페이스는 일본어로 제공됩니다.
 
 ## 1분기 릴리스 - 2020년 3월 {#q1-release---march-2020}
 
