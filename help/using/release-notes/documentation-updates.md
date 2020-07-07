@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5d92b9d70a70700026a4715c6cb6a6c4ba565ba5
+source-git-commit: 18364d6e93b48e065b21bbaddee33e7ba4d9274d
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 59%
+source-wordcount: '657'
+ht-degree: 58%
 
 ---
 
@@ -30,11 +30,11 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 * Intelligent Services 통합에 새 섹션이 추가되었습니다. [자세한 내용](../ai-services/ai-services-overview.md)
 * 테스트 프로필 만들기에 새 섹션이 추가되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md#create-test-profile)
 * 경로 조건 또는 작업에서 **SegmentQualification** 노드를 사용하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../building-journeys/event-activities.md#segment-qualification)
-* 캠페인 트랜잭션 메시지 및 이벤트 게시에 메모가 추가되었습니다. 및 [](../action/working-with-adobe-campaign.md) 을 참조하십시오 [](../building-journeys/using-adobe-campaign-actions.md).
+* 캠페인 트랜잭션 메시지 및 이벤트 게시에 메모가 추가되었습니다. Adobe Campaign [작업](../action/working-with-adobe-campaign.md) 및 Adobe Campaign 작업 [사용을 참조하십시오](../building-journeys/using-adobe-campaign-actions.md).
 * Campaign Standard 인스턴스 URL을 테스트할 때 수행되는 검사에 정보가 추가되었습니다. [자세한 내용](../action/working-with-adobe-campaign.md)
 * AWS 또는 Azure 서버에서 호스팅되는 Campaign Standard 인스턴스와의 반응 이벤트 호환성에 대한 정보가 추가되었습니다. [자세한 내용](../building-journeys/event-activities.md#section_dhx_gss_dgb)
 * Campaign Standard 트랜잭션 메시징을 사용하여 작업할 때 매핑 규칙을 설정해야 하는 데 대한 메모가 추가되었습니다. [자세한 내용](../action/working-with-adobe-campaign.md)
-* 테스트 모드를 사용하여 이벤트를 트리거할 때 헤알 이벤트 생성에 대한 메모가 추가되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md#firing_events)
+* 테스트 모드를 사용하여 이벤트를 트리거할 때 실제 이벤트 생성에 대한 메모가 추가되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md#firing_events)
 
 ## 2020년 6월 {#june-2020}
 
