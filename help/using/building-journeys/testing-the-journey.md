@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
+source-git-commit: 0c7a9d679e2bf20c58aaea81e134c41b401e11ac
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1151'
 ht-degree: 1%
 
 ---
@@ -50,18 +50,76 @@ ht-degree: 1%
 ## 중요 정보 {#important_notes}
 
 * 테스트를 거친 여정에서 이벤트를 발생시키는 인터페이스가 제공되지만 Postman과 같은 타사 시스템에서 이벤트를 보낼 수도 있습니다.
-* 실시간 고객 프로필 서비스에서 &quot;테스트 프로필&quot;으로 플래그가 지정된 개인만이 테스트를 거친 여정에 참여할 수 있습니다. 테스트 프로필을 만드는 프로세스는 데이터 플랫폼에서 프로필을 만드는 프로세스와 동일합니다. 테스트 프로필 플래그가 올바른지 확인해야 합니다. 데이터 플랫폼 인터페이스의 세그먼트 섹션을 사용하여 데이터 플랫폼에서 테스트 프로필 세그먼트를 만들고 비배타적 목록을 볼 수 있습니다. 지금까지 전체 목록을 표시할 수 없습니다.
-* 테스트 모드는 네임스페이스를 사용하는 임시 여행에서만 사용할 수 있습니다. 실제로 테스트 모드는 방문자가 테스트 프로파일인지 여부를 확인해야 하므로 데이터 플랫폼에 도달해야 합니다.
+* 실시간 고객 프로필 서비스에서 &quot;테스트 프로필&quot;으로 플래그가 지정된 개인만이 테스트를 거친 여정에 참여할 수 있습니다. [](../building-journeys/testing-the-journey.md#create-test-profile)을 참조하십시오.
+* 테스트 모드는 네임스페이스를 사용하는 임시 여행에서만 사용할 수 있습니다. 실제로 테스트 모드는 방문자가 테스트 프로필인지 아닌지 확인하여 데이터 Platform에 도달할 수 있어야 합니다.
 * 테스트 세션 중 여정에 입력할 수 있는 최대 테스트 프로필 수는 100개입니다.
 * 테스트 모드를 비활성화하면 이전에 입력한 사람 또는 현재 테스트 사용자의 여정이 빈 것입니다.
 * 필요한 만큼 테스트 모드를 활성화/비활성화할 수 있습니다.
 * 테스트 모드를 활성화하면 경로를 수정할 수 없습니다. 테스트 모드에서는 경로를 직접 게시할 수 있지만 이전에 테스트 모드를 비활성화할 필요가 없습니다.
 
+## 테스트 프로필 만들기{#create-test-profile}
+
+테스트 프로필을 만드는 프로세스는 Experience Platform에서 프로파일을 만들 때와 동일합니다. API 호출을 통해 수행됩니다. 이 [페이지 보기](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/home.html)
+
+&quot;프로필 테스트 세부 사항&quot; 혼합이 포함된 프로필 스키마를 사용해야 합니다. 실제로 testProfile 플래그는 이 혼합에 포함되어 있습니다.
+
+프로파일을 만들 때 값을 전달해야 합니다. testprofile = true.
+
+기존 프로파일을 업데이트하여 testProfile 플래그를 &quot;true&quot;로 변경할 수도 있습니다.
+
+다음은 테스트 프로필을 만들기 위한 API 호출의 예입니다.
+
+```
+curl -X POST \
+'https://example.adobe.com/collection/xxxxxxxxxxxxxx' \
+-H 'Cache-Control: no-cache' \
+-H 'Content-Type: application/json' \
+-H 'Postman-Token: xxxxx' \
+-H 'cache-control: no-cache' \
+-H 'x-api-key: xxxxx' \
+-H 'x-gw-ims-org-id: xxxxx' \
+-d '{
+"header": {
+"msgType": "xdmEntityCreate",
+"msgId": "xxxxx",
+"msgVersion": "xxxxx",
+"xactionid":"xxxxx",
+"datasetId": "xxxxx",
+"imsOrgId": "xxxxx",
+"source": {
+"name": "Postman"
+},
+"schemaRef": {
+"id": "https://example.adobe.com/mobile/schemas/xxxxx",
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"body": {
+"xdmMeta": {
+"schemaRef": {
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"xdmEntity": {
+"_id": "xxxxx",
+"_mobile":{
+"ECID": "xxxxx"
+},
+"testProfile":true
+}
+}
+}'
+```
+
 ## 이벤트 실행 {#firing_events}
 
 이 **[!UICONTROL Trigger an event]** 단추를 사용하면 방문자가 해당 여정에 입장하도록 하는 이벤트를 구성할 수 있습니다.
 
-사전 요구 사항으로, 데이터 플랫폼에서 테스트 프로필로 플래그가 지정된 프로파일을 알고 있어야 합니다. 실제로 테스트 모드에서는 이러한 프로필만 여정에서 허용하며 이벤트에는 ID가 포함되어야 합니다. 예상 ID는 이벤트 구성에 따라 다릅니다. 예를 들어 ECID일 수 있습니다.
+>[!NOTE]
+>
+>테스트 모드에서 이벤트를 트리거하면 실제 이벤트가 생성되며, 이것은 이 이벤트 의견 수렴에 다른 여정에 도달함을 의미합니다.
+
+사전 요구 사항으로, 데이터 Platform에서 테스트 프로필로 플래그가 지정된 프로파일을 알고 있어야 합니다. 실제로 테스트 모드에서는 이러한 프로필만 여정에서 허용하며 이벤트에는 ID가 포함되어야 합니다. 예상 ID는 이벤트 구성에 따라 다릅니다. 예를 들어 ECID일 수 있습니다.
 
 여정에 여러 개의 이벤트가 포함된 경우 드롭다운 목록을 사용하여 이벤트를 선택합니다. 그런 다음 각 이벤트에 대해 전달된 필드와 이벤트 전송 실행을 구성합니다. 이 인터페이스는 이벤트 페이로드에서 올바른 정보를 전달하고 정보 유형이 올바른지 확인하는 데 도움이 됩니다. 테스트 모드는 나중에 사용하기 위해 테스트 세션에 사용된 마지막 매개 변수를 저장합니다.
 
