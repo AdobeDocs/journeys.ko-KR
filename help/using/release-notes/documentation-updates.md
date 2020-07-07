@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 5d92b9d70a70700026a4715c6cb6a6c4ba565ba5
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 74%
+source-wordcount: '649'
+ht-degree: 59%
 
 ---
 
@@ -23,6 +23,18 @@ ht-degree: 74%
 
 This page lists all the documentation updates for [!DNL Journey Orchestration].
 You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
+
+## 2020년 7월 {#july-2020}
+
+* 제한된 고객 세트에서 테스트되는 알파 기능에 새로운 섹션이 추가되었습니다. [자세한 내용](../alpha/alpha-overview.md)
+* Intelligent Services 통합에 새 섹션이 추가되었습니다. [자세한 내용](../ai-services/ai-services-overview.md)
+* 테스트 프로필 만들기에 새 섹션이 추가되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md#create-test-profile)
+* 경로 조건 또는 작업에서 **SegmentQualification** 노드를 사용하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../building-journeys/event-activities.md#segment-qualification)
+* 캠페인 트랜잭션 메시지 및 이벤트 게시에 메모가 추가되었습니다. 및 [](../action/working-with-adobe-campaign.md) 을 참조하십시오 [](../building-journeys/using-adobe-campaign-actions.md).
+* Campaign Standard 인스턴스 URL을 테스트할 때 수행되는 검사에 정보가 추가되었습니다. [자세한 내용](../action/working-with-adobe-campaign.md)
+* AWS 또는 Azure 서버에서 호스팅되는 Campaign Standard 인스턴스와의 반응 이벤트 호환성에 대한 정보가 추가되었습니다. [자세한 내용](../building-journeys/event-activities.md#section_dhx_gss_dgb)
+* Campaign Standard 트랜잭션 메시징을 사용하여 작업할 때 매핑 규칙을 설정해야 하는 데 대한 메모가 추가되었습니다. [자세한 내용](../action/working-with-adobe-campaign.md)
+* 테스트 모드를 사용하여 이벤트를 트리거할 때 헤알 이벤트 생성에 대한 메모가 추가되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md#firing_events)
 
 ## 2020년 6월 {#june-2020}
 
@@ -65,7 +77,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 * 인터페이스 변경 사항을 반영하여 모든 스크린샷이 업데이트되었습니다.
 * 테스트 모드 섹션이 업데이트되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md)
-* [이메일 전송 시간 최적화](../building-journeys/wait-activity.md) 및 [예측 피로도 점수](../usecase/leveraging-fatigue-scores.md) 섹션에 경고가 추가되었습니다. 이러한 기능은 Adobe Campaign Standard 데이터 서비스 기능을 사용하는 고객에게만 제공됩니다.
+* [이메일 전송 시간 최적화](../building-journeys/wait-activity.md) 및 [예측 피로도 점수](../ai-services/leveraging-fatigue-scores.md) 섹션에 경고가 추가되었습니다. 이러한 기능은 Adobe Campaign Standard 데이터 서비스 기능을 사용하는 고객에게만 제공됩니다.
 * 이제는 정지된 경로를 삭제할 수 있습니다. 관련 설명서 페이지가 업데이트되었습니다.
 * 이제는 경로에서 문제가 탐지되면 두 가지 색상이 표시됩니다. 오류의 경우 빨간색, 경고의 경우에는 주황색이 표시됩니다. [자세한 내용](../about/troubleshooting.md)
 * 고급 표현식 편집기 섹션이 업데이트되었습니다. [자세한 내용](../expression/expressionadvanced.md)
