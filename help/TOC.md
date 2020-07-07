@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Journey Orchestration 도움말
 index: true
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 85%
+source-wordcount: '373'
+ht-degree: 80%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 85%
    + [릴리스 정보](using/release-notes/release-notes.md)
    + [설명서 업데이트 정보](using/release-notes/documentation-updates.md)
 + Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [[!DNL 경로 관리] 정보](using/about/about-journey-orchestration.md)
+   + [[!DNL Journey Orchestration] 정보](using/about/about-journey-orchestration.md)
    + [시작](using/about/get-started.md)
    + [사용자 인터페이스](using/about/user-interface.md)
    + [액세스 관리](using/about/access-management.md)
@@ -71,7 +71,7 @@ ht-degree: 85%
          + [사용자 지정 작업 사용](using/building-journeys/using-custom-actions.md)
    + [여정 테스트](using/building-journeys/testing-the-journey.md)
    + [여정 게시](using/building-journeys/publishing-the-journey.md)
-   + 플랫폼과 고객 여정 공유 {#sharing-journey-steps}
+   + Platform을 통한 고객 여정 공유 {#sharing-journey-steps}
       + [고객 여정 단계 공유 개요](using/building-journeys/sharing-overview.md)
       + [journeySteps events 일반 필드](using/building-journeys/sharing-common-fields.md)
       + [journeyStep events 작업 실행 필드](using/building-journeys/sharing-execution-fields.md)
@@ -162,6 +162,10 @@ ht-degree: 85%
    + [여정 보고서](using/reporting/about-journey-reports.md)
    + [여정 보고서 만들기](using/reporting/creating-your-journey-reports.md)
    + [지표 및 차원](using/reporting/metrics-and-dimensions.md)
++ 지능형 서비스와 통합{#use-case-advanced}
+   + [AI 통합 정보](using/ai-services/ai-services-overview.md)
+   + [고객 여정 AI 활용](using/ai-services/leveraging-fatigue-scores.md)
+   + [고객 AI 활용](using/ai-services/leveraging-customer-ai.md)
 + 사용 사례{#use-cases-journeys}
    + 단순 사용 사례{#use-case-simple}
       + [단순 사용 사례](using/usecase/about-the-simple-use-case.md)
@@ -173,7 +177,11 @@ ht-degree: 85%
       + [이벤트 구성](using/usecase/configuring-the-events.md)
       + [데이터 소스 구성](using/usecase/configuring-the-data-sources.md)
       + [여정 구축](using/usecase/building-the-journey.md)
-   + [피로 점수 활용](using/usecase/leveraging-fatigue-scores.md)
 + API 작업{#working-with-apis}
    + [API 매핑](using/api/capping.md)
++ 알파 기능 {#alpha}
+   + [알파 기능 개요](using/alpha/alpha-overview.md)
+   + [사용자 인터페이스](using/alpha/alpha-interface.md)
+   + [세그먼트 트리거 활동](using/alpha/alpha-segment-trigger.md)
+   + [규칙 기반 이벤트](using/alpha/alpha-events.md)
 
