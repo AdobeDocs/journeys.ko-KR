@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
+source-git-commit: d0630be5b82d681a94eebe2e9a7196081717ec9d
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 4%
+source-wordcount: '886'
+ht-degree: 3%
 
 ---
 
@@ -28,6 +28,10 @@ Adobe Campaign Standard이 있는 경우 다음과 같은 바로 사용 가능�
 >이를 위해 기본 제공 작업을 구성해야 합니다. [](../action/working-with-adobe-campaign.md)을 참조하십시오.
 
 이러한 각 채널에 대해 Adobe Campaign Standard 트랜잭션 메시지 **템플릿을 선택합니다**. 실제로 메시지 전송 [!DNL Journey Orchestration] 솔루션은 아닙니다. 내장된 이메일, SMS 및 푸시 채널의 경우 트랜잭션 메시지를 통해 메시지 전송을 실행할 수 있습니다. 이는 Adobe Campaign Standard에서 특정 메시지 템플릿을 사용하려면 게시해야 한다는 의미입니다. 이 기능을 사용하는 방법을 알아보려면 이 [페이지를](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) 참조하십시오.
+
+>[!NOTE]
+>
+>Journey Orchestration에서 사용하려면 Campaign Standard 트랜잭션 메시지 및 관련 이벤트를 게시해야 합니다. 이벤트가 게시되었지만 메시지가 게시되지 않으면 Journey Orchestration 인터페이스에 표시되지 않습니다. 메시지가 게시되었지만 연결된 이벤트가 없으면 Journey Orchestration 인터페이스에 표시되지만 사용할 수는 없습니다.
 
 ![](../assets/journey59.png)
 
