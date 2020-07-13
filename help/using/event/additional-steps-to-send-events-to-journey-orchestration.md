@@ -1,6 +1,6 @@
 ---
-title: 여정 오케스트레이션으로 이벤트를 전송하는 추가 단계
-description: 여정 오케스트레이션으로 이벤트를 전송하는 추가 단계에 대해 알아봅니다.
+title: 이벤트를 Journey Orchestration으로 전송하는 추가 단계
+description: Journey Orchestration으로 이벤트를 전송하는 추가 단계에 대해 알아봅니다.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a71378264e6cd8a13c616bb867723f827d6dca69
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 3%
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 전송할 이벤트 **[!UICONTROL Streaming Ingestion APIs]** 와 에서 사용될 이벤트를 구성하려면 다음 [!DNL Journey Orchestration]단계를 따라야 합니다.
 
-1. 데이터 플랫폼 API에서 입력 URL을 가져옵니다(스트리밍 통합 API 참조 [](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/streaming/overview.html)).
+1. 데이터 Platform API에서 입력 URL을 가져옵니다(스트리밍 통합 [API 참조](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/streaming/overview.html)).
 1. 메뉴의 페이로드 미리 보기에서 페이로드를 **[!UICONTROL Event]** 복사합니다. [](../event/defining-the-payload-fields.md)을 참조하십시오.
 
 그런 다음 복사한 페이로드를 사용하여 이벤트를 스트리밍 통합 API로 푸시하는 데이터 시스템을 구성해야 합니다.
@@ -37,7 +37,7 @@ ht-degree: 3%
 1. API 호출의 본문 [!DNL Journey Orchestration] (&quot;데이터 섹션&quot;)에서 복사한 페이로드를 스트리밍 통합 API로 사용합니다. 예를 보려면 아래를 참조하십시오
 1. 페이로드에 있는 모든 변수를 가져올 위치를 결정합니다. 예: 이벤트가 주소를 전달해야 하는 경우 붙여넣은 페이로드에는 &quot;주소&quot;가 표시됩니다. &quot;string&quot;입니다. &quot;string&quot;은 메시지를 보낼 사람의 이메일인 오른쪽 값을 자동으로 채우는 변수로 대체되어야 합니다. 페이로드 미리 보기의 **[!UICONTROL Header]** 섹션에서 작업을 용이하게 할 것으로 예상되는 많은 값을 자동으로 채웁니다.
 1. 본문 유형으로 &quot;application/json&quot;을 선택합니다.
-1. 키 &quot;x-gw-ims-org-id&quot;를 사용하여 헤더에 IMS ORG ID를 전달합니다. 이 값에 대해 IMS ORG ID(&quot;XXX@AdobeOrg&quot;)를 사용하십시오.
+1. 키 &quot;x-gw-ims-org-id&quot;를 사용하여 헤더에 IMS 조직 ID를 전달합니다. 이 값에 대해 IMS 조직 ID(&quot;XXX@AdobeOrg&quot;)를 사용하십시오.
 
 다음은 스트리밍 통합 API 이벤트의 예입니다.
 
