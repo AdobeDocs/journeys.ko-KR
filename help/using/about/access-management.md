@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: c99ff0755a75c9262bf6ebe73172fe76d3f78f48
+source-git-commit: 94ef4e30d16b7d23dc029863fcd2d9f34173c433
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 1%
+source-wordcount: '841'
+ht-degree: 0%
 
 ---
 
@@ -21,9 +21,14 @@ ht-degree: 1%
 
 ## 액세스 관리 기본 정보 {#about-access-management}
 
-[!DNL Journey Orchestration] 사용자가 액세스할 수 있는 인터페이스의 일부를 정의하는 권한을 사용자에게 할당할 수 있습니다.
+[!DNL Journey Orchestration] 사용자에게 권한 집합을 할당하여 사용자가 액세스할 수 있는 인터페이스의 일부를 정의할 수 있습니다.
 
 관리 콘솔에 액세스할 수 있는 관리자가 관리할 수 있습니다. 관리 콘솔에 대한 자세한 내용은 이 [설명서를 참조하십시오](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+
+사용자가 액세스할 수 있으려면 [!DNL Journey Orchestration]다음과 같아야 합니다.
+
+* 사용 권한 [!DNL Journey Orchestration] 과 관련된 **[!UICONTROL product profile]** [!DNL Journey Orchestration] 일부.
+* 의 일부 [!DNL Adobe Experience Platform] . **[!UICONTROL product profile]**. 필수 사용 권한은 없습니다. 사용자는 **[!UICONTROL profile management]** [!DNL Journey Orchestration] 인터페이스에서 플랫폼 세그먼트를 만들고 편집할 수 있는 권한이 있어야 합니다. For more on this, refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/access-control/home.html#adobe-admin-console).
 
 관리 콘솔에서 다음 제품 프로필 중 하나를 사용자에게 할당할 수 있습니다.
 
@@ -36,6 +41,7 @@ ht-degree: 1%
    * 게시 여정
    * 이벤트, 데이터 소스 및 작업 관리
    * 보고서 관리
+
    >[!NOTE]
    >
    >**[!UICONTROL Administrators]** 는 Adobe Campaign Standard에서 트랜잭션 메시지(또는 메시지 템플릿)를 작성, 에디션 및 게시할 수 있는 유일한 제품 프로필입니다. Adobe Campaign Standard을 사용하여 여행 중에 메시지를 전송하는 경우 이 제품 프로필이 필요합니다.
@@ -46,7 +52,7 @@ ht-degree: 1%
    * 보고서 관리
 
 또한 기본 프로필이 사용자를 관리하기에 충분하지 않은 경우 자체 제품 프로필을 만들 수도 있습니다.
-사용자는 항상 제품 프로필에 연결되어 있어야 하며 다음과 같은 특정 빌드 권한을 할당할 수 있습니다.
+사용자는 항상 제품 프로필에 연결되어 있어야 하며 다음과 같은 특정 빌드-인 권한을 할당할 수 있습니다.
 
 * **[!UICONTROL Read journeys]**
 * **[!UICONTROL Read reports]**
@@ -56,7 +62,7 @@ ht-degree: 1%
 * **[!UICONTROL Publish journeys]**
 * **[!UICONTROL Manage reports]**
 
-권한 간의 호환성 및 다양한 기능 [!DNL Journey Orchestration]을 확인할 수 있습니다.
+사용 권한과 다양한 기능 간의 호환성 아래에서 확인할 수 [!DNL Journey Orchestration]있습니다.
 
 ![](../assets/journey_permission.png)
 
@@ -97,7 +103,7 @@ ht-degree: 1%
    ![](../assets/user_management_9.png)
 
 1. 권한 카테고리에서 **[!UICONTROL Authoring]** 위와 동일한 단계를 수행하여 제품 프로필에 권한을 추가합니다.
-   <br>권한 간의 권한 및 호환성 [!DNL Journey Orchestration]에 대한 자세한 내용은 이 [섹션을 참조하십시오](../about/access-management.md#about-access-management).
+   <br>권한과 사용 권한 간의 호환성에 대한 자세한 내용 [!DNL Journey Orchestration]은 이 [섹션을 참조하십시오](../about/access-management.md#about-access-management).
 
    ![](../assets/user_management_10.png)
 
@@ -108,7 +114,7 @@ ht-degree: 1%
 ## 제품 프로필 할당 {#assigning-product-profile}
 
 제품 프로필은 조직 내에서 동일한 권한을 공유하는 사용자 집합에 할당됩니다.
-권한이 할당된 모든 기본 제품 프로필 목록은 이 섹션에서 찾을 수 있습니다.
+이 섹션에서는 권한이 할당된 모든 기본 제품 프로필 목록을 확인할 수 있습니다.
 
 사용자가 액세스할 제품 프로필을 지정하려면 다음을 수행합니다 [!DNL Journey Orchestration].
 
