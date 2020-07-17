@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '350'
 ht-degree: 10%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 10%
 
 # Adobe Experience Platform 데이터 소스 {#concept_zrb_nqt_52b}
 
-경험 플랫폼 데이터 소스는 실시간 고객 프로필 서비스에 대한 연결을 정의합니다. 이 데이터 소스는 기본으로 제공되며 사전 구성되어 있습니다. 삭제할 수 없습니다. 이 데이터 소스는 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하기 위해 고안되었습니다(예: 여정에 참여한 사람이 여성인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다. 실시간 고객 프로필 서비스에 대한 자세한 내용은 이 [페이지를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/home.html).
+Adobe Experience Platform 데이터 소스는 실시간 고객 프로필 서비스에 대한 연결을 정의합니다. 이 데이터 소스는 기본으로 제공되며 사전 구성되어 있습니다. 삭제할 수 없습니다. 이 데이터 소스는 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하기 위해 고안되었습니다(예: 여정에 참여한 사람이 여성인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다. 실시간 고객 프로필 서비스에 대한 자세한 내용은 이 [페이지를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/home.html).
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ ht-degree: 10%
 
 다음은 필드 그룹을 내장 데이터 소스에 추가하는 기본 단계입니다.
 
-1. 데이터 소스 목록에서 내장된 경험 플랫폼 데이터 소스를 선택합니다.
+1. 데이터 소스 목록에서 내장 Adobe Experience Platform 데이터 소스를 선택합니다.
 
    화면 오른쪽에 데이터 소스 구성 창이 열립니다.
 
@@ -43,7 +43,7 @@ ht-degree: 10%
 
    ![](../assets/journey24.png)
 
-1. 드롭다운에서 스키마를 **[!UICONTROL Schema]** 선택합니다. 이 필드에는 플랫폼에서 사용할 수 있는 프로필 및 경험 이벤트 스키마가 나열됩니다. 스키마 만들기는 에서 수행되지 않습니다 [!DNL Journey Orchestration]. 데이터 플랫폼에서 수행됩니다.
+1. 드롭다운에서 스키마를 **[!UICONTROL Schema]** 선택합니다. 이 필드는 Adobe Experience Platform에서 사용할 수 있는 프로필 및 경험 이벤트 스키마를 나열합니다. 스키마 만들기는 에서 수행되지 않습니다 [!DNL Journey Orchestration]. Adobe Experience Platform에서 공연합니다
 1. 사용할 필드를 선택합니다.
 1. 캐시 지속 시간을 정의합니다.
 1. 을 클릭합니다 **[!UICONTROL Save]**.
