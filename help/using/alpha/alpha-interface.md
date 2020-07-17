@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 69809da5cb96099baa20ea130a3cf7650b26c094
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Adobe Experience Platform과 일관된 인터페이스를 제공하기 위해 �
 * 메뉴가 인터페이스 맨 위에서 왼쪽으로 이동했습니다.
 * 관리 기능을 하나의 대시보드로 그룹화합니다.
 
-인터페이스에서 사용하고 탐색하는 방법(검색 및 필터링, 데이터 Platform 필드, 바로 가기)에 대한 글로벌 개념이 [이 섹션에 나와 있습니다](../about/user-interface.md).
+인터페이스에서 사용하고 탐색하는 방법(검색 및 필터링, Adobe Experience Platform 필드, 바로 가기)에 대한 글로벌 개념이 [이 섹션에 나와 있습니다](../about/user-interface.md).
 
 ## 기능 [!DNL Journey Orchestration] 액세스 {#accessing-journey-orchestration-functionalities}
 
@@ -36,7 +36,7 @@ Adobe Experience Platform과 일관된 인터페이스를 제공하기 위해 �
 
 ![](../assets/interface-journeys.png)
 
-이 **[!UICONTROL Segments]** 메뉴를 통해 Experience Platform 세그먼트에 액세스하고 만들 수 있습니다. Platform 세그먼트 [정보를 참조하십시오](../segment/about-segments.md).
+이 **[!UICONTROL Segments]** 메뉴를 통해 Adobe Experience Platform 세그먼트에 액세스하고 만들 수 있습니다. Adobe Experience Platform 세그먼트 [정보를 참조하십시오](../segment/about-segments.md).
 
 ![](../assets/interface-segments.png)
 
