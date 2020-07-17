@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '236'
 ht-degree: 6%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 내장 데이터 소스에서 피로 점수 필드를 선택하려면 다음 단계를 수행하십시오.
 
-1. 상단 메뉴에서 **[!UICONTROL Data Sources]** 탭을 클릭하고 내장 Experience Platform 데이터 소스를 선택합니다.
+1. 상단 메뉴에서 **[!UICONTROL Data Sources]** 탭을 클릭하고 내장 Adobe Experience Platform 데이터 소스를 선택합니다.
 
    ![](../assets/journey23.png)
 
