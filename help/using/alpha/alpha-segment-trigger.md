@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c8d28b51f14ba511a860874e45d341a6977c58fa
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 ## 세그먼트 트리거 활동 정보 {#about-segment-trigger-actvitiy}
 
-세그먼트 트리거 활동을 사용하면 Experience Platform 세그먼트에 속하는 모든 개인이 여정을 시작할 수 있습니다. 여행 입구는 한 번 또는 정기적으로 실행될 수 있습니다.
+세그먼트 트리거 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 시작할 수 있습니다. 여행 입구는 한 번 또는 정기적으로 실행될 수 있습니다.
 
-Experience Platform에 Gold 고객 세그먼트가 있다고 가정합시다. 세그먼트 트리거 활동을 사용하면 Gold 고객 세그먼트에 속한 모든 개인이 여정을 시작하고 모든 경로 기능을 활용할 수 있는 개인화된 여정으로 이동할 수 있습니다. 조건, 타이머, 이벤트, 작업.
+Adobe Experience Platform에 Gold 고객 세그먼트가 있다고 가정합시다. 세그먼트 트리거 활동을 사용하면 Gold 고객 세그먼트에 속한 모든 개인이 여정을 시작하고 모든 경로 기능을 활용할 수 있는 개인화된 여정으로 이동할 수 있습니다. 조건, 타이머, 이벤트, 작업.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Experience Platform에 Gold 고객 세그먼트가 있다고 가정합시다. �
 
    ![](../assets/segment-trigger-schedule.png)
 
-1. 필드에서 **[!UICONTROL Segment]** 여정에 입력할 Experience Platform 세그먼트를 선택한 다음 을 클릭합니다 **[!UICONTROL Save]**.
+1. 필드에서 **[!UICONTROL Segment]** 여정에 입력할 Adobe Experience Platform 세그먼트를 선택한 다음 을 클릭합니다 **[!UICONTROL Save]**.
 
    ![](../assets/segment-trigger-segment-selection.png)
 
@@ -69,6 +69,6 @@ Experience Platform에 Gold 고객 세그먼트가 있다고 가정합시다. �
 
    >[!IMPORTANT]
    >
-   >Experience Platform 세그먼트는 하루에 한 번(**일괄** 세그먼트) 또는 실시간(**스트리밍된** 세그먼트)으로 계산된다는 점을 염두에 두십시오.
+   >Adobe Experience Platform 세그먼트는 하루에 한 번(**일괄** 세그먼트) 또는 실시간(**스트리밍된** 세그먼트)으로 계산된다는 점을 염두에 두십시오.
    >
-   >선택한 세그먼트가 스트리밍되는 경우, 이 세그먼트에 속한 개인이 잠재적으로 실시간으로 해당 여정에 참여할 수 있습니다. 세그먼트가 일괄 처리인 경우 이 세그먼트에 새로 자격이 있는 사람은 Experience Platform에서 세그먼트 계산이 실행될 때 여정에 잠재적으로 참여할 수 있습니다.
+   >선택한 세그먼트가 스트리밍되는 경우, 이 세그먼트에 속한 개인이 잠재적으로 실시간으로 해당 여정에 참여할 수 있습니다. 세그먼트가 일괄 처리인 경우 이 세그먼트에 새로 자격이 있는 사람은 Adobe Experience Platform에서 세그먼트 계산이 실행될 때 여정에 잠재적으로 참여할 수 있습니다.
