@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e2e95090df708d72ade6366a62ea42eff3ac7f2
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 95%
+source-wordcount: '1271'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 
 # 외부 데이터 소스 {#concept_t2s_kqt_52b}
 
-외부 데이터 소스를 사용하면 서드파티 시스템에 대한 연결을 정의할 수 있습니다. 호텔 예약 시스템을 사용하여 특정인의 객실 투숙 여부를 확인하는 경우를 예로 들 수 있습니다. 기본 Experience Platform 데이터 소스와는 달리 외부 데이터 소스는 필요한 수만큼 만들 수 있습니다.
+외부 데이터 소스를 사용하면 서드파티 시스템에 대한 연결을 정의할 수 있습니다. 호텔 예약 시스템을 사용하여 특정인의 객실 투숙 여부를 확인하는 경우를 예로 들 수 있습니다. 내장된 Adobe Experience Platform 데이터 소스와 달리 외부 데이터 소스를 원하는 만큼 만들 수 있습니다.
 
 POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다. 그리고 API 키와 기본/사용자 지정 인증 모드가 지원됩니다.
 
@@ -67,6 +67,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
    * **[!UICONTROL Value]**: &quot;1234&quot;(API 키의 값)
    * **[!UICONTROL Name]**: &quot;appid&quot;(API 키 매개 변수 이름)
    * **[!UICONTROL Location]**: &quot;쿼리 매개 변수&quot;(API 키가 URL에 포함됨)
+
    ![](../assets/journey28.png)
 
 1. **[!UICONTROL Add a New Field Group]**&#x200B;를 클릭하여 각 API 매개 변수용 새 필드 그룹을 추가합니다. 필드 그룹 이름에는 공백이나 특수 문자를 사용하지 마십시오. 이 예제에서는 각 매개 변수 세트(city, long/lat)용으로 하나씩 두 개의 필드 그룹을 만들어야 합니다.
