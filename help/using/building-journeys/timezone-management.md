@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '252'
 ht-degree: 2%
 
 ---
@@ -45,9 +45,9 @@ ht-degree: 2%
 
 ## 프로필을 사용하여 여정 시간대 정의 {#timezone-from-profiles}
 
-여정의 시작 이벤트에 네임스페이스가 있는 경우, 해당 여정이 데이터 플랫폼의 실시간 고객 프로필 서비스에 도달할 수 있음을 의미하며, 시간대는 여정에서 이동하는 개인의 프로필에 지정된 시간대를 사용하여 미리 정의됩니다.
+여정의 시작 이벤트에 네임스페이스가 있는 경우, 해당 여정이 Adobe Experience Platform의 실시간 고객 프로필 서비스에 도달할 수 있음을 의미하며, 시간대는 여정에서 이동하는 개인의 프로필에 지정된 시간대로 미리 정의됩니다.
 
-경험 플랫폼 프로필에 시간대가 정의된 경우 여정에서 검색할 수 있습니다.
+Adobe Experience Platform 프로필에 시간대가 정의된 경우 여정에서 검색할 수 있습니다.
 
 개인의 프로필에 시간대가 포함되어 있지 않으면 검색된 시간대가 표준 시간대 필드에 정의된 시간대가 됩니다.
 
