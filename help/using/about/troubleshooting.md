@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -43,13 +43,15 @@ ht-degree: 0%
 
 전체 경로의 오류와 경고가 목록에 먼저 나타납니다. 특정 활동과 관련된 오류 및 경고는 왼쪽에서 오른쪽으로 이동 경로의 활동 순서 또는 외양별로 나열됩니다. 이 **[!UICONTROL Copy details]** 단추는 지원 팀이 문제를 해결하는 데 사용할 수 있는 여정에 대한 기술 정보를 복사합니다.
 
+작업 또는 조건에 오류가 발생하면 개별 경로의 진행이 중지됩니다. 이 작업을 계속 진행할 수 있는 유일한 방법은 상자를 선택하는 것입니다 **[!UICONTROL Add an alternative path in case of a timeout or an error]**. [](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
+
 ## 이벤트가 제대로 전송되었는지 확인{#section_rqz_11t_dgb}
 
 여정의 시작점은 항상 이벤트입니다. Postman과 같은 도구를 사용하여 테스트를 수행할 수 있습니다.
 
 이러한 도구를 통해 보내는 API 호출이 올바르게 전송되었는지 여부를 확인할 수 있습니다. 오류가 다시 발생하면 호출에 문제가 있음을 의미합니다. 페이로드, 헤더(특히 조직 ID) 및 대상 URL을 다시 확인합니다. 관리자에게 표시할 올바른 URL이 무엇인지 물을 수 있습니다.
 
-이벤트는 소스에서 다음으로 직접 푸시되지 않습니다 [!DNL Journey Orchestration]. 실제로 Adobe Experience Platform의 스트리밍 통합 API를 [!DNL Journey Orchestration] 사용합니다. 따라서 이벤트 관련 문제가 발생하면 스트리밍 통합 API 문제 해결에 대한 이 [페이지를](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) 참조할 수 있습니다.
+이벤트는 소스에서 다음으로 직접 푸시되지 않습니다 [!DNL Journey Orchestration]. 실제로 Adobe Experience Platform의 스트리밍 통합 API에 의존합니다. [!DNL Journey Orchestration] 따라서 이벤트 관련 문제가 발생하면 스트리밍 통합 API 문제 해결에 대한 이 [페이지를](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) 참조할 수 있습니다.
 
 ## 사람들이 여행을 들어오는지 확인{#section_x4v_zzs_dgb}
 
