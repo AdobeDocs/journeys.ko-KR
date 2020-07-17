@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,6 @@ ht-degree: 0%
 
 시간대는 여정 수준에서 정의됩니다.
 
-고정 시간대를 입력하거나 경험 플랫폼 프로필을 사용하여 여정 시간대를 정의할 수 있습니다.
+고정 시간대를 입력하거나 Adobe Experience Platform 프로필을 사용하여 여정 시간대를 정의할 수 있습니다.
 
 시간대 관리에 대한 자세한 내용은 을 참조하십시오 [](../building-journeys/timezone-management.md).
