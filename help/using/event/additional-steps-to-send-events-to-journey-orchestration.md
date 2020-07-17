@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a71378264e6cd8a13c616bb867723f827d6dca69
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '319'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 전송할 이벤트 **[!UICONTROL Streaming Ingestion APIs]** 와 에서 사용될 이벤트를 구성하려면 다음 [!DNL Journey Orchestration]단계를 따라야 합니다.
 
-1. 데이터 Platform API에서 입력 URL을 가져옵니다(스트리밍 통합 [API 참조](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/streaming/overview.html)).
+1. Adobe Experience Platform API에서 입구 URL을 가져옵니다(스트리밍 통합 [API 참조](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/streaming/overview.html)).
 1. 메뉴의 페이로드 미리 보기에서 페이로드를 **[!UICONTROL Event]** 복사합니다. [](../event/defining-the-payload-fields.md)을 참조하십시오.
 
 그런 다음 복사한 페이로드를 사용하여 이벤트를 스트리밍 통합 API로 푸시하는 데이터 시스템을 구성해야 합니다.
