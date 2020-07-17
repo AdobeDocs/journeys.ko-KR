@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1335'
 ht-degree: 4%
 
 ---
@@ -37,7 +37,7 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 >[!NOTE]
 >
->다른 브라우저 탭에서 경로 캔버스를 열려면 **Control 키** 또는 **Command 키를** 누른 상태에서 해당 경로를 클릭합니다.
+>다른 브라우저 탭에서 경로의 캔버스를 열려면 **Control** 또는 **Command** 키를 누른 상태에서 해당 여정을 클릭합니다.
 
 ## 팔레트 {#palette}
 
@@ -49,9 +49,9 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 ![](../assets/journey38.png)
 
-왼쪽 상단 모서리의 **사용 불가능한 항목** 표시 아이콘을 사용하면 팔레트에서 사용할 수 없는 요소를 숨기거나 표시할 수 있습니다. 예를 들어 여정에서 사용되는 것과 다른 네임스페이스를 사용하는 이벤트입니다. 기본적으로 사용할 수 없는 항목은 숨겨집니다. 표시하려면 해당 항목이 흐리게 표시됩니다.
+The **[!UICONTROL Show disabled items]** icon in the top left corner allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. 기본적으로 사용할 수 없는 항목은 숨겨집니다. 표시하려면 해당 항목이 흐리게 표시됩니다.
 
-검색 **필드를** 사용할 때 각 캔버스 활동 카테고리에 대한 결과 수가 표시됩니다.
+필드를 사용할 때 **[!UICONTROL Search]** 각 캔버스 활동 카테고리에 대한 결과 수가 표시됩니다.
 
 ![](../assets/palette-filter.png)
 
