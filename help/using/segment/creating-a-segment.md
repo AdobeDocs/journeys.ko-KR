@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '141'
 ht-degree: 5%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 5%
 
 # 세그먼트 만들기 {#creating-a-segment}
 
-플랫폼 세그멘테이션 서비스를 사용하여 [세그먼트를 만들거나](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) , 직접 액세스하여 만들 수 있습니다 [!DNL Journey Orchestration].
+Adobe Experience Platform 세그멘테이션 서비스를 사용하여 [세그먼트를](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) 만들거나, 직접 액세스하여 만들 수 있습니다 [!DNL Journey Orchestration].
 
-1. 상단 메뉴에서 **[!UICONTROL Segments]** 탭을 클릭합니다. 플랫폼 세그먼트 목록이 표시됩니다. 목록에서 특정 세그먼트를 검색할 수 있습니다.
+1. 상단 메뉴에서 **[!UICONTROL Segments]** 탭을 클릭합니다. Adobe Experience Platform 세그먼트 목록이 표시됩니다. 목록에서 특정 세그먼트를 검색할 수 있습니다.
 
 ![](../assets/segment1.png)
 
@@ -32,4 +32,4 @@ ht-degree: 5%
 
 ![](../assets/segment2.png)
 
-이제 세그먼트를 사용하여 조건을 만들거나 **세그먼트 자격** 이벤트를 추가할 수 있습니다. 조건 [및 이벤트 활동에서 세그먼트](../segment/using-a-segment.md) 사용을 [참조하십시오](../building-journeys/event-activities.md#segment-qualification).
+이제 여정에서 세그먼트를 사용하여 조건을 만들거나 **[!UICONTROL Segment qualification]** 이벤트를 추가할 수 있습니다. 조건 [및 이벤트 활동에서 세그먼트](../segment/using-a-segment.md) 사용을 [참조하십시오](../building-journeys/segment-qualification-events.md).
