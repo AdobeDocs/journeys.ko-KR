@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Journey Orchestration 도움말
 index: true
 translation-type: tm+mt
-source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 80%
+source-wordcount: '382'
+ht-degree: 78%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 80%
    + [릴리스 정보](using/release-notes/release-notes.md)
    + [설명서 업데이트 정보](using/release-notes/documentation-updates.md)
 + Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [[!DNL Journey Orchestration] 정보](using/about/about-journey-orchestration.md)
+   + [정보 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [시작](using/about/get-started.md)
    + [사용자 인터페이스](using/about/user-interface.md)
    + [액세스 관리](using/about/access-management.md)
@@ -59,7 +59,11 @@ ht-degree: 80%
       + [여정 종료](using/building-journeys/terminating-a-journey.md)
       + [시간대 관리](using/building-journeys/timezone-management.md)
    + 활동 {#about-journey-building}
-      + [이벤트 활동](using/building-journeys/event-activities.md)
+      + 이벤트 활동 {#events-activities}
+         + [이벤트 활동 정보](using/building-journeys/event-activities.md)
+         + [일반 이벤트](using/building-journeys/general-events.md)
+         + [반응 이벤트](using/building-journeys/reaction-events.md)
+         + [세그먼트 자격 이벤트](using/building-journeys/segment-qualification-events.md)
       + 오케스트레이션 활동 {#orchestration-activities}
          + [오케스트레이션 활동](using/building-journeys/about-orchestration-activities.md)
          + [조건 활동](using/building-journeys/condition-activity.md)
@@ -71,7 +75,7 @@ ht-degree: 80%
          + [사용자 지정 작업 사용](using/building-journeys/using-custom-actions.md)
    + [여정 테스트](using/building-journeys/testing-the-journey.md)
    + [여정 게시](using/building-journeys/publishing-the-journey.md)
-   + Platform을 통한 고객 여정 공유 {#sharing-journey-steps}
+   + Adobe Experience Platform을 통한 고객 여정 공유 {#sharing-journey-steps}
       + [고객 여정 단계 공유 개요](using/building-journeys/sharing-overview.md)
       + [journeySteps events 일반 필드](using/building-journeys/sharing-common-fields.md)
       + [journeyStep events 작업 실행 필드](using/building-journeys/sharing-execution-fields.md)
