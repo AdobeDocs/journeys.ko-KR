@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## fetchTypeInError
 
-가져오기 시작 오류가 플랫폼 또는 사용자 지정 데이터 소스에 있는지 정의합니다.
+가져오기 시작 오류가 Adobe Experience Platform 또는 사용자 지정 데이터 소스에 있는지 정의합니다.
 
 유형: 문자열
 
@@ -93,13 +93,13 @@ ht-degree: 0%
 
 ## fetchPlatformTotalTime
 
-데이터 플랫폼에서 데이터를 가져오는 데 걸리는 총 시간(밀리 단위). 참고: 이 시간은 엔진이 농축 이벤트를 우라늄 서비스에 보내고 응답을 받는 시점부터 계산됩니다.
+Adobe Experience Platform에서 데이터를 가져오는 데 걸린 총 시간입니다. 참고: 이 시간은 엔진이 농축 이벤트를 우라늄 서비스에 보내고 응답을 받는 시점부터 계산됩니다.
 
 유형: long
 
 ## fetchPlatformCount
 
-플랫폼에서 데이터를 가져오는 횟수입니다.
+Adobe Experience Platform에서 데이터를 가져오는 횟수입니다.
 
 유형: long
 
