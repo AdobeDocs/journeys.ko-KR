@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 11c266b035bc1bb83cccf4e3958e54e1eb00e9f4
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '708'
 ht-degree: 1%
 
 ---
@@ -49,12 +49,15 @@ ht-degree: 1%
 
 ![](../assets/journey64.png)
 
-플랫폼 세그멘테이션 서비스를 사용하여 [세그먼트를](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) 만드는 경우 고객 여정 조건에서 이러한 세그먼트를 활용할 수 있습니다. 조건에 [세그먼트 사용을 참조하십시오](../segment/using-a-segment.md).
+Adobe Experience Platform 세그멘테이션 서비스를 사용하여 세그먼트를 [](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) 만드는 경우 고객 여정 조건에서 이러한 세그먼트를 활용할 수 있습니다. 조건에 [세그먼트 사용을 참조하십시오](../segment/using-a-segment.md).
 
 
 >[!NOTE]
 >
 >단순 편집기를 사용하여 시간 시리즈(예: 구매 목록, 메시지 클릭 수)에서 쿼리를 수행할 수 없습니다. 이를 위해서는 고급 편집기를 사용해야 합니다. [](../expression/expressionadvanced.md)을 참조하십시오.
+
+
+작업 또는 조건에 오류가 발생하면 개별 경로의 진행이 중지됩니다. 이 작업을 계속 진행할 수 있는 유일한 방법은 상자를 선택하는 것입니다 **[!UICONTROL Add an alternative path in case of a timeout or an error]**. [](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
 
 ## 데이터 소스 조건 {#data_source_condition}
 
