@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 71%
+source-wordcount: '1107'
+ht-degree: 66%
 
 ---
 
@@ -35,22 +35,22 @@ ht-degree: 71%
 <tbody>
 <tr>
 <td>
-<p>다음과 같은 Platform 통합 기능이 개선되었습니다.</p>
+<p>다음과 같은 Adobe Experience Platform 통합 기능이 개선되었습니다.</p>
 <ul>
-<li><p>새로운 활동을 통해 Platform 세그먼트 입장/출구의 의견 수렴을 통해 사람들이 여행 중에 들어오거나 앞으로 이동할 수 있습니다. <a href="../building-journeys/event-activities.md#segment-qualification">자세한 내용</a></p>
+<li><p>새로운 활동을 통해 Adobe Experience Platform 세그먼트 입장/출구의 의견 수렴을 통해 사람들이 여행 중에 들어오거나 앞으로 이동할 수 있습니다. <a href="../building-journeys/segment-qualification-events.md">자세한 내용</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>이제 새 세그먼트 탭 덕분에 Journey Orchestration 인터페이스를 종료하지 않고도 Platform 세그먼트를 만들고 편집할 <strong>수</strong> 있습니다.<a href="../segment/about-segments.md">자세한 내용</a></p>
+<li><p>이제 새 세그먼트 탭 덕분에 Journey Orchestration 인터페이스를 종료하지 않고도 Adobe Experience Platform 세그먼트를 만들고 편집할 <strong>수</strong> 있습니다.<a href="../segment/about-segments.md">자세한 내용</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>단순 표현식 편집기에서 이제 Platform 세그먼트가 탐색 트리에 직접 나열되므로 "이 사람이 세그먼트 A에 속합니까?"와 같은 조건을 쉽게 설정할 수 있습니다.<a href="../segment/using-a-segment.md">자세한 내용</a></p>
+<li><p>단순 표현식 편집기에서 이제 Adobe Experience Platform 세그먼트가 탐색 트리에 직접 나열되므로 "이 사람이 세그먼트 A에 속합니까?"와 같은 조건을 쉽게 설정할 수 있습니다.<a href="../segment/using-a-segment.md">자세한 내용</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>이제 Journey Orchestration은 Adobe 데이터 Platform으로 이동 중에 수행되는 단계를 자동으로 전달합니다. 여기에는 발생할 수 있는 오류가 포함됩니다. 이 정보는 특정 경로 또는 모든 여행에 대한 경로 단계 이벤트에 대한 쿼리를 실행하여 보고 및 문제 해결을 수행하는 데 사용할 수 있습니다. <a href="../building-journeys/sharing-overview.md">자세한 내용</a></p>
+<li><p>Journey Orchestration은 이제 Adobe Experience Platform으로, 여정에서 행해지는 단계들을 자동적으로 통과하고 있습니다. 여기에는 발생할 수 있는 오류가 포함됩니다. 이 정보는 특정 경로 또는 모든 여행에 대한 경로 단계 이벤트에 대한 쿼리를 실행하여 보고 및 문제 해결을 수행하는 데 사용할 수 있습니다. <a href="../building-journeys/sharing-overview.md">자세한 내용</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>이제 Journey Orchestration을 프로덕션 및 비프로덕션 Platform 샌드박스에 연결할 수 있습니다. 샌드박스는 베타 기능입니다. <a href="../about/access-management.md#sandboxes">자세한 내용</a></p>
+<li><p>이제 Journey Orchestration을 프로덕션 및 비프로덕션 Adobe Experience Platform 샌드박스에 연결할 수 있습니다. 샌드박스는 베타 기능입니다. <a href="../about/access-management.md#sandboxes">자세한 내용</a></p>
 </li>
 </td>
 </tr>
@@ -130,7 +130,7 @@ Journey Orchestration 인터페이스는 일본어로 제공됩니다.
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li><strong>시간대</strong> 드롭다운 목록에서 특정 시간대를 선택할 수 있습니다. 기본적으로는 브라우저의 시간대가 사용됩니다. </li>
-<li><strong>프로필 시간대</strong> 확인란을 선택하면 경로를 입력하는 사용자의 Experience Platform 프로필 시간대(사용 가능한 경우)를 사용할 수 있습니다. 이 확인란을 선택하지 않으면 드롭다운 목록에서 정의한 시간대가 사용됩니다. 이 기능은 네임스페이스가 없는 이벤트를 사용하는 경로와는 호환되지 않습니다.</li>
+<li>The <strong>Profile Timezone</strong> checkbox allows you to use the Adobe Experience Platform Profile timezone of the person entering the journey, if available. 이 확인란을 선택하지 않으면 드롭다운 목록에서 정의한 시간대가 사용됩니다. 이 기능은 네임스페이스가 없는 이벤트를 사용하는 경로와는 호환되지 않습니다.</li>
 </ul>
 <p>자세한 내용은 <a href="../building-journeys/changing-properties.md#timezone">속성 변경</a> 및 <a href="../building-journeys/timezone-management.md">시간대 관리</a> 섹션을 참조하십시오.</p>
 </td>
@@ -189,7 +189,7 @@ Journey Orchestration 인터페이스는 일본어로 제공됩니다.
 
 * 이제는 정지된 경로를 **삭제**&#x200B;할 수 있습니다. 그러면 삭제한 경로와 연관된 보고서를 사용할 수 없게 됩니다.
 
-* 이제 **데이터 플랫폼 필드**(XDM 형식)를 검색할 때 필드 이름과 함게 표시 이름도 표시됩니다. 이 정보는 Experience Data Model의 스키마 정의에서 검색됩니다. 사용 가능한 경우 대체 표시 이름이 나타납니다. 사용자에게 친숙한 이 설명을 통해 필드를 더 쉽게 확인할 수 있으므로 eVar 필드 사용 시에 특히 유용합니다. [자세한 내용](../about/user-interface.md#friendly-names-display)
+* When browsing through **Adobe Experience Platform fields** (XDM format), you will now see the display name in addition to the field name. 이 정보는 Experience Data Model의 스키마 정의에서 검색됩니다. 사용 가능한 경우 대체 표시 이름이 나타납니다. 사용자에게 친숙한 이 설명을 통해 필드를 더 쉽게 확인할 수 있으므로 eVar 필드 사용 시에 특히 유용합니다. [자세한 내용](../about/user-interface.md#friendly-names-display)
 
 ## GA 릴리스 - 2019년 12월 {#ga-release---december-2019}
 
