@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 28cb56e5f631acd8e2a49cf0bce55e7226892595
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: 28cb56e5f631acd8e2a49cf0bce55e7226892595
 
 고급 표현식 편집기는 구매 목록 또는 메시지 클릭과 같은 시간 시리즈에 쿼리를 반드시 수행해야 합니다. 이러한 쿼리는 단순 편집기를 사용하여 수행할 수 없습니다.
 
-경험 이벤트는 시간순 역순으로 컬렉션으로 경험 플랫폼에서 검색되므로
+경험 이벤트는 Adobe Experience Platform에서 시간순 역순으로 검색되므로
 
 * 첫 번째 함수는 최신 이벤트를 반환합니다.
 * 마지막 함수는 가장 오래된 함수를 반환합니다.
