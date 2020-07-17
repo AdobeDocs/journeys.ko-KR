@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0630be5b82d681a94eebe2e9a7196081717ec9d
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '888'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ Adobe Campaign Standard이 있는 경우 다음과 같은 바로 사용 가능�
 
 >[!NOTE]
 >
->실시간 트랜잭션 메시지(rtEvent)를 보내거나 사용자 정의 작업 덕분에 타사 시스템으로 메시지를 전송하는 경우 피로, 차단 목록 또는 구독 취소 관리에 특정 설정이 필요합니다. 예를 들어 &quot;가입 해지&quot; 속성이 Platform 또는 타사 시스템에 저장되어 있는 경우 이 조건을 확인하기 위해 메시지를 보내기 전에 조건을 추가해야 합니다.
+>실시간 트랜잭션 메시지(rtEvent)를 보내거나 사용자 정의 작업 덕분에 타사 시스템으로 메시지를 전송하는 경우 피로, 차단 목록 또는 구독 취소 관리에 특정 설정이 필요합니다. 예를 들어 &quot;가입 해지&quot; 속성이 Adobe Experience Platform 또는 타사 시스템에 저장되어 있는 경우 이 조건을 확인하기 위해 메시지를 보내기 전에 조건을 추가해야 합니다.
 
 템플릿을 선택하면 메시지 페이로드에서 필요한 모든 필드가 및 아래의 활동 구성 창에 **[!UICONTROL Address]** 표시됩니다 **[!UICONTROL Personalization Data]**. 이벤트 또는 데이터 소스에서 사용할 필드에 이러한 각 필드를 매핑해야 합니다. 고급 표현식 편집기를 사용하여 값을 수동으로 전달하거나, 검색된 정보에 대해 데이터 조작(예: 문자열을 대문자로 변환)을 수행하거나, &quot;if, then, else&quot;와 같은 함수를 사용할 수도 있습니다. [](../expression/expressionadvanced.md)을 참조하십시오.
 
