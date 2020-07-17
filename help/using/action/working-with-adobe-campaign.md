@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6685565797a6cdc43b9c8fc39c9354ae6d213f1f
+source-git-commit: 2a55139697347ade80959f60bf52bfde39e43eb9
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 2%
@@ -52,7 +52,7 @@ Journey Orchestration에서 사용하려면 Campaign Standard 트랜잭션 메�
    >* 이 Adobe Campaign Standard 인스턴스와 연관된 ORG는 Journey Orchestration ORG와 동일합니다.
 
 
-여정을 디자인할 때 다음 세 가지 작업을 카테고리에서 사용할 수 **[!UICONTROL Action]** 있습니다. **[!UICONTROL Email]**, **[!UICONTROL Push]**(Adobe Campaign 작업 **[!UICONTROL SMS]** 사용 참조 [](../building-journeys/using-adobe-campaign-actions.md)) **또한 반응 이벤트를** 사용하면 메시지 클릭, 열기 등에 반응할 수 있습니다. ( [반응 이벤트 참조](../building-journeys/event-activities.md#section_dhx_gss_dgb)).
+여정을 디자인할 때 다음 세 가지 작업을 카테고리에서 사용할 수 **[!UICONTROL Action]** 있습니다. **[!UICONTROL Email]**, **[!UICONTROL Push]**(Adobe Campaign 작업 **[!UICONTROL SMS]** 사용 참조 [](../building-journeys/using-adobe-campaign-actions.md)) **또한 반응 이벤트를** 사용하면 메시지 클릭, 열기 등에 반응할 수 있습니다. ( [반응 이벤트 참조](../building-journeys/reaction-events.md)).
 
 ![](../assets/journey58.png)
 
