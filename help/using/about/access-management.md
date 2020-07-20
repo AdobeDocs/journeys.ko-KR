@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 829f6cdb11aa9b1529607f409e53616a2b809f84
+source-git-commit: 5a480ba736b642485f2078a6e6c40c28a11f38a3
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 사용 권한과 다양한 기능 간의 호환성 아래에서 확인할 수 [!DNL Journey Orchestration]있습니다.
 
-![](../assets/journey_permission.png)
+![](../assets/do-not-localize/journey_permission.png)
 
 ## 제품 프로필 만들기 {#create-product-profile}
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 1. Admin Console에서 을 선택합니다 **[!UICONTROL Journey Orchestration]**. 탭에서 **[!UICONTROL Product profile]** 을 클릭합니다 **[!UICONTROL New Profile]**.
 
-   ![](../assets/user_management_5.png)
+   ![](../assets/do-not-localize/user_management_5.png)
 
 1. 새 제품 프로필 **[!UICONTROL Profile Name]** 에 **[!UICONTROL Description]** 및 을 추가합니다. 프로필을 **[!UICONTROL Display name]** 변경하려면 선택을 취소하고 **[!UICONTROL Same as Profile Name]** 을 입력합니다 **[!UICONTROL Display name]**.
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 1. 완료되면 을 클릭합니다 **[!UICONTROL Done]**. 이제 새 제품 프로필이 만들어집니다.
 
-   ![](../assets/user_management_1.png)
+   ![](../assets/do-not-localize/user_management_1.png)
 
 1. 새 제품 프로필을 선택하여 권한 관리를 시작합니다. 탭에서 **[!UICONTROL Users]** 제품 프로필에 사용자를 추가합니다. For more on this, refer to this [page](../about/access-management.md#assigning-product-profile).
 
@@ -92,20 +92,20 @@ ht-degree: 0%
 
 1. 탭에서 **[!UICONTROL Permissions]** 두 카테고리 중 하나를 **[!UICONTROL Sandbox]** 선택하거나 **[!UICONTROL Authoring]** 페이지를 열고 제품 프로필에 대한 권한을 추가 **[!UICONTROL Edit Permissions]** 또는 제거합니다.
 
-   ![](../assets/user_management_7.png)
+   ![](../assets/do-not-localize/user_management_7.png)
 
 1. 권한 카테고리에서 **[!UICONTROL Sandboxes]** 제품 프로필에 할당할 샌드박스를 선택합니다. 프로필 **[!UICONTROL Available Permissions Items]**&#x200B;에 샌드박스를 지정하려면 아래에서 더하기(+) 아이콘을 클릭합니다. 샌드박스에 대한 자세한 내용은 이 [섹션을 참조하십시오](../about/access-management.md#sandboxes).
 
-   ![](../assets/user_management_8.png)
+   ![](../assets/do-not-localize/user_management_8.png)
 
 1. 필요한 경우 아래 **[!UICONTROL Included Permission Items]**&#x200B;에서 제품 프로필에 대한 권한을 제거하려면 X 아이콘을 클릭합니다.
 
-   ![](../assets/user_management_9.png)
+   ![](../assets/do-not-localize/user_management_9.png)
 
 1. 권한 카테고리에서 **[!UICONTROL Authoring]** 위와 동일한 단계를 수행하여 제품 프로필에 권한을 추가합니다.
    <br>권한과 사용 권한 간의 호환성에 대한 자세한 내용 [!DNL Journey Orchestration]은 이 [섹션을 참조하십시오](../about/access-management.md#about-access-management).
 
-   ![](../assets/user_management_10.png)
+   ![](../assets/do-not-localize/user_management_10.png)
 
 1. 완료되면 을 클릭합니다 **[!UICONTROL Save]**.
 
@@ -120,21 +120,21 @@ ht-degree: 0%
 
 1. Admin Console에서 을 선택합니다 **[!UICONTROL Journey Orchestration]**.
 
-   ![](../assets/user_management.png)
+   ![](../assets/do-not-localize/user_management.png)
 
 1. 새 사용자가 연결될 제품 프로필을 선택합니다.
 
-   ![](../assets/user_management_2.png)
+   ![](../assets/do-not-localize/user_management_2.png)
 
 1. **[!UICONTROL Add user]**&#x200B;을 클릭합니다.
 
    또한 새 사용자를 사용자 그룹에 추가하여 공유 권한 집합을 세부적으로 조정할 수도 있습니다. For more on this, refer to this [page](https://helpx.adobe.com/enterprise/using/user-groups.html).
 
-   ![](../assets/user_management_3.png)
+   ![](../assets/do-not-localize/user_management_3.png)
 
 1. 새 사용자의 이메일 주소를 입력한 다음 을 클릭합니다 **[!UICONTROL Save]**.
 
-   ![](../assets/user_management_4.png)
+   ![](../assets/do-not-localize/user_management_4.png)
 
 그러면 사용자가 인스턴스로 리디렉션되는 이메일을 [!DNL Journey Orchestration] 수신하게 됩니다.
 
