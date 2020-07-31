@@ -1,6 +1,6 @@
 ---
 title: 세그먼트 트리거 활동
-description: Learn xxxx
+description: 세그먼트 트리거 상세 정보
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,19 @@ ht-degree: 0%
 
 ## 세그먼트 트리거 활동 정보 {#about-segment-trigger-actvitiy}
 
+>[!NOTE]
+>
+>게시 시 또는 테스트 모드 활성화 시간에 캔버스에 즉시 Adobe Campaign Standard의 동작 활동이 있는 경우, 여행은 초당 13개의 입구에서 제한됩니다. <br>게시 시 또는 테스트 모드 활성화 시간에 캔버스에 즉시 사용 가능한 Adobe Campaign Standard 작업 활동이 없으면 여정이 초당 1,000개의 이벤트에서 재생 속도를 제한합니다.
+
 세그먼트 트리거 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 시작할 수 있습니다. 여행 입구는 한 번 또는 정기적으로 실행될 수 있습니다.
 
 Adobe Experience Platform에 Gold 고객 세그먼트가 있다고 가정합시다. 세그먼트 트리거 활동을 사용하면 Gold 고객 세그먼트에 속한 모든 개인이 여정을 시작하고 모든 경로 기능을 활용할 수 있는 개인화된 여정으로 이동할 수 있습니다. 조건, 타이머, 이벤트, 작업.
 
+## 활동 구성 {#configuring-segment-trigger-activity}
+
 >[!NOTE]
 >
 >세그먼트 내보내기 대기 시간 때문에 1시간보다 짧은 기간에 세그먼트 기반 이동을 트리거할 수 없습니다.
-
-## 활동 구성 {#configuring-segment-trigger-activity}
 
 1. 카테고리 **[!UICONTROL Orchestration]** 를 펼쳐서 캔버스에 **[!UICONTROL Segment Trigger]** 활동을 놓습니다.
 
