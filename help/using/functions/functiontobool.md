@@ -1,6 +1,6 @@
 ---
 title: toBool
-description: toBool 기능에 대한 자세한 내용
+description: Bool 기능에 대한 자세한 내용
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,18 +12,21 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 5%
 
 ---
 
 
 # toBool {#toBool}
 
-인수 값의 유형에 따라 인수 값을 부울 값으로 변환합니다.
+해당 유형에 따라 인수 값을 부울 값으로 변환합니다.
 
-* 문자열:문자열 값이 &quot;true&quot;이면 &quot;true&quot;이고, 그렇지 않으면 false인 경우 문자열 값을 부울로 변환하려고 합니다.
-* 숫자:숫자 값이 0과 같지 않으면 true, 그렇지 않으면 false
+* 문자열: 문자열 값이 &quot;true&quot;이면 &quot;true&quot;이고, 그렇지 않으면 false입니다.
+* 숫자: 숫자 값이 0과 같지 않으면 true, 그렇지 않으면 false
 
-## 카테고리
+## 범주
 
 전환
 
@@ -33,7 +36,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ## 매개 변수
 
-* decimal
+* 소수
 * boolean
 * 문자열
 * 정수
@@ -50,7 +53,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 부울 값을 반환합니다.
 
-## 예
+## 예제
 
 `toBool("true")`
 
