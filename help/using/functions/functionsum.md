@@ -1,6 +1,6 @@
 ---
 title: sum
-description: 함수 합에 대해 자세히 알아보기
+description: 함수 합에 대해 알아봅니다.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 
 
 # sum {#sum}
 
-표현식 세트의 값 합계를 반환합니다. Null 값은 무시됩니다.
+표현식 세트의 값의 합계를 반환합니다. null 값은 무시됩니다.
 
-## 카테고리
+## 범주
 
 집계
 
@@ -34,7 +37,7 @@ source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 * listDecimal
 * 지속 시간
 * 정수
-* decimal
+* 소수
 
 ## 서명 및 반환된 유형
 
@@ -54,7 +57,7 @@ source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 
 소수점을 반환합니다.
 
-## 예
+## 예제
 
 `sum(@{BarBeacon.inventory},5)`
 
