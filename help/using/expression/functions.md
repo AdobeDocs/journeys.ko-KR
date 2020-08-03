@@ -1,6 +1,6 @@
 ---
 title: 함수
-description: 함수에 대한 자세한 내용
+description: 기능에 대한 자세한 내용
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a3df443dcb05018d1f8cac885631dba9c8c20d2b
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 60%
 
 ---
 
 
 # 함수 {#concept_p1r_qj5_dgb}
 
-함수에는 서로 다른 서명(순서가 다른 매개 변수 세트)이 있을 수 있습니다. 함수 서명에 지정된 매개 변수로 0-N 표현식을 사용할 수 있습니다.
+함수에는 서로 다른 서명(순서가 다른 매개 변수 세트)이 있을 수 있습니다. 함수 서명에 지정된 매개 변수로 0N 식을 사용할 수 있습니다.
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
@@ -28,7 +31,7 @@ source-git-commit: a3df443dcb05018d1f8cac885631dba9c8c20d2b
 
 ## 주요 함수
 
-| 카테고리 | 함수 |
+| 범주 | 함수 |
 |-------------|-----------------------|
 | Adobe Experience Platform | [](../functions/functiongetbestsendtime.md) |
 | Adobe Experience Platform | [](../functions/functioninsegment.md) |
