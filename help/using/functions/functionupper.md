@@ -1,6 +1,6 @@
 ---
 title: upper
-description: 상단의 기능에 대한 자세한 내용
+description: 상단의 기능에 대해 알아보기
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '28'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 매개 변수의 대문자 버전을 반환합니다.
 
-## 카테고리
+## 범주
 
 문자열
 
@@ -28,7 +31,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `upper(<parameters>)`
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 문자
 
 `upper(<string>)`
 
