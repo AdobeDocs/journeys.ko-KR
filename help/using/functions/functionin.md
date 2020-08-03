@@ -1,6 +1,6 @@
 ---
 title: in
-description: 함수에 대한 자세한 내용은
+description: 기능에 대한 자세한 내용은
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 10%
 
 ---
 
@@ -20,9 +23,9 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 첫 번째 인수 값이 목록에 있는지 확인합니다. 각 인수 값에 대해 Equal를 통해 검사가 수행됩니다. 인수 값이 있으면 true를 반환하고 그렇지 않으면 false를 반환합니다.
 
-목록 유형이 목록의 항목과 일치해야 `<expression>` 합니다. 목록의 항목 유형은 미리 알림으로 서로 일치해야 합니다.
+목록의 유형과 `<expression>` 일치해야 합니다. 목록의 항목 유형은 미리 알림으로 서로 일치해야 합니다.
 
-## 카테고리
+## 범주
 
 목록
 
@@ -49,7 +52,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 문자
 
 `in(<integer>,<listInteger>)`
 
