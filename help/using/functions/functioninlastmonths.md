@@ -1,5 +1,5 @@
 ---
-title: 지난 달
+title: inLastMonths
 description: LastMonths의 기능에 대한 자세한 내용
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 9%
 
 ---
 
 
-# 지난 달 {#inLastMonths}
+# inLastMonths {#inLastMonths}
 
-주어진 날짜 또는 dateTime이 현재 및 현재(델타 개월) 사이에 있으면 true를 반환합니다.
+주어진 날짜 또는 dateTime이 현재 - 델타 개월 사이에 있으면 true를 반환합니다.
 
-## 카테고리
+## 범주
 
 날짜
 
@@ -39,9 +42,9 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 `inLastMonths(<dateTime>,<integer>)`
 
-부울 값을 반환합니다.
+부울을 반환합니다.
 
-## 예
+## 예제
 
 `inLastMonths(toDateTime('2010-12-12T01:11:00Z'), 4))`
 
