@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 
 유형에 따라 매개 변수를 날짜 시간 값으로 변환합니다.
 
-## 카테고리
+## 범주
 
 전환
 
@@ -38,7 +41,7 @@ source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 
 >[!NOTE]
 >
->표준 시간대 ID는 문자열 상수여야 합니다. 필드 참조나 식이 될 수 없습니다. 데이터 유형에 대한 자세한 내용은 을 참조하십시오 [](../expression/data-types.md).
+>시간대 ID는 문자열 상수여야 합니다. 필드 참조나 식이 될 수 없습니다. 데이터 유형에 대한 자세한 내용은 을 참조하십시오 [](../expression/data-types.md).
 
 ## 서명 및 반환된 유형
 
@@ -71,7 +74,7 @@ Return a datetime.
 
 -->
 
-## 예
+## 예제
 
 `toDateTime ("2016-08-18T23:17:59.123Z")`
 
