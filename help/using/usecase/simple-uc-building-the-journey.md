@@ -1,5 +1,5 @@
 ---
-title: 고객 여정 구축
+title: 여정 구축
 description: 간단한 사용 사례 여정을 구축하는 방법 살펴보기
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,30 +12,33 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '391'
+ht-degree: 4%
 
 ---
 
 
-# 고객 여정 구축{#concept_eyw_mcy_w2b}
+# 여정 구축{#concept_eyw_mcy_w2b}
 
-이제 **비즈니스 사용자가** 고객 여정을 구축할 수 있습니다. Adobe의 여정은 다음 활동이 있는 하나의 경로만 포함할 것입니다.
+이제 **비즈니스 사용자가** 고객 여정 구축 다음 활동이 포함된 하나의 경로만 Adobe에 포함됩니다.
 
-* &quot;SpaBeacon&quot; **[!UICONTROL Event]**:스파 비콘 근처에 걸어가면 이벤트를 받게 되고, 그 사람을 위한 여정이 시작됩니다.
-* 사람이 여성인지 확인하는 **[!UICONTROL Condition]**활동
+* &quot;SpaBeacon&quot; **[!UICONTROL Event]**: 스파 비콘 등을 산책하면 자동으로 이벤트를 받게 되고, 그 사람을 위한 여정이 시작된다.
+* 그 사람이 여자인지 확인하는 **[!UICONTROL Condition]** 활동
 * 활동(Adobe Campaign Standard 사용) **[!UICONTROL Email]**
-* 활동 **[!UICONTROL End]**활동
+* 활동 **[!UICONTROL End]**
 
 >[!NOTE]
 >
->Adobe **[!UICONTROL Push]**Campaign Standard가 있는 경우에만 팔레트에서**[!UICONTROL Email]** 및 활동을 사용할 수 있습니다.
+>Adobe Campaign Standard이 있는 경우 **[!UICONTROL Push]** 및 **[!UICONTROL Email]** 활동은 팔레트에서만 사용할 수 있습니다.
 
-여행 구축 방법에 대한 자세한 내용은 을 참조하십시오 [](../building-journeys/journey.md).
+여정을 구성하는 방법에 대한 자세한 내용은 를 참조하십시오 [](../building-journeys/journey.md).
 
-1. 상단 메뉴에서 **[!UICONTROL Home]**탭을 클릭하고 새 경로를**[!UICONTROL Create]** 만듭니다.
+1. 상단 메뉴에서 **[!UICONTROL Home]** 탭을 클릭하고 새 경로 **[!UICONTROL Create]** 를 만듭니다.
 
    ![](../assets/journey31.png)
 
-1. 오른쪽에 표시되는 구성 창에서 경로의 속성을 편집합니다. Adobe는 이를 &quot;Spa Journey&quot;라고 명명하고 1일부터 12월 31일까지 한 달 동안 지속되도록 설정합니다.
+1. 오른쪽에 표시되는 구성 창에서 경로 속성을 편집합니다. 우리는 그것을 &quot;스파 여행&quot;이라고 명하며, 1일부터 12월 31일까지 한 달 동안 지속되도록 설정합니다.
 
    ![](../assets/journeyuc1_8.png)
 
@@ -43,23 +46,23 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
    ![](../assets/journeyuc1_9.png)
 
-1. 이제 그 사람이 여성인지 확인하기 위한 조건을 추가합시다. 고객 여정에 조건 활동을 드래그하여 놓습니다.
+1. 이제 그 사람이 여성인지 확인하는 조건을 추가합시다. 조건 활동을 여정에 드래그하여 놓습니다.
 
    ![](../assets/journeyuc1_10.png)
 
-1. 유형을 **[!UICONTROL Data Source Condition]**선택하고**[!UICONTROL Expression]** 필드를 클릭합니다. 캔버스에서 화살표에 나타날 조건 레이블을 정의할 수도 있습니다.
+1. 유형을 **[!UICONTROL Data Source Condition]** 선택하고 **[!UICONTROL Expression]** 필드를 클릭합니다. 캔버스에서 화살표에 나타날 조건 레이블을 정의할 수도 있습니다.
 
    ![](../assets/journeyuc1_11.png)
 
-1. 간단한 표현식 편집기를 사용하여 성별 필드(_사람 > 성별_)를 찾은 다음 오른쪽에 놓아 다음 조건을 만듭니다.&#39;성별&#39;은 &#39;여성&#39;과 같다.
+1. 간단한 표현식 편집기를 사용하여 성별 필드(_사람 > 성별_)를 찾아 오른쪽에 놓아 다음 조건을 만듭니다. &#39;성별&#39;은 &#39;여성&#39;과 같다.
 
    ![](../assets/journeyuc1_12.png)
 
-1. 활동을 **[!UICONTROL Email]**중단하고 &quot;Spa 할인&quot; 트랜잭션 메시지 템플릿을 선택합니다. 이 템플릿은 Adobe Campaign을 사용하여 디자인되었습니다. 이[페이지를](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)참조하십시오.
+1. 활동을 **[!UICONTROL Email]** 중단하고 &quot;Spa Discount&quot; 트랜잭션 메시지 템플릿을 선택합니다. 이 템플릿은 Adobe Campaign을 사용하여 디자인되었습니다. 이 [페이지를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
    ![](../assets/journeyuc1_13.png)
 
-1. 필드 내부를 클릭하고 **[!UICONTROL Email]**데이터 소스에서 이메일 주소를 선택합니다.
+1. 필드 내부를 **[!UICONTROL Email]** 클릭하고 데이터 소스에서 이메일 주소를 선택합니다.
 
    ![](../assets/journeyuc1_14.png)
 
@@ -67,16 +70,16 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
    ![](../assets/journeyuc1_15.png)
 
-1. 활동을 **[!UICONTROL End]**삭제합니다.
+1. 활동을 **[!UICONTROL End]** 삭제합니다.
 
    ![](../assets/journeyuc1_17.png)
 
-1. 테스트 프로필을 사용하여 전환 **[!UICONTROL Test]**및 테스트를 클릭합니다. 오류가 있는 경우 테스트 모드를 비활성화하고 경로를 수정하고 다시 테스트합니다. 테스트 모드에 대한 자세한 내용은 을 참조하십시오[](../building-journeys/testing-the-journey.md).
+1. 테스트 프로필을 사용하여 전환 **[!UICONTROL Test]** 및 테스트를 클릭합니다. 오류가 있는 경우 테스트 모드를 비활성화하고 경로를 수정한 후 다시 테스트하십시오. 테스트 모드에 대한 자세한 내용은 을 참조하십시오 [](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 
-1. 테스트가 완료되면 오른쪽 상단 드롭다운 메뉴에서 이동을 게시할 수 있습니다.
+1. 테스트가 확정되면 오른쪽 상단 드롭다운 메뉴에서 여정을 게시할 수 있습니다.
 
    ![](../assets/journeyuc1_18.png)
 
-다음에 스파 비콘 근처에 한 여성이 걸어오면 즉시 개인화된 이메일을 받을 것이다.
+다음번에는 스파 비콘 등을 걸으면 바로 개인화된 이메일을 받게 된다.
