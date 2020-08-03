@@ -1,6 +1,6 @@
 ---
 title: isEmpty
-description: isEmpty 함수에 대한 자세한 내용
+description: 함수 학습비어 있음
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 매개 변수의 문자열에 문자가 없으면 true를 반환합니다.
 
-## 카테고리
+## 범주
 
 문자열
 
@@ -32,11 +35,11 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 * 문자열
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 문자
 
 `isEmpty(<string>)`
 
-부울 값을 반환합니다.
+부울을 반환합니다.
 
 ## 예
 
