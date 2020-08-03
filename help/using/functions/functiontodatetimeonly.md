@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '49'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 인수 값을 날짜 시간 전용 값으로 변환합니다.
 
-## 카테고리
+## 범주
 
 전환
 
@@ -43,9 +46,9 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 <!--`toDateTimeOnly(<integer>,<integer>,<integer>)`
 `toDateTimeOnly(<integer>,<integer>,<integer>,<integer>,<integer>,<integer>)`-->
 
-시간대를 고려하지 않고 datetime을 반환합니다.
+시간대를 고려하지 않고 날짜/시간을 반환합니다.
 
-## 예
+## 예제
 
 `toDateTimeOnly ("2016-08-18T23:17:59.123")`
 
