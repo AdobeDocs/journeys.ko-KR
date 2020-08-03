@@ -1,6 +1,6 @@
 ---
 title: toInteger
-description: toInteger 함수에 대해 알아보기
+description: 정수 함수 알아보기
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 인수 값을 정수로 변환합니다.
 
-## 카테고리
+## 범주
 
 전환
 
@@ -33,9 +36,9 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 | 매개 변수 | 설명 |
 |--- |--- |
 | 문자열 | 문자열 값을 정수로 변환합니다. |
-| dateTime | 날짜를 밀리초 단위(epoch milliseconds)로 변환합니다. |
-| decimal | decimal part(예:1.5가 1이 됨) |
-| boolean | 부울 값을 true인 경우 1로, false인 경우 0으로 변환합니다. |
+| dateTime | 날짜를 밀리초(epoch milliseconds)의 수로 변환합니다. |
+| 소수 | decimal part를 제거하여 정수(예: 1.5가 1이 됨) |
+| boolean | 부울 값을 true이면 1, false이면 0으로 변환합니다. |
 
 ## 서명 및 반환된 문자
 
@@ -51,7 +54,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 정수를 반환합니다.
 
-## 예
+## 예제
 
 `toInteger(4)`
 
