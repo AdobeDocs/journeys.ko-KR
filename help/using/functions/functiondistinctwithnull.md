@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 목록의 고유한 값을 반환합니다. 목록에 Null 값이 하나 이상 있으면 반환 목록에 Null 값이 표시됩니다.
 
-## 카테고리
+## 범주
 
 목록
 
@@ -70,7 +73,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 기간 목록을 반환합니다.
 
-## 예
+## 예제
 
 `distinctWithNull([10,2,10,null])`
 
