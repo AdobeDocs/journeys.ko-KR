@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 두 번째 매개 변수가 첫 번째 매개 변수의 접두사이면 true를 반환합니다.
 
-## 카테고리
+## 범주
 
 문자열
 
@@ -35,7 +38,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 | 문자열 | 문자열 |
 | 접두사 | 문자열 |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 문자
 
 `startWith(<string>,<string>)`
 
