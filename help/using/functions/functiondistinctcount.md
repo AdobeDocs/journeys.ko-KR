@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 21%
 
 ---
 
 
 # distinctCount{#distinctCount}
 
-Null 값을 무시하고 있는 다른 값의 수를 카운트합니다.
+null 값을 무시하고 있는 다른 값의 수를 카운트합니다.
 
-## 카테고리
+## 범주
 
 집계
 
@@ -40,7 +43,7 @@ Null 값을 무시하고 있는 다른 값의 수를 카운트합니다.
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 문자
 
 `distinctCount(<listAny>)`
 
@@ -50,4 +53,4 @@ Null 값을 무시하고 있는 다른 값의 수를 카운트합니다.
 
 `distinctCount([10,2,10,null])`
 
-반환 2.
+2를 반환합니다.
