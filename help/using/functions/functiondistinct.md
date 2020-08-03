@@ -1,6 +1,6 @@
 ---
-title: 뚜렷하
-description: 고유한 기능에 대해 알아보기
+title: distinct
+description: 고유한 기능에 대한 자세한 내용
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 13%
 
 ---
 
 
-# 뚜렷하 {#distinct}
+# distinct {#distinct}
 
-Null 값 없이 목록의 고유한 값을 반환합니다.
+null 값이 없는 목록의 고유한 값을 반환합니다.
 
-## 카테고리
+## 범주
 
 목록
 
@@ -70,8 +73,8 @@ Null 값 없이 목록의 고유한 값을 반환합니다.
 
 기간 목록을 반환합니다.
 
-## 예
+## 예제
 
 `distinct([10,2,10,null])`
 
-반품을 `[10, 2]`참조하십시오.
+반환 `[10, 2]`.
