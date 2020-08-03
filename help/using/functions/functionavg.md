@@ -1,6 +1,6 @@
 ---
-title: avl
-description: 함수 avg에 대한 자세한 내용
+title: avg
+description: avg 함수에 대해 알아보기
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,16 +12,19 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
+workflow-type: tm+mt
+source-wordcount: '49'
+ht-degree: 8%
 
 ---
 
 
-# avl {#avg}
+# avg {#avg}
 
-목록 또는 두 개의 표현식으로 지정된 표현식 집합 중 평균 값을 반환합니다. Null 값은 무시됩니다.
+목록 또는 두 개의 표현식으로 제공된 표현식 집합 간의 평균 값을 반환합니다. null 값은 무시됩니다.
 
 
-## 카테고리
+## 범주
 
 집계
 
@@ -35,7 +38,7 @@ source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 
 * listInteger
 * listDecimal
-* decimal
+* 소수
 * 정수
 
 ## 서명 및 반환된 문자
@@ -56,7 +59,7 @@ source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 
 소수점을 반환합니다.
 
-## 예
+## 예제
 
 `avg(@{BarBeacon.inventory},5)`
 
