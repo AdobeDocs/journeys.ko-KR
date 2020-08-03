@@ -1,6 +1,6 @@
 ---
 title: toDecimal
-description: toDecimal 함수에 대한 자세한 내용
+description: Decimal 함수에 대해 알아보기
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 5%
 
 ---
 
 
 # toDecimal {#toDecimal}
 
-인수 값을 유형에 따라 십진수 값으로 변환합니다.
+유형에 따라 인수 값을 십진수 값으로 변환합니다.
 
-## 카테고리
+## 범주
 
 전환
 
@@ -32,10 +35,10 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 | 매개 변수 | 설명 |
 |--- |--- |
-| 문자열 | 문자열 값을 십진수로 변환합니다. |
-| dateTime | 날짜를 밀리초 단위(epoch milliseconds)로 변환합니다. |
-| boolean | 부울 값을 true인 경우 1로, false인 경우 0으로 변환합니다. |
-| 정수 | decimal(예::1이 1.0이 됨) |
+| 문자열 | 문자열 값을 소수로 변환합니다. |
+| dateTime | 날짜를 밀리초(epoch milliseconds)의 수로 변환합니다. |
+| boolean | 부울 값을 true이면 1, false이면 0으로 변환합니다. |
+| 정수 | decimal로 변환합니다(예).: 1이 1.0이 됨) |
 
 ## 서명 및 반환된 유형
 
@@ -47,9 +50,9 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `toDecimal(<boolean>)`
 
-소수점을 반환합니다.
+십진수를 반환합니다.
 
-## 예
+## 예제
 
 `toDecimal("4.0")`
 
