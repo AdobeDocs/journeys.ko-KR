@@ -51,7 +51,7 @@ Adobe Campaign Standard이 있는 경우 다음과 같은 바로 사용 가능�
 
 >[!NOTE]
 >
->이메일의 경우 프로필 트랜잭션 템플릿을 사용하는 경우, 구독 취소 메커니즘은 기본적으로 Campaign Standard으로 처리됩니다. 템플릿에 **[!UICONTROL Unsubscription link]** 컨텐츠 블록을 추가하면 됩니다([자세한](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)내용). 이벤트 기반 템플릿(rtEvent)을 사용하는 경우 메시지에 URL 매개 변수의 이메일 및 구독 취소 랜딩 페이지를 가리키는 링크를 추가해야 합니다. 이 랜딩 페이지를 만들고 구독을 취소하기로 한 사람의 결정이 Adobe에 전송되었는지 확인해야 합니다.
+>이메일의 경우 프로필 트랜잭션 템플릿을 사용하는 경우, 구독 취소 메커니즘은 기본적으로 Campaign Standard으로 처리됩니다. 템플릿에 **[!UICONTROL Unsubscription link]** 컨텐츠 블록을 추가하면 됩니다([자세한](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)내용). 이벤트 기반 템플릿(rtEvent)을 사용하는 경우 메시지에 URL 매개 변수의 이메일 및 구독 취소 랜딩 페이지를 가리키는 링크를 추가해야 합니다. 이 랜딩 페이지를 만들고 구독 취소 결정이 Adobe으로 전송되었는지 확인해야 합니다.
 
 먼저 트랜잭션 메시지 템플릿을 선택해야 합니다. [](../building-journeys/about-action-activities.md)을 참조하십시오.
 
