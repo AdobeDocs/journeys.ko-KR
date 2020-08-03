@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 4%
 
 ---
 
 
 # substr {#substr}
 
-시작 인덱스와 끝 인덱스 사이에 있는 문자열 식의 하위 문자열을 반환합니다. 끝 인덱스가 정의되지 않은 경우 시작 인덱스와 끝 사이에 있습니다.
+시작 인덱스와 끝 인덱스 사이의 문자열 식의 하위 문자열을 반환합니다. 끝 인덱스가 정의되지 않은 경우 시작 색인과 끝 사이에 있습니다.
 
-## 카테고리
+## 범주
 
 문자열
 
@@ -36,7 +39,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 | beginIndex | 정수 |
 | endIndex | 정수 |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 문자
 
 `substr(<string>,<beginIndex>)`
 
