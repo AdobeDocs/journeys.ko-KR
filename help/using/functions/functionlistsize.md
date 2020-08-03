@@ -1,6 +1,6 @@
 ---
 title: listSize
-description: 함수 목록에 대한 자세한 정보크기
+description: 함수 목록에 대해 학습크기
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '45'
+ht-degree: 22%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 목록의 요소 수를 카운트합니다.
 
-## 카테고리
+## 범주
 
 목록
 
@@ -64,4 +67,4 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `listSize([10,2,3])`
 
-반환 3입니다.
+반환 3.
