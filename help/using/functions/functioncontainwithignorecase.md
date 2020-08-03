@@ -1,6 +1,6 @@
 ---
 title: containWithIgnoreCase
-description: containWithIgnoreCase 함수에 대한 자세한 내용
+description: 함수에서 containWithIgnoreCase에 대해 알아보기
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 6%
 
 ---
 
 
 # containWithIgnoreCase {#containWithIgnoreCase}
 
-두 번째 인수 문자열이 대/소문자를 고려하지 않고 첫 번째 인수 문자열에 포함되어 있는지 확인합니다.
+첫 번째 인수 문자열에 두 번째 인수 문자열이 들어 있는지, 대/소문자를 고려하지 않고 있는지 확인합니다.
 
-## 카테고리
+## 범주
 
 문자열
 
@@ -35,11 +38,11 @@ source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
 | 문자열 | 문자열 |
 | 문자열 검색 | 문자열 |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 문자
 
 `containWithIgnoreCase(<string>,<string>)`
 
-부울 값을 반환합니다.
+부울을 반환합니다.
 
 ## 예
 
