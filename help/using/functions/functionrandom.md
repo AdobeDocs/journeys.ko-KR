@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 3%
 
 ---
 
 
 # random {#random}
 
-0과 1 사이의 난수를 생성합니다.
+0과 1 사이의 임의 숫자를 생성합니다.
 
-## 카테고리
+## 범주
 
 수학
 
@@ -28,7 +31,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `random(<parameters>)`
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 문자
 
 `random()`
 
@@ -38,4 +41,4 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `#{MarltonReservation.statistics.successRatio, defaultValue : random() * 100}`
 
-설명:성공 비율에 값이 없거나 null인 경우 기본값은 0에서 1 * 100 사이의 임의 숫자가 됩니다(0에서 100 사이).
+설명: 성공 비율에 값이 없거나 null이면 기본값이 적용되고 0에서 1 * 100 사이의 임의 숫자가 됩니다(0에서 100까지의 의미).
