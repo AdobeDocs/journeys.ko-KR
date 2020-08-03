@@ -1,6 +1,6 @@
 ---
 title: startWithIgnoreCase
-description: startWithIgnoreCase 함수에 대해 알아보기
+description: startWithIgnoreCase 함수 학습
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 두 번째 매개 변수가 대/소문자를 구분하지 않고 첫 번째 매개 변수의 접두사이면 true를 반환합니다.
 
-## 카테고리
+## 범주
 
 문자열
 
@@ -35,7 +38,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 | 문자열 | 문자열 |
 | 접두사 | 문자열 |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 문자
 
 `startWithIgnoreCase(<string>,<string>)`
 
