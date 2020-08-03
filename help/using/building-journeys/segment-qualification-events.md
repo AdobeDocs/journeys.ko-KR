@@ -61,7 +61,7 @@ Adobe Experience Platform의 고주파수 대상 옵션으로 세그먼트가 �
 
 ## 세그먼트에 대한 우수 사례 {#best-practices-segments}
 
-이 **[!UICONTROL Segment Qualification]** 활동은 Adobe Experience Platform 세그먼트에서 자격이 부여되거나 자격이 박탈되는 개인들의 여정 즉시 입장을 취할 수 있게 합니다.
+이 **[!UICONTROL Segment Qualification]** 활동은 Adobe Experience Platform 세그먼트에서 자격이 있거나 자격이 박탈되는 개인들의 여정에 즉시 입장할 수 있게 해 줍니다.
 
 이 정보의 수신 속도가 빠르다. 측정된 측정은 초당 받은 10,000개의 이벤트 속도를 보여줍니다. 그 결과, 여러분은 가장 높은 입구가 어떻게 일어날 수 있는지, 어떻게 그것을 피할 수 있는지 그리고 어떻게 그들을 위해 여러분의 여행을 준비시킬 수 있는지 확실히 알아야 합니다.
 
