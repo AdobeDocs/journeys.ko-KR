@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 20%
 
 ---
 
 
 # count {#count}
 
-Null 값을 고려하지 않는 목록의 요소를 카운트합니다.
+null 값을 고려하지 않는 목록의 요소를 카운트합니다.
 
-## 카테고리
+## 범주
 
 집계
 
@@ -50,4 +53,4 @@ Null 값을 고려하지 않는 목록의 요소를 카운트합니다.
 
 `count([10,2,10,null])`
 
-반환 3입니다.
+반환 3.
