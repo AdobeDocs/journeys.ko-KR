@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '42'
+ht-degree: 7%
 
 ---
 
 
 # uuid {#uuid}
 
-임의 UUID(Universal Unique IDentifier)를 생성합니다.
+임의 UUID(Universal Unique IDentitfier)를 생성합니다.
 
-## 카테고리
+## 범주
 
 문자열
 
@@ -32,7 +35,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 이 함수에는 매개 변수가 필요하지 않습니다.
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 문자
 
 `uuid()`
 
