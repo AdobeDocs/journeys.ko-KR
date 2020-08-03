@@ -1,6 +1,6 @@
 ---
 title: toTimeZone
-description: toTimeZone 함수에 대한 자세한 내용
+description: toTimeZone 함수에 대해 알아보기
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 문자열 값을 표준 시간대로 변환합니다.
 
-## 카테고리
+## 범주
 
 전환
 
@@ -32,7 +35,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 | 매개 변수 | 설명 |
 |--- |--- |
-| 문자열 | 문자열 값에 영역 ID가 포함되어야 합니다. 필드 참조나 식이 될 수 있습니다. |
+| 문자열 | 문자열 값은 영역 ID를 포함해야 합니다. 필드 참조나 식이 될 수 있습니다 |
 
 ## 서명 및 반환된 유형
 
@@ -40,7 +43,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 표준 시간대를 반환합니다.
 
-## 예
+## 예제
 
 `toTimeZone("UTC")`
 
