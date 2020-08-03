@@ -12,12 +12,15 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+workflow-type: tm+mt
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
 
 # 종료 활동{#section_vqp_4ft_dgb}
 
-이 **[!UICONTROL End]**활동을 통해 각 경로의 끝을 표시할 수 있습니다. 필수는 아니지만 시각적 명확성을 위해 권장됩니다. 실제로, 여정에서 여러 개의 종료 활동이 있는 경우 각 끝에 레이블을 추가하여 보고서를 쉽게 읽을 수 있도록 하는 것이 좋습니다. 을[](../reporting/about-journey-reports.md)참조하십시오.
+이 **[!UICONTROL End]** 활동을 통해 각 경로의 끝을 표시할 수 있습니다. 이것은 필수는 아니지만 시각적 명확성을 위해 권장된다. 실제로 여정에서 여러 개의 종료 활동이 있는 경우 각 끝에 레이블을 추가하여 보고서를 쉽게 읽을 수 있도록 하는 것이 좋습니다. [](../reporting/about-journey-reports.md)을 참조하십시오.
 
 ![](../assets/journey54.png)
