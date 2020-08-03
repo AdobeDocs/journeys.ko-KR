@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '41'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 새 시간대가 동일한 순간에 있는 새 날짜 시간을 반환합니다.
 
-## 카테고리
+## 범주
 
 날짜
 
@@ -30,10 +33,10 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ## 매개 변수
 
-* 시간대 ID:문자열
+* 시간대 ID: 문자열
 * dateTime
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 문자
 
 `updateTimeZone(<dateTime>,<timeZone id>)`
 
