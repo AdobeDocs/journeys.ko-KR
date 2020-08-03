@@ -1,5 +1,5 @@
 ---
-title: 트리밍
+title: trim
 description: 함수 트리밍에 대한 자세한 내용
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
+workflow-type: tm+mt
+source-wordcount: '31'
+ht-degree: 9%
 
 ---
 
 
-# 트리밍 {#trim}
+# trim {#trim}
 
 시작 및 종료 공백을 제거합니다.
 
-## 카테고리
+## 범주
 
 문자열
 
@@ -34,7 +37,7 @@ source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
 |-----------|------------------|
 | 문자열 | 문자열 |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 문자
 
 `trim(<string>)`
 
