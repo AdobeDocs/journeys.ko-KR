@@ -1,6 +1,6 @@
 ---
 title: endWith
-description: 함수 끝에 대한 자세한 정보사용
+description: 함수 종료에 대한 자세한 정보사용
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
 
 두 번째 매개 변수가 첫 번째 매개 변수의 접미어일 경우 true를 반환합니다.
 
-## 카테고리
+## 범주
 
 문자열
 
@@ -33,13 +36,13 @@ source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
 | 매개 변수 | 유형 |
 |-----------|------------------|
 | 문자열 | 문자열 |
-| 접미사 | 문자열 |
+| 접미어 | 문자열 |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 문자
 
 `endWith(<string>,<string>)`
 
-부울 값을 반환합니다.
+부울을 반환합니다.
 
 ## 예
 
