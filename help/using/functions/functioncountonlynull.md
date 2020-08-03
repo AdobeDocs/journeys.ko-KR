@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '46'
+ht-degree: 21%
 
 ---
 
 
 # countOnlyNull {#countOnlyNull}
 
-목록의 Null 값 수를 카운트합니다.
+목록의 null 값 수를 카운트합니다.
 
-## 카테고리
+## 범주
 
 집계
 
@@ -40,7 +43,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 문자
 
 `countOnlyNull(<listAny>)`
 
