@@ -27,7 +27,7 @@ ht-degree: 13%
 
 [!DNL Journey Orchestration] 이벤트, Adobe Experience Platform의 정보 또는 타사 API 서비스의 데이터를 기반으로 컨텍스트 기반의 실시간 오케스트레이션을 구현할 수 있습니다. 타사 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 구성할 수 있습니다. Adobe Campaign Standard이 있는 경우 Adobe Campaign Standard의 [트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
-이벤트 구성 탭에서 **기술 사용자가** 여정에서 예상 이벤트를 구성합니다. 들어오는 이벤트의 데이터는 XDM(Adobe Experience Data Model)에 따라 표준화됩니다. 이벤트는 인증된 이벤트와 인증되지 않은 이벤트(예: Adobe Mobile SDK 이벤트)에 대한 스트리밍 통합 API에서 가져옵니다.
+이벤트 구성 탭에서 **기술 사용자가** 여정에서 예상 이벤트를 구성합니다. 들어오는 이벤트의 데이터는 XDM(Adobe Experience Data Model)에 따라 표준화됩니다. 이벤트는 인증된 이벤트와 인증되지 않은 이벤트(Adobe Mobile SDK 이벤트 등)에 대한 스트리밍 통합 API에서 가져옵니다.
 
 데이터 소스 구성 탭에서 **기술 사용자가** 구성합니다.
 
