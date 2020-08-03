@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '37'
+ht-degree: 8%
 
 ---
 
 
 # notEqualWithIgnoreCase {#notEqualWithIgnoreCase}
 
-두 번째 인수 문자열이 있는 첫 번째 인수 문자열이 다른지 확인하고 대/소문자 고려 사항을 무시합니다.
+두 번째 인수 문자열이 있는 첫 번째 인수 문자열이 다른 경우 대/소문자 고려 사항을 무시하고 있는지 확인하십시오.
 
-## 카테고리
+## 범주
 
 문자열
 
@@ -32,11 +35,11 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 * 문자열
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 문자
 
 `notEqualWithIgnoreCase(<string>,<string>)`
 
-부울 값을 반환합니다.
+부울을 반환합니다.
 
 ## 예
 
