@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
 
 현재 날짜를 날짜 시간 형식으로 반환합니다. 데이터 유형에 대한 자세한 내용은 을 참조하십시오 [](../expression/data-types.md).
 
-## 카테고리
+## 범주
 
 날짜
 
@@ -42,7 +45,7 @@ source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
 
 dateTime을 반환합니다.
 
-## 예
+## 예제
 
 `now()`
 
