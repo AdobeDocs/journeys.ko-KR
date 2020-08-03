@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 매개 변수의 문자열이 비어 있지 않으면 true를 반환합니다.
 
-## 카테고리
+## 범주
 
 문자열
 
@@ -32,11 +35,11 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 * 문자열
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 문자
 
 `isNotEmpty(<string>)`
 
-부울 값을 반환합니다.
+부울을 반환합니다.
 
 ## 예
 
