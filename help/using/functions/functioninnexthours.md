@@ -1,6 +1,6 @@
 ---
 title: inNextHours
-description: 다음 시간 기능에 대한 자세한 내용
+description: NextHours의 기능에 대한 자세한 내용
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 0e06abf518445ce145d2d042b16daaa2dfd9603e
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 9%
 
 ---
 
 
 # inNextHours {#inNextHours}
 
-주어진 날짜 또는 dateTime이 현재 시간 + 델타 시간 사이에 있으면 true를 반환합니다.
+주어진 날짜 또는 dateTime이 지금부터 현재 + 델타 시간 사이에 있으면 true를 반환합니다.
 
-## 카테고리
+## 범주
 
 날짜
 
@@ -39,9 +42,9 @@ source-git-commit: 0e06abf518445ce145d2d042b16daaa2dfd9603e
 
 `inNextHours(<dateTime>,<integer>)`
 
-부울 값을 반환합니다.
+부울을 반환합니다.
 
-## 예
+## 예제
 
 `inNextHours(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
