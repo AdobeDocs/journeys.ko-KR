@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 5%
 
 ---
 
 
 # round {#round}
 
-인수에 가장 근접한 정수 값을 양수 무한대로 반올림하여 반환합니다.
+인수에 가장 가까운 정수 값을 반환합니다.
 
-## 카테고리
+## 범주
 
 수학
 
@@ -30,7 +33,7 @@ source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 
 ## 매개 변수
 
-* decimal
+* 소수
 * 정수
 
 ## 서명 및 반환된 문자
@@ -45,7 +48,7 @@ source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 
 `round(3.14)`
 
-반환 3입니다.
+반환 3.
 
 `round(3.54)`
 
@@ -57,4 +60,4 @@ source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 
 `round(3)`
 
-반환 3입니다.
+반환 3.
