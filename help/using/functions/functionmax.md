@@ -12,14 +12,17 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 4%
 
 ---
 
 # max{#max}
 
-목록 또는 두 표현식으로 지정된 표현식 집합 중 최대값을 반환합니다. Null 값은 무시됩니다.
+목록 또는 두 개의 표현식으로 제공된 표현식 집합 중 최대값을 반환합니다. null 값은 무시됩니다.
 
-## 카테고리
+## 범주
 
 집계
 
@@ -36,7 +39,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 * listDateTimeOnly
 * 지속 시간
 * 정수
-* decimal
+* 소수
 * dateTime
 * dateTimeOnly
 
@@ -44,15 +47,15 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `max(<listDuration>)`
 
-기간을 반환합니다.
+지속 시간을 반환합니다.
 
 `max(<listInteger>)`
 
-기간을 반환합니다.
+지속 시간을 반환합니다.
 
 `max(<listDateTimeOnly>)`
 
-시간대를 고려하지 않고 datetime을 반환합니다.
+시간대를 고려하지 않고 날짜/시간을 반환합니다.
 
 `max(<listDateTime>)`
 
@@ -68,7 +71,7 @@ datetime을 반환합니다.
 
 `max(<duration>,<duration>)`
 
-기간을 반환합니다.
+지속 시간을 반환합니다.
 
 `max(<dateTime>,<dateTime>)`
 
@@ -76,13 +79,13 @@ datetime을 반환합니다.
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-시간대를 고려하지 않고 datetime을 반환합니다.
+시간대를 고려하지 않고 날짜/시간을 반환합니다.
 
 `max(<integer>,<integer>)`
 
 정수를 반환합니다.
 
-## 예
+## 예제
 
 `max(@{BarBeacon.inventory},5)`
 
