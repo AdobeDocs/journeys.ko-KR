@@ -1,6 +1,6 @@
 ---
 title: nowWithDelta
-description: 지금 기능에 대한 자세한 내용WithDelta
+description: 기능에 대한 자세한 내용WithDelta
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 
 오프셋을 포함한 현재 날짜/시간을 반환합니다. 표준 시간대 ID를 지정하면 시간대 오프셋이 적용됩니다. 데이터 유형에 대한 자세한 내용은 을 참조하십시오 [](../expression/data-types.md).
 
-## 카테고리
+## 범주
 
 날짜
 
@@ -33,8 +36,8 @@ source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 | 매개 변수 | 설명 |
 |--- |--- |
 | 델타 | 양의 정수 또는 음의 정수 값 |
-| 날짜 부분 | 년, 월, 일, 시간, 분 또는 초를 문자열로 |
-| 시간대 ID | 표준 시간대 값의 문자열 표현. 자세한 내용은 을 참조하십시오 [](../expression/data-types.md). 표준 시간대 ID는 문자열 상수여야 합니다. 필드 참조나 식이 될 수 없습니다. |
+| 날짜 부분 | 연도, 월, 일, 시간, 분 또는 초(문자열) |
+| 시간대 ID | 표준 시간대 값의 문자열 표현. 자세한 내용은 을 참조하십시오 [](../expression/data-types.md). 시간대 ID는 문자열 상수여야 합니다. 필드 참조나 식이 될 수 없습니다. |
 
 ## 서명 및 반환된 문자
 
@@ -44,7 +47,7 @@ source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 
 dateTime을 반환합니다.
 
-## 예
+## 예제
 
 `nowWithDelta(-2, "hours")`
 
