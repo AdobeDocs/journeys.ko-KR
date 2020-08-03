@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '32'
+ht-degree: 6%
 
 ---
 
 
 # currentTimeInMillis {#currentTimeInMillis}
 
-현재 시간을 epoch 밀리초 단위로 반환합니다.
+현재 시간을 밀리초 단위로 반환합니다.
 
-## 카테고리
+## 범주
 
 날짜
 
@@ -38,7 +41,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 정수를 반환합니다.
 
-## 예
+## 예제
 
 `currentTimeInMillis()`
 
