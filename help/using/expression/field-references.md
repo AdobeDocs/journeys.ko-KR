@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 1%
 
 ---
 
@@ -21,13 +24,13 @@ source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 필드 참조를 이벤트 또는 필드 그룹에 연결할 수 있습니다. 유일한 의미 있는 정보는 필드의 이름과 해당 경로입니다.
 
-필드에 특수 문자를 사용하는 경우 큰따옴표나 작은 따옴표를 사용해야 합니다. 다음은 따옴표가 필요한 경우입니다.
+필드에 특수 문자를 사용하는 경우 큰 따옴표나 간단한 따옴표를 사용해야 합니다. 다음은 따옴표가 필요한 경우입니다.
 
-* 필드는 숫자 문자로 시작합니다.
+* 필드가 숫자 문자로 시작됩니다.
 * &quot;-&quot; 문자로 시작하는 필드
-* 필드에는 다음 이외의 항목이 들어 있습니다. _z__z_, __ z _,_ Z0 _-0-____9, _ , _ ._
+* 필드에는 다음과 같은 것 이외의 다른 것이 있습니다. _a_-z _,_ a _-_ z _, jecyn_-0-jecyn _____9,, _ ,_
 
-예를 들어 필드가 _3h인 경우_:#{ _{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
+예를 들어 필드가 _3h인 경우_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```
 // event field
@@ -58,11 +61,11 @@ source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 >[!NOTE]
 >
->필드의 유형과 기본값은 같아야 합니다. 예: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue :기본값은 정수이지만 예상 값은 문자열이어야 하므로 {2}이(가) 잘못되었습니다.
+>필드의 유형과 기본값은 동일해야 합니다. 예: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 기본값은 정수이지만 예상 값은 문자열이어야 하므로 2}이(가) 잘못되었습니다.
 
 **컬렉션 내 필드 참조**
 
-컬렉션 내에 정의된 요소는 모두, 첫 번째 및 마지막 특정 함수를 사용하여 참조됩니다. 자세한 내용은 을 참조하십시오 [](../expression/collection-management-functions.md).
+컬렉션 내에서 정의된 요소는 모두, 첫 번째 및 마지막 특정 함수를 사용하여 참조됩니다. 자세한 내용은 을 참조하십시오 [](../expression/collection-management-functions.md).
 
 예:
 
@@ -72,32 +75,32 @@ source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 **맵에 정의된 필드 참조**
 
-맵에서 요소를 검색하기 위해 주어진 키가 있는 입력 함수를 사용합니다. 예를 들어 선택한 네임스페이스에 따라 이벤트의 키를 정의할 때 사용됩니다. 네임스페이스 선택을 참조하십시오. 자세한 내용은 을 참조하십시오 [](../event/selecting-the-namespace.md).
+맵에서 요소를 검색하기 위해 주어진 키와 함께 입력 함수를 사용합니다. 예를 들어 선택한 네임스페이스에 따라 이벤트의 키를 정의할 때 사용됩니다. 네임스페이스 선택을 참조하십시오. 자세한 내용은 을 참조하십시오 [](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-이 표현식에서 이벤트의 &#39;IdentityMap&#39; 필드의 &#39;Email&#39; 키에 대한 항목이 수신됩니다. &#39;Email&#39; 항목은 &#39;first()&#39;를 사용하여 첫 번째 요소에서 &#39;id&#39;를 가져오는 컬렉션입니다. 자세한 내용은 을 참조하십시오 [](../expression/collection-management-functions.md).
+이 식에서 이벤트의 &#39;IdentityMap&#39; 필드에 &#39;Email&#39; 키에 대한 항목이 제공됩니다. &#39;Email&#39; 항목은 &#39;first()&#39;를 사용하여 첫 번째 요소에서 &#39;id&#39;를 가져오는 컬렉션입니다. 자세한 내용은 을 참조하십시오 [](../expression/collection-management-functions.md).
 
 **데이터 소스의 매개 변수 값(데이터 소스 동적 값)**
 
-매개 변수를 호출해야 하는 외부 데이터 소스에서 필드를 선택하면 오른쪽에 새 탭이 표시되어 이 매개 변수를 지정할 수 있습니다. 을 [](../expression/expressionadvanced.md)참조하십시오.
+매개 변수를 호출해야 하는 외부 데이터 소스에서 필드를 선택하면 오른쪽에 새 탭이 표시되어 이 매개 변수를 지정할 수 있습니다. [](../expression/expressionadvanced.md)을 참조하십시오.
 
-보다 복잡한 사용 사례의 경우 기본 표현식에 데이터 소스의 매개 변수를 포함하려는 경우 키워드 _매개 변수를_&#x200B;사용하여 해당 값을 정의할 수 있습니다. 매개 변수는 다른 매개 변수도 포함하는 다른 데이터 소스의 표현식일 수 있습니다.
+보다 복잡한 사용 사례의 경우 기본 식에 데이터 소스의 매개 변수를 포함하려는 경우 키워드 매개 변수를 사용하여 해당 값을 정의할 수 _있습니다_. 매개 변수는 다른 매개 변수도 포함하는 다른 데이터 소스의 모든 유효한 표현식이 될 수 있습니다.
 
 >[!NOTE]
 >
 >표현식에서 매개 변수 값을 정의하면 오른쪽 탭이 사라집니다.
 
-다음 구문을 사용합니다.
+다음 구문을 사용하십시오.
 
 ```
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
-* **`<params-1-name>`**:데이터 소스의 첫 번째 매개 변수의 정확한 이름입니다.
-* **`<params-1-value>`**:첫 번째 매개 변수의 값입니다. 유효한 표현일 수 있습니다.
+* **`<params-1-name>`**: 데이터 소스의 첫 번째 매개 변수의 정확한 이름입니다.
+* **`<params-1-value>`**: 첫 번째 매개 변수의 값입니다. 유효한 표현일 수 있습니다.
 
 예:
 
