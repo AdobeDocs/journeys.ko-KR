@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 89%
 >
 >사용자 지정 작업은 항상 **기술 사용자**&#x200B;가 구성해야 합니다.
 
-**작업** 목록에서 c 키를 누르면 새 경로, 작업, 데이터 소스 또는 이벤트를 만들 수 있습니다. For more information on shortcuts in [!DNL Journey Orchestration], see [](../about/user-interface.md#section_ksq_zr1_ffb).
+**작업** 목록에서 c 키를 누르면 새 경로, 작업, 데이터 소스 또는 이벤트를 만들 수 있습니다. [!DNL Journey Orchestration]의 바로 가기에 대한 자세한 내용은 [](../about/user-interface.md#section_ksq_zr1_ffb)을 참조하십시오.
 
 작업 목록을 확인하거나 새 작업을 구성하려면 상단 메뉴에서 **[!UICONTROL Actions]**&#x200B;을 클릭합니다. 그러면 작업 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [](../about/user-interface.md)를 참조하십시오.
 
@@ -46,4 +46,4 @@ Adobe Campaign Standard가 설치되어 있다면 Adobe Campaign Standard의 트
 
 Epsilon, Facebook, Adobe.io, Firebase 등의 서드파티 시스템을 사용하여 메시지를 보내는 경우에는 사용자 지정 작업을 추가하고 구성해야 합니다. [](../action/about-custom-action-configuration.md)을 참조하십시오.
 
-For more information on how to configure an Action for [!DNL Journey Orchestration] and how to use it in a journey, watch this [video tutorial](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html).
+[!DNL Journey Orchestration]용 작업을 구성하여 경로에서 사용하는 방법과 관련된 자세한 내용을 확인하려면 이 [비디오 튜토리얼](https://docs.adobe.com/content/help/ko-KR/journey-orchestration-learn/tutorials/configure-actions.html)을 시청하십시오.
