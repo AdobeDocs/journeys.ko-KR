@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 74%
+ht-degree: 86%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="데이터 소스"
->abstract="데이터 소스는 항상 기술 사용자가 구성해야 합니다. 데이터 소스 구성을 사용하면 시스템에 대한 연결을 정의하여 여정에 사용할 추가 정보를 검색할 수 있습니다. 조건 정의, 매개 변수 및 개인화 데이터의 액션, 사용자 정의 대기 정의, 시간대 정의."
+>abstract="데이터 소스는 항상 기술 사용자가 구성해야 합니다. 데이터 소스를 구성하면 경로에서 사용할 추가 정보 검색을 위해 시스템에 대한 연결을 정의할 수 있습니다. 이러한 추가 정보에는 조건 정의, 작업의 매개 변수 및 개인화 데이터, 사용자 지정 대기 정의, 시간대 정의 등이 있습니다."
 
 데이터 소스를 구성하면 경로에서 사용할 추가 정보 검색을 위해 시스템에 대한 연결을 정의할 수 있습니다. 이러한 추가 정보에는 다음과 같은 항목이 포함됩니다.
 
@@ -42,7 +42,7 @@ ht-degree: 74%
 
 각 데이터 소스에서는 필드 그룹을 사용하여 검색할 정보를 정의합니다. 필드 그룹은 데이터 소스에서 검색할 수 있는 필드 세트입니다. [](../datasource/field-groups.md)을 참조하십시오.
 
-For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
+For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/ko-KR/journey-orchestration-learn/tutorials/configure-data-sources.html).
 
 데이터 소스를 구성하는 주요 단계는 다음과 같습니다.
 
