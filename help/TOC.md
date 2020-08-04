@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 78%
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 78%
 + 새로운 기능 {#release-notes}
    + [릴리스 정보](using/release-notes/release-notes.md)
    + [설명서 업데이트 정보](using/release-notes/documentation-updates.md)
-+ Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
++ [!DNL Journey Orchestration] 시작 {#starting-with-journeys}
    + [정보 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [시작](using/about/get-started.md)
    + [사용자 인터페이스](using/about/user-interface.md)
@@ -46,8 +46,8 @@ ht-degree: 78%
       + [사용자 지정 작업 제한](using/action/custom-action-limitations.md)
       + [URL 구성](using/action/url-configuration.md)
       + [메시지 매개 변수 정의](using/action/defining-the-message-parameters.md)
-+ 플랫폼 세그먼트 사용 {#configuring-segment}
-   + [플랫폼 세그먼트 정보](using/segment/about-segments.md)
++ Platform 세그먼트 사용 {#configuring-segment}
+   + [Platform 세그먼트](using/segment/about-segments.md)
    + [세그먼트 만들기](using/segment/creating-a-segment.md)
    + [조건에서 세그먼트 사용](using/segment/using-a-segment.md)
 + 여정 구축 {#building-journeys}
@@ -76,9 +76,9 @@ ht-degree: 78%
    + [여정 테스트](using/building-journeys/testing-the-journey.md)
    + [여정 게시](using/building-journeys/publishing-the-journey.md)
    + Adobe Experience Platform을 통한 고객 여정 공유 {#sharing-journey-steps}
-      + [고객 여정 단계 공유 개요](using/building-journeys/sharing-overview.md)
-      + [journeySteps events 일반 필드](using/building-journeys/sharing-common-fields.md)
-      + [journeyStep events 작업 실행 필드](using/building-journeys/sharing-execution-fields.md)
+      + [경로 단계 공유 개요](using/building-journeys/sharing-overview.md)
+      + [journeySteps 이벤트 공통 필드](using/building-journeys/sharing-common-fields.md)
+      + [journeyStep 이벤트 작업 실행 필드](using/building-journeys/sharing-execution-fields.md)
       + [journeyStep 이벤트 데이터 가져오기 필드](using/building-journeys/sharing-fetch-fields.md)
       + [journeyStep 이벤트 ID 필드](using/building-journeys/sharing-identity-fields.md)
       + [경로 필드](using/building-journeys/sharing-journey-fields.md)
@@ -144,7 +144,7 @@ ht-degree: 78%
          + [contain](using/functions/functioncontain.md)
          + [containWithIgnoreCase](using/functions/functioncontainwithignorecase.md)
          + [endWith](using/functions/functionendwith.md)
-         + [endWithIgnorease](using/functions/functionendwithignorecase.md)
+         + [endWithIgnorecase](using/functions/functionendwithignorecase.md)
          + [equalWithIgnoreCase](using/functions/functionequalignorecase.md)
          + [indexOf](using/functions/functionindexof.md)
          + [isEmpty](using/functions/functionisempty.md)
@@ -166,9 +166,9 @@ ht-degree: 78%
    + [여정 보고서](using/reporting/about-journey-reports.md)
    + [여정 보고서 만들기](using/reporting/creating-your-journey-reports.md)
    + [지표 및 차원](using/reporting/metrics-and-dimensions.md)
-+ 지능형 서비스와 통합{#use-case-advanced}
-   + [AI 통합 정보](using/ai-services/ai-services-overview.md)
-   + [고객 여정 AI 활용](using/ai-services/leveraging-fatigue-scores.md)
++ Intelligent Services와 통합{#use-case-advanced}
+   + [AI 통합](using/ai-services/ai-services-overview.md)
+   + [경로 AI 활용](using/ai-services/leveraging-fatigue-scores.md)
    + [고객 AI 활용](using/ai-services/leveraging-customer-ai.md)
 + 사용 사례{#use-cases-journeys}
    + 단순 사용 사례{#use-case-simple}
@@ -182,7 +182,7 @@ ht-degree: 78%
       + [데이터 소스 구성](using/usecase/configuring-the-data-sources.md)
       + [여정 구축](using/usecase/building-the-journey.md)
 + API 작업{#working-with-apis}
-   + [API 매핑](using/api/capping.md)
+   + [API 최대 가용량](using/api/capping.md)
 + 알파 기능 {#alpha}
    + [알파 기능 개요](using/alpha/alpha-overview.md)
    + [사용자 인터페이스](using/alpha/alpha-interface.md)
