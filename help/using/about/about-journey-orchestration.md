@@ -12,12 +12,12 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 13%
+ht-degree: 97%
 
 ---
 
 
-# 정보 [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
+# About [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
 이벤트나 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 작성할 수 있습니다.
 
@@ -25,28 +25,28 @@ ht-degree: 13%
 
 ![](../assets/journeydiagram.png)
 
-[!DNL Journey Orchestration] 이벤트, Adobe Experience Platform의 정보 또는 타사 API 서비스의 데이터를 기반으로 컨텍스트 기반의 실시간 오케스트레이션을 구현할 수 있습니다. 타사 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 구성할 수 있습니다. Adobe Campaign Standard이 있는 경우 Adobe Campaign Standard의 [트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+[!DNL Journey Orchestration]에서는 이벤트, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 활용한 실시간 오케스트레이션이 가능합니다. 서드파티 시스템을 사용하여 메시지를 보내는 경우에는 사용자 지정 작업을 구성할 수 있습니다. Adobe Campaign Standard가 설치되어 있다면 Adobe Campaign Standard의 [트랜잭션 메시지 기능](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.
 
-이벤트 구성 탭에서 **기술 사용자가** 여정에서 예상 이벤트를 구성합니다. 들어오는 이벤트의 데이터는 XDM(Adobe Experience Data Model)에 따라 표준화됩니다. 이벤트는 인증된 이벤트와 인증되지 않은 이벤트(Adobe Mobile SDK 이벤트 등)에 대한 스트리밍 통합 API에서 가져옵니다.
+이벤트 구성 탭에서 **기술 사용자**&#x200B;는 경로에서 예상되는 이벤트를 구성합니다. 수신되는 이벤트 데이터는 Adobe Experience 데이터 모델(XDM)에 따라 표준화됩니다. 이벤트는 인증된 이벤트와 인증되지 않은 이벤트(예: Adobe Mobile SDK 이벤트)를 위한 수집 API 스트리밍에서 옵니다.
 
-데이터 소스 구성 탭에서 **기술 사용자가** 구성합니다.
+데이터 소스 구성 탭에서 **기술 사용자**&#x200B;는 다음을 구성합니다.
 
-* 조건 구축 및 개인화를 위해 고객 여정 디자이너의 Adobe Experience Platform에서 노출된 다양한 필드
-* 고객 여정 디자이너의 데이터 활용 사용자 지정 데이터 소스는 API를 통해 타사 시스템 [!DNL Journey Orchestration] 또는 서비스 간의 연결입니다. 충성도 시스템과 같은 타사 시스템을 연결할 수 있습니다. 예를 들어 날씨 API와 같은 타사 서비스가 있을 수 있습니다.
+* 조건 작성 및 개인화를 위해 경로 디자이너에서 Adobe Experience Platform으로부터 노출되는 다양한 필드.
+* 경로 디자이너에서 활용하는 추가적인 사용자 지정 데이터 소스. 사용자 지정 데이터 소스는 API를 통해 이루어지는 [!DNL Journey Orchestration] 및 서드파티 시스템 또는 서비스의 연결입니다. 충성도 시스템과 같은 서드파티 시스템을 연결할 수 있습니다. 예를 들어 날씨 API와 같은 서드파티 서비스가 있을 수 있습니다.
 
-고객 여정 디자이너를 사용하면 **비즈니스** 사용자는 시작 이벤트를 드래그 앤 드롭하고 조건을 추가하고 수행할 작업을 쉽게 지정할 수 있습니다.
+경로 디자이너를 통해 **비즈니스 사용자**&#x200B;는 손쉽게 항목 이벤트를 끌어서 놓고, 조건을 추가하고, 수행할 작업을 지정할 수 있습니다.
 
-그런 다음 다음을 기준으로 조건을 만듭니다.
+그리고 다음을 기준으로 조건을 만듭니다.
 
-* time
+* 시간
 * 이벤트 페이로드에서 오는 데이터
-* 데이터 소스에서 정보 수집: 실시간 고객 프로필 데이터 소스 또는 사용자 지정 데이터 소스
+* 데이터 소스에서 오는 정보: 실시간 고객 프로필 데이터 소스 또는 사용자 지정 데이터 소스
 
-분할된 조건을 사용하여 여행중인 사람들을 다른 방향으로 보낼 수 있습니다.
+분할된 조건을 사용하여 경로에 있는 사람들을 다른 방향으로 보낼 수 있습니다.
 
-그런 다음 작업 활동을 사용하여 타사 시스템을 통해 메시지를 보낼 수 있습니다. Adobe Campaign Standard이 있는 경우 실시간으로 개인화된 SMS, 푸시 알림 또는 이메일을 전송할 수 있습니다.
+그런 다음에 작업 활동을 사용하여 서드파티 시스템을 통해 메시지를 보낼 수 있습니다. Adobe Campaign Standard가 있는 경우에는 개인화된 실시간 SMS, 푸시 알림 또는 이메일을 보내십시오.
 
-여러 단계 [!DNL Journey Orchestration] 와 마찬가지로 고급 시나리오를 만들 수 있습니다. 예를 들어 첫 번째 이벤트와 작업 후에 다른 이벤트를 드래그할 수 있습니다. 그런 다음 두 번째 작업을 추가하고 대기 활동을 지정하여 잠시 기다렸다가 분할 조건을 추가하여 사람들을 두 개의 다른 경로로 푸시하고 다른 메시지를 전송할 수 있습니다.
+[!DNL Journey Orchestration]은 여러 단계로 진행되므로 고급 시나리오를 만들 수 있습니다. 예를 들어 첫 번째 이벤트 및 작업 후에 다른 이벤트를 드래그할 수 있습니다. 그런 다음에 두 번째 작업을 추가하고, 잠시 기다리기 위한 대기 활동을 배치하고, 서로 다른 두 경로에 사람들을 푸시한 후에 각기 다른 메시지를 보내기 위한 분할 조건을 추가할 수 있습니다.
 
 >[!NOTE]
 >
