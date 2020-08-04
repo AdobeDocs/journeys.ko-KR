@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -166,7 +166,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 }
 ```
 
-사용자 정의 인증 데이터 소스에 대한 토큰의 캐시 지속 시간을 변경할 수 있습니다. 다음은 사용자 정의 인증 페이로드의 예입니다. 캐시 지속 시간은 &quot;cacheDuration&quot; 매개 변수에 정의됩니다. 캐시에 생성된 토큰의 보존 기간을 지정합니다. 단위는 밀리초, 초, 분, 시간, 일, 개월, 년일 수 있습니다.
+사용자 지정 인증 데이터 소스에 대해 토큰의 캐시 기간을 변경할 수 있습니다. 아래는 사용자 지정 인증 페이로드의 예입니다. 캐시 기간은 &quot;cacheDuration&quot; 매개 변수에서 정의됩니다. 캐시에서 생성된 토큰의 보존 기간을 지정합니다. 단위는 밀리초, 초, 분, 시간, 일, 개월, 년일 수 있습니다.
 
 ```
 "authentication": {
