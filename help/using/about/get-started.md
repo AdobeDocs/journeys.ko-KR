@@ -12,16 +12,16 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 79%
+ht-degree: 95%
 
 ---
 
 
 # 시작{#concept_y4b_4qt_52b}
 
-In [!DNL Journey Orchestration], there are two types of users, each of them performing specific tasks: the **technical user** and the **business user**. 제품 프로필과 권한을 통해 사용자 액세스를 관리합니다. 사용자 액세스를 구성하는 방법에 대해 알아보려면 [](../about/access-management.md)를 참조하십시오.
+[!DNL Journey Orchestration]에는 각기 특정 작업을 수행하는 두 가지 유형의 사용자가 있습니다. 그중 하나는 **기술 사용자**&#x200B;이고 다른 하나는 **비즈니스 사용자입니다**. 제품 프로필과 권한을 통해 사용자 액세스를 관리합니다. 사용자 액세스를 구성하는 방법에 대해 알아보려면 [](../about/access-management.md)를 참조하십시오.
 
-Here are the main steps to configure and use [!DNL Journey Orchestration]:
+[!DNL Journey Orchestration]을 구성 및 사용하는 주요 단계는 다음과 같습니다.
 
 1. **이벤트 구성**
 
@@ -41,7 +41,7 @@ Here are the main steps to configure and use [!DNL Journey Orchestration]:
 
 1. **작업 구성**
 
-   If you&#39;re using a third-party system to send your messages, you need to configure its connection with [!DNL Journey Orchestration]. [](../action/about-custom-action-configuration.md)을 참조하십시오.
+   서드파티 시스템을 사용하여 메시지를 전송하는 경우 [!DNL Journey Orchestration]과의 연결을 구성해야 합니다. [](../action/about-custom-action-configuration.md)을 참조하십시오.
 
    Adobe Campaign Standard를 사용하여 메시지를 전송하는 경우 기본 작업을 구성해야 합니다. [](../action/working-with-adobe-campaign.md)을 참조하십시오.
 
