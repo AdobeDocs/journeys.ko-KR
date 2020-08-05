@@ -51,15 +51,15 @@ ht-degree: 2%
 
    ![](../assets/dynamic_report_journey_3.png)
 
-1. 탭에서 **[!UICONTROL Panels]** 필요한 만큼 많은 패널이나 자유 형식 테이블을 드래그하여 놓습니다. 자세한 내용은 이 [섹션을 참조하십시오](#adding-panels).
+1. 탭에서 **[!UICONTROL Panels]** 필요한 만큼 많은 패널이나 자유 형식 테이블을 드래그하여 놓습니다. For more information, refer to this [section](#adding-panels).
 
    ![](../assets/dynamic_report_journey_4.png)
 
-1. 그런 다음 탭의 차원 및 지표를 자유 형식 테이블로 드래그하여 놓아 데이터 필터링을 시작할 수 **[!UICONTROL Components]** 있습니다. 자세한 내용은 이 [섹션을 참조하십시오](#adding-components).
+1. 그런 다음 탭의 차원 및 지표를 자유 형식 테이블로 드래그하여 놓아 데이터 필터링을 시작할 수 **[!UICONTROL Components]** 있습니다. For more information, refer to this [section](#adding-components).
 
    ![](../assets/dynamic_report_journey_5.png)
 
-1. 데이터를 보다 명확하게 보려면 탭에서 시각화를 추가할 수 **[!UICONTROL Visualizations]** 있습니다. 자세한 내용은 이 [섹션을 참조하십시오](#adding-visualizations).
+1. 데이터를 보다 명확하게 보려면 탭에서 시각화를 추가할 수 **[!UICONTROL Visualizations]** 있습니다. For more information, refer to this [section](#adding-visualizations).
 
 ## 패널 추가{#adding-panels}
 
