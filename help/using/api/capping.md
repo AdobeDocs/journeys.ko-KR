@@ -115,7 +115,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 }
 ```
 
-### 예:
+### 예제:
 
 ```
 `{
