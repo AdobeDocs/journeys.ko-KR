@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 workflow-type: tm+mt
 source-wordcount: '112'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 문자열을 반환합니다.
 
-## 예
+## 예제
 
 `toString(4)`
 
