@@ -38,7 +38,7 @@ ht-degree: 12%
 
 1. 작업에 설명을 추가합니다. 데이터 소스에 이벤트에 설명을 추가합니다.
 1. The number of journeys that use this action is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of  journeys using this action.
-1. 다양한 매개 변수를 **[!UICONTROL URL Configuration]** 정의합니다. [](../action/url-configuration.md)을 참조하십시오.
+1. Define the different **[!UICONTROL URL Configuration]** parameters. [](../action/url-configuration.md)을 참조하십시오.
 1. 섹션을 **[!UICONTROL Authentication]** 구성합니다. 이 구성은 데이터 소스의 경우와 동일합니다.  [](../datasource/external-data-sources.md#section_wjp_nl5_nhb)을 참조하십시오.
 1. 를 **[!UICONTROL Message parameters]**&#x200B;정의합니다. [](../action/defining-the-message-parameters.md)를 참조하십시오.
 1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
