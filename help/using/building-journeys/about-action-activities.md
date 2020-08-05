@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 4%
 
 ![](../assets/journey58.png)
 
-이러한 활동은 사용 가능한 다양한 통신 채널을 나타냅니다. 이러한 구성 요소를 결합하여 크로스채널 시나리오를 만들 수 있습니다.
+이곳에는 사용 가능한 다양한 통신 채널의 활동이 표시됩니다. 이러한 구성 요소를 결합하여 크로스채널 시나리오를 만들 수 있습니다.
 
-Adobe Campaign Standard이 있는 경우 다음과 같은 바로 사용 가능한 작업 활동을 사용할 수 있습니다. **[!UICONTROL Email]**, **[!UICONTROL Push]** and **[!UICONTROL SMS]**. [](../building-journeys/using-adobe-campaign-actions.md)을 참조하십시오.
+Adobe Campaign Standard이 있는 경우 다음과 같은 특별 작업 활동을 사용할 수 있습니다. **[!UICONTROL Email]**, **[!UICONTROL Push]** and **[!UICONTROL SMS]**. [](../building-journeys/using-adobe-campaign-actions.md)을 참조하십시오.
 
 사용자 지정 작업을 구성한 경우 여기에 표시됩니다(참조). [](../building-journeys/using-custom-actions.md)
 
