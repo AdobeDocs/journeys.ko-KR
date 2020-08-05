@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 22%
 
 정수를 반환합니다.
 
-## 예
+## 예제
 
 `listSize([10,2,3])`
 
