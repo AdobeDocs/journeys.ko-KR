@@ -37,7 +37,7 @@ ht-degree: 86%
 
 데이터 소스에는 다음의 두 가지 유형이 있습니다.
 
-* 실시간 고객 프로필 서비스에 대한 연결을 정의하는 사전 구성된 Adobe Experience Platform 데이터 소스입니다. 데이터 소스(기본 데이터 소스). [](../datasource/adobe-experience-platform-data-source.md)를 참조하십시오.
+* 실시간 고객 프로필 서비스 연결을 정의하는 사전 구성된 Adobe Experience Platform 데이터 소스입니다. 데이터 소스(기본 데이터 소스). [](../datasource/adobe-experience-platform-data-source.md)를 참조하십시오.
 * 외부 시스템에 대한 연결을 정의할 수 있는 외부 데이터 소스. 이러한 소스는 직접 만들 수 있습니다. [](../datasource/external-data-sources.md)를 참조하십시오.
 
 각 데이터 소스에서는 필드 그룹을 사용하여 검색할 정보를 정의합니다. 필드 그룹은 데이터 소스에서 검색할 수 있는 필드 세트입니다. [](../datasource/field-groups.md)을 참조하십시오.
