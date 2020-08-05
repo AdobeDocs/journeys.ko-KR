@@ -143,7 +143,7 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 [!DNL Journey Orchestration]에서는 인스턴스를 샌드박스라는 분리된 가상 환경으로 분할할 수 있습니다.
 샌드박스는 Admin Console에서 제품 프로필을 통해 할당됩니다. 샌드박스를 할당하는 방법에 대한 자세한 내용은 이 [섹션](../about/access-management.md#create-product-profile)을 참조하십시오.
 
-[!DNL Journey Orchestration] 는 해당 조직에 대해 만들어진 Adobe Experience Platform 샌드박스를 반영합니다.
+[!DNL Journey Orchestration] 주어진 조직에 대해 만들어진 Adobe Experience Platform 샌드박스를 반영합니다.
 Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 생성하거나 재설정할 수 있습니다. 자세한 단계는 [샌드박스 사용 안내서](https://docs.adobe.com/content/help/ko-KR/experience-platform/sandbox/ui/user-guide.html)를 참조하십시오.
 
 화면의 왼쪽 상단에 샌드박스 전환기 컨트롤이 있습니다. 한 샌드박스에서 다른 샌드박스로 전환하려면 전환기에서 현재 활성 샌드박스를 클릭하고 드롭다운 목록에서 다른 샌드박스를 선택하십시오.
