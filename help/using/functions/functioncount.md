@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -49,7 +49,7 @@ null 값을 고려하지 않는 목록의 요소를 카운트합니다.
 
 정수를 반환합니다.
 
-## 예
+## 예제
 
 `count([10,2,10,null])`
 
