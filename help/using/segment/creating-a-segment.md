@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 # 세그먼트 만들기 {#creating-a-segment}
 
-Adobe Experience Platform 세그멘테이션 서비스를 사용하여 [세그먼트를](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) 만들거나, 직접 액세스하여 만들 수 있습니다 [!DNL Journey Orchestration].
+Adobe Experience Platform [세그멘테이션 서비스를 사용하여 세그먼트를](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) 만들거나, 직접 액세스하여 만들 수 있습니다 [!DNL Journey Orchestration].
 
 1. 상단 메뉴에서 **[!UICONTROL Segments]** 탭을 클릭합니다. Adobe Experience Platform 세그먼트 목록이 표시됩니다. 목록에서 특정 세그먼트를 검색할 수 있습니다.
 
