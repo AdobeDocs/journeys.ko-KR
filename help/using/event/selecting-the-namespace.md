@@ -25,7 +25,7 @@ ht-degree: 11%
 
 사전 정의된 항목 중 하나를 사용하거나 ID 네임스페이스 서비스를 사용하여 새 항목을 만들 수 있습니다. 이 [페이지를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/experience-platform/identity/home.html).
 
-기본 ID가 있는 스키마를 선택하면 **[!UICONTROL Key]** 및 **[!UICONTROL Namespace]** 필드가 미리 채워집니다. 정의된 ID가 없으면 기본 키로 _identityMap > id_ 를 선택합니다. 그런 다음 네임스페이스를 선택해야 합니다. 그러면 **[!UICONTROL Namespace]** identityMap > id를 사용하여 키(필드 _아래)가 미리 채워집니다_.
+기본 ID가 있는 스키마를 선택하면 **[!UICONTROL Key]** 및 **[!UICONTROL Namespace]** 필드가 미리 채워집니다. ID가 정의되지 않은 경우 기본 키로 _identityMap > id_ 를 선택합니다. 그런 다음 네임스페이스를 선택해야 합니다. 그러면 **[!UICONTROL Namespace]** identityMap > id를 사용하여 키(필드 _아래)가 미리 채워집니다_.
 
 필드를 선택하면 기본 ID 필드에 태그가 지정됩니다.
 
