@@ -43,14 +43,14 @@ ht-degree: 85%
 <li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">자세한 내용</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>단순 표현식 편집기에서 이제 Adobe Experience Platform 세그먼트가 탐색 트리에 직접 나열되므로 "이 사람이 세그먼트 A에 속합니까?"와 같은 조건을 쉽게 설정할 수 있습니다.<a href="../segment/using-a-segment.md">자세한 내용</a></p>
+<li><p>단순 표현식 편집기에서 이제 Adobe Experience Platform 세그먼트가 내비게이션 트리에 바로 나열되므로 "이 사람이 세그먼트 A에 속합니까?"와 같은 조건을 쉽게 설정할 수 있습니다.<a href="../segment/using-a-segment.md">자세한 내용</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration은 이제 Adobe Experience Platform으로, 여정에서 행해지는 단계들을 자동적으로 통과하고 있습니다. 여기에는 발생한 잠재적 오류도 포함됩니다. 이 정보는 특정 경로 또는 모든 경로에 대해 경로 단계 이벤트에서 쿼리를 실행함으로써 보고 및 문제 해결을 수행하는 데 사용될 수 있습니다. <a href="../building-journeys/sharing-overview.md">자세한 내용</a></p>
+<li><p>Journey Orchestration은 이제 여행 중 행해지는 단계인 Adobe Experience Platform으로 자동 전달됩니다. 여기에는 발생한 잠재적 오류도 포함됩니다. 이 정보는 특정 경로 또는 모든 경로에 대해 경로 단계 이벤트에서 쿼리를 실행함으로써 보고 및 문제 해결을 수행하는 데 사용될 수 있습니다. <a href="../building-journeys/sharing-overview.md">자세한 내용</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>이제 Journey Orchestration을 프로덕션 및 비프로덕션 Adobe Experience Platform 샌드박스에 연결할 수 있습니다. 샌드박스는 베타 기능입니다. <a href="../about/access-management.md#sandboxes">자세한 내용</a></p>
+<li><p>이제 Journey Orchestration을 프로덕션 및 비프로덕션 Adobe Experience Platform 샌드박스와 연결할 수 있습니다. 샌드박스는 베타 기능입니다. <a href="../about/access-management.md#sandboxes">자세한 내용</a></p>
 </li>
 </td>
 </tr>
