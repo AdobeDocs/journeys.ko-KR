@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 9%
 
 부울 목록을 반환합니다.
 
-## 예
+## 예제
 
 `sort(["A", "C", "B"], true)`
 
