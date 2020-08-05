@@ -1,6 +1,6 @@
 ---
 title: 고급 표현식 편집기 사용
-description: 고급 표현식을 작성하는 방법 살펴보기
+description: 고급 표현식을 작성하는 방법에 대해 알아보기
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: benzaama
@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
