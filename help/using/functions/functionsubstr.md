@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 4%
 
 문자열을 반환합니다.
 
-## 예
+## 예제
 
 `substr("Hello World",6)`
 
