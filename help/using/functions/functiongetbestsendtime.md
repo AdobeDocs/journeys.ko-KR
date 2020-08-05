@@ -53,7 +53,7 @@ Adobe Experience Platform
 
 dateTime을 반환합니다.
 
-## 예
+## 예제
 
 getBestSendTime(12,&quot;open&quot;,8)
 
