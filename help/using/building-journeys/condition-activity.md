@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '708'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -45,11 +45,11 @@ ht-degree: 1%
 단순 모드에서는 필드 조합을 기반으로 간단한 쿼리를 수행할 수 있습니다. 사용 가능한 모든 필드가 화면 왼쪽에 표시됩니다. 필드를 주 영역으로 드래그하여 놓습니다. 서로 다른 요소를 결합하려면 요소를 서로 인터록하여 다양한 그룹 및/또는 그룹 수준을 만듭니다. 그런 다음 논리 연산자를 선택하여 동일한 수준에서 요소를 결합할 수 있습니다.
 
 * AND: 두 가지 기준이 교차하는 점. 모든 기준과 일치하는 요소만 고려됩니다.
-* OR: 두 가지 기준의 결합. 두 기준 중 하나 이상에 맞는 요소가 고려됩니다.
+* OR: 두 가지 기준의 결합. 두 기준 중 하나 이상에 일치하는 요소를 고려합니다.
 
 ![](../assets/journey64.png)
 
-Adobe Experience Platform 세그멘테이션 서비스를 사용하여 세그먼트를 [](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) 만드는 경우 고객 여정 조건에서 이러한 세그먼트를 활용할 수 있습니다. 조건에 [세그먼트 사용을 참조하십시오](../segment/using-a-segment.md).
+세그먼트를 만드는 데 [Adobe Experience Platform 세그멘테이션 서비스를](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) 사용하는 경우 고객 여정 조건에서 이러한 세그먼트를 활용할 수 있습니다. 조건에 [세그먼트 사용을 참조하십시오](../segment/using-a-segment.md).
 
 
 >[!NOTE]
