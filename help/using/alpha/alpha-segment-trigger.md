@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->게시 시 또는 테스트 모드 활성화 시간에 캔버스에 즉시 Adobe Campaign Standard의 동작 활동이 있는 경우, 여행은 초당 13개의 입구에서 제한됩니다. <br>게시 시 또는 테스트 모드 활성화 시간에 캔버스에 즉시 사용 가능한 Adobe Campaign Standard 작업 활동이 없으면 여정이 초당 1,000개의 이벤트에서 재생 속도를 제한합니다.
+>게시 시 또는 테스트 모드 활성화 시간에 캔버스에 기본적으로 제공되는 Adobe Campaign Standard 동작 활동이 있는 경우, 여행은 초당 13개의 입구에서 제한됩니다. <br>게시 시 또는 테스트 모드 활성화 시간에 캔버스에 즉시 사용 가능한 Adobe Campaign Standard 작업 활동이 없으면 여정이 초당 1,000개의 이벤트에서 재생 속도를 제한합니다.
 
 세그먼트 트리거 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 시작할 수 있습니다. 여행 입구는 한 번 또는 정기적으로 실행될 수 있습니다.
 
-Adobe Experience Platform에 Gold 고객 세그먼트가 있다고 가정합시다. 세그먼트 트리거 활동을 사용하면 Gold 고객 세그먼트에 속한 모든 개인이 여정을 시작하고 모든 경로 기능을 활용할 수 있는 개인화된 여정으로 이동할 수 있습니다. 조건, 타이머, 이벤트, 작업.
+Adobe Experience Platform에 골드 고객 세그먼트가 있다고 합시다. 세그먼트 트리거 활동을 사용하면 Gold 고객 세그먼트에 속한 모든 개인이 여정을 시작하고 모든 경로 기능을 활용할 수 있는 개인화된 여정으로 이동할 수 있습니다. 조건, 타이머, 이벤트, 작업.
 
 ## 활동 구성 {#configuring-segment-trigger-activity}
 
@@ -73,6 +73,6 @@ Adobe Experience Platform에 Gold 고객 세그먼트가 있다고 가정합시�
 
    >[!IMPORTANT]
    >
-   >Adobe Experience Platform 세그먼트는 하루에 한 번(**일괄** 세그먼트) 또는 실시간(**스트리밍된** 세그먼트)으로 계산된다는 점을 염두에 두십시오.
+   >Adobe Experience Platform 세그먼트는 하루에 한 번(**일괄** 세그먼트) 또는 실시간(**스트리밍된** 세그먼트)으로 계산된다는 점을 명심하십시오.
    >
-   >선택한 세그먼트가 스트리밍되는 경우, 이 세그먼트에 속한 개인이 잠재적으로 실시간으로 해당 여정에 참여할 수 있습니다. 세그먼트가 일괄 처리인 경우 이 세그먼트에 새로 자격이 있는 사람은 Adobe Experience Platform에서 세그먼트 계산이 실행될 때 여정에 잠재적으로 참여할 수 있습니다.
+   >선택한 세그먼트가 스트리밍되는 경우, 이 세그먼트에 속한 개인이 잠재적으로 실시간으로 해당 여정에 참여할 수 있습니다. 세그먼트가 배치인 경우, 이 세그먼트에 새로 자격을 갖춘 사람은 Adobe Experience Platform에서 세그먼트 계산이 실행될 때 여정에 잠재적으로 참여할 수 있습니다.
