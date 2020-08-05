@@ -19,7 +19,7 @@ ht-degree: 0%
 ---
 
 
-# 진행 단계 이벤트 공통 필드 {#sharing-common-fields}
+# journeysteps events common fields {#sharing-common-fields}
 
 이 혼합은 journeyStepEvent 및 journeyStepProfileEvent가 공유합니다.
 
