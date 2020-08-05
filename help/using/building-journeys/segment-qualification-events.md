@@ -23,13 +23,13 @@ ht-degree: 0%
 
 ## 세그먼트 자격 이벤트 정보{#about-segment-qualification}
 
-이러한 활동을 통해 Adobe Experience Platform 세그먼트의 입구와 출구로부터 고객의 의견을 들을 수 있으므로, 각 사용자가 여행 중에 입장을 바꾸거나 이동할 수 있습니다. 세그먼트 만들기에 대한 자세한 내용은 이 [섹션을 참조하십시오](../segment/about-segments.md).
+이러한 활동을 통해 Adobe Experience Platform 세그먼트의 입장 및 종료 현황을 파악함으로써 개인은 여행 중에 진입하거나 이동할 수 있습니다. For more information on segment creation, refer to this [section](../segment/about-segments.md).
 
 &quot;실버 고객&quot; 세그먼트가 있다고 가정해 봅시다. 이러한 활동을 통해 모든 신규 실버 고객은 고객 여정에 참여하고 개인화된 메시지를 보낼 수 있습니다.
 
 이 유형의 이벤트는 여정의 첫 번째 단계 또는 그 이상으로 배치할 수 있습니다.
 
-Adobe Experience Platform의 고주파수 대상 옵션으로 세그먼트가 스트리밍되는 경우 입구와 출구는 실시간으로 청각됩니다. 세그먼트가 스트리밍되지 않으면 입장 및 퇴장은 세그먼트 계산 시 고려됩니다.
+Adobe Experience Platform의 고주파수 대상 옵션으로 세그먼트가 스트리밍되는 경우 입구와 출구가 실시간으로 청각됩니다. 세그먼트가 스트리밍되지 않으면 입장 및 퇴장은 세그먼트 계산 시 고려됩니다.
 
 1. 카테고리 **[!UICONTROL Events]** 를 펼쳐서 캔버스에 **[!UICONTROL Segment qualification]** 활동을 놓습니다.
 
@@ -61,7 +61,7 @@ Adobe Experience Platform의 고주파수 대상 옵션으로 세그먼트가 �
 
 ## 세그먼트에 대한 우수 사례 {#best-practices-segments}
 
-이 **[!UICONTROL Segment Qualification]** 활동은 Adobe Experience Platform 세그먼트에서 자격이 있거나 자격이 박탈되는 개인들의 여정에 즉시 입장할 수 있게 해 줍니다.
+이 **[!UICONTROL Segment Qualification]** 활동은 Adobe Experience Platform에서 자격이 있거나 결격된 사람들이 가는 여정에 즉시 입장할 수 있게 해준다.
 
 이 정보의 수신 속도가 빠르다. 측정된 측정은 초당 받은 10,000개의 이벤트 속도를 보여줍니다. 그 결과, 여러분은 가장 높은 입구가 어떻게 일어날 수 있는지, 어떻게 그것을 피할 수 있는지 그리고 어떻게 그들을 위해 여러분의 여행을 준비시킬 수 있는지 확실히 알아야 합니다.
 
