@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 workflow-type: tm+mt
 source-wordcount: '41'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 datetime을 반환합니다.
 
-## 예
+## 예제
 
 `updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 
