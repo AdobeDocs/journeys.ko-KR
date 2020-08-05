@@ -67,7 +67,7 @@ ht-degree: 1%
 
 컬렉션 내에서 정의된 요소는 모두, 첫 번째 및 마지막 특정 함수를 사용하여 참조됩니다. 자세한 내용은 을 참조하십시오 [](../expression/collection-management-functions.md).
 
-예:
+예제 :
 
 ```
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
@@ -87,7 +87,7 @@ ht-degree: 1%
 
 매개 변수를 호출해야 하는 외부 데이터 소스에서 필드를 선택하면 오른쪽에 새 탭이 표시되어 이 매개 변수를 지정할 수 있습니다. [](../expression/expressionadvanced.md)을 참조하십시오.
 
-보다 복잡한 사용 사례의 경우 기본 식에 데이터 소스의 매개 변수를 포함하려는 경우 키워드 매개 변수를 사용하여 해당 값을 정의할 수 _있습니다_. 매개 변수는 다른 매개 변수도 포함하는 다른 데이터 소스의 모든 유효한 표현식이 될 수 있습니다.
+For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. 매개 변수는 다른 매개 변수도 포함하는 다른 데이터 소스의 모든 유효한 표현식이 될 수 있습니다.
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ ht-degree: 1%
 * **`<params-1-name>`**: 데이터 소스의 첫 번째 매개 변수의 정확한 이름입니다.
 * **`<params-1-value>`**: 첫 번째 매개 변수의 값입니다. 유효한 표현일 수 있습니다.
 
-예:
+예제:
 
 ```
 #{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
