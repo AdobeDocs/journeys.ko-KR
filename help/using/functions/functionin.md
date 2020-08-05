@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 workflow-type: tm+mt
 source-wordcount: '111'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 10%
 
 부울 값을 반환합니다.
 
-## 예
+## 예제
 
 `in(4,[4,5,3,4])`
 
