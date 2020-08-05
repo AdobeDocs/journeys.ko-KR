@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -49,7 +49,7 @@ null 값을 무시하고 있는 다른 값의 수를 카운트합니다.
 
 정수를 반환합니다.
 
-## 예
+## 예제
 
 `distinctCount([10,2,10,null])`
 
