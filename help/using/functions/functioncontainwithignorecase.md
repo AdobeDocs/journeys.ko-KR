@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 6%
 
 부울을 반환합니다.
 
-## 예
+## 예제
 
 `containWithIgnoreCase("rowing is great', "GREAT")`
 
