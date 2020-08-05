@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 54b54a64ad2822eec96008ac4a2e16c208a4a3ab
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 11%
 
 ![](../assets/journeyuc1_16.png)
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
-Adobe는 Adobe Campaign Standard에서 하나의 이메일 트랜잭션 메시지 템플릿을 설계했습니다. 이벤트 트랜잭션 메시지 템플릿을 사용하고 있습니다. 이 [페이지를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+Adobe는 Adobe Campaign Standard에서 이메일 트랜잭션 메시지 템플릿을 하나로 설계했습니다. 이벤트 트랜잭션 메시지 템플릿을 사용하고 있습니다. 이 [페이지를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
 Adobe Campaign Standard이 이메일을 보내도록 구성되었습니다.
 
