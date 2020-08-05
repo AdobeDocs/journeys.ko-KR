@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -51,10 +51,10 @@ Adobe Experience Platform
 
 부울을 반환합니다.
 
-## 예
+## 예제
 
 `inSegment("men over 50")`
 
 설명:
 
-경로 인스턴스 내의 개인이 &quot;men over 50&quot;이라는 Adobe Experience Platform 세그먼트의 일부일 **[!UICONTROL true]** 경우 이 함수는 **[!UICONTROL false]** 반환됩니다.
+경로 인스턴스 내의 개인이 &quot;men over 50&quot;이라는 Adobe Experience Platform 세그먼트의 일부인 경우 이 함수는 **[!UICONTROL true]** **[!UICONTROL false]** 반환됩니다.
