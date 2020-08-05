@@ -1,6 +1,6 @@
 ---
-title: 고객 여정 단계 공유 개요
-description: 고객 여정 단계 공유 개요
+title: 경로 단계 공유 개요
+description: 경로 단계 공유 개요
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,18 +14,18 @@ translation-type: tm+mt
 source-git-commit: b8cfc9de56e879d8812cf3871067252937454e1d
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 
-# 고객 여정 단계 공유 개요{#sharing-overview}
+# 경로 단계 공유 개요{#sharing-overview}
 
-[!DNL Journey Orchestration] 는 고객 여정 성능 데이터를 Adobe Experience Platform에 자동으로 전송하므로 다른 데이터와 결합하여 분석할 수 있습니다.
+[!DNL Journey Orchestration] 자동으로 경로 성능 데이터를 Adobe Experience Platform으로 보내어 분석을 위해 다른 데이터와 결합할 수 있습니다.
 
-예를 들어, 여러 개의 이메일을 전송하는 경로를 설정했습니다. 이 기능을 사용하면 전환 발생 횟수, 웹 사이트에서 발생한 참여 횟수, 스토어에서 발생한 트랜잭션 수와 같은 다운스트림 이벤트 데이터와 [!DNL Journey Orchestration] 데이터를 결합할 수 있습니다. 고객 여정 정보를 다른 디지털 속성이나 오프라인 속성에서 Adobe Experience Platform의 데이터와 결합하여 보다 포괄적인 성능 보기를 제공할 수 있습니다.
+예를 들어, 여러 개의 이메일을 전송하는 경로를 설정했습니다. 이 기능을 사용하면 전환 발생 횟수, 웹 사이트에서 발생한 참여 횟수, 스토어에서 발생한 트랜잭션 수와 같은 다운스트림 이벤트 데이터와 [!DNL Journey Orchestration] 데이터를 결합할 수 있습니다. 고객 경로 정보는 다른 디지털 속성 또는 오프라인 속성에서 Adobe Experience Platform의 데이터와 결합하여 보다 포괄적인 성능 보기를 제공합니다.
 
-[!DNL Journey Orchestration] 자동으로 필요한 스키마와 스트림을 Adobe Experience Platform으로 생성합니다. 각 단계는 개별 사용자가 이동 중에 수행합니다. 단계 이벤트는 경로의 한 노드에서 다른 노드로 이동하는 개별 이벤트에 해당합니다. 예를 들어, 이벤트, 조건 및 작업이 있는 여정에서 세 단계 이벤트가 Adobe Experience Platform으로 전송됩니다.
+[!DNL Journey Orchestration] 자동으로 필요한 스키마와 데이터 세트를 Adobe Experience Platform으로 스트리밍하여 개인이 이동 중에 취할 각 단계를 자동으로 생성합니다. 단계 이벤트는 경로의 한 노드에서 다른 노드로 이동하는 개별 이벤트에 해당합니다. 예를 들어, 이벤트, 조건 및 작업이 있는 여행에서는 3단계 이벤트가 Adobe Experience Platform으로 전송됩니다.
 
 전달된 XDM 필드 목록은 포괄적입니다. 일부는 시스템 생성 코드를 포함하며 다른 일부는 읽을 수 있는 친근한 이름을 가지고 있다. 여기에는 경로 활동의 레이블이나 단계 상태가 포함됩니다. 작업 시간이 초과되었거나 오류로 종료된 횟수입니다.
 
@@ -53,10 +53,10 @@ Journey는 데이터 발생 시 스트리밍 방식으로 데이터를 전송합
 
 ![](../assets/sharing3.png)
 
-Adobe Experience Platform으로 전달되는 XDM 필드 목록은 다음과 같습니다.
+Adobe Experience Platform에 전달된 XDM 필드 목록은 다음과 같습니다.
 
-* [journeySteps events 일반 필드](../building-journeys/sharing-common-fields.md)
-* [journeyStep events 작업 실행 필드](../building-journeys/sharing-execution-fields.md)
+* [journeySteps 이벤트 공통 필드](../building-journeys/sharing-common-fields.md)
+* [journeyStep 이벤트 작업 실행 필드](../building-journeys/sharing-execution-fields.md)
 * [journeyStep 이벤트 데이터 가져오기 필드](../building-journeys/sharing-fetch-fields.md)
 * [journeyStep 이벤트 ID 필드](../building-journeys/sharing-identity-fields.md)
 * [경로 필드](../building-journeys/sharing-journey-fields.md)
