@@ -77,7 +77,7 @@ In the **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL 
 
 ![](../assets/journey4.png)
 
-## Adobe Experience Platform 필드 탐색 {#friendly-names-display}
+## Adobe Experience Platform 필드 검색 {#friendly-names-display}
 
 [이벤트 페이로드](../event/defining-the-payload-fields.md)와 [필드 그룹 페이로드](../datasource/field-groups.md)를 정의하고 [표현식 편집기](../expression/expressionadvanced.md)에서 필드를 선택할 때는 필드 이름과 함께 표시 이름도 표시됩니다. 이 정보는 Experience Data Model의 스키마 정의에서 검색됩니다.
 
