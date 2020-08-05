@@ -21,7 +21,7 @@ ht-degree: 6%
 
 # 페이로드 필드 정의 {#concept_yrw_3qt_52b}
 
-페이로드 정의를 사용하면 시스템이 여정의 이벤트에서 받게 될 정보와 해당 이벤트와 연관된 사람을 식별하는 키를 선택할 수 있습니다. 페이로드는 Experience Cloud XDM 필드 정의를 기반으로 합니다. XDM에 대한 자세한 내용은 이 [페이지를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/home.html).
+페이로드 정의를 사용하면 시스템이 여정의 이벤트에서 받게 될 정보와 해당 이벤트와 연관된 사람을 식별하는 키를 선택할 수 있습니다. 페이로드는 Experience Cloud XDM 필드 정의를 기반으로 합니다. For more information on XDM, refer to this [page](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/home.html).
 
 1. 목록에서 XDM 스키마를 선택하고 필드 또는 아이콘을 **[!UICONTROL Payload]****[!UICONTROL Edit]** 클릭합니다.
 
