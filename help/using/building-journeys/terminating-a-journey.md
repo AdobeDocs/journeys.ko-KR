@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 72a3fd98b7911a1b8f23ccfeb55b884926f795ce
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 2%
 
    ![](../assets/finish_drop_down_list.png)
 
-1. **[!UICONTROL Close to new entrances]**&#x200B;을 클릭합니다. 대화 상자가 나타납니다.
+1. **[!UICONTROL Close to new entrances]**&#x200B;을(를) 클릭합니다. 대화 상자가 나타납니다.
 1. 을 **[!UICONTROL Close to new entrances]** 클릭하여 확인합니다.
 
 ## 여행 중지
@@ -64,5 +64,5 @@ ht-degree: 2%
 
 ![](../assets/finish_drop_down_list.png)
 
-1. **[!UICONTROL Stop]**&#x200B;을 클릭합니다. 대화 상자가 나타납니다.
+1. **[!UICONTROL Stop]**&#x200B;을(를) 클릭합니다. 대화 상자가 나타납니다.
 1. 을 **[!UICONTROL Stop]** 클릭하여 확인합니다.
