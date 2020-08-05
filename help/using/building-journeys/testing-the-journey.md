@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -51,15 +51,15 @@ ht-degree: 1%
 
 * 테스트를 거친 여정에서 이벤트를 발생시키는 인터페이스가 제공되지만 Postman과 같은 타사 시스템에서 이벤트를 보낼 수도 있습니다.
 * 실시간 고객 프로필 서비스에서 &quot;테스트 프로필&quot;으로 플래그가 지정된 개인만이 테스트를 거친 여정에 참여할 수 있습니다. [](../building-journeys/testing-the-journey.md#create-test-profile)을 참조하십시오.
-* 테스트 모드는 네임스페이스를 사용하는 임시 여행에서만 사용할 수 있습니다. 테스트 모드는 방문자가 테스트 프로필인지 여부를 확인하여 Adobe Experience Platform에 도달할 수 있어야 합니다.
+* 테스트 모드는 네임스페이스를 사용하는 임시 여행에서만 사용할 수 있습니다. 테스트 모드에서 여행 시작 사람이 테스트 프로필인지 여부를 확인할 필요가 있으므로 Adobe Experience Platform에 도달할 수 있어야 합니다.
 * 테스트 세션 중 여정에 입력할 수 있는 최대 테스트 프로필 수는 100개입니다.
 * 테스트 모드를 비활성화하면 이전에 입력한 사람 또는 현재 테스트 사용자의 여정이 빈 것입니다. 또한 보고서를 지웁니다.
 * 필요한 만큼 테스트 모드를 활성화/비활성화할 수 있습니다.
 * 테스트 모드를 활성화하면 경로를 수정할 수 없습니다. 테스트 모드에서는 경로를 직접 게시할 수 있지만 이전에 테스트 모드를 비활성화할 필요가 없습니다.
 
-## 테스트 프로필 만들기{#create-test-profile}
+## Creating a test profile{#create-test-profile}
 
-테스트 프로필을 만드는 프로세스는 Adobe Experience Platform에서 프로파일을 만들 때와 동일합니다. API 호출을 통해 수행됩니다. 이 [페이지 보기](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/home.html)
+테스트 프로필을 만드는 프로세스는 Adobe Experience Platform에서 프로필을 만들 때와 동일합니다. API 호출을 통해 수행됩니다. See this [page](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/home.html)
 
 &quot;프로필 테스트 세부 사항&quot; 혼합이 포함된 프로필 스키마를 사용해야 합니다. testProfile 플래그는 이 믹싱의 일부입니다.
 
@@ -119,7 +119,7 @@ curl -X POST \
 >
 >테스트 모드에서 이벤트를 트리거하면 실제 이벤트가 생성되며, 이것은 이 이벤트 의견 수렴에 다른 여정에 도달함을 의미합니다.
 
-Adobe Experience Platform에서 테스트 프로필로 플래그가 지정된 프로파일을 전제 조건으로 알고 있어야 합니다. 실제로 테스트 모드에서는 이러한 프로필만 여정에서 허용하며 이벤트에는 ID가 포함되어야 합니다. 예상 ID는 이벤트 구성에 따라 다릅니다. 예를 들어 ECID일 수 있습니다.
+사전 요구 사항으로 Adobe Experience Platform에서 테스트 프로필로 플래그가 지정된 프로파일을 알고 있어야 합니다. 실제로 테스트 모드에서는 이러한 프로필만 여정에서 허용하며 이벤트에는 ID가 포함되어야 합니다. 예상 ID는 이벤트 구성에 따라 다릅니다. 예를 들어 ECID일 수 있습니다.
 
 여정에 여러 개의 이벤트가 포함된 경우 드롭다운 목록을 사용하여 이벤트를 선택합니다. 그런 다음 각 이벤트에 대해 전달된 필드와 이벤트 전송 실행을 구성합니다. 이 인터페이스는 이벤트 페이로드에서 올바른 정보를 전달하고 정보 유형이 올바른지 확인하는 데 도움이 됩니다. 테스트 모드는 나중에 사용하기 위해 테스트 세션에 사용된 마지막 매개 변수를 저장합니다.
 
