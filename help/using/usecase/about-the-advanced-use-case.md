@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->이 경우 Adobe Campaign Standard을 사용하여 메시지를 보냅니다.
+>이 경우에는 Adobe Campaign Standard을 사용하여 메시지를 보냅니다.
 
 이 경우 고객에게 특정 비콘 가까이 이동할 때 개인화된 메시지를 실시간으로 보내는 방법을 확인할 수 있습니다.
 
@@ -49,12 +49,12 @@ ht-degree: 4%
 
 두 데이터 소스에 대한 연결을 구성해야 합니다(참조 [](../usecase/configuring-the-data-sources.md)).
 
-* 메시지 개인화 정보는 물론, 두 가지 조건(충성도 멤버십과 마지막 연락처 날짜)에 대한 정보를 검색할 수 있는 내장 Adobe Experience Platform 데이터 소스입니다.
+* 메시지 개인화 정보는 물론, Adobe의 두 가지 조건(충성도 멤버십과 마지막 연락처 날짜)에 대한 정보를 검색하기 위한 내장 Adobe Experience Platform 데이터 소스입니다.
 * 예약상태 정보를 찾기 위한 호텔 예약 시스템.
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
-Adobe는 사용 사례를 위해 세 개의 Adobe Campaign Standard 트랜잭션 메시지 템플릿을 설계했습니다. 이벤트 트랜잭션 메시지 템플릿을 사용하고 있습니다. 이 [페이지를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+사용 사례를 위해 3개의 Adobe Campaign Standard 트랜잭션 메시지 템플릿을 설계했습니다. 이벤트 트랜잭션 메시지 템플릿을 사용하고 있습니다. 이 [페이지를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
 Adobe Campaign Standard은 이메일 및 푸시 알림을 전송하도록 구성되어 있습니다.
 
