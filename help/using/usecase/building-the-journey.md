@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 771b2b35e0aba412e4eb9e12a5d57de3d4c7068c
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 0%
 
 * 두 가지 활동: **[!UICONTROL Event]** &quot;LobbyBeacon&quot; 및 &quot;RestaurantBeacon&quot;
 * 두 가지 활동 **[!UICONTROL Condition]**
-* 세 개의 **[!UICONTROL Push]** 활동 및 한 개의 **[!UICONTROL Email]** 활동(Adobe Campaign Standard 사용)
-* 활동 **[!UICONTROL Wait]**
+* 세 **[!UICONTROL Push]** 가지 활동 및 한 **[!UICONTROL Email]** 가지 활동(Adobe Campaign Standard 사용)
+* a **[!UICONTROL Wait]** activity
 * 네 가지 활동 **[!UICONTROL End]**
 
 >[!NOTE]
 >
->Adobe Campaign Standard이 있는 경우 **[!UICONTROL Push]** 및 **[!UICONTROL Email]** 활동은 팔레트에서만 사용할 수 있습니다.
+>The **[!UICONTROL Push]** and **[!UICONTROL Email]** activities are only available in the palette if you have Adobe Campaign Standard.
 
 여정을 구성하는 방법에 대한 자세한 내용은 를 참조하십시오 [](../building-journeys/journey.md).
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
    ![](../assets/journeyuc2_23.png)
 
-1. 새 **[!UICONTROL Push]** 활동을 추가하고 &quot;식사 할인&quot; 템플릿을 선택하고 **[!UICONTROL Address]** 및 **[!UICONTROL Personalization]** 필드를 정의합니다. 활동을 **[!UICONTROL End]** 추가합니다.
+1. 새 **[!UICONTROL Push]** 활동을 추가하고 &quot;식사 할인&quot; 템플릿을 선택하고 **[!UICONTROL Address]** 및 **[!UICONTROL Personalization]** 필드를 정의합니다. **[!UICONTROL End]** 활동을 추가합니다. 
 
    ![](../assets/journeyuc2_24.png)
 
@@ -154,7 +154,7 @@ ht-degree: 0%
 
    ![](../assets/journeyuc2_31.png)
 
-1. 예약 조건(예약되지 않은 회의실)을 따르는 두 번째 경로에서 활동을 추가하고 &quot;회의실 속도&quot; 템플릿을 선택합니다. **[!UICONTROL Push]** 활동을 **[!UICONTROL End]** 추가합니다.
+1. 예약 조건(예약되지 않은 회의실)을 따르는 두 번째 경로에서 활동을 추가하고 &quot;회의실 속도&quot; 템플릿을 선택합니다. **[!UICONTROL Push]** **[!UICONTROL End]** 활동을 추가합니다. 
 
    ![](../assets/journeyuc2_25.png)
 
@@ -172,7 +172,7 @@ ht-degree: 0%
 
    ![](../assets/journeyuc2_28.png)
 
-1. 활동을 **[!UICONTROL End]** 추가합니다.
+1. **[!UICONTROL End]** 활동을 추가합니다. 
 
 전환 버튼을 **[!UICONTROL Test]** 클릭하고 여정을 테스트합니다. 오류가 있는 경우 테스트 모드를 비활성화하고 경로를 수정한 후 다시 테스트하십시오. 테스트 모드에 대한 자세한 내용은 을 참조하십시오 [](../building-journeys/testing-the-journey.md).
 
