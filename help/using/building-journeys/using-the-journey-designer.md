@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '1335'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 ## 여정 목록 {#journey_list}
 
-The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. 경로 복제, 정지, 삭제도 가능합니다. 특정 작업은 수행할 수 없는 경로도 있습니다. 예를 들어 닫힌 여정은 삭제하거나 다시 시작할 수 없습니다. 여기에서 새 버전을 만들거나 복제하거나 중지할 수 있습니다. 검색 창에서 경로를 검색할 수도 있습니다.
+The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. 경로 복제, 정지, 삭제도 가능합니다. 특정 작업은 수행할 수 없는 경로도 있습니다. 예를 들어 닫힌 경로는 삭제하거나 재시작할 수 없습니다. 여기에서 새 버전을 만들거나 복제하거나 중지할 수 있습니다. 검색 창에서 경로를 검색할 수도 있습니다.
 
 목록 왼쪽 위의 필터 아이콘을 클릭하면 **[!UICONTROL Filters]**&#x200B;에 액세스할 수 있습니다. 필터 메뉴를 사용하면 다양한 기준(상태, 만든 항목, 지난 30일 동안 수정된 항목, 최신 버전만 등)에 따라 표시되는 이동을 필터링할 수 있습니다. 특정 이벤트, 필드 그룹 또는 동작을 사용하는 여정이다. 목록에 표시된 열을 구성할 수 있습니다. 모든 필터 및 열은 사용자별로 저장됩니다.
 
