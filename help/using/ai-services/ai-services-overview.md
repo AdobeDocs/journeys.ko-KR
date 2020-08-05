@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 3c5f1dcf66df31b12237788633704eeb348ddfa2
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# AI 통합 정보 {#ai-overview}
+# AI 통합 {#ai-overview}
 
 Intelligent Services와의 통합을 통해 고객 경험 활용 사례에서 인공 지능과 머신 러닝의 강력한 기능을 활용할 수 있습니다. 따라서 마케팅 분석가는 데이터 과학 전문 지식 없이도 비즈니스 수준 구성을 사용하여 기업의 요구 사항에 맞는 예측을 설정할 수 있습니다.
 
