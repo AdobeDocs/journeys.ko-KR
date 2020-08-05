@@ -51,7 +51,7 @@ ht-degree: 2%
 
    ![](../assets/journeyuc1_5.png)
 
-1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 1. 시스템에서 필요로 하는 페이로드를 미리 보고 이벤트 전송 책임자와 공유할 수 있습니다. **[!UICONTROL View Payload]** Mobile Services 관리 콘솔의 포스트백에 이 페이로드를 구성해야 합니다.
 
