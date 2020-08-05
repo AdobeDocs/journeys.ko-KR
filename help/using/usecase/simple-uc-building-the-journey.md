@@ -26,11 +26,11 @@ ht-degree: 4%
 * &quot;SpaBeacon&quot; **[!UICONTROL Event]**: 스파 비콘 등을 산책하면 자동으로 이벤트를 받게 되고, 그 사람을 위한 여정이 시작된다.
 * 그 사람이 여자인지 확인하는 **[!UICONTROL Condition]** 활동
 * 활동(Adobe Campaign Standard 사용) **[!UICONTROL Email]**
-* 활동 **[!UICONTROL End]**
+* an **[!UICONTROL End]** activity
 
 >[!NOTE]
 >
->Adobe Campaign Standard이 있는 경우 **[!UICONTROL Push]** 및 **[!UICONTROL Email]** 활동은 팔레트에서만 사용할 수 있습니다.
+>The **[!UICONTROL Push]** and **[!UICONTROL Email]** activities are only available in the palette if you have Adobe Campaign Standard.
 
 여정을 구성하는 방법에 대한 자세한 내용은 를 참조하십시오 [](../building-journeys/journey.md).
 
