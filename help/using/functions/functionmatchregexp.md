@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 3%
 
 true를 반환합니다.
 
-## 예
+## 예제
 
 `matchRegExp("Hello World", "Hello\s+World")`
 
