@@ -1,6 +1,6 @@
 ---
-title: journeyStep events 작업 실행 필드
-description: journeyStep events 작업 실행 필드
+title: journeyStep 이벤트 작업 실행 필드
+description: journeyStep 이벤트 작업 실행 필드
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# journeyStep events 작업 실행 필드 {#sharing-execution-fields}
+# journeyStep 이벤트 작업 실행 필드 {#sharing-execution-fields}
 
 이 혼합은 journeyStepEvent 및 journeyStepProfileEvent가 공유합니다.
 
