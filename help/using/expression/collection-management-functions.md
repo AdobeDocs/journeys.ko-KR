@@ -208,7 +208,7 @@ _`<listExpression>.last(<condition>)`_
 
 >[!NOTE]
 >
->경험 이벤트는 Adobe Experience Platform에서 시간순 역순으로 컬렉션으로 검색되므로
+>경험 이벤트는 Adobe Experience Platform에서 시간순 역순으로 검색되므로
 >* **[!UICONTROL first]** 함수는 최신 이벤트를 반환합니다.
 >* **[!UICONTROL last]** 함수는 가장 오래된 것을 반환합니다.
 
@@ -229,7 +229,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 _`<listExpression>`.at(`<index>`)_
 
-**예:**
+**예제:**
 
 이 표현식은 목록의 두 번째 푸시 알림 토큰을 반환합니다.
 
