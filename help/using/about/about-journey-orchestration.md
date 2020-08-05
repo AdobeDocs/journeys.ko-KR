@@ -21,7 +21,7 @@ ht-degree: 97%
 
 이벤트나 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 작성할 수 있습니다.
 
-[!DNL Journey Orchestration] 는 Adobe Experience Platform과 통합된 응용 프로그램 서비스입니다.
+[!DNL Journey Orchestration] 는 Adobe Experience Platform과 통합된 애플리케이션 서비스입니다.
 
 ![](../assets/journeydiagram.png)
 
