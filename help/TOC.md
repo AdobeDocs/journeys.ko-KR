@@ -75,7 +75,7 @@ ht-degree: 95%
          + [사용자 지정 작업 사용](using/building-journeys/using-custom-actions.md)
    + [여정 테스트](using/building-journeys/testing-the-journey.md)
    + [여정 게시](using/building-journeys/publishing-the-journey.md)
-   + Adobe Experience Platform을 통한 고객 여정 공유 {#sharing-journey-steps}
+   + Adobe Experience Platform과 고객 여정 공유 {#sharing-journey-steps}
       + [경로 단계 공유 개요](using/building-journeys/sharing-overview.md)
       + [journeySteps 이벤트 공통 필드](using/building-journeys/sharing-common-fields.md)
       + [journeyStep 이벤트 작업 실행 필드](using/building-journeys/sharing-execution-fields.md)
