@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 2%
         <td>데이터 유형</td>
         <td>설명</td>
         <td>리터럴 표현</td>
-        <td>예</td>
+        <td>예제</td>
         </tr>
     </thead>
     <tbody>
@@ -64,15 +64,15 @@ ht-degree: 2%
     </tr>
     <tr>
         <td>dateTimeOnly</td>
-        <td><p>연도 시간대가 없는 날짜 시간을 나타내며, 년 개월 시간 분 초 밀리초로 표시됩니다.</p><p>표준 시간대를 저장하거나 나타내지 않습니다.</p><p>대신, 그것은 근무 시간에 보이는 것과 지역 시간과 함께 생일에 사용되는 날짜의 설명입니다.</p><p>오프셋 또는 시간대와 같은 추가 정보 없이 타임라인에서 즉시 표시할 수 없습니다.</p><p>직렬화 형식: ISO-8601 확장 오프셋 날짜-시간 형식.</p><p>DateTimeFormatter를 사용합니다.</p><p>ISO_LOCAL_DATE_TIME을 사용하여 값을 역직렬화하고 직렬화할 수 있습니다.</p> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME">자세한</a>내용</td>
+        <td><p>연도 시간대가 없는 날짜 시간을 나타내며, 년 개월 시간 분 초 밀리초로 표시됩니다.</p><p>표준 시간대를 저장하거나 나타내지 않습니다.</p><p>대신, 그것은 근무 시간에 보이는 것과 지역 시간과 함께 생일에 사용되는 날짜의 설명입니다.</p><p>오프셋 또는 시간대와 같은 추가 정보 없이 타임라인에서 즉시 표시할 수 없습니다.</p><p>직렬화 형식: ISO-8601 확장 오프셋 날짜-시간 형식.</p><p>DateTimeFormatter를 사용합니다.</p><p>ISO_LOCAL_DATE_TIME을 사용하여 값을 역직렬화하고 직렬화할 수 있습니다.</p> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME">자세히 알아보기</a>.</td>
         <td><p>toDateTimeOnly("&lt;dateTimeOnly in ISO-8601 format&gt;")</p></td>
         <td></td>
     </tr>
     <tr>
         <td>dateTime</td>
         <td><p>시간대도 고려하는 날짜 시간 상수입니다.</p><p>UTC의 오프셋이 있는 날짜 시간을 나타냅니다. 오프셋에 대한 추가 정보와 함께 즉시 볼 수 있습니다. </p><p>세계 어느 곳에서 특정 '순간'을 표현하는 방법입니다.</p><p>JSON 형식: 문자열.</p><p> toDateTime 함수로 캡슐화되어야 합니다.</p><p>
-        직렬화 형식: ISO-8601 확장 오프셋 날짜-시간 형식.</p><p> DateTimeFormatter.ISO_OFFSET_DATE_TIME을 사용하여 값을 역직렬화하고 직렬화합니다.</p> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME">자세한</a>내용 
-        <p>epoch 값을 전달하는 정수도 전달할 수 있습니다.</p> <a href="https://www.epochconverter.com/">자세한 내용</a></p>
+        직렬화 형식: ISO-8601 확장 오프셋 날짜-시간 형식.</p><p> DateTimeFormatter.ISO_OFFSET_DATE_TIME을 사용하여 값을 역직렬화하고 직렬화합니다.</p> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME">자세히 알아보기</a>. 
+        <p>epoch 값을 전달하는 정수도 전달할 수 있습니다.</p> <a href="https://www.epochconverter.com/">자세한 내용</a>.</p>
         <p>시간대는 오프셋 또는 표준 시간대 코드로 지정할 수 있습니다(예: 유럽/파리, Z - UTC를 의미합니다.</p></td>
         <td><p>toDateTime("&lt;dateTime in ISO-8601 format&gt;")</p>
         <p>toDateTime(&lt;epoch의 정수 값(밀리초)&gt;)</p></td>
@@ -81,7 +81,7 @@ ht-degree: 2%
     </tr>
     <tr>
         <td>지속 시간</td>
-        <td><p>시간 기반 시간(예: '34.5초')을 나타냅니다.</p><p> 이 모델은 수량과 시간을 밀리초 단위로 모델링합니다.</p><p>지원되는 임시 단위는 다음과 같습니다. 밀리초, 초, 분, 시간, 일 중 하루가 24시간으로</p><p> 연도 및 달은 정해진 시간이 아니므로 지원되지 않습니다.</p><p>JSON 형식: 문자열. toDuration 함수로 캡슐화되어야 합니다.</p><p>직렬화 형식: 표준 시간대 ID를 역직렬화하려면 java 함수 java.time을 사용합니다.</p><p>Duration.parse: 허용되는 포맷은 정확히 24시간으로 간주되는 날을 가진 ISO-8601 지속 시간 포맷인 PnDTnHn.nS를 기반으로 합니다.</p><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-">자세한</a>내용</td>
+        <td><p>시간 기반 시간(예: '34.5초')을 나타냅니다.</p><p> 이 모델은 수량과 시간을 밀리초 단위로 모델링합니다.</p><p>지원되는 임시 단위는 다음과 같습니다. 밀리초, 초, 분, 시간, 일 중 하루가 24시간으로</p><p> 연도 및 달은 정해진 시간이 아니므로 지원되지 않습니다.</p><p>JSON 형식: 문자열. toDuration 함수로 캡슐화되어야 합니다.</p><p>직렬화 형식: 표준 시간대 ID를 역직렬화하려면 java 함수 java.time을 사용합니다.</p><p>Duration.parse: 허용되는 포맷은 정확히 24시간으로 간주되는 날을 가진 ISO-8601 지속 시간 포맷인 PnDTnHn.nS를 기반으로 합니다.</p><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-">자세히 알아보기</a>.</td>
         <td><p>toDuration("&lt;duration in ISO-8601 format&gt;")</p><p>toDuration(&lt;duration in milliseconds&gt;)</p></td>
         <td><p><pre>toDuration("PT5S") // 5초</pre></p>
         <p><pre>toDuration(500) // </pre></p>
