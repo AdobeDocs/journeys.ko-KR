@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
 workflow-type: tm+mt
 source-wordcount: '31'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 9%
 
 문자열을 반환합니다.
 
-## 예
+## 예제
 
 `trim(" Hello ")`
 
