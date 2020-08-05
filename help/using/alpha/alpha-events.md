@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -39,15 +39,15 @@ ht-degree: 6%
 
    ![](../assets/alpha-event3.png)
 
-1. 새 **[!UICONTROL Event ID type]** 필드에서 를 선택합니다 **[!UICONTROL Rule Based]**.
+1. In the new **[!UICONTROL Event ID type]** field, select **[!UICONTROL Rule Based]**.
 
    ![](../assets/alpha-event4.png)
 
    >[!NOTE]
    >
-   >유형은 eventID가 필요한 기존 메서드입니다 **[!UICONTROL System Generated]** . 이 [섹션을 참조하십시오](../event/about-events.md).
+   >유형은 eventID가 필요한 기존 메서드입니다 **[!UICONTROL System Generated]** . [이 섹션](../event/about-events.md)을 참조하십시오.
 
-1. 페이로드를 **[!UICONTROL Schema]** 정의합니다 **[!UICONTROL Fields]**. 이 [섹션을 참조하십시오](../event/defining-the-payload-fields.md).
+1. 페이로드를 **[!UICONTROL Schema]** 정의합니다 **[!UICONTROL Fields]**. [이 섹션](../event/defining-the-payload-fields.md)을 참조하십시오.
 
    ![](../assets/alpha-event5.png)
 
