@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 알파 버전 인터페이스 정보 {#about-alpha-interface}
 
-Adobe Experience Platform과 일관된 인터페이스를 제공하기 위해 메뉴 내 [!DNL Journey Orchestration] 탐색이 향상되었습니다. 변경 사항은 다음과 같습니다.
+Adobe Experience Platform과 일관된 인터페이스를 제공하기 위해 메뉴 내 탐색 기능이 [!DNL Journey Orchestration] 향상되었습니다. 변경 사항은 다음과 같습니다.
 
 * 메뉴가 인터페이스 맨 위에서 왼쪽으로 이동했습니다.
 * 관리 기능을 하나의 대시보드로 그룹화합니다.
