@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 6%
 
 부울 값을 반환합니다.
 
-## 예
+## 예제
 
 `startWith("rowing is great', "RO")`
 
