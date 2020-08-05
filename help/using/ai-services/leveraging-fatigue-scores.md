@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
 
-# 고객 여정 AI 활용 {#concept_dsh_1ry_wfb}
+# 경로 AI 활용 {#concept_dsh_1ry_wfb}
 
 이 사용 사례에서는 피로 점수를 활용하여 고객이 과도한 구매를 하지 않도록 하는 방법을 보여줍니다.
 
@@ -44,7 +44,7 @@ ht-degree: 6%
 
    ![](../assets/journeyuc3_1.png)
 
-1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 여정 구축 {#section_uzm_pyy_wfb}
 
@@ -62,7 +62,7 @@ ht-degree: 6%
 
    ![](../assets/journeyuc3_2.png)
 
-1. 간단한 표현식 편집기를 사용하여 **[!UICONTROL fatigueLevel]** 필드를 찾아(_ExperiencePlatformDataSource > JourneyAIScore > 프로필 > JourneyAI > emailScore > 피로도_) 오른쪽으로 삭제한 다음 조건을 만듭니다. &quot;피로도가 &quot;낮음&quot;과 같습니다. **[!UICONTROL Ok]**&#x200B;을 클릭합니다.
+1. 간단한 표현식 편집기를 사용하여 **[!UICONTROL fatigueLevel]** 필드를 찾아(_ExperiencePlatformDataSource > JourneyAIScore > 프로필 > JourneyAI > emailScore > 피로도_) 오른쪽으로 삭제한 다음 조건을 만듭니다. &quot;피로도가 &quot;낮음&quot;과 같습니다. **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
 
    ![](../assets/journeyuc3_3.png)
 
