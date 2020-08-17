@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '245'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->예측 피로 점수 기능은 Adobe Campaign Standard 데이터 서비스 기능을 사용하는 고객에게만 제공됩니다.
+>예측 유무 점수 기능은 [Adobe Experience Platform 데이터 커넥터를 사용하는 고객에게만 제공됩니다](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
 ## 이벤트 구성 {#section_ptb_ws1_ffb}
 
@@ -62,7 +62,7 @@ ht-degree: 7%
 
    ![](../assets/journeyuc3_2.png)
 
-1. 간단한 표현식 편집기를 사용하여 **[!UICONTROL fatigueLevel]** 필드를 찾아(_ExperiencePlatformDataSource > JourneyAIScore > 프로필 > JourneyAI > emailScore > 피로도_) 오른쪽으로 삭제한 다음 조건을 만듭니다. &quot;피로도가 &quot;낮음&quot;과 같습니다. **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
+1. 간단한 표현식 편집기를 사용하여 **[!UICONTROL fatigueLevel]** 필드를 찾아(_ExperiencePlatformDataSource > JourneyAIScore > 프로필 > JourneyAI > emailScore > 피로도_) 오른쪽으로 삭제한 다음 조건을 만듭니다.&quot;피로도가 &quot;낮음&quot;과 같습니다. **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
 
    ![](../assets/journeyuc3_3.png)
 
