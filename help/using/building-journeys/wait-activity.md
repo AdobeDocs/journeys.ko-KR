@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '590'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->dateTimeOnly 식을 활용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), 2016-08-12T09:46:06 형식의 이벤트의 필드입니다.
+>dateTimeOnly 식을 활용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예:toDateTimeOnly(@{Event.offerOpened.activity.endTime}), 2016-08-12T09:46:06 형식의 이벤트의 필드입니다.
 >
 >여정의 **속성에는 시간대가** 필요합니다. 따라서 인터페이스에서는 2016-08-12T09:46:06.982-05와 같은 전체 ISO-8601 타임스탬프 믹싱 시간 및 시간대 오프셋을 직접 가리키도록 할 수 없습니다. [](../building-journeys/timezone-management.md)을 참조하십시오.
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->이메일 전송 시간 최적화 기능은 Adobe Campaign Standard 데이터 서비스 기능을 사용하는 고객에게만 제공됩니다.
+>이메일 전송 시간 최적화 기능은 [Adobe Experience Platform 데이터 커넥터를 사용하는 고객에게만 제공됩니다](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
 이 대기 유형은 Adobe Experience Platform에서 계산된 점수를 사용합니다. 점수는 과거 행동을 기반으로 향후 이메일을 클릭하거나 여는 경향을 계산합니다. 점수를 계산하는 알고리즘에는 일정 양의 데이터가 필요합니다. 따라서 데이터가 충분하지 않으면 기본 대기 시간이 적용됩니다. 발행 시 기본 시간이 적용된다는 알림이 표시됩니다.
 
