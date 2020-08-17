@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 10c6406adb1473dcd150b43b5b5c8b178376f3ed
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 알파 버전 인터페이스 정보 {#about-alpha-interface}
 
-Adobe Experience Platform과 일관된 인터페이스를 제공하기 위해 메뉴 내 탐색 기능이 [!DNL Journey Orchestration] 향상되었습니다. 변경 사항은 다음과 같습니다.
+Adobe Experience Platform과 일관된 인터페이스를 제공하기 위해 메뉴 내 [!DNL Journey Orchestration] 탐색이 향상되었습니다. 변경 사항은 다음과 같습니다.
 
 * 메뉴가 인터페이스 맨 위에서 왼쪽으로 이동했습니다.
 * 관리 기능을 하나의 대시보드로 그룹화합니다.
@@ -31,6 +31,10 @@ Adobe Experience Platform과 일관된 인터페이스를 제공하기 위해 �
 인터페이스에서 사용하고 탐색하는 방법(검색 및 필터링, Adobe Experience Platform 필드, 바로 가기)에 대한 글로벌 개념이 [이 섹션에 나와 있습니다](../about/user-interface.md).
 
 ## 기능 [!DNL Journey Orchestration] 액세스 {#accessing-journey-orchestration-functionalities}
+
+왼쪽에 있는 메뉴 모음에서 다른 기능에 액세스할 수 있습니다. 아이콘을 클릭하여 해당 메뉴에 액세스합니다. 왼쪽 하단에 있는 화살표를 클릭하여 메뉴 막대를 확장하거나 축소할 수 있습니다.
+
+![](../assets/interface-journeys2.png)
 
 액세스할 [!DNL Journey Orchestration]때 **[!UICONTROL Journeys]** 메뉴가 표시되므로 기존 여정에 액세스하거나 새 여행을 만들 수 있습니다. See [Using the journey designer](../building-journeys/using-the-journey-designer.md).
 
@@ -43,3 +47,4 @@ Adobe Experience Platform과 일관된 인터페이스를 제공하기 위해 �
 이 **[!UICONTROL Admin]** 메뉴는 관리자 권한이 있는 모든 사용자가 사용할 수 있습니다( [액세스 관리](../about/access-management.md)참조). 이 대시보드에서는 [데이터 소스](../datasource/about-data-sources.md), [이벤트](../event/about-events.md) 및 [작업을 설정할 수](../action/action.md)있습니다.
 
 ![](../assets/interface-admin-dashboard.png)
+
