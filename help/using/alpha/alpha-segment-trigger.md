@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
+source-git-commit: 76c2f4c1f459bb7bb21101708340137ae5f89ae0
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '559'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 세그먼트 트리거 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 시작할 수 있습니다. 여행 입구는 한 번 또는 정기적으로 실행될 수 있습니다.
 
-Adobe Experience Platform에 골드 고객 세그먼트가 있다고 합시다. 세그먼트 트리거 활동을 사용하면 Gold 고객 세그먼트에 속한 모든 개인이 여정을 시작하고 모든 경로 기능을 활용할 수 있는 개인화된 여정으로 이동할 수 있습니다. 조건, 타이머, 이벤트, 작업.
+Adobe Experience Platform에 골드 고객 세그먼트가 있다고 합시다. 세그먼트 트리거 활동을 사용하면 Gold 고객 세그먼트에 속한 모든 개인이 여정을 시작하고 모든 경로 기능을 활용할 수 있는 개인화된 여정으로 이동할 수 있습니다.조건, 타이머, 이벤트, 작업.
 
 ## 활동 구성 {#configuring-segment-trigger-activity}
 
@@ -41,6 +41,8 @@ Adobe Experience Platform에 골드 고객 세그먼트가 있다고 합시다. 
 
    활동을 경로의 첫 번째 단계로 배치해야 합니다.
 
+1. 활동 **[!UICONTROL Label]** 에 을 추가합니다. 데이터 소스에 이벤트에 설명을 추가합니다.
+
 1. 활동을 구성합니다 **[!UICONTROL Scheduler type]**.
 
    기본적으로 세그먼트는 여정 **[!UICONTROL As soon as possible]**&#x200B;에 입장합니다. 즉, 여정이 게시된 후 1시간이 됩니다. 세그먼트가 특정 날짜/시간 또는 반복적인 기준으로 여정을 입력하도록 하려면 목록에서 원하는 옵션을 선택합니다.
@@ -51,7 +53,17 @@ Adobe Experience Platform에 골드 고객 세그먼트가 있다고 합시다. 
 
 1. 필드에서 **[!UICONTROL Segment]** 여정에 입력할 Adobe Experience Platform 세그먼트를 선택한 다음 을 클릭합니다 **[!UICONTROL Save]**.
 
+   >[!NOTE]
+   >
+   >목록에 표시된 열을 사용자 정의하고 정렬할 수 있습니다.
+
    ![](../assets/segment-trigger-segment-selection.png)
+
+   세그먼트가 추가되면 이 **[!UICONTROL Copy]** 단추를 사용하여 이름과 ID를 복사할 수 있습니다.
+
+   `{"name":"Gold customers,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-trigger-copy.png)
 
 1. 필드에서 **[!UICONTROL Namespace]** 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. For more on namespaces, refer to [this section](../event/selecting-the-namespace.md).
 
