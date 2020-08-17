@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 8641b577e91492c86e6fc8e201acd6a208e5e38b
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 | Dimension | 정의 |
 |--- |--- |
 | **작업** | 밀기 - 확인, 이메일 - 보상 정확도 등 당시 사용한 모든 작업(**작업 이름 - 작업 레이블**)의 목록입니다. |
-| **데이터 소스** | 데이터 소스(**데이터 소스 이름**) 목록(예: Adobe Experience platform, Reservation system) |
+| **데이터 소스** | 데이터 소스(**데이터 소스 이름**) 목록(예: Adobe Experience Platform, 예약 시스템). |
 | **[!UICONTROL Event]** | Geometrixx 이벤트 - Geometrixx과 같이 여정에 사용되는 모든 이벤트(**이벤트 이름 - 이벤트 레이블**)의 목록입니다. |
 | **필드 그룹** | 프로필 필드 그룹, Geometrixx 예약 시스템 등 여정의 데이터를 보완하는 데 사용되는 필드 그룹(**필드 그룹 이름**) 목록 |
 | **여정** | 테스트 모드 및 라이브(예: 장바구니 포기,**호텔 예약 알림)의 모든 경로(**&#x200B;경로 이름) 목록입니다. |
