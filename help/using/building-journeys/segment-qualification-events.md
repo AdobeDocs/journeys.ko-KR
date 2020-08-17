@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 78c486c3e43b0bbda666afba9cf36ba34b362a03
+source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,17 @@ Adobe Experience Platform의 고주파수 대상 옵션으로 세그먼트가 �
 
 1. 필드를 **[!UICONTROL Segment]** 클릭하고 활용할 세그먼트를 선택합니다.
 
+   >[!NOTE]
+   >
+   >목록에 표시된 열을 사용자 정의하고 정렬할 수 있습니다.
+
    ![](../assets/segment6.png)
+
+   세그먼트가 추가되면 이 **[!UICONTROL Copy]** 단추를 사용하여 이름과 ID를 복사할 수 있습니다.
+
+   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-copy.png)
 
 1. 필드에서 **[!UICONTROL Behavior]** 세그먼트 출입구, 종료 또는 둘 다를 수신하려는 경우 선택합니다.
 
@@ -59,7 +69,7 @@ Adobe Experience Platform의 고주파수 대상 옵션으로 세그먼트가 �
 
 ![](../assets/segment8.png)
 
-## 세그먼트에 대한 우수 사례 {#best-practices-segments}
+## 권장사항 {#best-practices-segments}
 
 이 **[!UICONTROL Segment Qualification]** 활동은 Adobe Experience Platform에서 자격이 있거나 결격된 사람들이 가는 여정에 즉시 입장할 수 있게 해준다.
 
