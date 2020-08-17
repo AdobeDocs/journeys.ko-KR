@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71b5b1ecd20056d0103ae1a8b83a31478449e844
+source-git-commit: 2155bfc1c9f253be19b93a3d77e0e6d5a108f689
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 88%
+source-wordcount: '771'
+ht-degree: 80%
 
 ---
 
@@ -23,6 +23,12 @@ ht-degree: 88%
 
 이 페이지에는 [!DNL Journey Orchestration]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
 [!DNL Journey Orchestration] [릴리스 정보](../release-notes/release-notes.md)도 확인할 수 있습니다.
+
+## 2020년 8월 {#august-2020}
+
+* 세그먼트 목록에 표시할 열을 정렬 및 선택하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../building-journeys/segment-qualification-events.md)
+* 세그먼트 이름과 ID를 선택한 후 복사하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../building-journeys/segment-qualification-events.md)
+* 여러 페이지에서 Experience Platform의 항목이 조화를 이루고 있습니다.
 
 ## 2020년 7월 {#july-2020}
 
@@ -81,7 +87,7 @@ ht-degree: 88%
 
 * 인터페이스 변경 사항을 반영하여 모든 스크린샷이 업데이트되었습니다.
 * 테스트 모드 섹션이 업데이트되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md)
-* [이메일 전송 시간 최적화](../building-journeys/wait-activity.md) 및 [예측 피로도 점수](../ai-services/leveraging-fatigue-scores.md) 섹션에 경고가 추가되었습니다. 이러한 기능은 Adobe Campaign Standard 데이터 서비스 기능을 사용하는 고객에게만 제공됩니다.
+* [이메일 전송 시간 최적화](../building-journeys/wait-activity.md) 및 [예측 피로도 점수](../ai-services/leveraging-fatigue-scores.md) 섹션에 경고가 추가되었습니다. 이러한 기능은 [Adobe Experience Platform 데이터 커넥터를 사용하는 고객에게만 제공됩니다](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 * 이제는 정지된 경로를 삭제할 수 있습니다. 관련 설명서 페이지가 업데이트되었습니다.
 * 이제는 경로에서 문제가 탐지되면 두 가지 색상이 표시됩니다. 오류의 경우 빨간색, 경고의 경우에는 주황색이 표시됩니다. [자세한 내용](../about/troubleshooting.md)
 * 고급 표현식 편집기 섹션이 업데이트되었습니다. [자세한 내용](../expression/expressionadvanced.md)
