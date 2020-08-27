@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
+source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 1%
+source-wordcount: '377'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,8 @@ ht-degree: 1%
 * [지속 시간](#duration)
 * [고정 날짜](#fixed_date)
 * [사용자 지정](#custom)
-* [이메일 전송 시간 최적화](#email_send_time_optimization)
+
+<!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## 대기 활동 정보{#about_wait}
 
@@ -66,26 +67,26 @@ ht-degree: 1%
 
 ![](../assets/journey57.png)
 
-## 이메일 전송 시간 최적화{#email_send_time_optimization}
+<!--## Email send time optimization{#email_send_time_optimization}
 
 >[!CAUTION]
 >
->이메일 전송 시간 최적화 기능은 [Adobe Experience Platform 데이터 커넥터를 사용하는 고객에게만 제공됩니다](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
+>The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
-이 대기 유형은 Adobe Experience Platform에서 계산된 점수를 사용합니다. 점수는 과거 행동을 기반으로 향후 이메일을 클릭하거나 여는 경향을 계산합니다. 점수를 계산하는 알고리즘에는 일정 양의 데이터가 필요합니다. 따라서 데이터가 충분하지 않으면 기본 대기 시간이 적용됩니다. 발행 시 기본 시간이 적용된다는 알림이 표시됩니다.
+This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
 
 >[!NOTE]
 >
->경로의 첫 번째 이벤트에는 네임스페이스가 있어야 합니다.
+>The first event of your journey must have a namespace.
 >
->이 기능은 **[!UICONTROL Email]** 활동 후에만 사용할 수 있습니다. Adobe Campaign Standard이 필요합니다
+>This capability is only available after an **[!UICONTROL Email]** activity. You need to have Adobe Campaign Standard.
 
-1. 필드에서 이메일 전송을 최적화할 수 있는 시간을 **[!UICONTROL Amount of time]** 정의합니다.
-1. 필드에서 **[!UICONTROL Optimization type]** 클릭 수를 늘리거나 열지 여부를 선택합니다.
-1. 예측 전송 시간 점수를 사용할 수 없는 경우 이 **[!UICONTROL Default time]** 필드에서 대기할 기본 시간을 정의합니다.
+1. In the **[!UICONTROL Amount of time]** field, define the number of hours to consider to optimize email sending.
+1. In the **[!UICONTROL Optimization type]** field, choose if the optimization should increase clicks or opens.
+1. In the **[!UICONTROL Default time]** field, define the default time to wait if the predictive send time score is not available.
 
-   >[!NOTE]
-   >
-   >계산을 수행할 데이터가 충분하지 않기 때문에 전송 시간 점수를 사용할 수 없습니다. 이 경우, 게시 시 기본 시간이 적용된다는 메시지가 표시됩니다.
+    >[!NOTE]
+    >
+    >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](../assets/journey57bis.png)
+![](../assets/journey57bis.png)-->
