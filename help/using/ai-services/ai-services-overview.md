@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3c5f1dcf66df31b12237788633704eeb348ddfa2
+source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '85'
 ht-degree: 3%
 
 ---
@@ -25,10 +25,6 @@ Intelligent Services와의 통합을 통해 고객 경험 활용 사례에서 �
 
 지능형 서비스에 대한 자세한 내용은 [설명서를 참조하십시오](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/home.html).
 
-이 통합을 통해 다음을 활용할 수 있습니다.
+이 통합을 통해 고객 예측을 활용할 수 있습니다. 고객 [AI 활용을 참조하십시오.](../ai-services/leveraging-customer-ai.md)
 
-* 고객 예측, 고객 [AI 활용 참조](../ai-services/leveraging-customer-ai.md)
-* 피로 점수, [여정 AI 활용 참조](../ai-services/leveraging-fatigue-scores.md)
-
-
-
+<!--* fatigue scores, see [Leveraging Journey AI](../ai-services/leveraging-fatigue-scores.md)-->
