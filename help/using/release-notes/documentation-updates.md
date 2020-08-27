@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2155bfc1c9f253be19b93a3d77e0e6d5a108f689
+source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 80%
+source-wordcount: '724'
+ht-degree: 83%
 
 ---
 
@@ -81,13 +81,14 @@ ht-degree: 80%
 ## 2020년 1월 {#january-2020}
 
 * [경험 이벤트](../datasource/adobe-experience-platform-data-source.md) 및 [세그먼트](../functions/functioninsegment.md)의 가져오기 제한 관련 내용이 추가되었습니다.
-* [getBestSendTime 설명서](../functions/functiongetbestsendtime.md)가 업데이트되었습니다.
+
+<!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
 ## 2019년 12월 {#december-2019}
 
 * 인터페이스 변경 사항을 반영하여 모든 스크린샷이 업데이트되었습니다.
 * 테스트 모드 섹션이 업데이트되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md)
-* [이메일 전송 시간 최적화](../building-journeys/wait-activity.md) 및 [예측 피로도 점수](../ai-services/leveraging-fatigue-scores.md) 섹션에 경고가 추가되었습니다. 이러한 기능은 [Adobe Experience Platform 데이터 커넥터를 사용하는 고객에게만 제공됩니다](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
+<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).-->
 * 이제는 정지된 경로를 삭제할 수 있습니다. 관련 설명서 페이지가 업데이트되었습니다.
 * 이제는 경로에서 문제가 탐지되면 두 가지 색상이 표시됩니다. 오류의 경우 빨간색, 경고의 경우에는 주황색이 표시됩니다. [자세한 내용](../about/troubleshooting.md)
 * 고급 표현식 편집기 섹션이 업데이트되었습니다. [자세한 내용](../expression/expressionadvanced.md)
