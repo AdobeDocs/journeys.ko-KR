@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8641b577e91492c86e6fc8e201acd6a208e5e38b
+source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 84%
+source-wordcount: '1527'
+ht-degree: 63%
 
 ---
 
@@ -23,6 +23,127 @@ ht-degree: 84%
 
 이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 [설명서 업데이트](../release-notes/documentation-updates.md)도 확인할 수 있습니다.
+
+## 2020년 8월 릴리스 {#august-release}
+
+### GA 업데이트{#august-ga-update}
+
+이제 세그먼트 자격 이벤트의 페이로드에는 다음과 같은 컨텍스트 정보가 포함되어 있으며 조건 및 작업에 사용할 수 있습니다.동작(시작, 종료), 자격 타임스탬프 및 세그먼트 id. [자세한 내용](../building-journeys/segment-qualification-events.md)
+
+### 알파 업데이트{#august-alpha-update}
+
+알파의 범위를 검색하려면 이 [섹션을 참조하십시오](../alpha/alpha-overview.md).
+
+<table>
+<thead>
+<tr>
+<th><strong>세그먼트 트리거 활동</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>세그먼트 트리거 활동에는 다음과 같은 사항이 개선되었습니다.
+</p>
+<ul>
+<li><p>활동 이름이 "세그먼트 읽기"로 변경되었습니다. </p>
+</li>
+<li><p>경로 스케줄러 구성이 활동의 속성에서 제거되었습니다. 이제 세그먼트 읽기 활동이 캔버스에 드롭된 경우 표시되는 전용 섹션의 경로 속성에서 직접 액세스할 수 있습니다. </p>
+</li>
+<li><p>이제 단일 프로파일에서 여정을 테스트하고 시각적인 흐름을 사용하여 여정의 진행 상황을 추적할 수 있습니다.</p>
+</li>
+</ul>
+<p>자세한 내용은 <a href="../alpha/alpha-segment-trigger.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>규칙 기반 이벤트</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>규칙 기반 이벤트에 대해 다음과 같은 향상된 기능이 있습니다.
+</p>
+<ul>
+<li><p>이제 모든 Adobe Analytics 행동 이벤트 데이터를 활용하여 이미 플랫폼에 스트리밍 및 캡처하고 있으므로 고객 여정과 경험을 자동화할 수 있습니다. <a href="../alpha/alpha-events.md#analytics-data">자세한 내용</a></p>
+</li>
+<li><p>이제 테스트 모드에서 규칙 기반 이벤트를 트리거할 때 이벤트 ID 조건을 직접 볼 수 있습니다. 또한 규칙 평가의 일부인 각 필드 옆에 도구 설명이 추가되었습니다. <a href="../alpha/alpha-events.md#configuring-rule-based">자세한 내용</a></p>
+</li>
+<li><p>향상된 경험을 위해 규칙 기반 이벤트 정의 화면이 재구성되었습니다. <a href="../alpha/alpha-events.md#test-rule-based">자세한 내용</a></p>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+## 알파 릴리스 - 2020년 7월 {#alpha-release---july-2020}
+
+알파 프로그램은 제한된 고객 세트에서 현재 테스트되는 기능을 제공합니다. 따라서 접수된 피드백을 바탕으로 제품을 개선할 수 있습니다. 일부 Journey Orchestration 고객은 이러한 기능을 사용할 수 없습니다.
+
+이러한 기능은 전용 [섹션에 설명되어 있습니다](../alpha/alpha-overview.md).
+
+<table>
+<thead>
+<tr>
+<th><strong>향상된 유저 인터페이스</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platform과 일관된 인터페이스를 제공하기 위해 Journey Orchestration 메뉴 내의 탐색 기능이 향상되었습니다.
+</p>
+<ul>
+<li><p>메뉴가 인터페이스 맨 위에서 왼쪽으로 이동되었습니다. </p>
+</li>
+<li><p>관리 기능을 하나의 대시보드로 그룹화합니다.</p>
+</li>
+</ul>
+<p>자세한 내용은 <a href="../alpha/alpha-interface.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>세그먼트 트리거 활동</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>세그먼트 트리거 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 시작할 수 있습니다. 여행 입구는 한 번 또는 정기적으로 실행될 수 있습니다. <a href="../alpha/alpha-segment-trigger.md">자세한 내용</a>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>규칙 기반 이벤트</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>경험 이벤트를 설정하는 방법을 간소화했습니다. eventID를 사용할 필요가 없는 새 메서드가 도입되었습니다. 이제 Journey Orchestration에서 이벤트를 설정할 때 규칙 기반 이벤트를 정의할 수 있습니다. <a href="../alpha/alpha-events.md">자세한 내용</a>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## 2분기 릴리스 - 2020년 6월 {#q2-release---june-2020}
 
@@ -49,9 +170,9 @@ ht-degree: 84%
 <li><p>Journey Orchestration은 이제 여행 중 행해지는 단계인 Adobe Experience Platform으로 자동 전달됩니다. 여기에는 발생한 잠재적 오류도 포함됩니다. 이 정보는 특정 경로 또는 모든 경로에 대해 경로 단계 이벤트에서 쿼리를 실행함으로써 보고 및 문제 해결을 수행하는 데 사용될 수 있습니다. <a href="../building-journeys/sharing-overview.md">자세한 내용</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-</li>
 <li><p>이제 Journey Orchestration을 프로덕션 및 비프로덕션 Adobe Experience Platform 샌드박스와 연결할 수 있습니다. 샌드박스는 베타 기능입니다. <a href="../about/access-management.md#sandboxes">자세한 내용</a></p>
 </li>
+</ul>
 </td>
 </tr>
 </tbody>
