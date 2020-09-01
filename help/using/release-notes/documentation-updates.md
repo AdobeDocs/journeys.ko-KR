@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
+source-git-commit: 94989635814c9b2f035d736647ae78324d2c4f2a
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 83%
@@ -28,7 +28,7 @@ ht-degree: 83%
 
 * 세그먼트 목록에 표시할 열을 정렬 및 선택하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../building-journeys/segment-qualification-events.md)
 * 세그먼트 이름과 ID를 선택한 후 복사하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../building-journeys/segment-qualification-events.md)
-* 여러 페이지에서 Experience Platform의 항목이 조화를 이루고 있습니다.
+* Experience Platform 발생이 여러 페이지에서 구분되었습니다.
 
 ## 2020년 7월 {#july-2020}
 
