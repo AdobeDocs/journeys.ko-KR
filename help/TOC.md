@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Journey Orchestration 도움말
 index: true
 translation-type: tm+mt
-source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
+source-git-commit: 8a9c6e4f70ff88e60a85caff5e18a05070cf3f93
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 95%
@@ -184,6 +184,6 @@ ht-degree: 95%
 + 알파 기능 {#alpha}
    + [알파 기능 개요](using/alpha/alpha-overview.md)
    + [사용자 인터페이스](using/alpha/alpha-interface.md)
-   + [세그먼트 트리거 활동](using/alpha/alpha-segment-trigger.md)
+   + [세그먼트 읽기 활동](using/alpha/alpha-segment-trigger.md)
    + [규칙 기반 이벤트](using/alpha/alpha-events.md)
 
