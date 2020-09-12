@@ -1,18 +1,18 @@
 ---
 product: Journeys
 audience: end-user
-user-guide-title: Journey Orchestration 도움말
+user-guide-title: Journey Orchestration 안내서
 index: true
 translation-type: tm+mt
-source-git-commit: 8a9c6e4f70ff88e60a85caff5e18a05070cf3f93
+source-git-commit: ad892948c866c8c5cda16c17a33cb225ee7edb33
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
 
-# [!DNL Journey Orchestration] 도움말 {#using}
+# [!DNL Journey Orchestration] 가이드 {#using}
 
 + [제품 설명서](journey-orchestration-home.md)
 + 새로운 기능 {#release-notes}
