@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1010'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 89%
 
 ## [!DNL Journey Orchestration]{#accessing_journey_orchestration} 액세스
 
-[!DNL Journey Orchestration] 인터페이스에 액세스하려면 오른쪽 위의 **[!UICONTROL App Selector]** 아이콘을 클릭합니다. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
+[!DNL Journey Orchestration] 인터페이스에 액세스하려면 오른쪽 위의 **[!UICONTROL App Selector]** 아이콘을 클릭합니다. 그런 다음 오른쪽의 **[!UICONTROL Experience Platform]** 아래에서 **[!UICONTROL Journey Orchestration]**&#x200B;을(를) 클릭합니다.
 
 ![](../assets/journey1.png)
 
@@ -57,7 +57,7 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 [!D
 
 목록 왼쪽 위의 필터 아이콘을 클릭하면 **[!UICONTROL Filters]**&#x200B;에 액세스할 수 있습니다. 필터 메뉴에서는 표시된 요소를 다양한 조건에 따라 필터링할 수 있습니다. 예를 들어 특정 유형이나 상태의 요소, 직접 만든 요소 또는 지난 30일 동안 수정한 요소만 표시하도록 선택할 수 있습니다.
 
-In the **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]** lists, use the **[!UICONTROL Creation filters]** to filter on the creation date and user. 예를 들어 지난 30일 동안 만든 이벤트만 표시하도록 선택할 수 있습니다.
+**[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 및 **[!UICONTROL Actions]** 목록에서 **[!UICONTROL Creation filters]**&#x200B;을(를) 사용하여 만든 날짜와 사용자를 기준으로 필터링합니다. 예를 들어 지난 30일 동안 만든 이벤트만 표시하도록 선택할 수 있습니다.
 
 **[!UICONTROL Home]** 아래의 경로 목록에서는 **[!UICONTROL Creation filters]**&#x200B;를 사용할 수 있을 뿐 아니라, **[!UICONTROL Status and version filters]**&#x200B;를 사용하여 표시된 경로를 상태와 버전에 따라 필터링할 수도 있습니다. **[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**&#x200B;를 사용하면 특정 이벤트, 필드 그룹 또는 작업을 사용하는 경로만 표시하도록 선택할 수도 있습니다. 그리고 **[!UICONTROL Publication filters]**&#x200B;를 사용하면 게시 날짜나 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 경로의 최신 버전만 표시하도록 선택할 수 있습니다. [](../building-journeys/using-the-journey-designer.md)을 참조하십시오.
 
@@ -77,7 +77,7 @@ In the **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL 
 
 ![](../assets/journey4.png)
 
-## Adobe Experience Platform 필드 검색 {#friendly-names-display}
+## Adobe Experience Platform 필드를 통한 검색 {#friendly-names-display}
 
 [이벤트 페이로드](../event/defining-the-payload-fields.md)와 [필드 그룹 페이로드](../datasource/field-groups.md)를 정의하고 [표현식 편집기](../expression/expressionadvanced.md)에서 필드를 선택할 때는 필드 이름과 함께 표시 이름도 표시됩니다. 이 정보는 Experience Data Model의 스키마 정의에서 검색됩니다.
 
@@ -104,18 +104,18 @@ _경로에서 활동 구성 시:_
 캔버스는 자동으로 저장됩니다. 캔버스 왼쪽 위에서 저장 상태를 확인할 수 있습니다.
 
 * 구성 창을 닫고 적용한 변경 사항을 취소하려면 **Esc** 키를 누릅니다. 그러면 **[!UICONTROL Cancel]** 버튼을 누르는 것과 같은 작업이 수행됩니다.
-* Press **Enter** or click outside the pane to close the configuration pane. 그러면 변경 사항이 저장됩니다. 즉, **[!UICONTROL Ok]** 버튼을 누르는 것과 같은 작업이 수행됩니다.
-* If you press **Delete** or **backspace**, you can then press **Enter** to confirm the deletion.
+* 구성 창을 닫으려면 **Enter** 키를 누르거나 창 바깥쪽을 클릭합니다. 그러면 변경 사항이 저장됩니다. 즉, **[!UICONTROL Ok]** 버튼을 누르는 것과 같은 작업이 수행됩니다.
+* **Delete** 또는 **백스페이스** 키를 누른 다음 **Enter** 키를 눌러 삭제를 확인할 수 있습니다.
 
 _팝업:_
 
-* Press **escape** to close it (equivalent of the **[!UICONTROL Cancel]** button).
-* Press **Enter** to save or confirm (equivalent of the **[!UICONTROL Ok]** or **[!UICONTROL Save]** button).
+* 팝업을 닫으려면 **Esc** 키를 누릅니다. 그러면 **[!UICONTROL Cancel]** 버튼을 누르는 것과 같은 작업이 수행됩니다.
+* 저장하거나 확인하려면 **Enter** 키를 누릅니다. 그러면 **[!UICONTROL Ok]** 또는 **[!UICONTROL Save]** 버튼을 누르는 것과 같은 작업이 수행됩니다.
 
 _이벤트, 데이터 소스 또는 작업 구성 창:_
 
 * 내용을 저장하지 않고 구성 창을 닫으려면 **Esc** 키를 누릅니다.
-* Press **Enter** to save modifications and close the configuration pane.
+* 수정 사항을 저장하고 구성 창을 닫으려면 **Enter** 키를 누릅니다.
 * 구성하려는 필드 간을 이동하려면 **Tab** 키를 누릅니다.
 
 _단순 표현식 편집기:_
@@ -137,5 +137,5 @@ _검색 창이 있는 화면:_
 _경로의 캔버스:_
 
 * 모든 활동을 선택하려면 **Ctrl/Command+A** 키 조합을 사용합니다.
-* When one or several activities are selected, press **Delete** or **backspace** to delete them. Then you can press **Enter** to confirm in the confirmation pop-up.
+* 선택한 하나 이상의 활동을 삭제하려면 **Delete** 또는 **백스페이스** 키를 누릅니다. 그런 다음 **Enter** 키를 눌러 확인 팝업에서 삭제를 확인할 수 있습니다.
 * 활동을 사용 가능한 첫 번째 위치(위쪽부터)에 추가하려면 왼쪽 팔레트에서 해당 활동을 두 번 클릭합니다.
