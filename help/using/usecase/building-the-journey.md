@@ -35,7 +35,7 @@ ht-degree: 100%
 
 여정을 구성하는 방법에 대한 자세한 내용은 [](../building-journeys/journey.md)을(를) 참조하십시오.
 
-## {#section_ntb_ws1_ffb} 첫 단계
+## 첫 단계 {#section_ntb_ws1_ffb}
 
 1. 상단 메뉴에서 **[!UICONTROL Home]** 탭과 **[!UICONTROL Create]**&#x200B;을(를) 클릭하여 새 여정을 만듭니다.
 
