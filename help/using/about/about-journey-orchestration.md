@@ -8,20 +8,20 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# About [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
+# [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
 이벤트나 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 작성할 수 있습니다.
 
-[!DNL Journey Orchestration] 는 Adobe Experience Platform과 통합된 애플리케이션 서비스입니다.
+[!DNL Journey Orchestration]은(는) Adobe Experience Platform과 통합된 애플리케이션 서비스입니다. 
 
 ![](../assets/journeydiagram.png)
 
