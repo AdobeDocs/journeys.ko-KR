@@ -3,23 +3,23 @@ product: Journeys
 audience: end-user
 user-guide-title: Journey Orchestration 안내서
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad892948c866c8c5cda16c17a33cb225ee7edb33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Journey Orchestration] 가이드 {#using}
+# [!DNL Journey Orchestration] 안내서 {#using}
 
 + [제품 설명서](journey-orchestration-home.md)
 + 새로운 기능 {#release-notes}
    + [릴리스 정보](using/release-notes/release-notes.md)
    + [설명서 업데이트 정보](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] 시작 {#starting-with-journeys}
-   + [정보 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [ [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [시작](using/about/get-started.md)
    + [사용자 인터페이스](using/about/user-interface.md)
    + [액세스 관리](using/about/access-management.md)
@@ -75,7 +75,7 @@ ht-degree: 94%
          + [사용자 지정 작업 사용](using/building-journeys/using-custom-actions.md)
    + [여정 테스트](using/building-journeys/testing-the-journey.md)
    + [여정 게시](using/building-journeys/publishing-the-journey.md)
-   + Adobe Experience Platform과 고객 여정 공유 {#sharing-journey-steps}
+   + Adobe Experience Platform과 여정 단계 공유 {#sharing-journey-steps}
       + [경로 단계 공유 개요](using/building-journeys/sharing-overview.md)
       + [journeySteps 이벤트 공통 필드](using/building-journeys/sharing-common-fields.md)
       + [journeyStep 이벤트 작업 실행 필드](using/building-journeys/sharing-execution-fields.md)
@@ -184,6 +184,6 @@ ht-degree: 94%
 + 알파 기능 {#alpha}
    + [알파 기능 개요](using/alpha/alpha-overview.md)
    + [사용자 인터페이스](using/alpha/alpha-interface.md)
-   + [세그먼트 읽기 활동](using/alpha/alpha-segment-trigger.md)
+   + [세그먼트 활동 읽기](using/alpha/alpha-segment-trigger.md)
    + [규칙 기반 이벤트](using/alpha/alpha-events.md)
 
