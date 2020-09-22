@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 94989635814c9b2f035d736647ae78324d2c4f2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -28,14 +28,14 @@ ht-degree: 83%
 
 * 세그먼트 목록에 표시할 열을 정렬 및 선택하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../building-journeys/segment-qualification-events.md)
 * 세그먼트 이름과 ID를 선택한 후 복사하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../building-journeys/segment-qualification-events.md)
-* Experience Platform 발생이 여러 페이지에서 구분되었습니다.
+* Experience Platform 작업이 여러 페이지 전반에서 조화롭게 되었습니다.
 
 ## 2020년 7월 {#july-2020}
 
 * Adobe Experience Platform에 대한 단계 이벤트 보고 시 새로운 자습서 비디오에 대한 링크를 추가했습니다. [자세한 내용](../building-journeys/sharing-overview.md)
 * 이벤트 활동 섹션은 각 이벤트 유형에 대한 전용 하위 섹션으로 재구성되었습니다. [자세한 내용](../building-journeys/event-activities.md)
-* 세그먼트 품질에 대한 오버로드를 방지하기 위한 우수 사례를 추가했습니다. [자세한 내용](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
-* 작업 또는 조건에 오류가 발생한 후 여행을 계속하는 방법을 설명하는 참고가 추가되었습니다. [자세한 내용](../about/troubleshooting.md#section_h3q_kqk_fhb)
+* 세그먼트 품질에 대한 오버로드를 방지하기 위한 모범 사례를 추가했습니다. [자세한 내용](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* 작업 또는 조건에 오류가 발생한 후 여정을 계속하는 방법을 설명하는 메모가 추가되었습니다. [자세한 내용](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * 제한된 고객 집합 속에서 테스트한 알파 기능에 대한 새로운 섹션이 추가되었습니다. [자세한 내용](../alpha/alpha-overview.md)
 * Intelligent Services 통합에 대한 새로운 섹션이 추가되었습니다. [자세한 내용](../ai-services/ai-services-overview.md)
 * 테스트 프로필 만들기에 대한 새로운 섹션이 추가되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md#create-test-profile)
@@ -49,7 +49,7 @@ ht-degree: 83%
 ## 2020년 6월 {#june-2020}
 
 * 사용자 지정 인증 데이터 소스에 대해 토큰의 캐시 기간을 변경하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
-* **[!UICONTROL Finished]** 경로 상태가 **[!UICONTROL Closed (no entrance)]**)로 이름이 바뀐 것을 반영하도록 스크린샷 및 텍스트가 업데이트되었습니다.
+* **[!UICONTROL Finished]** 경로 상태가 **[!UICONTROL Closed (no entrance)]**(으)로 이름이 바뀐 것을 반영하도록 스크린샷 및 텍스트가 업데이트되었습니다.
 * 인터페이스의 언어를 정의하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../about/user-interface.md)
 * 개별 경로의 상태 목록이 [테스트 모드 로그](../building-journeys/testing-the-journey.md#viewing_logs) 섹션으로 이동했습니다.
 
@@ -61,12 +61,12 @@ ht-degree: 83%
 ## 2020년 3월 {#march-2020}
 
 * 테스트 로그 섹션에 _actionExecutionErrors_ 및 _fetchErrors_&#x200B;의 매개 변수 설명이 추가되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md#viewing_logs)
-* 경로에 사용되는 사용자 지정 작업 관련 제한이 업데이트되었습니다. You can also modify the **[!UICONTROL URL]** field and the **[!UICONTROL Authentication]** parameters. [자세한 내용](../action/about-custom-action-configuration.md)
+* 경로에 사용되는 사용자 지정 작업 관련 제한이 업데이트되었습니다. **[!UICONTROL URL]** 필드 및 **[!UICONTROL Authentication]** 매개 변수도 수정할 수 있습니다. [자세한 내용](../action/about-custom-action-configuration.md)
 * 새 상황별 도움말 항목이 추가되었습니다. 이제 작업 및 데이터 소스의 사용자 지정 인증 페이로드 창에 도움말 아이콘이 포함되어 있습니다. 해당 아이콘을 클릭하면 이 [섹션](../datasource/external-data-sources.md#section_wjp_nl5_nhb)으로 이동하게 됩니다.
 * 이제는 닫힌 경로도 정지할 수 있습니다. [자세한 내용](../building-journeys/using-the-journey-designer.md)
 * 인터페이스 설명 섹션의 구성이 변경되었습니다. [자세한 내용](../about/user-interface.md)
 * 여러 이벤트를 트리거하는 방법이 테스트 모드 섹션에 추가되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md#firing_events)
-* 테스트 모드 섹션이 새 매개 변수에 대해 **[!UICONTROL Wait time in test]** 업데이트되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md)
+* 테스트 모드 섹션이 새 **[!UICONTROL Wait time in test]** 매개 변수에 대해 업데이트되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md)
 * 외부 호출 오류 코드 및 응답이 추가되어 테스트 로그 섹션이 업데이트되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md#viewing_logs)
 * 이제는 경로 속성 패널에서 중앙 집중식으로 시간대를 관리할 수 있습니다. [여기](../building-journeys/changing-properties.md#timezone)와 [여기](../building-journeys/timezone-management.md)에서 자세한 내용을 확인할 수 있습니다.
 * 최근 향상된 기능을 반영하여 경로 디자이너 섹션이 업데이트되었습니다. [자세한 내용](../building-journeys/using-the-journey-designer.md)
