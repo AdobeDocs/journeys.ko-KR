@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1527'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 63%
 
 ### GA 업데이트{#august-ga-update}
 
-이제 세그먼트 자격 이벤트의 페이로드에는 다음과 같은 컨텍스트 정보가 포함되어 있으며 조건 및 작업에 사용할 수 있습니다.동작(시작, 종료), 자격 타임스탬프 및 세그먼트 id. [자세한 내용](../building-journeys/segment-qualification-events.md)
+이제 세그먼트 자격 이벤트의 페이로드에는 동작(시작, 종료), 자격 타임스탬프 및 세그먼트 ID와 같은 컨텍스트 정보가 포함되어 있으며 조건 및 작업에 사용할 수 있습니다. [자세한 내용](../building-journeys/segment-qualification-events.md)
 
 ### 알파 업데이트{#august-alpha-update}
 
-알파의 범위를 검색하려면 이 [섹션을 참조하십시오](../alpha/alpha-overview.md).
+알파의 범위를 검색하려면 이 [섹션](../alpha/alpha-overview.md)을 참조하십시오.
 
 <table>
 <thead>
@@ -46,11 +46,11 @@ ht-degree: 63%
 <p>세그먼트 트리거 활동에는 다음과 같은 사항이 개선되었습니다.
 </p>
 <ul>
-<li><p>활동 이름이 "세그먼트 읽기"로 변경되었습니다. </p>
+<li><p>활동의 이름이 "세그먼트 읽기"로 변경되었습니다. </p>
 </li>
-<li><p>경로 스케줄러 구성이 활동의 속성에서 제거되었습니다. 이제 세그먼트 읽기 활동이 캔버스에 드롭된 경우 표시되는 전용 섹션의 경로 속성에서 직접 액세스할 수 있습니다. </p>
+<li><p>여정 스케줄러 구성이 활동의 속성에서 제거되었습니다. 이제 세그먼트 읽기 활동이 캔버스에 드롭된 경우 표시되는 전용 섹션의 여정의 속성에서 직접 액세스할 수 있습니다. </p>
 </li>
-<li><p>이제 단일 프로파일에서 여정을 테스트하고 시각적인 흐름을 사용하여 여정의 진행 상황을 추적할 수 있습니다.</p>
+<li><p>이제 단일 프로필에서 여정을 테스트하고 시각적인 흐름을 사용하여 여정의 진행 상황을 추적할 수 있습니다.</p>
 </li>
 </ul>
 <p>자세한 내용은 <a href="../alpha/alpha-segment-trigger.md">세부 설명서</a>를 참조하십시오.</p>
@@ -68,10 +68,10 @@ ht-degree: 63%
 <tbody>
 <tr>
 <td>
-<p>규칙 기반 이벤트에 대해 다음과 같은 향상된 기능이 있습니다.
+<p>규칙 기반 이벤트에는 다음과 같은 사항이 개선되었습니다.
 </p>
 <ul>
-<li><p>이제 모든 Adobe Analytics 행동 이벤트 데이터를 활용하여 이미 플랫폼에 스트리밍 및 캡처하고 있으므로 고객 여정과 경험을 자동화할 수 있습니다. <a href="../alpha/alpha-events.md#analytics-data">자세한 내용</a></p>
+<li><p>이제 모든 Adobe Analytics 행동 이벤트 데이터를 활용하여 이미 플랫폼에 스트리밍 및 캡처하고 있으므로 고객을 위한 고객 여정을 트리거하고 경험을 자동화할 수 있습니다. <a href="../alpha/alpha-events.md#analytics-data">자세한 내용</a></p>
 </li>
 <li><p>이제 테스트 모드에서 규칙 기반 이벤트를 트리거할 때 이벤트 ID 조건을 직접 볼 수 있습니다. 또한 규칙 평가의 일부인 각 필드 옆에 도구 설명이 추가되었습니다. <a href="../alpha/alpha-events.md#configuring-rule-based">자세한 내용</a></p>
 </li>
@@ -85,25 +85,25 @@ ht-degree: 63%
 
 ## 알파 릴리스 - 2020년 7월 {#alpha-release---july-2020}
 
-알파 프로그램은 제한된 고객 세트에서 현재 테스트되는 기능을 제공합니다. 따라서 접수된 피드백을 바탕으로 제품을 개선할 수 있습니다. 일부 Journey Orchestration 고객은 이러한 기능을 사용할 수 없습니다.
+알파 프로그램은 제한된 고객 세트에서 현재 테스트하는 기능을 제공합니다. 따라서 수신한 피드백을 바탕으로 제품을 개선할 수 있습니다. 모든 Journey Orchestration 고객이 이러한 기능을 사용할 수는 없습니다.
 
-이러한 기능은 전용 [섹션에 설명되어 있습니다](../alpha/alpha-overview.md).
+이러한 기능은 전용 [섹션](../alpha/alpha-overview.md)에 설명되어 있습니다.
 
 <table>
 <thead>
 <tr>
-<th><strong>향상된 유저 인터페이스</strong><br/></th>
+<th><strong>향상된 사용자 인터페이스</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform과 일관된 인터페이스를 제공하기 위해 Journey Orchestration 메뉴 내의 탐색 기능이 향상되었습니다.
+<p>Adobe Experience Platform과 일관된 인터페이스를 제공하기 위해 Journey Orchestration 메뉴 내의 탐색 기능이 다음과 같이 향상되었습니다.
 </p>
 <ul>
 <li><p>메뉴가 인터페이스 맨 위에서 왼쪽으로 이동되었습니다. </p>
 </li>
-<li><p>관리 기능을 하나의 대시보드로 그룹화합니다.</p>
+<li><p>관리 기능을 하나의 대시보드로 그룹화하였습니다.</p>
 </li>
 </ul>
 <p>자세한 내용은 <a href="../alpha/alpha-interface.md">세부 설명서</a>를 참조하십시오.</p>
@@ -121,7 +121,7 @@ ht-degree: 63%
 <tbody>
 <tr>
 <td>
-<p>세그먼트 트리거 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 시작할 수 있습니다. 여행 입구는 한 번 또는 정기적으로 실행될 수 있습니다. <a href="../alpha/alpha-segment-trigger.md">자세한 내용</a>
+<p>세그먼트 트리거 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 시작할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다. <a href="../alpha/alpha-segment-trigger.md">자세한 내용</a>
 </p>
 </td>
 </tr>
@@ -156,21 +156,21 @@ ht-degree: 63%
 <tbody>
 <tr>
 <td>
-<p>다음과 같은 Adobe Experience Platform 통합 기능이 개선되었습니다.</p>
+<p>다음과 같은 Adobe Experience Platform 통합 개선이 이루어졌습니다.</p>
 <ul>
-<li><p>새로운 활동을 통해 Adobe Experience Platform 세그먼트 입장/출구의 의견 수렴을 통해 사람들이 여행 중에 들어오거나 앞으로 이동할 수 있습니다. <a href="../building-journeys/segment-qualification-events.md">자세한 내용</a></p>
+<li><p>새로운 활동을 통해 Adobe Experience Platform 세그먼트 출입구에서 수신 대기함으로써 사용자가 여정에 들어오거나 앞으로 이동하도록 할 수 있습니다. <a href="../building-journeys/segment-qualification-events.md">자세한 내용</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">자세한 내용</a></p>
+<li><p>이제 새로운 <strong>세그먼트</strong> 탭 덕분에 Journey Orchestration 인터페이스를 벗어나지 않고도 Adobe Experience Platform 세그먼트를 만들고 편집할 수 있습니다.<a href="../segment/about-segments.md">자세한 내용</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>단순 표현식 편집기에서 이제 Adobe Experience Platform 세그먼트가 내비게이션 트리에 바로 나열되므로 "이 사람이 세그먼트 A에 속합니까?"와 같은 조건을 쉽게 설정할 수 있습니다.<a href="../segment/using-a-segment.md">자세한 내용</a></p>
+<li><p>단순 표현식 편집기에서 이제 Adobe Experience Platform 세그먼트가 탐색 트리에 직접 나열되므로 "이 사람이 세그먼트 A에 속합니까?"와 같은 조건을 쉽게 설정할 수 있습니다.<a href="../segment/using-a-segment.md">자세한 내용</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration은 이제 여행 중 행해지는 단계인 Adobe Experience Platform으로 자동 전달됩니다. 여기에는 발생한 잠재적 오류도 포함됩니다. 이 정보는 특정 경로 또는 모든 경로에 대해 경로 단계 이벤트에서 쿼리를 실행함으로써 보고 및 문제 해결을 수행하는 데 사용될 수 있습니다. <a href="../building-journeys/sharing-overview.md">자세한 내용</a></p>
+<li><p>이제 Journey Orchestration이 여정 중에 실행된 단계를 Adobe Data Platform에 자동으로 전달합니다. 여기에는 발생한 잠재적 오류도 포함됩니다. 이 정보는 특정 경로 또는 모든 경로에 대해 경로 단계 이벤트에서 쿼리를 실행함으로써 보고 및 문제 해결을 수행하는 데 사용될 수 있습니다. <a href="../building-journeys/sharing-overview.md">자세한 내용</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>이제 Journey Orchestration을 프로덕션 및 비프로덕션 Adobe Experience Platform 샌드박스와 연결할 수 있습니다. 샌드박스는 베타 기능입니다. <a href="../about/access-management.md#sandboxes">자세한 내용</a></p>
+<li><p>이제 Journey Orchestration을 프로덕션 및 프로덕션이 아닌 Adobe Experience Platform 샌드박스에 연결할 수 있습니다. 샌드박스는 베타 기능입니다. <a href="../about/access-management.md#sandboxes">자세한 내용</a></p>
 </li>
 </ul>
 </td>
@@ -251,7 +251,7 @@ Journey Orchestration 인터페이스를 일본어로 사용할 수 있습니다
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li><strong>시간대</strong> 드롭다운 목록에서 특정 시간대를 선택할 수 있습니다. 기본적으로는 브라우저의 시간대가 사용됩니다. </li>
-<li>The <strong>Profile Timezone</strong> checkbox allows you to use the Adobe Experience Platform Profile timezone of the person entering the journey, if available. 이 확인란을 선택하지 않으면 드롭다운 목록에서 정의한 시간대가 사용됩니다. 이 기능은 네임스페이스가 없는 이벤트를 사용하는 경로와는 호환되지 않습니다.</li>
+<li><strong>프로필 시간대</strong> 확인란을 선택하면 경로를 입력하는 사용자의 Adobe Experience Platform 프로필 시간대(사용 가능한 경우)를 사용할 수 있습니다. 이 확인란을 선택하지 않으면 드롭다운 목록에서 정의한 시간대가 사용됩니다. 이 기능은 네임스페이스가 없는 이벤트를 사용하는 경로와는 호환되지 않습니다.</li>
 </ul>
 <p>자세한 내용은 <a href="../building-journeys/changing-properties.md#timezone">속성 변경</a> 및 <a href="../building-journeys/timezone-management.md">시간대 관리</a> 섹션을 참조하십시오.</p>
 </td>
@@ -302,7 +302,7 @@ Journey Orchestration 인터페이스를 일본어로 사용할 수 있습니다
 
 **기타 개선 사항**
 
-* In addition to US, Journey Orchestration is now available in **EMEA**. 애플리케이션과 설명서는 프랑스어 및 독일어로 제공됩니다.
+* 이제는 미국뿐 아니라 **EMEA**&#x200B;에서도 Journey Orchestration을 사용할 수 있습니다. 애플리케이션과 설명서는 프랑스어 및 독일어로 제공됩니다.
 
 * 이제 Experience League가 제품에 통합되어 제공됩니다. 따라서 관련 콘텐츠에 간편하게 액세스할 수 있으며 Experience Cloud를 최대한 활용할 수 있습니다. [도움말] 탭 아래쪽에서 Journey Orchestration 설명서에 바로 액세스할 수 있습니다. 또한 [도움말] > [의견]을 클릭하여 문제를 보고하거나 Adobe와 아이디어를 공유할 수 있습니다.
 
@@ -310,7 +310,7 @@ Journey Orchestration 인터페이스를 일본어로 사용할 수 있습니다
 
 * 이제는 정지된 경로를 **삭제**&#x200B;할 수 있습니다. 그러면 삭제한 경로와 연관된 보고서를 사용할 수 없게 됩니다.
 
-* When browsing through **Adobe Experience Platform fields** (XDM format), you will now see the display name in addition to the field name. 이 정보는 Experience Data Model의 스키마 정의에서 검색됩니다. 사용 가능한 경우 대체 표시 이름이 나타납니다. 사용자에게 친숙한 이 설명을 통해 필드를 더 쉽게 확인할 수 있으므로 eVar 필드 사용 시에 특히 유용합니다. [자세한 내용](../about/user-interface.md#friendly-names-display)
+* 이제 **Adobe Experience Platform 필드**(XDM 형식)를 통해 검색할 때 필드 이름과 함께 표시 이름도 표시됩니다. 이 정보는 Experience Data Model의 스키마 정의에서 검색됩니다. 사용 가능한 경우 대체 표시 이름이 나타납니다. 사용자에게 친숙한 이 설명을 통해 필드를 더 쉽게 확인할 수 있으므로 eVar 필드 사용 시에 특히 유용합니다. [자세한 내용](../about/user-interface.md#friendly-names-display)
 
 ## GA 릴리스 - 2019년 12월 {#ga-release---december-2019}
 
