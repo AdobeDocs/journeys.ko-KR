@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
+source-git-commit: 70bc6653a8cdd552a0441f4b661341d3f095b112
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '376'
 ht-degree: 2%
 
 ---
@@ -57,13 +57,13 @@ ht-degree: 2%
 
 ## 사용자 지정 대기{#custom}
 
-이 옵션을 사용하면 이벤트 또는 데이터 소스에서 온 필드를 기반으로 하는 고급 표현식을 사용하여 사용자 지정 날짜(예: 2020년 7월 12일 오후 5시)를 정의할 수 있습니다. 사용자 지정 기간(예: 7일)을 정의할 수 없습니다. 식 편집기의 표현식은 dateTimeOnly 형식을 제공해야 합니다. [](../expression/expressionadvanced.md)을 참조하십시오. dateTimeOnly 형식에 대한 자세한 내용은 을 참조하십시오 [](../expression/data-types.md).
+이 옵션을 사용하면 이벤트 또는 데이터 소스에서 온 필드를 기반으로 하는 고급 표현식을 사용하여 사용자 지정 날짜(예: 2020년 7월 12일 오후 5시)를 정의할 수 있습니다. 사용자 지정 기간(예: 7일)을 정의할 수 없습니다. 식 편집기의 표현식은 dateTimeOnly 형식을 제공해야 합니다. [](../expression/expressionadvanced.md)을(를) 참조하십시오. dateTimeOnly 형식에 대한 자세한 내용은 을 참조하십시오 [](../expression/data-types.md).
 
 >[!NOTE]
 >
->dateTimeOnly 식을 활용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예:toDateTimeOnly(@{Event.offerOpened.activity.endTime}), 2016-08-12T09:46:06 형식의 이벤트의 필드입니다.
+>dateTimeOnly 식을 활용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, the field in the event are of the form 2016-08-12T09:46:06Z.
 >
->여정의 **속성에는 시간대가** 필요합니다. 따라서 인터페이스에서는 2016-08-12T09:46:06.982-05와 같은 전체 ISO-8601 타임스탬프 믹싱 시간 및 시간대 오프셋을 직접 가리키도록 할 수 없습니다. [](../building-journeys/timezone-management.md)을 참조하십시오.
+>여정의 **속성에는 시간대가** 필요합니다. 따라서 인터페이스에서는 2016-08-12T09:46:06.982-05와 같은 전체 ISO-8601 타임스탬프 믹싱 시간 및 시간대 오프셋을 직접 가리키도록 할 수 없습니다. [](../building-journeys/timezone-management.md)을(를) 참조하십시오.
 
 ![](../assets/journey57.png)
 
