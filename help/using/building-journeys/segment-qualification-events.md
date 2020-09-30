@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
+source-git-commit: 69427556476b5a51e4557307227433cff25f4856
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 0%
+source-wordcount: '691'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,12 @@ ht-degree: 0%
 
 이 유형의 이벤트는 여정의 첫 번째 단계 또는 그 이상으로 배치할 수 있습니다.
 
-Adobe Experience Platform의 고주파수 대상 옵션으로 세그먼트가 스트리밍되는 경우 입구와 출구가 실시간으로 청각됩니다. 세그먼트가 스트리밍되지 않으면 입장 및 퇴장은 세그먼트 계산 시 고려됩니다.
+>[!IMPORTANT]
+>
+>Adobe Experience Platform 세그먼트는 하루에 한 번(**일괄** 세그먼트) 또는 실시간(Adobe Experience Platform의 빈도가 높은 대상 옵션을 사용하여&#x200B;**스트리밍된** 세그먼트)으로 계산된다는 점을 염두에 두십시오.
+>
+>선택한 세그먼트가 스트리밍되는 경우, 이 세그먼트에 속한 개인은 잠재적으로 실시간 여정에 참여할 수 있습니다. 세그먼트가 배치인 경우, 이 세그먼트에 새로 자격을 갖춘 사람은 Adobe Experience Platform에서 세그먼트 계산이 실행될 때 여정에 잠재적으로 참여할 수 있습니다.
+
 
 1. 카테고리 **[!UICONTROL Events]** 를 펼쳐서 캔버스에 **[!UICONTROL Segment qualification]** 활동을 놓습니다.
 
