@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a55139697347ade80959f60bf52bfde39e43eb9
+source-git-commit: 4f7cc4da51a93019b5a296003c51d4bee6724498
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 Adobe Campaign Standard의 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 보낼 수 있습니다.
 
-[!DNL Journey Orchestration] Adobe Campaign Standard에 바로 연결할 수 있는 특별 액션이 포함되어 있습니다.
+[!DNL Journey Orchestration] adobe campaign standard에 바로 연결할 수 있는 특별 액션이 포함되어 있습니다.
 
 Journey Orchestration에서 사용하려면 Campaign Standard 트랜잭션 메시지 및 관련 이벤트를 게시해야 합니다. 이벤트가 게시되었지만 메시지가 게시되지 않으면 Journey Orchestration 인터페이스에 표시되지 않습니다. 메시지가 게시되었지만 연결된 이벤트가 없으면 Journey Orchestration 인터페이스에 표시되지만 사용할 수는 없습니다.
 
@@ -47,10 +47,11 @@ Journey Orchestration에서 사용하려면 Campaign Standard 트랜잭션 메�
    >
    >이 테스트는 다음을 확인합니다.
    >
-   >* 호스트는 &quot;.campaign.adobe.com&quot; 또는 &quot;.campaign-sandbox.adobe.com&quot;입니다.
-   >* URL은 https,
-   >* 이 Adobe Campaign Standard 인스턴스와 연관된 ORG는 Journey Orchestration ORG와 동일합니다.
-
+   >호스트는 &quot;.campaign.adobe.com&quot; 또는 &quot;.campaign-sandbox.adobe.com&quot;입니다.
+   >
+   >URL은 https,
+   >
+   >이 Adobe Campaign Standard 인스턴스와 연관된 ORG는 Journey Orchestration ORG와 동일합니다.
 
 여정을 디자인할 때 다음 세 가지 작업을 카테고리에서 사용할 수 **[!UICONTROL Action]** 있습니다. **[!UICONTROL Email]**, **[!UICONTROL Push]**(Adobe Campaign 작업 **[!UICONTROL SMS]** 사용 참조 [](../building-journeys/using-adobe-campaign-actions.md)) **또한 반응 이벤트를** 사용하면 메시지 클릭, 열기 등에 반응할 수 있습니다. ( [반응 이벤트 참조](../building-journeys/reaction-events.md)).
 
