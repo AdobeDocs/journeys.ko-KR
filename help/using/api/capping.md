@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
+source-git-commit: 6656c3a9b62f13d0cbffa3ac97c0a5314cb050a4
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1108'
 ht-degree: 0%
 
 ---
@@ -62,15 +62,15 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
  -H 'x-gw-ims-org-id: <ORGANIZATION>'
 ```
 
-* **&lt;조직>**: 개인 조직 ID이며, 각 인스턴스에 대해 Adobe에서 하나의 조직 ID가 제공됩니다.
+* **&lt;조직>**:개인 조직 ID이며, 각 인스턴스에 대해 Adobe에서 하나의 조직 ID가 제공됩니다.
 
-   * &lt;조직>: 프로덕션 인스턴스
+   * &lt;조직>:프로덕션 인스턴스
 
    조직 ID 값을 얻으려면 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 새로운 통합을 만들 때 Adobe I/O로 가져올 수도 있습니다( <a href="https://www.adobe.io/authentication.html">Adobe I/O 설명서 참조</a>).
 
-* **&lt;ACCESS_TOKEN>**: POST 요청을 통해 JWT를 교환할 때 검색된 개인 액세스 토큰입니다.
+* **&lt;ACCESS_TOKEN>**:POST 요청을 통해 JWT를 교환할 때 검색된 개인 액세스 토큰입니다.
 
-* **&lt;API_KEY>**: 개인 API 키. 서비스에 대한 새 통합을 만든 후 Adobe I/O로 [!DNL Journey Orchestration] 제공됩니다.
+* **&lt;API_KEY>**:개인 API 키. 서비스에 대한 새 통합을 만든 후 Adobe I/O로 [!DNL Journey Orchestration] 제공됩니다.
 
 
 
@@ -82,12 +82,12 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 |---|---|---|
 | [!DNL POST] | list/endpointConfigs | 끝점 매핑 구성 목록 가져오기 |
 | [!DNL POST] | /endpointConfigs | 끝점 매핑 구성 만들기 |
-| [!DNL POST] | /endpointConfigs/{uid}/deploy | 끝점 매핑 구성 배포 |
-| [!DNL POST] | /endpointConfigs/{uid}/배포 취소 | 끝점 매핑 구성 배포 취소 |
-| [!DNL POST] | /endpointConfigs/{uid}/canDeploy | 끝점 매핑 구성을 배포할 수 있는지 여부 확인 |
-| [!DNL PUT] | /endpointConfigs/{uid} | 끝점 매핑 구성 업데이트 |
-| [!DNL GET] | /endpointConfigs/{uid} | 끝점 매핑 구성 검색 |
-| [!DNL DELETE] | /endpointConfigs/{uid} | 설정 구성 삭제 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/deploy | 끝점 매핑 구성 배포 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/undeploy | 끝점 매핑 구성 배포 취소 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | 끝점 매핑 구성을 배포할 수 있는지 여부 확인 |
+| [!DNL PUT] | /endpointConfigs/`{uid}` | 끝점 매핑 구성 업데이트 |
+| [!DNL GET] | /endpointConfigs/`{uid}` | 끝점 매핑 구성 검색 |
+| [!DNL DELETE] | /endpointConfigs/`{uid}` | 설정 구성 삭제 |
 
 구성을 만들거나 업데이트할 때 페이로드 구문과 무결성을 보장하기 위해 검사가 자동으로 수행됩니다.
 일부 문제가 발생하는 경우 작업 중에 경고 또는 오류가 반환되어 구성을 수정할 수 있습니다.
@@ -147,21 +147,21 @@ canDeploy **메서드를** 호출하면 프로세스는 구성을 검증하고 �
 
 잠재적 오류는 다음과 같습니다.
 
-* **ERR_ENDPOINT_100**: 매핑 구성: URL이 없거나 잘못되었습니다.
-* **ERR_ENDPOINTCONFIG_101**: 매핑 구성: 잘못된 URL
-* **ERR_ENDPOINT_102**: 매핑 구성: 잘못된 url: host:port에서 사용할 수 없는 WILDCHAR in url
-* **ERR_ENDPOINT_103**: 매핑 구성: HTTP 메서드 누락
-* **ERR_ENDPOINT_104**: 매핑 구성: 통화 평점이 정의되지 않음
-* **ERR_ENDPOINTCONFIG_107**: 매핑 구성: 잘못된 최대 호출 수(maxCallsCount)
-* **ERR_ENDPOINTCONFIG_108**: 매핑 구성: 잘못된 최대 호출 수(periodInMs)
-* **ERR_ENDPOINT_111**: 매핑 구성: 끝점 구성을 만들 수 없습니다. 잘못된 페이로드
-* **ERR_ENDPOINTCONFIG_112**: 매핑 구성: 끝점 구성을 만들 수 없습니다. JSON 페이로드 필요
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**: 잘못된 서비스 이름 <!--<given value>-->: 값은 &#39;dataSource&#39; 또는 &#39;action&#39;이어야 합니다.
+* **ERR_ENDPOINT_100**:매핑 구성:URL이 없거나 잘못되었습니다.
+* **ERR_ENDPOINTCONFIG_101**:매핑 구성:잘못된 URL
+* **ERR_ENDPOINT_102**:매핑 구성:잘못된 url:host:port에서 사용할 수 없는 WILDCHAR in url
+* **ERR_ENDPOINT_103**:매핑 구성:HTTP 메서드 누락
+* **ERR_ENDPOINT_104**:매핑 구성:통화 평점이 정의되지 않음
+* **ERR_ENDPOINTCONFIG_107**:매핑 구성:잘못된 최대 호출 수(maxCallsCount)
+* **ERR_ENDPOINTCONFIG_108**:매핑 구성:잘못된 최대 호출 수(periodInMs)
+* **ERR_ENDPOINT_111**:매핑 구성:끝점 구성을 만들 수 없습니다.잘못된 페이로드
+* **ERR_ENDPOINTCONFIG_112**:매핑 구성:끝점 구성을 만들 수 없습니다.JSON 페이로드 필요
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**:잘못된 서비스 이름 `<!--<given value>-->`:값은 &#39;dataSource&#39; 또는 &#39;action&#39;이어야 합니다.
 
 
 잠재적 경고는 다음과 같습니다.
 
-**ERR_ENDPOINTCONFIG_106**: 매핑 구성: 정의되지 않은 최대 HTTP 연결: 기본적으로 제한 없음
+**ERR_ENDPOINTCONFIG_106**:매핑 구성:정의되지 않은 최대 HTTP 연결:기본적으로 제한 없음
 
 
 
@@ -175,8 +175,8 @@ canDeploy **메서드를** 호출하면 프로세스는 구성을 검증하고 �
 
 Postman에 다운로드 및 업로드한 후에는 다음 세 가지 변수를 추가해야 합니다. `{JO_HOST}`,`{Base_Path}` and `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] 게이트웨이 URL
-* `{BASE_PATH}` : API의 시작 지점. 값은 &#39;/authoring&#39;입니다.
-* `{SANDBOX_NAME}` : API 작업이 수행되는 샌드박스 이름에 해당하는 헤더 **x-sandbox-name** (예: &#39;prod&#39;). 자세한 내용은 [샌드박스 개요를](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) 참조하십시오.
+* `{BASE_PATH}` :API의 시작 지점. 값은 &#39;/authoring&#39;입니다.
+* `{SANDBOX_NAME}` :API 작업이 수행되는 샌드박스 이름에 해당하는 헤더 **x-sandbox-name** (예: &#39;prod&#39;). 자세한 내용은 [샌드박스 개요를](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) 참조하십시오.
 
 다음 섹션에서는 사용 사례를 수행하기 위한 Rest API 호출 순서 목록을 확인할 수 있습니다.
 
