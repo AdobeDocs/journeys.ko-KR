@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 94989635814c9b2f035d736647ae78324d2c4f2a
-workflow-type: ht
-source-wordcount: '724'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe53855bed7d437232280a9f0e38a0d2e085c10e
+workflow-type: tm+mt
+source-wordcount: '755'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,11 @@ ht-degree: 100%
 
 이 페이지에는 [!DNL Journey Orchestration]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
 [!DNL Journey Orchestration] [릴리스 정보](../release-notes/release-notes.md)도 확인할 수 있습니다.
+
+## 2020년 9월 {#september-2020}
+
+* 인터페이스 설명 섹션이 새로운 **모든 선택기** 메뉴를 반영하도록 업데이트되었습니다. [자세한 내용](../about/user-interface.md)
+* 재귀적이지 않은 세그먼트 기반 여정의 새 버전에 대한 참고가 추가되었습니다. [자세한 내용](../alpha/alpha-segment-trigger.md)
 
 ## 2020년 8월 {#august-2020}
 
