@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 27cd94ec9da9e89d62ec8e4f471dab43d2e9e657
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1344'
 ht-degree: 5%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 # 여정 디자이너 사용 {#concept_m1g_5qt_52b}
 
-경로 홈 메뉴를 사용하면 여행 **목록을 볼 수 있습니다**. 새 경로를 만들거나 기존 경로를 클릭하여 **경로 디자이너의 인터페이스를 엽니다**. 디자이너는 다음 영역으로 구성됩니다. 팔레트, 캔버스 및 활동 구성 창.
+경로 홈 메뉴를 사용하면 여행 **목록을 볼 수 있습니다**. 새 경로를 만들거나 기존 경로를 클릭하여 **경로 디자이너의 인터페이스를 엽니다**. 디자이너는 다음 영역으로 구성됩니다.팔레트, 캔버스 및 활동 구성 창.
 
 ## 여정 목록 {#journey_list}
 
@@ -31,7 +31,7 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 ![](../assets/journey74.png)
 
-버전 번호와 함께 모든 버전의 내경이 목록에 표시됩니다. [](../building-journeys/journey-versions.md)을 참조하십시오.
+버전 번호와 함께 모든 버전의 내경이 목록에 표시됩니다. [](../building-journeys/journey-versions.md)을(를) 참조하십시오.
 
 ![](../assets/journey37.png)
 
@@ -65,7 +65,7 @@ The **[!UICONTROL Show disabled items]** icon in the top left corner allows you 
 
 팔레트에서 활동을 클릭하면 **활동 구성 창이** 나타납니다. 필수 필드를 입력합니다. 활동을 삭제하려면 **[!UICONTROL Delete]** 아이콘을 클릭합니다. 수정 사항 **[!UICONTROL Cancel]** 을 취소하거나 확인하려면 을 **[!UICONTROL Ok]** 클릭하십시오. 활동을 삭제하려면 하나 또는 여러 개의 활동을 선택하고 백스페이스 키를 누를 수도 있습니다. Esc 키를 누르면 활동 구성 창이 닫힙니다.
 
-캔버스에서 작업 및 이벤트 활동은 아래에 표시되는 이벤트 또는 작업의 이름과 함께 아이콘으로 표시됩니다. 활동 구성 창에서 **[!UICONTROL Label]** 필드를 사용하여 활동 이름에 접미사를 추가할 수 있습니다. 이러한 레이블은 이벤트 및 작업의 사용을 상황에 맞게 만드는 데 도움이 됩니다. 특히 여정에서 동일한 이벤트 또는 작업을 여러 번 사용하는 경우 더욱 그렇습니다. 보고에 추가한 레이블을 볼 수도 [!DNL Journey Orchestration] 있습니다.
+캔버스에서 작업 및 이벤트 활동은 아래에 표시되는 이벤트 또는 작업의 이름과 함께 아이콘으로 표시됩니다. 활동 구성 창에서 **[!UICONTROL Label]** 필드를 사용하여 활동 이름에 접미사를 추가할 수 있습니다. 이러한 레이블은 이벤트 및 작업의 사용을 상황에 맞게 만드는 데 도움이 됩니다. 특히 여정에서 동일한 이벤트 또는 작업을 여러 번 사용하는 경우 더욱 그렇습니다. 보고에 추가한 레이블을 볼 수도 [!DNL Journey Orchestration] 있습니다. 조건 활동에 대한 레이블을 정의할 수도 있습니다.
 
 ![](../assets/journey59bis.png)
 
@@ -83,13 +83,13 @@ The **[!UICONTROL Show disabled items]** icon in the top left corner allows you 
 
 다양한 활동(이벤트, 작업, 대기)을 통해 여러 경로를 그 뒤에 추가할 수 있습니다. 이렇게 하려면 활동 위에 커서를 놓고 &quot;+&quot; 기호를 클릭합니다. 이벤트와 대기 활동만 동시에 설정할 수 있습니다. 여러 이벤트가 동시에 설정되면 선택한 경로가 첫 번째 이벤트 중 하나가 됩니다.
 
-이벤트를 들을 때는 이벤트를 무한히 기다리지 않는 것이 좋습니다. 이것은 의무적인 것이 아니라 단지 좋은 연습일 뿐이다. 특정 시간 동안에만 하나 또는 여러 개의 이벤트를 수신하려면 하나 또는 여러 개의 이벤트를 동시에 배치합니다. [](../building-journeys/event-activities.md#section_vxv_h25_pgb)을 참조하십시오.
+이벤트를 들을 때는 이벤트를 무한히 기다리지 않는 것이 좋습니다. 이것은 의무적인 것이 아니라 단지 좋은 연습일 뿐이다. 특정 시간 동안에만 하나 또는 여러 개의 이벤트를 수신하려면 하나 또는 여러 개의 이벤트를 동시에 배치합니다. [](../building-journeys/event-activities.md#section_vxv_h25_pgb)을(를) 참조하십시오.
 
 패스를 삭제하려면 해당 패스 위에 커서를 놓고 아이콘을 **[!UICONTROL Delete arrow]** 클릭합니다.
 
 ![](../assets/journey42ter.png)
 
-캔버스에서 두 활동의 연결이 끊어지면 경고가 표시됩니다. 경고 아이콘에 커서를 두면 오류 메시지가 표시됩니다. 문제를 해결하려면 연결이 끊긴 활동을 이동하고 이전 활동에 연결하기만 하면 됩니다.
+캔버스에서 두 활동의 연결이 끊어지면 경고가 표시됩니다. 경고 아이콘 위에 커서를 두면 오류 메시지가 표시됩니다. 문제를 해결하려면 연결이 끊긴 활동을 이동하고 이전 활동에 연결하기만 하면 됩니다.
 
 ![](../assets/canvas-disconnected.png)
 
