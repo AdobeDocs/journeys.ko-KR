@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
-workflow-type: ht
-source-wordcount: '1527'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe53855bed7d437232280a9f0e38a0d2e085c10e
+workflow-type: tm+mt
+source-wordcount: '1653'
+ht-degree: 93%
 
 ---
 
@@ -23,6 +23,54 @@ ht-degree: 100%
 
 이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 [설명서 업데이트](../release-notes/documentation-updates.md)도 확인할 수 있습니다.
+
+## 2020년 9월 릴리스 {#september-release}
+
+### GA 업데이트{#september-ga-update}
+
+<table>
+<thead>
+<tr>
+<th><strong>향상된 조건 활동</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 여정에 조건을 추가할 때 레이블을 정의할 수 있습니다. 한 번에 여러 조건을 사용할 경우 이를 통해 보다 쉽게 식별할 수 있습니다.
+</p>
+<p>자세한 내용은 <a href="../building-journeys/condition-activity.md#about_condition">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 알파 업데이트{#september-alpha-update}
+
+알파의 범위를 검색하려면 이 [섹션](../alpha/alpha-overview.md)을 참조하십시오.
+
+<table>
+<thead>
+<tr>
+<th><strong>향상된 세그먼트 활동 읽기</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+</p>
+<ul>
+<li><p>이제 캔버스 위에 세그먼트 기반 여정이 표시되므로 여정의 일정 유형을 미리 볼 수 있습니다. 이 미리 알림을 클릭하여 예약 구성 메뉴에 액세스할 수 있습니다.</p>
+</li>
+<li><p>테스트 모드 로그의 세부기간이 개선되어 세그먼트 내보내기 진행 상태를 표시합니다.</p>
+</li>
+</ul>
+<p>세그먼트 <strong>읽기</strong> 활동에 대한 자세한 내용은 <a href="../alpha/alpha-segment-trigger.md">자세한 설명서를 참조하십시오</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2020년 8월 릴리스 {#august-release}
 
