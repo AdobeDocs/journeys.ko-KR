@@ -11,23 +11,23 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ed0934f141ade1e558131e9fad609844800dd46a
+source-git-commit: 7cac949f2428f29bef1d01122e152429a93d0b1b
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 2%
+source-wordcount: '1339'
+ht-degree: 3%
 
 ---
 
 
 # 여정 테스트{#testing_the_journey}
 
-여행을 테스트하기 전에 모든 오류를 해결해야 합니다. [](../about/troubleshooting.md#section_h3q_kqk_fhb)을 참조하십시오.
+여행을 테스트하기 전에 모든 오류를 해결해야 합니다. [](../about/troubleshooting.md#section_h3q_kqk_fhb)을(를) 참조하십시오.
 
 테스트 프로필을 사용하여 게시 전에 여행을 테스트할 수 있습니다. 이를 통해 개별 고객이 여행 중에 어떻게 진행되는지 분석하고 게시 전에 문제를 해결할 수 있습니다.
 
 테스트 모드를 사용하려면 다음 단계를 따르십시오.
 
-1. 여정을 테스트하기 전에 유효한지, 오류가 없는지 확인하십시오. 오류가 있는 여정의 테스트를 실행할 수 없습니다. [](../about/troubleshooting.md#section_h3q_kqk_fhb)을 참조하십시오. 오류가 있으면 경고 기호가 표시됩니다.
+1. 여정을 테스트하기 전에 유효한지, 오류가 없는지 확인하십시오. 오류가 있는 여정의 테스트를 실행할 수 없습니다. [](../about/troubleshooting.md#section_h3q_kqk_fhb)을(를) 참조하십시오. 오류가 있으면 경고 기호가 표시됩니다.
 
 1. 테스트 모드를 활성화하려면 오른쪽 상단 모서리에 있는 **[!UICONTROL Test]** 토글을 클릭합니다.
 
@@ -45,12 +45,12 @@ ht-degree: 2%
 
    ![](../assets/journeyuctest2.png)
 
-1. 오류가 있는 경우 테스트 모드를 비활성화하고 경로를 수정한 후 다시 테스트하십시오. 테스트가 완료되면 여정을 게시할 수 있습니다. [](../building-journeys/publishing-the-journey.md)을 참조하십시오.
+1. 오류가 있는 경우 테스트 모드를 비활성화하고 여정를 수정한 후 다시 테스트하십시오. 테스트가 완료되면 여정을 게시할 수 있습니다. [](../building-journeys/publishing-the-journey.md)을(를) 참조하십시오.
 
 ## 중요 정보 {#important_notes}
 
 * 테스트를 거친 여정에서 이벤트를 발생시키는 인터페이스가 제공되지만 Postman과 같은 타사 시스템에서 이벤트를 보낼 수도 있습니다.
-* 실시간 고객 프로필 서비스에서 &quot;테스트 프로필&quot;으로 플래그가 지정된 개인만이 테스트를 거친 여정에 참여할 수 있습니다. [](../building-journeys/testing-the-journey.md#create-test-profile)을 참조하십시오.
+* 실시간 고객 프로필 서비스에서 &quot;테스트 프로필&quot;으로 플래그가 지정된 개인만이 테스트를 거친 여정에 참여할 수 있습니다. [](../building-journeys/testing-the-journey.md#create-test-profile)을(를) 참조하십시오.
 * 테스트 모드는 네임스페이스를 사용하는 임시 여행에서만 사용할 수 있습니다. 테스트 모드는 여행 시작 사람이 테스트 프로필인지 아닌지 확인해야 하므로 Adobe Experience Platform에 도달할 수 있어야 합니다.
 * 테스트 세션 중 여정에 입력할 수 있는 최대 테스트 프로필 수는 100개입니다.
 * 테스트 모드를 비활성화하면 이전에 입력한 사람 또는 현재 테스트 사용자의 여정이 빈 것입니다. 또한 보고서를 지웁니다.
@@ -169,3 +169,18 @@ curl -X POST \
 * _완료됨_:그 사람은 여행의 마지막에 있다.
 * _오류_:실수로 개인이 여행 중에 정지되었다.
 * _시간 초과_:한 사람이 여행 중에 정지되는 것은 너무 많은 시간이 걸린 단계 때문이다.
+
+테스트 모드를 사용하여 이벤트가 트리거되면 소스 이름으로 데이터 세트가 자동으로 생성됩니다.
+
+테스트 모드를 사용하여 이벤트가 트리거되면 소스 이름으로 데이터 세트가 자동으로 생성됩니다.
+
+테스트 모드는 자동으로 경험 이벤트를 만들어 Adobe Experience Platform으로 전송합니다. 이 경험 이벤트의 원본 이름은 &quot;Journey Orchestration 테스트 이벤트&quot;입니다.
+
+여러 여정에서 여러 이벤트가 트리거되는 경우
+
+여러 여정에서 전송된 여러 이벤트가 있을 때 서로 다른 스키마를 갖는 시나리오가 있습니다. 스키마 맵을 1개의 데이터 세트에 매핑할 수 있습니까? 그렇지 않으면 데이터 세트가 여러 개 필요합니다.
+
+대상 데이터 세트가 경험 이벤트에 포함되지 않은 경우 이러한 데이터 집합의 자동 생성 및 이름 지정이 수행됩니다. 그래서 우리는 오늘 &quot;항해자를 위한 데이터 세트 자동 생성&quot;을 보게 된다.
+
+소스 이름을 지정하면 자동으로 생성됩니다. 여러 개의 이벤트가 있는 경우 &quot;Journey Orchestration 테스트 이벤트 - NAME OF SCHEMA&quot;가 되도록 연결해야 합니다. 이렇게 하면 &quot;Journey Orchestration 테스트 이벤트에 대해 자동으로 생성된 데이터 세트 - 스키마 이름&quot;으로 자동 변환됩니다.
+
