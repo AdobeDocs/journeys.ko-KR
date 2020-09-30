@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 25d3c3062bca2151faf10d11e9636799c1331f24
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 5%
+source-wordcount: '730'
+ht-degree: 8%
 
 ---
 
@@ -32,11 +32,15 @@ ht-degree: 5%
 
 ## 조건 활동 정보 {#about_condition}
 
+한 여정에서 여러 조건을 사용할 경우 각 조건에 대한 레이블을 정의하여 보다 쉽게 식별할 수 있습니다.
+
 여러 조건을 정의하려면 **[!UICONTROL Add a path]** 클릭합니다. 각 조건에 대해 활동 후에 캔버스에 새 경로가 추가됩니다.
 
 ![](../assets/journey47.png)
 
-여정의 디자인은 기능적으로 영향을 미친다. 조건 후에 여러 경로가 정의되면 첫 번째 적격한 경로만 실행됩니다. 즉, 경로의 우선 순위를 서로 위나 아래에 배치하여 변경할 수 있습니다. 예를 들어 첫 번째 경로의 조건이 &quot;사람이 VIP&quot;이고 두 번째 경로의 조건은 &quot;사람이 남성임&quot;인 경우. 두 조건을 모두 충족하는 사람(VIP인 남성)이 이 단계를 통과하면 첫 번째 경로가 &quot;위&quot;이기 때문에 두 번째 경로에도 해당되더라도 첫 번째 경로가 선택됩니다. 이 우선 순위를 변경하려면 활동을 다른 세로 순서로 이동합니다.
+여정의 디자인은 기능적으로 영향을 미친다. 조건 후에 여러 경로가 정의되면 첫 번째 적격한 경로만 실행됩니다. 즉, 경로의 우선 순위를 서로 위나 아래에 배치하여 변경할 수 있습니다.
+
+예를 들어 첫 번째 경로의 조건 &quot;The person is a VIP&quot;과 두 번째 경로의 조건 &quot;The person is a manual&quot;을 예로 들어보겠습니다. 두 조건을 모두 충족하는 사람(VIP인 남성)이 이 단계를 통과하면 첫 번째 경로가 &quot;위&quot;이기 때문에 두 번째 경로에도 해당되더라도 첫 번째 경로가 선택됩니다. 이 우선 순위를 변경하려면 활동을 다른 세로 순서로 이동합니다.
 
 ![](../assets/journey48.png)
 
@@ -44,8 +48,8 @@ ht-degree: 5%
 
 단순 모드에서는 필드 조합을 기반으로 간단한 쿼리를 수행할 수 있습니다. 사용 가능한 모든 필드가 화면 왼쪽에 표시됩니다. 필드를 주 영역으로 드래그하여 놓습니다. 서로 다른 요소를 결합하려면 요소를 서로 인터록하여 다양한 그룹 및/또는 그룹 수준을 만듭니다. 그런 다음 논리 연산자를 선택하여 동일한 수준에서 요소를 결합할 수 있습니다.
 
-* AND: 두 가지 기준이 교차하는 점. 모든 기준과 일치하는 요소만 고려됩니다.
-* OR: 두 가지 기준의 결합. 두 기준 중 하나 이상에 일치하는 요소를 고려합니다.
+* AND:두 가지 기준이 교차하는 점. 모든 기준과 일치하는 요소만 고려됩니다.
+* OR:두 가지 기준의 결합. 두 기준 중 하나 이상에 일치하는 요소를 고려합니다.
 
 ![](../assets/journey64.png)
 
@@ -54,14 +58,14 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->단순 편집기를 사용하여 시간 시리즈(예: 구매 목록, 메시지 클릭 수)에서 쿼리를 수행할 수 없습니다. 이를 위해서는 고급 편집기를 사용해야 합니다. [](../expression/expressionadvanced.md)을 참조하십시오.
+>단순 편집기를 사용하여 시간 시리즈(예: 구매 목록, 메시지 클릭 수)에서 쿼리를 수행할 수 없습니다. 이를 위해서는 고급 편집기를 사용해야 합니다. [](../expression/expressionadvanced.md)을(를) 참조하십시오.
 
 
-작업 또는 조건에 오류가 발생하면 개별 경로의 진행이 중지됩니다. 이 작업을 계속 진행할 수 있는 유일한 방법은 상자를 선택하는 것입니다 **[!UICONTROL Add an alternative path in case of a timeout or an error]**. [](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
+작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. 이 작업을 계속 진행할 수 있는 유일한 방법은 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 상자를 선택하는 것입니다 . [](../building-journeys/using-the-journey-designer.md#paths)을(를) 참조하십시오.
 
 ## 데이터 소스 조건 {#data_source_condition}
 
-이렇게 하면 데이터 소스의 필드 또는 이전에 여정에 배치된 이벤트를 기반으로 조건을 정의할 수 있습니다. 표현식 편집기 사용 방법을 알려면 을 참조하십시오 [](../expression/expressionadvanced.md). 고급 표현식 편집기를 사용하면 컬렉션을 조작하거나 매개 변수를 전달해야 하는 데이터 소스를 사용하여 더 많은 고급 조건을 설정할 수 있습니다. [](../datasource/external-data-sources.md)을 참조하십시오.
+이렇게 하면 데이터 소스의 필드 또는 이전에 여정에 배치된 이벤트를 기반으로 조건을 정의할 수 있습니다. 표현식 편집기 사용 방법을 알려면 을 참조하십시오 [](../expression/expressionadvanced.md). 고급 표현식 편집기를 사용하면 컬렉션을 조작하거나 매개 변수를 전달해야 하는 데이터 소스를 사용하여 더 많은 고급 조건을 설정할 수 있습니다. [](../datasource/external-data-sources.md)을(를) 참조하십시오.
 
 ![](../assets/journey50.png)
 
@@ -71,7 +75,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->시간대는 더 이상 조건에 한정되지 않으며 이제 경로 속성의 경로 수준에서 정의됩니다. [](../building-journeys/timezone-management.md)을 참조하십시오.
+>시간대는 더 이상 조건에 한정되지 않으며 이제 경로 속성의 경로 수준에서 정의됩니다. [](../building-journeys/timezone-management.md)을(를) 참조하십시오.
 
 ![](../assets/journey51.png)
 
@@ -92,6 +96,6 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->시간대는 더 이상 조건에 한정되지 않으며 이제 경로 속성의 경로 수준에서 정의됩니다. [](../building-journeys/timezone-management.md)을 참조하십시오.
+>시간대는 더 이상 조건에 한정되지 않으며 이제 경로 속성의 경로 수준에서 정의됩니다. [](../building-journeys/timezone-management.md)을(를) 참조하십시오.
 
 ![](../assets/journey53.png)
