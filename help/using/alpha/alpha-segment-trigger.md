@@ -1,5 +1,5 @@
 ---
-title: 세그먼트 읽기 활동
+title: 세그먼트 활동 읽기
 description: 세그먼트 읽기 활동에 대해 자세히 알아보십시오.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,15 +11,15 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 967f453145dcf9af0e3efc5d52854d0c5c68c54f
+source-git-commit: b068429a0eb72c585de27faefe51ea2889be28f1
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 0%
+source-wordcount: '624'
+ht-degree: 4%
 
 ---
 
 
-# 세그먼트 읽기 활동 {#segment-trigger-activity}
+# 세그먼트 활동 읽기 {#segment-trigger-activity}
 
 ## 세그먼트 읽기 활동 정보 {#about-segment-trigger-actvitiy}
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >게시 시 또는 테스트 모드 활성화 시간에 캔버스에 기본적으로 제공되는 Adobe Campaign Standard 동작 활동이 있는 경우, 여행은 초당 13개의 입구에서 제한됩니다. 그렇지 않으면 여정은 초당 1000개의 이벤트로 조절됩니다.
 
-세그먼트 읽기 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 시작하도록 할 수 있습니다. 여행 입구는 한 번 또는 정기적으로 실행될 수 있습니다.
+세그먼트 읽기 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 시작하도록 할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다.
 
 Adobe Experience Platform에 골드 고객 세그먼트가 있다고 합시다. 세그먼트 읽기 활동을 사용하면 골드 고객 세그먼트에 속한 모든 개인이 여정을 시작하고 모든 경로 기능을 활용할 수 있는 개인화된 여정으로 이동할 수 있습니다.조건, 타이머, 이벤트, 작업.
 
@@ -83,14 +83,20 @@ Adobe Experience Platform에 골드 고객 세그먼트가 있다고 합시다. 
 
 ![](../assets/segment-trigger-test-modes.png)
 
-그런 다음 테스트 모드를 평소대로 구성할 수 있습니다. 여정을 테스트하는 방법에 대한 자세한 단계는 [이 섹션에 나와 있습니다](../building-journeys/testing-the-journey.md).
+그런 다음 테스트 모드를 평소대로 구성하고 실행할 수 있습니다. 여정을 테스트하는 방법에 대한 자세한 단계는 [이 섹션에 나와 있습니다](../building-journeys/testing-the-journey.md).
 
-한 번에 최대 100개의 프로파일을 사용하여 여정을 테스트해도 시각적인 흐름을 사용하여 고객 여정의 개별 진행 상황을 추적할 수 없습니다.
+테스트가 실행되면 선택한 테스트 옵션에 따라 테스트 결과를 볼 수 있는 **[!UICONTROL Show logs]** 단추가 표시됩니다.
+
+* **[!UICONTROL Single profile at a time]**:테스트 로그는 단일 테스트 모드를 사용할 때와 동일한 정보를 표시합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../building-journeys/testing-the-journey.md#viewing_logs)을 참조하십시오
+
+* **[!UICONTROL Up to 100 profiles at once]**:테스트 로그를 사용하면 Adobe Experience Platform에서 세그먼트 내보내기의 진행 상태를 추적할 수 있을 뿐만 아니라 여정에 참여한 모든 사람의 개별 진행 상태를 추적할 수 있습니다.
+
+   한 번에 최대 100개의 프로파일을 사용하여 여정을 테스트해도 시각적인 흐름을 사용하여 고객 여정의 개별 진행 상황을 추적할 수 없습니다.
+
+   ![](../assets/read-segment-log.png)
 
 테스트가 성공하면 여정을 게시할 수 있습니다(경로 [게시 참조](../building-journeys/publishing-the-journey.md)). 세그먼트에 속하는 개인은 여정의 속성 **[!UICONTROL Scheduler]** 섹션에 지정된 날짜/시간에 대한 여정에 들어갑니다.
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Adobe Experience Platform 세그먼트는 하루에 한 번(**일괄** 세그먼트) 또는 실시간(**스트리밍된** 세그먼트)으로 계산된다는 점을 명심하십시오.
->
->선택한 세그먼트가 스트리밍되는 경우, 이 세그먼트에 속한 개인은 잠재적으로 실시간 여정에 참여할 수 있습니다. 세그먼트가 배치인 경우, 이 세그먼트에 새로 자격을 갖춘 사람은 Adobe Experience Platform에서 세그먼트 계산이 실행될 때 여정에 잠재적으로 참여할 수 있습니다.
+>재귀적이지 않은(가능한 한 빨리 또는 &quot;한 번&quot;) 세그먼트 기반 경로의 새 버전을 수행할 때 이전에 여정에 입력한 모든 사람이 새 버전을 게시할 때 다시 입력하지 않습니다. 재입력할 수 있도록 허용하려면 이동을 복제해야 합니다.
