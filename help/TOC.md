@@ -3,11 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Journey Orchestration 안내서
 index: true
-translation-type: ht
-source-git-commit: ad892948c866c8c5cda16c17a33cb225ee7edb33
-workflow-type: ht
-source-wordcount: '378'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe53855bed7d437232280a9f0e38a0d2e085c10e
+workflow-type: tm+mt
+source-wordcount: '380'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
    + [릴리스 정보](using/release-notes/release-notes.md)
    + [설명서 업데이트 정보](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] 시작 {#starting-with-journeys}
-   + [ [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [정보 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [시작](using/about/get-started.md)
    + [사용자 인터페이스](using/about/user-interface.md)
    + [액세스 관리](using/about/access-management.md)
@@ -169,12 +169,12 @@ ht-degree: 100%
    + [AI 통합](using/ai-services/ai-services-overview.md)
    + [고객 AI 활용](using/ai-services/leveraging-customer-ai.md)
 + 사용 사례{#use-cases-journeys}
-   + 단순 사용 사례{#use-case-simple}
+   + 개인화된 이메일 전송{#use-case-simple}
       + [단순 사용 사례](using/usecase/about-the-simple-use-case.md)
       + [이벤트 구성](using/usecase/configuring-the-event.md)
       + [데이터 소스 구성](using/usecase/configuring-the-data-source.md)
       + [여정 구축](using/usecase/simple-uc-building-the-journey.md)
-   + 고급 사용 사례{#use-case-advanced}
+   + Building a cross-channel journey{#use-case-advanced}
       + [고급 사용 사례](using/usecase/about-the-advanced-use-case.md)
       + [이벤트 구성](using/usecase/configuring-the-events.md)
       + [데이터 소스 구성](using/usecase/configuring-the-data-sources.md)
