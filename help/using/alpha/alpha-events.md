@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9c3b8f2d88646372e69ae4f24a5dbb5d45721c55
+source-git-commit: 9cdaa673dbe9247aa1e9c9aef58cfa003d014786
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 5%
+source-wordcount: '656'
+ht-degree: 11%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 5%
 이 새로운 유형의 이벤트는 eventID를 생성하지 않습니다. 간단한 표현식 편집기를 사용하면 시스템에서 사용자의 여정을 트리거할 관련 이벤트를 식별하는 데 사용할 규칙을 간단하게 정의할 수 있습니다. 이 규칙은 이벤트 페이로드에서 사용할 수 있는 필드(예: 프로필의 위치 또는 프로필 장바구니에 추가된 항목 수)를 기반으로 할 수 있습니다.
 
 이 새 방법은 대부분 사용자에게 투명하게 표시됩니다. 이벤트 정의 화면의 새 필드만 변경됩니다.
+
+>[!CAUTION]
+>
+>매핑 규칙은 규칙 기반 이벤트에 대해 정의됩니다. 이 보고서는 한 여정에서 처리할 수 있는 적격한 이벤트 수를 분당 400k로 제한합니다. 자세한 내용은 알파 프로그램 연락처에 문의하십시오.
 
 ## Adobe Analytics 데이터 활용{#analytics-data}
 
@@ -101,5 +105,5 @@ Adobe Analytics 소스 커넥터에 대한 자세한 내용은 [설명서](https
 
 ![](../assets/alpha-event8.png)
 
-테스트 모드 사용 방법에 대한 자세한 내용은 를 참조하십시오 [](../building-journeys/testing-the-journey.md).
+For more information on how to use the test mode, refer to [](../building-journeys/testing-the-journey.md).
 
