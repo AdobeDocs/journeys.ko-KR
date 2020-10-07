@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -175,7 +175,7 @@ ht-degree: 97%
       + [이벤트 구성](using/usecase/configuring-the-event.md)
       + [데이터 소스 구성](using/usecase/configuring-the-data-source.md)
       + [여정 구축](using/usecase/simple-uc-building-the-journey.md)
-   + Building a cross-channel journey{#use-case-advanced}
+   + 크로스 채널 여정 구축{#use-case-advanced}
       + [고급 사용 사례](using/usecase/about-the-advanced-use-case.md)
       + [이벤트 구성](using/usecase/configuring-the-events.md)
       + [데이터 소스 구성](using/usecase/configuring-the-data-sources.md)
