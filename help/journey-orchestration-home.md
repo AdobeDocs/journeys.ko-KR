@@ -2,11 +2,11 @@
 keywords: Journeys;home;popular topics
 title: Journey Orchestration 제품 설명서
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d5a2538859d0438d8536c1e359f981d6ac179f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 93%
 
 * **[새로운 기능 확인](using/release-notes/release-notes.md)**<br/>최신 릴리스에 대해 자세히 확인해 보십시오.
 
-* **[알파 기능](using/alpha/alpha-overview.md)**<br/>알파 프로그램을 통해 현재 사용 가능한 기능을 검색합니다.
+* **[알파 기능](using/alpha/alpha-overview.md)**<br/>현재 알파 프로그램을 통해 사용 가능한 기능을 알아보십시오.
 
 ## 상위 페이지
 
