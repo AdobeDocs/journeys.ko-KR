@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 1%
@@ -73,7 +71,7 @@ ht-degree: 1%
 <listExpression>.all(<condition>)
 ```
 
-예를 들어 모든 앱 사용자 중에서 IOS 13(부울 표현식 &quot;app used == IOS 13&quot;)을 사용하는 앱을 가져올 수 있습니다. 이 함수의 결과는 부울 표현식과 일치하는 항목이 포함된 필터링된 목록입니다(예: 앱 사용자 1, 앱 사용자 34, 앱 사용자 432).
+예를 들어 모든 앱 사용자 중에서 IOS 13(부울 표현식 &quot;app used == IOS 13&quot;)을 사용하는 앱을 가져올 수 있습니다. 이 함수의 결과는 부울 표현식과 일치하는 항목이 포함된 필터링된 목록입니다(예:앱 사용자 1, 앱 사용자 34, 앱 사용자 432).
 
 데이터 소스 조건 활동에서 함수 결과가 null인지 여부를 확인할 수 **[!UICONTROL all]** 있습니다. 또한 이 **[!UICONTROL all]** 함수를 같은 다른 함수와 결합할 수도 있습니다 **[!UICONTROL count]**. 자세한 내용은 [데이터 소스 조건 활동을 참조하십시오](../building-journeys/condition-activity.md#data_source_condition).
 
@@ -129,7 +127,7 @@ earlier timestamp) in order to only consider prior events.-->
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
 ```
 
-표현식의 결과는 **3입니다**.
+The result of the expression is **3**.
 
 **예 3:**
 
