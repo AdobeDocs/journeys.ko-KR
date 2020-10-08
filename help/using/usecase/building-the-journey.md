@@ -8,11 +8,9 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 771b2b35e0aba412e4eb9e12a5d57de3d4c7068c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 100%
 
@@ -35,7 +33,7 @@ ht-degree: 100%
 
 여정을 구성하는 방법에 대한 자세한 내용은 [](../building-journeys/journey.md)을(를) 참조하십시오.
 
-## 첫 단계 {#section_ntb_ws1_ffb}
+## 첫 단계{#section_ntb_ws1_ffb}
 
 1. 상단 메뉴에서 **[!UICONTROL Home]** 탭과 **[!UICONTROL Create]**&#x200B;을(를) 클릭하여 새 여정을 만듭니다.
 
