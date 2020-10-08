@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -40,7 +38,7 @@ ht-degree: 0%
 
 허가된 값은 1초에서 30초 사이입니다.
 
-여정이 시간에 민감한 경우 매우 짧은 **[!UICONTROL Timeout and error]** 값을 정의하는 것이 좋습니다(예: 동작을 몇 초 이상 지연할 수 없기 때문에(사람의 실시간 위치에 응답) 여정이 덜 민감한 경우 더 긴 값을 사용하여 올바른 응답을 보내기 위해 호출된 시스템에 더 많은 시간을 줄 수 있습니다.
+여정이 시간에 민감한 경우 매우 짧은 **[!UICONTROL Timeout and error]** 값을 정의하는 것이 좋습니다(예:동작을 몇 초 이상 지연할 수 없기 때문에(사람의 실시간 위치에 응답) 여정이 덜 민감한 경우 더 긴 값을 사용하여 올바른 응답을 보내기 위해 호출된 시스템에 더 많은 시간을 줄 수 있습니다.
 
 [!DNL Journey Orchestration] 전역 시간 초과도 사용합니다. 다음 [섹션을 참조하십시오](#global_timeout).
 
