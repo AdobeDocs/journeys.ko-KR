@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 6%
@@ -41,7 +39,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >이 **[!UICONTROL eventID]** 필드는 선택한 필드 목록에 자동으로 추가되므로 이벤트를 식별할 [!DNL Journey Orchestration] 수 있습니다. 이벤트를 밀어 넣는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 사용해야 합니다. [](../event/previewing-the-payload.md)을 참조하십시오.
+   >이 **[!UICONTROL eventID]** 필드는 선택한 필드 목록에 자동으로 추가되므로 이벤트를 식별할 [!DNL Journey Orchestration] 수 있습니다. 이벤트를 밀어 넣는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 사용해야 합니다. [](../event/previewing-the-payload.md)을(를) 참조하십시오.
 
 1. 필요한 필드 선택이 끝나면 를 클릭하거나 **[!UICONTROL Save]** 누릅니다 **[!UICONTROL Enter]**.
 
