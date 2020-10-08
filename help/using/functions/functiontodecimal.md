@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 7%
@@ -38,7 +36,7 @@ ht-degree: 7%
 | 문자열 | 문자열 값을 소수로 변환합니다. |
 | dateTime | 날짜를 밀리초(epoch milliseconds)의 수로 변환합니다. |
 | boolean | 부울 값을 true이면 1, false이면 0으로 변환합니다. |
-| 정수 | decimal로 변환합니다(예).: 1이 1.0이 됨) |
+| 정수 | decimal로 변환합니다(예).:1이 1.0이 됨) |
 
 ## 서명 및 반환된 유형
 
