@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 5%
@@ -23,8 +21,8 @@ ht-degree: 5%
 
 해당 유형에 따라 인수 값을 부울 값으로 변환합니다.
 
-* 문자열: 문자열 값이 &quot;true&quot;이면 &quot;true&quot;이고, 그렇지 않으면 false입니다.
-* 숫자: 숫자 값이 0과 같지 않으면 true, 그렇지 않으면 false
+* 문자열:문자열 값이 &quot;true&quot;이면 &quot;true&quot;이고, 그렇지 않으면 false입니다.
+* 숫자:숫자 값이 0과 같지 않으면 true, 그렇지 않으면 false
 
 ## 범주
 
