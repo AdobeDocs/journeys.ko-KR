@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b87de729f48c4624554eb19b6d418cb3cf70b805
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 2%
@@ -105,11 +103,11 @@ ht-degree: 2%
 
    The **[!UICONTROL Column settings]** is composed of:
 
-   * **[!UICONTROL Number]**: 열에 요약 번호를 표시하거나 숨길 수 있습니다.
-   * **[!UICONTROL Percent]**: 열에 백분율을 표시하거나 숨길 수 있습니다.
-   * **[!UICONTROL Interpret zero as no value]**: 값이 0이면 표시하거나 숨길 수 있습니다.
-   * **[!UICONTROL Background]**: 셀에 가로 진행률 표시줄을 표시하거나 숨길 수 있습니다.
-   * **[!UICONTROL Include retries]**: 결과에 재시도를 포함할 수 있습니다. 이것은 **[!UICONTROL Sent]** 및 **[!UICONTROL Bounces + Errors]**.
+   * **[!UICONTROL Number]**:열에 요약 번호를 표시하거나 숨길 수 있습니다.
+   * **[!UICONTROL Percent]**:열에 백분율을 표시하거나 숨길 수 있습니다.
+   * **[!UICONTROL Interpret zero as no value]**:값이 0이면 표시하거나 숨길 수 있습니다.
+   * **[!UICONTROL Background]**:셀에 가로 진행률 표시줄을 표시하거나 숨길 수 있습니다.
+   * **[!UICONTROL Include retries]**:결과에 재시도를 포함할 수 있습니다. 이것은 **[!UICONTROL Sent]** 및 **[!UICONTROL Bounces + Errors]**.
 
 1. 하나 이상의 행을 선택하고 **[!UICONTROL Visualize]** 아이콘을 클릭합니다. 선택한 행을 반영하도록 시각화가 추가됩니다.
 
@@ -129,9 +127,9 @@ ht-degree: 2%
 
    구성 요소 테이블은 세 가지 카테고리로 구분됩니다.
 
-   * **[!UICONTROL Dimensions]**: 받는 사람의 브라우저나 도메인 또는 배달 성공과 같은 배달 로그에서 세부 정보를 가져옵니다.
-   * **[!UICONTROL Metrics]**: 메시지 상태에 대한 자세한 내용을 살펴보십시오. 예를 들어 메시지가 전달되고 사용자가 메시지를 연 경우
-   * **[!UICONTROL Time]**: 테이블 기간을 설정합니다.
+   * **[!UICONTROL Dimensions]**:받는 사람의 브라우저나 도메인 또는 배달 성공과 같은 배달 로그에서 세부 정보를 가져옵니다.
+   * **[!UICONTROL Metrics]**:메시지 상태에 대한 자세한 내용을 살펴보십시오. 예를 들어 메시지가 전달되고 사용자가 메시지를 연 경우
+   * **[!UICONTROL Time]**:테이블 기간을 설정합니다.
 
 1. 구성 요소를 패널에 드래그하여 놓으면 데이터 필터링을 시작할 수 있습니다.
 
@@ -152,13 +150,13 @@ ht-degree: 2%
 
 1. 설정 단추를 **[!UICONTROL Visualization]** 클릭하여 그래프 유형이나 그래프 유형에 표시되는 내용을 직접 변경합니다. 예:
 
-   * **[!UICONTROL Percentages]**: 값을 백분율로 표시합니다.
-   * **[!UICONTROL Anchor Y Axis at Zero]**: 값이 0보다 높더라도 y축이 0으로 강제 설정합니다.
-   * **[!UICONTROL Legend visible]**: 범례를 숨기도록 해줍니다.
-   * **[!UICONTROL Normalization]**: 값이 일치하도록 합니다.
-   * **[!UICONTROL Display Dual Axis]**: 그래프에 다른 축을 추가합니다.
-   * **[!UICONTROL Limit Max Items]**: 표시된 그래프 수를 제한합니다.
-   * **[!UICONTROL Threshold]**: 그래프에 임계값을 설정할 수 있습니다. 검은 점선으로 나타납니다.
+   * **[!UICONTROL Percentages]**:값을 백분율로 표시합니다.
+   * **[!UICONTROL Anchor Y Axis at Zero]**:값이 0보다 높더라도 y축이 0으로 강제 설정합니다.
+   * **[!UICONTROL Legend visible]**:범례를 숨기도록 해줍니다.
+   * **[!UICONTROL Normalization]**:값이 일치하도록 합니다.
+   * **[!UICONTROL Display Dual Axis]**:그래프에 다른 축을 추가합니다.
+   * **[!UICONTROL Limit Max Items]**:표시된 그래프 수를 제한합니다.
+   * **[!UICONTROL Threshold]**:그래프에 임계값을 설정할 수 있습니다. 검은 점선으로 나타납니다.
 
    ![](../assets/dynamic_report_visualization_3.png)
 
