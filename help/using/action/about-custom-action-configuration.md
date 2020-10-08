@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 12%
@@ -21,7 +19,7 @@ ht-degree: 12%
 
 # 사용자 지정 작업 구성 {#concept_sxy_bzs_dgb}
 
-제3자 시스템을 사용하여 메시지를 전송하거나 API 호출 [!DNL Journey Orchestration] 을 제3자 시스템으로 전송하려는 경우 이 시스템에서 연결을 구성합니다 [!DNL Journey Orchestration]. 그러면 기술 사용자가 정의한 사용자 지정 작업을 경로의 왼쪽 팔레트에서 사용할 수 있습니다( **[!UICONTROL Action]** 참조 [](../building-journeys/about-action-activities.md)). 다음은 사용자 정의 동작과 연결할 수 있는 시스템의 몇 가지 예입니다. Epsilon, Facebook, Adobe.io, Firebase 등
+제3자 시스템을 사용하여 메시지를 전송하거나 API 호출 [!DNL Journey Orchestration] 을 제3자 시스템에 전송하려는 경우 여기에서 연결을 구성합니다 [!DNL Journey Orchestration]. 그러면 기술 사용자가 정의한 사용자 지정 작업을 경로의 왼쪽 팔레트에서 사용할 수 있습니다( **[!UICONTROL Action]** 참조 [](../building-journeys/about-action-activities.md)). 다음은 사용자 정의 동작과 연결할 수 있는 시스템의 몇 가지 예입니다.Epsilon, Facebook, Adobe.io, Firebase 등
 제한 사항은 다음과 같습니다. [](../action/custom-action-limitations.md).
 
 사용자 지정 작업을 구성하는 데 필요한 기본 단계는 다음과 같습니다.
@@ -38,12 +36,12 @@ ht-degree: 12%
 
 1. 작업에 설명을 추가합니다. 데이터 소스에 이벤트에 설명을 추가합니다.
 1. The number of journeys that use this action is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of  journeys using this action.
-1. Define the different **[!UICONTROL URL Configuration]** parameters. [](../action/url-configuration.md)을 참조하십시오.
-1. 섹션을 **[!UICONTROL Authentication]** 구성합니다. 이 구성은 데이터 소스의 경우와 동일합니다.  [](../datasource/external-data-sources.md#section_wjp_nl5_nhb)을 참조하십시오.
+1. Define the different **[!UICONTROL URL Configuration]** parameters. [](../action/url-configuration.md)을(를) 참조하십시오.
+1. 섹션을 **[!UICONTROL Authentication]** 구성합니다. 이 구성은 데이터 소스의 경우와 동일합니다.  [](../datasource/external-data-sources.md#section_wjp_nl5_nhb)을(를) 참조하십시오.
 1. 를 **[!UICONTROL Message parameters]**&#x200B;정의합니다. [](../action/defining-the-message-parameters.md)를 참조하십시오.
 1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
-   이제 사용자 지정 작업이 구성되고 여정에 사용할 준비가 되었습니다. [](../building-journeys/about-action-activities.md)을 참조하십시오.
+   이제 사용자 지정 작업이 구성되고 여정에 사용할 준비가 되었습니다. [](../building-journeys/about-action-activities.md)을(를) 참조하십시오.
 
    >[!NOTE]
    >
