@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 14%
@@ -35,7 +33,7 @@ ht-degree: 14%
    * _사람 > 이름 > 성_
    * _personalEmail > 주소_
 
-1. 을 **[!UICONTROL Add a New Field Group]**&#x200B;클릭하고 **[!UICONTROL Profiles]** 스키마를 선택하고 조건에 대한 **충성도 멤버** 필드를 추가합니다. 충성도 **회원** 필드는 사용자 지정 필드이며 XDM에 추가되었습니다. &quot;_customer > marlton > loyaltyMember&quot;
+1. 을 **[!UICONTROL Add a New Field Group]**&#x200B;클릭하고 **[!UICONTROL Profiles]** 스키마를 선택하고 조건에 대한 **충성도 멤버** 필드를 추가합니다. 충성도 **회원** 필드는 사용자 지정 필드이며 XDM에 추가되었습니다.&quot;_customer > marlton > loyaltyMember&quot;
 
    ![](../assets/journeyuc2_6.png)
 
@@ -64,8 +62,8 @@ ht-degree: 14%
 1. 검색할 정보 **[!UICONTROL Add a New Field Group]** 와 API 매개 변수를 정의하려면 클릭합니다. 예를 들어 매개 변수(id)는 하나만 있으므로 다음 정보가 있는 하나의 필드 그룹을 만들어야 합니다.
 
    * **[!UICONTROL Method]**: POST 또는 GET 메서드를 선택합니다. 여기서는 GET 메서드를 선택합니다.
-   * **[!UICONTROL Cache duration]**: 이는 API 호출 빈도에 따라 다릅니다. 저희 경우에는 10분마다 예약 시스템이 갱신됩니다
-   * **[!UICONTROL Response Payload]**: 필드 안쪽을 **[!UICONTROL Payload]** 클릭하고 페이로드 예를 붙여넣습니다. 필드 유형이 올바른지 확인합니다. API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 이 예에서 페이로드에는 예약 상태만 포함됩니다.
+   * **[!UICONTROL Cache duration]**:이는 API 호출 빈도에 따라 다릅니다. 저희 경우에는 10분마다 예약 시스템이 갱신됩니다
+   * **[!UICONTROL Response Payload]**:필드 안쪽을 **[!UICONTROL Payload]** 클릭하고 페이로드 예를 붙여넣습니다. 필드 유형이 올바른지 확인합니다. API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 이 예에서 페이로드에는 예약 상태만 포함됩니다.
 
    ```
    {
@@ -73,7 +71,7 @@ ht-degree: 14%
    }
    ```
 
-   * **[!UICONTROL Dynamic Values]**: 각 고객을 식별하는 데 사용되는 키에 해당하는 매개 변수 &quot;id&quot;를 예제에서 입력합니다. 이 매개 변수의 값이 여정에서 정의됩니다.
+   * **[!UICONTROL Dynamic Values]**:각 고객을 식별하는 데 사용되는 키에 해당하는 매개 변수 &quot;id&quot;를 예제에서 입력합니다. 이 매개 변수의 값이 여정에서 정의됩니다.
 
    ![](../assets/journeyuc2_11.png)
 
