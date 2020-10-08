@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 2%
@@ -73,7 +71,7 @@ ht-degree: 2%
     
     
     
-    .productInteraction})및 Not(In(&quot;completePurchase&quot;, #{ExperiencePlatformDataSourceExperienceEventFieldGroupExperience.eventementalleventLiterall(eventLastDays(currentDataPackPackField.7) field)InteractionProductDataProductVertisteraction}&quot;
+    .productInteraction})및 Not(In(&quot;completePurchase&quot;, #{ExperiencePlatform 데이터SourceExperienceEventFieldGroupExperience.eventencepeclipsall.eventLastLastDays(currentDataPackPackField.7) fieldInteractionProductDataVertistering}&quot;
 
 이 표현식은 부울을 반환합니다.
 
@@ -117,7 +115,7 @@ ht-degree: 2%
     .name} == &quot;Arlington&quot;
     &quot;
 
-설명: 이것은 엄격한 문자열 비교(대/소문자 구분)로서, `equal to` `Is sensitive` 확인과 함께 사용하는 단순 모드의 질의에 해당합니다.
+설명:이것은 엄격한 문자열 비교(대/소문자 구분)로서, `equal to` `Is sensitive` 확인과 함께 사용하는 단순 모드의 질의에 해당합니다.
 
 선택 `Is sensitive` 취소가 적용된 동일한 쿼리는 고급 모드에서 다음 표현식을 생성합니다.
 
@@ -148,6 +146,6 @@ ht-degree: 2%
     
     &quot;
 
-설명: 이 예제에서는 `substr` 및 함수를 사용하여 모바일 앱 실행 이벤트로 전달된 CRM ID를 포함하는 중괄호를 `lastIndexOf` 제거합니다.
+설명:이 예제에서는 `substr` 및 함수를 사용하여 모바일 앱 실행 이벤트로 전달된 CRM ID를 포함하는 중괄호를 `lastIndexOf` 제거합니다.
 
 고급 표현식 편집기를 사용하는 방법에 대한 자세한 내용은 [이 비디오를 참조하십시오](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
