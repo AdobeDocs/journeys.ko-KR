@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 72a3fd98b7911a1b8f23ccfeb55b884926f795ce
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 4%
@@ -53,7 +51,7 @@ ht-degree: 4%
 
 중단된 경로 탐색 버전을 다시 시작할 수 없습니다.
 
-경로 목록에서 경로 위로 마우스를 가져가면(예: 마케터가 경로 대상이 잘못된 대상자 또는 메시지를 전달하는 사용자 지정 동작이 제대로 작동하지 않는다는 것을 깨닫는 경우..) **[!UICONTROL Stop]** 를 중지할 수 있습니다.
+경로 목록에서 경로 위로 마우스를 가져가면(예: 마케터가 경로 대상이 잘못된 대상자 또는 메시지를 전달하는 사용자 지정 동작이 제대로 작동하지 않는다는 것을 깨닫는 경우..) 이동을 중지할 수 **[!UICONTROL Stop]** 있습니다.
 
 ![](../assets/do-not-localize/journey-stop-quick-action.png)
 
