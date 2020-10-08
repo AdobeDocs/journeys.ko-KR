@@ -1,6 +1,6 @@
 ---
-title: 경로 단계 공유 개요
-description: 경로 단계 공유 개요
+title: 여정 단계 공유 개요
+description: 여정 단계 공유 개요
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b8cfc9de56e879d8812cf3871067252937454e1d
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 7%
@@ -19,7 +17,7 @@ ht-degree: 7%
 ---
 
 
-# 경로 단계 공유 개요{#sharing-overview}
+# 여정 단계 공유 개요{#sharing-overview}
 
 [!DNL Journey Orchestration] 자동으로 경로 성능 데이터를 Adobe Experience Platform으로 보내어 분석을 위해 다른 데이터와 결합할 수 있습니다.
 
@@ -27,7 +25,7 @@ ht-degree: 7%
 
 [!DNL Journey Orchestration] 자동으로 필요한 스키마와 데이터 세트를 Adobe Experience Platform으로 스트리밍하여 개인이 이동 중에 취할 각 단계를 자동으로 생성합니다. 단계 이벤트는 경로의 한 노드에서 다른 노드로 이동하는 개별 이벤트에 해당합니다. 예를 들어, 이벤트, 조건 및 작업이 있는 여행에서는 3단계 이벤트가 Adobe Experience Platform으로 전송됩니다.
 
-전달된 XDM 필드 목록은 포괄적입니다. 일부는 시스템 생성 코드를 포함하며 다른 일부는 읽을 수 있는 친근한 이름을 가지고 있다. 여기에는 경로 활동의 레이블이나 단계 상태가 포함됩니다. 작업 시간이 초과되었거나 오류로 종료된 횟수입니다.
+전달된 XDM 필드 목록은 포괄적입니다. 일부는 시스템 생성 코드를 포함하며 다른 일부는 읽을 수 있는 친근한 이름을 가지고 있다. 여기에는 경로 활동의 레이블이나 단계 상태가 포함됩니다.작업 시간이 초과되었거나 오류로 종료된 횟수입니다.
 
 >[!CAUTION]
 >
