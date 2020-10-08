@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 1%
@@ -28,7 +26,7 @@ ht-degree: 1%
 
 * 필드가 숫자 문자로 시작됩니다.
 * &quot;-&quot; 문자로 시작하는 필드
-* 필드에는 다음과 같은 것 이외의 다른 것이 있습니다. _a_-z _,_ a _-_ z _, jecyn_-0-jecyn _____9,, _ ,_
+* 필드에는 다음과 같은 것 이외의 다른 것이 있습니다. _a_-z _,_ a _-_ z _, jecyn______-0-, _ ,_
 
 예를 들어 필드가 _3h인 경우_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
@@ -61,7 +59,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->필드의 유형과 기본값은 동일해야 합니다. 예: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 기본값은 정수이지만 예상 값은 문자열이어야 하므로 2}이(가) 잘못되었습니다.
+>필드의 유형과 기본값은 동일해야 합니다. 예: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue :기본값은 정수이지만 예상 값은 문자열이어야 하므로 2}이(가) 잘못되었습니다.
 
 **컬렉션 내 필드 참조**
 
@@ -85,7 +83,7 @@ ht-degree: 1%
 
 **데이터 소스의 매개 변수 값(데이터 소스 동적 값)**
 
-매개 변수를 호출해야 하는 외부 데이터 소스에서 필드를 선택하면 오른쪽에 새 탭이 표시되어 이 매개 변수를 지정할 수 있습니다. [](../expression/expressionadvanced.md)을 참조하십시오.
+매개 변수를 호출해야 하는 외부 데이터 소스에서 필드를 선택하면 오른쪽에 새 탭이 표시되어 이 매개 변수를 지정할 수 있습니다. [](../expression/expressionadvanced.md)을(를) 참조하십시오.
 
 For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. 매개 변수는 다른 매개 변수도 포함하는 다른 데이터 소스의 모든 유효한 표현식이 될 수 있습니다.
 
@@ -99,8 +97,8 @@ For more complex use cases, if you want to include the parameters of the data so
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
-* **`<params-1-name>`**: 데이터 소스의 첫 번째 매개 변수의 정확한 이름입니다.
-* **`<params-1-value>`**: 첫 번째 매개 변수의 값입니다. 유효한 표현일 수 있습니다.
+* **`<params-1-name>`**:데이터 소스의 첫 번째 매개 변수의 정확한 이름입니다.
+* **`<params-1-value>`**:첫 번째 매개 변수의 값입니다. 유효한 표현일 수 있습니다.
 
 예제:
 
