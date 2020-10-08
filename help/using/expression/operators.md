@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 4%
@@ -22,7 +20,7 @@ ht-degree: 4%
 
 # 연산자 {#concept_wd5_pj5_dgb}
 
-두 가지 유형의 연산자가 있습니다. 단항 연산자 및 이진 연산자입니다. 왼쪽 연산자와 오른쪽 단항 연산자가 있습니다.
+두 가지 유형의 연산자가 있습니다.단항 연산자 및 이진 연산자입니다. 왼쪽 연산자와 오른쪽 단항 연산자가 있습니다.
 
 ```
     // left-hand unary operators
@@ -94,7 +92,7 @@ ht-degree: 4%
 </thead>
 <tbody><tr ><td>숫자</td><td><p><pre>&lt;expression&gt; is numeric</pre></p><p>식의 유형은 정수 또는 소수입니다.</p></td><td><pre>@ 숫자</pre></td></tr>
 <tr ><td>정수</td><td><p><pre>&lt;expression&gt;은(는) 정수입니다.</pre></p><p>표현식 유형은 정수입니다.</p></td><td><pre>@ is 정수</pre></td></tr>
-<tr ><td>decimal</td><td><p><pre>&lt;expression&gt;은(는) 십진수</pre></p><p>표현식 유형은 소수입니다.</p></td><td><pre>@ decimal</pre></td></tr>
+<tr ><td>decimal</td><td><p><pre>&lt;expression&gt; is decimal</pre></p><p>표현식 유형은 소수입니다.</p></td><td><pre>@ decimal</pre></td></tr>
 
 ## 문자열
 
@@ -113,6 +111,6 @@ ht-degree: 4%
 <tr ><th  >연산자</th><th  >리터럴 식 </th><th  >예제</th></tr>
 </thead>
 <tbody>
-<tr ><td>+</td><td><p><pre>&lt;식 + &lt;지속 시간&gt;</pre></p><p>dateTime, dateTimeOnly 또는 기간에 기간을 추가합니다.</p></td><td><p><pre>toDateTime("2011-12-03T15:15:30Z")</pre></p><p><pre> + toDuration("PT15M")</pre></p><p>반환: 2011-12-03T15:30:30Z</p><p><pre>toDateTimeOnly("2011-12-03T15:15:30")</pre></p><p><pre> + toDuration("PT15M")</pre></p>반환: 2011-12-03T15:30:30<p><pre>now() + toDuration("PT1H")</pre></p><p>현재 시간으로부터 1시간 후 dateTime(UTC 표준 시간대 포함)을 반환합니다.</p><p><pre>toDuration("PT1H") + toDuration("PT1H")</pre></p><p>PT2H 반환</p></td></tr>
+<tr ><td>+</td><td><p><pre>&lt;expression + &lt;duration&gt;</pre></p><p>dateTime, dateTimeOnly 또는 기간에 기간을 추가합니다.</p></td><td><p><pre>toDateTime("2011-12-03T15:15:30Z")</pre></p><p><pre> + toDuration("PT15M")</pre></p><p>반환: 2011-12-03T15:30:30Z</p><p><pre>toDateTimeOnly("2011-12-03T15:15:30")</pre></p><p><pre> + toDuration("PT15M")</pre></p>반환: 2011-12-03T15:30:30<p><pre>now() + toDuration("PT1H")</pre></p><p>현재 시간으로부터 1시간 후 dateTime(UTC 표준 시간대 포함)을 반환합니다.</p><p><pre>toDuration("PT1H") + toDuration("PT1H")</pre></p><p>PT2H 반환</p></td></tr>
 </tbody>
 </table>
