@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 6%
@@ -38,4 +36,4 @@ ht-degree: 6%
 
 1. 미리 보기를 확인하여 페이로드 정의를 확인합니다.
 
-1. 그런 다음 페이로드 미리 보기를 이벤트 전송 담당자에게 공유할 수 있습니다. 이 페이로드는 이벤트 푸시 설정을 디자인하는 데 도움이 될 수 [!DNL Journey Orchestration]있습니다. [](../event/additional-steps-to-send-events-to-journey-orchestration.md)을 참조하십시오.
+1. 그런 다음 페이로드 미리 보기를 이벤트 전송 담당자에게 공유할 수 있습니다. 이 페이로드는 이벤트 푸시 설정을 디자인하는 데 도움이 될 수 [!DNL Journey Orchestration]있습니다. [](../event/additional-steps-to-send-events-to-journey-orchestration.md)을(를) 참조하십시오.
