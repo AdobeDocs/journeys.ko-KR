@@ -8,13 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -58,7 +56,7 @@ ht-degree: 7%
 
    ![](../assets/journeyuc2_14.png)
 
-1. 유형을 **[!UICONTROL Data Source Condition]** 선택하고 **[!UICONTROL Expression]** 필드를 클릭합니다.
+1. **[!UICONTROL Data Source Condition]** 유형을 선택하고 **[!UICONTROL Expression]** 필드를 클릭합니다. 
 
    ![](../assets/journeyuc3_2.png)
 
