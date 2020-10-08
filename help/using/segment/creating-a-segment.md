@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 7%
@@ -32,4 +30,4 @@ Adobe Experience Platform [세그멘테이션 서비스를 사용하여 세그�
 
 ![](../assets/segment2.png)
 
-이제 여정에서 세그먼트를 사용하여 조건을 만들거나 **[!UICONTROL Segment qualification]** 이벤트를 추가할 수 있습니다. 조건 [및 이벤트 활동에서 세그먼트](../segment/using-a-segment.md) 사용을 [참조하십시오](../building-journeys/segment-qualification-events.md).
+이제 여정에서 세그먼트를 사용하여 조건을 만들거나 **[!UICONTROL Segment qualification]** 이벤트를 추가할 수 있습니다. 조건 [및 이벤트 활동에서](../segment/using-a-segment.md) 세그먼트 [사용을 참조하십시오](../building-journeys/segment-qualification-events.md).
