@@ -8,13 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 10c6406adb1473dcd150b43b5b5c8b178376f3ed
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -23,10 +21,10 @@ ht-degree: 0%
 
 ## 알파 버전 인터페이스 정보 {#about-alpha-interface}
 
-Adobe Experience Platform과 일관된 인터페이스를 제공하기 위해 메뉴 내 [!DNL Journey Orchestration] 탐색이 향상되었습니다. 변경 사항은 다음과 같습니다.
+Navigation within [!DNL Journey Orchestration] menus has been enhanced, in order to provide a consistant interface with Adobe Experience Platform. 변경 사항은 다음과 같습니다.
 
-* 메뉴가 인터페이스 맨 위에서 왼쪽으로 이동했습니다.
-* 관리 기능을 하나의 대시보드로 그룹화합니다.
+* 메뉴가 인터페이스 맨 위에서 왼쪽으로 이동되었습니다,
+* 관리 기능을 하나의 대시보드로 그룹화하였습니다.
 
 인터페이스에서 사용하고 탐색하는 방법(검색 및 필터링, Adobe Experience Platform 필드, 바로 가기)에 대한 글로벌 개념이 [이 섹션에 나와 있습니다](../about/user-interface.md).
 
