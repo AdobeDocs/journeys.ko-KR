@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 5%
@@ -23,7 +21,7 @@ ht-degree: 5%
 
 ## 목적 {#purpose}
 
-말튼이라는 호텔 브랜드를 예로 들어보자. 이들 호텔들은 모든 전략적 지역에 비콘 장비를 배치했다. 로비, 바닥, 레스토랑, 체육관, 수영장 등
+말튼이라는 호텔 브랜드를 예로 들어보자. 이들 호텔들은 모든 전략적 지역에 비콘 장비를 배치했다.로비, 바닥, 레스토랑, 체육관, 수영장 등
 
 >[!NOTE]
 >
@@ -45,7 +43,7 @@ ht-degree: 5%
 이 사용 사례의 경우 다음 두 개의 이벤트를 만들어야 합니다(참조 [](../usecase/configuring-the-events.md)).
 
 * 고객이 호텔에 들어갈 때 시스템으로 보내질 로비 비콘 이벤트.
-* 손님이 식당에 들어가면 푸시되는 레스토랑 비콘 이벤트입니다.
+* 손님이 식당에 들어오면 푸시될 레스토랑 비콘 이벤트.
 
 두 데이터 소스에 대한 연결을 구성해야 합니다(참조 [](../usecase/configuring-the-data-sources.md)).
 
@@ -54,7 +52,7 @@ ht-degree: 5%
 
 ## 사전 요구 사항 {#prerequisites}
 
-사용 사례를 위해 3개의 Adobe Campaign Standard 트랜잭션 메시지 템플릿을 설계했습니다. 이벤트 트랜잭션 메시지 템플릿을 사용하고 있습니다. 이 [페이지를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+사용 사례를 위해 3개의 Adobe Campaign Standard 트랜잭션 메시지 템플릿을 설계했습니다. 이벤트 트랜잭션 메시지 템플릿을 사용하고 있습니다. Refer to this [page](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
 Adobe Campaign Standard은 이메일 및 푸시 알림을 전송하도록 구성되어 있습니다.
 
