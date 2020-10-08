@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 2%
@@ -21,7 +19,7 @@ ht-degree: 2%
 
 # 여정 버전{#concept_ldc_k55_zgb}
 
-경로 목록에서 모든 경로 버전이 버전 번호와 함께 표시됩니다. [](../building-journeys/using-the-journey-designer.md)을 참조하십시오. 여행을 검색할 때 애플리케이션을 처음 열 때 최신 버전이 목록의 맨 위에 표시됩니다. 그런 다음 원하는 정렬을 정의할 수 있으며 응용 프로그램은 이를 사용자 기본 설정으로 유지합니다. 여정의 버전은 캔버스 위의 경로 에디션 인터페이스 상단에 표시됩니다.
+경로 목록에서 모든 경로 버전이 버전 번호와 함께 표시됩니다. [](../building-journeys/using-the-journey-designer.md)을(를) 참조하십시오. 여행을 검색할 때 애플리케이션을 처음 열 때 최신 버전이 목록의 맨 위에 표시됩니다. 그런 다음 원하는 정렬을 정의할 수 있으며 응용 프로그램은 이를 사용자 기본 설정으로 유지합니다. 여정의 버전은 캔버스 위의 경로 에디션 인터페이스 상단에 표시됩니다.
 
 ![](../assets/journeyversions1.png)
 
