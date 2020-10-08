@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 10%
@@ -21,7 +19,7 @@ ht-degree: 10%
 
 # sort {#sort}
 
-값의 목록을 자연순으로 정렬합니다. 첫 번째 인수는 값 목록입니다. 두 번째 인수는 정렬이 오름차순(true) 또는 내림차순(false)인지 여부를 나타내는 부울 값입니다.
+값의 목록을 자연순으로 정렬합니다. 첫 번째 인수는 값 목록입니다. 두 번째는 오름차순(true) 또는 내림차순(false)인지 여부를 나타내는 부울 값입니다.
 
 ## 범주
 
