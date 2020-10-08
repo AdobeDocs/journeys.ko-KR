@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 0%
@@ -23,9 +21,9 @@ ht-degree: 0%
 
 고급 편집기에서 조건부 지침(if, then, else)이 지원됩니다. 이를 통해 보다 복잡한 표현식을 정의할 수 있습니다. 다음과 같은 요소로 구성됩니다.
 
-* **[!UICONTROL if]**: 우선 평가할 조건.
-* **[!UICONTROL then]**: 조건 평가의 결과가 참인 경우에 평가할 표현식.
-* **[!UICONTROL else]**: 조건 평가 결과가 false인 경우에 평가할 표현식.
+* **[!UICONTROL if]**:우선 평가할 조건.
+* **[!UICONTROL then]**:조건 평가의 결과가 참인 경우에 평가할 표현식.
+* **[!UICONTROL else]**:조건 평가 결과가 false인 경우에 평가할 표현식.
 
 >[!NOTE]
 >
