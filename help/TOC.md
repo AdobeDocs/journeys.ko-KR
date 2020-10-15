@@ -2,12 +2,12 @@
 product: Journeys
 audience: end-user
 user-guide-title: Journey Orchestration 안내서
-user-guide-description: Provides how-to instructions for implementing and building journeys.
+user-guide-description: 여정 구현 및 구축에 대한 방법 지침을 제공합니다.
 index: true
 translation-type: tm+mt
 source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '388'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
    + [릴리스 정보](using/release-notes/release-notes.md)
    + [설명서 업데이트 정보](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] 시작 {#starting-with-journeys}
-   + [정보 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [About [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [시작](using/about/get-started.md)
    + [사용자 인터페이스](using/about/user-interface.md)
    + [액세스 관리](using/about/access-management.md)
