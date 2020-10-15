@@ -1,6 +1,6 @@
 ---
 title: 여정 구축
-description: 비즈니스 사용자는 이벤트, 통합 운영 및 작업 활동을 통합하여 고객 여정 구축 방법을 살펴볼 수 있습니다.
+description: 비즈니스 사용자는 이벤트, 오케스트레이션 및 작업 활동을 통합하여 여정을 구축하는 방법을 살펴봅니다.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
