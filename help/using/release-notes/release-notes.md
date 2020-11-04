@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bdec7addcadabac614f703c4ad719c13d044465f
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 93%
+source-wordcount: '1733'
+ht-degree: 90%
 
 ---
 
@@ -21,6 +21,31 @@ ht-degree: 93%
 
 이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 [설명서 업데이트](../release-notes/documentation-updates.md)도 확인할 수 있습니다.
+
+## 2020년 10월 릴리스 {#october-release}
+
+### GA 업데이트{#october-ga-update}
+
+<table>
+<thead>
+<tr>
+<th><strong>이벤트 시간 초과</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 특정 시간 동안만 이벤트를 수신하도록 경로의 제한 시간을 구성할 수 있습니다. 이를 위해 더 이상 이벤트 경로와 동시에 대기 활동을 추가할 필요가 없습니다.
+</p>
+<p>자세한 내용은 <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 기타 개선 사항{#october-other}
+
+* 경로의 새 버전을 게시하면 이전 버전이 자동으로 종료되고 [닫힘] 상태로 전환됩니다. [자세한 내용](../building-journeys/journey-versions.md)
 
 ## 2020년 9월 릴리스 {#september-release}
 
@@ -207,10 +232,10 @@ ht-degree: 93%
 <li><p>새로운 활동을 통해 Adobe Experience Platform 세그먼트 출입구에서 수신 대기함으로써 사용자가 여정에 들어오거나 앞으로 이동하도록 할 수 있습니다. <a href="../building-journeys/segment-qualification-events.md">자세한 내용</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>이제 새로운 <strong>세그먼트</strong> 탭 덕분에 Journey Orchestration 인터페이스를 벗어나지 않고도 Adobe Experience Platform 세그먼트를 만들고 편집할 수 있습니다.<a href="../segment/about-segments.md">자세한 내용</a></p>
+<li><p>이제 새로운 <strong>세그먼트</strong> 탭 덕분에 Journey Orchestration 인터페이스를 벗어나지 않고도 Adobe Experience Platform 세그먼트를 만들고 편집할 수 있습니다. <a href="../segment/about-segments.md">자세한 내용</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>단순 표현식 편집기에서 이제 Adobe Experience Platform 세그먼트가 탐색 트리에 직접 나열되므로 "이 사람이 세그먼트 A에 속합니까?"와 같은 조건을 쉽게 설정할 수 있습니다.<a href="../segment/using-a-segment.md">자세한 내용</a></p>
+<li><p>단순 표현식 편집기에서 이제 Adobe Experience Platform 세그먼트가 탐색 트리에 직접 나열되므로 "이 사람이 세그먼트 A에 속합니까?"와 같은 조건을 쉽게 설정할 수 있습니다. <a href="../segment/using-a-segment.md">자세한 내용</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
 <li><p>이제 Journey Orchestration이 여정 중에 실행된 단계를 Adobe Data Platform에 자동으로 전달합니다. 여기에는 발생한 잠재적 오류도 포함됩니다. 이 정보는 특정 경로 또는 모든 경로에 대해 경로 단계 이벤트에서 쿼리를 실행함으로써 보고 및 문제 해결을 수행하는 데 사용될 수 있습니다. <a href="../building-journeys/sharing-overview.md">자세한 내용</a></p>
