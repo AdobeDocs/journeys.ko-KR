@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: c7bfe162783ef558ae86edb87ba01bb6d793246b
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 7%
@@ -24,10 +24,10 @@ Adobe Experience Platform [세그멘테이션 서비스를 사용하여 세그�
 
 1. 상단 메뉴에서 **[!UICONTROL Segments]** 탭을 클릭합니다. Adobe Experience Platform 세그먼트 목록이 표시됩니다. 목록에서 특정 세그먼트를 검색할 수 있습니다.
 
-![](../assets/segment1.png)
+   ![](../assets/segment1.png)
 
 1. Click **[!UICONTROL Add]** to create a new segment. 세그먼트 정의 화면에서는 세그먼트를 정의하는 데 필요한 모든 필드를 구성할 수 있습니다. 구성은 세그멘테이션 서비스의 구성과 동일합니다. 세그먼트 빌더 [사용 안내서를 참조하십시오](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
-![](../assets/segment2.png)
+   ![](../assets/segment2.png)
 
 이제 여정에서 세그먼트를 사용하여 조건을 만들거나 **[!UICONTROL Segment qualification]** 이벤트를 추가할 수 있습니다. 조건 [및 이벤트 활동에서](../segment/using-a-segment.md) 세그먼트 [사용을 참조하십시오](../building-journeys/segment-qualification-events.md).
