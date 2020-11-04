@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 09bebf62cda32e357f5f8b795e6702a69edb83a7
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '231'
 ht-degree: 2%
 
 ---
@@ -43,4 +43,4 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->여러 개의 라이브 버전이 있고 최신 버전을 중지하면 이전 라이브 버전으로 돌아가지 않습니다. 여정의 입구는 일어나지 않을 것이다.
+>경로의 새 버전을 게시하면 이전 버전이 자동으로 종료되고 **닫힘** 상태로 전환됩니다. 여정의 입구는 일어나지 않을 것이다. 최신 버전을 중지하더라도 이전 버전은 계속 닫힐 수 있습니다.
