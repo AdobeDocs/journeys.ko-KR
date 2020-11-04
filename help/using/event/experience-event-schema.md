@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: c7bfe162783ef558ae86edb87ba01bb6d793246b
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -34,24 +34,24 @@ ht-degree: 0%
 
 * 스키마는 XDM ExperienceEvent 클래스여야 합니다.
 
-![](../assets/schema2.png)
+   ![](../assets/schema2.png)
 
 * 스키마에는 오케스트레이션 eventID 믹신이 포함되어야 합니다. [!DNL Journey Orchestration] 이 필드를 사용하여 여정에 사용된 이벤트를 식별합니다.
 
-![](../assets/schema3.png)
+   ![](../assets/schema3.png)
 
 * 이벤트의 제목을 식별할 수 있는 ID 필드를 선언합니다. ID를 지정하지 않으면 ID 맵을 사용할 수 있습니다. 권장되지 않습니다.
 
-![](../assets/schema4.png)
+   ![](../assets/schema4.png)
 
 * 이 데이터를 여정에서 나중에 조회할 수 있도록 하려면 프로필의 스키마 및 데이터 세트에 표시하십시오.
 
-![](../assets/schema5.png)
+   ![](../assets/schema5.png)
 
-![](../assets/schema6.png)
+   ![](../assets/schema6.png)
 
 * 사용자 정보, 이벤트가 생성된 장치, 위치 또는 이벤트와 관련된 기타 의미 있는 상황 등 이벤트에 포함할 다른 컨텍스트 데이터를 캡처하려면 데이터 필드를 자유롭게 사용하십시오.
 
-![](../assets/schema7.png)
+   ![](../assets/schema7.png)
 
-![](../assets/schema8.png)
+   ![](../assets/schema8.png)
