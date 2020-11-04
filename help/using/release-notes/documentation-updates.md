@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: fe51a1600050a42c2070ad78f14490ea1813bd14
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 96%
+source-wordcount: '771'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 96%
 
 이 페이지에는 [!DNL Journey Orchestration]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
 [!DNL Journey Orchestration] [릴리스 정보](../release-notes/release-notes.md)도 확인할 수 있습니다.
+
+## 2020년 10월 {#october-2020}
+
+* 이벤트에 대한 시간 제한을 구성하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
 ## 2020년 9월 {#september-2020}
 
