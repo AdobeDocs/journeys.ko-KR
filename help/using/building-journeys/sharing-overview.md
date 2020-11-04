@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: c7a4d67af88827dfc852a281a7877efb2853facf
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '420'
 ht-degree: 7%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 7%
 
 [!DNL Journey Orchestration] 자동으로 경로 성능 데이터를 Adobe Experience Platform으로 보내어 분석을 위해 다른 데이터와 결합할 수 있습니다.
 
+>[!NOTE]
+>
+>이 기능은 새로 배포된 모든 인스턴스에서 기본적으로 활성화되지 않습니다. 활성화는 요청 시 가능합니다.
+
 예를 들어, 여러 개의 이메일을 전송하는 경로를 설정했습니다. 이 기능을 사용하면 전환 발생 횟수, 웹 사이트에서 발생한 참여 횟수, 스토어에서 발생한 트랜잭션 수와 같은 다운스트림 이벤트 데이터와 [!DNL Journey Orchestration] 데이터를 결합할 수 있습니다. 고객 경로 정보는 다른 디지털 속성 또는 오프라인 속성에서 Adobe Experience Platform의 데이터와 결합하여 보다 포괄적인 성능 보기를 제공합니다.
 
 [!DNL Journey Orchestration] 자동으로 필요한 스키마와 데이터 세트를 Adobe Experience Platform으로 스트리밍하여 개인이 이동 중에 취할 각 단계를 자동으로 생성합니다. 단계 이벤트는 경로의 한 노드에서 다른 노드로 이동하는 개별 이벤트에 해당합니다. 예를 들어, 이벤트, 조건 및 작업이 있는 여행에서는 3단계 이벤트가 Adobe Experience Platform으로 전송됩니다.
@@ -29,7 +33,7 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->실시간 프로필 서비스에 대해 데이터 집합을 설정할 수 없습니다. 토글이 **[!UICONTROL Profile]** 꺼져 있는지 확인하십시오
+>실시간 프로필 서비스에 대해 데이터 집합을 설정할 수 없습니다. 전환 **[!UICONTROL Profile]** 설정이 해제되어 있는지 확인하십시오.
 
 Journey는 데이터 발생 시 스트리밍 방식으로 데이터를 전송합니다. 쿼리 서비스를 사용하여 이 데이터를 쿼리할 수 있습니다. Customer Journey Analytics 또는 기타 BI 도구에 연결하여 이러한 단계와 관련된 데이터를 볼 수 있습니다.
 
