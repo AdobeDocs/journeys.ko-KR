@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 44b2da66d6621b18b13ff99e46af02eddcaac6b1
+source-git-commit: 93da470ae878ec3dcf4fcb435dab86c8bf0419d4
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -38,10 +38,8 @@ ht-degree: 0%
 | **작업** | 밀기 - 확인, 이메일 - 보상 정확도 등 당시 사용한 모든 작업(**작업 이름 - 작업 레이블**)의 목록입니다. |
 | **데이터 소스** | 데이터 소스(**데이터 소스 이름**) 목록(예: Adobe Experience Platform, 예약 시스템). |
 | **[!UICONTROL Event]** | Geometrixx 이벤트 - Geometrixx과 같이 여정에 사용되는 모든 이벤트(**이벤트 이름 - 이벤트 레이블**)의 목록입니다. |
-| **[!UICONTROL Event origin]** | 범주별 이벤트 분류: **[!UICONTROL Internal event]** 및 **[!UICONTROL External event]**. For more information, refer to this [page](../building-journeys/jump.md). |
 | **필드 그룹** | 프로필 필드 그룹, Geometrixx 예약 시스템 등 여정의 데이터를 보완하는 데 사용되는 필드 그룹(**필드 그룹 이름**) 목록 |
 | **여정** | 테스트 모드 및 라이브(예: 장바구니 포기,**호텔 예약 알림)의 모든 경로(**&#x200B;경로 이름) 목록입니다. |
-| **[!UICONTROL Journey origin]** | 여정별 **[!UICONTROL Internal event]**&#x200B;분류 |
 | **고객 여정 버전** | 경로(**경로 이름 + 버전 번호**)의 게시된 모든 버전 목록(예: 장바구니 포기 v1, 호텔 예약 알림 v2) |
 | **통합 운영** | 여정에 정의되고 사용된 모든 오케스트레이션 활동(**조건, 종료, 대기**)의 목록입니다. |
 
