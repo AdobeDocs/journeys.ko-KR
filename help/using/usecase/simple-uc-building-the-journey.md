@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 42%
+source-wordcount: '395'
+ht-degree: 36%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 42%
 >
 >**[!UICONTROL Push]** 및 **[!UICONTROL Email]** 활동은 Adobe Campaign Standard를 보유한 경우에만 팔레트에서 사용할 수 있습니다.
 
-여정을 구성하는 방법에 대한 자세한 내용은 [](../building-journeys/journey.md)을(를) 참조하십시오.
+For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
 
 1. 상단 메뉴에서 **[!UICONTROL Home]** 탭과 **[!UICONTROL Create]**&#x200B;을(를) 클릭하여 새 여정을 만듭니다.
 
@@ -72,7 +72,7 @@ ht-degree: 42%
 
    ![](../assets/journeyuc1_17.png)
 
-1. 테스트 프로필을 사용하여 전환 **[!UICONTROL Test]** 및 테스트를 클릭합니다. 오류가 있는 경우 테스트 모드를 비활성화하고 여정를 수정한 후 다시 테스트하십시오. 테스트 모드에 대한 자세한 내용은 [](../building-journeys/testing-the-journey.md)을(를) 참조하십시오.
+1. 테스트 프로필을 사용하여 전환 **[!UICONTROL Test]** 및 테스트를 클릭합니다. 오류가 있는 경우 테스트 모드를 비활성화하고 여정를 수정한 후 다시 테스트하십시오. For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 
