@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 10%
+source-wordcount: '356'
+ht-degree: 11%
 
 ---
 
@@ -25,9 +25,9 @@ Adobe Experience Platform 데이터 소스는 실시간 고객 프로필 서비�
 >
 >1년 전에 만든 1000개의 최신 경험 이벤트를 검색할 수 있습니다.
 
-실시간 고객 프로필 서비스에 대한 연결을 허용하려면, 개인 식별과 키에 맞는 네임스페이스를 사용해야 합니다. 따라서 키 및 네임스페이스가 포함된 이벤트로 시작되는 경우에만 이 데이터 소스를 사용할 수 있습니다. [](../building-journeys/journey.md)을(를) 참조하십시오.
+실시간 고객 프로필 서비스에 대한 연결을 허용하려면, 개인 식별과 키에 맞는 네임스페이스를 사용해야 합니다. 따라서 키 및 네임스페이스가 포함된 이벤트로 시작되는 경우에만 이 데이터 소스를 사용할 수 있습니다. [이 페이지](../building-journeys/journey.md)를 참조하십시오.
 
-&quot;ProfileFieldGroup&quot;이라는 사전 구성된 필드 그룹을 편집하고, 새 필드 그룹을 추가하고, 초안 또는 라이브 여정에서 사용되지 않는 필드 그룹을 제거할 수 있습니다. [](../datasource/field-groups.md)을(를) 참조하십시오.
+&quot;ProfileFieldGroup&quot;이라는 사전 구성된 필드 그룹을 편집하고, 새 필드 그룹을 추가하고, 초안 또는 라이브 여정에서 사용되지 않는 필드 그룹을 제거할 수 있습니다. [이 페이지](../datasource/field-groups.md)를 참조하십시오.
 
 다음은 필드 그룹을 내장 데이터 소스에 추가하는 기본 단계입니다.
 
@@ -37,7 +37,7 @@ Adobe Experience Platform 데이터 소스는 실시간 고객 프로필 서비�
 
    ![](../assets/journey23.png)
 
-1. 검색할 새 필드 **[!UICONTROL Add a New Field Group]** 를 정의하려면 클릭합니다. [](../datasource/field-groups.md)을(를) 참조하십시오.
+1. 검색할 새 필드 **[!UICONTROL Add a New Field Group]** 를 정의하려면 클릭합니다. [이 페이지](../datasource/field-groups.md)를 참조하십시오.
 
    ![](../assets/journey24.png)
 
