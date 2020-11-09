@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '109'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 # nowWithDelta {#nowWithDelta}
 
-오프셋을 포함한 현재 날짜/시간을 반환합니다. 표준 시간대 ID를 지정하면 시간대 오프셋이 적용됩니다. 데이터 유형에 대한 자세한 내용은 을 참조하십시오 [](../expression/data-types.md).
+오프셋을 포함한 현재 날짜/시간을 반환합니다. 표준 시간대 ID를 지정하면 시간대 오프셋이 적용됩니다. For more information on data types, refer to [this page](../expression/data-types.md).
 
 ## 범주
 
@@ -35,7 +35,7 @@ ht-degree: 4%
 |--- |--- |
 | 델타 | 양의 정수 또는 음의 정수 값 |
 | 날짜 부분 | 연도, 월, 일, 시간, 분 또는 초(문자열) |
-| 시간대 ID | 표준 시간대 값의 문자열 표현. 자세한 내용은 을 참조하십시오 [](../expression/data-types.md). 시간대 ID는 문자열 상수여야 합니다. 필드 참조나 식이 될 수 없습니다. |
+| 시간대 ID | 표준 시간대 값의 문자열 표현. 자세한 내용은 [데이터 유형을 참조하십시오](../expression/data-types.md). 시간대 ID는 문자열 상수여야 합니다. 필드 참조나 식이 될 수 없습니다. |
 
 ## 서명 및 반환된 문자
 
