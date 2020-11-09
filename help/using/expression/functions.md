@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: ac2ca77e2ba7c56217199dbd487f57cfe207f7d7
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 59%
+source-wordcount: '167'
+ht-degree: 73%
 
 ---
 
@@ -31,63 +31,63 @@ ht-degree: 59%
 
 | 범주 | 함수 |
 |-------------|-----------------------|
-| Adobe Experience Platform | [](../functions/functioninsegment.md) |
-| 집계 | [](../functions/functionavg.md) |
-| 집계 | [](../functions/functioncount.md) |
-| 집계 | [](../functions/functioncountonlynull.md) |
-| 집계 | [](../functions/functioncountwithnull.md) |
-| 집계 | [](../functions/functiondistinctcount.md) |
-| 집계 | [](../functions/functiondistinctcountwithnull.md) |
-| 집계 | [](../functions/functionmax.md) |
-| 집계 | [](../functions/functionmin.md) |
-| 집계 | [](../functions/functionsum.md) |
-| 전환 | [](../functions/functiontobool.md) |
-| 전환 | [](../functions/functiontodatetime.md) |
-| 전환 | [](../functions/functiontodatetimeonly.md) |
-| 전환 | [](../functions/functiontodecimal.md) |
-| 전환 | [](../functions/functiontoduration.md) |
-| 전환 | [](../functions/functiontointeger.md) |
-| 전환 | [](../functions/functiontostring.md) |
-| 날짜 | [](../functions/functioncurrenttimeinmillis.md) |
-| 날짜 | [](../functions/functioninlastdays.md) |
-| 날짜 | [](../functions/functioninlasthours.md) |
-| 날짜 | [](../functions/functioninlastmonths.md) |
-| 날짜 | [](../functions/functioninlastyears.md) |
-| 날짜 | [](../functions/functioninnextdays.md) |
-| 날짜 | [](../functions/functioninnexthours.md) |
-| 날짜 | [](../functions/functioninnextmonths.md) |
-| 날짜 | [](../functions/functioninnextyears.md) |
-| 날짜 | [](../functions/functionnow.md) |
-| 날짜 | [](../functions/functionnowwithdelta.md) |
-| 날짜 | [](../functions/functionsethours.md) |
-| 날짜 | [](../functions/functionsetdays.md) |
-| 목록 | [](../functions/functiondistinct.md) |
-| 목록 | [](../functions/functiondistinctcount.md) |
-| 목록 | [](../functions/functionin.md) |
-| 목록 | [](../functions/functionlistsize.md) |
-| 목록 | [](../functions/functionserializelist.md) |
-| 목록 | [](../functions/functionsort.md) |
-| 수학 | [](../functions/functionrandom.md) |
-| 수학 | [](../functions/functionround.md) |
-| 문자열 | [](../functions/functionconcat.md) |
-| 문자열 | [](../functions/functioncontain.md) |
-| 문자열 | [](../functions/functioncontainwithignorecase.md) |
-| 문자열 | [](../functions/functionendwith.md) |
-| 문자열 | [](../functions/functionendwithignorecase.md) |
-| 문자열 | [](../functions/functionequalignorecase.md) |
-| 문자열 | [](../functions/functionindexof.md) |
-| 문자열 | [](../functions/functionisempty.md) |
-| 문자열 | [](../functions/functionisnotempty.md) |
-| 문자열 | [](../functions/functionlastindexof.md) |
-| 문자열 | [](../functions/functionlength.md) |
-| 문자열 | [](../functions/functionlower.md) |
-| 문자열 | [](../functions/functionmatchregexp.md) |
-| 문자열 | [](../functions/functionnotequalignorecase.md) |
-| 문자열 | [](../functions/functionreplace.md) |
-| 문자열 | [](../functions/functionreplaceall.md) |
-| 문자열 | [](../functions/functionstartwith.md) |
-| 문자열 | [](../functions/functionstartwithignorecase.md) |
-| 문자열 | [](../functions/functionsubstr.md) |
-| 문자열 | [](../functions/functiontrim.md) |
-| 문자열 | [](../functions/functionupper.md) |
-| 문자열 | [](../functions/functionuuid.md) |
+| Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
+| 집계 | [avg](../functions/functionavg.md) |
+| 집계 | [count](../functions/functioncount.md) |
+| 집계 | [countOnlyNull](../functions/functioncountonlynull.md) |
+| 집계 | [countWithNull](../functions/functioncountwithnull.md) |
+| 집계 | [distinctCount](../functions/functiondistinctcount.md) |
+| 집계 | [distinctCountWithNull](../functions/functiondistinctcountwithnull.md) |
+| 집계 | [max](../functions/functionmax.md) |
+| 집계 | [min](../functions/functionmin.md) |
+| 집계 | [sum](../functions/functionsum.md) |
+| 전환 | [toBool](../functions/functiontobool.md) |
+| 전환 | [toDateTime](../functions/functiontodatetime.md) |
+| 전환 | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
+| 전환 | [toDecimal](../functions/functiontodecimal.md) |
+| 전환 | [toDuration](../functions/functiontoduration.md) |
+| 전환 | [toInteger](../functions/functiontointeger.md) |
+| 전환 | [toString](../functions/functiontostring.md) |
+| 날짜 | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
+| 날짜 | [inLastDays](../functions/functioninlastdays.md) |
+| 날짜 | [inLastHours](../functions/functioninlasthours.md) |
+| 날짜 | [inLastMonths](../functions/functioninlastmonths.md) |
+| 날짜 | [inLastYears](../functions/functioninlastyears.md) |
+| 날짜 | [inNextDays](../functions/functioninnextdays.md) |
+| 날짜 | [inNextHours](../functions/functioninnexthours.md) |
+| 날짜 | [inNextMonths](../functions/functioninnextmonths.md) |
+| 날짜 | [inNextYears](../functions/functioninnextyears.md) |
+| 날짜 | [now](../functions/functionnow.md) |
+| 날짜 | [nowWithDelta](../functions/functionnowwithdelta.md) |
+| 날짜 | [setHours](../functions/functionsethours.md) |
+| 날짜 | [setDays](../functions/functionsetdays.md) |
+| 목록 | [distinct](../functions/functiondistinct.md) |
+| 목록 | [distinctCount](../functions/functiondistinctcount.md) |
+| 목록 | [in](../functions/functionin.md) |
+| 목록 | [listSize](../functions/functionlistsize.md) |
+| 목록 | [serializeList](../functions/functionserializelist.md) |
+| 목록 | [sort](../functions/functionsort.md) |
+| 수학 | [random](../functions/functionrandom.md) |
+| 수학 | [round](../functions/functionround.md) |
+| 문자열 | [concat](../functions/functionconcat.md) |
+| 문자열 | [contain](../functions/functioncontain.md) |
+| 문자열 | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
+| 문자열 | [endWith](../functions/functionendwith.md) |
+| 문자열 | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
+| 문자열 | [equalWithIgnoreCase](../functions/functionequalignorecase.md) |
+| 문자열 | [indexOf](../functions/functionindexof.md) |
+| 문자열 | [isEmpty](../functions/functionisempty.md) |
+| 문자열 | [isNotEmpty](../functions/functionisnotempty.md) |
+| 문자열 | [lastIndexOf](../functions/functionlastindexof.md) |
+| 문자열 | [length](../functions/functionlength.md) |
+| 문자열 | [lower](../functions/functionlower.md) |
+| 문자열 | [matchRegExp](../functions/functionmatchregexp.md) |
+| 문자열 | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
+| 문자열 | [replace](../functions/functionreplace.md) |
+| 문자열 | [replaceAll](../functions/functionreplaceall.md) |
+| 문자열 | [startWith](../functions/functionstartwith.md) |
+| 문자열 | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
+| 문자열 | [substr](../functions/functionsubstr.md) |
+| 문자열 | [trim](../functions/functiontrim.md) |
+| 문자열 | [upper](../functions/functionupper.md) |
+| 문자열 | [uuid](../functions/functionuuid.md) |
