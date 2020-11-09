@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 8%
+source-wordcount: '396'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 우리가 보는 각본으로 말톤 호텔과 레스토랑에 들어갈 때마다 행사를 받아야 한다. 이 **기술 사용자는** 시스템에서 전달하고자 하는 두 가지 이벤트를 구성해야 합니다.
 
-이벤트 구성에 대한 자세한 내용은 를 참조하십시오 [](../event/about-events.md).
+이벤트 구성에 대한 자세한 내용은 [이 페이지를 참조하십시오](../event/about-events.md).
 
 1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
 
@@ -43,7 +43,7 @@ ht-degree: 8%
    >
    >필드 목록은 스키마마다 다릅니다. 스키마 정의에 따라 일부 필드는 필수이며 미리 선택될 수 있습니다.
 
-1. 네임스페이스를 선택해야 합니다. 스키마 속성을 기반으로 네임스페이스를 미리 선택합니다. 미리 선택된 상태로 둘 수 있습니다. 네임스페이스에 대한 자세한 내용은 [](../event/selecting-the-namespace.md)을(를) 참조하십시오.
+1. 네임스페이스를 선택해야 합니다. 스키마 속성을 기반으로 네임스페이스를 미리 선택합니다. 미리 선택된 상태로 둘 수 있습니다. For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc2_4.png)
 
@@ -57,4 +57,4 @@ ht-degree: 8%
 
    ![](../assets/journeyuc2_5.png)
 
-같은 방식으로 &quot;RestaurantBeacon&quot; 이벤트를 만듭니다. 두 개의 비콘 이벤트가 생성되어 이제 여정에 사용할 수 있습니다. 이제 모바일 응용 프로그램이 예상 페이로드를 스트리밍 통합 API 끝점으로 보낼 수 있도록 구성해야 합니다. [](../event/additional-steps-to-send-events-to-journey-orchestration.md)을(를) 참조하십시오.
+같은 방식으로 &quot;RestaurantBeacon&quot; 이벤트를 만듭니다. 두 개의 비콘 이벤트가 생성되어 이제 여정에 사용할 수 있습니다. 이제 모바일 응용 프로그램이 예상 페이로드를 스트리밍 통합 API 끝점으로 보낼 수 있도록 구성해야 합니다. [이 페이지](../event/additional-steps-to-send-events-to-journey-orchestration.md)를 참조하십시오.
