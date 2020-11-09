@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '370'
+ht-degree: 88%
 
 ---
 
@@ -35,10 +35,10 @@ ht-degree: 100%
 
 데이터 소스에는 다음의 두 가지 유형이 있습니다.
 
-* 실시간 고객 프로필 서비스에 대한 연결을 정의하는 사전 구성된 Adobe Experience Platform 데이터 소스(기본 데이터 소스). [](../datasource/adobe-experience-platform-data-source.md)를 참조하십시오.
-* 외부 시스템에 대한 연결을 정의할 수 있는 외부 데이터 소스. 이러한 소스는 직접 만들 수 있습니다. [](../datasource/external-data-sources.md)를 참조하십시오.
+* 실시간 고객 프로필 서비스에 대한 연결을 정의하는 사전 구성된 Adobe Experience Platform 데이터 소스(기본 데이터 소스). [이 페이지](../datasource/adobe-experience-platform-data-source.md)를 참조하십시오.
+* 외부 시스템에 대한 연결을 정의할 수 있는 외부 데이터 소스. 이러한 소스는 직접 만들 수 있습니다. [이 페이지](../datasource/external-data-sources.md)를 참조하십시오.
 
-각 데이터 소스에서는 필드 그룹을 사용하여 검색할 정보를 정의합니다. 필드 그룹은 데이터 소스에서 검색할 수 있는 필드 세트입니다. [](../datasource/field-groups.md)을 참조하십시오.
+각 데이터 소스에서는 필드 그룹을 사용하여 검색할 정보를 정의합니다. 필드 그룹은 데이터 소스에서 검색할 수 있는 필드 세트입니다. [이 페이지](../datasource/field-groups.md)를 참조하십시오.
 
 Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성하는 방법, 그리고 경로에서 데이터를 찾아서 사용하는 방법과 관련된 자세한 내용을 확인하려면 이 [자습서 비디오](https://docs.adobe.com/content/help/ko-KR/journey-orchestration-learn/tutorials/configure-data-sources.html)를 시청하십시오.
 
@@ -50,11 +50,11 @@ Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성
 
 1. 상단 메뉴에서 **[!UICONTROL Data Sources]** 탭을 클릭합니다.
 
-   데이터 소스 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [](../about/user-interface.md)를 참조하십시오.
+   데이터 소스 목록이 표시됩니다. See [this page](../about/user-interface.md) for more information on the interface.
 
    ![](../assets/journey18.png)
 
-1. 기본 데이터 소스에 필드 그룹을 추가하거나([](../datasource/adobe-experience-platform-data-source.md) 참조) 새 외부 데이터 소스([](../datasource/external-data-sources.md) 참조) 및 관련 필드 그룹([](../datasource/field-groups.md) 참조)을 만들 수 있습니다.
+1. Then you can either add field groups to the built-in data source (see [this page](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [this page](../datasource/external-data-sources.md)) and associated field groups (see [this page](../datasource/field-groups.md)).
 
    ![](../assets/journey23.png)
 
