@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 4%
+source-wordcount: '399'
+ht-degree: 5%
 
 ---
 
@@ -39,7 +39,7 @@ CRM ID 또는 이메일 주소와 같은 다른 키를 사용해야 하는 경�
 
    ![](../assets/journey20.png)
 
-이벤트가 수신되면 시스템이 이벤트와 연관된 사람을 식별할 수 있도록 키 값을 허용합니다. 네임스페이스와 연결된 키( [](../event/selecting-the-namespace.md)참조)를 사용하여 Adobe Experience Platform에서 쿼리를 수행할 수 있습니다. [](../building-journeys/about-orchestration-activities.md)을(를) 참조하십시오.
+이벤트가 수신되면 시스템이 이벤트와 연관된 사람을 식별할 수 있도록 키 값을 허용합니다. 네임스페이스( [이 페이지](../event/selecting-the-namespace.md)참조)와 연관된 키는 Adobe Experience Platform에서 쿼리를 수행하는 데 사용할 수 있습니다. [이 페이지](../building-journeys/about-orchestration-activities.md)를 참조하십시오.
 열쇠는 또한 한 사람이 여행 중에 있는지 확인하는 데 사용됩니다. 사실, 한 사람은 같은 여행에서 다른 두 곳에 있을 수 없습니다. 따라서, 시스템은 같은 키(예: 키 CRMID=3224)를 동일한 여정에서 다른 위치에 놓을 수 없습니다.
 
-추가 작업을 수행하려면 고급 표현식 함수(**[!UICONTROL Advanced mode]**)에 액세스할 수도 있습니다. 이러한 함수를 사용하면 필드의 일부(예: 첫 번째 문자 10개)를 고려하여, 변화하는 형식, 필드 연결 수행 등 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있습니다. [](../expression/expressionadvanced.md)을(를) 참조하십시오.
+추가 작업을 수행하려면 고급 표현식 함수(**[!UICONTROL Advanced mode]**)에 액세스할 수도 있습니다. 이러한 함수를 사용하면 필드의 일부(예: 첫 번째 문자 10개)를 고려하여, 변화하는 형식, 필드 연결 수행 등 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있습니다. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오.
