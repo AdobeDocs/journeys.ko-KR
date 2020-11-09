@@ -8,18 +8,18 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
-workflow-type: ht
-source-wordcount: '1034'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+workflow-type: tm+mt
+source-wordcount: '1040'
+ht-degree: 98%
 
 ---
 
 
 # 문제 해결{#concept_nlv_bcv_2fb}
 
-이 섹션에서는 테스트 또는 게시 전에 경로 문제를 해결하는 방법에 대해 알아봅니다. 아래 나열된 모든 검사는 경로가 테스트 모드에 있거나 경로가 라이브 상태일 때 수행할 수 있습니다. 테스트 모드에서 아래의 모든 검사를 수행한 후에 게시를 진행하는 것이 좋습니다. [](../building-journeys/testing-the-journey.md)을 참조하십시오.
+이 섹션에서는 테스트 또는 게시 전에 경로 문제를 해결하는 방법에 대해 알아봅니다. 아래 나열된 모든 검사는 경로가 테스트 모드에 있거나 경로가 라이브 상태일 때 수행할 수 있습니다. 테스트 모드에서 아래의 모든 검사를 수행한 후에 게시를 진행하는 것이 좋습니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오.
 
 ## 테스트하기 전에 오류 확인{#section_h3q_kqk_fhb}
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 경로에서 전체적으로 발생하는 오류와 경고가 목록에 먼저 나타납니다. 특정 활동과 관련된 오류와 경고는 그 뒤에 활동 순서별로 또는 경로 내 등장 순서별로 왼쪽에서 오른쪽으로 나열됩니다. **[!UICONTROL Copy details]** 버튼은 지원 팀이 문제를 해결하는 데 사용할 수 있는 경로 관련 기술 정보를 복사합니다.
 
-작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. 이 작업을 계속 진행할 수 있는 유일한 방법은 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 상자를 선택하는 것입니다 . [](../building-journeys/using-the-journey-designer.md#paths)을(를) 참조하십시오.
+작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. 이 작업을 계속 진행할 수 있는 유일한 방법은 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 상자를 선택하는 것입니다 . [이 섹션](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
 
 ## 이벤트를 제대로 보냈는지 확인{#section_rqz_11t_dgb}
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 이러한 도구를 통해 보내는 API 호출이 올바르게 전송되었는지 여부를 확인할 수 있습니다. 오류가 반환되면 호출에 문제가 있는 것입니다. 페이로드, 헤더(특히 조직 ID) 및 대상 URL을 다시 확인하십시오. 올바른 URL이 무엇인지를 관리자에게 물어볼 수 있습니다.
 
-이벤트는 소스에서 [!DNL Journey Orchestration]으로 직접 푸시되지 않습니다. 실제로, [!DNL Journey Orchestration] (은)는 Adobe Experience Platform의 수집 API 스트리밍에 의존합니다. 따라서 이벤트 관련 문제가 발생하면 이 [페이지](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/streaming/troubleshooting.html)에서 수집 API 스트리밍 문제 해결을 참조할 수 있습니다.
+이벤트는 소스에서 [!DNL Journey Orchestration]으로 직접 푸시되지 않습니다. 실제로, [!DNL Journey Orchestration] (은)는 Adobe Experience Platform의 수집 API 스트리밍에 의존합니다. As a result, in case of event related issues, you can refer to [this page](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/streaming/troubleshooting.html) for Streaming ingestion APIs troubleshooting.
 
 ## 사람들이 경로에 들어오는지 확인{#section_x4v_zzs_dgb}
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 * 페이로드 미리 보기에서 페이로드를 복사하기 전에 이벤트를 저장했습니까?
 * 이벤트 페이로드에 이벤트 ID가 포함되어 있습니까?
 * 정확한 URL을 입력했습니까?
-* 이벤트 구성 창에서 페이로드 구조 미리 보기를 사용하여 수집 API 스트리밍 페이로드 구조를 따랐습니까? [](../event/previewing-the-payload.md)을(를) 참조하십시오.
+* 이벤트 구성 창에서 페이로드 구조 미리 보기를 사용하여 수집 API 스트리밍 페이로드 구조를 따랐습니까? [이 페이지](../event/previewing-the-payload.md)를 참조하십시오.
 * 이벤트 헤더에 올바른 키/값 쌍을 사용했습니까?
 
    ```
