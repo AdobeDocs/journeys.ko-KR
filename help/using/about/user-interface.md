@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 900b956799194e13ee01ca9aef3c786e9c5b04db
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1007'
 ht-degree: 98%
 
 ---
@@ -59,7 +59,7 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 [!D
 
 **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 및 **[!UICONTROL Actions]** 목록에서 **[!UICONTROL Creation filters]**&#x200B;을(를) 사용하여 만든 날짜와 사용자를 기준으로 필터링합니다. 예를 들어 지난 30일 동안 만든 이벤트만 표시하도록 선택할 수 있습니다.
 
-**[!UICONTROL Home]** 아래의 경로 목록에서는 **[!UICONTROL Creation filters]**&#x200B;를 사용할 수 있을 뿐 아니라, **[!UICONTROL Status and version filters]**&#x200B;를 사용하여 표시된 경로를 상태와 버전에 따라 필터링할 수도 있습니다. **[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**&#x200B;를 사용하면 특정 이벤트, 필드 그룹 또는 작업을 사용하는 경로만 표시하도록 선택할 수도 있습니다. 그리고 **[!UICONTROL Publication filters]**&#x200B;를 사용하면 게시 날짜나 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 경로의 최신 버전만 표시하도록 선택할 수 있습니다. [](../building-journeys/using-the-journey-designer.md)을 참조하십시오.
+**[!UICONTROL Home]** 아래의 경로 목록에서는 **[!UICONTROL Creation filters]**&#x200B;를 사용할 수 있을 뿐 아니라, **[!UICONTROL Status and version filters]**&#x200B;를 사용하여 표시된 경로를 상태와 버전에 따라 필터링할 수도 있습니다. **[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**&#x200B;를 사용하면 특정 이벤트, 필드 그룹 또는 작업을 사용하는 경로만 표시하도록 선택할 수도 있습니다. 그리고 **[!UICONTROL Publication filters]**&#x200B;를 사용하면 게시 날짜나 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 경로의 최신 버전만 표시하도록 선택할 수 있습니다. [이 페이지](../building-journeys/using-the-journey-designer.md)를 참조하십시오.
 
 >[!NOTE]
 >
