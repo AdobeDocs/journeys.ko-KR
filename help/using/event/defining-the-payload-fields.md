@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '279'
 ht-degree: 6%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 # 페이로드 필드 정의 {#concept_yrw_3qt_52b}
 
-페이로드 정의를 사용하면 시스템이 여정의 이벤트에서 받게 될 정보와 해당 이벤트와 연관된 사람을 식별하는 키를 선택할 수 있습니다. 페이로드는 Experience Cloud XDM 필드 정의를 기반으로 합니다. For more information on XDM, refer to this [page](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/home.html).
+페이로드 정의를 사용하면 시스템이 여정의 이벤트에서 받게 될 정보와 해당 이벤트와 연관된 사람을 식별하는 키를 선택할 수 있습니다. 페이로드는 Experience Cloud XDM 필드 정의를 기반으로 합니다. For more information on XDM, refer to [this page](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/home.html).
 
 1. 목록에서 XDM 스키마를 선택하고 필드 또는 아이콘을 **[!UICONTROL Payload]****[!UICONTROL Edit]** 클릭합니다.
 
@@ -33,13 +33,13 @@ ht-degree: 6%
 
    ![](../assets/journey9.png)
 
-1. 이벤트에서 받을 필드를 선택합니다. 비즈니스 사용자가 여정 중에 활용할 수 있는 필드입니다. 또한 이벤트와 연관된 사람을 식별하는 데 사용할 키를 포함해야 합니다(참조 [](../event/defining-the-event-key.md)).
+1. 이벤트에서 받을 필드를 선택합니다. 비즈니스 사용자가 여정 중에 활용할 수 있는 필드입니다. 또한 이벤트와 연관된 사람을 식별하는 데 사용할 키도 포함해야 합니다( [이 페이지](../event/defining-the-event-key.md)참조).
 
    ![](../assets/journey10.png)
 
    >[!NOTE]
    >
-   >이 **[!UICONTROL eventID]** 필드는 선택한 필드 목록에 자동으로 추가되므로 이벤트를 식별할 [!DNL Journey Orchestration] 수 있습니다. 이벤트를 밀어 넣는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 사용해야 합니다. [](../event/previewing-the-payload.md)을(를) 참조하십시오.
+   >이 **[!UICONTROL eventID]** 필드는 선택한 필드 목록에 자동으로 추가되므로 이벤트를 식별할 [!DNL Journey Orchestration] 수 있습니다. 이벤트를 밀어 넣는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 사용해야 합니다. [이 페이지](../event/previewing-the-payload.md)를 참조하십시오.
 
 1. 필요한 필드 선택이 끝나면 를 클릭하거나 **[!UICONTROL Save]** 누릅니다 **[!UICONTROL Enter]**.
 
