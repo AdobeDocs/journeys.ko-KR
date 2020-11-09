@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '418'
 ht-degree: 5%
 
 ---
@@ -40,12 +40,12 @@ ht-degree: 5%
 
 ![](../assets/journeyuc2_29.png)
 
-이 사용 사례의 경우 다음 두 개의 이벤트를 만들어야 합니다(참조 [](../usecase/configuring-the-events.md)).
+이 사용 사례의 경우 두 개의 이벤트를 만들어야 합니다( [이 페이지](../usecase/configuring-the-events.md)참조).
 
 * 고객이 호텔에 들어갈 때 시스템으로 보내질 로비 비콘 이벤트.
 * 손님이 식당에 들어오면 푸시될 레스토랑 비콘 이벤트.
 
-두 데이터 소스에 대한 연결을 구성해야 합니다(참조 [](../usecase/configuring-the-data-sources.md)).
+두 데이터 소스에 대한 연결을 구성해야 합니다( [이 페이지](../usecase/configuring-the-data-sources.md)참조).
 
 * 메시지 개인화 정보는 물론, Adobe의 두 가지 조건(충성도 멤버십과 마지막 연락처 날짜)에 대한 정보를 검색하기 위한 내장 Adobe Experience Platform 데이터 소스입니다.
 * 예약상태 정보를 찾기 위한 호텔 예약 시스템.
