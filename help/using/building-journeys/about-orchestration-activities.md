@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 23%
+source-wordcount: '32'
+ht-degree: 37%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 23%
 
 팔레트에서 화면의 왼쪽에 있는 다음 오케스트레이션 활동을 사용할 수 있습니다.
 
-* [](../building-journeys/condition-activity.md)
-* [](../building-journeys/end-activity.md)
-* [](../building-journeys/wait-activity.md)
+* [조건 활동](../building-journeys/condition-activity.md)
+* [종료 활동](../building-journeys/end-activity.md)
+* [대기 활동](../building-journeys/wait-activity.md)
 
 ![](../assets/journey49.png)
