@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '658'
 ht-degree: 11%
 
 ---
@@ -103,5 +103,4 @@ Adobe Analytics 소스 커넥터에 대한 자세한 내용은 [설명서](https
 
 ![](../assets/alpha-event8.png)
 
-For more information on how to use the test mode, refer to [](../building-journeys/testing-the-journey.md).
-
+테스트 모드 사용 방법에 대한 자세한 내용은 [이 페이지를 참조하십시오](../building-journeys/testing-the-journey.md).
