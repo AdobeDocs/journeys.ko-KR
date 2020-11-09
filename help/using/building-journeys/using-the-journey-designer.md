@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1354'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 ![](../assets/journey74.png)
 
-버전 번호와 함께 모든 버전의 내경이 목록에 표시됩니다. [](../building-journeys/journey-versions.md)을(를) 참조하십시오.
+버전 번호와 함께 모든 버전의 내경이 목록에 표시됩니다. [이 페이지](../building-journeys/journey-versions.md)를 참조하십시오.
 
 ![](../assets/journey37.png)
 
@@ -55,7 +55,7 @@ The **[!UICONTROL Show disabled items]** icon in the top left corner allows you 
 
 ## 캔버스 {#canvas}
 
-캔버스 **는** 여정 디자이너의 중앙 영역입니다. 이 영역에서는 활동을 삭제하고 구성할 수 있습니다. 캔버스에서 활동을 클릭하여 구성합니다. 오른쪽에 활동 구성 창이 열립니다. 오른쪽 상단에 있는 &quot;+&quot; 및 &quot;-&quot; 버튼을 사용하여 확대하거나 축소할 수 있습니다. 캔버스에서 모든 활동을 사용하면 활동을 제외한 다음 단계를 그 뒤에 추가할 수 **[!UICONTROL End]** 있습니다(참조 [](../building-journeys/end-activity.md)).
+캔버스 **는** 여정 디자이너의 중앙 영역입니다. 이 영역에서는 활동을 삭제하고 구성할 수 있습니다. 캔버스에서 활동을 클릭하여 구성합니다. 오른쪽에 활동 구성 창이 열립니다. 오른쪽 상단에 있는 &quot;+&quot; 및 &quot;-&quot; 버튼을 사용하여 확대하거나 축소할 수 있습니다. 캔버스에서 모든 활동을 사용하면 활동을 제외한 다음 단계를 그 뒤에 추가할 수 있습니다( **[!UICONTROL End]** 이 페이지 [](../building-journeys/end-activity.md)참조).
 
 ![](../assets/journey39.png)
 
@@ -69,19 +69,19 @@ The **[!UICONTROL Show disabled items]** icon in the top left corner allows you 
 
 ## 상단 막대 작업 {#top_actions}
 
-경로 상태에 따라 오른쪽 상단 모서리에 있는 단추를 사용하여 여정에 대해 다른 작업을 수행할 수 있습니다. **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]** 이러한 단추는 활동이 선택되지 않은 경우에 나타납니다. 일부 단추는 상황에 따라 표시됩니다. 테스트 모드를 활성화하면 테스트 모드 로그 버튼이 나타납니다(참조 [](../building-journeys/testing-the-journey.md)). 여행이 라이브, 중지 또는 종료되면 보고 단추가 표시됩니다.
+경로 상태에 따라 오른쪽 상단 모서리에 있는 단추를 사용하여 여정에 대해 다른 작업을 수행할 수 있습니다. **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]** 이러한 단추는 활동이 선택되지 않은 경우에 나타납니다. 일부 단추는 상황에 따라 표시됩니다. 테스트 모드를 활성화하면 테스트 모드 로그 버튼이 나타납니다( [이 페이지](../building-journeys/testing-the-journey.md)참조). 여행이 라이브, 중지 또는 종료되면 보고 단추가 표시됩니다.
 
 ![](../assets/journey41.png)
 
 ## 캔버스에서 패스 사용 {#paths}
 
-몇 가지 활동(**[!UICONTROL Condition]**, 활동 **[!UICONTROL Action]** )을 사용하면 오류나 시간 초과에 대한 대체 작업을 정의할 수 있습니다. 활동 구성 창에서 다음 상자를 선택합니다. **[!UICONTROL Add an alternative path in case of a timeout or an error]**. 활동 후에 다른 경로가 추가됩니다. 시간 초과 기간은 경로 속성에 정의됩니다(관리자 사용자 참조 [](../building-journeys/changing-properties.md) ). 예를 들어 이메일을 보내는 데 시간이 너무 오래 걸리거나 오류가 발생하면 SMS를 전송하기로 결정할 수 있습니다.
+몇 가지 활동(**[!UICONTROL Condition]**, 활동 **[!UICONTROL Action]** )을 사용하면 오류나 시간 초과에 대한 대체 작업을 정의할 수 있습니다. 활동 구성 창에서 다음 상자를 선택합니다. **[!UICONTROL Add an alternative path in case of a timeout or an error]**. 활동 후에 다른 경로가 추가됩니다. 시간 초과 기간은 경로 속성에 정의됩니다(관리자 [가 이 페이지](../building-journeys/changing-properties.md) 참조). 예를 들어 이메일을 보내는 데 시간이 너무 오래 걸리거나 오류가 발생하면 SMS를 전송하기로 결정할 수 있습니다.
 
 ![](../assets/journey42.png)
 
 다양한 활동(이벤트, 작업, 대기)을 통해 여러 경로를 그 뒤에 추가할 수 있습니다. 이렇게 하려면 활동 위에 커서를 놓고 &quot;+&quot; 기호를 클릭합니다. 이벤트와 대기 활동만 동시에 설정할 수 있습니다. 여러 이벤트가 동시에 설정되면 선택한 경로가 첫 번째 이벤트 중 하나가 됩니다.
 
-이벤트를 들을 때는 이벤트를 무한히 기다리지 않는 것이 좋습니다. 이것은 의무적인 것이 아니라 단지 좋은 연습일 뿐이다. 특정 시간 동안에만 하나 또는 여러 개의 이벤트를 수신하려면 하나 또는 여러 개의 이벤트를 동시에 배치합니다. [](../building-journeys/event-activities.md#section_vxv_h25_pgb)을(를) 참조하십시오.
+이벤트를 들을 때는 이벤트를 무한히 기다리지 않는 것이 좋습니다. 이것은 의무적인 것이 아니라 단지 좋은 연습일 뿐이다. 특정 시간 동안에만 하나 또는 여러 개의 이벤트를 수신하려면 하나 또는 여러 개의 이벤트를 동시에 배치합니다. [이 섹션](../building-journeys/event-activities.md#section_vxv_h25_pgb)을 참조하십시오.
 
 패스를 삭제하려면 해당 패스 위에 커서를 놓고 아이콘을 **[!UICONTROL Delete arrow]** 클릭합니다.
 
