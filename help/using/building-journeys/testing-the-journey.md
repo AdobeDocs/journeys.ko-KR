@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1347'
 ht-degree: 3%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 3%
 
 # 여정 테스트{#testing_the_journey}
 
-여행을 테스트하기 전에 모든 오류를 해결해야 합니다. [](../about/troubleshooting.md#section_h3q_kqk_fhb)을(를) 참조하십시오.
+여행을 테스트하기 전에 모든 오류를 해결해야 합니다. [이 섹션](../about/troubleshooting.md#section_h3q_kqk_fhb)을 참조하십시오.
 
 테스트 프로필을 사용하여 게시 전에 여행을 테스트할 수 있습니다. 이를 통해 개별 고객이 여행 중에 어떻게 진행되는지 분석하고 게시 전에 문제를 해결할 수 있습니다.
 
 테스트 모드를 사용하려면 다음 단계를 따르십시오.
 
-1. 여정을 테스트하기 전에 유효한지, 오류가 없는지 확인하십시오. 오류가 있는 여정의 테스트를 실행할 수 없습니다. [](../about/troubleshooting.md#section_h3q_kqk_fhb)을(를) 참조하십시오. 오류가 있으면 경고 기호가 표시됩니다.
+1. 여정을 테스트하기 전에 유효한지, 오류가 없는지 확인하십시오. 오류가 있는 여정의 테스트를 실행할 수 없습니다. [이 섹션](../about/troubleshooting.md#section_h3q_kqk_fhb)을 참조하십시오. 오류가 있으면 경고 기호가 표시됩니다.
 
 1. 테스트 모드를 활성화하려면 오른쪽 상단 모서리에 있는 **[!UICONTROL Test]** 토글을 클릭합니다.
 
@@ -43,12 +43,12 @@ ht-degree: 3%
 
    ![](../assets/journeyuctest2.png)
 
-1. 오류가 있는 경우 테스트 모드를 비활성화하고 여정를 수정한 후 다시 테스트하십시오. 테스트가 완료되면 여정을 게시할 수 있습니다. [](../building-journeys/publishing-the-journey.md)을(를) 참조하십시오.
+1. 오류가 있는 경우 테스트 모드를 비활성화하고 여정를 수정한 후 다시 테스트하십시오. 테스트가 완료되면 여정을 게시할 수 있습니다. [이 페이지](../building-journeys/publishing-the-journey.md)를 참조하십시오.
 
 ## 중요 정보 {#important_notes}
 
 * 테스트를 거친 여정에서 이벤트를 발생시키는 인터페이스가 제공되지만 Postman과 같은 타사 시스템에서 이벤트를 보낼 수도 있습니다.
-* 실시간 고객 프로필 서비스에서 &quot;테스트 프로필&quot;으로 플래그가 지정된 개인만이 테스트를 거친 여정에 참여할 수 있습니다. [](../building-journeys/testing-the-journey.md#create-test-profile)을(를) 참조하십시오.
+* 실시간 고객 프로필 서비스에서 &quot;테스트 프로필&quot;으로 플래그가 지정된 개인만이 테스트를 거친 여정에 참여할 수 있습니다. [이 섹션](../building-journeys/testing-the-journey.md#create-test-profile)을 참조하십시오.
 * 테스트 모드는 네임스페이스를 사용하는 임시 여행에서만 사용할 수 있습니다. 테스트 모드는 여행 시작 사람이 테스트 프로필인지 아닌지 확인해야 하므로 Adobe Experience Platform에 도달할 수 있어야 합니다.
 * 테스트 세션 중 여정에 입력할 수 있는 최대 테스트 프로필 수는 100개입니다.
 * 테스트 모드를 비활성화하면 이전에 입력한 사람 또는 현재 테스트 사용자의 여정이 빈 것입니다. 또한 보고서를 지웁니다.
