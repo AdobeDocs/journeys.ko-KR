@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '459'
 ht-degree: 14%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 14%
 
 사용 사례에서는 개인화 데이터를 메시지에 사용하고 싶습니다. 우리는 또한 그 사람이 충성도 회원이고 지난 24시간 동안 연락이 되지 않았는지 확인해야 합니다. 이 정보는 실시간 고객 프로필 데이터베이스에 저장됩니다. 이 **기술 사용자는** 해당 필드를 검색하도록 Adobe Experience Platform 데이터 소스를 구성해야 합니다.
 
-데이터 소스 구성에 대한 자세한 내용은 을 참조하십시오 [](../datasource/about-data-sources.md).
+데이터 소스 구성에 대한 자세한 내용은 [이 페이지를 참조하십시오](../datasource/about-data-sources.md).
 
 1. 상단 메뉴에서 **[!UICONTROL Data Sources]** 탭을 클릭하고 내장 Adobe Experience Platform 데이터 소스를 선택합니다.
 
