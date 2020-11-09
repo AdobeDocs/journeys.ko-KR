@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 100%
+source-wordcount: '295'
+ht-degree: 89%
 
 ---
 
@@ -28,20 +28,20 @@ ht-degree: 100%
 
 사용자 지정 작업에서는 메시지나 API 호출을 전송할 서드파티 시스템의 연결을 구성할 수 있습니다. JSON 형식 페이로드를 사용하여 REST API를 통해 호출할 수 있는 모든 공급자의 어떤 서비스로든 작업을 구성할 수 있습니다.
 
-작업은 경로 왼쪽 팔레트의 **[!UICONTROL Action]** 범주에서 사용 가능합니다([](../building-journeys/about-action-activities.md) 참조).
+The actions are available in the left palette of your journey, in the **[!UICONTROL Action]** category. [이 페이지](../building-journeys/about-action-activities.md)를 참조하십시오.
 
 >[!NOTE]
 >
 >사용자 지정 작업은 항상 **기술 사용자**&#x200B;가 구성해야 합니다.
 
-**작업** 목록에서 c 키를 누르면 새 경로, 작업, 데이터 소스 또는 이벤트를 만들 수 있습니다. [!DNL Journey Orchestration]의 바로 가기에 대한 자세한 내용은 [](../about/user-interface.md#section_ksq_zr1_ffb)을 참조하십시오.
+**작업** 목록에서 c 키를 누르면 새 경로, 작업, 데이터 소스 또는 이벤트를 만들 수 있습니다. For more information on shortcuts in [!DNL Journey Orchestration], see [this section](../about/user-interface.md#section_ksq_zr1_ffb).
 
-작업 목록을 확인하거나 새 작업을 구성하려면 상단 메뉴에서 **[!UICONTROL Actions]**&#x200B;을 클릭합니다. 그러면 작업 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [](../about/user-interface.md)를 참조하십시오.
+작업 목록을 확인하거나 새 작업을 구성하려면 상단 메뉴에서 **[!UICONTROL Actions]**&#x200B;을 클릭합니다. 그러면 작업 목록이 표시됩니다. See [this page](../about/user-interface.md) for more information on the interface.
 
 ![](../assets/custom1.png)
 
-Adobe Campaign Standard가 설치되어 있다면 Adobe Campaign Standard의 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS 전송을 위한 기본 작업을 구성해야 합니다. [](../action/working-with-adobe-campaign.md)을 참조하십시오.
+Adobe Campaign Standard가 설치되어 있다면 Adobe Campaign Standard의 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS 전송을 위한 기본 작업을 구성해야 합니다. [이 페이지](../action/working-with-adobe-campaign.md)를 참조하십시오.
 
-Epsilon, Facebook, Adobe.io, Firebase 등의 서드파티 시스템을 사용하여 메시지를 보내는 경우에는 사용자 지정 작업을 추가하고 구성해야 합니다. [](../action/about-custom-action-configuration.md)을 참조하십시오.
+Epsilon, Facebook, Adobe.io, Firebase 등의 서드파티 시스템을 사용하여 메시지를 보내는 경우에는 사용자 지정 작업을 추가하고 구성해야 합니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오.
 
 [!DNL Journey Orchestration]용 작업을 구성하여 경로에서 사용하는 방법과 관련된 자세한 내용을 확인하려면 이 [비디오 튜토리얼](https://docs.adobe.com/content/help/ko-KR/journey-orchestration-learn/tutorials/configure-actions.html)을 시청하십시오.
