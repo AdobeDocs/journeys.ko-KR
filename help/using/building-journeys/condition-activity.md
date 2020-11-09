@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 8%
+source-wordcount: '743'
+ht-degree: 10%
 
 ---
 
@@ -56,14 +56,13 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->단순 편집기를 사용하여 시간 시리즈(예: 구매 목록, 메시지 클릭 수)에서 쿼리를 수행할 수 없습니다. 이를 위해서는 고급 편집기를 사용해야 합니다. [](../expression/expressionadvanced.md)을(를) 참조하십시오.
+>단순 편집기를 사용하여 시간 시리즈(예: 구매 목록, 메시지 클릭 수)에서 쿼리를 수행할 수 없습니다. 이를 위해서는 고급 편집기를 사용해야 합니다. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오.
 
-
-작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. 이 작업을 계속 진행할 수 있는 유일한 방법은 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 상자를 선택하는 것입니다 . [](../building-journeys/using-the-journey-designer.md#paths)을(를) 참조하십시오.
+작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. 이 작업을 계속 진행할 수 있는 유일한 방법은 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 상자를 선택하는 것입니다 . [이 섹션](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
 
 ## 데이터 소스 조건 {#data_source_condition}
 
-이렇게 하면 데이터 소스의 필드 또는 이전에 여정에 배치된 이벤트를 기반으로 조건을 정의할 수 있습니다. 표현식 편집기 사용 방법을 알려면 을 참조하십시오 [](../expression/expressionadvanced.md). 고급 표현식 편집기를 사용하면 컬렉션을 조작하거나 매개 변수를 전달해야 하는 데이터 소스를 사용하여 더 많은 고급 조건을 설정할 수 있습니다. [](../datasource/external-data-sources.md)을(를) 참조하십시오.
+이렇게 하면 데이터 소스의 필드 또는 이전에 여정에 배치된 이벤트를 기반으로 조건을 정의할 수 있습니다. 표현식 편집기 사용 방법을 알려면 [이 페이지를 참조하십시오](../expression/expressionadvanced.md). 고급 표현식 편집기를 사용하면 컬렉션을 조작하거나 매개 변수를 전달해야 하는 데이터 소스를 사용하여 더 많은 고급 조건을 설정할 수 있습니다. [이 페이지](../datasource/external-data-sources.md)를 참조하십시오.
 
 ![](../assets/journey50.png)
 
@@ -73,7 +72,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->시간대는 더 이상 조건에 한정되지 않으며 이제 경로 속성의 경로 수준에서 정의됩니다. [](../building-journeys/timezone-management.md)을(를) 참조하십시오.
+>시간대는 더 이상 조건에 한정되지 않으며 이제 경로 속성의 경로 수준에서 정의됩니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
 
 ![](../assets/journey51.png)
 
@@ -85,7 +84,6 @@ ht-degree: 8%
 >
 >비율 분할 조건에 경로를 추가할 단추가 없습니다. 경로 수는 분할 수에 따라 달라집니다. 분할 조건에서는 다른 사례에 대한 경로를 추가할 수 없으므로 추가할 수 없습니다. 사람들은 항상 갈려가는 길 중 하나로 갈 것이다.
 
-
 ![](../assets/journey52.png)
 
 ## 날짜 조건 {#date_condition}
@@ -94,6 +92,6 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->시간대는 더 이상 조건에 한정되지 않으며 이제 경로 속성의 경로 수준에서 정의됩니다. [](../building-journeys/timezone-management.md)을(를) 참조하십시오.
+>시간대는 더 이상 조건에 한정되지 않으며 이제 경로 속성의 경로 수준에서 정의됩니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
 
 ![](../assets/journey53.png)
