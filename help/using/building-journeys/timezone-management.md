@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '261'
 ht-degree: 2%
 
 ---
@@ -26,10 +26,10 @@ ht-degree: 2%
 
 이 시간대는 다음과 같은 시간 요소를 포함하는 여정의 모든 활동에 사용됩니다.
 
-* [](../building-journeys/condition-activity.md#time_condition)
-* [](../building-journeys/condition-activity.md#date_condition)
-* [](../building-journeys/wait-activity.md#custom)
-* [](../building-journeys/wait-activity.md#fixed_date)
+* [시간 조건](../building-journeys/condition-activity.md#time_condition)
+* [날짜 조건](../building-journeys/condition-activity.md#date_condition)
+* [사용자 지정 대기](../building-journeys/wait-activity.md#custom)
+* [고정 날짜 대기](../building-journeys/wait-activity.md#fixed_date)
 
 시간대를 선택하거나 사용자 프로필에 정의된 시간대를 사용하도록 선택할 수 있습니다.
 
