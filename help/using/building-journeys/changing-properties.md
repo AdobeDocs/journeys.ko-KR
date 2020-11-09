@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -58,4 +58,4 @@ ht-degree: 0%
 
 고정 시간대를 입력하거나 Adobe Experience Platform 프로필을 사용하여 여정 시간대를 정의할 수 있습니다.
 
-시간대 관리에 대한 자세한 내용은 을 참조하십시오 [](../building-journeys/timezone-management.md).
+시간대 관리에 대한 자세한 내용은 [이 페이지를 참조하십시오](../building-journeys/timezone-management.md).
