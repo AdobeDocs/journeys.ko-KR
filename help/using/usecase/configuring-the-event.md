@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 9%
+source-wordcount: '357'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 
 시나리오에서, 우리는 한 사람이 스파 옆에 있는 비콘 근처에 걸을 때마다 이벤트를 받아야 합니다. 이 **기술 사용자는** 고객이 귀담아 듣는 이벤트를 구성해야 합니다.
 
-이벤트 구성에 대한 자세한 내용은 를 참조하십시오 [](../event/about-events.md).
+이벤트 구성에 대한 자세한 내용은 [이 페이지를 참조하십시오](../event/about-events.md).
 
 1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
 
@@ -39,7 +39,7 @@ ht-degree: 9%
    >
    >필드 목록은 스키마마다 다릅니다. 스키마 정의에 따라 일부 필드는 필수이며 미리 선택될 수 있습니다.
 
-1. 네임스페이스를 선택해야 합니다. 스키마 속성을 기반으로 네임스페이스를 미리 선택합니다. 미리 선택된 상태로 둘 수 있습니다. 네임스페이스에 대한 자세한 내용은 [](../event/selecting-the-namespace.md)을(를) 참조하십시오.
+1. 네임스페이스를 선택해야 합니다. 스키마 속성을 기반으로 네임스페이스를 미리 선택합니다. 미리 선택된 상태로 둘 수 있습니다. For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc1_6.png)
 
@@ -53,4 +53,4 @@ ht-degree: 9%
 
    ![](../assets/journeyuc1_7.png)
 
-   이 이벤트는 여정에서 사용할 준비가 되었습니다. 이제 모바일 응용 프로그램이 예상 페이로드를 스트리밍 통합 API 끝점으로 보낼 수 있도록 구성해야 합니다. [](../event/additional-steps-to-send-events-to-journey-orchestration.md)을(를) 참조하십시오.
+   이 이벤트는 여정에서 사용할 준비가 되었습니다. 이제 모바일 응용 프로그램이 예상 페이로드를 스트리밍 통합 API 끝점으로 보낼 수 있도록 구성해야 합니다. [이 페이지](../event/additional-steps-to-send-events-to-journey-orchestration.md)를 참조하십시오.
