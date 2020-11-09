@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '93'
 ht-degree: 4%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->시간대 ID는 문자열 상수여야 합니다. 필드 참조나 식이 될 수 없습니다. 데이터 유형에 대한 자세한 내용은 을 참조하십시오 [](../expression/data-types.md).
+>시간대 ID는 문자열 상수여야 합니다. 필드 참조나 식이 될 수 없습니다. For more information on data types, refer to [this page](../expression/data-types.md).
 
 ## 서명 및 반환된 유형
 
