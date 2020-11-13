@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+source-git-commit: 9999546d08d0279f013ead3a1e71bb7f9305bebc
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 98%
+source-wordcount: '1063'
+ht-degree: 93%
 
 ---
 
@@ -139,3 +139,11 @@ _경로의 캔버스:_
 * 모든 활동을 선택하려면 **Ctrl/Command+A** 키 조합을 사용합니다.
 * 선택한 하나 이상의 활동을 삭제하려면 **Delete** 또는 **백스페이스** 키를 누릅니다. 그런 다음 **Enter** 키를 눌러 확인 팝업에서 삭제를 확인할 수 있습니다.
 * 활동을 사용 가능한 첫 번째 위치(위쪽부터)에 추가하려면 왼쪽 팔레트에서 해당 활동을 두 번 클릭합니다.
+
+_여행 중:_
+
+* 테스트 모드 **를** 활성화/비활성화하려면 T 키를 누릅니다.
+* 테스트 모드의 이벤트 기반 여정에서 **E를** 눌러 이벤트를 트리거합니다.
+* 세그먼트 기반 여정에서 한 번에 **단일** 프로필 옵션을 선택한 경우 테스트 모드에서 **P를** 눌러 이벤트를 트리거합니다.
+* 테스트 모드에서 **L을** 눌러 로그를 표시합니다.
+
