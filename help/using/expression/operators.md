@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 2af6e632461a8c01451f96c121469c9a32ae7f32
+source-git-commit: eec6203f63fa6d7ea706595ea866d2b330d284a8
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 4%
@@ -46,11 +46,11 @@ ht-degree: 4%
 <tr><th>연산자</th><th>리터럴 식</th><th>예제</th></tr>
 </thead>
 <tbody>
-<tr>&gt;<td>and</td><td><p><pre>&lt;expression1&gt; 및 &lt;expression2&gt;</pre></p>&lt;expression1&gt; 및 &lt;expression2&gt; 모두 부울 값이어야 합니다. 결과는 부울 값입니다.</td><td><pre>3.14 &gt; 2 및 3.15 &lt; 1</pre></td></tr>
+<tr><td>and</td><td><p><pre>&lt;expression1&gt; 및 &lt;expression2&gt;</pre></p>&lt;expression1&gt; 및 &lt;expression2&gt; 모두 부울 값이어야 합니다. 결과는 부울 값입니다.</td><td><pre>3.14 &gt; 2 및 3.15 &lt; 1</pre></td></tr>
 <tr><td>또는</td><td><p><pre>&lt;expression1&gt; 또는 &lt;expression2&gt;</pre></p><p>&lt;expression1&gt; 및 &lt;expression2&gt; 모두 부울 값이어야 합니다.</p><p> 결과는 부울 값입니다.</p></td><td><p><pre>3.14 &gt; 2 또는 3.15 &lt; 1</pre></p></td></tr>
 <tr><td>not</td><td><p><pre>not &lt;expression&gt;</pre></p><p>&lt;expression&gt;은 boolean이어야 합니다.</p><p> 결과는 부울 값입니다.</p></td><td><pre>not 3.15 &lt; 1</pre></td></tr>
 </tbody>
-  </table>
+</table>
 
 ## 비교
 
@@ -88,11 +88,13 @@ ht-degree: 4%
 
 <table>
 <thead>
-<tr><th>연산자</th><th>리터럴 식 </th><th>예제</th></tr>
+<tr><th>연산자</th><th>리터럴 식</th><th>예제</th></tr>
 </thead>
 <tbody><tr><td>숫자</td><td><p><pre>&lt;expression&gt; is numeric</pre></p><p>식의 유형은 정수 또는 소수입니다.</p></td><td><pre>@ 숫자</pre></td></tr>
 <tr><td>정수</td><td><p><pre>&lt;expression&gt;은(는) 정수입니다.</pre></p><p>표현식 유형은 정수입니다.</p></td><td><pre>@ is 정수</pre></td></tr>
 <tr><td>decimal</td><td><p><pre>&lt;expression&gt; is decimal</pre></p><p>표현식 유형은 소수입니다.</p></td><td><pre>@ decimal</pre></td></tr>
+</tbody>
+</table>
 
 ## 문자열
 
