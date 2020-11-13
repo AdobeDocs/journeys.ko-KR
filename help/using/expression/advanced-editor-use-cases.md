@@ -9,15 +9,15 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 2af6e632461a8c01451f96c121469c9a32ae7f32
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '494'
 ht-degree: 2%
 
 ---
 
 
-# 고급 표현식 편집기 사용
+# 고급 표현식 예제
 
 고급 표현식 편집기를 사용하여 여정의 사용자를 필터링할 수 있는 조건을 만들 수 있습니다. 이러한 조건을 통해 시간, 날짜, 위치, 기간 또는 장바구니 구매 또는 포기와 같은 작업을 기준으로 사용자를 타깃팅하여 방문에서 재타깃팅할 수 있습니다.
 
@@ -54,24 +54,23 @@ ht-degree: 2%
 
 지정된 타임스탬프는 날짜 시간 값 역할을 하며 두 번째는 일 수입니다.
 
-    &quot;
-    In(&quot;addToCart&quot;, #{ExperiencePlatformDataSource
-    .ExperienceEventGroup
-    .experienceevent
-    .all(
-    inLastDays(currentDataPackField.timestamp, 7))
-    .productData
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    .productInteraction})및 Not(In(&quot;completePurchase&quot;, #{ExperiencePlatform 데이터SourceExperienceEventFieldGroupExperience.eventencepeclipsall.eventLastLastDays(currentDataPackPackField.7) fieldInteractionProductDataVertistering}&quot;
+```
+        In( “addToCart”, #{ExperiencePlatformDataSource
+                        .ExperienceEventFieldGroup
+                        .experienceevent
+                        .all(
+                        inLastDays(currentDataPackField.timestamp, 7 ))
+                        .productData
+                        .productInteraction})
+        And
+        Not(In( “completePurchase”, #{ExperiencePlatformDataSource
+                        .ExperienceEventFieldGroup
+                        .experienceevent
+                        .all(
+                        inLastDays(currentDataPackField.timestamp, 7 ))
+                        .productData
+                        .productInteraction})
+```
 
 이 표현식은 부울을 반환합니다.
 
@@ -107,44 +106,42 @@ ht-degree: 2%
 
 이 조건은 &quot;Arlington&quot;에서 트리거된 지각 사건만 검색합니다.
 
-    &quot;
-    @{GeofenceEntry
-    .placeContext
-    .POIinteraction
-    .POIDetail
-    .name} == &quot;Arlington&quot;
-    &quot;
+```
+        @{GeofenceEntry
+                    .placeContext
+                    .POIinteraction
+                    .POIDetail
+                    .name} == "Arlington"
+```
 
 설명:이것은 엄격한 문자열 비교(대/소문자 구분)로서, `equal to` `Is sensitive` 확인과 함께 사용하는 단순 모드의 질의에 해당합니다.
 
 선택 `Is sensitive` 취소가 적용된 동일한 쿼리는 고급 모드에서 다음 표현식을 생성합니다.
 
-    &quot;
-    equalIgnoreCase(@{GeofenceEntry
-    .placeContext
-    .POIinteraction
-    .POIDetail
-    .name}, &quot;Arlington&quot;)
-    
-    &quot;
+```
+        equalIgnoreCase(@{GeofenceEntry
+                        .placeContext
+                        .POIinteraction
+                        .POIDetail
+                        .name}, "Arlington")
+```
 
 **동작**
 
 다음 표현식을 사용하면 작업 개인화 필드에서 CRM ID를 정의할 수 있습니다.
 
-    &quot;
+```
     substr(@{MobileAppLaunch
-    ._myorganization
-    .identification
-    .crmid}, 1,
-    lastIndexOf(@{MobileAppLaunch
-    )_myorganization
-    .identification
-    .crmid}
-    }
-    )
-    
-    &quot;
+            ._myorganization
+            .identification
+            .crmid}, 1, 
+            lastIndexOf(@{MobileAppLaunch
+                        ._myorganization
+                        .identification
+                        .crmid}
+                         }
+                         ))
+```
 
 설명:이 예제에서는 `substr` 및 함수를 사용하여 모바일 앱 실행 이벤트로 전달된 CRM ID를 포함하는 중괄호를 `lastIndexOf` 제거합니다.
 
