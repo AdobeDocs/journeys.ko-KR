@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+source-git-commit: 9fc7f0664afa19e3debe2ad4f37d6b794da0ed1f
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 15%
@@ -20,7 +20,7 @@ ht-degree: 15%
 # 사용자 지정 작업 구성 {#concept_sxy_bzs_dgb}
 
 제3자 시스템을 사용하여 메시지를 전송하거나 API 호출 [!DNL Journey Orchestration] 을 제3자 시스템에 전송하려는 경우 여기에서 연결을 구성합니다 [!DNL Journey Orchestration]. 그러면 기술 사용자가 정의한 사용자 지정 작업을 경로의 왼쪽 팔레트에서 **[!UICONTROL Action]** 카테고리( [이 페이지](../building-journeys/about-action-activities.md)참조)로 사용할 수 있습니다. 다음은 사용자 정의 동작과 연결할 수 있는 시스템의 몇 가지 예입니다.Epsilon, Facebook, Adobe.io, Firebase 등
-제한 사항은 [이 페이지에 나열되어 있습니다](../action/custom-action-limitations.md).
+제한 사항은 [이 페이지에 나열되어 있습니다](../about/limitations.md).
 
 사용자 지정 작업을 구성하는 데 필요한 기본 단계는 다음과 같습니다.
 
