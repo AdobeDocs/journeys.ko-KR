@@ -5,9 +5,9 @@ user-guide-title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축에 대한 방법 지침을 제공합니다.
 index: true
 translation-type: tm+mt
-source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
+source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 100%
    + [설명서 업데이트 정보](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] 시작 {#starting-with-journeys}
    + [정보 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [제한 사항](using/about/limitations.md)
    + [시작](using/about/get-started.md)
    + [사용자 인터페이스](using/about/user-interface.md)
    + [액세스 관리](using/about/access-management.md)
@@ -44,7 +45,6 @@ ht-degree: 100%
    + [Adobe Campaign 작업](using/action/working-with-adobe-campaign.md)
    + 서드파티 시스템 사용 {#action-third-party}
       + [사용자 지정 작업 구성](using/action/about-custom-action-configuration.md)
-      + [사용자 지정 작업 제한](using/action/custom-action-limitations.md)
       + [URL 구성](using/action/url-configuration.md)
       + [메시지 매개 변수 정의](using/action/defining-the-message-parameters.md)
 + Platform 세그먼트 사용 {#configuring-segment}
