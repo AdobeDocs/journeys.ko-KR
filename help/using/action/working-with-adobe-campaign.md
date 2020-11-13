@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '299'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ Journey Orchestration에서 사용하려면 Campaign Standard 트랜잭션 메�
 
 >[!NOTE]
 >
->Adobe Campaign Standard 트랜잭션 메시징이 오버로드되지 않도록 Campaign Standard 통합에 대한 **매핑 규칙** 설정을 권장합니다.
+>Adobe Campaign Standard 트랜잭션 메시징은 지정된 인스턴스에 대해 채널에서 최대 시간당 50,000개의 메시지 크기를 갖습니다. 오버로드 위험을 줄이기 위해 Campaign Standard 통합에 대해 **매핑 규칙** 설정을 권장합니다.
 >
 >Adobe Campaign Standard 제품 설명에서 트랜잭션 메시징 SLA에 대한 자세한 내용을 [참조하십시오](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html).
 
