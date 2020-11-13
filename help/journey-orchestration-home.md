@@ -2,11 +2,11 @@
 keywords: Journeys;home;popular topics
 title: Journey Orchestration 제품 설명서
 topic: Premium
-translation-type: ht
-source-git-commit: 8d5a2538859d0438d8536c1e359f981d6ac179f0
-workflow-type: ht
-source-wordcount: '190'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1db145be1b4076f4a8eb7ab995eeed3dab455d50
+workflow-type: tm+mt
+source-wordcount: '263'
+ht-degree: 72%
 
 ---
 
@@ -17,15 +17,20 @@ ht-degree: 100%
 
 ## 시작
 
-* **[Journey Orchestration이란 무엇입니까?](using/about/about-journey-orchestration.md)**<br/>Journey Orchestration에 대해 자세히 알아보십시오.
+* **[Journey Orchestration이란 무엇입니까?](using/about/about-journey-orchestration.md)**<br/>
+Journey Orchestration에 대해 자세히 알아보십시오.
 
-* **[첫 번째 여정 구축](using/about/get-started.md)**<br/>Journey Orchestration을 설정하고 첫 번째 여정을 구축하기 위한 주요 단계를 살펴보십시오.
+* **[첫 번째 여정 구축](using/about/get-started.md)**<br/>
+Journey Orchestration을 설정하고 첫 번째 여정을 구축하기 위한 주요 단계를 살펴보십시오.
 
-* **[이벤트 구성](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>여정에서 유의해야 할 이벤트를 구성하는 방법을 알아보십시오.
+* **[이벤트 구성](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>
+여정에서 유의해야 할 이벤트를 구성하는 방법을 알아보십시오.
 
-* **[새로운 기능 확인](using/release-notes/release-notes.md)**<br/>최신 릴리스에 대해 자세히 확인해 보십시오.
+* **[새로운 기능 확인](using/release-notes/release-notes.md)**<br/>
+최신 릴리스에 대해 자세히 확인해 보십시오.
 
-* **[알파 기능](using/alpha/alpha-overview.md)**<br/>현재 알파 프로그램을 통해 사용 가능한 기능을 알아보십시오.
+* **[알파 기능](using/alpha/alpha-overview.md)**<br/>
+현재 알파 프로그램을 통해 사용 가능한 기능을 알아보십시오.
 
 ## 상위 페이지
 
@@ -66,9 +71,17 @@ ht-degree: 100%
 
 ## 추가 자료
 
+* [Journey Orchestration 제품 페이지](https://www.adobe.com/fr/experience-platform/journey-orchestration.html)
 * [Experience Platform 설명서](https://www.adobe.com/kr/experience-platform/documentation-and-developer-resources.html)
 * [실시간 고객 프로필 설명서](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/home.html)
 * [Experience Cloud XDM 필드 정의](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/home.html)
 * [Identity Namespace 설명서](https://docs.adobe.com/content/help/ko-KR/experience-platform/identity/home.html)
 * [스트리밍 수집 API](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/streaming/overview.html)
 * [Campaign Standard 트랜잭션 메시지 설명서](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+
+## 기술 자습서
+
+* [Journey Orchestration 구성](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module6/journey-orchestration-create-account.html#6.여정 운영)
+* [외부 날씨 API, SMS 동작 등](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module12/journey-orchestration-external-weather-api-sms.html#module12)
+* [Journey Orchestration을 사용하여 Dynamics 365에서 연락처 만들기](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module17/ex3.html#17.3-create-a-contact-in-microsoft-dynamics-365-using-journey-orchestration-%26-import-data-from-microsoft-dynamics)
+* [Journey Orchestration을 사용하여 이메일 후속 조치 트리거](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module20/ex4.html#20.4-use-journey-orchestration-to-trigger-an-email-follow-up-after-interacting-with-your-chatbot)
