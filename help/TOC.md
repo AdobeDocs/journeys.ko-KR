@@ -1,14 +1,15 @@
 ---
-product: Journeys
-audience: end-user
-user-guide-title: Journey Orchestration 안내서
+product: adobe campaign
+solution: Journey Orchestration
+user-guide-title: Journey Orchestration
+title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축에 대한 방법 지침을 제공합니다.
 index: true
 translation-type: tm+mt
-source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 99%
 
 ---
 
