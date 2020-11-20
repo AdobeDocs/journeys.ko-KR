@@ -1,23 +1,18 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Journey Orchestration
 description: Journey Orchestration에 대해 자세히 알아보십시오
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 100%
 
 ---
 
 
-# [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
+# About [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
 이벤트나 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 작성할 수 있습니다.
 
