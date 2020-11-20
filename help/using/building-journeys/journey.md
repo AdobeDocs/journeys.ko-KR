@@ -1,15 +1,10 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: 여정 구축
 description: 비즈니스 사용자는 이벤트, 오케스트레이션 및 작업 활동을 통합하여 여정을 구축하는 방법을 살펴봅니다.
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 17%
