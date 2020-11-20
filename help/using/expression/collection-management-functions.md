@@ -1,15 +1,10 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: 컬렉션 관리 기능
 description: 수집 관리 기능의 데이터 유형에 대한 자세한 내용
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 2af6e632461a8c01451f96c121469c9a32ae7f32
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 1%
@@ -85,7 +80,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 결과는 사실이다.
 
-**예 2:**
+**예제 2:**
 
 여기서는 **[!UICONTROL count]** 함수를 사용하여 컬렉션에 푸시 알림 토큰이 있는지 확인합니다.
 
@@ -194,7 +189,7 @@ _`<listExpression>.last(<condition>)`_
 
 결과는 &quot;token_1&quot;입니다.
 
-**예 2:**
+**예제 2:**
 
 이 표현식은 버전이 1.0인 모바일 응용 프로그램에 연결된 마지막 푸시 알림 토큰을 반환합니다.
 
