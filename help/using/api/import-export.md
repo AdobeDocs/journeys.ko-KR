@@ -1,13 +1,11 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: 가져오기 내보내기 API 설명
 description: 가져오기 내보내기 API에 대한 자세한 내용을 살펴보십시오.
-contentOwner: sauviat
 products: journeys
-audience: audiences
-content-type: reference
-topic-tags: journeys
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 1%
@@ -57,7 +55,7 @@ Journey Orchestration API 액세스는 아래 단계를 통해 설정됩니다. 
 >Adobe I/O에서 인증서를 관리하려면 조직 또는 <b>개발자 계정에</b> 대한 [시스템 관리자](https://helpx.adobe.com/enterprise/using/manage-developers.html) 권한이 있어야 합니다. 관리 콘솔에서는개발자 계정이관리되어야 합니다.
 
 1. **디지털 인증서가 있는지**&#x200B;확인하거나 필요한 경우 디지털 인증서를 만듭니다. 인증서와 함께 제공된 공개 및 개인 키는 다음 단계에 필요합니다.
-1. **Adobe I/O에서[!DNL Journey Orchestration]서비스** 통합을 새로 만들어 구성합니다. Journey Orchestration 및 Adobe Experience Platform에 대한 제품 프로필 액세스 권한이 필요합니다. 그러면 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).
+1. **Adobe I/O에서 [!DNL Journey Orchestration] 서비스** 통합을 새로 만들어 구성합니다. Journey Orchestration 및 Adobe Experience Platform에 대한 제품 프로필 액세스 권한이 필요합니다. 그러면 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).
 1. **이전에 생성된 자격 증명에서 JWT(JSON Web Token)** 을 만들어 개인 키로 서명합니다. JWT는 Adobe이 ID를 확인하고 API에 대한 액세스 권한을 부여하는 데 필요한 모든 ID 및 보안 정보를 인코딩합니다. 이 단계는 이 [섹션에 자세히 설명되어 있습니다](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **POST 요청이나 개발자 콘솔 인터페이스를 통해 JWT를 액세스 토큰과** 교환합니다. 이 액세스 토큰은 API 요청의 각 헤더에서 사용해야 합니다.
 
