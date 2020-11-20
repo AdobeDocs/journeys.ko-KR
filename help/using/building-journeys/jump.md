@@ -1,15 +1,10 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: 한 여정에서 다른 여정으로 이동
 description: 한 여정에서 다른 여정으로 이동
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1ec824dcfd54bde5f3aab80ce30dbc9a19b9e4c1
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -70,7 +65,7 @@ Jump **Action** 활동을 사용하면 개별 고객을 한 여정에서 다른 
 
    ![](../assets/jump2.png)
 
-1. Target 경로 **필드 안쪽을** 클릭합니다.
+1. Target **경로** 필드 안쪽을 클릭합니다.
 목록에는 초안, 라이브 또는 테스트 모드인 모든 경로 버전이 표시됩니다. 다른 네임스페이스를 사용하거나 **세그먼트 자격** 이벤트로 시작하는 여정은 사용할 수 없습니다. 루프 패턴을 만드는 Target 여정이다.
 
    ![](../assets/jump3.png)
