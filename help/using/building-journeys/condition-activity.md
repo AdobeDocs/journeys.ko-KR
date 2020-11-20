@@ -1,15 +1,10 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: 조건 활동
 description: 조건 활동에 대한 자세한 내용
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 10%
@@ -44,9 +39,9 @@ ht-degree: 10%
 
 정의된 조건에 해당되지 않는 대상에 대해 확인란을 선택하여 다른 경로를 만들 수 있습니다 **[!UICONTROL Show path for other cases than the one(s) above]**. 분할 조건에서는 이 옵션을 사용할 수 없습니다. 백분율 [분할을 참조하십시오](#percentage_split).
 
-단순 모드에서는 필드 조합을 기반으로 간단한 쿼리를 수행할 수 있습니다. 사용 가능한 모든 필드가 화면 왼쪽에 표시됩니다. 필드를 주 영역으로 드래그하여 놓습니다. 서로 다른 요소를 결합하려면 요소를 서로 인터록하여 다양한 그룹 및/또는 그룹 수준을 만듭니다. 그런 다음 논리 연산자를 선택하여 동일한 수준에서 요소를 결합할 수 있습니다.
+단순 모드에서는 필드 조합을 기반으로 간단한 쿼리를 수행할 수 있습니다. 사용 가능한 모든 필드가 화면 왼쪽에 표시됩니다. 필드를 주 영역으로 드래그하여 놓습니다.  그런 다음 논리 연산자를 선택하여 동일한 수준에서 요소를 결합할 수 있습니다.
 
-* AND:두 가지 기준이 교차하는 점. 모든 기준과 일치하는 요소만 고려됩니다.
+*  모든 기준과 일치하는 요소만 고려됩니다.
 * OR:두 가지 기준의 결합. 두 기준 중 하나 이상에 일치하는 요소를 고려합니다.
 
 ![](../assets/journey64.png)
