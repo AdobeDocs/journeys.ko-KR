@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 데이터 유형
 description: 고급 표현식의 데이터 유형에 대해 알아보기
 translation-type: tm+mt
-source-git-commit: f755f92d0479e2889dd7ed6dfa5e72d52c25634f
+source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '558'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 아래의 섹션에서는 다양한 데이터 유형 표현식과 표현식에 대한 정보를 제공합니다.
 
-## 문자열 {#string}
+## string {#string}
 
 **설명**
 
@@ -30,15 +30,23 @@ JSON 형식:문자열
 
 **리터럴 표현**
 
-```"<value>"```
+```
+"<value>"
+```
 
-```'<value>'```
+```
+'<value>'
+```
 
 **예제**
 
-```"hello world"```
+```
+"hello world"
+```
 
-```'hello world'```
+```
+'hello world'
+```
 
 ## 정수 {#integer}
 
@@ -50,11 +58,15 @@ JSON 형식:숫자
 
 **리터럴 표현**
 
-```<integer value>```
+```
+<integer value>
+```
 
 **예제**
 
-```42```
+```
+42
+```
 
 ## 소수 {#decimal}
 
@@ -72,11 +84,15 @@ JSON 형식:숫자
 
 **리터럴 표현**
 
-```<integer value>.<integer value>```
+```
+<integer value>.<integer value>
+```
 
 **예제**
 
-```3.14```
+```
+3.14
+```
 
 ## boolean {#boolean}
 
@@ -88,13 +104,19 @@ JSON 형식:부울
 
 **리터럴 표현**
 
-```true```
+```
+true
+```
 
-```false```
+```
+false
+```
 
 **예제**
 
-```true```
+```
+true
+```
 
 ## dateTimeOnly {#date-time-only}
 
@@ -112,7 +134,9 @@ DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 역직렬화하고 
 
 **리터럴 표현**
 
-```toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  ```
+```
+toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
+```
 
 ## dateTime {#date-time}
 
@@ -136,23 +160,39 @@ epoch 값을 전달하는 정수도 전달할 수 있습니다. [자세한 내�
 
 **리터럴 표현**
 
-```toDateTime("<dateTime in ISO-8601 format>")```
+```
+toDateTime("<dateTime in ISO-8601 format>")
+```
 
-```toDateTime(<integer value of an epoch in milliseconds>)```
+```
+toDateTime(<integer value of an epoch in milliseconds>)
+```
 
 **예제**
 
-```toDateTime("1977-04-22T06:00:00Z")```
+```
+toDateTime("1977-04-22T06:00:00Z")
+```
 
-```toDateTime("2011-12-03T15:15:30Z")```
+```
+toDateTime("2011-12-03T15:15:30Z")
+```
 
-```toDateTime("2011-12-03T15:15:30.123Z")```
+```
+toDateTime("2011-12-03T15:15:30.123Z")
+```
 
-```toDateTime("2011-12-03T15:15:30.123+02:00")```
+```
+toDateTime("2011-12-03T15:15:30.123+02:00")
+```
 
-```toDateTime("2011-12-03T15:15:30.123-00:20")```
+```
+toDateTime("2011-12-03T15:15:30.123-00:20")
+```
 
-```toDateTime(1560762190189)```
+```
+toDateTime(1560762190189)
+```
 
 ## 지속 시간 {#duration}
 
@@ -172,31 +212,55 @@ Duration.parse:허용되는 포맷은 정확히 24시간으로 간주되는 날�
 
 **리터럴 표현**
 
-```toDuration("<duration in ISO-8601 format>")```
+```
+toDuration("<duration in ISO-8601 format>")
+```
 
-```toDuration(<duration in milliseconds>)```
+```
+toDuration(<duration in milliseconds>)
+```
 
 **예제**
 
-```toDuration("PT5S")``` 5초로 된 구문
+```
+toDuration("PT5S") -- parses as 5 seconds
+```
 
-```toDuration(500)``` 500ms
+```
+toDuration(500) -- parses as 500ms
+```
 
-```toDuration("PT20.345S")``` 구문: &quot;20.345초&quot;
+```
+toDuration("PT20.345S") -- parses as "20.345 seconds"
+```
 
-```toDuration("PT15M") ``` 구문(&quot;15분&quot;, 분(60초)
+```
+toDuration("PT15M") -- parses as "15 minutes" (where a minute is 60 seconds)
+```
 
-```toDuration("PT10H") ``` parses as &quot;10hours&quot; (a hour is 3600 초인 경우)
+```
+toDuration("PT10H")  -- parses as "10 hours" (where an hour is 3600 seconds)
+```
 
-```toDuration("P2D") ``` 구문 &quot;2일&quot;(하루가 24시간 또는 86400초인 경우)
+```
+toDuration("P2D") -- parses as "2 days" (where a day is 24 hours or 86400 seconds)
+```
 
-```toDuration("P2DT3H4M") ```&quot;2일, 3시간 4분&quot;으로
+```
+toDuration("P2DT3H4M") -- parses as "2 days, 3 hours and 4 minutes"
+```
 
-```toDuration("P-6H3M") ``` &quot;-6시간 및 +3분&quot;으로
+```
+toDuration("P-6H3M") -- parses as "-6 hours and +3 minutes"
+```
 
-```toDuration("-P6H3M")``` &quot;-6시간 및 -3분&quot;
+```
+toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
+```
 
-```toDuration("-P-6H+3M") ``` &quot;+6시간 및 -3분&quot;
+```
+toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
+```
 
 ## list {#list}
 
@@ -208,12 +272,20 @@ Duration.parse:허용되는 포맷은 정확히 24시간으로 간주되는 날�
 
 **리터럴 표현**
 
-```[<expression>, <expression>, ... ]```
+```
+[<expression>, <expression>, ... ]
+```
 
 **예제**
 
-```["value1","value2"]```
+```
+["value1","value2"]
+```
 
-```[3,5]```
+```
+[3,5]
+```
 
-```[toDuration(500),toDuration(800)]```
+```
+[toDuration(500),toDuration(800)]
+```
