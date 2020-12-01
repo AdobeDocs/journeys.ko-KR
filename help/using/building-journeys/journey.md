@@ -4,13 +4,12 @@ solution: Journey Orchestration
 title: 여정 구축
 description: 비즈니스 사용자는 이벤트, 오케스트레이션 및 작업 활동을 통합하여 여정을 구축하는 방법을 살펴봅니다.
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 17%
 
 ---
-
 
 
 # 여정 만들기 {#concept_gq5_sqt_52b}
