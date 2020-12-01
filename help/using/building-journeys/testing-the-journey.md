@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 여정 테스트
 description: '고객 여정 테스트에 대한 자세한 내용 '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 5e97f511872a924cc8c2c3a6904859d63ebeddcd
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1442'
 ht-degree: 3%
 
 ---
@@ -133,6 +133,16 @@ curl -X POST \
 테스트에서 경로를 열 때 표시되는 경로는 마지막으로 실행된 테스트에 해당합니다.
 
 시각적 흐름은 인터페이스를 통해 이벤트가 트리거되는지 외부적으로 트리거되는지(예: Postman 사용) 확인합니다.
+
+## 규칙 기반 여정의 테스트 모드 {#test-rule-based}
+
+규칙 기반 이벤트를 사용하는 여정에 대해서도 테스트 모드를 사용할 수 있습니다. For more information on rule-based events, refer to [this page](../event/about-events.md).
+
+이벤트를 트리거할 때 **이벤트 구성** 화면에서 테스트에 전달할 이벤트 매개 변수를 정의할 수 있습니다. 오른쪽 상단 모서리의 도구 설명 아이콘을 클릭하여 이벤트 ID 조건을 볼 수 있습니다. 규칙 평가의 일부인 각 필드 옆에는 도구 설명이 있습니다.
+
+![](../assets/alpha-event8.png)
+
+테스트 모드 사용 방법에 대한 자세한 내용은 [이 페이지를 참조하십시오](../building-journeys/testing-the-journey.md).
 
 ## 로그 보기 {#viewing_logs}
 
