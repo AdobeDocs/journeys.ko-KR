@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: 릴리스 정보
 description: 릴리스 정보에 대해 알아보기
 translation-type: tm+mt
-source-git-commit: 3015d4caaedbd45ea5b94e426788f39b2774053e
+source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
 workflow-type: tm+mt
 source-wordcount: '2055'
 ht-degree: 77%
@@ -80,7 +80,7 @@ ht-degree: 77%
 
 경로의 새 버전을 만들 때 제한 사항이 추가되었습니다. 이러한 제한 사항은 버전 간의 일관성을 유지하기 위해 여정의 급격한 변경을 방지합니다. [자세한 내용](../about/limitations.md#journey-versions-limitations)
 
-Campaign Standard 메시지 **활동이 포함된 여정에서 세그먼트 자격** 활동을 더 이상 사용할 수 없습니다. 이러한 제한은 Adobe Campaign Standard 인스턴스의 무결성을 보호합니다. 실제로, 세그먼트 자격 사용은 Campaign Standard 트랜잭션 메시징을 과부하가 발생하는 메시지 전송의 일별 최고점을 초래할 수 있습니다. [자세한 내용](../about/limitations.md#segment-qualification)
+Campaign Standard 메시지 활동을 포함하는 여정에서 **세그먼트 자격 조건** 활동을 더 이상 사용할 수 없습니다. 이러한 제한은 Adobe Campaign Standard 인스턴스의 무결성을 보호합니다. 실제로, 세그먼트 자격 사용은 Campaign Standard 트랜잭션 메시징을 과부하가 발생하는 메시지 전송의 일별 최고점을 초래할 수 있습니다. [자세한 내용](../about/limitations.md#segment-qualification)
 
 ## 2020년 10월 릴리스 {#october-release}
 
@@ -139,7 +139,7 @@ Campaign Standard 메시지 **활동이 포함된 여정에서 세그먼트 자�
 <tbody>
 <tr>
 <td>
-<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+<p><strong>세그먼트 읽기</strong> 활동이 다음과 같이 개선되었습니다.
 </p>
 <ul>
 <li><p>이제 캔버스 위에 세그먼트 기반 여정이 표시되므로 여정의 일정 유형을 미리 볼 수 있습니다. 이 미리 알림을 클릭하여 예약 구성 메뉴에 액세스할 수 있습니다.</p>
@@ -147,7 +147,7 @@ Campaign Standard 메시지 **활동이 포함된 여정에서 세그먼트 자�
 <li><p>테스트 모드 로그의 세부기간이 개선되어 세그먼트 내보내기 진행 상태를 표시합니다.</p>
 </li>
 </ul>
-<p>세그먼트 <strong>읽기</strong> 활동에 대한 자세한 내용은 <a href="../alpha/alpha-segment-trigger.md">자세한 설명서를 참조하십시오</a>.</p>
+<p><strong>세그먼트 읽기</strong> 활동에 대한 자세한 내용은 <a href="../alpha/alpha-segment-trigger.md">자세한 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
