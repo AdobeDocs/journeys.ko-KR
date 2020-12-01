@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 릴리스 정보
 description: 릴리스 정보에 대해 알아보기
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 90%
+source-wordcount: '2055'
+ht-degree: 77%
 
 ---
 
@@ -16,6 +16,71 @@ ht-degree: 90%
 
 이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 [설명서 업데이트](../release-notes/documentation-updates.md)도 확인할 수 있습니다.
+
+## 2020년 11월 릴리스 {#november-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>한 여정에서 다른 여정으로 이동</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>개별 고객을 하나의 경로에서 다른 방문으로 유도할 수 있는 새로운 작업 활동이 추가되었습니다. Jump 활동에서는 다음을 수행할 수 있습니다.
+</p>
+<ul>
+<li>매우 복잡한 여정의 디자인을 여러 여정으로 나누어 단순화합니다. </li>
+<li>일반적인 여정 패턴과 재사용 가능한 여정 패턴을 기반으로 한 UX 구축</li>
+</ul>
+<p>자세한 내용은 <a href="../building-journeys/jump.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>표현식 편집기에서 경로 속성 사용</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>고급 표현식 편집기에서 필드 및 함수 목록에 새 카테고리를 추가했습니다. 이 정보는 방문 ID 또는 발생한 특정 오류와 같이 시스템이 라이브 경로에서 검색한 정보입니다. 이를 통해 여행을 만들 때 더 많은 가능성을 얻을 수 있습니다. 예를 들어 조건이나 작업에서 오류가 발생하는 경우 타사 시스템에 경고를 보낼 수 있습니다.
+</p>
+<p>이 기능은 향후 며칠 이내에 제공될 예정입니다.</p>
+<p>자세한 내용은 <a href="../expression/journey-properties.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>규칙 기반 이벤트 (베타)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이벤트를 보다 쉽게 설정할 수 있는 새로운 방법이 추가되었습니다. 알파 프로그램을 통해 제한된 고객 세트에서 테스트된 이 기능은 이제 모든 고객에게 베타 버전으로 제공됩니다. 이 새 메서드는 eventID를 사용할 필요가 없습니다. 조건에 따라 이벤트가 트리거되어야 하는지 여부를 평가합니다. "시스템 생성"이라는 기존 방법을 계속 사용할 수 있습니다.
+</p>
+<p>이 기능은 향후 며칠 이내에 제공될 예정입니다.</p>
+<p>자세한 내용은 <a href="../expression/journey-properties.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 기타 개선 사항{#october-november}
+
+경로의 새 버전을 만들 때 제한 사항이 추가되었습니다. 이러한 제한 사항은 버전 간의 일관성을 유지하기 위해 여정의 급격한 변경을 방지합니다. [자세한 내용](../about/limitations.md#journey-versions-limitations)
+
+Campaign Standard 메시지 **활동이 포함된 여정에서 세그먼트 자격** 활동을 더 이상 사용할 수 없습니다. 이러한 제한은 Adobe Campaign Standard 인스턴스의 무결성을 보호합니다. 실제로, 세그먼트 자격 사용은 Campaign Standard 트랜잭션 메시징을 과부하가 발생하는 메시지 전송의 일별 최고점을 초래할 수 있습니다. [자세한 내용](../about/limitations.md#segment-qualification)
 
 ## 2020년 10월 릴리스 {#october-release}
 
@@ -135,11 +200,11 @@ ht-degree: 90%
 <p>규칙 기반 이벤트에는 다음과 같은 사항이 개선되었습니다.
 </p>
 <ul>
-<li><p>이제 모든 Adobe Analytics 행동 이벤트 데이터를 활용하여 이미 플랫폼에 스트리밍 및 캡처하고 있으므로 고객을 위한 고객 여정을 트리거하고 경험을 자동화할 수 있습니다. <a href="../alpha/alpha-events.md#analytics-data">자세한 내용</a></p>
+<li><p>이제 모든 Adobe Analytics 행동 이벤트 데이터를 활용하여 이미 플랫폼에 스트리밍 및 캡처하고 있으므로 고객을 위한 고객 여정을 트리거하고 경험을 자동화할 수 있습니다. <a href="../event/about-analytics.md">자세한 내용</a></p>
 </li>
-<li><p>이제 테스트 모드에서 규칙 기반 이벤트를 트리거할 때 이벤트 ID 조건을 직접 볼 수 있습니다. 또한 규칙 평가의 일부인 각 필드 옆에 도구 설명이 추가되었습니다. <a href="../alpha/alpha-events.md#configuring-rule-based">자세한 내용</a></p>
+<li><p>이제 테스트 모드에서 규칙 기반 이벤트를 트리거할 때 이벤트 ID 조건을 직접 볼 수 있습니다. 또한 규칙 평가의 일부인 각 필드 옆에 도구 설명이 추가되었습니다. <a href="../building-journeys/testing-the-journey.md#test-rule-based">자세한 내용</a></p>
 </li>
-<li><p>향상된 경험을 위해 규칙 기반 이벤트 정의 화면이 재구성되었습니다. <a href="../alpha/alpha-events.md#test-rule-based">자세한 내용</a></p>
+<li><p>향상된 경험을 위해 규칙 기반 이벤트 정의 화면이 재구성되었습니다. <a href="../event/about-creating.md">자세한 내용</a></p>
 </li>
 </ul>
 </td>
@@ -201,7 +266,7 @@ ht-degree: 90%
 <tbody>
 <tr>
 <td>
-<p>경험 이벤트를 설정하는 방법을 간소화했습니다. eventID를 사용할 필요가 없는 새 메서드가 도입되었습니다. 이제 Journey Orchestration에서 이벤트를 설정할 때 규칙 기반 이벤트를 정의할 수 있습니다. <a href="../alpha/alpha-events.md">자세한 내용</a>
+<p>경험 이벤트를 설정하는 방법을 간소화했습니다. eventID를 사용할 필요가 없는 새 메서드가 도입되었습니다. 이제 Journey Orchestration에서 이벤트를 설정할 때 규칙 기반 이벤트를 정의할 수 있습니다. <a href="../event/about-events.md">자세한 내용</a>
 </p>
 </td>
 </tr>
@@ -277,8 +342,6 @@ ht-degree: 90%
 Journey Orchestration 인터페이스를 일본어로 사용할 수 있습니다.
 
 ## 1분기 릴리스 - 2020년 3월 {#q1-release---march-2020}
-
-**새로운 기능?**
 
 <table>
 <thead>
