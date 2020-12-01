@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 필드 참조
 description: 고급 표현식의 필드 참조에 대해 알아보기
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: e2f7c39e61118c42272f730cf5f688ee34d6a9c2
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '434'
 ht-degree: 3%
 
 ---
@@ -55,6 +55,38 @@ ht-degree: 3%
 >[!NOTE]
 >
 >필드의 유형과 기본값은 동일해야 합니다. 예: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue :기본값은 정수이지만 예상 값은 문자열이어야 하므로 2}이(가) 잘못되었습니다.
+
+예제:
+
+```
+// for an event 'OrderEvent' having the following payload:
+{
+    "orderId": "12345"
+}
+ 
+expression example:
+- @{OrderEvent.orderId}                                    -> "12345"
+- @{OrderEvent.producdId, defaultValue : "not specified" } -> "not specified" // default value, productId is not a field present in the payload
+- @{OrderEvent.productId}                                  -> null
+ 
+ 
+// for an entity 'Profile' on datasource 'ACP' having fields person/lastName, with fetched data such as:
+{
+    "person": {
+        "lastName":"Snow"
+    },
+    "emails": [
+        { "email":"john.snow@winterfell.westeros" },
+        { "email":"snow@thewall.westeros" }
+    ]
+}
+ 
+expression examples:
+- #{ACP.Profile.person.lastName}                 -> "Snow"
+- #{ACP.Profile.emails.at(1).email}              -> "snow@thewall.westeros"
+- #{ACP.Profile.person.age, defaultValue : -1}   -> -1 // default value, age is not a field present in the payload
+- #{ACP.Profile.person.age}                      -> null
+```
 
 **컬렉션 내 필드 참조**
 
