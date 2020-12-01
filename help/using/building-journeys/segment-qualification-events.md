@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 세그먼트 자격 이벤트
 description: 세그먼트 자격 이벤트에 대한 자세한 내용
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
@@ -82,6 +82,8 @@ ht-degree: 1%
 ### 스트리밍된 세그먼트{#streamed-speed-segment-qualification}
 
 스트리밍된 세그먼트에 대한 세그먼트 자격을 사용하는 경우 세그먼트에 대한 지속적인 평가로 인해 입장구/출구의 높은 위험이 줄어듭니다. 하지만 세그먼트 정의가 많은 고객이 동시에 자격을 얻는 경우 최고점도 있을 수 있습니다.
+
+For more information on streaming segmentation, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### 오버로드를 방지하는 방법{#overloads-speed-segment-qualification}
 
