@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 조건 추가
 description: 조건을 추가하는 방법 살펴보기
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: bf371ef7f2f69cf610c6644db648d304dc9ba525
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '205'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # 조건 추가 {#concept_rbg_gqt_52b}
 
-이벤트 조건을 사용하면 시스템에서 이벤트 처리를 필터링할 수 있습니다. 조건이 true이면 이벤트가 처리됩니다. 조건이 true가 아니면 이벤트가 무시됩니다.
+시스템에서 생성된 이벤트의 경우 시스템에서 이벤트 처리를 필터링할 수 있는 이벤트 조건을 정의할 수 있습니다. 조건이 true이면 이벤트가 처리됩니다. 조건이 true가 아니면 이벤트가 무시됩니다.
 
 이벤트의 조건은 이벤트 페이로드에서 전달된 데이터만 기반으로 할 수 있습니다. 이벤트 수준에서 정의된 조건은 마케터가 캔버스에서 변경할 수 없습니다. 이 이벤트를 사용할 때 이 조건을 강화하는 것이 목적입니다. 예를 들어 장바구니 값이 너무 작은 경우 마케터가 장바구니 포기 이벤트를 사용하지 않도록 하려는 경우 &quot;장바구니 값&quot; 이벤트 필드에 조건을 만들고 100달러 이상의 값을 부과할 수 있습니다.
 
