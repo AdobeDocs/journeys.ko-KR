@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 'Journey Orchestration 이벤트에 대한 ExperienceEvent 스키마 정보 '
 description: 'Journey Orchestration 이벤트에 대한 ExperienceEvent 스키마 알아보기 '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
    ![](../assets/schema2.png)
 
-* 스키마에는 오케스트레이션 eventID 믹신이 포함되어야 합니다. [!DNL Journey Orchestration] 이 필드를 사용하여 여정에 사용된 이벤트를 식별합니다.
+* 시스템에서 생성된 이벤트의 경우 스키마에는 오케스트레이션 eventID 믹신이 포함되어야 합니다. [!DNL Journey Orchestration] 이 필드를 사용하여 여정에 사용된 이벤트를 식별합니다.
 
    ![](../assets/schema3.png)
 
