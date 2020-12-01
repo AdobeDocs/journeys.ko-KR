@@ -6,10 +6,10 @@ title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축에 대한 방법 지침을 제공합니다.
 index: true
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 99%
+source-wordcount: '404'
+ht-degree: 96%
 
 ---
 
@@ -28,14 +28,18 @@ ht-degree: 99%
    + [액세스 관리](using/about/access-management.md)
    + [문제 해결](using/about/troubleshooting.md)
 + 이벤트 구성 {#events-journeys}
-   + [이벤트](using/event/about-events.md)
-   + [ExperienceEvent 스키마](using/event/experience-event-schema.md)
+   + 이벤트 {#about-events}
+      + [일반 원칙](using/event/about-events.md)
+      + [데이터 주기](using/event/about-data-cycle.md)
+      + [이벤트 만들기](using/event/about-creating.md)
+      + [리거즈 Adobe Analytics](using/event/about-analytics.md)
+      + [ExperienceEvent 스키마](using/event/experience-event-schema.md)
+      + [추가적인 이벤트 전송 단계](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [페이로드 필드 정의](using/event/defining-the-payload-fields.md)
    + [네임스페이스 선택](using/event/selecting-the-namespace.md)
    + [이벤트 키 정의](using/event/defining-the-event-key.md)
    + [조건 추가](using/event/adding-a-condition.md)
    + [페이로드 미리 보기](using/event/previewing-the-payload.md)
-   + [추가적인 이벤트 전송 단계](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
 + 데이터 소스 구성 {#data-source-journeys}
    + [데이터 소스](using/datasource/about-data-sources.md)
    + [필드 그룹](using/datasource/field-groups.md)
@@ -75,6 +79,7 @@ ht-degree: 99%
          + [작업 활동](using/building-journeys/about-action-activities.md)
          + [Adobe Campaign 작업 사용](using/building-journeys/using-adobe-campaign-actions.md)
          + [사용자 지정 작업 사용](using/building-journeys/using-custom-actions.md)
+         + [한 여정에서 다른 여정으로 이동](using/building-journeys/jump.md)
    + [여정 테스트](using/building-journeys/testing-the-journey.md)
    + [여정 게시](using/building-journeys/publishing-the-journey.md)
    + Adobe Experience Platform과 여정 단계 공유 {#sharing-journey-steps}
@@ -93,6 +98,7 @@ ht-degree: 99%
       + [필드 참조](using/expression/field-references.md)
       + [컬렉션 관리 기능](using/expression/collection-management-functions.md)
       + [연산자](using/expression/operators.md)
+      + [여정 속성](using/expression/journey-properties.md)
       + [예제](using/expression/advanced-editor-use-cases.md)
    + 함수 {#main-functions-journey}
       + [기본 함수](using/expression/functions.md)
@@ -187,5 +193,4 @@ ht-degree: 99%
    + [알파 기능 개요](using/alpha/alpha-overview.md)
    + [사용자 인터페이스](using/alpha/alpha-interface.md)
    + [세그먼트 활동 읽기](using/alpha/alpha-segment-trigger.md)
-   + [규칙 기반 이벤트](using/alpha/alpha-events.md)
 
