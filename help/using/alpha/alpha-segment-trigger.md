@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 세그먼트 활동 읽기
 description: 세그먼트 읽기 활동에 대해 자세히 알아보십시오.
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '651'
 ht-degree: 4%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 4%
 세그먼트 읽기 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 시작하도록 할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다.
 
 Adobe Experience Platform에 골드 고객 세그먼트가 있다고 합시다. 세그먼트 읽기 활동을 사용하면 골드 고객 세그먼트에 속한 모든 개인이 여정을 시작하고 모든 경로 기능을 활용할 수 있는 개인화된 여정으로 이동할 수 있습니다.조건, 타이머, 이벤트, 작업.
+
+>[!NOTE]
+>
+>이동 및 **읽기 세그먼트** 활동을 동일한 여정에서 사용할 수 없습니다. 세그먼트 **읽기 이벤트로 시작하는 여정으로 이동할** 수는 없습니다.
 
 ## 활동 구성 {#configuring-segment-trigger-activity}
 
