@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 여정 버전
 description: 고객 여정 버전에 대한 자세한 내용
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 3%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 3%
 ![](../assets/journeyversions1.png)
 
 라이브 여정을 수정해야 하는 경우 새로운 버전의 고객 여정을 만들어야 합니다.
+
+>[!NOTE]
+>
+>경로 버전 제한에 대한 자세한 내용은 [이 페이지를 참조하십시오.](../about/limitations.md#journey-versions-limitations)
 
 1. 라이브 여정의 최신 버전을 열고 클릭 **[!UICONTROL Create a new version]** 및 확인합니다.
 
