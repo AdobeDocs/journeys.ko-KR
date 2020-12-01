@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: 릴리스 정보
 description: 릴리스 정보에 대해 알아보기
 translation-type: tm+mt
-source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
+source-git-commit: 3015d4caaedbd45ea5b94e426788f39b2774053e
 workflow-type: tm+mt
 source-wordcount: '2055'
 ht-degree: 77%
@@ -70,7 +70,7 @@ ht-degree: 77%
 <p>이벤트를 보다 쉽게 설정할 수 있는 새로운 방법이 추가되었습니다. 알파 프로그램을 통해 제한된 고객 세트에서 테스트된 이 기능은 이제 모든 고객에게 베타 버전으로 제공됩니다. 이 새 메서드는 eventID를 사용할 필요가 없습니다. 조건에 따라 이벤트가 트리거되어야 하는지 여부를 평가합니다. "시스템 생성"이라는 기존 방법을 계속 사용할 수 있습니다.
 </p>
 <p>이 기능은 향후 며칠 이내에 제공될 예정입니다.</p>
-<p>자세한 내용은 <a href="../expression/journey-properties.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../event/about-events.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
