@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 페이로드 필드 정의
 description: 페이로드 필드를 정의하는 방법에 대해 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '282'
 ht-degree: 6%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >이 **[!UICONTROL eventID]** 필드는 선택한 필드 목록에 자동으로 추가되므로 이벤트를 식별할 [!DNL Journey Orchestration] 수 있습니다. 이벤트를 밀어 넣는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 사용해야 합니다. [이 페이지](../event/previewing-the-payload.md)를 참조하십시오.
+   >시스템에서 생성된 이벤트의 경우, **[!UICONTROL eventID]** 필드는 선택한 필드 목록에 자동으로 추가되므로 이벤트를 식별할 [!DNL Journey Orchestration] 수 있습니다. 이벤트를 밀어 넣는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 사용해야 합니다. [이 페이지](../event/previewing-the-payload.md)를 참조하십시오.
 
 1. 필요한 필드 선택이 끝나면 를 클릭하거나 **[!UICONTROL Save]** 누릅니다 **[!UICONTROL Enter]**.
 
