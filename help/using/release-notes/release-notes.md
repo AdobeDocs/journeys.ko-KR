@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 릴리스 정보
 description: 릴리스 정보에 대해 알아보기
 translation-type: tm+mt
-source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
+source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
-source-wordcount: '2055'
-ht-degree: 77%
+source-wordcount: '2026'
+ht-degree: 78%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 77%
 # 릴리스 정보 {#release-notes}
 
 이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
-[설명서 업데이트](../release-notes/documentation-updates.md)도 확인할 수 있습니다.
+최신 [설명서 업데이트](../release-notes/documentation-updates.md)를 참조할 수도 있습니다.
 
 ## 2020년 11월 릴리스 {#november-release}
 
@@ -28,7 +28,7 @@ ht-degree: 77%
 <tbody>
 <tr>
 <td>
-<p>개별 고객을 하나의 경로에서 다른 방문으로 유도할 수 있는 새로운 작업 활동이 추가되었습니다. Jump 활동에서는 다음을 수행할 수 있습니다.
+<p>새로운 작업 활동을 통해 개별 사용자를 하나의 여정에서 다른 여정으로 푸시할 수 있습니다. <strong>Jump</strong> 활동에서는 다음을 수행할 수 있습니다.
 </p>
 <ul>
 <li>매우 복잡한 여정의 디자인을 여러 여정으로 나누어 단순화합니다. </li>
@@ -51,7 +51,6 @@ ht-degree: 77%
 <td>
 <p>고급 표현식 편집기에서 필드 및 함수 목록에 새 카테고리를 추가했습니다. 이 정보는 방문 ID 또는 발생한 특정 오류와 같이 시스템이 라이브 경로에서 검색한 정보입니다. 이를 통해 여행을 만들 때 더 많은 가능성을 얻을 수 있습니다. 예를 들어 조건이나 작업에서 오류가 발생하는 경우 타사 시스템에 경고를 보낼 수 있습니다.
 </p>
-<p>이 기능은 향후 며칠 이내에 제공될 예정입니다.</p>
 <p>자세한 내용은 <a href="../expression/journey-properties.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
@@ -67,9 +66,8 @@ ht-degree: 77%
 <tbody>
 <tr>
 <td>
-<p>이벤트를 보다 쉽게 설정할 수 있는 새로운 방법이 추가되었습니다. 알파 프로그램을 통해 제한된 고객 세트에서 테스트된 이 기능은 이제 모든 고객에게 베타 버전으로 제공됩니다. 이 새 메서드는 eventID를 사용할 필요가 없습니다. 조건에 따라 이벤트가 트리거되어야 하는지 여부를 평가합니다. "시스템 생성"이라는 기존 방법을 계속 사용할 수 있습니다.
+<p>이제 eventID를 사용하지 않고도 이벤트를 보다 쉽게 설정하는 새로운 방법을 사용할 수 있습니다.규칙 기반 이벤트는 조건에 따라 이벤트가 트리거되어야 하는지 여부를 평가합니다. "시스템 생성"이라는 기존 방법을 계속 사용할 수 있습니다. 알파 프로그램을 통해 제한된 고객 세트에서 테스트된 이 기능은 이제 모든 고객에게 베타 버전으로 제공됩니다.
 </p>
-<p>이 기능은 향후 며칠 이내에 제공될 예정입니다.</p>
 <p>자세한 내용은 <a href="../event/about-events.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
