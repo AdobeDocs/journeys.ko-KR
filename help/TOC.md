@@ -5,11 +5,11 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축에 대한 방법 지침을 제공합니다.
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
    + [릴리스 정보](using/release-notes/release-notes.md)
    + [설명서 업데이트 정보](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] 시작 {#starting-with-journeys}
-   + [정보 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [ [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [제한 사항](using/about/limitations.md)
    + [시작](using/about/get-started.md)
    + [사용자 인터페이스](using/about/user-interface.md)
@@ -32,7 +32,7 @@ ht-degree: 96%
       + [일반 원칙](using/event/about-events.md)
       + [데이터 주기](using/event/about-data-cycle.md)
       + [이벤트 만들기](using/event/about-creating.md)
-      + [리거즈 Adobe Analytics](using/event/about-analytics.md)
+      + [Adobe Analytics 활용](using/event/about-analytics.md)
       + [ExperienceEvent 스키마](using/event/experience-event-schema.md)
       + [추가적인 이벤트 전송 단계](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [페이로드 필드 정의](using/event/defining-the-payload-fields.md)
@@ -79,7 +79,7 @@ ht-degree: 96%
          + [작업 활동](using/building-journeys/about-action-activities.md)
          + [Adobe Campaign 작업 사용](using/building-journeys/using-adobe-campaign-actions.md)
          + [사용자 지정 작업 사용](using/building-journeys/using-custom-actions.md)
-         + [한 여정에서 다른 여정으로 이동](using/building-journeys/jump.md)
+         + [여정 간 이동](using/building-journeys/jump.md)
    + [여정 테스트](using/building-journeys/testing-the-journey.md)
    + [여정 게시](using/building-journeys/publishing-the-journey.md)
    + Adobe Experience Platform과 여정 단계 공유 {#sharing-journey-steps}
@@ -98,7 +98,7 @@ ht-degree: 96%
       + [필드 참조](using/expression/field-references.md)
       + [컬렉션 관리 기능](using/expression/collection-management-functions.md)
       + [연산자](using/expression/operators.md)
-      + [여정 속성](using/expression/journey-properties.md)
+      + [경로 속성](using/expression/journey-properties.md)
       + [예제](using/expression/advanced-editor-use-cases.md)
    + 함수 {#main-functions-journey}
       + [기본 함수](using/expression/functions.md)
