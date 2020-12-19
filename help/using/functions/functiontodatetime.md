@@ -15,7 +15,7 @@ ht-degree: 4%
 
 유형에 따라 매개 변수를 날짜 시간 값으로 변환합니다.
 
-## 범주
+## 카테고리
 
 전환
 
@@ -30,11 +30,11 @@ ht-degree: 4%
 | ISO-8601 형식의 날짜 시간 | 문자열 |
 | 시간대 ID | 문자열 |
 | 시간대 없는 날짜 시간 | dateTimeOnly |
-| epoch의 정수 값(밀리초) | 정수 |
+| epoch의 정수 값(밀리초 단위) | 정수 |
 
 >[!NOTE]
 >
->시간대 ID는 문자열 상수여야 합니다. 필드 참조나 식이 될 수 없습니다. For more information on data types, refer to [this page](../expression/data-types.md).
+>시간대 ID는 문자열 상수여야 합니다. 필드 참조나 표현식이 될 수 없습니다. 데이터 유형에 대한 자세한 내용은 [이 페이지](../expression/data-types.md)를 참조하십시오.
 
 ## 서명 및 반환된 유형
 
@@ -44,7 +44,7 @@ ht-degree: 4%
 
 `toDateTime(<integer>)`
 
-dateTime을 **반환합니다**.
+**dateTime**&#x200B;을 반환합니다.
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
