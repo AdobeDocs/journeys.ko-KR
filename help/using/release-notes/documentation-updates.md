@@ -19,12 +19,12 @@ ht-degree: 94%
 
 ## 2020년 10월 {#october-2020}
 
-* 이벤트에 대한 시간 제한을 구성하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+* 이벤트에 대한 시간 초과를 구성하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
 ## 2020년 9월 {#september-2020}
 
-* 인터페이스 설명 섹션이 새로운 **모든 선택기** 메뉴를 반영하도록 업데이트되었습니다. [자세한 내용](../about/user-interface.md)
-* 재귀적이지 않은 세그먼트 기반 여정의 새 버전에 대한 참고가 추가되었습니다. [자세한 내용](../alpha/alpha-segment-trigger.md)
+* 인터페이스 설명 섹션이 새 **모든 선택기** 메뉴를 반영하도록 업데이트되었습니다. [자세한 내용](../about/user-interface.md)
+* 반복되지 않는 세그먼트 기반 경험의 새 버전에 대한 참고가 추가되었습니다. [자세한 내용](../alpha/alpha-segment-trigger.md)
 
 ## 2020년 8월 {#august-2020}
 
