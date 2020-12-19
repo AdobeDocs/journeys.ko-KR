@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: distinct
-description: 고유한 기능에 대한 자세한 내용
+description: 고유한 기능에 대해 알아봅니다.
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -14,9 +14,9 @@ ht-degree: 13%
 
 # distinct {#distinct}
 
-null 값이 없는 목록의 고유한 값을 반환합니다.
+null 값 없이 목록의 고유한 값을 반환합니다.
 
-## 범주
+## 카테고리
 
 목록
 
@@ -44,7 +44,7 @@ null 값이 없는 목록의 고유한 값을 반환합니다.
 
 `distinct(<listDecimal>)`
 
-소수 목록을 반환합니다.
+소수점 목록을 반환합니다.
 
 `distinct(<listString>)`
 
@@ -70,4 +70,4 @@ null 값이 없는 목록의 고유한 값을 반환합니다.
 
 `distinct([10,2,10,null])`
 
-반환 `[10, 2]`.
+`[10, 2]`을(를) 반환합니다.
