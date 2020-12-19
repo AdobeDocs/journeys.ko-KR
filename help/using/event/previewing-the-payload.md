@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: 페이로드 미리 보기
-description: 페이로드 미리 보기 방법 알아보기
+description: 페이로드를 미리 보는 방법 알아보기
 translation-type: tm+mt
 source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
@@ -29,6 +29,6 @@ ht-degree: 7%
 
    ![](../assets/journey14.png)
 
-1. 미리 보기를 확인하여 페이로드 정의를 확인합니다.
+1. 미리 보기를 선택하여 페이로드 정의를 확인합니다.
 
-1. 그런 다음 페이로드 미리 보기를 이벤트 전송 담당자에게 공유할 수 있습니다. 이 페이로드는 이벤트 푸시 설정을 디자인하는 데 도움이 될 수 [!DNL Journey Orchestration]있습니다. [이 페이지](../event/additional-steps-to-send-events-to-journey-orchestration.md)를 참조하십시오.
+1. 그런 다음 페이로드 미리 보기를 이벤트 전송을 담당하는 사람과 공유할 수 있습니다. 이 페이로드는 [!DNL Journey Orchestration]에 푸시되는 이벤트의 설정을 설계하는 데 도움이 될 수 있습니다. [이 페이지](../event/additional-steps-to-send-events-to-journey-orchestration.md)를 참조하십시오.
