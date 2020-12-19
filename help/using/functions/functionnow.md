@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: now
-description: 기능에 대한 자세한 내용
+description: 지금 기능에 대해 알아보기
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -14,9 +14,9 @@ ht-degree: 10%
 
 # now {#now}
 
-현재 날짜를 날짜 시간 형식으로 반환합니다. For more information on data types, refer to [this page](../expression/data-types.md).
+현재 날짜를 날짜 시간 형식으로 반환합니다. 데이터 유형에 대한 자세한 내용은 [이 페이지](../expression/data-types.md)를 참조하십시오.
 
-## 범주
+## 카테고리
 
 날짜
 
@@ -30,7 +30,7 @@ ht-degree: 10%
 |--- |--- |
 | 문자열 |  |
 
-## 서명 및 반환된 문자
+## 서명 및 반환된 유형
 
 `now()`
 
