@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: b3ed5d305ddd1c86814373fc923390dc50a80c7e
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 78%
+ht-degree: 79%
 
 ---
 
@@ -20,4 +20,4 @@ POST API 호출인 이벤트는 이벤트는 스트리밍 수집 API를 통해 A
 
 스트리밍 수집 API를 통과하여 대상에 도착한 이벤트는 파이프라인이라는 내부 서비스로 이동한 후 Adobe Experience Platform으로 이동합니다. 이벤트 스키마에 실시간 고객 프로필 서비스 플래그가 설정되어 있고, 역시 실시간 고객 프로필 태그가 설정된 데이터 세트 ID도 포함되어 있으면 이벤트는 실시간 고객 프로필 서비스로 이동합니다.
 
-For system-generated events, the Pipeline filters events which have a payload containing [!DNL Journey Orchestration] eventIDs (see the event creation process below) provided by [!DNL Journey Orchestration] and contained in event payload. 규칙 기반 이벤트의 경우 시스템은 eventID 조건을 사용하여 이벤트를 식별합니다. [!DNL Journey Orchestration]에서 이러한 이벤트를 수신하면 해당하는 경로가 트리거됩니다.
+시스템에서 생성된 이벤트의 경우 파이프라인은 [!DNL Journey Orchestration]에서 제공하며 이벤트 페이로드에 포함된 [!DNL Journey Orchestration] eventID를 포함하는 페이로드가 있는 이벤트(아래의 이벤트 생성 프로세스 참조)를 필터링합니다. 규칙 기반 이벤트의 경우 시스템은 eventID 조건을 사용하여 이벤트를 식별합니다. [!DNL Journey Orchestration]에서 이러한 이벤트를 수신하면 해당하는 경로가 트리거됩니다.
