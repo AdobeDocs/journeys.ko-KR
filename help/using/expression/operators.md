@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # 연산자 {#concept_wd5_pj5_dgb}
 
-두 가지 유형의 연산자가 있습니다.단항 연산자 및 이진 연산자입니다. 왼쪽 연산자와 오른쪽 단항 연산자가 있습니다.
+다음과 같은 두 가지 유형의 연산자가 있습니다.단항 연산자 및 이진 연산자입니다. 왼쪽 연산자 및 오른쪽 연산자가 있습니다.
 
 ```
     // left-hand unary operators
@@ -34,7 +34,7 @@ ht-degree: 6%
 
 지원되는 연산자 목록은 다음과 같습니다.
 
-## 논리  {#logical}
+## 논리 {#logical}
 
 ### and
 
@@ -74,7 +74,7 @@ ht-degree: 6%
 not <expression>
 ```
 
-&lt;expression>은 boolean이어야 합니다. 결과는 부울 값입니다.
+&lt;expression> 은 boolean이어야 합니다. 결과는 부울 값입니다.
 
 예제:
 
@@ -94,7 +94,7 @@ not 3.15 < 1
 
 결과는 부울 값입니다.
 
-null은 표현식에 평가된 값이 없음을 의미합니다.
+null은 표현식에 평가 값이 없음을 의미합니다.
 
 예제:
 
@@ -112,7 +112,7 @@ null은 표현식에 평가된 값이 없음을 의미합니다.
 
 결과는 부울 값입니다.
 
-null은 표현식에 평가된 값이 없음을 의미합니다.
+null은 표현식에 평가 값이 없음을 의미합니다.
 
 예제:
 
@@ -128,7 +128,7 @@ null은 표현식에 평가된 값이 없음을 의미합니다.
 <expression> has null
 ```
 
-&lt;expression>은(는) 목록이어야 합니다. 결과는 부울 값입니다.
+&lt;expression> 은(는) 목록이어야 합니다. 결과는 부울 값입니다.
 
 목록에 null 값이 하나 이상 포함되어 있는지 확인하는 데 유용합니다.
 
@@ -150,7 +150,7 @@ null은 표현식에 평가된 값이 없음을 의미합니다.
 <expression1> == <expression2>
 ```
 
-&lt;expression1> 및 &lt;expression2> 모두 동일한 데이터 형식을 가져야 합니다. 결과는 부울 값입니다.
+&lt;expression1> 및 &lt;expression2> 모두 동일한 데이터 유형을 가져야 합니다. 결과는 부울 값입니다.
 
 예제:
 
@@ -170,7 +170,7 @@ null은 표현식에 평가된 값이 없음을 의미합니다.
 <expression1> != <expression2>
 ```
 
-&lt;expression1> 및 &lt;expression2> 모두 동일한 데이터 형식을 가져야 합니다. 결과는 부울 값입니다.
+&lt;expression1> 및 &lt;expression2> 모두 동일한 데이터 유형을 가져야 합니다. 결과는 부울 값입니다.
 
 예제:
 
@@ -190,13 +190,13 @@ null은 표현식에 평가된 값이 없음을 의미합니다.
 <expression1> > <expression2>
 ```
 
-datetime과 비교할 수 있습니다.
+Datetime을 Datetime과 비교할 수 있습니다.
 
-Date timeonly는 Date-timeonly와 비교할 수 있습니다.
+Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 
-정수 또는 소수는 모두 정수 또는 소수와 비교할 수 있습니다.
+정수나 소수를 모두 정수나 소수로 비교할 수 있습니다.
 
-다른 조합은 금지.
+다른 모든 조합은 금지된다.
 
 결과는 부울 값입니다.
 
@@ -214,13 +214,13 @@ Date timeonly는 Date-timeonly와 비교할 수 있습니다.
 <expression1> >= <expression2>
 ```
 
-datetime과 비교할 수 있습니다.
+Datetime을 Datetime과 비교할 수 있습니다.
 
-Date timeonly는 Date-timeonly와 비교할 수 있습니다.
+Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 
-정수 또는 소수는 모두 정수 또는 소수와 비교할 수 있습니다.
+정수나 소수를 모두 정수나 소수로 비교할 수 있습니다.
 
-다른 조합은 금지.
+다른 모든 조합은 금지된다.
 
 결과는 부울 값입니다.
 
@@ -230,7 +230,7 @@ Date timeonly는 Date-timeonly와 비교할 수 있습니다.
 42 >= 3.14
 ```
 
-### &lt;
+### &lt;>
 
 
 
@@ -238,13 +238,13 @@ Date timeonly는 Date-timeonly와 비교할 수 있습니다.
 <expression1> < <expression2>
 ```
 
-datetime과 비교할 수 있습니다.
+Datetime을 Datetime과 비교할 수 있습니다.
 
-Date timeonly는 Date-timeonly와 비교할 수 있습니다.
+Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 
-정수 또는 소수는 모두 정수 또는 소수와 비교할 수 있습니다.
+정수나 소수를 모두 정수나 소수로 비교할 수 있습니다.
 
-다른 조합은 금지.
+다른 모든 조합은 금지된다.
 
 결과는 부울 값입니다.
 
@@ -254,7 +254,7 @@ Date timeonly는 Date-timeonly와 비교할 수 있습니다.
 42 < 3.14
 ```
 
-### &lt;=
+### &lt;>
 
 
 
@@ -262,13 +262,13 @@ Date timeonly는 Date-timeonly와 비교할 수 있습니다.
 <expression1> <= <expression2>
 ```
 
-datetime과 비교할 수 있습니다.
+Datetime을 Datetime과 비교할 수 있습니다.
 
-Date timeonly는 Date-timeonly와 비교할 수 있습니다.
+Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 
-정수 또는 소수는 모두 정수 또는 소수와 비교할 수 있습니다.
+정수나 소수를 모두 정수나 소수로 비교할 수 있습니다.
 
-다른 조합은 금지.
+다른 모든 조합은 금지된다.
 
 결과는 부울 값입니다.
 
@@ -290,7 +290,7 @@ Date timeonly는 Date-timeonly와 비교할 수 있습니다.
 
 두 표현식은 모두 숫자(정수 또는 소수)여야 합니다.
 
-결과는 숫자이기도 합니다.
+결과도 숫자입니다.
 
 예제:
 
@@ -308,7 +308,7 @@ Date timeonly는 Date-timeonly와 비교할 수 있습니다.
 
 두 표현식은 모두 숫자(정수 또는 소수)여야 합니다.
 
-결과는 숫자이기도 합니다.
+결과도 숫자입니다.
 
 예제:
 
@@ -326,9 +326,9 @@ Date timeonly는 Date-timeonly와 비교할 수 있습니다.
 
 두 표현식은 모두 숫자(정수 또는 소수)여야 합니다.
 
-결과는 숫자이기도 합니다.
+결과도 숫자입니다.
 
-&lt;expression2>은(는) 0이 아니어야 합니다(0 반환).
+&lt;expression2> 0은(는) 아니어야 합니다(0 반환).
 
 예제:
 
@@ -346,7 +346,7 @@ Date timeonly는 Date-timeonly와 비교할 수 있습니다.
 
 두 표현식은 모두 숫자(정수 또는 소수)여야 합니다.
 
-결과는 숫자이기도 합니다.
+결과도 숫자입니다.
 
 예제:
 
@@ -364,7 +364,7 @@ Date timeonly는 Date-timeonly와 비교할 수 있습니다.
 
 두 표현식은 모두 숫자(정수 또는 소수)여야 합니다.
 
-결과는 숫자이기도 합니다.
+결과도 숫자입니다.
 
 예제:
 
@@ -382,7 +382,7 @@ Date timeonly는 Date-timeonly와 비교할 수 있습니다.
 <expression> is numeric
 ```
 
-식의 유형은 정수 또는 소수입니다.
+표현식 유형은 정수 또는 소수입니다.
 
 예제:
 
@@ -390,7 +390,7 @@ Date timeonly는 Date-timeonly와 비교할 수 있습니다.
 @ is numeric
 ```
 
-### 정수
+### 정수입니다.
 
 
 
@@ -438,7 +438,7 @@ Date timeonly는 Date-timeonly와 비교할 수 있습니다.
 
 두 표현식을 연결합니다.
 
-하나의 표현식은 체인 문자열이어야 합니다.
+하나의 표현식은 연결된 문자열이어야 합니다.
 
 예제:
 
