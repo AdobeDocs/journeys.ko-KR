@@ -16,7 +16,7 @@ ht-degree: 23%
 
 목록의 null 값 수를 카운트합니다.
 
-## 범주
+## 카테고리
 
 집계
 
@@ -36,7 +36,7 @@ ht-degree: 23%
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
 
-## 서명 및 반환된 문자
+## 서명 및 반환된 유형
 
 `countOnlyNull(<listAny>)`
 
@@ -46,4 +46,4 @@ ht-degree: 23%
 
 `count([10,2,10,null])`
 
-반환 1.
+1을 반환합니다.
