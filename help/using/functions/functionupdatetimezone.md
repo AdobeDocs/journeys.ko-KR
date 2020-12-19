@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: updateTimeZone
-description: 함수 updateTimeZone 알아보기
+description: updateTimeZone 함수에 대한 자세한 내용
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -14,9 +14,9 @@ ht-degree: 4%
 
 # updateTimeZone {#updateTimeZone}
 
-새 시간대가 동일한 순간에 있는 새 날짜 시간을 반환합니다.
+동일한 순간에 새 시간대가 있는 새 날짜 시간을 반환합니다.
 
-## 범주
+## 카테고리
 
 날짜
 
@@ -29,7 +29,7 @@ ht-degree: 4%
 * 시간대 ID:문자열
 * dateTime
 
-## 서명 및 반환된 문자
+## 서명 및 반환된 유형
 
 `updateTimeZone(<dateTime>,<timeZone id>)`
 
