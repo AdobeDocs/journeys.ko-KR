@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: startWithIgnoreCase
-description: startWithIgnoreCase 함수 학습
+description: startWithIgnoreCase 함수에 대해 알아보기
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -14,9 +14,9 @@ ht-degree: 9%
 
 # startWithIgnoreCase {#startWithIgnoreCase}
 
-두 번째 매개 변수가 대/소문자를 구분하지 않고 첫 번째 매개 변수의 접두사이면 true를 반환합니다.
+두 번째 매개 변수가 대/소문자를 고려하지 않고 첫 번째 매개 변수의 접두어인 경우 true를 반환합니다.
 
-## 범주
+## 카테고리
 
 문자열
 
@@ -31,7 +31,7 @@ ht-degree: 9%
 | 문자열 | 문자열 |
 | 접두사 | 문자열 |
 
-## 서명 및 반환된 문자
+## 서명 및 반환된 유형
 
 `startWithIgnoreCase(<string>,<string>)`
 
