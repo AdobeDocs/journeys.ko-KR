@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: 함수
-description: 기능에 대한 자세한 내용
+description: 함수에 대한 자세한 내용
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -14,17 +14,17 @@ ht-degree: 73%
 
 # 함수 {#concept_p1r_qj5_dgb}
 
-함수에는 서로 다른 서명(순서가 다른 매개 변수 세트)이 있을 수 있습니다. 함수 서명에 지정된 매개 변수로 0N 식을 사용할 수 있습니다.
+함수에는 서로 다른 서명(순서가 다른 매개 변수 세트)이 있을 수 있습니다. 함수 서명은 순서가 지정된 매개 변수로 0-N 식을 가질 수 있습니다.
 
-`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
+`<function name>`(`<expression as param 1>`,  `<expression as param 2>`...,`<expression as param N>`)
 
-각 함수에는 특정 반환 형식이 있습니다.
+각 함수에는 특정 반환 유형이 있습니다.
 
 다음은 지원되는 함수 목록입니다.
 
 ## 주요 함수
 
-| 범주 | 함수 |
+| 카테고리 | 함수 |
 |-------------|-----------------------|
 | Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
 | 집계 | [avg](../functions/functionavg.md) |
