@@ -14,9 +14,9 @@ ht-degree: 11%
 
 # distinctWithNull {#distinctWithNull}
 
-목록의 고유한 값을 반환합니다. 목록에 Null 값이 하나 이상 있으면 반환 목록에 Null 값이 표시됩니다.
+목록의 고유한 값을 반환합니다. 목록에 null 값이 하나 이상 있으면 null 값이 반환 목록에 표시됩니다.
 
-## 범주
+## 카테고리
 
 목록
 
@@ -44,7 +44,7 @@ ht-degree: 11%
 
 `distinctWithNull(<listDecimal>)`
 
-소수 목록을 반환합니다.
+소수점 목록을 반환합니다.
 
 `distinctWithNull(<listString>)`
 
@@ -70,4 +70,4 @@ ht-degree: 11%
 
 `distinctWithNull([10,2,10,null])`
 
-반환 [10, 2, null]
+[10, 2, null] 반환
