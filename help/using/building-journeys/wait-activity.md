@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: 대기 활동
-description: 대기 활동에 대한 자세한 내용
+description: 대기 활동에 대해 알아보기
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -14,9 +14,9 @@ ht-degree: 4%
 
 # 대기 활동{#section_rlm_nft_dgb}
 
-경로에서 다음 활동을 실행하기 전에 기다리려면 **[!UICONTROL Wait]** 활동을 사용할 수 있습니다. 이를 통해 다음 활동이 실행될 시간을 정의할 수 있습니다. 다음 네 가지 옵션을 사용할 수 있습니다.
+경로에서 다음 활동을 실행하기 전에 기다리려면 **[!UICONTROL Wait]** 활동을 사용할 수 있습니다. 이를 통해 다음 활동이 실행될 시점을 정의할 수 있습니다. 4가지 옵션을 사용할 수 있습니다.
 
-* [지속 시간](#duration)
+* [기간](#duration)
 * [고정 날짜](#fixed_date)
 * [사용자 지정](#custom)
 
@@ -24,39 +24,39 @@ ht-degree: 4%
 
 ## 대기 활동 정보{#about_wait}
 
-다음은 여러 개의 대기를 동시에 사용할 때 대기의 우선 순위가 지정되는 방법입니다. 동일한 시간 구성과 겹치는 조건이 서로 다른 경우 위에 배치된 대기 시간이 우선 순위가 지정됩니다. 예를 들어, 첫 번째 대기 조건이 &quot;여성이 되는 것&quot;이고 두 번째 대기 조건이 &quot;VIP&quot;입니다. 첫 번째 대기 활동이 우선 순위가 지정됩니다.
+다음은 여러 개의 대기를 동시에 사용할 때 대기의 우선 순위를 지정하는 방법입니다. 동일한 시간 구성과 서로 다르지만 겹치는 조건이 있는 경우 위에 배치된 대기 시간이 우선 순위가 지정됩니다. 예를 들어 첫 번째 대기의 조건은 &quot;여성이 되는&quot; 것이며 두 번째 대기의 조건은 &quot;VIP&quot;입니다. 첫 번째 대기 활동이 우선 순위가 지정됩니다.
 
-또한 두 개의 서로 다른 대기가 동시에 있는 경우 먼저 발생하는 대기가 세로 위치에 관계없이 우선 순위가 지정됩니다. 예를 들어 1시간 대기 시간이 초과이고 30분 대기 시간이 30분 이후인 경우 30분 대기 시간이 처리됩니다.
+또한 두 개의 서로 다른 대기가 동시에 있는 경우 먼저 발생하는 대기가 세로 위치에 관계없이 우선 순위가 지정됩니다. 예를 들어 1시간 대기 시간이 초과이고 30분 대기 시간이 아래에 있는 경우 30분 후에 30분 대기 작업이 처리됩니다.
 
-특정 모집단으로의 대기를 제한하려면 조건을 정의할 수 있습니다.
+특정 모집단으로의 대기를 제한하려는 경우 조건을 정의할 수 있습니다.
 
 >[!NOTE]
 >
 >최대 대기 기간은 30일입니다.
 >
->테스트 모드에서 매개 변수를 사용하면 각 대기 활동이 지속될 시간을 정의할 수 **[!UICONTROL Wait time in test]** 있습니다. 기본 시간은 10초입니다. 그러면 테스트 결과가 빠르게 나올 수 있습니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오
+>테스트 모드에서 **[!UICONTROL Wait time in test]** 매개 변수를 사용하면 각 대기 활동이 지속될 시간을 정의할 수 있습니다. 기본 시간은 10초입니다. 그러면 테스트 결과가 빠르게 나올 수 있습니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오
 
-## 기간 대기{#duration}
+## 기간 대기 {#duration}
 
-다음 활동을 실행하기 전 대기 시간을 선택합니다.
+다음 활동을 실행하기 전에 대기 시간을 선택합니다.
 
 ![](../assets/journey55.png)
 
-## 고정 날짜 대기{#fixed_date}
+## 고정 날짜 대기:{#fixed_date}
 
 다음 활동을 실행할 날짜를 선택합니다.
 
 ![](../assets/journey56.png)
 
-## 사용자 지정 대기{#custom}
+## 사용자 지정 대기:{#custom}
 
-이 옵션을 사용하면 이벤트 또는 데이터 소스에서 온 필드를 기반으로 하는 고급 표현식을 사용하여 사용자 지정 날짜(예: 2020년 7월 12일 오후 5시)를 정의할 수 있습니다. 사용자 지정 기간(예: 7일)을 정의할 수 없습니다. 식 편집기의 표현식은 dateTimeOnly 형식을 제공해야 합니다. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오. dateTimeOnly 형식에 대한 자세한 내용은 [이 페이지를 참조하십시오](../expression/data-types.md).
+이 옵션을 사용하면 이벤트 또는 데이터 소스에서 나오는 필드를 기반으로 고급 표현식을 사용하여 사용자 지정 날짜(예: 2020년 7월 12일 오후 5시)를 정의할 수 있습니다. 사용자 지정 기간(예: 7일)을 정의할 수 없습니다. 표현식 편집기의 표현식은 dateTimeOnly 형식을 제공해야 합니다. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오. dateTimeOnly 형식에 대한 자세한 내용은 [이 페이지](../expression/data-types.md)을 참조하십시오.
 
 >[!NOTE]
 >
->dateTimeOnly 식을 활용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, the field in the event are of the form 2016-08-12T09:46:06Z.
+>dateTimeOnly 식을 사용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예:```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, 이벤트의 필드가 2016-08-12T09:46:06Z 형식입니다.
 >
->여정의 **속성에는 시간대가** 필요합니다. 따라서 인터페이스에서는 2016-08-12T09:46:06.982-05와 같은 전체 ISO-8601 타임스탬프 믹싱 시간 및 시간대 오프셋을 직접 가리키도록 할 수 없습니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
+>**표준 시간대**&#x200B;는 여정의 속성에 필요합니다. 따라서 인터페이스에서 2016-08-12T09:46:06.982-05와 같은 전체 ISO-8601 타임스탬프 믹싱 시간 및 시간대 오프셋을 직접 가리키도록 할 수는 없습니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
 
 ![](../assets/journey57.png)
 
