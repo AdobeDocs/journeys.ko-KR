@@ -16,7 +16,7 @@ ht-degree: 23%
 
 null 값을 포함하여 다른 값의 수를 카운트합니다.
 
-## 범주
+## 카테고리
 
 집계
 
@@ -36,7 +36,7 @@ null 값을 포함하여 다른 값의 수를 카운트합니다.
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
 
-## 서명 및 반환된 문자
+## 서명 및 반환된 유형
 
 `distinctCountwithNull(<listAny>)`
 
@@ -46,4 +46,4 @@ null 값을 포함하여 다른 값의 수를 카운트합니다.
 
 `distinctCountWithNull([10,2,10,null])`
 
-반환 3.
+3을 반환합니다.
