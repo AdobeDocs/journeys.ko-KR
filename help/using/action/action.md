@@ -23,15 +23,15 @@ ht-degree: 89%
 
 사용자 지정 작업에서는 메시지나 API 호출을 전송할 서드파티 시스템의 연결을 구성할 수 있습니다. JSON 형식 페이로드를 사용하여 REST API를 통해 호출할 수 있는 모든 공급자의 어떤 서비스로든 작업을 구성할 수 있습니다.
 
-The actions are available in the left palette of your journey, in the **[!UICONTROL Action]** category. [이 페이지](../building-journeys/about-action-activities.md)를 참조하십시오.
+작업은 **[!UICONTROL Action]** 범주의 경로의 왼쪽 팔레트에서 사용할 수 있습니다. [이 페이지](../building-journeys/about-action-activities.md)를 참조하십시오.
 
 >[!NOTE]
 >
 >사용자 지정 작업은 항상 **기술 사용자**&#x200B;가 구성해야 합니다.
 
-**작업** 목록에서 c 키를 누르면 새 경로, 작업, 데이터 소스 또는 이벤트를 만들 수 있습니다. For more information on shortcuts in [!DNL Journey Orchestration], see [this section](../about/user-interface.md#section_ksq_zr1_ffb).
+**작업** 목록에서 c 키를 누르면 새 경로, 작업, 데이터 소스 또는 이벤트를 만들 수 있습니다. [!DNL Journey Orchestration]의 단축키에 대한 자세한 내용은 [이 섹션](../about/user-interface.md#section_ksq_zr1_ffb)을 참조하십시오.
 
-작업 목록을 확인하거나 새 작업을 구성하려면 상단 메뉴에서 **[!UICONTROL Actions]**&#x200B;을 클릭합니다. 그러면 작업 목록이 표시됩니다. See [this page](../about/user-interface.md) for more information on the interface.
+작업 목록을 확인하거나 새 작업을 구성하려면 상단 메뉴에서 **[!UICONTROL Actions]**&#x200B;을 클릭합니다. 그러면 작업 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [이 페이지](../about/user-interface.md)를 참조하십시오.
 
 ![](../assets/custom1.png)
 
