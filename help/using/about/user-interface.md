@@ -22,7 +22,7 @@ ht-degree: 93%
 
 ## [!DNL Journey Orchestration]{#accessing_journey_orchestration} 액세스
 
-To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right, then click **[!UICONTROL Journey Orchestration]**.
+[!DNL Journey Orchestration] 인터페이스에 액세스하려면 오른쪽 상단에 있는 **[!UICONTROL App Selector]** 아이콘을 클릭한 다음 **[!UICONTROL Journey Orchestration]**&#x200B;를 클릭합니다.
 
 ![](../assets/journey1.png)
 
@@ -137,8 +137,8 @@ _경로의 캔버스:_
 
 _여행 중:_
 
-* 테스트 모드 **를** 활성화/비활성화하려면 T 키를 누릅니다.
-* 테스트 모드의 이벤트 기반 여정에서 **E를** 눌러 이벤트를 트리거합니다.
-* 세그먼트 기반 여정에서 한 번에 **단일** 프로필 옵션을 선택한 경우 테스트 모드에서 **P를** 눌러 이벤트를 트리거합니다.
-* 테스트 모드에서 **L을** 눌러 로그를 표시합니다.
+* 테스트 모드를 활성화/비활성화하려면 **T**&#x200B;을 누릅니다.
+* 테스트 모드의 이벤트 기반 여행에서 **E**&#x200B;를 눌러 이벤트를 트리거합니다.
+* 세그먼트 기반 여정에서 **한 번에** 옵션이 테스트 모드에서 선택된 경우 **P**&#x200B;을 눌러 이벤트를 트리거합니다.
+* 테스트 모드에서 **L**&#x200B;을 눌러 로그를 표시합니다.
 
