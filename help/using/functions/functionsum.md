@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: sum
-description: 함수 합에 대해 알아봅니다.
+description: 함수 합에 대해 알아보기
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -14,9 +14,9 @@ ht-degree: 7%
 
 # sum {#sum}
 
-표현식 세트의 값의 합계를 반환합니다. null 값은 무시됩니다.
+표현식 세트의 값 합계를 반환합니다. null 값은 무시됩니다.
 
-## 범주
+## 카테고리
 
 집계
 
@@ -30,7 +30,7 @@ ht-degree: 7%
 * listDecimal
 * 지속 시간
 * 정수
-* 소수
+* decimal
 
 ## 서명 및 반환된 유형
 
