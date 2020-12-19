@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: matchRegExp
-description: 함수 matchRegExp에 대해 알아보기
+description: matchRegExp 함수에 대해 알아보기
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -14,9 +14,9 @@ ht-degree: 4%
 
 # matchRegExp {#matchRegExp}
 
-첫 번째 매개 변수의 문자열이 두 번째 매개 변수의 정규 표현식과 일치하는 경우 true를 반환합니다. 자세한 내용은 [이 페이지를 참조하십시오](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+첫 번째 매개 변수의 문자열이 두 번째 매개 변수의 정규 표현식과 일치하면 true를 반환합니다. 자세한 내용은 [이 페이지](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)를 참조하십시오.
 
-## 범주
+## 카테고리
 
 문자열
 
@@ -31,7 +31,7 @@ ht-degree: 4%
 | 문자열 | 문자열 |
 | regexp | 문자열 |
 
-## 서명 및 반환된 문자
+## 서명 및 반환된 유형
 
 `matchRegExp(<string>,<string>)`
 
@@ -45,4 +45,4 @@ true를 반환합니다.
 
 설명:
 
-여기에서 문자열이 정규 표현식(java 구문)을 충족하는지 확인합니다.다음으로 시작하고 모든 종류의 문자열을 &quot;World&quot;로 끝냅니다.
+여기에서 문자열이 정규 표현식(java 구문)을 충족하는지 확인합니다.&quot;Hello&quot;로 시작하고 모든 종류의 문자열을 &quot;World&quot;로 끝냅니다.
