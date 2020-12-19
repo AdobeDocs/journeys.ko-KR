@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: avg
-description: avg 함수에 대해 알아보기
+description: 평균 함수에 대해 알아보기
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -14,10 +14,10 @@ ht-degree: 8%
 
 # avg {#avg}
 
-목록 또는 두 개의 표현식으로 제공된 표현식 집합 간의 평균 값을 반환합니다. null 값은 무시됩니다.
+목록 또는 두 개의 표현식으로 지정된 표현식 집합 중 평균 값을 반환합니다. null 값은 무시됩니다.
 
 
-## 범주
+## 카테고리
 
 집계
 
@@ -31,10 +31,10 @@ ht-degree: 8%
 
 * listInteger
 * listDecimal
-* 소수
+* decimal
 * 정수
 
-## 서명 및 반환된 문자
+## 서명 및 반환된 유형
 
 `avg(<listInteger>)`
 
