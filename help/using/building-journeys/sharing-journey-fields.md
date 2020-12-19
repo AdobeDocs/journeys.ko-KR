@@ -14,11 +14,11 @@ ht-degree: 8%
 
 # 경로 필드 {#sharing-journey-fields}
 
-이 혼합은 경로 스키마에서 사용됩니다(journeyStepEvent와 관련). 여기에는 다음 필드가 포함됩니다.
+이 믹스는 journeyStepEvent와 관련된 경로 스키마에서 사용됩니다. 여기에는 다음 필드가 포함됩니다.
 
 ## journeyID
 
-주요 여정의 ID.
+주 여행의 ID.
 
 유형:문자열
 
@@ -40,8 +40,8 @@ ht-degree: 8%
 
 유형:문자열
 
-## 버전
+## version
 
-버전. `major``minor`
+버전 - `major`.`minor`
 
 유형:문자열
