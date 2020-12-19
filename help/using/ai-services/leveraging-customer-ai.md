@@ -14,11 +14,11 @@ ht-degree: 2%
 
 # 고객 AI 활용 {#customer-ai}
 
-고객 AI는 인텔리전트 서비스에 포함되어 있습니다. 고객의 행동을 예측할 수 있습니다. 설명서를 [참조하십시오](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).
+고객 AI는 인텔리전트 서비스에 속합니다. 고객 행동을 예측하는 데 도움이 됩니다. [설명서](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html)를 참조하십시오.
 
-고객 AI를 통해 브랜드 기업은 Adobe Experience Platform 프로파일(실시간 고객 프로파일)에서 프로파일 속성으로 사용할 수 있는 가입/전환 기계 학습 기반의 점수를 만들 수 있습니다.
+고객 AI를 통해 브랜드 기업은 Adobe Experience Platform 프로필의 프로필 속성(실시간 고객 프로필)으로 사용할 수 있는 이탈/전환 기계 학습 기반 점수를 만들 수 있습니다.
 
-따라서 Journey Orchestration 조건(최상의 의사 결정), 작업 또는 세그먼트 작성 시 다른 프로필 속성으로 사용할 수 있습니다.
+따라서 Journey Orchestration 조건(최선의 결정을 하기 위해), 작업 또는 세그먼트 작성에서 다른 프로필 속성으로 사용할 수 있습니다.
 
 ![](../assets/customer-ai.png)
 
