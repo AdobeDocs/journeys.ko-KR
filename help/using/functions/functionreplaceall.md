@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: replaceAll
-description: 함수 바꾸기에 대한 자세한 정보모두
+description: 함수 바꾸기에 대해 자세히 알아보기All
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -16,9 +16,9 @@ ht-degree: 5%
 
 대상 문자열과 일치하는 모든 항목을 기본 문자열의 대체 문자열로 바꿉니다.
 
-바꾸기는 문자열 시작에서 끝까지 진행되며, 예를 들어 문자열 &quot;aaa&quot;에서 &quot;aa&quot;를 &quot;b&quot;로 바꾸면 &quot;ab&quot;가 아닌 &quot;ba&quot;가 됩니다.
+바꾸기는 문자열의 시작 부분부터 끝까지 진행됩니다. 예를 들어 문자열 &quot;aaa&quot;에서 &quot;aa&quot;를 &quot;b&quot;로 바꾸면 &quot;ab&quot;가 아닌 &quot;ba&quot;가 됩니다.
 
-## 범주
+## 카테고리
 
 문자열
 
@@ -34,7 +34,7 @@ ht-degree: 5%
 | target | 문자열 |
 | 교체 | 문자열 |
 
-## 서명 및 반환된 문자
+## 서명 및 반환된 유형
 
 `replaceAll(<baseString>,<sourceString>,<replacementString>)`
 
