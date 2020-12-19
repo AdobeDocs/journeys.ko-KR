@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: toBool
-description: Bool 기능에 대한 자세한 내용
+description: toBool 기능에 대해 알아봅니다.
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -14,12 +14,12 @@ ht-degree: 5%
 
 # toBool {#toBool}
 
-해당 유형에 따라 인수 값을 부울 값으로 변환합니다.
+유형에 따라 인수 값을 부울 값으로 변환합니다.
 
-* 문자열:문자열 값이 &quot;true&quot;이면 &quot;true&quot;이고, 그렇지 않으면 false입니다.
-* 숫자:숫자 값이 0과 같지 않으면 true, 그렇지 않으면 false
+* 문자열:문자열 값이 &quot;true&quot;이면 &quot;true&quot;이고, 그렇지 않으면 false로 문자열 값을 부울로 변환하려고 합니다.
+* 숫자:숫자 값이 0이 아니면 true, 그렇지 않으면 false
 
-## 범주
+## 카테고리
 
 전환
 
@@ -29,7 +29,7 @@ ht-degree: 5%
 
 ## 매개 변수
 
-* 소수
+* decimal
 * boolean
 * 문자열
 * 정수
