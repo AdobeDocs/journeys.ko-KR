@@ -14,9 +14,9 @@ ht-degree: 20%
 
 # journeyStep 이벤트 ID 필드 {#sharing-identity-fields}
 
-이 믹스는 journeyStepEvent에만 적용됩니다.이 이벤트는 여정과 관련이 있으며 프로필 ID를 설명하는 identityMap이 없습니다(있는 경우).
+이 믹스는 journeyStepEvent에만 적용됩니다.이 이벤트는 여정과 관련이 있으며 프로필 ID가 있는 경우 identityMap이 없습니다.
 
-journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
+journeyStepEvent의 경우 ID와 관련된 필드를 추가해야 합니다.
 
 ## profileID
 
