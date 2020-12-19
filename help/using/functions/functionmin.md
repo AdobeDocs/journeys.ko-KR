@@ -14,9 +14,9 @@ ht-degree: 4%
 
 # min {#min}
 
-목록 또는 두 개의 표현식으로 제공된 표현식 집합 중 최소값을 반환합니다. null 값은 무시됩니다.
+목록 또는 2개의 표현식으로 지정된 표현식 집합 중 최소값을 반환합니다. null 값은 무시됩니다.
 
-## 범주
+## 카테고리
 
 집계
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 * listDateTimeOnly
 * 지속 시간
 * 정수
-* 소수
+* decimal
 * dateTime
 * dateTimeOnly
 
@@ -41,15 +41,15 @@ ht-degree: 4%
 
 `min(<listDuration>)`
 
-지속 시간을 반환합니다.
+지속 기간을 반환합니다.
 
 `min(<listInteger>)`
 
-지속 시간을 반환합니다.
+지속 기간을 반환합니다.
 
 `min(<listDateTimeOnly>)`
 
-시간대를 고려하지 않고 날짜/시간을 반환합니다.
+시간대를 고려하지 않고 datetime을 반환합니다.
 
 `min(<listDateTime>)`
 
@@ -65,7 +65,7 @@ datetime을 반환합니다.
 
 `min(<duration>,<duration>)`
 
-지속 시간을 반환합니다.
+지속 기간을 반환합니다.
 
 `min(<dateTime>,<dateTime>)`
 
@@ -73,7 +73,7 @@ datetime을 반환합니다.
 
 `min(<dateTimeOnly>,<dateTimeOnly>)`
 
-시간대를 고려하지 않고 날짜/시간을 반환합니다.
+시간대를 고려하지 않고 datetime을 반환합니다.
 
 `min(<integer>,<integer>)`
 
@@ -85,7 +85,7 @@ datetime을 반환합니다.
 
 `min([10,3,8])`
 
-반환 3.
+3을 반환합니다.
 
 `min([10,null,8])`
 
