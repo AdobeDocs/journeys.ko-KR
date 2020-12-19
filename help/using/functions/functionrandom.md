@@ -14,9 +14,9 @@ ht-degree: 5%
 
 # random {#random}
 
-0과 1 사이의 임의 숫자를 생성합니다.
+0과 1 사이의 난수를 생성합니다.
 
-## 범주
+## 카테고리
 
 수학
 
@@ -24,7 +24,7 @@ ht-degree: 5%
 
 `random(<parameters>)`
 
-## 서명 및 반환된 문자
+## 서명 및 반환된 유형
 
 `random()`
 
@@ -34,4 +34,4 @@ ht-degree: 5%
 
 `#{MarltonReservation.statistics.successRatio, defaultValue : random() * 100}`
 
-설명:성공 비율에 값이 없거나 null이면 기본값이 적용되고 0에서 1 * 100 사이의 임의 숫자가 됩니다(0에서 100까지의 의미).
+설명:성공 비율에 값이 없거나 값이 null이면 기본값이 적용되고 0에서 1 * 100 사이의 임의 숫자가 됩니다(0~100).
