@@ -72,7 +72,7 @@ _고급 표현식 편집기 인터페이스_
 
 **고급 표현식 편집기를 사용하여 조건을 작성할 때의 매개 변수 필요성**
 
-If you select a field from an external data source requiring a parameter to be called (see [this page](../datasource/external-data-sources.md). 예를 들어 날씨 관련 데이터 소스에서 자주 사용되는 매개 변수는 &quot;city&quot;입니다. 따라서 이 city 매개 변수를 가져올 위치를 선택해야 합니다. 매개 변수에 함수를 적용하여 형식 변경 또는 연결을 수행할 수도 있습니다.
+매개 변수를 호출해야 하는 외부 데이터 소스에서 필드를 선택하는 경우([이 페이지](../datasource/external-data-sources.md) 참조). 예를 들어 날씨 관련 데이터 소스에서 자주 사용되는 매개 변수는 &quot;city&quot;입니다. 따라서 이 city 매개 변수를 가져올 위치를 선택해야 합니다. 매개 변수에 함수를 적용하여 형식 변경 또는 연결을 수행할 수도 있습니다.
 
 ![](../assets/journeyuc2_19.png)
 
