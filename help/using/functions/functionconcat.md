@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: concat
-description: 함수 이해
+description: 함수 관련 정보
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 두 문자열 매개 변수 또는 문자열 목록을 연결합니다.
 
-## 범주
+## 카테고리
 
 문자열
 
@@ -31,7 +31,7 @@ ht-degree: 12%
 | 목록 | listString |
 | 문자열 | 문자열 |
 
-## 서명 및 반환된 문자
+## 서명 및 반환된 유형
 
 `concat(<string>,<string>)`
 
