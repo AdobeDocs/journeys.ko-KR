@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: round
-description: 함수 라운드에 대한 자세한 내용
+description: 함수 라운드에 대해 알아보기
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -14,9 +14,9 @@ ht-degree: 7%
 
 # round {#round}
 
-인수에 가장 가까운 정수 값을 반환합니다.
+양수 무한대에 반올림하는 연결과 함께 인수에 가장 가까운 정수 값을 반환합니다.
 
-## 범주
+## 카테고리
 
 수학
 
@@ -26,10 +26,10 @@ ht-degree: 7%
 
 ## 매개 변수
 
-* 소수
+* decimal
 * 정수
 
-## 서명 및 반환된 문자
+## 서명 및 반환된 유형
 
 `round(<decimal>)`
 
@@ -41,11 +41,11 @@ ht-degree: 7%
 
 `round(3.14)`
 
-반환 3.
+3을 반환합니다.
 
 `round(3.54)`
 
-반환 4입니다.
+4를 반환합니다.
 
 `round(-3.14)`
 
@@ -53,4 +53,4 @@ ht-degree: 7%
 
 `round(3)`
 
-반환 3.
+3을 반환합니다.
