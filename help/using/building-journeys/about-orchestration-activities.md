@@ -14,7 +14,7 @@ ht-degree: 37%
 
 # 오케스트레이션 활동 {#concept_ksq_2rt_52b}
 
-팔레트에서 화면의 왼쪽에 있는 다음 오케스트레이션 활동을 사용할 수 있습니다.
+화면의 왼쪽에 있는 팔레트에서 다음 오케스트레이션 활동을 사용할 수 있습니다.
 
 * [조건 활동](../building-journeys/condition-activity.md)
 * [종료 활동](../building-journeys/end-activity.md)
