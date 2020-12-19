@@ -53,7 +53,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
    ![](../assets/journey27.png)
 
-1. 외부 서비스 구성에 따라 인증을 구성합니다. **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]**, **[!UICONTROL API key]** 중에서 선택할 수 있습니다. For more information on the custom authentication mode, see [this section](../datasource/external-data-sources.md#section_wjp_nl5_nhb). 이 예제에서는 다음 옵션을 선택합니다.
+1. 외부 서비스 구성에 따라 인증을 구성합니다. **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]**, **[!UICONTROL API key]** 중에서 선택할 수 있습니다. 사용자 정의 인증 모드에 대한 자세한 내용은 [이 섹션](../datasource/external-data-sources.md#section_wjp_nl5_nhb)을 참조하십시오. 이 예제에서는 다음 옵션을 선택합니다.
 
 
    * **[!UICONTROL Type]**: &quot;API 키&quot;
