@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: max
-description: 함수 최대값에 대한 자세한 내용
+description: 최대 함수에 대해 알아보기
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -13,9 +13,9 @@ ht-degree: 4%
 
 # max{#max}
 
-목록 또는 두 개의 표현식으로 제공된 표현식 집합 중 최대값을 반환합니다. null 값은 무시됩니다.
+목록 또는 두 개의 표현식으로 지정된 표현식 집합 중 최대값을 반환합니다. null 값은 무시됩니다.
 
-## 범주
+## 카테고리
 
 집계
 
@@ -32,7 +32,7 @@ ht-degree: 4%
 * listDateTimeOnly
 * 지속 시간
 * 정수
-* 소수
+* decimal
 * dateTime
 * dateTimeOnly
 
@@ -40,15 +40,15 @@ ht-degree: 4%
 
 `max(<listDuration>)`
 
-지속 시간을 반환합니다.
+지속 기간을 반환합니다.
 
 `max(<listInteger>)`
 
-지속 시간을 반환합니다.
+지속 기간을 반환합니다.
 
 `max(<listDateTimeOnly>)`
 
-시간대를 고려하지 않고 날짜/시간을 반환합니다.
+시간대를 고려하지 않고 datetime을 반환합니다.
 
 `max(<listDateTime>)`
 
@@ -64,7 +64,7 @@ datetime을 반환합니다.
 
 `max(<duration>,<duration>)`
 
-지속 시간을 반환합니다.
+지속 기간을 반환합니다.
 
 `max(<dateTime>,<dateTime>)`
 
@@ -72,7 +72,7 @@ datetime을 반환합니다.
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-시간대를 고려하지 않고 날짜/시간을 반환합니다.
+시간대를 고려하지 않고 datetime을 반환합니다.
 
 `max(<integer>,<integer>)`
 
