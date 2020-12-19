@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: inLastMonths
-description: LastMonths의 기능에 대한 자세한 내용
+description: 지난 달 기능에 대해 알아봅니다.
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 주어진 날짜 또는 dateTime이 현재 - 델타 개월 사이에 있으면 true를 반환합니다.
 
-## 범주
+## 카테고리
 
 날짜
 
@@ -31,11 +31,11 @@ ht-degree: 9%
 | 날짜 시간 | dateTime |
 | 델타 | 정수 |
 
-## 서명 및 반환된 문자
+## 서명 및 반환된 유형
 
 `inLastMonths(<dateTime>,<integer>)`
 
-부울을 반환합니다.
+부울 값을 반환합니다.
 
 ## 예제
 
