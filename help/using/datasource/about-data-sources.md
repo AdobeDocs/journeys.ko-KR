@@ -45,11 +45,11 @@ Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성
 
 1. 상단 메뉴에서 **[!UICONTROL Data Sources]** 탭을 클릭합니다.
 
-   데이터 소스 목록이 표시됩니다. See [this page](../about/user-interface.md) for more information on the interface.
+   데이터 소스 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [이 페이지](../about/user-interface.md)를 참조하십시오.
 
    ![](../assets/journey18.png)
 
-1. Then you can either add field groups to the built-in data source (see [this page](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [this page](../datasource/external-data-sources.md)) and associated field groups (see [this page](../datasource/field-groups.md)).
+1. 그런 다음 내장 데이터 소스에 필드 그룹을 추가하거나([이 페이지](../datasource/adobe-experience-platform-data-source.md) 참조) 새 외부 데이터 소스([이 페이지](../datasource/external-data-sources.md) 참조) 및 관련 필드 그룹을 만들 수 있습니다([이 페이지](../datasource/field-groups.md) 참조).
 
    ![](../assets/journey23.png)
 
