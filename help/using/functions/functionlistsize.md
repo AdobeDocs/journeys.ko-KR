@@ -16,7 +16,7 @@ ht-degree: 24%
 
 목록의 요소 수를 카운트합니다.
 
-## 범주
+## 카테고리
 
 목록
 
@@ -36,7 +36,7 @@ ht-degree: 24%
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
 
-## 서명 및 반환된 문자
+## 서명 및 반환된 유형
 
 `listSize(<listInteger>)`
 
@@ -60,4 +60,4 @@ ht-degree: 24%
 
 `listSize([10,2,3])`
 
-반환 3.
+3을 반환합니다.
