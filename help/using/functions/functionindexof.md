@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: indexOf
-description: 함수 index에 대한 자세한 정보
+description: 함수 indexOf
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -14,9 +14,9 @@ ht-degree: 10%
 
 # indexOf {#indexOf}
 
-첫 번째 인수 문자열이 특정 문자열(두 번째 인수 문자열)로 끝났는지 여부를 확인합니다. 문자열을 찾을 수 없으면 -1을 반환합니다.
+첫 번째 인수 문자열이 특정 문자열(두 번째 인수 문자열)로 끝나는지 여부를 확인합니다. 문자열을 찾을 수 없으면 -1을 반환합니다.
 
-## 범주
+## 카테고리
 
 문자열
 
@@ -31,7 +31,7 @@ ht-degree: 10%
 | 문자열 | 문자열 |
 | 지정된 값 | 문자열 |
 
-## 서명 및 반환된 문자
+## 서명 및 반환된 유형
 
 `indexOf(<string>,<string>)`
 
@@ -45,4 +45,4 @@ ht-degree: 10%
 
 설명:
 
-&quot;Hello&quot;에서 &quot;l&quot;의 첫 번째 발생은 위치 2입니다.
+&quot;Hello&quot;에서 &quot;l&quot;의 첫 번째 항목은 위치 2입니다.
