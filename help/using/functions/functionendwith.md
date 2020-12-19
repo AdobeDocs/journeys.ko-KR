@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: endWith
-description: 함수 종료에 대한 자세한 정보사용
+description: 끝 함수에 대한 자세한 정보사용
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -14,9 +14,9 @@ ht-degree: 9%
 
 # endWith {#endWith}
 
-두 번째 매개 변수가 첫 번째 매개 변수의 접미어일 경우 true를 반환합니다.
+두 번째 매개 변수가 첫 번째 매개 변수의 접미어인 경우 true를 반환합니다.
 
-## 범주
+## 카테고리
 
 문자열
 
@@ -31,11 +31,11 @@ ht-degree: 9%
 | 문자열 | 문자열 |
 | 접미어 | 문자열 |
 
-## 서명 및 반환된 문자
+## 서명 및 반환된 유형
 
 `endWith(<string>,<string>)`
 
-부울을 반환합니다.
+부울 값을 반환합니다.
 
 ## 예제
 
