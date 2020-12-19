@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: 네임스페이스 선택
-description: 네임스페이스를 선택하는 방법
+description: 네임스페이스를 선택하는 방법 알아보기
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -14,11 +14,11 @@ ht-degree: 12%
 
 # 네임스페이스 선택 {#concept_ckb_3qt_52b}
 
-이 네임스페이스를 통해 이벤트에 연결된 사람을 식별하는 데 사용되는 키 유형을 정의할 수 있습니다. 구성은 선택 사항입니다. 실시간 고객 프로파일에서 얻은 추가 정보를 검색하려는 경우 [필요합니다](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/home.html). 사용자 지정 데이터 소스를 통해 타사 시스템에서 오는 데이터만 사용하는 경우에는 네임스페이스 정의가 필요하지 않습니다.
+네임스페이스를 통해 이벤트에 연결된 사람을 식별하는 데 사용되는 키 유형을 정의할 수 있습니다. 구성은 선택 사항입니다. 사이트에서 [실시간 고객 프로필](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/home.html)에서 오는 추가 정보를 검색하려면 이 값이 필요합니다. 사용자 지정 데이터 소스를 통해 타사 시스템에서 오는 데이터만 사용하는 경우에는 네임스페이스 정의가 필요하지 않습니다.
 
-사전 정의된 항목 중 하나를 사용하거나 ID 네임스페이스 서비스를 사용하여 새 항목을 만들 수 있습니다. Refer to this [page](https://docs.adobe.com/content/help/ko-KR/experience-platform/identity/home.html).
+사전 정의된 항목 중 하나를 사용하거나 ID 네임스페이스 서비스를 사용하여 새 ID 네임스페이스 서비스를 만들 수 있습니다. 이 [페이지](https://docs.adobe.com/content/help/ko-KR/experience-platform/identity/home.html)를 참조하십시오.
 
-기본 ID가 있는 스키마를 선택하면 **[!UICONTROL Key]** 및 **[!UICONTROL Namespace]** 필드가 미리 채워집니다. ID가 정의되지 않은 경우 기본 키로 _identityMap > id_ 를 선택합니다. 그런 다음 네임스페이스를 선택해야 합니다. 그러면 **[!UICONTROL Namespace]** identityMap > id를 사용하여 키(필드 아래 _)가 미리 채워집니다_.
+기본 ID가 있는 스키마를 선택하면 **[!UICONTROL Key]** 및 **[!UICONTROL Namespace]** 필드가 미리 채워집니다. ID가 정의되지 않은 경우 _identityMap > id_&#x200B;를 기본 키로 선택합니다. 그런 다음 네임스페이스를 선택해야 합니다. 그러면 _identityMap > id_&#x200B;를 사용하여 **[!UICONTROL Namespace]** 필드 아래에 키가 미리 채워집니다.
 
 필드를 선택하면 기본 ID 필드에 태그가 지정됩니다.
 
