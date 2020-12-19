@@ -14,7 +14,7 @@ ht-degree: 92%
 
 # 시작{#concept_y4b_4qt_52b}
 
-[!DNL Journey Orchestration]에는 각기 특정 작업을 수행하는 두 가지 유형의 사용자가 있습니다. 그중 하나는 **기술 사용자**&#x200B;이고 다른 하나는 **비즈니스 사용자입니다**. 제품 프로필과 권한을 통해 사용자 액세스를 관리합니다. Refer to [this page](../about/access-management.md) to learn how to configure user access.
+[!DNL Journey Orchestration]에는 각기 특정 작업을 수행하는 두 가지 유형의 사용자가 있습니다. 그중 하나는 **기술 사용자**&#x200B;이고 다른 하나는 **비즈니스 사용자입니다**. 제품 프로필과 권한을 통해 사용자 액세스를 관리합니다. 사용자 액세스를 구성하는 방법에 대해 알려면 [이 페이지](../about/access-management.md)를 참조하십시오.
 
 [!DNL Journey Orchestration]을 구성 및 사용하는 주요 단계는 다음과 같습니다.
 
@@ -56,7 +56,7 @@ ht-degree: 92%
 
    경로를 만든 후에는 유효성을 검사하고 활성화해야 합니다. 이 단계는 **비즈니스 사용자**&#x200B;가 수행해야 합니다.
 
-   자세한 내용은 경로 [테스트](../building-journeys/testing-the-journey.md) 및 경로 [게시 페이지를 참조하십시오](../building-journeys/publishing-the-journey.md).
+   자세한 내용은 [경로 테스트](../building-journeys/testing-the-journey.md) 및 [경로](../building-journeys/publishing-the-journey.md) 게시를 참조하십시오.
 
    ![](../assets/journeyuc2_32bis.png)
 
