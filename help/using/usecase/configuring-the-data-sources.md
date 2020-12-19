@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: 데이터 소스 구성
-description: 고급 활용 사례에 맞게 데이터 소스를 구성하는 방법 살펴보기
+description: 고급 활용 사례에 맞게 데이터 소스를 구성하는 방법을 알아봅니다.
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -14,9 +14,9 @@ ht-degree: 14%
 
 # 데이터 소스 구성 {#concept_vml_hdy_w2b}
 
-사용 사례에서는 개인화 데이터를 메시지에 사용하고 싶습니다. 우리는 또한 그 사람이 충성도 회원이고 지난 24시간 동안 연락이 되지 않았는지 확인해야 합니다. 이 정보는 실시간 고객 프로필 데이터베이스에 저장됩니다. 이 **기술 사용자는** 해당 필드를 검색하도록 Adobe Experience Platform 데이터 소스를 구성해야 합니다.
+사용 사례에서는 개인화 데이터를 메시지에 사용하고자 합니다. 또한 해당 사람이 충성도 회원이고 지난 24시간 동안 연락이 되지 않았는지 확인해야 합니다. 이 정보는 실시간 고객 프로필 데이터베이스에 저장됩니다. **기술 사용자**&#x200B;는 해당 필드를 검색하도록 Adobe Experience Platform 데이터 소스를 구성해야 합니다.
 
-데이터 소스 구성에 대한 자세한 내용은 [이 페이지를 참조하십시오](../datasource/about-data-sources.md).
+데이터 소스 구성에 대한 자세한 내용은 [이 페이지](../datasource/about-data-sources.md)를 참조하십시오.
 
 1. 상단 메뉴에서 **[!UICONTROL Data Sources]** 탭을 클릭하고 내장 Adobe Experience Platform 데이터 소스를 선택합니다.
 
@@ -28,23 +28,23 @@ ht-degree: 14%
    * _사람 > 이름 > 성_
    * _personalEmail > 주소_
 
-1. 을 **[!UICONTROL Add a New Field Group]**&#x200B;클릭하고 **[!UICONTROL Profiles]** 스키마를 선택하고 조건에 대한 **충성도 멤버** 필드를 추가합니다. 충성도 **회원** 필드는 사용자 지정 필드이며 XDM에 추가되었습니다.&quot;_customer > marlton > loyaltyMember&quot;
+1. **[!UICONTROL Add a New Field Group]**&#x200B;을(를) 클릭하고 **[!UICONTROL Profiles]** 스키마를 선택하고 **충성도 구성원** 필드를 추가합니다. **충성도 멤버** 필드는 사용자 정의 필드이며 XDM에 추가되었습니다.&quot;_customer > marlton > loymentMember&quot;
 
    ![](../assets/journeyuc2_6.png)
 
-1. 아이콘을 **[!UICONTROL Add a New Field Group]**&#x200B;클릭하고 **[!UICONTROL ExperienceEvent]** 스키마를 선택하고 지정된 기간 동안 전송된 메시지 수에 대해 조건에 필요한 필드를 선택합니다. _날짜 및_ directMarketing _> 전송 > 전송된 메시지 수에 대한 타임스탬프_ .
+1. **[!UICONTROL Add a New Field Group]**&#x200B;을(를) 클릭하고 **[!UICONTROL ExperienceEvent]** 스키마를 선택하고 지정된 기간에 전송된 메시지 수에 대한 조건에 필요한 필드를 선택합니다._타임스탬프_ 날짜 및 _directMarketing > 센드 > 값_&#x200B;을 보낸 메시지 수에 대해 선택합니다.
 
    ![](../assets/journeyuc2_7.png)
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-호텔 예약 시스템에 예약이 되어 있는지 확인해 봐야 합니다 이 필드를 검색하려면 **기술 사용자가** 두 번째 데이터 소스를 구성해야 합니다.
+호텔 예약 시스템에 예약하신 분이 있는지 확인해 봐야 합니다 **기술 사용자**&#x200B;는 이 필드를 검색할 두 번째 데이터 소스를 구성해야 합니다.
 
-1. 데이터 소스 목록에서 새 외부 데이터 소스를 **[!UICONTROL Add]** 추가하여 호텔 예약 시스템에 대한 연결을 정의합니다.
+1. 데이터 소스 목록에서 **[!UICONTROL Add]**&#x200B;을 클릭하여 새 외부 데이터 소스를 추가하여 호텔 예약 시스템에 대한 연결을 정의합니다.
 
    ![](../assets/journeyuc2_9.png)
 
-1. 데이터 소스의 이름과 외부 서비스의 URL을 입력합니다. 예: _https://marlton.com/reservation_
+1. 데이터 소스의 이름과 외부 서비스의 URL을 입력합니다. 예:_https://marlton.com/reservation_
 
    >[!CAUTION]
    >
@@ -54,11 +54,11 @@ ht-degree: 14%
 
    ![](../assets/journeyuc2_10.png)
 
-1. 검색할 정보 **[!UICONTROL Add a New Field Group]** 와 API 매개 변수를 정의하려면 클릭합니다. 예를 들어 매개 변수(id)는 하나만 있으므로 다음 정보가 있는 하나의 필드 그룹을 만들어야 합니다.
+1. 검색할 정보와 API 매개 변수를 정의하려면 **[!UICONTROL Add a New Field Group]**&#x200B;을 클릭합니다. 예를 들어 매개 변수(id)는 하나만 있으므로 다음 정보가 포함된 하나의 필드 그룹을 만들어야 합니다.
 
    * **[!UICONTROL Method]**: POST 또는 GET 메서드를 선택합니다. 여기서는 GET 메서드를 선택합니다.
    * **[!UICONTROL Cache duration]**:이는 API 호출 빈도에 따라 다릅니다. 저희 경우에는 10분마다 예약 시스템이 갱신됩니다
-   * **[!UICONTROL Response Payload]**:필드 안쪽을 **[!UICONTROL Payload]** 클릭하고 페이로드 예를 붙여넣습니다. 필드 유형이 올바른지 확인합니다. API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 이 예에서 페이로드에는 예약 상태만 포함됩니다.
+   * **[!UICONTROL Response Payload]**:필드 안 **[!UICONTROL Payload]** 을 클릭하고 페이로드 예제를 붙여넣습니다. 필드 유형이 올바른지 확인합니다. API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 이 예에서 페이로드에는 예약 상태만 포함됩니다.
 
    ```
    {
@@ -66,7 +66,7 @@ ht-degree: 14%
    }
    ```
 
-   * **[!UICONTROL Dynamic Values]**:각 고객을 식별하는 데 사용되는 키에 해당하는 매개 변수 &quot;id&quot;를 예제에서 입력합니다. 이 매개 변수의 값이 여정에서 정의됩니다.
+   * **[!UICONTROL Dynamic Values]**:각 고객을 식별하는 데 사용되는 키에 해당하는 매개 변수 &quot;id&quot;를 예제에서 입력합니다. 이 매개 변수의 값은 여정에서 정의됩니다.
 
    ![](../assets/journeyuc2_11.png)
 
