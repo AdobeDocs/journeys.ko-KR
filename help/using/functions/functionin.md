@@ -2,7 +2,7 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: in
-description: 기능에 대한 자세한 내용은
+description: 함수
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
@@ -16,9 +16,9 @@ ht-degree: 11%
 
 첫 번째 인수 값이 목록에 있는지 확인합니다. 각 인수 값에 대해 Equal를 통해 검사가 수행됩니다. 인수 값이 있으면 true를 반환하고 그렇지 않으면 false를 반환합니다.
 
-목록의 유형과 `<expression>` 일치해야 합니다. 목록의 항목 유형은 미리 알림으로 서로 일치해야 합니다.
+`<expression>` 유형은 목록의 항목과 일치해야 합니다. 목록의 항목 유형은 미리 알림으로서 서로 일치해야 합니다.
 
-## 범주
+## 카테고리
 
 목록
 
@@ -34,7 +34,7 @@ ht-degree: 11%
 | 부울 | 부울 |
 | 정수 | 정수 |
 | 십진수 | 십진수 |
-| 지속 시간 | 지속 시간 |
+| 기간 | 기간 |
 | DateTime | DateTime |
 | DateTimeOnly | DateTimeOnly |
 | 목록 | listString |
@@ -45,7 +45,7 @@ ht-degree: 11%
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
 
-## 서명 및 반환된 문자
+## 서명 및 반환된 유형
 
 `in(<integer>,<listInteger>)`
 
