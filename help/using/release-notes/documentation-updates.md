@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 설명서 업데이트 정보
 description: 설명서 업데이트에 대해 알아보기
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 94%
+source-wordcount: '789'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 94%
 이 페이지에는 [!DNL Journey Orchestration]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
 [!DNL Journey Orchestration] [릴리스 정보](../release-notes/release-notes.md)도 확인할 수 있습니다.
 
+## 2021년 1월 {#january-2021}
+
+* 프로필 작성과 동시에 여정을 트리거할 때 우수 사례를 추가했습니다. [자세한 내용](../about/limitations.md#journeys-limitation-profile-creation)
+
 ## 2020년 10월 {#october-2020}
 
 * 이벤트에 대한 시간 초과를 구성하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
@@ -24,7 +28,7 @@ ht-degree: 94%
 ## 2020년 9월 {#september-2020}
 
 * 인터페이스 설명 섹션이 새 **모든 선택기** 메뉴를 반영하도록 업데이트되었습니다. [자세한 내용](../about/user-interface.md)
-* 반복되지 않는 세그먼트 기반 경험의 새 버전에 대한 참고가 추가되었습니다. [자세한 내용](../alpha/alpha-segment-trigger.md)
+* 반복되지 않는 새 버전을 사용하여 세그먼트 기반 여정에 메모를 추가했습니다. [자세한 내용](../alpha/alpha-segment-trigger.md)
 
 ## 2020년 8월 {#august-2020}
 
