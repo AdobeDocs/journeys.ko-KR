@@ -2,11 +2,11 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: 경로 속성
-description: 고객 여정 속성에 대한 자세한 내용
+description: 여정 속성에 대해 알아보기
 translation-type: tm+mt
-source-git-commit: 341138c31676870878099b4f4eecec200a614c69
+source-git-commit: ba50a1be1a1b8665ab3c557cc1ccc5c4f27bcc87
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '571'
 ht-degree: 1%
 
 ---
@@ -14,18 +14,18 @@ ht-degree: 1%
 
 # 경로 속성 {#journey-properties}
 
-고급 표현식 편집기에서 이벤트 및 데이터 소스 카테고리 아래에 **경로 속성** 카테고리가 있습니다. 이 카테고리는 지정된 프로필의 여정과 관련된 기술 필드를 포함합니다. 이 정보는 고객 경로 ID 또는 발생한 특정 오류와 같이 라이브 경로에서 시스템에서 검색한 정보입니다.
+고급 표현식 편집기에서 이벤트 및 데이터 소스 카테고리 아래에 **여정 속성** 카테고리를 찾을 수 있습니다. 이 카테고리는 지정된 프로필의 여정과 관련된 기술 필드를 포함합니다. 여정 ID 또는 발생한 특정 오류와 같이 라이브 여정에서 시스템에서 검색한 정보입니다.
 
 ![](../assets/journey-properties.png)
 
 다음과 같은 정보를 찾을 수 있습니다.
 
-* 경로:경로 uid, 경로 버전 uid, 인스턴스 uid 등
+* 여정 버전:여정 uid, 여정 버전 uid, 인스턴스 uid 등
 * 오류:데이터 가져오기, 작업 실행 등
 * 현재 단계, 마지막 현재 단계 등
 * 폐기된 프로파일
 
-이러한 필드를 사용하여 표현식을 만들 수 있습니다. 경로 실행 중에 값은 경로에서 직접 검색됩니다.
+이러한 필드를 사용하여 표현식을 만들 수 있습니다. 여정을 실행하는 동안 값이 여정에서 직접 검색됩니다.
 
 다음은 사용 사례의 몇 가지 예입니다.
 
@@ -39,15 +39,17 @@ ht-degree: 1%
 
 | 카테고리 | 필드 이름 | 레이블 | 설명 |
 |---|---|---|------------|
-| 고객 여정 버전 | journeyUID | 경로 식별자 |  |
-|  | journeyVersionUID | 경로 버전 식별자 |  |
-|  | journeyVersionName | 경로 버전 이름 |  |
-|  | journeyVersionDescription | 경로 버전 설명 |  |
-|  | journeyVersion | 고객 여정 버전 |  |
-| 경로 인스턴스 | instanceUID | 경로 인스턴스 식별자 | 인스턴스의 ID |
+| 여정 버전 | journeyUID | 여정 식별자 |  |
+|  | journeyVersionUID | 여정 버전 식별자 |  |
+|  | journeyVersionName | 여정 버전 이름 |  |
+|  | journeyVersionDescription | 여정 버전 설명 |  |
+|  | journeyVersion | 여정 버전 |  |
+| 여정 인스턴스 | instanceUID | 여정 인스턴스 식별자 | 인스턴스의 ID |
 |  | externalKey | 외부 키 | 여정을 트리거하는 개별 식별자 |
-| ID | profileId | 프로필 ID 식별자 | 경로 내 프로필의 식별자 |
-|  | namespace | 프로필 ID 네임스페이스 | 여정에서 프로필의 네임스페이스(예:ECID) |
+|  | organizationId | 조직 식별자 | 브랜드 조직 |
+|  | sandboxName | 샌드박스 이름 | 샌드박스의 이름 |
+| ID | profileId | 프로필 ID 식별자 | 여정의 프로파일 식별자 |
+|  | namespace | 프로필 ID 네임스페이스 | 여정에 있는 프로필의 네임스페이스(예:ECID) |
 | 현재 노드 | currentNodeId | 현재 노드 식별자 | 현재 활동의 식별자(노드) |
 |  | currentNodeName | 현재 노드 이름 | 현재 활동의 이름(노드) |
 | 이전 노드 | previousNodeId | 이전 노드 식별자 | 이전 활동의 식별자(노드) |
