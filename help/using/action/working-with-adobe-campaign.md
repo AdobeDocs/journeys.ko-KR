@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Adobe Campaign 작업
 description: Adobe Campaign 작업에 대한 자세한 내용
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 723c30865a5039bd68a8ac2e45d4c87a760e694d
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '300'
 ht-degree: 4%
 
 ---
@@ -40,7 +40,7 @@ Journey Orchestration에서 사용하려면 Campaign Standard 트랜잭션 메�
    >
    >이 테스트는 다음을 확인합니다.
    >
-   >호스트는 &quot;.campaign.adobe.com&quot; 또는 &quot;.campaign-sandbox.adobe.com&quot;입니다.
+   >호스트는 &quot;.campaign.adobe.com&quot;, &quot;.campaign-sandbox.adobe.com&quot; 또는 &quot;campaign-demo.adobe.com&quot;입니다.
    >
    >URL은 https,
    >
