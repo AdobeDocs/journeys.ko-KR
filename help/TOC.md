@@ -83,12 +83,12 @@ ht-degree: 100%
    + [여정 테스트](using/building-journeys/testing-the-journey.md)
    + [여정 게시](using/building-journeys/publishing-the-journey.md)
    + Adobe Experience Platform과 여정 단계 공유 {#sharing-journey-steps}
-      + [경로 단계 공유 개요](using/building-journeys/sharing-overview.md)
+      + [여정 단계 공유 개요](using/building-journeys/sharing-overview.md)
       + [journeySteps 이벤트 공통 필드](using/building-journeys/sharing-common-fields.md)
       + [journeyStep 이벤트 작업 실행 필드](using/building-journeys/sharing-execution-fields.md)
       + [journeyStep 이벤트 데이터 가져오기 필드](using/building-journeys/sharing-fetch-fields.md)
       + [journeyStep 이벤트 ID 필드](using/building-journeys/sharing-identity-fields.md)
-      + [경로 필드](using/building-journeys/sharing-journey-fields.md)
+      + [여정 필드](using/building-journeys/sharing-journey-fields.md)
 + 고급 표현식 편집기 사용 {#building-advanced-conditions-journeys}
    + [고급 표현식 편집기](using/expression/expressionadvanced.md)
    + 구문 {#syntax}
@@ -98,7 +98,7 @@ ht-degree: 100%
       + [필드 참조](using/expression/field-references.md)
       + [컬렉션 관리 기능](using/expression/collection-management-functions.md)
       + [연산자](using/expression/operators.md)
-      + [경로 속성](using/expression/journey-properties.md)
+      + [여정 속성](using/expression/journey-properties.md)
       + [예제](using/expression/advanced-editor-use-cases.md)
    + 함수 {#main-functions-journey}
       + [기본 함수](using/expression/functions.md)
