@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 사용자 인터페이스
 description: 사용자 인터페이스에 대해 자세히 알아보기
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1063'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 93%
 
 ## [!DNL Journey Orchestration]{#accessing_journey_orchestration} 액세스
 
-[!DNL Journey Orchestration] 인터페이스에 액세스하려면 오른쪽 상단에 있는 **[!UICONTROL App Selector]** 아이콘을 클릭한 다음 **[!UICONTROL Journey Orchestration]**&#x200B;를 클릭합니다.
+[!DNL Journey Orchestration]의 인터페이스에 액세스하려면 오른쪽 위의 **[!UICONTROL App Selector]** 아이콘을 클릭한 후 **[!UICONTROL Journey Orchestration]**&#x200B;을(를) 클릭합니다.
 
 ![](../assets/journey1.png)
 
@@ -34,15 +34,15 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 [!D
 
 >[!CONTEXTUALHELP]
 >id="jo_home"
->title="경로 목록"
->abstract="경로 목록에서는 모든 경로를 한꺼번에 표시하여 해당 상태를 확인하고 기본적인 작업을 수행할 수 있습니다. 경로 복제, 정지, 삭제도 가능합니다. 특정 작업은 수행할 수 없는 경로도 있습니다. 예를 들어 닫힌 경로는 삭제하거나 재시작할 수 없습니다. 단, 완료된 경로에서 새 버전을 만들거나 완료된 경로를 복제할 수는 있습니다. 검색 창에서 경로를 검색할 수도 있습니다."
+>title="여정 목록"
+>abstract="여정 목록에서는 모든 여정을 한꺼번에 표시하여 해당 상태를 확인하고 기본적인 작업을 수행할 수 있습니다. 여정 복제, 정지, 삭제도 가능합니다. 특정 작업은 수행할 수 없는 여정도 있습니다. 예를 들어 닫힌 여정은 삭제하거나 재시작할 수 없습니다. 단, 완료된 여정에서 새 버전을 만들거나 완료된 여정을 복제할 수는 있습니다. 검색 창에서 여정을 검색할 수도 있습니다."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="데모 비디오 시청"
 
-상단 메뉴에서는 **[!UICONTROL Home]**(경로), **[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**&#x200B;과 같은 [!DNL Journey Orchestration]의 다양한 기능 간을 이동할 수 있습니다.
+상단 메뉴에서는 **[!UICONTROL Home]**(여정), **[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**&#x200B;과 같은 [!DNL Journey Orchestration]의 다양한 기능 간을 이동할 수 있습니다.
 
 ![](../assets/journey2.png)
 
-화면 오른쪽 위의 ![](../assets/icon-context.png) 아이콘을 클릭하면 상황별 도움말이 표시됩니다. 경로, 이벤트, 작업, 데이터 소스 등의 다양한 [!DNL Journey Orchestration] 목록 화면에서 이 아이콘이 제공됩니다. 이 아이콘을 통해 현재 사용 중인 기능의 간략한 설명을 확인하고 관련 문서와 비디오에 액세스할 수 있습니다.
+화면 오른쪽 위의 ![](../assets/icon-context.png) 아이콘을 클릭하면 상황별 도움말이 표시됩니다. 여정, 이벤트, 작업, 데이터 소스 등의 다양한 [!DNL Journey Orchestration] 목록 화면에서 이 아이콘이 제공됩니다. 이 아이콘을 통해 현재 사용 중인 기능의 간략한 설명을 확인하고 관련 문서와 비디오에 액세스할 수 있습니다.
 
 ![](../assets/journey2bis.png)
 
@@ -54,17 +54,17 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 [!D
 
 **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 및 **[!UICONTROL Actions]** 목록에서 **[!UICONTROL Creation filters]**&#x200B;을(를) 사용하여 만든 날짜와 사용자를 기준으로 필터링합니다. 예를 들어 지난 30일 동안 만든 이벤트만 표시하도록 선택할 수 있습니다.
 
-**[!UICONTROL Home]** 아래의 경로 목록에서는 **[!UICONTROL Creation filters]**&#x200B;를 사용할 수 있을 뿐 아니라, **[!UICONTROL Status and version filters]**&#x200B;를 사용하여 표시된 경로를 상태와 버전에 따라 필터링할 수도 있습니다. **[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**&#x200B;를 사용하면 특정 이벤트, 필드 그룹 또는 작업을 사용하는 경로만 표시하도록 선택할 수도 있습니다. 그리고 **[!UICONTROL Publication filters]**&#x200B;를 사용하면 게시 날짜나 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 경로의 최신 버전만 표시하도록 선택할 수 있습니다. [이 페이지](../building-journeys/using-the-journey-designer.md)를 참조하십시오.
+**[!UICONTROL Home]** 아래의 여정 목록에서는 **[!UICONTROL Creation filters]**&#x200B;를 사용할 수 있을 뿐 아니라, **[!UICONTROL Status and version filters]**&#x200B;를 사용하여 표시된 여정을 상태와 버전에 따라 필터링할 수도 있습니다. **[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**&#x200B;를 사용하면 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정만 표시하도록 선택할 수도 있습니다. 그리고 **[!UICONTROL Publication filters]**&#x200B;를 사용하면 게시 날짜나 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 여정의 최신 버전만 표시하도록 선택할 수 있습니다. [이 페이지](../building-journeys/using-the-journey-designer.md)를 참조하십시오.
 
 >[!NOTE]
 >
 >목록 오른쪽 위의 구성 버튼을 사용하면 표시되는 열을 개인화할 수 있습니다. 개인화는 내용은 각 사용자별로 저장됩니다.
 
-**[!UICONTROL Last update]** 및 **[!UICONTROL Last update by]** 열에는 경로가 마지막으로 업데이트된 시간과 업데이트를 수행한 사용자를 표시할 수 있습니다.
+**[!UICONTROL Last update]** 및 **[!UICONTROL Last update by]** 열에는 여정이 마지막으로 업데이트된 시간과 업데이트를 수행한 사용자를 표시할 수 있습니다.
 
 ![](../assets/journey74.png)
 
-이벤트, 데이터 소스 및 작업 구성 창에서 **[!UICONTROL Used in]** 필드를 적용하면 특정 이벤트, 필드 그룹 또는 작업을 사용하는 경로 수가 표시됩니다. **[!UICONTROL View journeys]** 버튼을 클릭하여 해당 경로의 목록을 표시할 수 있습니다.
+이벤트, 데이터 소스 및 작업 구성 창에서 **[!UICONTROL Used in]** 필드를 적용하면 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정 수가 표시됩니다. **[!UICONTROL View journeys]** 버튼을 클릭하여 해당 여정의 목록을 표시할 수 있습니다.
 
 ![](../assets/journey3bis.png)
 
@@ -90,11 +90,11 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 [!D
 
 [!DNL Journey Orchestration] 인터페이스에서는 다음과 같은 여러 단축키를 사용할 수 있습니다.
 
-_경로, 작업, 데이터 소스 또는 이벤트 목록:_
+_여정, 작업, 데이터 소스 또는 이벤트 목록:_
 
-* 새 경로, 작업, 데이터 소스 또는 이벤트를 만들려면 **c** 키를 누릅니다.
+* 새 여정, 작업, 데이터 소스 또는 이벤트를 만들려면 **c** 키를 누릅니다.
 
-_경로에서 활동 구성 시:_
+_여정에서 활동 구성 시:_
 
 캔버스는 자동으로 저장됩니다. 캔버스 왼쪽 위에서 저장 상태를 확인할 수 있습니다.
 
@@ -129,16 +129,16 @@ _검색 창이 있는 화면:_
 
 * 검색 창을 선택하려면 **Ctrl/Command+F** 키 조합을 사용합니다.
 
-_경로의 캔버스:_
+_여정의 캔버스:_
 
 * 모든 활동을 선택하려면 **Ctrl/Command+A** 키 조합을 사용합니다.
 * 선택한 하나 이상의 활동을 삭제하려면 **Delete** 또는 **백스페이스** 키를 누릅니다. 그런 다음 **Enter** 키를 눌러 확인 팝업에서 삭제를 확인할 수 있습니다.
 * 활동을 사용 가능한 첫 번째 위치(위쪽부터)에 추가하려면 왼쪽 팔레트에서 해당 활동을 두 번 클릭합니다.
 
-_여행 중:_
+_여정:_
 
-* 테스트 모드를 활성화/비활성화하려면 **T**&#x200B;을 누릅니다.
-* 테스트 모드의 이벤트 기반 여행에서 **E**&#x200B;를 눌러 이벤트를 트리거합니다.
-* 세그먼트 기반 여정에서 **한 번에** 옵션이 테스트 모드에서 선택된 경우 **P**&#x200B;을 눌러 이벤트를 트리거합니다.
-* 테스트 모드에서 **L**&#x200B;을 눌러 로그를 표시합니다.
+* 테스트 모드를 활성화/비활성화하려면 **T** 키를 누릅니다.
+* 테스트 모드의 이벤트 기반 여정에서 **E** 키를 눌러 이벤트를 트리거합니다.
+* 세그먼트 기반 여정에서 테스트 모드에서 **한 번에 하나의 프로필** 옵션이 선택된 경우 **P** 키를 눌러 이벤트를 트리거합니다.
+* 테스트 모드에서 **L** 키를 눌러 로그를 표시합니다.
 
