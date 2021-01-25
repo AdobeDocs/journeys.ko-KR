@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 액세스 관리
 description: 액세스 관리에 대해 자세히 알아보기
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '845'
 ht-degree: 100%
 
@@ -27,23 +27,23 @@ ht-degree: 100%
 
 Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에게 할당할 수 있습니다.
 
-* **[!UICONTROL Limited Access User]**: 경로 및 보고서에 대한 읽기 전용 액세스 권한을 가진 사용자. 이 제품 프로필에는 다음과 같은 권한이 포함됩니다.
-   * 경로 읽기
+* **[!UICONTROL Limited Access User]**: 여정 및 보고서에 대한 읽기 전용 액세스 권한을 가진 사용자. 이 제품 프로필에는 다음과 같은 권한이 포함됩니다.
+   * 여정 읽기
    * 보고서 읽기
 
-* **[!UICONTROL Administrators]**: 관리 메뉴에 대한 액세스 권한을 가지고 있으며 경로, 이벤트 및 보고서를 관리할 수 있는 사용자. 이 제품 프로필에는 다음과 같은 권한이 포함됩니다.
-   * 경로 관리
-   * 경로 게시
+* **[!UICONTROL Administrators]**: 관리 메뉴에 대한 액세스 권한을 가지고 있으며 여정, 이벤트 및 보고서를 관리할 수 있는 사용자. 이 제품 프로필에는 다음과 같은 권한이 포함됩니다.
+   * 여정 관리
+   * 여정 게시
    * 이벤트, 데이터 소스 및 작업 관리
    * 보고서 관리
 
    >[!NOTE]
    >
-   >**[!UICONTROL Administrators]**&#x200B;는 Adobe Campaign Standard에서 트랜잭션 메시지(또는 메시지 템플릿)를 작성, 편집, 게시할 수 있는 유일한 제품 프로필입니다. Adobe Campaign Standard를 사용하여 경로에서 메시지를 보내는 경우에 이 제품 프로필이 필요합니다.
+   >**[!UICONTROL Administrators]**&#x200B;는 Adobe Campaign Standard에서 트랜잭션 메시지(또는 메시지 템플릿)를 작성, 편집, 게시할 수 있는 유일한 제품 프로필입니다. Adobe Campaign Standard를 사용하여 여정에서 메시지를 보내는 경우에 이 제품 프로필이 필요합니다.
 
-* **[!UICONTROL Standard User]**: 경로 관리와 같은 기본적인 액세스 권한을 가진 사용자. 이 제품 프로필에는 다음과 같은 권한이 포함됩니다.
-   * 경로 관리
-   * 경로 게시
+* **[!UICONTROL Standard User]**: 여정 관리와 같은 기본적인 액세스 권한을 가진 사용자. 이 제품 프로필에는 다음과 같은 권한이 포함됩니다.
+   * 여정 관리
+   * 여정 게시
    * 보고서 관리
 
 기본 프로필이 사용자를 관리하기에 충분하지 않은 경우 제품 프로필을 직접 만들 수도 있습니다.
@@ -139,6 +139,6 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 샌드박스는 Admin Console에서 제품 프로필을 통해 할당됩니다. 샌드박스를 할당하는 방법에 대한 자세한 내용은 이 [섹션](../about/access-management.md#create-product-profile)을 참조하십시오.
 
 [!DNL Journey Orchestration] (은)는 해당 조직을 위해 만들어진 Adobe Experience Platform 샌드박스를 반영합니다.
-Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. 자세한 단계는 [샌드박스 사용 안내서](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html)를 참조하십시오.
+Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. 자세한 단계는 [샌드박스 사용 안내서](https://docs.adobe.com/content/help/ko-KR/experience-platform/sandbox/ui/user-guide.html)를 참조하십시오.
 
 화면의 왼쪽 상단에 샌드박스 전환기 컨트롤이 있습니다. 한 샌드박스에서 다른 샌드박스로 전환하려면 전환기에서 현재 활성 샌드박스를 클릭하고 드롭다운 목록에서 다른 샌드박스를 선택하십시오.
