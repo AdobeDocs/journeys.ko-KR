@@ -20,7 +20,7 @@ ht-degree: 100%
 >
 >이 설명서는 제품의 최근 변경 사항을 반영하여 자주 업데이트됩니다. 그러나 실제 제품 인터페이스와 약간 다른 스크린샷도 있습니다.
 
-## [!DNL Journey Orchestration]{#accessing_journey_orchestration} 액세스
+## [!DNL Journey Orchestration] 액세스{#accessing_journey_orchestration}
 
 [!DNL Journey Orchestration]의 인터페이스에 액세스하려면 오른쪽 위의 **[!UICONTROL App Selector]** 아이콘을 클릭한 후 **[!UICONTROL Journey Orchestration]**&#x200B;을(를) 클릭합니다.
 
