@@ -5,11 +5,11 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축에 대한 방법 지침을 제공합니다.
 index: true
-translation-type: ht
-source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
-workflow-type: ht
-source-wordcount: '404'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c18670b32e0e56cf5621fde965b19aa24da8045b
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
    + [릴리스 정보](using/release-notes/release-notes.md)
    + [설명서 업데이트 정보](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] 시작 {#starting-with-journeys}
-   + [ [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [정보 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [제한 사항](using/about/limitations.md)
    + [시작](using/about/get-started.md)
    + [사용자 인터페이스](using/about/user-interface.md)
@@ -139,6 +139,7 @@ ht-degree: 100%
       + 목록 {#list}
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
+         + [getListItem](using/functions/functiongetlistitem.md)
          + [in](using/functions/functionin.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
@@ -163,6 +164,7 @@ ht-degree: 100%
          + [notEqualWithIgnoreCase](using/functions/functionnotequalignorecase.md)
          + [replace](using/functions/functionreplace.md)
          + [replaceAll](using/functions/functionreplaceall.md)
+         + [split](using/functions/functionsplit.md)
          + [startWith](using/functions/functionstartwith.md)
          + [startWithIgnoreCase](using/functions/functionstartwithignorecase.md)
          + [substr](using/functions/functionsubstr.md)
