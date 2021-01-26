@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Adobe Campaign 작업
 description: Adobe Campaign 작업에 대한 자세한 내용
 translation-type: tm+mt
-source-git-commit: 723c30865a5039bd68a8ac2e45d4c87a760e694d
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '299'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ Journey Orchestration에서 사용하려면 Campaign Standard 트랜잭션 메�
 
 >[!NOTE]
 >
->Adobe Campaign Standard 트랜잭션 메시징에는 지정된 인스턴스에 대해 채널에서 최대 시간당 50,000개의 메시지 범위가 있습니다. 오버로드 위험을 줄이기 위해 Campaign Standard 통합을 위해 **매핑 규칙**&#x200B;을 설정하는 것이 좋습니다.
+>Adobe Campaign Standard 통합이 설정되는 즉시 Adobe Campaign Standard 작업에 대해 초당 13회의 호출 규칙이 자동으로 정의됩니다. 이는 Adobe Campaign Standard 트랜잭션 메시징의 공식 비율에 해당합니다.
 >
 >[Adobe Campaign Standard 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html)에서 트랜잭션 메시징 SLA에 대한 자세한 내용을 참조하십시오.
 
@@ -40,7 +40,7 @@ Journey Orchestration에서 사용하려면 Campaign Standard 트랜잭션 메�
    >
    >이 테스트는 다음을 확인합니다.
    >
-   >호스트는 &quot;.campaign.adobe.com&quot;, &quot;.campaign-sandbox.adobe.com&quot; 또는 &quot;campaign-demo.adobe.com&quot;입니다.
+   >호스트는 &quot;.campaign.adobe.com&quot;, &quot;.campaign-sandbox.adobe.com&quot; 또는 &quot;.campaign-demo.adobe.com&quot;입니다.
    >
    >URL은 https,
    >
