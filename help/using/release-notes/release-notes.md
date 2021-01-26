@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 릴리스 정보
 description: 릴리스 정보에 대해 알아보기
 translation-type: tm+mt
-source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
+source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2171'
 ht-degree: 93%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 93%
 
 이벤트 구성에서 스키마를 선택하면 Journey Orchestration에서 이벤트를 제대로 수신해야 하는 필드만 선택됩니다. [자세한 내용](../event/defining-the-payload-fields.md)
 
-이제 간단한 표현식 편집기에서 여정 속성 속성을 사용할 수 있습니다.
+이제 간단한 표현식 편집기에서 여정 속성 속성을 사용할 수 있습니다. [자세한 내용](../expression/journey-properties.md)
 
 2개의 새 여정 속성 특성(sandboxName 및 organizationId)이 추가되었습니다. [자세한 내용](../expression/journey-properties.md)
 
