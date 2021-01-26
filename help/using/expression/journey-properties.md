@@ -1,20 +1,24 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 경로 속성
+title: 여정 속성
 description: 여정 속성에 대해 알아보기
 translation-type: tm+mt
-source-git-commit: ba50a1be1a1b8665ab3c557cc1ccc5c4f27bcc87
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 1%
+source-wordcount: '586'
+ht-degree: 4%
 
 ---
 
 
-# 경로 속성 {#journey-properties}
+# 여정 속성 특성 {#journey-properties}
 
-고급 표현식 편집기에서 이벤트 및 데이터 소스 카테고리 아래에 **여정 속성** 카테고리를 찾을 수 있습니다. 이 카테고리는 지정된 프로필의 여정과 관련된 기술 필드를 포함합니다. 여정 ID 또는 발생한 특정 오류와 같이 라이브 여정에서 시스템에서 검색한 정보입니다.
+고급 표현식 편집기에서 이벤트 및 데이터 소스 카테고리 아래에 **여정 속성** 카테고리를 찾을 수 있습니다. 이 카테고리는 지정된 프로필의 여정과 관련된 기술 필드를 포함합니다. 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정 시스템에서 검색한 정보입니다.
+
+>[!NOTE]
+>
+>여정 속성 속성은 간단한 표현식 편집기에서도 사용할 수 있습니다. 이 [섹션](../building-journeys/condition-activity.md#about_condition) 참조
 
 ![](../assets/journey-properties.png)
 
