@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 릴리스 정보
 description: 릴리스 정보에 대해 알아보기
-translation-type: ht
-source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
-workflow-type: ht
-source-wordcount: '2026'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
+workflow-type: tm+mt
+source-wordcount: '2169'
+ht-degree: 93%
 
 ---
 
@@ -16,6 +16,20 @@ ht-degree: 100%
 
 이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 최신 [설명서 업데이트](../release-notes/documentation-updates.md)도 확인할 수 있습니다.
+
+## 2021년 1월 릴리스 {#january-release}
+
+이벤트 구성에서 스키마를 선택하면 Journey Orchestration에서 이벤트를 제대로 수신해야 하는 필드만 선택됩니다. [자세한 내용](../event/defining-the-payload-fields.md)
+
+이제 간단한 표현식 편집기에서 여정 속성 속성을 사용할 수 있습니다.
+
+2개의 새 여정 속성 특성(sandboxName 및 organizationId)이 추가되었습니다. [자세한 내용](../expression/journey-properties.md)
+
+Adobe Campaign Standard SLA에 맞게 Adobe Campaign Standard 통합이 설정되는 즉시 Adobe Campaign Standard 작업에 대해 초당 13회의 호출 규칙이 자동으로 정의됩니다. [자세한 내용](../action/working-with-adobe-campaign.md)
+
+이제 이벤트 시간 초과 기간이 시간 초과 경로에 보다 명확하게 지정됩니다. [자세한 내용](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+
+[getListItem](../functions/functiongetlistitem.md) 및 [split](../functions/functionsplit.md) 함수가 고급 표현식 편집기에서 사용할 수 있는 함수 목록에 추가되었습니다. 이렇게 하면 문자열 계산 사용 사례에서 더 많은 가능성이 제공됩니다.
 
 ## 2020년 11월 릴리스 {#november-release}
 
@@ -34,7 +48,7 @@ ht-degree: 100%
 <li>여러 개로 분할하여 매우 복잡한 여정의 디자인을 간소화 </li>
 <li>공통 및 재사용 가능한 여정 패턴을 기반으로 여정 구축</li>
 </ul>
-<p>자세한 내용은 <a href="../building-journeys/jump.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/jump.md">자세한 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">자습서 비디오</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -74,7 +88,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### 기타 개선 사항{#october-november}
+### 기타 개선 사항
 
 여정의 새 버전을 만들 때 제한 사항을 추가했습니다. 이러한 제한 사항은 여정에서 너무 많은 변경 사항을 방지하여 버전 간에 일관성을 유지합니다. [자세한 내용](../about/limitations.md#journey-versions-limitations)
 
@@ -99,7 +113,7 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 </tbody>
 </table>
 
-### 기타 개선 사항{#october-other}
+### 기타 개선 사항
 
 * 새 여정 버전을 게시하면 이전 버전이 자동으로 종료되고 닫힌 상태로 전환됩니다. [자세한 내용](../building-journeys/journey-versions.md)
 
