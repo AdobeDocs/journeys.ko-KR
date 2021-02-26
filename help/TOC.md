@@ -6,7 +6,7 @@ title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축에 대한 방법 지침을 제공합니다.
 index: true
 translation-type: tm+mt
-source-git-commit: 937b7235d41fe7f0395e303736974e32eea8558f
+source-git-commit: 59fef99ac17621e81037ddbcc280e9341db729eb
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 98%
@@ -52,6 +52,7 @@ ht-degree: 98%
       + [사용자 지정 작업 구성](using/action/about-custom-action-configuration.md)
       + [URL 구성](using/action/url-configuration.md)
       + [메시지 매개 변수 정의](using/action/defining-the-message-parameters.md)
+   + [Adobe Campaign Classic과 통합](using/beta/acc-action.md)
 + Platform 세그먼트 사용 {#configuring-segment}
    + [Platform 세그먼트](using/segment/about-segments.md)
    + [세그먼트 만들기](using/segment/creating-a-segment.md)
@@ -195,5 +196,4 @@ ht-degree: 98%
    + [알파 기능 개요](using/alpha/alpha-overview.md)
    + [사용자 인터페이스](using/alpha/alpha-interface.md)
    + [세그먼트 활동 읽기](using/alpha/alpha-segment-trigger.md)
-   + [Adobe Campaign Classic과 통합](using/beta/acc-action.md)
 
