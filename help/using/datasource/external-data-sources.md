@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: '외부 데이터 소스 '
 description: '외부 데이터 소스를 구성하는 방법 알아보기 '
-translation-type: ht
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 28604af956df18fbc89e44ace36904c5897c028e
+workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 100%
 
@@ -74,9 +74,9 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 * **[!UICONTROL Dynamic Values]**: 각 매개 변수를 쉼표로 구분하여 입력합니다. 이 예제에서는 &quot;long,lat&quot;를 입력합니다. 매개 변수 값은 실행 컨텍스트에 따라 달라지므로 여정에서 정의됩니다. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오.
 * **[!UICONTROL Sent Payload]**: 이 예제에서는 이 필드가 표시되지 않습니다. POST 메서드를 선택해야 이 필드를 사용할 수 있습니다. 서드파티 시스템으로 전송할 페이로드를 붙여넣습니다.
 
-매개 변수가 필요한 GET 호출의 경우 **[!UICONTROL Parameters]** 필드에 매개 변수를 입력하면 호출 끝에 매개 변수가 자동으로 추가됩니다. POST 호출의 경우에는 다음을 수행해야 합니다.
+매개 변수가 필요한 GET 호출의 경우 **[!UICONTROL Dynamic Values]** 필드에 매개 변수를 입력하면 호출 끝에 매개 변수가 자동으로 추가됩니다. POST 호출의 경우에는 다음을 수행해야 합니다.
 
-* 호출 시 전달할 매개 변수의 목록을 **[!UICONTROL Parameter]** 필드에 포함합니다. 아래 예제에서는 매개 변수가 &quot;identifier&quot;입니다.
+* 호출 시 전달할 매개 변수의 목록을 **[!UICONTROL Dynamic Values]** 필드에 포함합니다. 아래 예제에서는 매개 변수가 &quot;identifier&quot;입니다.
 * 전송되는 페이로드 본문에서도 정확히 동일한 구문을 사용하여 매개 변수를 지정합니다. 이렇게 하려면 &quot;param&quot;: &quot;매개 변수 이름&quot;(아래 예제에서는 &quot;identifier&quot;)을 추가해야 합니다. 아래 구문을 따르십시오.
 
    ```
