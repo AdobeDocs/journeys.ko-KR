@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Journey Orchestration 제한
 description: Journey Orchestration 제한에 대한 자세한 내용
 translation-type: tm+mt
-source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
+source-git-commit: a0b6f54e37abded690dc200bc3a901a8e0f04f79
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '527'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Journey Orchestration 사용과 관련된 제한 사항은 다음과 같습니�
 
 ## 이벤트 제한 사항
 
-* 고유한 오케스트레이션 ID를 얻으려면 먼저 Journey Orchestration 내에 고객 여정을 시작하는 데 사용된 스트리밍 데이터를 내에 구성해야 합니다. 이 오케스트레이션 ID는 Adobe Experience Platform에 들어오는 스트리밍 페이로드에 추가해야 합니다.
+* 시스템에서 생성된 이벤트의 경우 고유한 오케스트레이션 ID를 얻으려면 먼저 고객 여정 관리 내에 고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 고객 관리 내에 구성해야 합니다. 이 오케스트레이션 ID는 Adobe Experience Platform에 들어오는 스트리밍 페이로드에 추가해야 합니다. 이 제한은 규칙 기반 이벤트에 적용되지 않습니다.
  
 
 ## 데이터 소스 제한 사항
