@@ -1,14 +1,14 @@
 ---
-keywords: Journeys;home;popular topics
+keywords: 여정;홈;인기 항목
 product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration 제품 설명서
 topic: Premium
-translation-type: ht
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
-source-wordcount: '263'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d6665fff2d2f7055df09ce8c6b00eac1379002ec
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 98%
 
 ---
 
@@ -30,9 +30,6 @@ Journey Orchestration을 설정하고 첫 번째 여정을 구축하기 위한 �
 
 * **[새로운 기능 확인](using/release-notes/release-notes.md)**<br/>
 최신 릴리스에 대해 자세히 확인해 보십시오.
-
-* **[알파 기능](using/alpha/alpha-overview.md)**<br/>
-현재 알파 프로그램을 통해 사용 가능한 기능을 알아보십시오.
 
 ## 상위 페이지
 
