@@ -3,10 +3,10 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 설명서 업데이트 정보
 description: 설명서 업데이트에 대해 알아보기
-translation-type: ht
-source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
-workflow-type: ht
-source-wordcount: '789'
+translation-type: tm+mt
+source-git-commit: 349af3a922faa2cf4561c7974466255562d6917d
+workflow-type: tm+mt
+source-wordcount: '785'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 100%
 ## 2020년 9월 {#september-2020}
 
 * 인터페이스 설명 섹션이 새 **모든 선택기** 메뉴를 반영하도록 업데이트했습니다. [자세한 내용](../about/user-interface.md)
-* 되풀이가 아닌 새 버전을 사용하여 세그먼트 기반 여정에 메모를 추가했습니다. [자세한 내용](../alpha/alpha-segment-trigger.md)
+* 되풀이가 아닌 새 버전을 사용하여 세그먼트 기반 여정에 메모를 추가했습니다.
 
 ## 2020년 8월 {#august-2020}
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 * 이벤트 활동 섹션은 각 이벤트 유형에 대한 전용 하위 섹션으로 재구성되었습니다. [자세한 내용](../building-journeys/event-activities.md)
 * 세그먼트 품질에 대한 오버로드를 방지하기 위한 모범 사례를 추가했습니다. [자세한 내용](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * 작업 또는 조건에 오류가 발생한 후 여정을 계속하는 방법을 설명하는 메모가 추가되었습니다. [자세한 내용](../about/troubleshooting.md#section_h3q_kqk_fhb)
-* 제한된 고객 집합 속에서 테스트한 알파 기능에 대한 새로운 섹션이 추가되었습니다. [자세한 내용](../alpha/alpha-overview.md)
+* 제한된 고객 집합 속에서 테스트한 알파 기능에 대한 새로운 섹션이 추가되었습니다.
 * Intelligent Services 통합에 대한 새로운 섹션이 추가되었습니다. [자세한 내용](../ai-services/ai-services-overview.md)
 * 테스트 프로필 만들기에 대한 새로운 섹션이 추가되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md#create-test-profile)
 * 여정 조건 또는 작업에서 **[!UICONTROL SegmentQualification]** 노드를 사용하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../building-journeys/segment-qualification-events.md)
