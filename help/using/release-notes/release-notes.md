@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 릴리스 정보
 description: 릴리스 정보에 대해 알아보기
 translation-type: tm+mt
-source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
+source-git-commit: 9f312c779a6229507c72d3f116b8192bb5f1df34
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 93%
+source-wordcount: '2264'
+ht-degree: 87%
 
 ---
 
@@ -17,7 +17,32 @@ ht-degree: 93%
 이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 최신 [설명서 업데이트](../release-notes/documentation-updates.md)도 확인할 수 있습니다.
 
-## 2021년 1월 릴리스 {#january-release}
+## 2021년 2월 릴리스 {#february-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>프로필 활동 업데이트</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이 새로운 작업 활동을 사용하면 이벤트, 데이터 소스 또는 특정 값을 사용하여 기존 Adobe Experience Platform 프로파일을 업데이트할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../building-journeys/update-profiles.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 기타 개선 사항
+
+* 이제 이벤트를 구성할 때 XDM 유효성 검사에 필수 필드만 기본적으로 미리 선택됩니다. 이러한 필드는 선택 취소할 수 없습니다.
+* 여정 팔레트에서 새 필터가 추가되었습니다. 기본 이벤트 외에 마지막으로 사용된 5개의 이벤트와 작업만 표시할 수 있습니다. 각 사용자에게만 해당됩니다. 기본적으로 모든 항목이 표시됩니다. [자세한 내용](../building-journeys/using-the-journey-designer.md#palette)
+* 새 여정을 시작할 때 첫 번째 단계로 캔버스에 놓을 수 없는 요소가 이제 숨겨집니다. 이것은 모든 행동, 조건 활동, 대기 그리고 반응에 대해 관계가 있습니다.
+* 이제 고급 표현식 편집기의 왼쪽 부분에서 목록의 끝에 있는 **함수** 섹션 아래에 함수가 다시 그룹화됩니다.
+
+## 2021년 1월 릴리스 {#january-2021-release}
 
 이벤트 구성에서 스키마를 선택하면 Journey Orchestration에서 이벤트를 제대로 수신해야 하는 필드만 선택됩니다. [자세한 내용](../event/defining-the-payload-fields.md)
 
@@ -82,7 +107,6 @@ Adobe Campaign Standard SLA에 맞게 Adobe Campaign Standard 통합이 설정�
 <td>
 <p>이제 eventID를 사용하지 않고 이벤트를 보다 쉽게 설정하는 새로운 방법을 사용할 수 있습니다. 규칙 기반 이벤트는 조건에 따라 이벤트를 트리거해야 하는지 여부를 평가합니다. "시스템 생성"이라는 기존 방법을 계속 사용할 수 있습니다. 알파 프로그램을 통해 제한된 고객 집합에서 테스트한 이 기능은 이제 모든 고객에게 베타 버전으로 제공됩니다.
 </p>
-<p>자세한 내용은 <a href="../event/about-events.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -140,8 +164,6 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 
 ### 알파 업데이트{#september-alpha-update}
 
-알파의 범위를 검색하려면 이 [섹션](../alpha/alpha-overview.md)을 참조하십시오.
-
 <table>
 <thead>
 <tr>
@@ -159,7 +181,6 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 <li><p>세그먼트 내보내기 진행 상태를 표시하기 위해 테스트 모드 로그의 세부 기간을 개선하였습니다.</p>
 </li>
 </ul>
-<p><strong>세그먼트 읽기</strong> 활동에 대한 자세한 내용은 <a href="../alpha/alpha-segment-trigger.md">자세한 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -172,8 +193,6 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 이제 세그먼트 자격 이벤트의 페이로드에는 동작(시작, 종료), 자격 타임스탬프 및 세그먼트 ID와 같은 컨텍스트 정보가 포함되어 있으며 조건 및 작업에 사용할 수 있습니다. [자세한 내용](../building-journeys/segment-qualification-events.md)
 
 ### 알파 업데이트{#august-alpha-update}
-
-알파의 범위를 검색하려면 이 [섹션](../alpha/alpha-overview.md)을 참조하십시오.
 
 <table>
 <thead>
@@ -194,7 +213,6 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 <li><p>이제 단일 프로필에서 여정을 테스트하고 시각적인 흐름을 사용하여 여정의 진행 상황을 추적할 수 있습니다.</p>
 </li>
 </ul>
-<p>자세한 내용은 <a href="../alpha/alpha-segment-trigger.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -228,8 +246,6 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 
 알파 프로그램은 제한된 고객 세트에서 현재 테스트하는 기능을 제공합니다. 따라서 수신한 피드백을 바탕으로 제품을 개선할 수 있습니다. 모든 Journey Orchestration 고객이 이러한 기능을 사용할 수는 없습니다.
 
-이러한 기능은 전용 [섹션](../alpha/alpha-overview.md)에 설명되어 있습니다.
-
 <table>
 <thead>
 <tr>
@@ -247,7 +263,6 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 <li><p>관리 기능을 하나의 대시보드로 그룹화하였습니다.</p>
 </li>
 </ul>
-<p>자세한 내용은 <a href="../alpha/alpha-interface.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -262,7 +277,7 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 <tbody>
 <tr>
 <td>
-<p>세그먼트 트리거 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 시작할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다. <a href="../alpha/alpha-segment-trigger.md">자세한 내용</a>
+<p>세그먼트 트리거 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 시작할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다. 
 </p>
 </td>
 </tr>
