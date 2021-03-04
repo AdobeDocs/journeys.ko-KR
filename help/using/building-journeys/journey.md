@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 여정 구축
 description: 비즈니스 사용자는 이벤트, 오케스트레이션 및 작업 활동을 통합하여 여정을 구축하는 방법을 살펴봅니다.
 translation-type: tm+mt
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
+source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 17%
+source-wordcount: '435'
+ht-degree: 15%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 17%
 여정 인터페이스를 사용하면 팔레트에서 캔버스로 활동을 쉽게 드래그하여 놓을 수 있습니다. 활동을 두 번 클릭하여 다음 단계에서 캔버스에 추가할 수도 있습니다. 각 활동에는 특정 역할과 위치가 있습니다. 활동은 순차적인 것입니다. 활동이 끝나면 흐름이 계속 진행되어 다음 활동을 처리하는 등의 작업을 수행합니다.
 
 여정당 하나의 네임스페이스만 허용됩니다. 첫 번째 이벤트를 놓으면 네임스페이스가 다른 이벤트가 회색으로 표시됩니다. 첫 번째 이벤트에 네임스페이스가 없으면 네임스페이스가 있는 모든 이벤트가 회색으로 표시됩니다. [이 페이지](../event/selecting-the-namespace.md)를 참조하십시오. 또한 여정에 네임스페이스가 없는 이벤트가 있는 경우 Adobe Experience Platform 필드 그룹이 회색으로 표시됩니다. 마지막으로 동일한 여정에서 여러 이벤트를 사용하는 경우 동일한 네임스페이스를 사용해야 합니다.
+
+새 여정을 시작할 때 첫 번째 단계로 캔버스에 놓을 수 없는 요소가 숨겨집니다. 이것은 모든 행동, 조건 활동, 대기 그리고 반응에 대해 관계가 있습니다.
 
 ## 빠른 시작 {#creating_journey}
 
