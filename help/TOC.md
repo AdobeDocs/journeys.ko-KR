@@ -6,9 +6,9 @@ title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축에 대한 방법 지침을 제공합니다.
 index: true
 translation-type: tm+mt
-source-git-commit: 59fef99ac17621e81037ddbcc280e9341db729eb
+source-git-commit: d6665fff2d2f7055df09ce8c6b00eac1379002ec
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '403'
 ht-degree: 98%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 98%
          + [Adobe Campaign 작업 사용](using/building-journeys/using-adobe-campaign-actions.md)
          + [사용자 지정 작업 사용](using/building-journeys/using-custom-actions.md)
          + [여정 간 이동](using/building-journeys/jump.md)
+         + [프로필 업데이트](using/building-journeys/update-profiles.md)
    + [여정 테스트](using/building-journeys/testing-the-journey.md)
    + [여정 게시](using/building-journeys/publishing-the-journey.md)
    + Adobe Experience Platform과 여정 단계 공유 {#sharing-journey-steps}
@@ -192,8 +193,3 @@ ht-degree: 98%
       + [여정 구축](using/usecase/building-the-journey.md)
 + API 작업{#working-with-apis}
    + [API 최대 가용량](using/api/capping.md)
-+ 알파 기능 {#alpha}
-   + [알파 기능 개요](using/alpha/alpha-overview.md)
-   + [사용자 인터페이스](using/alpha/alpha-interface.md)
-   + [세그먼트 활동 읽기](using/alpha/alpha-segment-trigger.md)
-
