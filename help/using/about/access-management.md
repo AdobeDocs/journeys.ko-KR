@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 액세스 관리
 description: 액세스 관리에 대해 자세히 알아보기
-translation-type: ht
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
-source-wordcount: '845'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e55078b31b5f0e5811575d5e8993a01a90ec9c14
+workflow-type: tm+mt
+source-wordcount: '851'
+ht-degree: 99%
 
 ---
 
@@ -45,6 +45,7 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
    * 여정 관리
    * 여정 게시
    * 보고서 관리
+   * 이벤트, 데이터 소스 및 작업 읽기
 
 기본 프로필이 사용자를 관리하기에 충분하지 않은 경우 제품 프로필을 직접 만들 수도 있습니다.
 다음과 같은 특정 기본 권한을 할당할 수 있도록 사용자는 항상 제품 프로필에 연결되어 있어야 합니다.
@@ -139,6 +140,6 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 샌드박스는 Admin Console에서 제품 프로필을 통해 할당됩니다. 샌드박스를 할당하는 방법에 대한 자세한 내용은 이 [섹션](../about/access-management.md#create-product-profile)을 참조하십시오.
 
 [!DNL Journey Orchestration] (은)는 해당 조직을 위해 만들어진 Adobe Experience Platform 샌드박스를 반영합니다.
-Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. 자세한 단계는 [샌드박스 사용 안내서](https://docs.adobe.com/content/help/ko-KR/experience-platform/sandbox/ui/user-guide.html)를 참조하십시오.
+Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. 자세한 단계는 [샌드박스 사용 안내서](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html)를 참조하십시오.
 
 화면의 왼쪽 상단에 샌드박스 전환기 컨트롤이 있습니다. 한 샌드박스에서 다른 샌드박스로 전환하려면 전환기에서 현재 활성 샌드박스를 클릭하고 드롭다운 목록에서 다른 샌드박스를 선택하십시오.
