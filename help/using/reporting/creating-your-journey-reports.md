@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: 여정 보고서 만들기
-description: 고객 여정 보고서를 작성하는 방법 살펴보기
+description: 여정 보고서를 만드는 방법 알아보기
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '829'
 ht-degree: 2%
 
 ---
@@ -18,17 +21,17 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이동을 삭제하면 연결된 모든 보고서를 더 이상 사용할 수 없습니다.
+>여정을 삭제하면 연결된 모든 보고서를 더 이상 사용할 수 없습니다.
 
-이 섹션에서는 기본 보고서를 만들거나 사용하는 방법을 보여 줍니다. 패널, 구성 요소 및 시각화를 결합하여 여행의 성공 여부를 보다 효과적으로 추적할 수 있습니다.
+이 섹션에서는 기본 보고서를 만들거나 사용하는 방법을 보여 줍니다. 패널, 구성 요소 및 시각화를 결합하여 여정의 성공을 추적할 수 있습니다.
 
-여정 보고서에 액세스하고 배달의 성공 추적을 시작하려면 다음을 수행합니다.
+여정 보고서에 액세스하고 배달의 성공 추적을 시작하려면 다음을 수행하십시오.
 
 1. 상단 메뉴에서 **[!UICONTROL Home]** 탭을 클릭합니다.
 
 1. 보고할 여정을 선택합니다.
 
-   경로 목록에서 경로 위로 마우스를 가져가면 **보고서**&#x200B;를 클릭하여 보고서에 액세스할 수도 있습니다.
+   여정 목록에서 여정 위로 마우스를 가져가면 **보고서**&#x200B;를 클릭하여 보고서에 액세스할 수도 있습니다.
 
    ![](../assets/dynamic_report_journey.png)
 
