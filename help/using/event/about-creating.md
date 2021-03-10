@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 이벤트 만들기
 description: 이벤트를 만드는 방법 알아보기
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: b3ed5d305ddd1c86814373fc923390dc50a80c7e
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 53%
+source-wordcount: '547'
+ht-degree: 64%
 
 ---
 
@@ -32,9 +35,9 @@ ht-degree: 53%
 
    ![](../assets/journey6bis.png)
 
-   * **규칙** 기반 장치:이 유형의 이벤트는 eventID를 생성하지 않습니다. **이벤트 ID 조건** 필드에서 시스템은 사용자의 여행을 트리거할 관련 이벤트를 식별하는 데 사용할 규칙을 정의하기만 하면 됩니다. 이 규칙은 이벤트 페이로드에서 사용할 수 있는 필드(예: 프로필의 위치 또는 프로필의 장바구니에 추가한 항목 수)를 기반으로 할 수 있습니다.
+   * **규칙 기반** 이벤트: 이 유형의 이벤트는 eventID를 생성하지 않습니다. **이벤트 ID 조건** 필드에서 시스템에서 여정을 트리거할 관련 이벤트를 식별하는 데 사용할 규칙을 정의하기만 하면 됩니다. 이 규칙은 프로필의 위치 또는 프로필의 장바구니에 추가한 항목 수와 같은 이벤트 페이로드에서 사용할 수 있는 필드를 기반으로 할 수 있습니다.
 
-   * **시스템** 생성 장치:이 유형에는 eventID가 필요합니다. 이 eventID 필드는 이벤트를 만들 때 자동으로 생성되며 페이로드 미리 보기에 추가됩니다. 이벤트를 실행하는 시스템은 ID를 생성하지 않아야 합니다. 페이로드 미리 보기에서 사용할 수 있는 ID를 전달해야 합니다. [이 섹션](../event/previewing-the-payload.md)을 참조하십시오.
+   * **시스템** 생성 장치:이 유형에는 eventID가 필요합니다. 이 eventID 필드는 이벤트를 만들 때 자동으로 생성되며 페이로드 미리 보기에 추가됩니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 전달해야 합니다. [이 섹션](../event/previewing-the-payload.md)을 참조하십시오.
    >[!NOTE]
    >
    >[이 섹션](../event/about-events.md)의 이벤트 유형에 대한 자세한 내용을 참조하십시오.
@@ -44,7 +47,7 @@ ht-degree: 53%
    >
    >**[!UICONTROL System Generated]** 유형을 선택하면 eventID 유형 믹싱이 있는 스키마만 사용할 수 있습니다. **[!UICONTROL Rule Based]** 유형을 선택하면 모든 경험 이벤트 스키마를 사용할 수 있습니다.
 
-1. 규칙 기반 이벤트의 경우 **[!UICONTROL Event ID condition]** 필드 내부를 클릭합니다. 간단한 표현식 편집기를 사용하여 시스템에서 여정을 트리거할 이벤트를 식별하는 데 사용할 조건을 정의합니다.
+1. 규칙 기반 이벤트의 경우 **[!UICONTROL Event ID condition]** 필드 내부를 클릭합니다. 간단한 표현식 편집기를 사용하여 여정을 트리거할 이벤트를 식별하는 데 시스템에서 사용할 조건을 정의합니다.
    ![](../assets/alpha-event6.png)
 
    예를 들면, 우리는 프로필의 도시에 따라 조건을 작성했습니다. 즉, 시스템에서 이 조건(**[!UICONTROL City]** 필드 및 **[!UICONTROL Paris]** 값)과 일치하는 이벤트를 받을 때마다 Journey Orchestration에 전달됩니다.
