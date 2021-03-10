@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: '외부 데이터 소스 '
 description: '외부 데이터 소스를 구성하는 방법 알아보기 '
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 28604af956df18fbc89e44ace36904c5897c028e
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 100%
+source-wordcount: '1279'
+ht-degree: 99%
 
 ---
 
