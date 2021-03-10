@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: 이벤트 구성
-description: 고급 사용 사례에 대한 이벤트를 구성하는 방법을 알아봅니다.
+description: 여정 고급 사용 사례에 대한 이벤트를 구성하는 방법에 대해 알아봅니다.
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '400'
 ht-degree: 7%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 7%
 
 # 이벤트 구성 {#concept_sbp_5cy_w2b}
 
-우리의 시나리오에서, 우리는 사람이 말튼 호텔과 레스토랑에 들어갈 때마다 이벤트를 받아야 한다. **기술 사용자**&#x200B;는 사용자 경로에서 시스템에서 수신할 2개의 이벤트를 구성해야 합니다.
+우리의 시나리오에서, 우리는 사람이 말튼 호텔과 레스토랑에 들어갈 때마다 이벤트를 받아야 한다. **기술 사용자**&#x200B;는 여정에서 시스템에서 수신할 2개의 이벤트를 구성해야 합니다.
 
 이벤트 구성에 대한 자세한 내용은 [이 페이지](../event/about-events.md)를 참조하십시오.
 
@@ -52,4 +55,4 @@ ht-degree: 7%
 
    ![](../assets/journeyuc2_5.png)
 
-같은 방식으로 &quot;RestaurantBeacon&quot; 이벤트를 만듭니다. 2개의 비콘 이벤트가 생성되어 이제 Adobe의 여정에 사용할 수 있습니다. 이제 모바일 응용 프로그램이 예상되는 페이로드를 스트리밍 통합 API 끝점으로 보낼 수 있도록 구성해야 합니다. [이 페이지](../event/additional-steps-to-send-events-to-journey-orchestration.md)를 참조하십시오.
+같은 방식으로 &quot;RestaurantBeacon&quot; 이벤트를 만듭니다. 두 개의 비콘 이벤트가 생성되어 이제 여정에서 사용할 수 있습니다. 이제 모바일 응용 프로그램이 예상되는 페이로드를 스트리밍 통합 API 끝점으로 보낼 수 있도록 구성해야 합니다. [이 페이지](../event/additional-steps-to-send-events-to-journey-orchestration.md)를 참조하십시오.
