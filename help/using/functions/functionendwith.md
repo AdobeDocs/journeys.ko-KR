@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: endWith
 description: 끝 함수에 대한 자세한 정보사용
+feature: 여정
+role: 데이터 엔지니어
+level: 경험
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 9%
+source-wordcount: '47'
+ht-degree: 10%
 
 ---
 
