@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 사용자 지정 작업 사용
 description: 작업 활동에 대한 자세한 내용
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 7%
+source-wordcount: '131'
+ht-degree: 6%
 
 ---
 
