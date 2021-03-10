@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration으로 이벤트를 전송하는 추가 단계
 description: Journey Orchestration으로 이벤트를 전송하는 추가 단계에 대해 알아봅니다.
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '327'
 ht-degree: 7%
 
 ---
