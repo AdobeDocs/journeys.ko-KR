@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 조건 활동
 description: 조건 활동에 대한 자세한 내용
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '747'
 ht-degree: 10%
 
 ---
@@ -25,13 +28,13 @@ ht-degree: 10%
 
 ## 조건 활동 {#about_condition} 정보
 
-한 번에 여러 조건을 사용할 경우 각 조건이 레이블을 정의하여 보다 쉽게 식별할 수 있습니다.
+여정에서 여러 조건을 사용할 경우 각 조건에 대한 레이블을 정의하여 보다 쉽게 식별할 수 있습니다.
 
 여러 조건을 정의하려면 **[!UICONTROL Add a path]**&#x200B;을 클릭합니다. 각 조건에 대해 활동 후에 새 경로가 캔버스에 추가됩니다.
 
 ![](../assets/journey47.png)
 
-여정의 디자인은 기능적으로 영향을 미칩니다. 조건 후에 몇 개의 경로가 정의되면 첫 번째 적격한 경로만 실행됩니다. 즉, 경로의 우선 순위를 서로 위나 아래에 배치하여 변경할 수 있습니다.
+여정 디자인은 기능적으로 영향을 줍니다. 조건 후에 몇 개의 경로가 정의되면 첫 번째 적격한 경로만 실행됩니다. 즉, 경로의 우선 순위를 서로 위나 아래에 배치하여 변경할 수 있습니다.
 
 예를 들어 첫 번째 경로의 조건 &quot;The person is a VIP&quot;과 두 번째 경로의 조건 &quot;The person is a male&quot;의 예를 살펴보겠습니다. 두 조건을 모두 충족하는 사람(VIP인 남성)이 이 이 단계를 통과하면 첫 번째 경로가 &quot;위&quot;이기 때문에 두 번째 경로에도 자격이 있더라도 첫 번째 경로가 선택됩니다. 이 우선 순위를 변경하려면 활동을 다른 세로 순서로 이동합니다.
 
@@ -46,7 +49,7 @@ ht-degree: 10%
 
 ![](../assets/journey64.png)
 
-[Adobe Experience Platform 세그멘테이션 서비스](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)를 사용하여 세그먼트를 만드는 경우 경로 조건에서 세그먼트를 활용할 수 있습니다. 조건[에서 세그먼트 사용을 참조하십시오.](../segment/using-a-segment.md)
+[Adobe Experience Platform 세그멘테이션 서비스](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)를 사용하여 세그먼트를 만드는 경우 여정 조건에서 세그먼트를 활용할 수 있습니다. 조건](../segment/using-a-segment.md)에서 세그먼트 사용을 참조하십시오.[
 
 
 >[!NOTE]
@@ -67,13 +70,13 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->시간대는 더 이상 조건에 한정되지 않으며 이제 경로 속성의 경로 수준에서 정의됩니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
+>표준 시간대는 더 이상 조건에 한정되지 않으며 이제 여정 속성의 여정 수준에서 정의됩니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
 
 ![](../assets/journey51.png)
 
 ## {#percentage_split} 분할 비율
 
-이 옵션을 사용하면 임의로 대상을 분할하여 각 그룹에 대해 다른 작업을 정의할 수 있습니다. 각 경로에 대한 분할 수와 다시 분할 영역을 정의합니다. 시스템은 여정의 이 활동에서 얼마나 많은 사람들이 오는지 예측할 수 없기 때문에 분할 계산은 통계적이다. 그 결과 분할의 오차 여백이 매우 낮습니다. 이 함수는 Java 임의 메커니즘을 기반으로 합니다([page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html) 참조).
+이 옵션을 사용하면 임의로 대상을 분할하여 각 그룹에 대해 다른 작업을 정의할 수 있습니다. 각 경로에 대한 분할 수와 다시 분할 영역을 정의합니다. 시스템은 여정의 이 활동에서 얼마나 많은 사람들이 몰릴 것인지 예측할 수 없기 때문에 분할 계산은 통계적입니다. 그 결과 분할의 오차 여백이 매우 낮습니다. 이 함수는 Java 임의 메커니즘을 기반으로 합니다([page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html) 참조).
 
 >[!NOTE]
 >
@@ -87,6 +90,6 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->시간대는 더 이상 조건에 한정되지 않으며 이제 경로 속성의 경로 수준에서 정의됩니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
+>표준 시간대는 더 이상 조건에 한정되지 않으며 이제 여정 속성의 여정 수준에서 정의됩니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
 
 ![](../assets/journey53.png)
