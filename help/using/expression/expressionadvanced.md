@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 고급 표현식 편집기
 description: 고급 표현식을 작성하는 방법에 대해 알아보기
+feature: 여정
+role: 데이터 엔지니어
+level: 경험
 translation-type: tm+mt
-source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 94%
+source-wordcount: '545'
+ht-degree: 93%
 
 ---
 
