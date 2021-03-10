@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: inNextMonths
 description: NextMonths의 기능에 대해 알아봅니다.
+feature: 여정
+role: 데이터 엔지니어
+level: 경험
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 9%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
 
 # inNextMonths {#inNextMonths}
 
-주어진 날짜 또는 dateTime이 현재 및 현재 + 델타 개월 사이인 경우 true를 반환합니다.
+주어진 날짜 또는 dateTime이 현재 및 현재 + 델타 개월 사이의 경우 true를 반환합니다.
 
 ## 카테고리
 
