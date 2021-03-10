@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: setHours
 description: 함수 집합에 대해 알아봅니다.시간
+feature: 여정
+role: 데이터 엔지니어
+level: 경험
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 5%
+source-wordcount: '80'
+ht-degree: 6%
 
 ---
 
