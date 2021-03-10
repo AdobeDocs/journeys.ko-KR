@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 컬렉션 관리 기능
 description: 수집 관리 기능의 데이터 유형에 대해 알아봅니다.
+feature: 여정
+role: 데이터 엔지니어
+level: 경험
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '586'
 ht-degree: 1%
 
 ---
