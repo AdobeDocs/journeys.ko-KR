@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Adobe Campaign 작업
 description: Adobe Campaign 작업에 대한 자세한 내용
 translation-type: tm+mt
-source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
+source-git-commit: 5c94f64c10d12690e27585806962bf9537636e9c
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '301'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Adobe Campaign Standard의 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 보낼 수 있습니다.
 
-[!DNL Journey Orchestration] adobe campaign standard에 연결할 수 있는 기본 동작을 제공합니다.
+[!DNL Journey Orchestration] Adobe Campaign Standard에 연결할 수 있는 기본 동작을 제공합니다.
 
 Journey Orchestration에서 사용하려면 Campaign Standard 트랜잭션 메시지 및 관련 이벤트를 게시해야 합니다. 이벤트가 게시되었지만 메시지가 게시되지 않으면 Journey Orchestration 인터페이스에 표시되지 않습니다. 메시지가 게시되지만 연관된 이벤트가 게시되지 않으면 Journey Orchestration 인터페이스에 메시지를 볼 수 있지만 사용할 수는 없습니다.
 
@@ -40,7 +40,7 @@ Journey Orchestration에서 사용하려면 Campaign Standard 트랜잭션 메�
    >
    >이 테스트는 다음을 확인합니다.
    >
-   >호스트는 &quot;.campaign.adobe.com&quot;, &quot;.campaign-sandbox.adobe.com&quot; 또는 &quot;.campaign-demo.adobe.com&quot;입니다.
+   >호스트는 &quot;.campaign.adobe.com&quot;, &quot;.campaign-sandbox.adobe.com&quot;, &quot;.campaign-demo.adobe.com&quot;, &quot;.ats.adobe.com&quot; 또는 &quot;.adls.adobe.com&quot;입니다.
    >
    >URL은 https,
    >
