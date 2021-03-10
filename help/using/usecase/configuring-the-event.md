@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: 이벤트 구성
-description: 간단한 사용 사례에 맞게 이벤트를 구성하는 방법을 알아봅니다.
+description: 여정 단순 사용 사례에 대해 이벤트를 구성하는 방법에 대해 알아봅니다.
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '361'
 ht-degree: 8%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 8%
 
 # 이벤트 구성{#concept_y44_hcy_w2b}
 
-따라서, 우리는 한 사람이 스파 옆에 있는 비콘 근처에 걸을 때마다 이벤트를 받아야 한다. **기술 사용자**&#x200B;는 사용자 경로에서 시스템에서 수신할 이벤트를 구성해야 합니다.
+따라서, 우리는 한 사람이 스파 옆에 있는 비콘 근처에 걸을 때마다 이벤트를 받아야 한다. **기술 사용자**&#x200B;는 여정에서 시스템이 수신할 이벤트를 구성해야 합니다.
 
 이벤트 구성에 대한 자세한 내용은 [이 페이지](../event/about-events.md)를 참조하십시오.
 
@@ -48,4 +51,4 @@ ht-degree: 8%
 
    ![](../assets/journeyuc1_7.png)
 
-   이 이벤트는 여정에서 사용할 준비가 되었습니다. 이제 모바일 응용 프로그램이 예상되는 페이로드를 스트리밍 통합 API 끝점으로 보낼 수 있도록 구성해야 합니다. [이 페이지](../event/additional-steps-to-send-events-to-journey-orchestration.md)를 참조하십시오.
+   여정에서 이벤트를 사용할 준비가 되었습니다. 이제 모바일 응용 프로그램이 예상되는 페이로드를 스트리밍 통합 API 끝점으로 보낼 수 있도록 구성해야 합니다. [이 페이지](../event/additional-steps-to-send-events-to-journey-orchestration.md)를 참조하십시오.
