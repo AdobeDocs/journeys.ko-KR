@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 진행 단계 이벤트 공통 필드
 description: 진행 단계 이벤트 공통 필드
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -16,13 +19,13 @@ ht-degree: 0%
 
 이 혼합은 journeyStepEvent 및 journeyStepProfileEvent가 공유합니다.
 
-이러한 필드는 [!DNL Journey Orchestration]이(가) Adobe Experience Platform으로 보내는 일반적인 XDM 필드입니다. 경로에서 처리되는 모든 단계에 대해 공통 필드가 전송됩니다. 사용자 정의 작업 및 추가 기능에 더 구체적인 필드가 사용됩니다.
+이러한 필드는 [!DNL Journey Orchestration]이(가) Adobe Experience Platform으로 보내는 일반적인 XDM 필드입니다. 여정에서 처리되는 모든 단계에 대해 공통 필드가 전송됩니다. 사용자 정의 작업 및 추가 기능에 더 구체적인 필드가 사용됩니다.
 
 이러한 필드 중 일부는 특정 처리 패턴(작업 실행, 데이터 가져오기 등)에서만 사용할 수 있습니다. 이벤트 크기를 제한하기 위해.
 
 ## 입구
 
-사용자가 여행 경로를 입력했는지 여부를 나타냅니다. 없으면 값이 false로 간주됩니다.
+사용자가 여정을 입력했는지 여부를 나타냅니다. 없으면 값이 false로 간주됩니다.
 
 유형:boolean
 
@@ -30,7 +33,7 @@ ht-degree: 0%
 
 ## 재입구
 
-사용자가 동일한 인스턴스로 여행을 다시 입력했는지 여부를 나타냅니다. 없으면 값이 false로 간주됩니다.
+사용자가 동일한 인스턴스를 사용하여 여정을 다시 입력했는지 여부를 나타냅니다. 없으면 값이 false로 간주됩니다.
 
 유형:boolean
 
@@ -96,31 +99,31 @@ ht-degree: 0%
 
 ## journeyID
 
-경로의 ID입니다.
+여정 ID입니다.
 
 유형:문자열
 
 ## journeyVersionID
 
-경로 버전의 ID입니다. 이 id는 journeyStepEvent의 경우 경로의 ID 참조를 나타냅니다.
+여정 버전의 ID입니다. 이 id는 journeyStepEvent의 경우 여정에 대한 ID 참조를 나타냅니다.
 
 유형:문자열
 
 ## journeyVersionName
 
-경로 버전의 이름입니다.
+여정 버전의 이름입니다.
 
 유형:문자열
 
 ## journeyVersion
 
-경로 버전의 버전입니다.
+여정 버전.
 
 유형:문자열
 
 ## instanceID
 
-경로 인스턴스의 내부 ID입니다.
+여정 인스턴스의 내부 ID입니다.
 
 유형:문자열
 
@@ -132,7 +135,7 @@ ht-degree: 0%
 
 ## parentStepID
 
-인스턴스에서 현재 처리된 단계의 상위 단계 ID입니다.
+인스턴스에서 현재 처리된 단계의 상위의 단계 ID입니다.
 
 유형:문자열
 
@@ -176,7 +179,7 @@ ht-degree: 0%
 
 ## recurenceIndex
 
-진행이 일괄 처리이고 반복(첫 번째 실행에는 recurenceIndex = 1)인 경우 되풀이 인덱스입니다.
+여정이 일괄 처리되고 반복(첫 번째 실행에는 recurenceIndex = 1)인 경우 되풀이 인덱스입니다.
 
 유형:long
 
