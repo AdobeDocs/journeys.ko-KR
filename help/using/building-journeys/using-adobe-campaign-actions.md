@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Adobe Campaign 작업 사용
 description: Adobe Campaign 작업에 대한 자세한 내용
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '903'
 ht-degree: 5%
 
 ---
@@ -20,7 +23,7 @@ Adobe Campaign Standard이 있는 경우 다음과 같은 바로 사용 가능�
 >
 >이를 위해 기본 제공 작업을 구성해야 합니다. [이 페이지](../action/working-with-adobe-campaign.md)를 참조하십시오.
 
-이러한 각 채널에 대해 Adobe Campaign Standard 트랜잭션 메시지 **템플릿**&#x200B;을 선택합니다. 실제로 [!DNL Journey Orchestration]은(는) 메시지 전송 솔루션이 아닙니다. 내장된 이메일, SMS 및 푸시 채널의 경우 트랜잭션 메시지를 통해 메시지 전송을 실행할 수 있습니다. 즉, 여행 중에 특정 메시지 템플릿을 사용하려면 Adobe Campaign Standard에서 게시해야 합니다. 이 기능을 사용하는 방법에 대해 알려면 [이 페이지](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)를 참조하십시오.
+이러한 각 채널에 대해 Adobe Campaign Standard 트랜잭션 메시지 **템플릿**&#x200B;을 선택합니다. 실제로 [!DNL Journey Orchestration]은(는) 메시지 전송 솔루션이 아닙니다. 내장된 이메일, SMS 및 푸시 채널의 경우 트랜잭션 메시지를 통해 메시지 전송을 실행할 수 있습니다. 즉, 여정에서 특정 메시지 템플릿을 사용하려면 Adobe Campaign Standard에서 게시해야 합니다. 이 기능을 사용하는 방법에 대해 알려면 [이 페이지](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)를 참조하십시오.
 
 >[!NOTE]
 >
