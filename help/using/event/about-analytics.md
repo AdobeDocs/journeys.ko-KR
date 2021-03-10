@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Adobe Analytics 데이터 정보
 description: Adobe Analytics 데이터를 활용하는 방법 살펴보기
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 0%
 >
 >이 섹션은 Adobe Analytics 데이터를 사용해야 하는 규칙 기반 이벤트와 고객에게만 적용됩니다.
 
-이미 캡처 및 스트리밍하고 있는 모든 Adobe Analytics 행동 이벤트 데이터를 활용하여 고객 여정과 경험을 자동화할 수 있습니다.
+이미 플랫폼에 스트리밍하고 있는 모든 Adobe Analytics 행동 이벤트 데이터를 활용하여 여정을 트리거하고 고객을 위한 경험을 자동화할 수 있습니다.
 
 이를 수행하려면 Adobe Experience Platform에서 활용할 보고서 세트를 활성화해야 합니다.
 
