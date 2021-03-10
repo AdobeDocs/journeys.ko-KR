@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 작업 활동
 description: 작업 활동에 대한 자세한 내용
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 28%
+source-wordcount: '177'
+ht-degree: 27%
 
 ---
 
@@ -24,7 +27,7 @@ Adobe Campaign Standard이 있는 경우 다음과 같은 바로 사용 가능�
 
 사용자 지정 작업을 구성한 경우 여기에 표시됩니다([이 페이지](../building-journeys/using-custom-actions.md) 참조).
 
-캔버스에 작업 활동을 놓을 때 **[!UICONTROL Label]**&#x200B;을 정의할 수 있습니다. 그러면 캔버스에서 활동 아래에 표시되는 작업 이름에 접미사를 추가할 수 있습니다. 이 기능은 동일한 액션을 여정에서 여러 번 사용하고 보다 쉽게 식별하려는 경우에 유용합니다. 보고서를 보다 쉽게 읽을 수 있습니다. 옵션 **[!UICONTROL Description]**&#x200B;을 추가할 수도 있습니다.
+캔버스에 작업 활동을 놓을 때 **[!UICONTROL Label]**&#x200B;을 정의할 수 있습니다. 그러면 캔버스에서 활동 아래에 표시되는 작업 이름에 접미사를 추가할 수 있습니다. 이 기능은 여정에서 동일한 동작을 여러 번 사용하고 보다 쉽게 식별하려는 경우에 유용합니다. 보고서를 보다 쉽게 읽을 수 있습니다. 옵션 **[!UICONTROL Description]**&#x200B;을 추가할 수도 있습니다.
 
 ![](../assets/journey59bis.png)
 
