@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: journeyStep 이벤트 작업 실행 필드
 description: journeyStep 이벤트 작업 실행 필드
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '324'
 ht-degree: 4%
 
 ---
@@ -112,19 +115,19 @@ actionExecOrigError의 오류 코드입니다.
 
 ## deliveryJobID
 
-배치 경로의 배달 작업 ID에 대해 설명합니다.
+배치 여정에 대한 배달 작업 ID에 대해 설명합니다.
 
 유형:문자열
 
 ## batchDeliveryID
 
-배치 경로의 배달 ID에 대해 설명합니다.
+배치 여정에 대한 배달 ID에 대해 설명합니다.
 
 유형:문자열
 
 ## fromSegmentTrigger
 
-대상 세그먼트에서 배치 이동이 트리거되었는지 설명합니다.
+이것은 배치 여정이 대상 세그먼트에서 트리거되는지 여부를 설명합니다.
 
 유형:boolean
 
