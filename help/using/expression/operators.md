@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 연산자
 description: 고급 표현식의 연산자에 대해 알아보기
+feature: 여정
+role: 데이터 엔지니어
+level: 경험
 translation-type: tm+mt
-source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '439'
 ht-degree: 6%
 
 ---
