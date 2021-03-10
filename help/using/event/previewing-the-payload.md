@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 페이로드 미리 보기
 description: 페이로드를 미리 보는 방법 알아보기
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '117'
 ht-degree: 7%
 
 ---
