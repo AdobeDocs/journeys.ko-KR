@@ -4,10 +4,13 @@ solution: Journey Orchestration
 title: 매핑 API 설명
 description: 매핑 API에 대해 자세히 알아보십시오.
 products: journeys
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1112'
 ht-degree: 0%
 
 ---
@@ -19,7 +22,7 @@ ht-degree: 0%
 
 [!DNL Journey Orchestration]의 API는 5000 이벤트/초를 지원하지만 일부 외부 시스템 또는 API는 동일한 처리량을 가질 수 없습니다. 이러한 이유로 [!DNL Journey Orchestration]에 Caping API라는 전용 기능이 포함되어 있어 외부 시스템에 부과하는 속도를 모니터링하고 제한합니다.
 
-데이터 소스 구성 중에 시스템에 대한 연결을 정의하여 여정에 사용할 추가 정보를 검색하거나 작업 정의에 대해 메시지 또는 API 호출을 전송하도록 제3자 시스템 연결을 구성합니다. Journey에서 API 호출을 수행할 때마다 설정 API가 쿼리되고 API 엔진을 통해 호출이 이루어집니다. 정의된 제한이 있으면 호출이 거부되고 외부 시스템에 과부하가 발생하지 않습니다.
+데이터 소스 구성 중에 여정에서 사용할 추가 정보를 검색할 시스템 연결을 정의하거나 작업 정의에 대해 메시지 또는 API 호출을 전송하도록 제3자 시스템 연결을 구성합니다. 여정에서 API 호출을 수행할 때마다 설정 API가 쿼리되고 API 엔진을 통해 호출이 수행됩니다. 정의된 제한이 있으면 호출이 거부되고 외부 시스템에 과부하가 발생하지 않습니다.
 
 작업 또는 데이터 소스 구성에 대한 자세한 내용은 [작업 ](https://docs.adobe.com/content/help/en/journeys/using/action-journeys/action.html) 또는 [데이터 소스 정보](https://docs.adobe.com/content/help/en/journeys/using/data-source-journeys/about-data-sources.html)를 참조하십시오.
 
@@ -45,9 +48,9 @@ ht-degree: 0%
 >Adobe I/O에서 인증서를 관리하려면 조직에 대한 <b>시스템 관리자</b> 권한이 있는지 또는 관리 콘솔에 [개발자 계정](https://helpx.adobe.com/enterprise/using/manage-developers.html)이(가) 있는지 확인합니다.
 
 1. **디지털 인증서가 있는지** 확인하거나 필요한 경우 디지털 인증서를 만듭니다. 인증서와 함께 제공된 공개 및 개인 키는 다음 단계에 필요합니다.
-1. **Adobe I/O에서 Services에 대한 새  [!DNL Journey Orchestration]** 통합을 만들고 구성합니다. 제품 프로필 액세스 권한은 [!DNL Journey Orchestration] 및 Adobe Experience Platform에 필요합니다. 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).
+1. **서비스 Adobe I/O에 대한 새  [!DNL Journey Orchestration]** 통합을 만들고 구성합니다. 제품 프로필 액세스 권한은 [!DNL Journey Orchestration] 및 Adobe Experience Platform에 필요합니다. 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).
 1. **이전에 생성된 자격 증명** 에서 JWT(JSON 웹 토큰)를 만들고 개인 키로 서명합니다. JWT는 ID를 확인하고 API에 대한 액세스 권한을 부여하기 위해 Adobe에 필요한 모든 ID 및 보안 정보를 인코딩합니다. 이 단계는 이 [섹션](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)에 자세히 설명되어 있습니다.
-1. **POST 요청이나 개발자 콘솔 인터페이스를** 통해 JWT를 액세스 토큰으로 교환합니다. 이 액세스 토큰은 API 요청의 각 헤더에서 사용해야 합니다.
+1. **POST 요청을** 통하거나 개발자 콘솔 인터페이스를 통해 JWT를 액세스 토큰으로 교환합니다. 이 액세스 토큰은 API 요청의 각 헤더에서 사용해야 합니다.
 
 안전한 서비스 간 Adobe I/O API 세션을 설정하려면 Adobe 서비스에 대한 모든 요청에는 인증 헤더에 아래 정보가 포함되어야 합니다.
 
@@ -62,7 +65,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
    * &lt;organization> :프로덕션 인스턴스
 
-   조직 ID 값을 얻으려면 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 새 통합을 만들 때 Adobe I/O으로 가져올 수도 있습니다(라이센스 목록에서 <a href="https://www.adobe.io/authentication.html">Adobe I/O 설명서</a> 참조).
+   조직 ID 값을 얻으려면 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 새 통합을 만들 때 Adobe I/O으로 검색할 수도 있습니다(라이선스 목록에서 <a href="https://www.adobe.io/authentication.html">Adobe I/O 설명서</a> 참조).
 
 * **&lt;access_token>**:POST 요청을 통해 JWT를 교환할 때 검색된 개인 액세스 토큰입니다.
 
@@ -74,7 +77,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 매핑 API를 사용하면 매핑 구성을 만들고, 구성하고, 모니터링할 수 있습니다.
 
-| 메서드 | 경로 | 설명 |
+| 방법 | 경로 | 설명 |
 |---|---|---|
 | [!DNL POST] | list/endpointConfigs | 끝점 매핑 구성 목록 가져오기 |
 | [!DNL POST] | /endpointConfigs | 끝점 매핑 구성 만들기 |
@@ -167,7 +170,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 테스트 및 구성에 도움이 되도록 Postman 컬렉션을 [여기](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)에 사용할 수 있습니다.
 
-이 Postman 컬렉션은 __[Adobe I/O Console의 통합](https://console.adobe.io/integrations) > Try it out > Postman__&#x200B;을 통해 생성된 Postman 변수 컬렉션을 공유하도록 설정되어 있으며, 이 컬렉션은 선택한 통합 값으로 Postman 환경 파일을 생성합니다.
+이 Postman 컬렉션은 __[Adobe I/O 콘솔의 통합](https://console.adobe.io/integrations) > Try it out > Postman__&#x200B;을 통해 생성된 Postman 변수 컬렉션을 공유하도록 설정되었으며, 이 컬렉션은 선택한 통합 값으로 Postman 환경 파일을 생성합니다.
 
 다운로드해서 Postman에 업로드한 후에는 다음 3가지 변수를 추가해야 합니다.`{JO_HOST}`,`{Base_Path}` 및 `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] 게이트웨이 URL
