@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 여정 구축
 description: '고급 사용 사례 여정 구축 방법 살펴보기 '
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 92%
+source-wordcount: '851'
+ht-degree: 91%
 
 ---
 
@@ -26,7 +29,7 @@ ht-degree: 92%
 >
 >**[!UICONTROL Push]** 및 **[!UICONTROL Email]** 활동은 Adobe Campaign Standard를 보유한 경우에만 팔레트에서 사용할 수 있습니다.
 
-여정을 만드는 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey.md)를 참조하십시오.
+여정 작성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey.md)를 참조하십시오.
 
 ## 첫 단계{#section_ntb_ws1_ffb}
 
