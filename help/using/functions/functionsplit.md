@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: split
 description: 함수 분할에 대해 알아보기
+feature: 여정
+role: 데이터 엔지니어
+level: 경험
 translation-type: tm+mt
-source-git-commit: 135485c097f99483c2ddb3d03e0552f9ac134b44
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 4%
+source-wordcount: '67'
+ht-degree: 7%
 
 ---
 
