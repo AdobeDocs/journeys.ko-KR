@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: 데이터 소스 구성
-description: 고급 활용 사례에 맞게 데이터 소스를 구성하는 방법을 알아봅니다.
+description: 여정 고급 사용 사례에 대한 데이터 소스를 구성하는 방법에 대해 알아봅니다.
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '463'
 ht-degree: 14%
 
 ---
@@ -66,10 +69,10 @@ ht-degree: 14%
    }
    ```
 
-   * **[!UICONTROL Dynamic Values]**:각 고객을 식별하는 데 사용되는 키에 해당하는 매개 변수 &quot;id&quot;를 예제에서 입력합니다. 이 매개 변수의 값은 여정에서 정의됩니다.
+   * **[!UICONTROL Dynamic Values]**:각 고객을 식별하는 데 사용되는 키에 해당하는 매개 변수 &quot;id&quot;를 예제에서 입력합니다. 이 매개 변수의 값은 여정에 정의됩니다.
 
    ![](../assets/journeyuc2_11.png)
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   이제 데이터 소스가 구성되고 여정에서 사용할 준비가 되었습니다.
+   이제 데이터 소스가 구성되어 여정에서 사용할 준비가 되었습니다.
