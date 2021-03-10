@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: inSegment
 description: inSegment 함수에 대해 알아보기
+feature: 여정
+role: 데이터 엔지니어
+level: 경험
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 6%
+source-wordcount: '110'
+ht-degree: 7%
 
 ---
 
@@ -50,4 +53,4 @@ Adobe Experience Platform
 
 설명:
 
-경로 인스턴스 내의 개인이 &quot;men over 50&quot;이라는 Adobe Experience Platform 세그먼트의 일부인 경우 이 함수는 **[!UICONTROL true]**&#x200B;을 반환하고, 그렇지 않은 경우 **[!UICONTROL false]**&#x200B;을 반환합니다.
+여정 인스턴스 내의 개인이 &quot;men over 50&quot;이라는 Adobe Experience Platform 세그먼트의 일부인 경우 이 함수는 **[!UICONTROL true]**&#x200B;을 반환하고, 그렇지 않은 경우 **[!UICONTROL false]**&#x200B;을 반환합니다.
