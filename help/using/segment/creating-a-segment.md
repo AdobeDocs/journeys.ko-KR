@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 세그먼트 사용
 description: 세그먼트 사용 방법 학습
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '145'
 ht-degree: 7%
 
 ---
@@ -25,4 +28,4 @@ ht-degree: 7%
 
    ![](../assets/segment2.png)
 
-이제 세그먼트를 사용하여 조건을 만들거나 **[!UICONTROL Segment qualification]** 이벤트를 추가할 수 있습니다. [조건](../segment/using-a-segment.md) 및 [이벤트 활동](../building-journeys/segment-qualification-events.md)에서 세그먼트 사용을 참조하십시오.
+이제 여정에서 세그먼트를 사용하여 조건을 빌드하거나 **[!UICONTROL Segment qualification]** 이벤트를 추가할 수 있습니다. [조건](../segment/using-a-segment.md) 및 [이벤트 활동](../building-journeys/segment-qualification-events.md)에서 세그먼트 사용을 참조하십시오.
