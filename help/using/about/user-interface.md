@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 사용자 인터페이스
 description: 사용자 인터페이스에 대해 자세히 알아보기
-translation-type: ht
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
-source-wordcount: '1063'
-ht-degree: 100%
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
+translation-type: tm+mt
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+workflow-type: tm+mt
+source-wordcount: '1067'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +23,7 @@ ht-degree: 100%
 >
 >이 설명서는 제품의 최근 변경 사항을 반영하여 자주 업데이트됩니다. 그러나 실제 제품 인터페이스와 약간 다른 스크린샷도 있습니다.
 
-## [!DNL Journey Orchestration] 액세스{#accessing_journey_orchestration}
+## [!DNL Journey Orchestration]{#accessing_journey_orchestration} 액세스
 
 [!DNL Journey Orchestration]의 인터페이스에 액세스하려면 오른쪽 위의 **[!UICONTROL App Selector]** 아이콘을 클릭한 후 **[!UICONTROL Journey Orchestration]**&#x200B;을(를) 클릭합니다.
 
