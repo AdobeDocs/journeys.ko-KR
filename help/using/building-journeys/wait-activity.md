@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 대기 활동
 description: 대기 활동에 대해 알아보기
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '388'
 ht-degree: 4%
 
 ---
@@ -56,7 +59,7 @@ ht-degree: 4%
 >
 >dateTimeOnly 식을 사용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예:```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, 이벤트의 필드가 2016-08-12T09:46:06Z 형식입니다.
 >
->**표준 시간대**&#x200B;는 여정의 속성에 필요합니다. 따라서 인터페이스에서 2016-08-12T09:46:06.982-05와 같은 전체 ISO-8601 타임스탬프 믹싱 시간 및 시간대 오프셋을 직접 가리키도록 할 수는 없습니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
+>여정 속성에 **표준 시간대**&#x200B;가 필요합니다. 따라서 인터페이스에서 2016-08-12T09:46:06.982-05와 같은 전체 ISO-8601 타임스탬프 믹싱 시간 및 시간대 오프셋을 직접 가리키도록 할 수는 없습니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
 
 ![](../assets/journey57.png)
 
