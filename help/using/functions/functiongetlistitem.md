@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: getListItem
 description: gstListItem 함수에 대해 알아보기
+feature: 여정
+role: 데이터 엔지니어
+level: 경험
 translation-type: tm+mt
-source-git-commit: 5539ea0e8f124896f5599dba63babaa3e5b0229b
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 3%
+source-wordcount: '101'
+ht-degree: 4%
 
 ---
 
