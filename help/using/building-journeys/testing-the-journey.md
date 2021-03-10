@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 여정 테스트
 description: '여정 테스트에 대한 자세한 내용 '
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: ceb8e3267aa9e467ccecf9b343d9f4d883a41e14
+source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1542'
 ht-degree: 3%
 
 ---
