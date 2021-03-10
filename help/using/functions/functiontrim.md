@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: trim
 description: 함수 트리밍에 대해 알아보기
+feature: 여정
+role: 데이터 엔지니어
+level: 경험
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 12%
+source-wordcount: '35'
+ht-degree: 11%
 
 ---
 
