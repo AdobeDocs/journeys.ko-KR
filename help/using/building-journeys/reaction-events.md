@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 반응 이벤트
 description: 반응 이벤트에 대해 알아보기
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '411'
 ht-degree: 1%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 1%
 
 # 반응 이벤트 {#section_dhx_gss_dgb}
 
-팔레트에서 사용할 수 있는 다양한 이벤트 활동 중에서 내장 **[!UICONTROL Reactions]** 이벤트를 찾을 수 있습니다. 이 활동을 통해 동일한 경로 내에서 이메일, SMS 또는 푸시 활동과 함께 전송된 메시지와 관련된 추적 데이터에 응답할 수 있습니다. 이 정보는 Adobe Campaign Standard의 트랜잭션 메시징에서 가져옵니다. Adobe Experience Platform과 공유되는 즉시 이 정보를 실시간으로 캡처합니다. 푸시 알림의 경우, 클릭, 전송 또는 실패한 메시지에 응답할 수 있습니다. SMS 메시지의 경우 전송되거나 실패한 메시지에 응답할 수 있습니다. 이메일의 경우, 클릭된 메시지, 전송, 열림 또는 실패한 메시지에 응답할 수 있습니다.
+팔레트에서 사용할 수 있는 다양한 이벤트 활동 중에서 내장 **[!UICONTROL Reactions]** 이벤트를 찾을 수 있습니다. 이 활동을 통해 동일한 여정 내에서 이메일, SMS 또는 푸시 활동과 함께 전송된 메시지와 관련된 추적 데이터에 응답할 수 있습니다. 이 정보는 Adobe Campaign Standard의 트랜잭션 메시징에서 가져옵니다. Adobe Experience Platform과 공유되는 즉시 이 정보를 실시간으로 캡처합니다. 푸시 알림의 경우, 클릭, 전송 또는 실패한 메시지에 응답할 수 있습니다. SMS 메시지의 경우 전송되거나 실패한 메시지에 응답할 수 있습니다. 이메일의 경우, 클릭된 메시지, 전송, 열림 또는 실패한 메시지에 응답할 수 있습니다.
 
 메시지에 반응이 없을 때 이 메커니즘을 사용하여 작업을 수행할 수도 있습니다. 이렇게 하려면 반응 활동과 평행한 두 번째 경로를 만들고 대기 활동을 추가합니다. 대기 활동에 정의된 기간 동안 반응이 없으면 두 번째 경로가 선택됩니다. 예를 들어 후속 메시지를 보내도록 선택할 수 있습니다.
 
@@ -35,7 +38,7 @@ ht-degree: 1%
 >
 >반응 이벤트는 AWS 또는 Azure 서버에 배포되어 있는지 여부와 관계없이 Adobe Campaign Standard에서 작동합니다.
 >
->반응 이벤트는 다른 경로에서 발생하는 이메일, SMS 또는 푸시 동작을 추적할 수 없습니다.
+>반응 이벤트는 다른 여정에서 발생하는 이메일, SMS 또는 푸시 동작을 추적할 수 없습니다.
 >
 >반응 이벤트는 &quot;추적됨&quot; 유형의 링크에 대한 클릭을 추적합니다(이 [페이지](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls) 참조). 구독 취소 및 미러 페이지 링크는 고려되지 않습니다.
 
