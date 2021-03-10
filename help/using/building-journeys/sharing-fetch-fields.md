@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: journeyStep 이벤트 데이터 가져오기 필드
 description: journeyStep 이벤트 데이터 가져오기 필드
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '375'
 ht-degree: 4%
 
 ---
