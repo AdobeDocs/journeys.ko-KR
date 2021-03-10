@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 페이로드 필드 정의
 description: 페이로드 필드를 정의하는 방법에 대해 알아봅니다.
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '305'
 ht-degree: 6%
 
 ---
