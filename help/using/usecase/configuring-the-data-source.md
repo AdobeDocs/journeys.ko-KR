@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: 데이터 소스 구성
-description: 고객 여정의 간단한 사용 사례를 위해 데이터 소스를 구성하는 방법 살펴보기
+description: 여정 단순 사용 사례에 대한 데이터 소스를 구성하는 방법에 대해 알아봅니다.
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '141'
 ht-degree: 6%
 
 ---
@@ -31,4 +34,4 @@ ht-degree: 6%
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-이제 데이터 소스가 구성되고 여정에서 사용할 준비가 되었습니다.
+이제 데이터 소스가 구성되어 여정에서 사용할 준비가 되었습니다.
