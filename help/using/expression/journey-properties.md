@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 여정 속성
 description: 여정 속성에 대해 알아보기
+feature: 여정
+role: 데이터 엔지니어
+level: 경험
 translation-type: tm+mt
-source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '590'
 ht-degree: 4%
 
 ---
