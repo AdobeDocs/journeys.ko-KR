@@ -3,16 +3,19 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 설명서 업데이트 정보
 description: 설명서 업데이트에 대해 알아보기
+feature: 여정
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: 349af3a922faa2cf4561c7974466255562d6917d
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 100%
+source-wordcount: '789'
+ht-degree: 99%
 
 ---
 
 
-# 설명서 업데이트 정보
+# 설명서 업데이트
 
 이 페이지에는 [!DNL Journey Orchestration]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
 [!DNL Journey Orchestration] [릴리스 정보](../release-notes/release-notes.md)도 확인할 수 있습니다.
