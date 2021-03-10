@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 필드 참조
 description: 고급 표현식의 필드 참조에 대해 알아봅니다.
+feature: 여정
+role: 데이터 엔지니어
+level: 경험
 translation-type: tm+mt
-source-git-commit: e2f7c39e61118c42272f730cf5f688ee34d6a9c2
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '438'
 ht-degree: 3%
 
 ---
@@ -90,7 +93,7 @@ expression examples:
 
 **컬렉션 내의 필드 참조**
 
-컬렉션 내에서 정의된 요소는 처음 및 마지막 모든 특정 함수를 사용하여 참조됩니다. 자세한 정보는 [이 페이지](../expression/collection-management-functions.md)를 참조하십시오.
+컬렉션 내에 정의된 요소는 모두, 첫 번째 및 마지막 특정 함수를 사용하여 참조됩니다. 자세한 정보는 [이 페이지](../expression/collection-management-functions.md)를 참조하십시오.
 
 예제 :
 
