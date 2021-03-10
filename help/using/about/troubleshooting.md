@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 문제 해결
 description: 문제 해결에 대해 자세히 알아보기
-translation-type: ht
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
-source-wordcount: '1040'
-ht-degree: 100%
+feature: 여정
+role: 비즈니스 전문가
+level: 중간
+translation-type: tm+mt
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+workflow-type: tm+mt
+source-wordcount: '1044'
+ht-degree: 99%
 
 ---
 
