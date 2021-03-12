@@ -7,9 +7,9 @@ feature: 여정
 role: 비즈니스 전문가
 level: 중간
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '753'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,11 @@ ht-degree: 1%
 
    ![](../assets/segment-copy.png)
 
-1. **[!UICONTROL Behavior]** 필드에서 세그먼트 입장, 종료 또는 둘 다를 수신할 것인지 선택합니다.
+1. **[!UICONTROL Behaviour]** 필드에서 세그먼트 입장, 종료 또는 둘 다를 수신할 것인지 선택합니다.
+
+   >[!NOTE]
+   >
+   >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은 Adobe Experience Platform의 **실현됨** 및 **종료한 세그먼트 참여 상태에 해당됩니다.** 세그먼트를 평가하는 방법에 대한 자세한 내용은 [세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)를 참조하십시오.
 
 1. 네임스페이스를 선택합니다. 이것은 이벤트가 여정의 첫 번째 단계로 지정된 경우에만 필요합니다.
 
