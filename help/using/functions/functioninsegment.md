@@ -7,10 +7,10 @@ feature: 여정
 role: 데이터 엔지니어
 level: 경험
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 7%
+source-wordcount: '153'
+ht-degree: 5%
 
 ---
 
@@ -19,13 +19,17 @@ ht-degree: 7%
 
 개인이 지정된 세그먼트에 속해 있는지 확인합니다.
 
+>[!NOTE]
+>
+>최대 100개의 세그먼트를 검색할 수 있습니다.
+
 세그먼트 이름은 문자열 상수여야 합니다. 필드 참조나 표현식이 될 수 없습니다.
 
 세그먼트는 [Adobe Experience Platform](https://platform.adobe.com/segment/overview)에 정의됩니다. 표현식 편집기는 자동으로 완료된 세그먼트 목록을 제공합니다.
 
 >[!NOTE]
 >
->최대 100개의 세그먼트를 검색할 수 있습니다.
+>**실현됨** 및 **기존** 세그먼트 기여도 상태를 가진 개인만 세그먼트의 멤버로 간주됩니다. 세그먼트를 평가하는 방법에 대한 자세한 내용은 [세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)를 참조하십시오.
 
 ## 카테고리
 
