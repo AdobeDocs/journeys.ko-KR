@@ -7,10 +7,10 @@ feature: 여정
 role: 비즈니스 전문가
 level: 중간
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 3%
+source-wordcount: '166'
+ht-degree: 2%
 
 ---
 
@@ -31,5 +31,9 @@ ht-degree: 3%
 1. 왼쪽에서 **[!UICONTROL Segments]** 노드를 펼칩니다. 조건에 사용할 세그먼트를 드래그하여 놓습니다. 기본적으로 세그먼트의 조건은 true입니다.
 
    ![](../assets/segment4.png)
+
+   >[!NOTE]
+   >
+   >**실현됨** 및 **기존** 세그먼트 기여도 상태를 가진 개인만 세그먼트의 멤버로 간주됩니다. 세그먼트를 평가하는 방법에 대한 자세한 내용은 [세그멘테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)를 참조하십시오.
 
 여정 조건 및 간단한 표현식 편집기를 사용하는 방법에 대한 자세한 내용은 [조건 활동](../building-journeys/condition-activity.md#about_condition)을 참조하십시오.
