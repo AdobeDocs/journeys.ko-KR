@@ -7,9 +7,9 @@ feature: 여정
 role: 비즈니스 전문가
 level: 중간
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1014'
 ht-degree: 99%
 
 ---
@@ -38,7 +38,7 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 [!D
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="여정 목록"
->abstract="여정 목록에서는 모든 여정을 한꺼번에 표시하여 해당 상태를 확인하고 기본적인 작업을 수행할 수 있습니다. 여정 복제, 정지, 삭제도 가능합니다. 특정 작업은 수행할 수 없는 여정도 있습니다. 예를 들어 닫힌 여정은 삭제하거나 재시작할 수 없습니다. 단, 완료된 여정에서 새 버전을 만들거나 완료된 여정을 복제할 수는 있습니다. 검색 창에서 여정을 검색할 수도 있습니다."
+>abstract="여정 목록에서는 모든 여정을 한꺼번에 표시하여 해당 상태를 확인하고 기본적인 작업을 수행할 수 있습니다."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="데모 비디오 시청"
 
 상단 메뉴에서는 **[!UICONTROL Home]**(여정), **[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**&#x200B;과 같은 [!DNL Journey Orchestration]의 다양한 기능 간을 이동할 수 있습니다.
