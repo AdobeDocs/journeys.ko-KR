@@ -7,10 +7,10 @@ feature: 여정
 role: 비즈니스 전문가
 level: 중간
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 98%
+source-wordcount: '357'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="이벤트"
->abstract="특정 사용자에게 연결되는 이벤트는 해당 사용자의 제품 구매, 상점 방문, 웹 사이트 종료와 같은 행동과 관련된 항목일 수도 있고 해당 사용자와 관련하여 발생하는 상황일 수도 있습니다. 사용자가 충성도 점수 10,000점을 달성하는 등의 경우를 예로 들 수 있습니다. [!DNL Journey Orchestration]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다."
+>abstract="특정 사용자에게 연결되는 이벤트는 사람 행동이나 사람과 관련된 어떤 것에 관련된다. [!DNL Journey Orchestration]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다."
 
 특정 사용자에게 연결되는 이벤트는 해당 사용자의 제품 구매, 상점 방문, 웹 사이트 종료와 같은 행동과 관련된 항목일 수도 있고 해당 사용자와 관련하여 발생하는 상황일 수도 있습니다. 사용자가 충성도 점수 10,000점을 달성하는 등의 경우를 예로 들 수 있습니다. [!DNL Journey Orchestration]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다.
 
