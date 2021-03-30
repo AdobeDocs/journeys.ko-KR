@@ -7,10 +7,10 @@ feature: 여정
 role: 비즈니스 전문가
 level: 중간
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 4%
+source-wordcount: '359'
+ht-degree: 5%
 
 ---
 
@@ -22,12 +22,16 @@ ht-degree: 4%
 >[!NOTE]
 >
 >닫힌 여정 또는 중지된는 다시 시작할 수 없습니다.
+>
+>여정 끝 개념은 이 [섹션](../building-journeys/journey.md#ending_a_journey)에 설명되어 있습니다.
 
 ## 여정 닫기
 
 여정에 이미 입력한 고객이 경로를 완료할 수 있지만 새 사용자가 여정에 입장할 수 없도록 수동으로 여정을 닫을 수 있습니다.
 
-닫힌 여정 버전은 다시 시작하거나 삭제할 수 없습니다. 새 버전을 만들거나 복제할 수 있습니다.
+닫으면 여정의 상태가 **[!UICONTROL Closed (no entrance)]**&#x200B;입니다. 기본 전역 제한 시간인 30일 후 여정은 **완료** 상태로 전환됩니다. 이 [섹션](../building-journeys/changing-properties.md#entrance)을 참조하십시오.
+
+닫힌 여정 버전은 다시 시작하거나 삭제할 수 없습니다. 새 버전을 만들거나 복제할 수 있습니다. 완료된 여정만 삭제할 수 있습니다.
 
 여정 목록에서 여정 위로 마우스를 가져가면 **[!UICONTROL Close to new entrances]**&#x200B;을 클릭하여 여정을 닫을 수 있습니다.
 
@@ -48,6 +52,8 @@ ht-degree: 4%
 긴급한 상황이 발생하여 여정에서 즉시 모든 처리를 종료해야 할 때 여정을 중지할 수 있습니다.
 
 중단된 여정 버전을 다시 시작할 수 없습니다.
+
+중지되면 여정의 상태가 **[!UICONTROL Stopped]**&#x200B;입니다.
 
 여정 목록에서 여정을 마우스로 가리키면서 **[!UICONTROL Stop]**&#x200B;을 클릭하여 여정이 잘못된 대상을 타겟으로 하거나 메시지를 배달해야 하는 사용자 지정 작업이 올바르게 작동하지 않는다는 것을 마케터가 깨닫는 경우(예: 마케터가 잘못된 대상을 타깃팅하는 경우) 여정을 중지할 수 있습니다.
 
