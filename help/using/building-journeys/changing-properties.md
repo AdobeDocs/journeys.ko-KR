@@ -7,10 +7,10 @@ feature: 여정
 role: 비즈니스 전문가
 level: 중간
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 0%
+source-wordcount: '495'
+ht-degree: 1%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 0%
 기본적으로 새 여정은 다시 입장할 수 있습니다. &quot;1샷&quot; 여정에 대한 옵션의 선택을 취소할 수 있습니다. 예를 들어, 사용자가 가게에 들어올 때 1회 선물을 제공하고자 할 경우 이 옵션을 선택 취소할 수 있습니다. 이러한 경우 고객이 여정에 다시 들어가서 오퍼를 다시 받을 수 없도록 하십시오.
 
 여정 &quot;종료&quot;는 **[!UICONTROL Closed (no entrance)]** 상태가 됩니다. 여정은 새로운 사람들이 여정에 들어가는 것을 멈출 것이다. 여정에 이미 있는 사람은 정상적으로 여정을 마칠 것이다.
+
+기본 전역 제한 시간인 30일 후 여정은 **완료** 상태로 전환됩니다. 이 [섹션](#global_timeout)을 참조하십시오.
 
 ## 여정 활동 시간 초과 및 오류 {#timeout_and_error}
 
