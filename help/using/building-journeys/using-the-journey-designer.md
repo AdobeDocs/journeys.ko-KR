@@ -7,10 +7,10 @@ feature: 여정
 role: 비즈니스 전문가
 level: 중간
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 5%
+source-wordcount: '1416'
+ht-degree: 6%
 
 ---
 
@@ -66,6 +66,8 @@ ht-degree: 5%
 팔레트에서 활동을 클릭하면 **활동 구성 창**&#x200B;이 나타납니다. 필수 필드를 입력합니다. 활동을 삭제하려면 **[!UICONTROL Delete]** 아이콘을 클릭합니다. 수정 내용을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을 클릭하고, 확인하려면 **[!UICONTROL Ok]**&#x200B;을 클릭합니다. 활동을 삭제하려면 활동 하나(또는 여러 개)를 선택하고 백스페이스 키를 누릅니다. Esc 키를 누르면 활동 구성 창이 닫힙니다.
 
 캔버스에서 작업 및 이벤트 활동은 아래에 표시되는 이벤트 또는 작업의 이름이 있는 아이콘으로 표시됩니다. 활동 구성 창에서 **[!UICONTROL Label]** 필드를 사용하여 활동 이름에 접미어를 추가할 수 있습니다. 이러한 레이블은 특히 여정에서 동일한 이벤트 또는 작업을 여러 번 사용하는 경우 이벤트 및 작업의 사용에 대해 문맥화하는 데 도움이 됩니다. 또한 [!DNL Journey Orchestration] 보고에서 추가한 레이블을 볼 수도 있습니다. 조건 활동에 대한 레이블을 정의할 수도 있습니다.
+
+기본적으로 읽기 전용 필드는 숨겨집니다. 표시하려면 활동 구성 창의 왼쪽 상단에 있는 **읽기 전용 필드 표시** 아이콘을 클릭합니다.
 
 ![](../assets/journey59bis.png)
 
