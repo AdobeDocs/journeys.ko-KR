@@ -7,10 +7,10 @@ feature: 여정
 role: 비즈니스 전문가
 level: 중간
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 15%
+source-wordcount: '561'
+ht-degree: 13%
 
 ---
 
@@ -57,9 +57,20 @@ ht-degree: 15%
 
 ## 여정 {#ending_a_journey} 종료
 
-두 가지 방법으로 여정을 종료할 수 있습니다.
+여정은 다음 두 가지 이유 때문에 개인이 종료할 수 있습니다.
 
 * 사람은 경로의 마지막 활동에 도착한다. 이 마지막 활동은 종료 활동이나 다른 활동일 수 있습니다. 최종 활동으로 경로를 종료할 의무는 없습니다. [이 페이지](../building-journeys/end-activity.md)를 참조하십시오.
 * 이 사람은 조건 활동(또는 조건이 있는 대기 활동)에 도착하며 조건이 일치하지 않습니다.
 
 그런 다음 다시 입장할 수 있는 경우 여정에 다시 입장할 수 있습니다. [이 페이지](../building-journeys/changing-properties.md)를 참조하십시오.
+
+다음 이유로 인해 여정을 닫을 수 있습니다.
+
+* 여정은 **[!UICONTROL Close to new entrances]** 단추를 통해 수동으로 닫힙니다.
+* 여정 종료 날짜가 도달했습니다.
+
+여정을 닫으면(위의 이유 중 하나) 상태 **[!UICONTROL Closed (no entrance)]**&#x200B;이 됩니다. 여정은 새로운 사람들이 여정에 들어가는 것을 멈출 것이다. 여정에 이미 있는 사람은 정상적으로 여정을 마칠 것이다. 기본 전역 제한 시간인 30일 후 여정은 **완료** 상태로 전환됩니다. 이 [섹션](../building-journeys/changing-properties.md#entrance)을 참조하십시오.
+
+여정에 있는 모든 개인의 진보를 중지해야 할 경우에, 당신은 그것을 멈출 수 있다. 여정을 중지하면 여정의 모든 개인이 시간 초과됩니다.
+
+여정을 수동으로 닫거나 중지하는 방법에 대해 알아보려면 이 [섹션](../building-journeys/terminating-a-journey.md)을 참조하십시오.
