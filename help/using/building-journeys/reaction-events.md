@@ -7,10 +7,10 @@ feature: 여정
 role: 비즈니스 전문가
 level: 중간
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 1%
+source-wordcount: '416'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 1. 응답에 **[!UICONTROL Label]**&#x200B;을(를) 추가합니다. 데이터 소스에 이벤트에 설명을 추가합니다.
 1. 드롭다운 목록에서 반응할 작업 활동을 선택합니다. 경로의 이전 단계에 배치된 작업 활동을 선택할 수 있습니다.
 1. 선택한 작업(이메일, SMS 또는 푸시 알림)에 따라 반응할 동작을 선택합니다.
-1. 조건을 선택 단계로 정의할 수 있습니다. 예를 들어 이메일 동작 후 2개의 경로를 만들 수 있습니다. 하나는 VIP 고객의 클릭만 추적하는 반응 이벤트와 여성의 클릭 수를 추적하는 반응 이벤트가 있는 두 개의 경로를 만들도록 선택할 수 있습니다.
+1. 이벤트 시간 초과(40초~30일 사이)와 시간 초과 경로를 정의할 수 있습니다. 그러면 정의된 기간 내에 응답하지 않은 개별 사용자에 대한 두 번째 경로가 만들어집니다. 반응 이벤트를 사용하는 여정을 테스트할 때 테스트 모드 **[!UICONTROL Wait time]** 기본값 및 최소 값은 40초입니다. [이 섹션](../building-journeys/testing-the-journey.md)을 참조하십시오.
 
 >[!NOTE]
 >
