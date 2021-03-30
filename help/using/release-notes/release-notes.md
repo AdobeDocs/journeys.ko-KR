@@ -7,10 +7,10 @@ feature: 여정
 role: 비즈니스 전문가
 level: 초급
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
 workflow-type: tm+mt
-source-wordcount: '2268'
-ht-degree: 86%
+source-wordcount: '2438'
+ht-degree: 81%
 
 ---
 
@@ -19,6 +19,15 @@ ht-degree: 86%
 
 이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 최신 [설명서 업데이트](../release-notes/documentation-updates.md)도 확인할 수 있습니다.
+
+## 2021년 3월 릴리스 {#march-2021-release}
+
+### 개선 사항
+
+* 여정에 새 상태가 추가되었습니다. 여정이 종료되거나 수동으로 닫히면 해당 상태는 닫힌 후 30일 후 **Closed**&#x200B;에서 **Finished**&#x200B;으로 전환됩니다. 이렇게 하면 비활성 여정을 보다 쉽게 식별할 수 있을 뿐만 아니라, 현재 있는 모든 개인이 여정을 완료할 시간이 있는지 확인할 수 있습니다. [자세한 정보](../building-journeys/journey.md#ending_a_journey)
+* 이제 초안 여정의 활동 오른쪽 창에서 읽기 전용 필드가 기본적으로 숨겨집니다. 이 인터페이스 간소화는 활동을 보다 쉽게 구성하는 데 도움이 됩니다. 표시하려면 활동 구성 창의 왼쪽 위 모서리에서 사용할 수 있는 **읽기 전용 필드 표시** 아이콘을 클릭합니다. [자세한 정보](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* 테스트 모드의 **이벤트 구성** 화면에서 테스트 프로필의 ID를 정의하는 데 사용되는 **키** 필드의 이름이 **프로필 식별자**&#x200B;로 변경되었으므로 사용자 경험이 향상되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md).
+* 응답 이벤트의 경우, 이제 시간 초과 기간은 40초에서 30일 사이에서만 설정할 수 있습니다. 반응 이벤트를 사용하는 여정을 테스트할 때 테스트 모드 **[!UICONTROL Wait time]** 기본값 및 최소 값은 이제 40초입니다. [자세한 내용](../building-journeys/reaction-events.md).
 
 ## 2021년 2월 릴리스 {#february-2021-release}
 
@@ -41,21 +50,21 @@ ht-degree: 86%
 ### 기타 개선 사항
 
 * 이제 이벤트를 구성할 때 XDM 유효성 검사에 필수 필드만 기본적으로 미리 선택됩니다. 이러한 필드는 선택 취소할 수 없습니다.
-* 여정 팔레트에서 새 필터가 추가되었습니다. 기본 이벤트 외에 마지막으로 사용된 5개의 이벤트와 작업만 표시할 수 있습니다. 각 사용자에게만 해당됩니다. 기본적으로 모든 항목이 표시됩니다. [자세한 내용](../building-journeys/using-the-journey-designer.md#palette)
+* 여정 팔레트에서 새 필터가 추가되었습니다. 기본 이벤트 외에 마지막으로 사용된 5개의 이벤트와 작업만 표시할 수 있습니다. 각 사용자에게만 해당됩니다. 기본적으로 모든 항목이 표시됩니다. [자세한 정보](../building-journeys/using-the-journey-designer.md#palette)
 * 새 여정을 시작할 때 첫 번째 단계로 캔버스에 놓을 수 없는 요소가 이제 숨겨집니다. 이것은 모든 행동, 조건 활동, 대기 그리고 반응에 대해 관계가 있습니다.
 * 이제 고급 표현식 편집기의 왼쪽 부분에서 목록의 끝에 있는 **함수** 섹션 아래에 함수가 다시 그룹화됩니다.
 
 ## 2021년 1월 릴리스 {#january-2021-release}
 
-이벤트 구성에서 스키마를 선택하면 Journey Orchestration에서 이벤트를 제대로 수신해야 하는 필드만 선택됩니다. [자세한 내용](../event/defining-the-payload-fields.md)
+이벤트 구성에서 스키마를 선택하면 Journey Orchestration에서 이벤트를 제대로 수신해야 하는 필드만 선택됩니다. [자세한 정보](../event/defining-the-payload-fields.md)
 
-이제 간단한 표현식 편집기에서 여정 속성 속성을 사용할 수 있습니다. [자세한 내용](../expression/journey-properties.md)
+이제 간단한 표현식 편집기에서 여정 속성 속성을 사용할 수 있습니다. [자세한 정보](../expression/journey-properties.md)
 
-2개의 새 여정 속성 특성(sandboxName 및 organizationId)이 추가되었습니다. [자세한 내용](../expression/journey-properties.md)
+2개의 새 여정 속성 특성(sandboxName 및 organizationId)이 추가되었습니다. [자세한 정보](../expression/journey-properties.md)
 
-Adobe Campaign Standard SLA에 맞게 Adobe Campaign Standard 통합이 설정되는 즉시 Adobe Campaign Standard 작업에 대해 초당 13회의 호출 규칙이 자동으로 정의됩니다. [자세한 내용](../action/working-with-adobe-campaign.md)
+Adobe Campaign Standard SLA에 맞게 Adobe Campaign Standard 통합이 설정되는 즉시 Adobe Campaign Standard 작업에 대해 초당 13회의 호출 규칙이 자동으로 정의됩니다. [자세한 정보](../action/working-with-adobe-campaign.md)
 
-이제 이벤트 시간 초과 기간이 시간 초과 경로에 보다 명확하게 지정됩니다. [자세한 내용](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+이제 이벤트 시간 초과 기간이 시간 초과 경로에 보다 명확하게 지정됩니다. [자세한 정보](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
 [getListItem](../functions/functiongetlistitem.md) 및 [split](../functions/functionsplit.md) 함수가 고급 표현식 편집기에서 사용할 수 있는 함수 목록에 추가되었습니다. 이렇게 하면 문자열 계산 사용 사례에서 더 많은 가능성이 제공됩니다.
 
