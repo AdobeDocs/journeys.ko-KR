@@ -7,15 +7,15 @@ feature: 여정
 role: 비즈니스 전문가
 level: 중간
 translation-type: tm+mt
-source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
+source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 3%
+source-wordcount: '359'
+ht-degree: 5%
 
 ---
 
 
-# 업데이트 프로필 {#update-profile}
+# 프로필 업데이트 {#update-profile}
 
 **[!UICONTROL Update profile]** 작업 활동을 사용하면 이벤트, 데이터 소스 또는 특정 값을 사용하여 기존 Adobe Experience Platform 프로파일을 업데이트할 수 있습니다.
 
@@ -27,14 +27,7 @@ ht-degree: 3%
 * 다른 동작과 마찬가지로 오류 또는 시간 초과에 대한 대체 경로를 정의할 수 있으며 두 작업을 동시에 배치할 수 없습니다.
 * Platform(플랫폼)으로 보낸 업데이트 요청은 신속하지만 즉각적인/초 이내에 전송되지 않습니다. 보통 몇 초 정도 걸리지만, 가끔은 보장도 없이 더 많은 시간이 걸릴 것이다. 예를 들어, 작업 중에 &quot;필드 1&quot;이 이전에 배치된 프로필 업데이트 작업에 의해 업데이트되는 &quot;필드 1&quot;을 사용하는 경우 작업에서 &quot;필드 1&quot;이 업데이트될 것으로 예상해서는 안 됩니다.
 * 데이터 소스에는 필드 그룹 수준에서 캐시 지속 시간이 고려됩니다. 여정에서 최근에 업데이트된 프로필 필드를 활용하려면 매우 짧은 캐시 기간을 정의하도록 주의하십시오.
-
-## 테스트 모드 사용 {#using-the-test-mode}
-
-테스트 모드에서는 프로필 업데이트가 시뮬레이션되지 않습니다. 업데이트는 테스트 프로필에 대해 수행됩니다.
-
-테스트 프로필만 테스트 모드에서 여정에 입력할 수 있습니다. 새 테스트 프로필을 만들거나 기존 프로필을 테스트 프로필로 변환할 수 있습니다. Adobe Experience Platform에서는 API 호출을 통해 프로필 속성을 업데이트할 수 있지만 인터페이스를 통해 수행할 수 없습니다. 이렇게 하는 가장 쉬운 방법은 **프로필** 작업 활동을 업데이트하고 테스트 프로필 부울 필드를 false에서 true로 변경하는 것입니다.
-
-테스트 모드에 대한 자세한 내용은 이 [섹션](../building-journeys/testing-the-journey.md)을 참조하십시오.
+* 테스트 모드에서는 프로필 업데이트가 시뮬레이션되지 않습니다. 업데이트는 테스트 프로필에 대해 수행됩니다.
 
 ## 프로필 업데이트 사용
 
