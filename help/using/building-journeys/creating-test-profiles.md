@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: 테스트 프로필 만들기
 description: '테스트 프로필 생성에 대한 자세한 내용 '
 translation-type: tm+mt
-source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
+source-git-commit: 86df088c3e2da43318de16b7ae51ff0e3a20d55b
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 2%
@@ -13,8 +13,6 @@ ht-degree: 2%
 
 
 # 테스트 프로필 {#create-test-profiles} 만들기
-
-![](../assets/do-not-localize/badge.png)
 
 여정에서 테스트 모드를 사용할 때는 테스트 프로필이 필요합니다. 테스트 모드 사용 방법에 대해 알아보려면 [이 섹션](../building-journeys/testing-the-journey.md)을 참조하십시오.
 
