@@ -7,9 +7,9 @@ feature: 여정
 role: 비즈니스 전문가
 level: 중간
 translation-type: tm+mt
-source-git-commit: 1100f8224284f3b863ecd053469e86d72f18287e
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1624'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 테스트 프로필을 사용하여 여정을 게시하기 전에 테스트할 수 있습니다. 이를 통해 개별 여정의 흐름을 분석하고 게시 전에 문제를 해결할 수 있습니다.
 
-테스트 프로필만 테스트 모드에서 여정에 입력할 수 있습니다. [새 테스트 프로필](../building-journeys/testing-the-journey.md#create-test-profile) 또는 [기존 프로필을 테스트 프로필](../building-journeys/testing-the-journey.md#turning-profile-into-test)으로 변환할 수 있습니다.
+테스트 프로필만 테스트 모드에서 여정에 입력할 수 있습니다. 새 테스트 프로필을 만들거나 기존 프로필을 테스트 프로필로 변환할 수 있습니다. 이 [섹션](../building-journeys/creating-test-profiles.md)을 참조하십시오.
 
 테스트 모드를 사용하려면 다음 단계를 수행합니다.
 
@@ -56,7 +56,7 @@ ht-degree: 3%
 ## 중요 정보 {#important_notes}
 
 * 테스트를 거친 여정에 이벤트를 실행하는 인터페이스가 제공되지만 Postman과 같은 제3자 시스템으로도 이벤트를 전송할 수 있습니다.
-* 실시간 고객 프로파일 서비스에서 &quot;테스트 프로파일&quot;로 플래그가 지정된 개인만 테스트된 여정에 입력할 수 있습니다. [이 섹션](../building-journeys/testing-the-journey.md#create-test-profile)을 참조하십시오.
+* 실시간 고객 프로파일 서비스에서 &quot;테스트 프로파일&quot;로 플래그가 지정된 개인만 테스트된 여정에 입력할 수 있습니다. 이 [섹션](../building-journeys/creating-test-profiles.md)을 참조하십시오.
 * 테스트 모드는 네임스페이스를 사용하는 초안 여정에서만 사용할 수 있습니다. 테스트 모드는 여정에 입장하는 사람이 테스트 프로필인지 여부를 확인해야 하므로 Adobe Experience Platform에 도달할 수 있어야 합니다.
 * 테스트 세션 동안 여정에 입력할 수 있는 최대 테스트 프로필 수는 100개입니다.
 * 테스트 모드를 비활성화하면 이전에 테스트 모드를 입력한 사람 또는 현재 테스트 상태에 있는 사람의 여정이 모두 비어 있게 됩니다. 또한 보고서를 지웁니다.
