@@ -7,10 +7,10 @@ feature: 여정
 role: 비즈니스 전문가
 level: 초급
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 99%
+source-wordcount: '806'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 99%
 
 이 페이지에는 [!DNL Journey Orchestration]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
 [!DNL Journey Orchestration] [릴리스 정보](../release-notes/release-notes.md)도 확인할 수 있습니다.
+
+## 2021년 3월 {#march-2021}
+
+* Adobe Experience Platform에서 테스트 프로필을 만드는 전체 절차를 자세히 설명합니다. [자세한 내용](../building-journeys/creating-test-profiles.md).
 
 ## 2021년 1월 {#january-2021}
 
@@ -47,7 +51,7 @@ ht-degree: 99%
 * 작업 또는 조건에 오류가 발생한 후 여정을 계속하는 방법을 설명하는 메모가 추가되었습니다. [자세한 내용](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * 제한된 고객 집합 속에서 테스트한 알파 기능에 대한 새로운 섹션이 추가되었습니다.
 * Intelligent Services 통합에 대한 새로운 섹션이 추가되었습니다. [자세한 내용](../ai-services/ai-services-overview.md)
-* 테스트 프로필 만들기에 대한 새로운 섹션이 추가되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md#create-test-profile)
+* 테스트 프로필 만들기에 대한 새로운 섹션이 추가되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md)
 * 여정 조건 또는 작업에서 **[!UICONTROL SegmentQualification]** 노드를 사용하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../building-journeys/segment-qualification-events.md)
 * 캠페인 트랜잭션 메시지 및 이벤트 게시에 대한 메모가 추가되었습니다. [Adobe Campaign 작업](../action/working-with-adobe-campaign.md) 및 [Adobe Campaign 작업 사용](../building-journeys/using-adobe-campaign-actions.md)을 참조하십시오.
 * Campaign Standard 인스턴스 URL을 테스트할 때 수행되는 검사에 대한 정보가 추가되었습니다. [자세한 내용](../action/working-with-adobe-campaign.md)
