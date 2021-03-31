@@ -6,10 +6,10 @@ title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축에 대한 방법 지침을 제공합니다.
 index: true
 feature: 여정
-translation-type: ht
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
-workflow-type: ht
-source-wordcount: '404'
+translation-type: tm+mt
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+workflow-type: tm+mt
+source-wordcount: '406'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 100%
    + [릴리스 정보](using/release-notes/release-notes.md)
    + [설명서 업데이트 정보](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] 시작 {#starting-with-journeys}
-   + [ [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [정보 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [제한 사항](using/about/limitations.md)
    + [시작](using/about/get-started.md)
    + [사용자 인터페이스](using/about/user-interface.md)
@@ -66,6 +66,7 @@ ht-degree: 100%
       + [여정 버전](using/building-journeys/journey-versions.md)
       + [여정 종료](using/building-journeys/terminating-a-journey.md)
       + [시간대 관리](using/building-journeys/timezone-management.md)
+      + [테스트 프로필](using/building-journeys/creating-test-profiles.md)
    + 활동 {#about-journey-building}
       + 이벤트 활동 {#events-activities}
          + [이벤트 활동 정보](using/building-journeys/event-activities.md)
