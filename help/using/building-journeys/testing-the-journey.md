@@ -7,7 +7,7 @@ feature: 여정
 role: 비즈니스 전문가
 level: 중간
 translation-type: tm+mt
-source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
+source-git-commit: 1100f8224284f3b863ecd053469e86d72f18287e
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 3%
@@ -37,7 +37,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >여정에서 반응 이벤트를 사용하면 대기 시간 기본값과 최소값은 40초입니다. [이 섹션](../building-journeys/reaction-events.md)을 참조하십시오
+   >여정에서 반응 이벤트를 사용하면 대기 시간 기본값과 최소값은 40초입니다. [이 섹션](../building-journeys/reaction-events.md)을 참조하십시오.
 
 1. 이벤트를 구성하고 여정으로 보내려면 **[!UICONTROL Trigger an event]**&#x200B;을 클릭합니다.
 
