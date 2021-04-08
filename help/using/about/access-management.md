@@ -4,16 +4,16 @@ solution: Journey Orchestration
 title: 액세스 관리
 description: 액세스 관리에 대해 자세히 알아보기
 feature: 여정
-role: 비즈니스 전문가
-level: 중간
+role: Business Practitioner
+level: Intermediate
+exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 2f824417d3e5357f0c015c40233296239ab8db5c
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '861'
 ht-degree: 98%
 
 ---
-
 
 # 액세스 관리{#concept_rfj_wpt_52b}
 
@@ -42,7 +42,7 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 
    >[!NOTE]
    >
-   >**[!UICONTROL Administrators]**&#x200B;는 Adobe Campaign Standard에서 트랜잭션 메시지(또는 메시지 템플릿)를 작성, 편집, 게시할 수 있는 유일한 제품 프로필입니다. Adobe Campaign Standard를 사용하여 여정에서 메시지를 보내는 경우에 이 제품 프로필이 필요합니다.
+   >**[!UICONTROL Administrators]**&#x200B;는 Adobe Campaign Standard에서 트랜잭션 메시지(또는 메시지 템플릿)를 작성, 편집, 게시할 수 있는 유일한 제품 프로필입니다. Adobe Campaign Standard를 사용하여 여정에서 메시지를 보내는 경우에 이 제품 프로필이 필요합니다. 관리 콘솔에서 이름을 바꾸지 마십시오.
 
 * **[!UICONTROL Standard User]**: 여정 관리와 같은 기본적인 액세스 권한을 가진 사용자. 이 제품 프로필에는 다음과 같은 권한이 포함됩니다.
    * 여정 관리
