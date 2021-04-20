@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration
 description: Journey Orchestration에 대해 자세히 알아보십시오
-feature: 여정
-role: 비즈니스 전문가
-level: 초급
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 translation-type: ht
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: ht

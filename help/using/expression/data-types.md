@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 데이터 유형
 description: 고급 표현식의 데이터 유형에 대해 알아봅니다.
-feature: 여정
-role: 데이터 엔지니어
-level: 경험
+feature: Journeys
+role: Data Engineer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

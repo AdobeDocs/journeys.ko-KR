@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 릴리스 정보
 description: 릴리스 정보에 대해 알아보기
-feature: 여정
-role: 비즈니스 전문가
-level: 초급
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
 workflow-type: tm+mt

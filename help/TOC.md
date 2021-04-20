@@ -5,7 +5,7 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축에 대한 방법 지침을 제공합니다.
 index: true
-feature: 여정
+feature: Journeys
 translation-type: ht
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: ht

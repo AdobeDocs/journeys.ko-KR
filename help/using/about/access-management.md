@@ -3,7 +3,7 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 액세스 관리
 description: 액세스 관리에 대해 자세히 알아보기
-feature: 여정
+feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59

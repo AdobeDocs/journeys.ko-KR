@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 여정 디자이너 사용
 description: 여정 디자이너 사용에 대한 자세한 내용
-feature: 여정
-role: 비즈니스 전문가
-level: 중간
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt

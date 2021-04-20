@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: inSegment
 description: inSegment 함수에 대해 알아보기
-feature: 여정
-role: 데이터 엔지니어
-level: 경험
+feature: Journeys
+role: Data Engineer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt

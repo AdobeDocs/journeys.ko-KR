@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 반응 이벤트
 description: 반응 이벤트에 대해 알아보기
-feature: 여정
-role: 비즈니스 전문가
-level: 중간
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt

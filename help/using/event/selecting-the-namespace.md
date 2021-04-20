@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 네임스페이스 선택
 description: 네임스페이스를 선택하는 방법 알아보기
-feature: 여정
-role: 비즈니스 전문가
-level: 중간
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

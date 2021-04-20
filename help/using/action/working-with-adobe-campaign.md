@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Adobe Campaign 작업
 description: Adobe Campaign 작업에 대한 자세한 내용
-feature: 여정
-role: 비즈니스 전문가
-level: 중간
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt

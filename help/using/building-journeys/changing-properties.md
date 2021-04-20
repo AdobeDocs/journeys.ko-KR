@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 속성 변경
 description: 속성을 변경하는 방법에 대해 알아봅니다.
-feature: 여정
-role: 비즈니스 전문가
-level: 중간
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
 workflow-type: tm+mt

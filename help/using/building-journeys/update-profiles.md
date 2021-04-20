@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 여정 간 이동
 description: 여정 간 이동
-feature: 여정
-role: 비즈니스 전문가
-level: 중간
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
 workflow-type: tm+mt

@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 매핑 API 설명
 description: 매핑 API에 대해 자세히 알아보십시오.
 products: journeys
-feature: 여정
-role: 비즈니스 전문가
-level: 중간
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 시작
 description: Journey Orchestration을 설정하고 첫 번째 여정을 구축하는 주요 단계를 살펴봅니다.
-feature: 여정
-role: 비즈니스 전문가
-level: 초급
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

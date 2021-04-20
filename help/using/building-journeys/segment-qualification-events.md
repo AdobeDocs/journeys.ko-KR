@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 세그먼트 자격 이벤트
 description: 세그먼트 자격 조건에 대한 자세한 내용
-feature: 여정
-role: 비즈니스 전문가
-level: 중간
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt

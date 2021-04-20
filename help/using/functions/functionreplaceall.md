@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: replaceAll
 description: 함수 바꾸기에 대해 자세히 알아보기All
-feature: 여정
-role: 데이터 엔지니어
-level: 경험
+feature: Journeys
+role: Data Engineer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
