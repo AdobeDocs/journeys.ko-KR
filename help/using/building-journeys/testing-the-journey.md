@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 여정 테스트
 description: '여정 테스트에 대한 자세한 내용 '
-feature: Journeys
+feature: 여정
 role: Business Practitioner
 level: Intermediate
+exl-id: be413905-0631-4229-a954-80a92651206d
 translation-type: tm+mt
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+source-git-commit: cb90f764ae6ccc0dab9728899dafd266db89a4e7
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1638'
 ht-degree: 3%
 
 ---
-
 
 # 여정 테스트{#testing_the_journey}
 
@@ -133,6 +133,10 @@ curl -X POST \
 
 사전 요구 사항으로, Adobe Experience Platform에서 테스트 프로필로 플래그가 지정된 프로파일을 알고 있어야 합니다. 실제로 테스트 모드에서는 여정에 이러한 프로파일만 사용할 수 있으며 이벤트에는 ID가 포함되어야 합니다. 예상 ID는 이벤트 구성에 따라 다릅니다. 예를 들어 ECID 또는 이메일 주소를 사용할 수 있습니다. 이 키의 값을 **프로필 식별자** 필드에 추가해야 합니다.
 
+>[!NOTE]
+>
+>열거가 필요한 필드에 대한 드롭다운이 표시됩니다. 사용 가능한 값 중 하나를 선택하면 됩니다.
+
 여정에 여러 개의 이벤트가 있는 경우 드롭다운 목록을 사용하여 이벤트를 선택합니다. 그런 다음 각 이벤트에 대해 전달된 필드와 이벤트 전송 실행을 구성합니다. 이 인터페이스는 이벤트 페이로드에서 올바른 정보를 전달하고 정보 유형이 올바른지 확인하는 데 도움이 됩니다. 테스트 모드는 나중에 사용하기 위해 테스트 세션에서 사용한 마지막 매개 변수를 저장합니다.
 
 ![](../assets/journeytest4.png)
@@ -205,4 +209,3 @@ curl -X POST \
 대상 데이터 세트가 경험 이벤트에 포함되지 않은 경우 이러한 데이터 세트를 자동으로 만들고 이름을 지정합니다. 그래서 우리는 오늘날 &quot;보이저용 데이터 세트 자동 생성&quot;을 보게 된다.
 
 소스 이름을 지정하면 자동으로 생성됩니다. 여러 이벤트가 있는 경우 &quot;Journey Orchestration 테스트 이벤트 - 스키마 이름&quot;을 연결하여 사용해야 합니다. 이렇게 하면 &quot;Journey Orchestration 테스트 이벤트에 대해 자동으로 생성된 데이터 세트 - 스키마 이름&quot;이 자동으로 생성됩니다.
-
