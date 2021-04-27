@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 translation-type: tm+mt
-source-git-commit: 573475039693b3439d52872bcc4722f3658eef9d
+source-git-commit: 9138bfb4c9f916a7e8df6183fb903c31ef582623
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2481'
 ht-degree: 80%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 80%
 
 ### 개선 사항
 
-* 이제 테스트 모드의 **이벤트 구성** 화면에서 열거가 필요한 필드에 대한 드롭다운이 표시됩니다. 사용 가능한 값 중 하나를 선택하면 됩니다. 이렇게 하면 잘못된 값이 정의된 경우 이벤트를 트리거할 때 오류가 발생하지 않습니다.
+* 이제 테스트 모드의 **이벤트 구성** 화면에서 열거가 필요한 필드에 대한 드롭다운이 표시됩니다. 사용 가능한 값 중 하나를 선택하면 됩니다. 이렇게 하면 잘못된 값이 정의된 경우 이벤트를 트리거할 때 오류가 발생하지 않습니다.[자세히 알아보기](../building-journeys/testing-the-journey.md#firing_events)
 
 ## 2021년 3월 릴리스 {#march-2021-release}
 
