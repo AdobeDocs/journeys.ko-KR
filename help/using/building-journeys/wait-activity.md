@@ -3,21 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 대기 활동
 description: 대기 활동에 대해 알아보기
-feature: Journeys
+feature: 여정
 role: Business Practitioner
 level: Intermediate
+exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 532e8db3fde8ec86714d0b45a1b2a6c9c54367fb
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 4%
 
 ---
 
-
 # 대기 활동{#section_rlm_nft_dgb}
 
-경로에서 다음 활동을 실행하기 전에 기다리려면 **[!UICONTROL Wait]** 활동을 사용할 수 있습니다. 이를 통해 다음 활동이 실행될 시점을 정의할 수 있습니다. 4가지 옵션을 사용할 수 있습니다.
+경로에서 다음 활동을 실행하기 전에 기다리려면 **[!UICONTROL Wait]** 활동을 사용할 수 있습니다. 이를 통해 다음 활동이 실행될 시점을 정의할 수 있습니다. 다음 3가지 옵션을 사용할 수 있습니다.
 
 * [기간](#duration)
 * [고정 날짜](#fixed_date)
@@ -57,7 +57,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->dateTimeOnly 식을 사용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예:```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, 이벤트의 필드가 2016-08-12T09:46:06Z 형식입니다.
+>dateTimeOnly 식을 사용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예:toDateTimeOnly(@{Event.offerOpened.activity.endTime}), 이벤트의 필드(2016-08-12T09:46:06Z 형식).
 >
 >여정 속성에 **표준 시간대**&#x200B;가 필요합니다. 따라서 인터페이스에서 2016-08-12T09:46:06.982-05와 같은 전체 ISO-8601 타임스탬프 믹싱 시간 및 시간대 오프셋을 직접 가리키도록 할 수는 없습니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
 
