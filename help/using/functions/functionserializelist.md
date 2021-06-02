@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: serializeList
-description: serializeList 함수에 대해 알아보기
-feature: Journeys
+description: serializeList 함수에 대해 알아봅니다.
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 84912d38-32ee-4cfe-8cb4-bad12f9c52af
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 15%
+source-wordcount: '87'
+ht-degree: 17%
 
 ---
 
-
 # serializeList {#serializeList}
 
-첫 번째 매개 변수에 지정된 목록(모든 유형)을 문자열로 변환합니다. 두 번째 매개 변수는 사용할 구분 기호를 나타냅니다. 세 번째 매개 변수는 표현식의 각 요소에 따옴표가 포함되어야 하는지 여부를 나타내는 부울 값입니다.
+첫 번째 매개 변수에 제공된 목록(모든 유형)을 문자열로 변환합니다. 두 번째 매개 변수는 사용할 구분 기호를 나타냅니다. 세 번째 매개 변수는 표현식의 각 요소에 따옴표가 포함되어야 하는지 여부를 나타내는 부울 값입니다.
 
 ## 카테고리
 
@@ -42,7 +40,7 @@ ht-degree: 15%
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 형식
 
 `serializeList(<listInteger>,<string>,<boolean>)`
 
