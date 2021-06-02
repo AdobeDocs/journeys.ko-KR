@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: listSize
-description: 함수 목록에 대해 학습크기
-feature: Journeys
+description: 함수 listSize에 대해 알아보기
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: c0d34a8d-33e9-4c7b-9b7d-a1b21ed96d35
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 24%
+source-wordcount: '46'
+ht-degree: 28%
 
 ---
 
-
 # listSize {#listSize}
 
-목록의 요소 수를 카운트합니다.
+목록의 요소 수를 계산합니다.
 
 ## 카테고리
 
@@ -63,4 +61,4 @@ ht-degree: 24%
 
 `listSize([10,2,3])`
 
-3을 반환합니다.
+3 반환.
