@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: now
-description: 지금 기능에 대해 알아보기
-feature: Journeys
+description: 지금 함수 알아보기
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: ab1f9efe-cbb7-4e3a-ace0-24f2fb6165cb
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 11%
+source-wordcount: '50'
+ht-degree: 14%
 
 ---
-
 
 # now {#now}
 
@@ -31,7 +29,7 @@ ht-degree: 11%
 
 | 매개 변수 | 설명 |
 |--- |--- |
-| 문자열 |  |
+| string |  |
 
 ## 서명 및 반환된 유형
 
@@ -39,7 +37,7 @@ ht-degree: 11%
 
 `now("<timeZone id>")`
 
-dateTime을 반환합니다.
+dateTime 반환
 
 ## 예제
 
@@ -49,7 +47,7 @@ dateTime을 반환합니다.
 
 `toString(now())`
 
-&quot;2019-06-03T06:30Z&quot;를 반환합니다.
+반환: &quot;2019-06-03T06:30Z&quot;
 
 `now("Europe/Paris")`
 
