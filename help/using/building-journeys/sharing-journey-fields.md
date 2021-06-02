@@ -1,50 +1,48 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 여정 필드
 description: 여정 필드
-feature: Journeys
+feature: 여정
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 8%
+source-wordcount: '68'
+ht-degree: 10%
 
 ---
 
-
 # 여정 필드 {#sharing-journey-fields}
 
-이 혼합은 여정 스키마에서 사용됩니다(journeyStepEvent와 관계). 여기에는 다음 필드가 포함됩니다.
+이 mixin은 여정 스키마에서 사용됩니다(journeyStepEvent와 관련됨). 여기에는 다음 필드가 포함되어 있습니다.
 
 ## journeyID
 
-주 여정 ID입니다.
+기본 여정의 ID입니다.
 
-유형:문자열
+유형:string
 
 ## journeyVersionID
 
 여정 버전의 ID입니다. 이 id는 여정의 ID를 나타냅니다.
 
-유형:문자열
+유형:string
 
-## name
+## 이름
 
 여정 이름입니다.
 
-유형:문자열
+유형:string
 
-## description
+## 설명
 
 여정 설명.
 
-유형:문자열
+유형:string
 
-## version
+## 버전
 
-버전 - `major`.`minor`
+`major`.`minor`
 
-유형:문자열
+유형:string
