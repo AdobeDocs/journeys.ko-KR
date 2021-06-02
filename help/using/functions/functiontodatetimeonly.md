@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toDateTimeOnly
-description: toDateTime 함수에 대해 알아보기
-feature: Journeys
+description: toDateTime 함수에 대해 알아봅니다.
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '48'
+ht-degree: 12%
 
 ---
-
 
 # toDateTimeOnly{#toDateTimeOnly}
 
@@ -31,10 +29,10 @@ ht-degree: 9%
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
-| ISO-8601 형식의 날짜 시간 | 문자열 |
+| ISO-8601 형식의 날짜 시간 | string |
 | 날짜 시간 | dateTime |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 형식
 
 `toDateTimeOnly(<dateTime>)`
 
@@ -42,7 +40,7 @@ ht-degree: 9%
 <!--`toDateTimeOnly(<integer>,<integer>,<integer>)`
 `toDateTimeOnly(<integer>,<integer>,<integer>,<integer>,<integer>,<integer>)`-->
 
-시간대를 고려하지 않고 datetime을 반환합니다.
+시간대를 고려하지 않고 날짜/시간을 반환합니다.
 
 ## 예제
 
