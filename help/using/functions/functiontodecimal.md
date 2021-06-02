@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toDecimal
-description: Decimal 함수에 대해 알아보기
-feature: Journeys
+description: toDecimal 함수에 대해 알아보기
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 11d7013c-2190-4654-8466-920861c836f5
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 8%
+source-wordcount: '72'
+ht-degree: 9%
 
 ---
 
-
 # toDecimal {#toDecimal}
 
-유형에 따라 인수 값을 십진수 값으로 변환합니다.
+인수 값을 유형에 따라 십진수 값으로 변환합니다.
 
 ## 카테고리
 
@@ -31,12 +29,12 @@ ht-degree: 8%
 
 | 매개 변수 | 설명 |
 |--- |--- |
-| 문자열 | 문자열 값을 소수로 변환합니다. |
-| dateTime | 날짜를 밀리초 수로 변환합니다(밀리초). |
-| boolean | 부울 값을 true이면 1로, false이면 0으로 변환합니다. |
-| 정수 | 을 소수로 변환합니다(예).:1이 1.0이 됨) |
+| string | 문자열 값을 십진수로 변환 |
+| dateTime | 날짜를 밀리초(epoch 밀리초)로 변환 |
+| 부울 | 부울 값을 true면 1로, false이면 0으로 변환합니다 |
+| 정수 | 소수점(예)으로 변환합니다.:1.0이 됨 |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 형식
 
 `toDecimal(<integer>)`
 
@@ -46,7 +44,7 @@ ht-degree: 8%
 
 `toDecimal(<boolean>)`
 
-십진수를 반환합니다.
+소수점 반환
 
 ## 예제
 
