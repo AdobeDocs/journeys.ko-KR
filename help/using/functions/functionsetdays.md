@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: setDays
-description: setDays 함수에 대해 알아보기
-feature: Journeys
+description: 함수 setDays에 대해 알아봅니다.
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: eee7bf61-9101-4959-aa93-27d0f221c517
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 6%
+source-wordcount: '75'
+ht-degree: 8%
 
 ---
 
-
 # setDays {#setDays}
 
-날짜 시간 또는 날짜 시간만 설정합니다. 예를 들어 해당 월의 특정 일까지 기다리려면 해당 일을 강제로 실행할 수 있습니다.
+날짜 시간 또는 날짜 시간만 설정합니다. 예를 들어 해당 월의 특정 일까지 기다리려면 강제로 날짜를 설정할 수 있습니다.
 
 ## 카테고리
 
@@ -32,7 +30,7 @@ ht-degree: 6%
 | 매개 변수 | 유형 |
 |--- |--- |
 | 날짜 시간 | dateTime |
-| 시간대를 고려하지 않고 | dateTimeOnly |
+| 표준 시간대를 고려하지 않은 시간 | dateTimeOnly |
 | 일 | 정수 |
 
 ## 서명 및 반환된 유형
