@@ -1,33 +1,31 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
-title: 작업 활동
-description: 작업 활동에 대한 자세한 내용
-feature: Journeys
+title: 작업 활동 정보
+description: 작업 활동에 대해 알아보기
+feature: 여정
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 5436602f-af7a-41db-8b10-d3d28a6d0cd0
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 27%
+source-wordcount: '174'
+ht-degree: 28%
 
 ---
 
+# 작업 활동 정보 {#concept_hbj_hrt_52b}
 
-# 작업 활동 {#concept_hbj_hrt_52b}
-
-팔레트의 화면 왼쪽에 있는 **[!UICONTROL Events]** 및 **[!UICONTROL Orchestration]** 아래에는 **[!UICONTROL Actions]** 범주가 있습니다.
+화면 왼쪽에 있는 팔레트에서 **[!UICONTROL Events]** 및 **[!UICONTROL Orchestration]** 아래에 **[!UICONTROL Actions]** 카테고리가 있습니다.
 
 ![](../assets/journey58.png)
 
-이곳에는 사용 가능한 다양한 통신 채널의 활동이 표시됩니다. 이러한 구성 요소를 결합하여 크로스 채널 시나리오를 만들 수 있습니다.
+이곳에는 사용 가능한 다양한 통신 채널의 활동이 표시됩니다. 채널을 결합하여 크로스채널 시나리오를 만들 수 있습니다.
 
-Adobe Campaign Standard이 있는 경우 다음과 같은 바로 사용 가능한 작업 활동을 사용할 수 있습니다.**[!UICONTROL Email]**, **[!UICONTROL Push]** 및 **[!UICONTROL SMS]**. [이 페이지](../building-journeys/using-adobe-campaign-actions.md)를 참조하십시오.
+Adobe Campaign Standard이 있는 경우 다음과 같은 기본 작업 활동을 사용할 수 있습니다.**[!UICONTROL Email]**, **[!UICONTROL Push]** 및 **[!UICONTROL SMS]**. [이 페이지](../building-journeys/using-adobe-campaign-actions.md)를 참조하십시오.
 
-사용자 지정 작업을 구성한 경우 여기에 표시됩니다([이 페이지](../building-journeys/using-custom-actions.md) 참조).
+사용자 지정 작업을 구성한 경우 여기에 표시됩니다( [이 페이지](../building-journeys/using-custom-actions.md) 참조).
 
-캔버스에 작업 활동을 놓을 때 **[!UICONTROL Label]**&#x200B;을 정의할 수 있습니다. 그러면 캔버스에서 활동 아래에 표시되는 작업 이름에 접미사를 추가할 수 있습니다. 이 기능은 여정에서 동일한 동작을 여러 번 사용하고 보다 쉽게 식별하려는 경우에 유용합니다. 보고서를 보다 쉽게 읽을 수 있습니다. 옵션 **[!UICONTROL Description]**&#x200B;을 추가할 수도 있습니다.
+캔버스에서 작업 활동을 놓을 때 **[!UICONTROL Label]**&#x200B;을 정의할 수 있습니다. 그러면 캔버스에서 활동 아래에 표시되는 작업 이름에 접미사를 추가할 수 있습니다. 이 기능은 여정에서 동일한 작업을 여러 번 사용하고 보다 쉽게 식별하려는 경우 유용합니다. 보고서를 더 쉽게 읽을 수 있습니다. 옵션 **[!UICONTROL Description]**&#x200B;을 추가할 수도 있습니다.
 
 ![](../assets/journey59bis.png)
 
