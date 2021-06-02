@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: distinctWithNull
-description: distinctWithNull 함수에 대해 알아보기
-feature: Journeys
+description: distinctWithNull 함수에 대해 알아봅니다.
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 65a904c1-14ff-42b3-8f03-abb97ef47625
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 11%
+source-wordcount: '100'
+ht-degree: 13%
 
 ---
 
-
 # distinctWithNull {#distinctWithNull}
 
-목록의 고유한 값을 반환합니다. 목록에 null 값이 하나 이상 있으면 null 값이 반환 목록에 표시됩니다.
+목록의 고유 값을 반환합니다. 목록에 Null 값이 하나 이상 있으면 Null 값이 반환된 목록에 표시됩니다.
 
 ## 카테고리
 
@@ -39,7 +37,7 @@ ht-degree: 11%
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 형식
 
 `distinctWithNull(<listInteger>)`
 
@@ -47,7 +45,7 @@ ht-degree: 11%
 
 `distinctWithNull(<listDecimal>)`
 
-소수점 목록을 반환합니다.
+소수 목록을 반환합니다.
 
 `distinctWithNull(<listString>)`
 
@@ -59,7 +57,7 @@ ht-degree: 11%
 
 `distinctWithNull(<listDateTime>)`
 
-날짜 시간 목록을 반환합니다.
+datetime 목록을 반환합니다.
 
 `distinctWithNull(<listBoolean>)`
 
@@ -67,7 +65,7 @@ ht-degree: 11%
 
 `distinctWithNull(<listDuration>)`
 
-기간 목록을 반환합니다.
+지속 시간 목록을 반환합니다.
 
 ## 예제
 
