@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: random
-description: 임의 함수 학습
-feature: Journeys
+description: 임의 함수에 대해 알아보기
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: c47dc5f0-ea69-4814-863b-e0e483ba7770
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 5%
+source-wordcount: '52'
+ht-degree: 7%
 
 ---
 
-
 # random {#random}
 
-0과 1 사이의 난수를 생성합니다.
+0에서 1 사이의 난수를 생성합니다.
 
 ## 카테고리
 
@@ -27,14 +25,14 @@ ht-degree: 5%
 
 `random(<parameters>)`
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 형식
 
 `random()`
 
-소수점을 반환합니다.
+소수점 반환
 
 ## 예제
 
 `#{MarltonReservation.statistics.successRatio, defaultValue : random() * 100}`
 
-설명:성공 비율에 값이 없거나 값이 null이면 기본값이 적용되고 0에서 1 * 100 사이의 임의 숫자가 됩니다(0~100).
+설명:성공 비율에 값이 없거나 값이 null이면 기본값이 적용되고 0에서 1 * 100 사이의 임의 숫자가 됩니다(0~100 의미).
