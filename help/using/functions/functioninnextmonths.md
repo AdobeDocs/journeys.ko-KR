@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: inNextMonths
-description: NextMonths의 기능에 대해 알아봅니다.
-feature: Journeys
+description: NextMonths의 함수에 대해 알아봅니다.
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: b5e8d514-a24d-42a2-b422-ec5d6617048a
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '45'
+ht-degree: 13%
 
 ---
 
-
 # inNextMonths {#inNextMonths}
 
-주어진 날짜 또는 dateTime이 현재 및 현재 + 델타 개월 사이의 경우 true를 반환합니다.
+주어진 날짜 또는 dateTime이 now와 now + delta months 사이에 있으면 true를 반환합니다.
 
 ## 카테고리
 
@@ -38,7 +36,7 @@ ht-degree: 10%
 
 `inNextMonths(<dateTime>,<integer>)`
 
-부울 값을 반환합니다.
+부울을 반환합니다.
 
 ## 예제
 
