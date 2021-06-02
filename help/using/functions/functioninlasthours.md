@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: inLastHours
-description: LastHours의 기능에 대해 알아봅니다.
-feature: Journeys
+description: LastHours의 함수에 대해 알아봅니다.
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 9baeb836-e029-4e19-b08e-7b7b5f27ff8f
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 10%
+source-wordcount: '46'
+ht-degree: 13%
 
 ---
 
-
 # inLastHours {#inLastHours}
 
-주어진 날짜 시간이 지금부터 현재 - 델타 시간 사이에 있으면 true를 반환합니다.
+주어진 날짜 시간이 지금부터 현재 - 델타 시간 사이에 있는 경우 true를 반환합니다.
 
 ## 카테고리
 
@@ -38,7 +36,7 @@ ht-degree: 10%
 
 `inLastHours(<dateTime>,<integer>)`
 
-부울 값을 반환합니다.
+부울을 반환합니다.
 
 ## 예제
 
