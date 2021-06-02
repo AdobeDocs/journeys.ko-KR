@@ -1,26 +1,24 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 이벤트
 description: 이벤트에 대해 알아보기
-feature: Journeys
+feature: 여정
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
+exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '354'
 ht-degree: 95%
 
 ---
-
 
 # 일반 원칙 {#concept_gfj_fqt_52b}
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="이벤트"
->abstract="특정 사용자에게 연결되는 이벤트는 사람 행동이나 사람과 관련된 어떤 것에 관련된다. [!DNL Journey Orchestration]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다."
+>abstract="특정 사용자에게 연결되는 이벤트는 한 사람의 행동 또는 사람과 연관된 어떤 것에 관한 것입니다. [!DNL Journey Orchestration]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다."
 
 특정 사용자에게 연결되는 이벤트는 해당 사용자의 제품 구매, 상점 방문, 웹 사이트 종료와 같은 행동과 관련된 항목일 수도 있고 해당 사용자와 관련하여 발생하는 상황일 수도 있습니다. 사용자가 충성도 점수 10,000점을 달성하는 등의 경우를 예로 들 수 있습니다. [!DNL Journey Orchestration]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다.
 
@@ -41,4 +39,3 @@ ht-degree: 95%
 * **시스템 생성** 이벤트: 이러한 이벤트에는 eventID가 필요합니다. 이 eventID 필드는 이벤트를 만들 때 자동으로 생성됩니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 전달해야 합니다.
 
 이벤트를 만드는 방법에 대해 알아보려면 이 [페이지](../event/about-creating.md)를 참조하십시오.
-
