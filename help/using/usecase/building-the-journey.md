@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 여정 구축
 description: '고급 사용 사례 여정 구축 방법 살펴보기 '
-feature: Journeys
+feature: 여정
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 91%
+source-wordcount: '848'
+ht-degree: 92%
 
 ---
-
 
 # 여정 구축 {#concept_owm_kdy_w2b}
 
@@ -29,7 +27,7 @@ ht-degree: 91%
 >
 >**[!UICONTROL Push]** 및 **[!UICONTROL Email]** 활동은 Adobe Campaign Standard를 보유한 경우에만 팔레트에서 사용할 수 있습니다.
 
-여정 작성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey.md)를 참조하십시오.
+여정 빌드 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey.md)를 참조하십시오.
 
 ## 첫 단계{#section_ntb_ws1_ffb}
 
@@ -90,7 +88,7 @@ ht-degree: 91%
 
 ![](../assets/journeyuc2_16.png)
 
-## 첫 번째 경로: 고객이 충성도 멤버일 경우 {#section_otb_ws1_ffb} 
+## 첫 번째 경로: 고객이 충성도 멤버일 경우   {#section_otb_ws1_ffb}
 
 1. 첫 번째 경로에 고객의 예약 여부를 확인하는 조건을 추가해 보겠습니다. 조건 활동을 여정으로 끌어다 놓습니다.
 
