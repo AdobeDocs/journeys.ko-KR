@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: countWithNull
-description: 함수 countWithNull에 대해 알아보기
-feature: Journeys
+description: 함수 countWithNull에 대해 알아봅니다.
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: ea72dc20-8183-4661-8e08-ddb4f3727d3d
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 23%
+source-wordcount: '48'
+ht-degree: 27%
 
 ---
-
 
 # countWithNull {#countWithNull}
 
@@ -39,7 +37,7 @@ null 값을 포함하여 목록의 모든 요소를 계산합니다.
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 형식
 
 `countWithNull(<listAny>)`
 
@@ -49,4 +47,4 @@ null 값을 포함하여 목록의 모든 요소를 계산합니다.
 
 `count([10,2,10,null])`
 
-4를 반환합니다.
+4 반환.
