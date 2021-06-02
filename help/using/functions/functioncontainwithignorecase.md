@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: containWithIgnoreCase
-description: containWithIgnoreCase 함수에 대해 알아보기
-feature: Journeys
+description: containWithIgnoreCase 함수에 대해 알아봅니다.
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: ebec646e-9dbb-4432-a430-ab69fb7d75cf
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 9%
+source-wordcount: '49'
+ht-degree: 12%
 
 ---
 
-
 # containWithIgnoreCase {#containWithIgnoreCase}
 
-두 번째 인수 문자열이 대/소문자를 고려하지 않고 첫 번째 인수 문자열에 포함되어 있는지 확인합니다.
+대/소문자를 고려하지 않고 두 번째 인수 문자열이 첫 번째 인수 문자열에 포함되어 있는지 확인합니다.
 
 ## 카테고리
 
@@ -31,14 +29,14 @@ ht-degree: 9%
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
-| 문자열 | 문자열 |
-| 문자열 검색 | 문자열 |
+| string | string |
+| 검색된 문자열 | string |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 형식
 
 `containWithIgnoreCase(<string>,<string>)`
 
-부울 값을 반환합니다.
+부울을 반환합니다.
 
 ## 예제
 
