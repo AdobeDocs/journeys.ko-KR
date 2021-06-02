@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toString
-description: toString 함수에 대해 알아보기
-feature: Journeys
+description: toString 함수에 대해 알아봅니다.
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 5%
+source-wordcount: '115'
+ht-degree: 6%
 
 ---
 
-
 # toString {#toString}
 
-유형에 따라 인수 값을 문자열 값으로 변환합니다. 데이터 유형에 대한 자세한 내용은 [이 페이지](../expression/data-types.md)를 참조하십시오.
+인수 값을 유형에 따라 문자열 값으로 변환합니다. 데이터 유형에 대한 자세한 내용은 [이 페이지](../expression/data-types.md)를 참조하십시오.
 
 ## 카테고리
 
@@ -31,13 +29,13 @@ ht-degree: 5%
 
 | 매개 변수 | 설명 |
 |--- |--- |
-| dateTime | 날짜를 UTC 날짜 형식으로 변환합니다. |
-| dateTimeOnly | 날짜를 UTC 날짜 형식으로 변환합니다. |
-| 지속 시간 | 해당 밀리초 수를 문자열로 변환 |
-| 시간대 | 표준 시간대 ID 문자열 표현(JODA ID)으로 변환 |
-| 정수 | 값을 문자열 표현으로 변환합니다(1은 &quot;1&quot;이 됨). |
-| decimal | 값을 문자열 표현으로 변환합니다(1.5는 &quot;1.5&quot;가 됨). |
-| boolean | 부울 값을 true이면 true, false이면 &#39;false&#39;로 변환합니다. |
+| dateTime | 날짜를 UTC 날짜 형식으로 변환 |
+| dateTimeOnly | 날짜를 UTC 날짜 형식으로 변환 |
+| 기간 | 문자열로 해당 밀리초 수로 변환 |
+| 시간대 | 표준 시간대 id 문자열 표시(JODA id)로 변환 |
+| 정수 | 값의 문자열 표현으로 변환(1은 &quot;1&quot;이 됨) |
+| 십진수 | 값의 문자열 표현으로 변환(1.5는 &quot;1.5&quot;가 됨) |
+| 부울 | 부울 값을 true이면 &#39;true&#39;로, false이면 &#39;false&#39;로 변환합니다 |
 
 ## 서명 및 반환된 유형
 
