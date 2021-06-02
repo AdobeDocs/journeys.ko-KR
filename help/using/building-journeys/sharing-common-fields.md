@@ -1,79 +1,77 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
-title: 진행 단계 이벤트 공통 필드
-description: 진행 단계 이벤트 공통 필드
-feature: Journeys
+title: journeysteps 이벤트 공통 필드
+description: journeysteps 이벤트 공통 필드
+feature: 여정
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
 
+# journeysteps 이벤트 공통 필드 {#sharing-common-fields}
 
-# 여러 단계 이벤트 공통 필드 {#sharing-common-fields}
+이 mixin은 journeyStepEvent 및 journeyStepProfileEvent가 공유합니다.
 
-이 혼합은 journeyStepEvent 및 journeyStepProfileEvent가 공유합니다.
+이러한 필드는 [!DNL Journey Orchestration]이 Adobe Experience Platform에 보내는 일반적인 XDM 필드입니다. 여정에서 처리되는 모든 단계에 대해 공통 필드가 전송됩니다. 더 구체적인 필드가 사용자 지정 작업 및 데이터 보강 용도로 사용됩니다.
 
-이러한 필드는 [!DNL Journey Orchestration]이(가) Adobe Experience Platform으로 보내는 일반적인 XDM 필드입니다. 여정에서 처리되는 모든 단계에 대해 공통 필드가 전송됩니다. 사용자 정의 작업 및 추가 기능에 더 구체적인 필드가 사용됩니다.
-
-이러한 필드 중 일부는 특정 처리 패턴(작업 실행, 데이터 가져오기 등)에서만 사용할 수 있습니다. 이벤트 크기를 제한하기 위해.
+이러한 필드 중 일부는 특정 처리 패턴(작업 실행, 데이터 가져오기 등)에서만 사용할 수 있습니다. 를 사용하여 이벤트 크기를 제한할 수 있습니다.
 
 ## 입구
 
 사용자가 여정을 입력했는지 여부를 나타냅니다. 없으면 값이 false로 간주됩니다.
 
-유형:boolean
+유형:부울
 
-값:참/거짓
+값:true/false
 
 ## 재입구
 
-사용자가 동일한 인스턴스를 사용하여 여정을 다시 입력했는지 여부를 나타냅니다. 없으면 값이 false로 간주됩니다.
+사용자가 동일한 인스턴스가 있는 여정을 다시 입력했는지 여부를 나타냅니다. 없으면 값이 false로 간주됩니다.
 
-유형:boolean
+유형:부울
 
-값:참/거짓
+값:true/false
 
-## instanceEnded
+## instanceEnd
 
-인스턴스가 성공적으로 끝났는지 여부를 나타냅니다.
+인스턴스가 종료되었는지(성공했는지 여부)를 나타냅니다.
 
-유형:boolean
+유형:부울
 
 ## eventID
 
-처리 중인 이벤트 ID입니다. 이벤트가 외부 이벤트일 경우 이 값은 eventId입니다. 이벤트가 내부 이벤트일 경우 이 값은 내부 eventId(예: scheduledNotificationReceived, executedAction 등)입니다.
+처리 중인 이벤트 ID로서, 단계 처리를 위한 것입니다. 이벤트가 외부 이벤트인 경우 값은 해당 eventId입니다. 이벤트가 내부 이벤트인 경우 값은 내부 eventId(예: scheduledNotificationReceived, executedAction 등)입니다.
 
-유형:문자열
+유형:string
 
 ## nodeID
 
 클라이언트 노드 ID(캔버스에서).
 
-유형:문자열
+유형:string
 
 ## stepID
 
 현재 처리 중인 단계의 고유 ID입니다.
 
-유형:문자열
+유형:string
 
 ## stepName
 
 현재 처리 중인 단계의 이름입니다.
 
-유형:문자열
+유형:string
 
 ## stepType
 
 단계의 유형입니다.
 
-유형:문자열
+유형:string
 
 가능한 값:
 
@@ -84,125 +82,125 @@ ht-degree: 0%
 
 ## stepStatus
 
-단계 상태, 단계 처리가 완료되었을 때(그리고 단계 이벤트가 실행됨) 단계 상태를 나타냅니다.
+단계의 처리가 수행된(및 단계 이벤트가 실행된) 단계 상태를 나타내는 단계 상태입니다.
 
-유형:문자열
+유형:string
 
 상태는 다음과 같습니다.
 
-* 종료:단계에 전환이 없고 처리가 성공적으로 종료되었습니다.
+* 종료:단계에 전환이 없으며 해당 처리가 성공적으로 종료되었습니다.
 * 오류:단계 처리에서 오류가 발생했습니다.
 * 전환:이 단계는 이벤트가 다른 단계로 전환되기를 기다리는 중입니다.
-* 제한:실행 또는 농축하는 동안 발생한 예약 오류로 인해 단계가 실패했습니다.
-* 시간 제한:실행 또는 농축하는 동안 발생한 시간 초과 오류로 인해 단계가 실패했습니다.
-* instanceTime:인스턴스가 시간 초과에 도달했으므로 단계가 처리를 중지했습니다.
+* 제한:동작 또는 데이터 보강 중에 발생한 최대 가용량 오류 발생 시 단계가 실패했습니다.
+* 시간 제한:작업이 수행되거나 데이터 보강 중에 발생한 시간 초과 오류로 인해 단계가 실패했습니다.
+* instanceTimedout:인스턴스가 시간 초과에 도달하여 단계가 처리를 중지합니다.
 
 ## journeyID
 
 여정 ID입니다.
 
-유형:문자열
+유형:string
 
 ## journeyVersionID
 
 여정 버전의 ID입니다. 이 id는 journeyStepEvent의 경우 여정에 대한 ID 참조를 나타냅니다.
 
-유형:문자열
+유형:string
 
 ## journeyVersionName
 
-여정 버전의 이름입니다.
+여정 버전 이름입니다.
 
-유형:문자열
+유형:string
 
 ## journeyVersion
 
 여정 버전.
 
-유형:문자열
+유형:string
 
 ## instanceID
 
 여정 인스턴스의 내부 ID입니다.
 
-유형:문자열
+유형:string
 
 ## externalKey
 
-이벤트에서 추출된 외부 키를 사용하여 처리합니다.
+이벤트에서 추출된 외부 키로 처리합니다.
 
-유형:문자열
+유형:string
 
 ## parentStepID
 
-인스턴스에서 현재 처리된 단계의 상위의 단계 ID입니다.
+인스턴스에서 현재 처리된 단계의 상위 단계 ID입니다.
 
-유형:문자열
+유형:string
 
 ## parentStepName
 
-현재 단계의 상위 단계 이름입니다.
+현재 단계의 상위 단계의 단계 이름입니다.
 
-유형:문자열
+유형:string
 
 ## parentTransitionID
 
 인스턴스를 처리된 단계로 가져온 전환의 ID입니다.
 
-유형:문자열
+유형:string
 
 ## parentTransitionName
 
 인스턴스를 처리된 단계로 가져온 전환의 이름입니다.
 
-유형:문자열
+유형:string
 
 ## inTest
 
 이 여정이 테스트 모드인지 여부를 나타냅니다.
 
-유형:boolean
+유형:부울
 
 ## processingTime
 
 인스턴스 단계 시작에서 처리 종료까지의 총 시간(밀리초)입니다.
 
-유형:long
+유형:장기간
 
 ## instanceType
 
-인스턴스 유형이 일괄 처리이거나 유니어일 경우 인스턴스 유형을 나타냅니다.
+인스턴스 유형이 일괄 처리이거나 단일 인스턴스인 경우 해당 유형을 나타냅니다.
 
-유형:문자열
+유형:string
 
-값:일괄/균일
+값:배치/단일
 
-## recurenceIndex
+## recursionIndex
 
-여정이 일괄 처리되고 반복(첫 번째 실행에는 recurenceIndex = 1)인 경우 되풀이 인덱스입니다.
+여정이 일괄 처리이고 반복(첫 번째 실행에서 recurenceIndex = 1)인 경우 되풀이 인덱스.
 
-유형:long
+유형:장기간
 
-## isBatchToUnique
+## isBatchToUnior
 
-이 단일 인스턴스가 배치 인스턴스에서 트리거되었는지 여부를 나타냅니다.
+일괄 처리 인스턴스에서 이 단일 인스턴스가 트리거되었는지 여부를 나타냅니다.
 
-유형:boolean
+유형:부울
 
 ## batchExternalKey
 
 일괄 처리 이벤트에 대한 외부 키.
 
-유형:문자열
+유형:string
 
 ## batchInstanceID
 
-일괄 처리 인스턴스 ID입니다.
+배치 인스턴스 ID입니다.
 
-유형:문자열
+유형:string
 
-## batchUniqueBranchID
+## batchUniorBranchID
 
-인스턴스가 일괄 처리 인스턴스에서 트리거된 경우 단일 분기 ID가 생성됩니다.
+인스턴스가 배치 인스턴스에서 트리거된 경우 단일 분기 ID입니다.
 
-유형:문자열
+유형:string
