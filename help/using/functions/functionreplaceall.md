@@ -1,25 +1,23 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: replaceAll
-description: 함수 바꾸기에 대해 자세히 알아보기All
-feature: Journeys
+description: 함수 replaceAll에 대해 알아보기
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: d60059e5-6bf8-4a57-88a4-5323d5f0fa0b
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 6%
+source-wordcount: '76'
+ht-degree: 7%
 
 ---
-
 
 # replaceAll {#replaceAll}
 
 대상 문자열과 일치하는 모든 항목을 기본 문자열의 대체 문자열로 바꿉니다.
 
-바꾸기는 문자열의 시작 부분부터 끝 부분(예: 문자열 &quot;aaa&quot;에서 &quot;aa&quot;를 &quot;b&quot;로 바꾸면 &quot;ab&quot;가 아닌 &quot;ba&quot;가 됩니다.
+대체는 문자열 시작 부분부터 끝 부분까지 진행됩니다. 예를 들어 문자열 &quot;aaa&quot;에서 &quot;aa&quot;를 &quot;b&quot;로 바꾸면 &quot;ab&quot;가 아니라 &quot;ba&quot;가 됩니다.
 
 ## 카테고리
 
@@ -33,11 +31,11 @@ ht-degree: 6%
 
 | 매개 변수 | 유형 |
 |-----------|--------------|
-| 기본 | 문자열 |
-| target | 문자열 |
-| 교체 | 문자열 |
+| 기본 | string |
+| target | string |
+| 교체 | string |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 형식
 
 `replaceAll(<baseString>,<sourceString>,<replacementString>)`
 
