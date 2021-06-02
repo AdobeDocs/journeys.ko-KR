@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: split
 description: 함수 분할에 대해 알아보기
-feature: Journeys
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 44499a09-19e2-4085-bf2f-7d9080ec382d
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 7%
+source-wordcount: '64'
+ht-degree: 9%
 
 ---
 
-
 # split {#split}
 
-문자열(토큰) 목록을 만들기 위해 구분 문자열(정규 표현식이 될 수 있는 두 번째 인수 문자열)로 첫 번째 인수 문자열을 분할합니다.
+첫 번째 인수 문자열을 구분 기호 문자열(정규 표현식일 수 있는 두 번째 인수 문자열)로 분할하여 문자열(토큰) 목록을 만듭니다.
 
 ## 카테고리
 
@@ -31,8 +29,8 @@ ht-degree: 7%
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
-| 입력 문자열 | 문자열 |
-| 구분 문자열 | 문자열 |
+| 입력 문자열 | string |
+| 구분 문자열 | string |
 
 ## 서명 및 반환된 유형
 
@@ -46,7 +44,7 @@ listString을 반환합니다.
 
 `["A","B","C"]` 반환
 
-값이 있는 이벤트 필드 &#39;event.appVersion&#39;의 예:&quot;20.45.2.3434&quot;
+값이 있는 이벤트 필드 &#39;event.appVersion&#39;이 있는 예:&quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 
