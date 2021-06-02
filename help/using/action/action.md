@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 작업
 description: 작업 구성 방법 알아보기
-feature: Journeys
+feature: 여정
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 98%
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
-
 
 # 작업 {#about_actions}
 
