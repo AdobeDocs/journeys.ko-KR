@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: distinctCount
-description: distinctCount 함수에 대해 알아보기
-feature: Journeys
+description: distinctCount 함수에 대해 알아봅니다.
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: b7844bce-1286-4d9e-b9e6-619c2d467c91
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 23%
+source-wordcount: '48'
+ht-degree: 27%
 
 ---
 
-
 # distinctCount{#distinctCount}
 
-null 값을 무시하고 있는 다른 값의 수를 카운트합니다.
+null 값을 무시하고 다른 값의 수를 계산합니다.
 
 ## 카테고리
 
@@ -39,7 +37,7 @@ null 값을 무시하고 있는 다른 값의 수를 카운트합니다.
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 형식
 
 `distinctCount(<listAny>)`
 
