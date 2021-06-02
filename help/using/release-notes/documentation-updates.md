@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 설명서 업데이트 정보
 description: 설명서 업데이트에 대해 알아보기
-feature: Journeys
+feature: 여정
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '803'
 ht-degree: 98%
 
 ---
-
 
 # 설명서 업데이트
 
@@ -22,7 +20,7 @@ ht-degree: 98%
 
 ## 2021년 3월 {#march-2021}
 
-* Adobe Experience Platform에서 테스트 프로필을 만드는 전체 절차를 자세히 설명합니다. [자세한 내용](../building-journeys/creating-test-profiles.md).
+* Adobe Experience Platform에서 테스트 프로필을 만드는 전체 절차를 자세히 살펴보았습니다. [자세한 내용](../building-journeys/creating-test-profiles.md).
 
 ## 2021년 1월 {#january-2021}
 
