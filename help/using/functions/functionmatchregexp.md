@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: matchRegExp
-description: matchRegExp 함수에 대해 알아보기
-feature: Journeys
+description: matchRegExp 함수에 대해 알아봅니다.
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 751fdcde-0af5-4f98-8cea-aae3ebefdb04
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 5%
+source-wordcount: '86'
+ht-degree: 6%
 
 ---
-
 
 # matchRegExp {#matchRegExp}
 
@@ -31,10 +29,10 @@ ht-degree: 5%
 
 | 매개 변수 | 유형 |
 |--- |--- |
-| 문자열 | 문자열 |
-| regexp | 문자열 |
+| string | string |
+| regexp | string |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 형식
 
 `matchRegExp(<string>,<string>)`
 
@@ -48,4 +46,4 @@ true를 반환합니다.
 
 설명:
 
-여기에서 문자열이 정규 표현식(java 구문)을 충족하는지 확인합니다.&quot;Hello&quot;로 시작하고 모든 종류의 문자열을 &quot;World&quot;로 끝냅니다.
+여기에서 문자열이 정규 표현식(java 구문)을 충족하는지 확인합니다.&quot;Hello&quot;로 시작하는 다음, 임의의 문자열로 시작하여 &quot;World&quot;로 끝납니다.
