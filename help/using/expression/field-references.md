@@ -1,30 +1,27 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 필드 참조
-description: 고급 표현식의 필드 참조에 대해 알아봅니다.
-feature: Journeys
+description: 고급 표현식의 필드 참조에 대해 알아봅니다
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 3%
+source-wordcount: '435'
+ht-degree: 4%
 
 ---
 
-
-
 # 필드 참조 {#concept_fkj_ll5_dgb}
 
-필드 참조를 이벤트 또는 필드 그룹에 연결할 수 있습니다. 유일한 의미 있는 정보는 필드의 이름과 해당 경로입니다.
+필드 참조를 이벤트 또는 필드 그룹에 첨부할 수 있습니다. 유일한 의미 있는 정보는 필드의 이름과 해당 경로입니다.
 
 필드에 특수 문자를 사용하는 경우 큰따옴표나 작은 따옴표를 사용해야 합니다. 다음은 따옴표가 필요한 경우입니다.
 
-* 필드가 숫자 문자로 시작
-* &quot;-&quot; 문자로 시작하는 필드
-* 필드에는 다음 이외의 항목이 있습니다._a_-_z_, _-_-_Z_, _0_-_9_, _ , _-_>
+* 필드는 숫자 문자로 시작합니다
+* 필드는 &quot;-&quot; 문자로 시작합니다
+* 필드에는 다음 이외의 다른 항목이 포함되어 있습니다._a_-_z_, _A_-_Z_, _0_-_9_, _ _-_
 
 예를 들어 필드가 _3h_&#x200B;인 경우:_#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
@@ -38,7 +35,7 @@ ht-degree: 3%
 #{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address}
 ```
 
-표현식에서 이벤트 필드는 &quot;@&quot;로 참조되며 데이터 소스 필드는 &quot;#&quot;로 참조됩니다.
+식에서 이벤트 필드는 &quot;@&quot;와 함께 참조되고 데이터 소스 필드는 &quot;#&quot;과 함께 참조됩니다.
 
 구문 색상은 이벤트 필드(녹색)와 필드 그룹(파란색)을 시각적으로 구분하는 데 사용됩니다.
 
@@ -57,7 +54,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->필드 유형과 기본값은 같아야 합니다. 예: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue :기본값은 정수이지만 예상 값은 문자열이어야 하므로    값이 유효하지 않습니다.
+>필드의 유형과 기본값은 같아야 합니다. 예: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue :기본값은 정수이지만 예상 값은 문자열이어야 하므로 2}이(가) 잘못되었습니다.
 
 예제:
 
@@ -93,7 +90,7 @@ expression examples:
 
 **컬렉션 내의 필드 참조**
 
-컬렉션 내에 정의된 요소는 모두, 첫 번째 및 마지막 특정 함수를 사용하여 참조됩니다. 자세한 정보는 [이 페이지](../expression/collection-management-functions.md)를 참조하십시오.
+컬렉션 내에 정의된 요소는 첫 번째 및 마지막 모든 특정 함수를 사용하여 참조됩니다. 자세한 정보는 [이 페이지](../expression/collection-management-functions.md)를 참조하십시오.
 
 예제 :
 
@@ -103,23 +100,23 @@ expression examples:
 
 **맵에 정의된 필드 참조**
 
-맵에서 요소를 검색하려면 주어진 키가 있는 시작 함수를 사용합니다. 예를 들어 선택한 네임스페이스에 따라 이벤트의 키를 정의할 때 사용됩니다. 네임스페이스 선택을 참조하십시오. 자세한 내용은 [이 페이지](../event/selecting-the-namespace.md)를 참조하십시오.
+맵에서 요소를 검색하려면 지정된 키와 함께 시작 함수를 사용합니다. 예를 들어 선택한 네임스페이스에 따라 이벤트의 키를 정의할 때 사용됩니다. 네임스페이스 선택을 참조하십시오. 자세한 내용은 [이 페이지](../event/selecting-the-namespace.md)를 참조하십시오.
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-이 표현식에서 이벤트의 &#39;IdentityMap&#39; 필드의 &#39;Email&#39; 키에 대한 항목이 표시됩니다. &#39;Email&#39; 항목은 &#39;first()&#39;를 사용하여 첫 번째 요소에서 &#39;id&#39;를 가져오는 컬렉션입니다. 자세한 내용은 [이 페이지](../expression/collection-management-functions.md)를 참조하십시오.
+이 표현식에서는 이벤트의 &#39;IdentityMap&#39; 필드의 &#39;Email&#39; 키에 대한 항목이 제공됩니다. &#39;Email&#39; 항목은 &#39;first()&#39;를 사용하여 첫 번째 요소에서 &#39;id&#39;를 가져오는 컬렉션입니다. 자세한 내용은 [이 페이지](../expression/collection-management-functions.md)를 참조하십시오.
 
 **데이터 소스의 매개 변수 값(데이터 소스 동적 값)**
 
-매개 변수를 호출해야 하는 외부 데이터 소스에서 필드를 선택하면 오른쪽에 새 탭이 나타나 이 매개 변수를 지정할 수 있습니다. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오.
+매개 변수를 호출해야 하는 외부 데이터 소스에서 필드를 선택하는 경우 오른쪽에 이 매개 변수를 지정할 수 있는 새 탭이 나타납니다. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오.
 
-보다 복잡한 사용 사례의 경우 기본 식에 데이터 소스의 매개 변수를 포함하려면 키워드 _params_&#x200B;를 사용하여 해당 값을 정의할 수 있습니다. 매개 변수는 다른 매개 변수도 포함하는 다른 데이터 소스에서도 유효한 표현식이 될 수 있습니다.
+보다 복잡한 사용 사례에서는 기본 표현식에 데이터 소스의 매개 변수를 포함하려는 경우 키워드 _params_&#x200B;를 사용하여 해당 값을 정의할 수 있습니다. 매개 변수는 다른 매개 변수도 포함하는 다른 데이터 소스의 모든 유효한 표현식일 수 있습니다.
 
 >[!NOTE]
 >
->표현식에서 매개 변수 값을 정의하면 오른쪽 탭이 사라집니다.
+>표현식에서 매개 변수 값을 정의하면 오른쪽의 탭이 사라집니다.
 
 다음 구문을 사용합니다.
 
@@ -127,8 +124,8 @@ expression examples:
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
-* **`<params-1-name>`**:데이터 소스의 첫 번째 매개 변수의 정확한 이름입니다.
-* **`<params-1-value>`**:첫 번째 매개 변수의 값입니다. 유효한 표현식이 될 수 있습니다.
+* **`<params-1-name>`**:데이터 소스에서 첫 번째 매개 변수의 정확한 이름입니다.
+* **`<params-1-value>`**:첫 번째 매개 변수의 값입니다. 유효한 표현식일 수 있습니다.
 
 예제:
 
