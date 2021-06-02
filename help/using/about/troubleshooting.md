@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 문제 해결
 description: 문제 해결에 대해 자세히 알아보기
-feature: Journeys
+feature: 여정
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 99%
+source-wordcount: '1041'
+ht-degree: 100%
 
 ---
-
 
 # 문제 해결{#concept_nlv_bcv_2fb}
 
@@ -88,4 +86,3 @@ ht-degree: 99%
 * 트랜잭션 메시징이 메시지를 성공적으로 보냈는지 여부. 트랜잭션 메시지의 전송 로그에서 각 실행의 상태를 확인할 수 있습니다. 녹색인지, 빨간색인지 그리고 무엇이 문제인지를 볼 수 있습니다. 비즈니스 사용자는 이 화면에 액세스하고 추가 조사를 위해 관리자에게 로그를 보낼 수 있습니다.
 
 사용자 지정 작업을 통해 전송된 메시지의 경우, 여정 테스트 중에 확인할 수 있는 유일한 사실은 사용자 지정 작업 시스템의 호출이 오류로 이어졌는지 여부입니다. 사용자 지정 작업과 연결된 외부 시스템에 대한 호출이 오류로 이어지지 않았는데 메시지가 전송되지 않은 경우에는 외부 시스템 쪽에서 몇 가지를 조사해 봐야 합니다.
-
