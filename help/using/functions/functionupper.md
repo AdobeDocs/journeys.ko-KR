@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: upper
-description: 함수 상단에서
-feature: Journeys
+description: 함수 상부에 대해 알아보기
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: f84d5a2a-0c78-4e96-b724-d524e79a61f1
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 12%
+source-wordcount: '29'
+ht-degree: 17%
 
 ---
-
 
 # upper {#upper}
 
@@ -27,7 +25,7 @@ ht-degree: 12%
 
 `upper(<parameters>)`
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 형식
 
 `upper(<string>)`
 
