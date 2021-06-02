@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toInteger
-description: Integer 함수에 대해 알아보기
-feature: Journeys
+description: toInteger 함수에 대해 알아봅니다.
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 3fcbf4dd-3ca5-4f4b-b774-af6ac3170768
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 8%
+source-wordcount: '71'
+ht-degree: 9%
 
 ---
-
 
 # toInteger {#toInteger}
 
@@ -31,10 +29,10 @@ ht-degree: 8%
 
 | 매개 변수 | 설명 |
 |--- |--- |
-| 문자열 | 문자열 값을 정수로 변환합니다. |
-| dateTime | 날짜를 밀리초 수로 변환합니다(밀리초). |
-| decimal | 소수점 이하(예:1.5가 1이 됨) |
-| boolean | 부울 값을 true이면 1로, false이면 0으로 변환합니다. |
+| string | 문자열 값을 정수로 변환 |
+| dateTime | 날짜를 밀리초(epoch 밀리초)로 변환 |
+| 십진수 | 소수점 부분을 제거하여 정수로 변환합니다(예:1.5가 1이 됨) |
+| 부울 | 부울 값을 true면 1로, false이면 0으로 변환합니다 |
 
 ## 서명 및 반환된 유형
 
@@ -54,4 +52,4 @@ ht-degree: 8%
 
 `toInteger("4")`
 
-4를 반환합니다.
+4 반환.
