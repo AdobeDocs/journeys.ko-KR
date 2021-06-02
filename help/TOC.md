@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 user-guide-title: Journey Orchestration
 title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축에 대한 방법 지침을 제공합니다.
 index: true
-feature: Journeys
-translation-type: ht
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
-workflow-type: ht
+feature: 여정
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
 
@@ -20,9 +18,9 @@ ht-degree: 100%
 + [제품 설명서](journey-orchestration-home.md)
 + 새로운 기능 {#release-notes}
    + [릴리스 정보](using/release-notes/release-notes.md)
-   + [설명서 업데이트 정보](using/release-notes/documentation-updates.md)
+   + [설명서 업데이트](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] 시작 {#starting-with-journeys}
-   + [ [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [ [!DNL Journey Orchestration] 정보](using/about/about-journey-orchestration.md)
    + [제한 사항](using/about/limitations.md)
    + [시작](using/about/get-started.md)
    + [사용자 인터페이스](using/about/user-interface.md)
@@ -65,7 +63,7 @@ ht-degree: 100%
       + [속성 변경](using/building-journeys/changing-properties.md)
       + [여정 버전](using/building-journeys/journey-versions.md)
       + [여정 종료](using/building-journeys/terminating-a-journey.md)
-      + [시간대 관리](using/building-journeys/timezone-management.md)
+      + [표준 시간대 관리](using/building-journeys/timezone-management.md)
       + [테스트 프로필](using/building-journeys/creating-test-profiles.md)
    + 활동 {#about-journey-building}
       + 이벤트 활동 {#events-activities}
@@ -79,7 +77,7 @@ ht-degree: 100%
          + [종료 활동](using/building-journeys/end-activity.md)
          + [대기 활동](using/building-journeys/wait-activity.md)
       + 작업 활동 {#action-activities}
-         + [작업 활동](using/building-journeys/about-action-activities.md)
+         + [작업 활동 정보](using/building-journeys/about-action-activities.md)
          + [Adobe Campaign 작업 사용](using/building-journeys/using-adobe-campaign-actions.md)
          + [사용자 지정 작업 사용](using/building-journeys/using-custom-actions.md)
          + [여정 간 이동](using/building-journeys/jump.md)
