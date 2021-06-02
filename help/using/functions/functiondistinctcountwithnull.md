@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: distinctCountWithNull
-description: distinctCountWithNull 함수에 대해 알아보기
-feature: Journeys
+description: distinctCountWithNull 함수에 대해 알아봅니다.
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: b8380d30-160e-45c2-b187-34eb42845923
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 23%
+source-wordcount: '48'
+ht-degree: 27%
 
 ---
 
-
 # distinctCountWithNull {#distinctCountWithNull}
 
-null 값을 포함하여 다른 값의 수를 카운트합니다.
+null 값을 포함하여 다른 값의 수를 계산합니다.
 
 ## 카테고리
 
@@ -39,7 +37,7 @@ null 값을 포함하여 다른 값의 수를 카운트합니다.
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 형식
 
 `distinctCountwithNull(<listAny>)`
 
@@ -49,4 +47,4 @@ null 값을 포함하여 다른 값의 수를 카운트합니다.
 
 `distinctCountWithNull([10,2,10,null])`
 
-3을 반환합니다.
+3 반환.
