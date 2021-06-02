@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: notEqualWithIgnoreCase
-description: notEqualWithIgnoreCase 함수에 대해 알아보기
-feature: Journeys
+description: notEqualWithIgnoreCase 함수에 대해 알아봅니다.
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: d99601cf-2ba8-4150-afa7-df6b8af47bf6
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 12%
+source-wordcount: '38'
+ht-degree: 15%
 
 ---
 
-
 # notEqualWithIgnoreCase {#notEqualWithIgnoreCase}
 
-두 번째 인수 문자열이 있는 첫 번째 인수 문자열이 다르는지 여부를 확인하십시오. 이때 대소문자 고려 사항은 무시됩니다.
+대/소문자 고려 사항을 무시하고 두 번째 인수 문자열이 들어 있는 첫 번째 인수 문자열이 다른지 확인하십시오.
 
 ## 카테고리
 
@@ -29,13 +27,13 @@ ht-degree: 12%
 
 ## 매개 변수
 
-* 문자열
+* string
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 형식
 
 `notEqualWithIgnoreCase(<string>,<string>)`
 
-부울 값을 반환합니다.
+부울을 반환합니다.
 
 ## 예제
 
