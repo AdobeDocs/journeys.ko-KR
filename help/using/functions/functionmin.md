@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: min
-description: 최소 함수 학습
-feature: Journeys
+description: 최소 함수에 대해 알아보기
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 7e13a08c-c51a-4d40-a3e2-ef70bd3edca5
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 5%
+source-wordcount: '89'
+ht-degree: 6%
 
 ---
 
-
 # min {#min}
 
-목록 또는 2개의 표현식으로 지정된 표현식 집합 중 최소값을 반환합니다. null 값은 무시됩니다.
+목록 또는 두 개의 표현식으로 제공되는 표현식 집합 중에서 최소값을 반환합니다. Null 값은 무시됩니다.
 
 ## 카테고리
 
@@ -34,21 +32,21 @@ ht-degree: 5%
 * listDecimal
 * listDateTime
 * listDateTimeOnly
-* 지속 시간
+* 기간
 * 정수
-* decimal
+* 십진수
 * dateTime
 * dateTimeOnly
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 형식
 
 `min(<listDuration>)`
 
-지속 기간을 반환합니다.
+지속 시간을 반환합니다.
 
 `min(<listInteger>)`
 
-지속 기간을 반환합니다.
+지속 시간을 반환합니다.
 
 `min(<listDateTimeOnly>)`
 
@@ -60,15 +58,15 @@ datetime을 반환합니다.
 
 `min(<listDecimal>)`
 
-소수점을 반환합니다.
+소수점 반환
 
 `min(<decimal>,<decimal>)`
 
-소수점을 반환합니다.
+소수점 반환
 
 `min(<duration>,<duration>)`
 
-지속 기간을 반환합니다.
+지속 시간을 반환합니다.
 
 `min(<dateTime>,<dateTime>)`
 
@@ -88,7 +86,7 @@ datetime을 반환합니다.
 
 `min([10,3,8])`
 
-3을 반환합니다.
+3 반환.
 
 `min([10,null,8])`
 
