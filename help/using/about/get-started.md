@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 시작
 description: Journey Orchestration을 설정하고 첫 번째 여정을 구축하는 주요 단계를 살펴봅니다.
-feature: Journeys
+feature: 여정
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 98%
+source-wordcount: '323'
+ht-degree: 100%
 
 ---
-
 
 # 시작{#concept_y4b_4qt_52b}
 
@@ -70,4 +68,3 @@ ht-degree: 98%
    자세한 내용은 [이 페이지](../reporting/about-journey-reports.md)를 참조하십시오.
 
    ![](../assets/dynamic_report_journey_12.png)
-
