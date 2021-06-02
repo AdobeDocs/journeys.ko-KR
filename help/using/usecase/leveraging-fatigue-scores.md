@@ -1,10 +1,8 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 피로 점수 활용
-description: 여정에서 피로 점수를 활용하는 방법 살펴보기
-translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+description: 여정에서 피로도 점수를 활용하는 방법을 알아봅니다
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 10%
@@ -14,11 +12,11 @@ ht-degree: 10%
 
 # 경로 AI 활용 {#concept_dsh_1ry_wfb}
 
-이 사용 사례는 피로 점수를 활용하여 여행 중에 고객의 과도한 구매를 방지할 수 있는 방법을 보여줍니다.
+이 사용 사례에서는 여정에서 고객을 과도한 요청을 방지하기 위해 피로도 점수를 활용하는 방법을 보여줍니다.
 
 >[!NOTE]
 >
->예측 피로 점수 기능은 [Adobe Experience Platform 데이터 커넥터](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)를 사용하는 고객에게만 제공됩니다.
+>예측 피로도 점수 기능은 [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)를 사용하는 고객에게만 제공됩니다.
 
 ## 이벤트 구성 {#section_ptb_ws1_ffb}
 
@@ -26,14 +24,14 @@ ht-degree: 10%
 
 ## 데이터 소스 구성 {#section_o3n_4yy_wfb}
 
-내장 데이터 소스에서 피로 점수 필드를 선택하려면 다음 단계를 수행하십시오.
+기본 제공 데이터 소스에서 피로도 점수 필드를 선택하려면 다음 단계를 수행하십시오.
 
-1. 상단 메뉴에서 **[!UICONTROL Data Sources]** 탭을 클릭하고 내장 Adobe Experience Platform 데이터 소스를 선택합니다.
+1. 상단 메뉴에서 **[!UICONTROL Data Sources]** 탭을 클릭하고 내장된 Adobe Experience Platform 데이터 소스를 선택합니다.
 
    ![](../assets/journey23.png)
 
-1. 사용 사례에 필요한 필드가 선택되었는지 확인합니다.
-1. **[!UICONTROL Add a New Field Group]**&#x200B;을 클릭하고 **[!UICONTROL Profiles]** 모델을 선택하고 **[!UICONTROL fatigueLevel]** 및 **[!UICONTROL fatigueScore]** 필드를 추가합니다(_journeyAI > emailScore > 피로_ 아래).
+1. 사용 사례에 필요한 필드가 선택되어 있는지 확인합니다.
+1. **[!UICONTROL Add a New Field Group]** 을 클릭하고 **[!UICONTROL Profiles]** 모델을 선택하고 **[!UICONTROL fatigueLevel]** 및 **[!UICONTROL fatigueScore]** 필드(_journeyAI > emailScore > 피로도_)를 추가합니다.
 
    ![](../assets/journeyuc3_1.png)
 
@@ -41,13 +39,13 @@ ht-degree: 10%
 
 ## 여정 구축 {#section_uzm_pyy_wfb}
 
-여정을 만들고, 유효성을 확인하고 게시하려면 [이 페이지](../building-journeys/journey.md)에 설명된 단계를 수행합니다.
+여정을 만들고, 유효성을 확인하고, 게시하려면 [이 페이지](../building-journeys/journey.md)에 설명된 단계를 수행합니다.
 
 사용 사례에서는 **[!UICONTROL fatigueLevel]** 필드를 활용하고 있습니다. **[!UICONTROL fatigueScore]** 필드를 사용할 수도 있습니다.
 
-여정에서 피로 수준을 활용하려면 다음 단계를 수행합니다.
+여정에서 피로도 수준을 활용하려면 다음 단계를 수행하십시오.
 
-1. 여정에서 이벤트와 조건을 추가합니다.
+1. 여정에 이벤트와 조건을 추가합니다.
 
    ![](../assets/journeyuc2_14.png)
 
@@ -55,7 +53,7 @@ ht-degree: 10%
 
    ![](../assets/journeyuc3_2.png)
 
-1. 단순 표현식 편집기를 사용하여 **[!UICONTROL fatigueLevel]** 필드(_ExperiencePlatformDataSource > JourneyAIScoes > 프로필 > JourneyAI > emailScore > 피로_)를 찾은 다음 오른쪽으로 드롭하여 다음 조건을 만듭니다.&quot;피로도는 &quot;낮음&quot;과 같습니다. **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
+1. 단순 표현식 편집기를 사용하여 **[!UICONTROL fatigueLevel]** 필드(_ExperiencePlatformDataSource > JourneyAIScore > Profile > JourneyAI > emailScore > 피로도_)를 찾은 다음 조건을 오른쪽으로 만듭니다.&quot;피로도 수준이 &quot;낮음&quot;과 같습니다. **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
 
    ![](../assets/journeyuc3_3.png)
 
@@ -65,10 +63,10 @@ ht-degree: 10%
    #{ExperiencePlatformDataSource.JourneyAIScores.Profile.journeyAI.emailScore.fatigue.fatigueLevel} == "low"
    ```
 
-1. 이 경우 중고 및 고피로 레벨을 위한 다른 두 가지 경로를 만듭니다.
+1. 조건에서, 중간 및 높은 피로도 수준에 대해 다른 두 경로를 만듭니다.
 
    ![](../assets/journeyuc3_4.png)
 
-1. 이제 각 피로 수준에 대해 다른 작업을 추가할 수 있습니다.
+1. 이제 각 피로도 수준에 대해 다른 작업을 추가할 수 있습니다.
 
    ![](../assets/journeyuc3_5.png)
