@@ -1,16 +1,15 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toDateTime
-description: toDateTime 함수에 대해 알아보기
-feature: Journeys
+description: toDateTime 함수에 대해 알아봅니다.
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 5%
+source-wordcount: '94'
+ht-degree: 6%
 
 ---
 
@@ -30,16 +29,16 @@ ht-degree: 5%
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
-| ISO-8601 형식의 날짜 시간 | 문자열 |
-| 시간대 ID | 문자열 |
+| ISO-8601 형식의 날짜 시간 | string |
+| 시간대 id | string |
 | 시간대 없는 날짜 시간 | dateTimeOnly |
-| epoch의 정수 값(밀리초 단위) | 정수 |
+| epoch의 정수 값(밀리초) | 정수 |
 
 >[!NOTE]
 >
->시간대 ID는 문자열 상수여야 합니다. 필드 참조나 표현식이 될 수 없습니다. 데이터 유형에 대한 자세한 내용은 [이 페이지](../expression/data-types.md)를 참조하십시오.
+>시간대 ID는 문자열 상수여야 합니다. 필드 참조나 식이 될 수 없습니다. 데이터 유형에 대한 자세한 내용은 [이 페이지](../expression/data-types.md)를 참조하십시오.
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 형식
 
 `toDateTime(<string>)`
 
@@ -74,15 +73,15 @@ Return a datetime.
 
 `toDateTime ("2016-08-18T23:17:59.123Z")`
 
-반환: 2016-08-18T23:17:59.123Z
+2016-08-18T23:17:59.123Z 반환
 
 `toDateTime(toDateTimeOnly("2016-08-18T23:17:59.123"),"UTC")`
 
-반환: 2016-08-18T23:17:59.123Z
+2016-08-18T23:17:59.123Z 반환
 
 `toDateTime(1560762190189)`
 
-반환: 2019-06-17T09:03:10.189Z
+2019-06-17T09:03:10.189Z 반환
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 
