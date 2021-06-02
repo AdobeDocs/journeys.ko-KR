@@ -1,24 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 연산자
-description: 고급 표현식의 연산자에 대해 알아보기
-feature: Journeys
+description: 고급 표현식의 연산자에 대해 알아봅니다
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 6%
 
 ---
 
-
-
 # 연산자 {#concept_wd5_pj5_dgb}
 
-다음과 같은 두 가지 유형의 연산자가 있습니다.단항 연산자 및 이진 연산자입니다. 왼쪽 연산자 및 오른쪽 연산자가 있습니다.
+다음과 같은 두 가지 유형의 연산자가 있습니다.단항 연산자 및 이진 연산자입니다. 왼쪽 단항 연산자와 오른쪽 단항 연산자가 있습니다.
 
 ```
     // left-hand unary operators
@@ -35,17 +32,17 @@ ht-degree: 6%
     (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com")
 ```
 
-지원되는 연산자 목록은 다음과 같습니다.
+다음은 지원되는 연산자 목록입니다.
 
-## 논리 {#logical}
+## 논리  {#logical}
 
-### and
+### 및
 
 ```
 <expression1> and <expression2>
 ```
 
-&lt;expression1> 및 &lt;expression2> 모두 부울 값이어야 합니다. 결과는 부울 값입니다.
+&lt;expression1> 및 &lt;expression2> 모두 부울이어야 합니다. 결과는 부울입니다.
 
 예제:
 
@@ -61,7 +58,7 @@ ht-degree: 6%
 <expression1> or <expression2>
 ```
 
-&lt;expression1> 및 &lt;expression2> 모두 부울 값이어야 합니다. 결과는 부울 값입니다.
+&lt;expression1> 및 &lt;expression2> 모두 부울이어야 합니다. 결과는 부울입니다.
 
 예제:
 
@@ -77,7 +74,7 @@ ht-degree: 6%
 not <expression>
 ```
 
-&lt;expression> 은 boolean이어야 합니다. 결과는 부울 값입니다.
+&lt;expression> 는 부울이어야 합니다. 결과는 부울입니다.
 
 예제:
 
@@ -87,7 +84,7 @@ not 3.15 < 1
 
 ## 비교 {#comparison}
 
-### 은(는) null입니다.
+### is null
 
 
 
@@ -95,9 +92,9 @@ not 3.15 < 1
 <expression> is null
 ```
 
-결과는 부울 값입니다.
+결과는 부울입니다.
 
-null은 표현식에 평가 값이 없음을 의미합니다.
+null은 표현식에 평가된 값이 없음을 의미합니다.
 
 예제:
 
@@ -105,7 +102,7 @@ null은 표현식에 평가 값이 없음을 의미합니다.
 @{BarBeacon.location} is null
 ```
 
-### 은(는) null이 아닙니다.
+### is not null
 
 
 
@@ -113,9 +110,9 @@ null은 표현식에 평가 값이 없음을 의미합니다.
 <expression> is not null
 ```
 
-결과는 부울 값입니다.
+결과는 부울입니다.
 
-null은 표현식에 평가 값이 없음을 의미합니다.
+null은 표현식에 평가된 값이 없음을 의미합니다.
 
 예제:
 
@@ -123,7 +120,7 @@ null은 표현식에 평가 값이 없음을 의미합니다.
 @ is not null
 ```
 
-### 은(는) null입니다.
+### null이
 
 
 
@@ -131,9 +128,9 @@ null은 표현식에 평가 값이 없음을 의미합니다.
 <expression> has null
 ```
 
-&lt;expression> 은(는) 목록이어야 합니다. 결과는 부울 값입니다.
+&lt;expression> 목록이어야 합니다. 결과는 부울입니다.
 
-목록에 null 값이 하나 이상 포함되어 있는지 확인하는 데 유용합니다.
+목록에 하나 이상의 null 값이 포함되어 있음을 식별하는 데 유용합니다.
 
 예제:
 
@@ -153,7 +150,7 @@ null은 표현식에 평가 값이 없음을 의미합니다.
 <expression1> == <expression2>
 ```
 
-&lt;expression1> 및 &lt;expression2> 모두 동일한 데이터 유형을 가져야 합니다. 결과는 부울 값입니다.
+&lt;expression1> 및 &lt;expression2> 모두에 동일한 데이터 유형이 있어야 합니다. 결과는 부울입니다.
 
 예제:
 
@@ -173,7 +170,7 @@ null은 표현식에 평가 값이 없음을 의미합니다.
 <expression1> != <expression2>
 ```
 
-&lt;expression1> 및 &lt;expression2> 모두 동일한 데이터 유형을 가져야 합니다. 결과는 부울 값입니다.
+&lt;expression1> 및 &lt;expression2> 모두에 동일한 데이터 유형이 있어야 합니다. 결과는 부울입니다.
 
 예제:
 
@@ -197,11 +194,11 @@ Datetime을 Datetime과 비교할 수 있습니다.
 
 Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 
-정수나 소수를 모두 정수나 소수로 비교할 수 있습니다.
+정수 또는 십진수는 모두 정수 또는 십진수와 비교할 수 있습니다.
 
-다른 모든 조합은 금지된다.
+다른 모든 조합은 금지됩니다.
 
-결과는 부울 값입니다.
+결과는 부울입니다.
 
 예제:
 
@@ -221,11 +218,11 @@ Datetime을 Datetime과 비교할 수 있습니다.
 
 Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 
-정수나 소수를 모두 정수나 소수로 비교할 수 있습니다.
+정수 또는 십진수는 모두 정수 또는 십진수와 비교할 수 있습니다.
 
-다른 모든 조합은 금지된다.
+다른 모든 조합은 금지됩니다.
 
-결과는 부울 값입니다.
+결과는 부울입니다.
 
 예제:
 
@@ -245,11 +242,11 @@ Datetime을 Datetime과 비교할 수 있습니다.
 
 Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 
-정수나 소수를 모두 정수나 소수로 비교할 수 있습니다.
+정수 또는 십진수는 모두 정수 또는 십진수와 비교할 수 있습니다.
 
-다른 모든 조합은 금지된다.
+다른 모든 조합은 금지됩니다.
 
-결과는 부울 값입니다.
+결과는 부울입니다.
 
 예제:
 
@@ -269,11 +266,11 @@ Datetime을 Datetime과 비교할 수 있습니다.
 
 Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 
-정수나 소수를 모두 정수나 소수로 비교할 수 있습니다.
+정수 또는 십진수는 모두 정수 또는 십진수와 비교할 수 있습니다.
 
-다른 모든 조합은 금지된다.
+다른 모든 조합은 금지됩니다.
 
-결과는 부울 값입니다.
+결과는 부울입니다.
 
 예제:
 
@@ -291,7 +288,7 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 <expression1> + <expression2>
 ```
 
-두 표현식은 모두 숫자(정수 또는 소수)여야 합니다.
+두 표현식은 모두 숫자(정수 또는 십진수)여야 합니다.
 
 결과도 숫자입니다.
 
@@ -309,7 +306,7 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 <expression1> - <expression2>
 ```
 
-두 표현식은 모두 숫자(정수 또는 소수)여야 합니다.
+두 표현식은 모두 숫자(정수 또는 십진수)여야 합니다.
 
 결과도 숫자입니다.
 
@@ -327,11 +324,11 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 <expression1> / <expression2>
 ```
 
-두 표현식은 모두 숫자(정수 또는 소수)여야 합니다.
+두 표현식은 모두 숫자(정수 또는 십진수)여야 합니다.
 
 결과도 숫자입니다.
 
-&lt;expression2> 0은(는) 아니어야 합니다(0 반환).
+&lt;expression2> 0과 같아야 합니다(0을 반환).
 
 예제:
 
@@ -347,7 +344,7 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 <expression1> * <expression2>
 ```
 
-두 표현식은 모두 숫자(정수 또는 소수)여야 합니다.
+두 표현식은 모두 숫자(정수 또는 십진수)여야 합니다.
 
 결과도 숫자입니다.
 
@@ -365,7 +362,7 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 <expression1> % <expression2>
 ```
 
-두 표현식은 모두 숫자(정수 또는 소수)여야 합니다.
+두 표현식은 모두 숫자(정수 또는 십진수)여야 합니다.
 
 결과도 숫자입니다.
 
@@ -377,7 +374,7 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 
 ## 수학 {#math}
 
-### 숫자
+### 는 숫자입니다.
 
 
 
@@ -385,7 +382,7 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 <expression> is numeric
 ```
 
-표현식 유형은 정수 또는 소수입니다.
+식의 유형은 정수 또는 소수입니다.
 
 예제:
 
@@ -393,7 +390,7 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 @ is numeric
 ```
 
-### 정수입니다.
+### 정수
 
 
 
@@ -401,7 +398,7 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 <expression> is integer
 ```
 
-표현식 유형은 정수입니다.
+표현식의 형식은 정수입니다.
 
 예제:
 
@@ -409,7 +406,7 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 @ is integer
 ```
 
-### decimal
+### is decimal
 
 
 
@@ -417,7 +414,7 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 <expression> is decimal
 ```
 
-표현식 유형은 소수입니다.
+표현식의 유형은 10진수입니다.
 
 예제:
 
@@ -441,7 +438,7 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 
 두 표현식을 연결합니다.
 
-하나의 표현식은 연결된 문자열이어야 합니다.
+하나의 식은 체인 문자열이어야 합니다.
 
 예제:
 
