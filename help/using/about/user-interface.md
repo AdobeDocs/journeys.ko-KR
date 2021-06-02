@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 사용자 인터페이스
 description: 사용자 인터페이스에 대해 자세히 알아보기
-feature: Journeys
+feature: 여정
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
+exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 99%
+source-wordcount: '1011'
+ht-degree: 100%
 
 ---
-
 
 # 사용자 인터페이스{#concept_rcq_lqt_52b}
 
@@ -23,7 +21,7 @@ ht-degree: 99%
 >
 >이 설명서는 제품의 최근 변경 사항을 반영하여 자주 업데이트됩니다. 그러나 실제 제품 인터페이스와 약간 다른 스크린샷도 있습니다.
 
-## [!DNL Journey Orchestration]{#accessing_journey_orchestration} 액세스
+## [!DNL Journey Orchestration] 액세스{#accessing_journey_orchestration}
 
 [!DNL Journey Orchestration]의 인터페이스에 액세스하려면 오른쪽 위의 **[!UICONTROL App Selector]** 아이콘을 클릭한 후 **[!UICONTROL Journey Orchestration]**&#x200B;을(를) 클릭합니다.
 
@@ -144,4 +142,3 @@ _여정:_
 * 테스트 모드의 이벤트 기반 여정에서 **E** 키를 눌러 이벤트를 트리거합니다.
 * 세그먼트 기반 여정에서 테스트 모드에서 **한 번에 하나의 프로필** 옵션이 선택된 경우 **P** 키를 눌러 이벤트를 트리거합니다.
 * 테스트 모드에서 **L** 키를 눌러 로그를 표시합니다.
-
