@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: substr
-description: 함수 하위 문자열에 대해 알아보기
-feature: Journeys
+description: Function substr에 대해 알아보기
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: dda01de5-b865-4323-ac36-2e3d90d213ee
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 7%
+source-wordcount: '65'
+ht-degree: 9%
 
 ---
 
-
 # substr {#substr}
 
-시작 인덱스와 끝 인덱스 사이의 문자열 표현식의 하위 문자열을 반환합니다. 끝 인덱스가 정의되지 않은 경우 시작 색인과 끝 사이의 인덱스입니다.
+시작 인덱스와 끝 인덱스 사이에 문자열 식의 하위 문자열을 반환합니다. 끝 인덱스가 정의되지 않으면 시작 색인과 끝 사이의 인덱스입니다.
 
 ## 카테고리
 
@@ -29,13 +27,13 @@ ht-degree: 7%
 
 ## 매개 변수
 
-| 매개 변수 | type |
+| 매개 변수 | 유형 |
 |-------------|----------|
-| 문자열 | 문자열 |
+| string | string |
 | beginIndex | 정수 |
 | endIndex | 정수 |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 형식
 
 `substr(<string>,<beginIndex>)`
 
