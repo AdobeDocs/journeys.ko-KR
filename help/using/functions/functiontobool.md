@@ -1,25 +1,23 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toBool
-description: toBool 기능에 대해 알아봅니다.
-feature: Journeys
+description: Bool에 대한 함수 알아보기
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 490144c2-1ecd-4772-ab15-e23b1b7d8f0c
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 6%
+source-wordcount: '75'
+ht-degree: 8%
 
 ---
 
-
 # toBool {#toBool}
 
-유형에 따라 인수 값을 부울 값으로 변환합니다.
+인수 값을 유형에 따라 부울 값으로 변환합니다.
 
-* 문자열:문자열 값이 &quot;true&quot;이면 &quot;true&quot;이고, 그렇지 않으면 false로 문자열 값을 부울로 변환하려고 합니다.
+* 문자열:문자열 값이 &quot;true&quot;이면 &quot;true&quot;에서 부울로 문자열 값을 변환하려고 하고, 그렇지 않으면 false입니다.
 * 숫자:숫자 값이 0이 아니면 true, 그렇지 않으면 false
 
 ## 카테고리
@@ -32,12 +30,12 @@ ht-degree: 6%
 
 ## 매개 변수
 
-* decimal
-* boolean
-* 문자열
+* 십진수
+* 부울
+* string
 * 정수
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 형식
 
 `toBool(<decimal>)`
 
@@ -47,7 +45,7 @@ ht-degree: 6%
 
 `toBool(<integer>)`
 
-부울 값을 반환합니다.
+부울을 반환합니다.
 
 ## 예제
 
