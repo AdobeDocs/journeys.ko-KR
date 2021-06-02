@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: getListItem
-description: gstListItem 함수에 대해 알아보기
-feature: Journeys
+description: gstListItem 함수에 대해 알아봅니다
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 4%
+source-wordcount: '98'
+ht-degree: 6%
 
 ---
 
-
 # getListItem {#gestListItem}
 
-지정된 인덱스에 있는 목록의 항목을 반환합니다.
+지정된 인덱스에서 목록의 항목을 반환합니다.
 
 ## 카테고리
 
@@ -38,7 +36,7 @@ ht-degree: 4%
 | list | listDuration |
 | list | listDateTime |
 | list | listDateTimeOnly |
-| index | 정수 |
+| 색인 | 정수 |
 
 ## 서명 및 반환된 유형
 
@@ -48,7 +46,7 @@ ht-degree: 4%
 
 `getListItem(<listDecimal>,<index>)`
 
-소수점 목록을 반환합니다.
+소수 목록을 반환합니다.
 
 `getListItem(<listString>,<index>)`
 
@@ -60,7 +58,7 @@ ht-degree: 4%
 
 `getListItem(<listDateTime>,<index>)`
 
-날짜 시간 목록을 반환합니다.
+datetime 목록을 반환합니다.
 
 `getListItem(<listBoolean>,<index>)`
 
@@ -68,7 +66,7 @@ ht-degree: 4%
 
 `getListItem(<listDuration>,<index>)`
 
-기간 목록을 반환합니다.
+지속 시간 목록을 반환합니다.
 
 ## 예제
 
