@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: inLastMonths
-description: 지난 달 기능에 대해 알아봅니다.
-feature: Journeys
+description: LastMonths의 함수에 대해 알아봅니다.
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: ff8effa9-404a-482b-8842-a276f029e2ed
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '45'
+ht-degree: 13%
 
 ---
 
-
 # inLastMonths {#inLastMonths}
 
-주어진 날짜 또는 dateTime이 현재 - 델타 개월 사이에 있으면 true를 반환합니다.
+주어진 날짜 또는 dateTime이 지금부터 현재 - 델타 개월 사이에 있으면 true를 반환합니다.
 
 ## 카테고리
 
@@ -38,7 +36,7 @@ ht-degree: 10%
 
 `inLastMonths(<dateTime>,<integer>)`
 
-부울 값을 반환합니다.
+부울을 반환합니다.
 
 ## 예제
 
