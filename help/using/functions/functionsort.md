@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: sort
 description: 함수 정렬에 대해 알아보기
-feature: Journeys
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 11%
+source-wordcount: '105'
+ht-degree: 12%
 
 ---
 
-
 # sort {#sort}
 
-자연스러운 순서로 값 목록을 정렬합니다. 첫 번째 인수는 값 목록입니다. 두 번째 인수는 정렬이 오름차순(true) 또는 내림차순(false)인지 여부를 나타내는 부울 값입니다.
+값 목록을 자연어 순서로 정렬합니다. 첫 번째 인수는 값 목록이고, 두 번째 인수는 정렬이 오름차순(true) 또는 내림차순(false)인지 여부를 나타내는 부울 값입니다.
 
 ## 카테고리
 
@@ -40,7 +38,7 @@ ht-degree: 11%
 | 목록 | listDateTimeOnly |
 | 부울 | 부울 |
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 형식
 
 `sort(<listInteger>,<boolean>)`
 
@@ -48,7 +46,7 @@ ht-degree: 11%
 
 `sort(<listDecimal>,<boolean>)`
 
-소수점 목록을 반환합니다.
+소수 목록을 반환합니다.
 
 `sort(<listString>,<boolean>)`
 
@@ -60,7 +58,7 @@ ht-degree: 11%
 
 `sort(<listDateTime>,<boolean>)`
 
-날짜 시간 목록을 반환합니다.
+datetime 목록을 반환합니다.
 
 `sort(<listBoolean>,<boolean>)`
 
@@ -70,8 +68,8 @@ ht-degree: 11%
 
 `sort(["A", "C", "B"], true)`
 
-`["A","B","C"]`을(를) 반환합니다.
+`["A","B","C"]`을 반환합니다.
 
 `sort([1, 3, 2], false)`
 
-`[3, 2, 1]`을(를) 반환합니다.
+`[3, 2, 1]`을 반환합니다.
