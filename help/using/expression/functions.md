@@ -1,31 +1,29 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 함수
-description: 함수에 대한 자세한 내용
-feature: Journeys
+description: 기능에 대해 알아보기
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 71%
+source-wordcount: '168'
+ht-degree: 73%
 
 ---
 
-
 # 함수 {#concept_p1r_qj5_dgb}
 
-함수에는 서로 다른 서명(순서가 다른 매개 변수 세트)이 있을 수 있습니다. 함수 서명은 순서가 지정된 매개 변수로 0-N 식을 가질 수 있습니다.
+함수에는 서로 다른 서명(순서가 지정된 다른 매개 변수 세트)이 있을 수 있습니다. 함수 시그니처에는 순서가 지정된 매개 변수로 0-N 식이 있을 수 있습니다.
 
-`<function name>`(`<expression as param 1>`,  `<expression as param 2>`...,`<expression as param N>`)
+`<function name>`(`<expression as param 1>`,  `<expression as param 2>`, ... , `<expression as param N>`)
 
 각 함수에는 특정 반환 유형이 있습니다.
 
 다음은 지원되는 함수 목록입니다.
 
-## 주요 함수
+## 기본 함수
 
 | 카테고리 | 함수 |
 |-------------|-----------------------|
