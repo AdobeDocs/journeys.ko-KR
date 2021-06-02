@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: equalWithIgnoreCase
-description: equalWithIgnoreCase 함수에 대해 알아보기
-feature: Journeys
+description: equalWithIgnoreCase 함수에 대해 알아봅니다.
+feature: 여정
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 9311c799-a4e6-47b3-9867-b09093d3a981
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 12%
+source-wordcount: '37'
+ht-degree: 16%
 
 ---
 
-
 # equalWithIgnoreCase {#equalWithIgnoreCase}
 
-첫 번째 인수 문자열을 두 번째 인수 문자열과 비교하여 대/소문자 고려 사항을 무시합니다.
+대/소문자 고려 사항을 무시하고 첫 번째 인수 문자열을 두 번째 인수 문자열로 비교합니다.
 
 ## 카테고리
 
@@ -29,13 +27,13 @@ ht-degree: 12%
 
 ## 매개 변수
 
-* 문자열
+* string
 
-## 서명 및 반환된 유형
+## 서명 및 반환된 형식
 
 `equalWithIgnoreCase(<string>,<string>)`
 
-부울 값을 반환합니다.
+부울을 반환합니다.
 
 ## 예제
 
