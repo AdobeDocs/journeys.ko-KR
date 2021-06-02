@@ -1,26 +1,24 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 데이터 소스
 description: '데이터 소스 구성 방법 알아보기 '
-feature: Journeys
+feature: 여정
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
+exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 92%
+source-wordcount: '345'
+ht-degree: 93%
 
 ---
-
 
 # 데이터 소스 {#concept_s1s_dqt_52b}
 
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="데이터 소스"
->abstract="데이터 소스 구성을 사용하여 시스템에 대한 연결을 정의하여 여정에 사용할 추가 정보를 검색할 수 있습니다."
+>abstract="데이터 소스를 구성하면 여정에서 사용할 추가 정보를 검색할 시스템에 대한 연결을 정의할 수 있습니다."
 
 데이터 소스를 구성하면 여정에서 사용할 추가 정보 검색을 위해 시스템에 대한 연결을 정의할 수 있습니다. 이러한 추가 정보에는 다음과 같은 항목이 포함됩니다.
 
