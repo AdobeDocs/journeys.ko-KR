@@ -6,14 +6,14 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 4%
+source-wordcount: '303'
+ht-degree: 3%
 
 ---
 
-# Adobe Campaign 작업 {#using_adobe_campaign_standard}
+# Adobe Campaign Standard 작업 {#using_adobe_campaign_standard}
 
 Adobe Campaign Standard의 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 보낼 수 있습니다.
 
