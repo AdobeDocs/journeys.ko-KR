@@ -5,10 +5,10 @@ title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축에 대한 방법 지침을 제공합니다.
 index: true
 feature: 여정
-source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
+source-git-commit: 33e7f08cfe7eb39b761991fdcfbabe99af02e3f0
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 94%
+source-wordcount: '421'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 94%
    + [사용자 인터페이스](using/about/user-interface.md)
    + [액세스 관리](using/about/access-management.md)
    + [문제 해결](using/about/troubleshooting.md)
+   + [외부 시스템과 통합](using/about/external-systems.md)
 + 이벤트 구성 {#events-journeys}
    + 이벤트 {#about-events}
       + [일반 원칙](using/event/about-events.md)
