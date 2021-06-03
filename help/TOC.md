@@ -5,10 +5,10 @@ title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축에 대한 방법 지침을 제공합니다.
 index: true
 feature: 여정
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 94%
 
 ---
 
@@ -46,12 +46,12 @@ ht-degree: 100%
    + [외부 데이터 소스](using/datasource/external-data-sources.md)
 + 작업 구성 {#action-journeys}
    + [작업](using/action/action.md)
-   + [Adobe Campaign 작업](using/action/working-with-adobe-campaign.md)
+   + [Adobe Campaign Standard 작업](using/action/working-with-adobe-campaign.md)
+   + [Adobe Campaign Classic 작업](using/action/acc-action.md)
    + 서드파티 시스템 사용 {#action-third-party}
       + [사용자 지정 작업 구성](using/action/about-custom-action-configuration.md)
       + [URL 구성](using/action/url-configuration.md)
       + [메시지 매개 변수 정의](using/action/defining-the-message-parameters.md)
-   + [Adobe Campaign Classic과 통합](using/beta/acc-action.md)
 + Platform 세그먼트 사용 {#configuring-segment}
    + [Platform 세그먼트](using/segment/about-segments.md)
    + [세그먼트 만들기](using/segment/creating-a-segment.md)
@@ -78,7 +78,8 @@ ht-degree: 100%
          + [대기 활동](using/building-journeys/wait-activity.md)
       + 작업 활동 {#action-activities}
          + [작업 활동 정보](using/building-journeys/about-action-activities.md)
-         + [Adobe Campaign 작업 사용](using/building-journeys/using-adobe-campaign-actions.md)
+         + [Adobe Campaign Standard 사용](using/building-journeys/using-adobe-campaign-actions.md)
+         + [Adobe Campaign Classic 사용](using/building-journeys/using-adobe-campaign-classic.md)
          + [사용자 지정 작업 사용](using/building-journeys/using-custom-actions.md)
          + [여정 간 이동](using/building-journeys/jump.md)
          + [프로필 업데이트](using/building-journeys/update-profiles.md)
@@ -191,5 +192,6 @@ ht-degree: 100%
       + [이벤트 구성](using/usecase/configuring-the-events.md)
       + [데이터 소스 구성](using/usecase/configuring-the-data-sources.md)
       + [여정 구축](using/usecase/building-the-journey.md)
+   + [Campaign Classic을 사용하여 메시지 보내기](using/usecase/campaign-classic-use-case.md)
 + API 작업{#working-with-apis}
    + [API 최대 가용량](using/api/capping.md)
