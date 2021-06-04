@@ -6,16 +6,14 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: 04aa7d95c2f12fe03497efe74f2ab8bd1a270b5b
+source-git-commit: b108294acf8e1c4be00ca981e7ba15a23973f8ac
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 4%
+source-wordcount: '900'
+ht-degree: 5%
 
 ---
 
 # Adobe Campaign 작업 사용 {#using_campaign_action}
-
-## Adobe Campaign Standard 사용 {#using_campaign_standard_action}
 
 Adobe Campaign Standard이 있는 경우 다음과 같은 기본 작업 활동을 사용할 수 있습니다.**[!UICONTROL Email]**, **[!UICONTROL Push]** 및 **[!UICONTROL SMS]**.
 
@@ -41,7 +39,7 @@ Adobe Campaign Standard이 있는 경우 다음과 같은 기본 작업 활동�
 
 ![](../assets/journey60.png)
 
-### 이메일 및 SMS {#section_asc_51g_nhb}
+## 이메일 및 SMS {#section_asc_51g_nhb}
 
 **[!UICONTROL Email]** 및 **[!UICONTROL SMS]**&#x200B;의 경우 매개 변수가 동일합니다.
 
@@ -75,7 +73,7 @@ Adobe Campaign Standard이 있는 경우 다음과 같은 기본 작업 활동�
 
 ![](../assets/journey62.png)
 
-### 푸시 {#section_im3_hvf_nhb}
+## 푸시 {#section_im3_hvf_nhb}
 
 푸시 활동을 사용하기 전에 푸시 알림을 전송하기 위해 Campaign Standard과 함께 모바일 앱을 구성해야 합니다. 이 [article](https://helpx.adobe.com/kr/campaign/kb/integrate-mobile-sdk.html)을 사용하여 모바일에 필요한 구현 단계를 수행하십시오.
 
@@ -106,20 +104,3 @@ Adobe Campaign Standard이 있는 경우 다음과 같은 기본 작업 활동�
 >개인화 데이터에서는 컬렉션을 전달할 수 없습니다. 트랜잭션 푸시에 컬렉션이 필요한 경우 작동하지 않습니다. 또한 개인화 데이터에는 예상 형식(예:문자열, 십진수 등.) 이러한 예상 형식을 준수하도록 주의해야 합니다.
 
 다음은 Adobe Campaign Standard 메시지에 사용하는 트랜잭션 템플릿에서 예상하는 필드입니다. 이러한 필드를 사용하여 메시지를 개인하거나, 조건부 서식을 적용하거나, 특정 메시지 변형을 선택할 수 있습니다.
-
-## Adobe Campaign v7/v8 사용 {#using_campaign_v7_v8_action}
-
-이 통합은 21.1 릴리스부터 Adobe Campaign Classic v7 및 Adobe Campaign v8에서 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.
-
-Journey Orchestration과 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다. Adobe에게 문의하십시오.
-
-이를 수행하려면 전용 작업을 구성해야 합니다. 이 [섹션](../action/working-with-adobe-campaign.md#using_adobe_campaign_v7_v8)을 참조하십시오.
-
-이 [섹션](../usecase/campaign-v7-v8-use-case.md)에 사용 사례가 나와 있습니다.
-
-1. 이벤트를 시작으로 여정을 디자인합니다. 이 [섹션](../building-journeys/journey.md)을 참조하십시오.
-1. 팔레트의 **작업** 섹션에서 캠페인 작업을 선택하고 여정에 추가합니다.
-1. **작업 매개 변수**&#x200B;에 메시지 페이로드에서 예상되는 모든 필드가 표시됩니다. 이벤트 또는 데이터 소스에서 사용할 필드에 이러한 각 필드를 매핑해야 합니다. 이는 사용자 지정 작업과 유사합니다. 이 [섹션](../building-journeys/using-custom-actions.md)을 참조하십시오.
-
-![](../assets/accintegration2.png)
-
