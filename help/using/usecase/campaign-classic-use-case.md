@@ -1,32 +1,32 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 피로 점수 활용
-description: 여정에서 피로도 점수를 활용하는 방법을 알아봅니다
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+title: Campaign v7/v8을 사용하여 메시지 보내기
+description: Campaign v7/v8을 사용하여 메시지 보내기
+source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
 
 
-# Campaign Classic {#campaign-classic-use-case}을 사용하여 메시지 보내기
+# Campaign v7/v8을 사용하여 메시지 보내기 {#campaign-classic-use-case}
 
-이 사용 사례에서는 Adobe Campaign Classic 통합을 사용하여 이메일을 전송하는 데 필요한 모든 단계를 설명합니다.
+이 사용 사례에서는 Adobe Campaign Classic v7 및 Adobe Campaign v8과의 통합을 사용하여 이메일을 전송하는 데 필요한 모든 단계를 설명합니다.
 
-먼저 Campaign Classic에서 트랜잭션 이메일 템플릿을 만듭니다. 그런 다음 Journey Orchestration에서 이벤트, 작업, 여정을 디자인합니다.
+먼저 Campaign에서 트랜잭션 이메일 템플릿을 만듭니다. 그런 다음 Journey Orchestration에서 이벤트, 작업, 여정을 디자인합니다.
 
-Campaign Classic 통합에 대한 자세한 내용은 다음 페이지를 참조하십시오.
+Campaign 통합에 대한 자세한 내용은 다음 페이지를 참조하십시오.
 
-* [Campaign Classic 작업 만들기](../action/acc-action.md)
+* [캠페인 작업 만들기](../action/acc-action.md)
 * [여정에서 작업 사용](../building-journeys/using-adobe-campaign-classic.md).
 
-**Adobe Campaign Classic**
+**Adobe Campaign**
 
-이 통합을 위해 Campaign Classic 인스턴스를 프로비저닝해야 합니다. 트랜잭션 메시지 기능을 구성해야 합니다.
+이 통합을 위해 Campaign 인스턴스를 프로비저닝해야 합니다. 트랜잭션 메시지 기능을 구성해야 합니다.
 
-1. Campaign Classic 제어 인스턴스에 로그인합니다.
+1. Campaign 컨트롤 인스턴스에 로그인합니다.
 
 1. **관리** > **플랫폼** > **열거형**&#x200B;에서 **이벤트 유형** (eventType) 열거형을 선택합니다. 새 이벤트 유형(이 예제에서는 &quot;여정-event&quot;)을 만듭니다. 나중에 JSON 파일을 작성할 때 이벤트 유형의 내부 이름을 사용해야 합니다.
 
@@ -38,7 +38,7 @@ Campaign Classic 통합에 대한 자세한 내용은 다음 페이지를 참조
 
    ![](../assets/accintegration-uc-2.png)
 
-1. 템플릿을 디자인합니다. 이 예에서는 프로필의 이름과 주문 번호에 개인화를 사용합니다. 이름은 Adobe Experience Platform 데이터 소스에 있고 순서 번호는 Journey Orchestration 이벤트의 필드입니다. Campaign Classic에서 올바른 필드 이름을 사용해야 합니다.
+1. 템플릿을 디자인합니다. 이 예에서는 프로필의 이름과 주문 번호에 개인화를 사용합니다. 이름은 Adobe Experience Platform 데이터 소스에 있고 순서 번호는 Journey Orchestration 이벤트의 필드입니다. Campaign에서 올바른 필드 이름을 사용해야 합니다.
 
    ![](../assets/accintegration-uc-3.png)
 
@@ -70,7 +70,7 @@ Campaign Classic 통합에 대한 자세한 내용은 다음 페이지를 참조
 
    ![](../assets/accintegration-uc-5.png)
 
-1. 그런 다음 Journey Orchestration에서 Campaign Classic 템플릿에 해당하는 작업을 만들어야 합니다. **작업 유형** 드롭다운에서 **Adobe Campaign Classic**&#x200B;을 선택합니다.
+1. 그런 다음 Journey Orchestration에서 Campaign 템플릿에 해당하는 작업을 만들어야 합니다. **작업 유형** 드롭다운에서 **Adobe Campaign Classic**&#x200B;을 선택합니다.
 
    ![](../assets/accintegration-uc-6.png)
 
