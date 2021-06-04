@@ -5,10 +5,10 @@ title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축에 대한 방법 지침을 제공합니다.
 index: true
 feature: 여정
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 93%
+source-wordcount: '424'
+ht-degree: 92%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 93%
 + 작업 구성 {#action-journeys}
    + [작업](using/action/action.md)
    + [Adobe Campaign Standard 작업](using/action/working-with-adobe-campaign.md)
-   + [Adobe Campaign Classic 작업](using/action/acc-action.md)
+   + [Adobe Campaign v7/v8 작업](using/action/acc-action.md)
    + 서드파티 시스템 사용 {#action-third-party}
       + [사용자 지정 작업 구성](using/action/about-custom-action-configuration.md)
       + [URL 구성](using/action/url-configuration.md)
@@ -80,7 +80,7 @@ ht-degree: 93%
       + 작업 활동 {#action-activities}
          + [작업 활동 정보](using/building-journeys/about-action-activities.md)
          + [Adobe Campaign Standard 사용](using/building-journeys/using-adobe-campaign-actions.md)
-         + [Adobe Campaign Classic 사용](using/building-journeys/using-adobe-campaign-classic.md)
+         + [Adobe Campaign v7/v8 사용](using/building-journeys/using-adobe-campaign-classic.md)
          + [사용자 지정 작업 사용](using/building-journeys/using-custom-actions.md)
          + [여정 간 이동](using/building-journeys/jump.md)
          + [프로필 업데이트](using/building-journeys/update-profiles.md)
@@ -193,6 +193,6 @@ ht-degree: 93%
       + [이벤트 구성](using/usecase/configuring-the-events.md)
       + [데이터 소스 구성](using/usecase/configuring-the-data-sources.md)
       + [여정 구축](using/usecase/building-the-journey.md)
-   + [Campaign Classic을 사용하여 메시지 보내기](using/usecase/campaign-classic-use-case.md)
+   + [Campaign v7/v8을 사용하여 메시지 보내기](using/usecase/campaign-classic-use-case.md)
 + API 작업{#working-with-apis}
    + [API 최대 가용량](using/api/capping.md)
