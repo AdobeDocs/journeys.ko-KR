@@ -7,10 +7,10 @@ feature: 여정
 role: Business Practitioner
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 100%
+source-wordcount: '257'
+ht-degree: 96%
 
 ---
 
@@ -77,7 +77,7 @@ Journey Orchestration을 설정하고 첫 번째 여정을 구축하기 위한 �
 * [Experience Cloud XDM 필드 정의](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/home.html)
 * [Identity Namespace 설명서](https://docs.adobe.com/content/help/ko-KR/experience-platform/identity/home.html)
 * [스트리밍 수집 API](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/streaming/overview.html)
-* [Campaign Standard 트랜잭션 메시지 설명서]()
+* [Campaign Standard 트랜잭션 메시지 설명서](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)
 
 ## 기술 튜토리얼
 
