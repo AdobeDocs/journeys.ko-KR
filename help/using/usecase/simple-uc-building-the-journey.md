@@ -6,10 +6,10 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 35%
+source-wordcount: '394'
+ht-degree: 34%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 35%
 
    ![](../assets/journeyuc1_12.png)
 
-1. **[!UICONTROL Email]** 활동을 삭제하고 &quot;Spa 할인&quot; 트랜잭션 메시지 템플릿을 선택합니다. 이 템플릿은 Adobe Campaign을 사용하여 디자인되었습니다. 이 [page]()을 참조하십시오.
+1. **[!UICONTROL Email]** 활동을 삭제하고 &quot;Spa 할인&quot; 트랜잭션 메시지 템플릿을 선택합니다. 이 템플릿은 Adobe Campaign을 사용하여 디자인되었습니다. 이 [page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)을 참조하십시오.
 
    ![](../assets/journeyuc1_13.png)
 
