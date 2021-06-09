@@ -6,9 +6,9 @@ feature: 여정
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
+source-git-commit: 002b67f4e09635b58c00fad9dbc2c16b872a5fb3
 workflow-type: tm+mt
-source-wordcount: '2539'
+source-wordcount: '2540'
 ht-degree: 78%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 78%
 이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 최신 [설명서 업데이트](../release-notes/documentation-updates.md)도 확인할 수 있습니다.
 
-## 2021년 5월 릴리스 {#may-2021-release}
+## 2021년 6월 릴리스 {#may-2021-release}
 
 <table>
 <thead>
@@ -29,8 +29,8 @@ ht-degree: 78%
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Campaign Classic 통합과의 통합이 GA됩니다. Adobe Campaign Classic 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.</p>
-<p>Journey Orchestration 인스턴스와 Campaign Classic 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다.</p>
+<p>이제 Adobe Campaign Classic 통합과의 통합이 GA됩니다. Adobe Campaign v7 또는 v8 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.</p>
+<p>Journey Orchestration과 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다.</p>
 <p>자세한 내용은 <a href="../action/acc-action.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
