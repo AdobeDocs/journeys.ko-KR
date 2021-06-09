@@ -6,10 +6,10 @@ feature: 여정
 role: Business Practitioner
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ![](../assets/journeydiagram.png)
 
-[!DNL Journey Orchestration]에서는 이벤트, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 활용한 실시간 오케스트레이션이 가능합니다. 서드파티 시스템을 사용하여 메시지를 보내는 경우에는 사용자 지정 작업을 구성할 수 있습니다. Adobe Campaign Standard가 설치되어 있다면 Adobe Campaign Standard의 [트랜잭션 메시지 기능]()을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.
+[!DNL Journey Orchestration]에서는 이벤트, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 활용한 실시간 오케스트레이션이 가능합니다. 서드파티 시스템을 사용하여 메시지를 보내는 경우에는 사용자 지정 작업을 구성할 수 있습니다. Adobe Campaign Standard가 설치되어 있다면 Adobe Campaign Standard의 [트랜잭션 메시지 기능](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.
 
 이벤트 구성 탭에서 **기술 사용자**&#x200B;는 여정에서 예상되는 이벤트를 구성합니다. 수신되는 이벤트 데이터는 Adobe Experience 데이터 모델(XDM)에 따라 표준화됩니다. 이벤트는 인증된 이벤트와 인증되지 않은 이벤트(예: Adobe Mobile SDK 이벤트)를 위한 수집 API 스트리밍에서 옵니다.
 
