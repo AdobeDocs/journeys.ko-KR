@@ -6,10 +6,10 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: 2565f6be500440455aa60724272790537a28ce2d
+source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 5%
+source-wordcount: '896'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign Standard이 있는 경우 다음과 같은 기본 작업 활동�
 >
 >이를 위해 기본 제공 작업을 구성해야 합니다. [이 페이지](../action/working-with-adobe-campaign.md)를 참조하십시오.
 
-이러한 각 채널에 대해 Adobe Campaign Standard 트랜잭션 메시지 **템플릿**&#x200B;을(를) 선택합니다. 실제로 [!DNL Journey Orchestration]은 메시지 전송 솔루션이 아닙니다. 기본 제공 이메일, SMS 및 푸시 채널의 경우, Adobe에서는 트랜잭션 메시지를 사용하여 메시지 전송을 실행합니다. 즉, 여정에서 특정 메시지 템플릿을 사용하려면 Adobe Campaign Standard에 게시해야 합니다. 이 기능을 사용하는 방법에 대해 알아보려면 [이 페이지](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)를 참조하십시오.
+이러한 각 채널에 대해 Adobe Campaign Standard 트랜잭션 메시지 **템플릿**&#x200B;을(를) 선택합니다. 실제로 [!DNL Journey Orchestration]은 메시지 전송 솔루션이 아닙니다. 기본 제공 이메일, SMS 및 푸시 채널의 경우, Adobe에서는 트랜잭션 메시지를 사용하여 메시지 전송을 실행합니다. 즉, 여정에서 특정 메시지 템플릿을 사용하려면 Adobe Campaign Standard에 게시해야 합니다. 이 기능을 사용하는 방법에 대해 알아보려면 [이 페이지](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Adobe Campaign Standard이 있는 경우 다음과 같은 기본 작업 활동�
 
 >[!NOTE]
 >
->이메일의 경우, 프로필 트랜잭션 템플릿을 사용하는 경우, 구독 취소 메커니즘은 Campaign Standard에 의해 즉시 처리됩니다. 템플릿에 **[!UICONTROL Unsubscription link]** 콘텐츠 블록을 추가하면 됩니다([자세히 알아보기](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). 이벤트 기반 템플릿(rtEvent)을 사용 중인 경우, 메시지에 URL 매개 변수로 개인 이메일을 전달하고 구독 취소 랜딩 페이지를 가리키는 링크를 추가해야 합니다. 이 랜딩 페이지를 만들고 이 랜딩 페이지의 가입을 취소하는 사람이 Adobe에게 전송하도록 해야 합니다.
+>이메일의 경우, 프로필 트랜잭션 템플릿을 사용하는 경우, 구독 취소 메커니즘은 Campaign Standard에 의해 즉시 처리됩니다. 템플릿에 **[!UICONTROL Unsubscription link]** 콘텐츠 블록을 추가하면 됩니다([자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). 이벤트 기반 템플릿(rtEvent)을 사용 중인 경우, 메시지에 URL 매개 변수로 개인 이메일을 전달하고 구독 취소 랜딩 페이지를 가리키는 링크를 추가해야 합니다. 이 랜딩 페이지를 만들고 이 랜딩 페이지의 가입을 취소하는 사람이 Adobe에게 전송하도록 해야 합니다.
 
 먼저 트랜잭션 메시지 템플릿을 선택해야 합니다. [이 페이지](../building-journeys/about-action-activities.md)를 참조하십시오.
 
