@@ -6,10 +6,10 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 7%
+source-wordcount: '174'
+ht-degree: 6%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 7%
 
 ## 사전 요구 사항 {#prerequisites}
 
-사용 사례를 위해 Adobe Campaign Standard에 이메일 트랜잭션 메시지 템플릿 1개를 디자인했습니다. 이벤트 트랜잭션 메시지 템플릿을 사용하고 있습니다. 이 [page]()을 참조하십시오.
+사용 사례를 위해 Adobe Campaign Standard에 이메일 트랜잭션 메시지 템플릿 1개를 디자인했습니다. 이벤트 트랜잭션 메시지 템플릿을 사용하고 있습니다. 이 [page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)을 참조하십시오.
 
 Adobe Campaign Standard이 이메일을 보내도록 구성되어 있습니다.
 
