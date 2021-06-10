@@ -6,9 +6,9 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 1251eafcfe7487c3df01b412f17706f5ed6c6836
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '220'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 4%
 **[!UICONTROL Message parameters]** 섹션에서 외부 서비스로 전송할 JSON 페이로드의 예제를 붙여넣습니다.
 
 ![](../assets/customactionpayloadmessage.png)
+
+>[!NOTE]
+>
+>페이로드의 필드 이름에는 &quot;.&quot;를 사용할 수 없습니다. 문자.
 
 매개 변수 유형(예:문자열, 정수 등)
 
