@@ -6,9 +6,9 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 29aa6b6e16f8e6d051065f8157f4e25e8b1c05e1
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '371'
 ht-degree: 4%
 
 ---
@@ -41,7 +41,11 @@ ht-degree: 4%
 
    ![](../assets/profileupdate2.png)
 
-1. 목록에서 데이터 세트를 선택합니다. 데이터 세트 선택에 따라 프로필 필드의 새 값이 저장되는 위치가 결정됩니다.
+1. 목록에서 데이터 세트를 선택합니다.
+
+   >[!NOTE]
+   >
+   >**프로필 업데이트** 작업은 프로필 데이터를 실시간으로 업데이트하지만 데이터 세트는 업데이트되지 않습니다. 프로필이 데이터 세트와 관련된 레코드이므로 데이터 세트 선택이 필요합니다.
 
 1. **값** 필드를 클릭하여 사용할 값을 정의합니다.
 
