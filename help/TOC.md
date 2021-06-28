@@ -6,9 +6,9 @@ user-guide-description: 여정 구현 및 구축에 대한 방법 지침을 제�
 index: true
 feature: 여정
 source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -33,24 +33,24 @@ ht-degree: 92%
       + [데이터 주기](using/event/about-data-cycle.md)
       + [이벤트 만들기](using/event/about-creating.md)
       + [Adobe Analytics 활용](using/event/about-analytics.md)
-      + [ExperienceEvent 스키마](using/event/experience-event-schema.md)
-      + [추가적인 이벤트 전송 단계](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+      + [ExperienceEvent 스키마 정보](using/event/experience-event-schema.md)
+      + [이벤트 전송 추가 단계](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [페이로드 필드 정의](using/event/defining-the-payload-fields.md)
    + [네임스페이스 선택](using/event/selecting-the-namespace.md)
    + [이벤트 키 정의](using/event/defining-the-event-key.md)
    + [조건 추가](using/event/adding-a-condition.md)
    + [페이로드 미리 보기](using/event/previewing-the-payload.md)
 + 데이터 소스 구성 {#data-source-journeys}
-   + [데이터 소스](using/datasource/about-data-sources.md)
+   + [데이터 소스 정보](using/datasource/about-data-sources.md)
    + [필드 그룹](using/datasource/field-groups.md)
    + [Adobe Experience Platform 데이터 소스](using/datasource/adobe-experience-platform-data-source.md)
    + [외부 데이터 소스](using/datasource/external-data-sources.md)
 + 작업 구성 {#action-journeys}
-   + [작업](using/action/action.md)
+   + [작업 정보](using/action/action.md)
    + [Adobe Campaign Standard 작업](using/action/working-with-adobe-campaign.md)
    + [Adobe Campaign v7/v8 작업](using/action/acc-action.md)
    + 서드파티 시스템 사용 {#action-third-party}
-      + [사용자 지정 작업 구성](using/action/about-custom-action-configuration.md)
+      + [사용자 지정 작업 구성 정보](using/action/about-custom-action-configuration.md)
       + [URL 구성](using/action/url-configuration.md)
       + [메시지 매개 변수 정의](using/action/defining-the-message-parameters.md)
 + Platform 세그먼트 사용 {#configuring-segment}
@@ -73,7 +73,7 @@ ht-degree: 92%
          + [반응 이벤트](using/building-journeys/reaction-events.md)
          + [세그먼트 자격 이벤트](using/building-journeys/segment-qualification-events.md)
       + 오케스트레이션 활동 {#orchestration-activities}
-         + [오케스트레이션 활동](using/building-journeys/about-orchestration-activities.md)
+         + [오케스트레이션 활동 정보](using/building-journeys/about-orchestration-activities.md)
          + [조건 활동](using/building-journeys/condition-activity.md)
          + [종료 활동](using/building-journeys/end-activity.md)
          + [대기 활동](using/building-journeys/wait-activity.md)
@@ -94,7 +94,7 @@ ht-degree: 92%
       + [journeyStep 이벤트 ID 필드](using/building-journeys/sharing-identity-fields.md)
       + [여정 필드](using/building-journeys/sharing-journey-fields.md)
 + 고급 표현식 편집기 사용 {#building-advanced-conditions-journeys}
-   + [고급 표현식 편집기](using/expression/expressionadvanced.md)
+   + [고급 표현식 편집기 정보](using/expression/expressionadvanced.md)
    + 구문 {#syntax}
       + [일반성](using/expression/generalities.md)
       + [조건부 지침](using/expression/conditional-instruction.md)
@@ -127,7 +127,7 @@ ht-degree: 92%
          + [toInteger](using/functions/functiontointeger.md)
          + [toString](using/functions/functiontostring.md)
       + 날짜 {#date}
-         + [currentTime&#x200B;InMillis](using/functions/functioncurrenttimeinmillis.md)
+         + [currentTimeInMillis](using/functions/functioncurrenttimeinmillis.md)
          + [inLastDays](using/functions/functioninlastdays.md)
          + [inLastHours](using/functions/functioninlasthours.md)
          + [inLastMonths](using/functions/functioninlastmonths.md)
@@ -148,7 +148,7 @@ ht-degree: 92%
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
-      + 수학 {#math}
+      + 연산 {#math}
          + [random](using/functions/functionrandom.md)
          + [round](using/functions/functionround.md)
       + 문자열 {#string}
@@ -176,23 +176,23 @@ ht-degree: 92%
          + [upper](using/functions/functionupper.md)
          + [uuid](using/functions/functionuuid.md)
 + 보고서 작성{#journey-reports}
-   + [여정 보고서](using/reporting/about-journey-reports.md)
+   + [여정 보고서 정보](using/reporting/about-journey-reports.md)
    + [여정 보고서 만들기](using/reporting/creating-your-journey-reports.md)
    + [지표 및 차원](using/reporting/metrics-and-dimensions.md)
-+ Intelligent Services와 통합{#use-case-advanced}
-   + [AI 통합](using/ai-services/ai-services-overview.md)
++ 인텔리전스 서비스와 통합{#use-case-advanced}
+   + [AI 통합 정보](using/ai-services/ai-services-overview.md)
    + [고객 AI 활용](using/ai-services/leveraging-customer-ai.md)
 + 사용 사례{#use-cases-journeys}
    + 개인화된 이메일 전송{#use-case-simple}
-      + [단순 사용 사례](using/usecase/about-the-simple-use-case.md)
+      + [단순 사용 사례 정보](using/usecase/about-the-simple-use-case.md)
       + [이벤트 구성](using/usecase/configuring-the-event.md)
       + [데이터 소스 구성](using/usecase/configuring-the-data-source.md)
       + [여정 구축](using/usecase/simple-uc-building-the-journey.md)
    + 크로스 채널 여정 구축{#use-case-advanced}
-      + [고급 사용 사례](using/usecase/about-the-advanced-use-case.md)
+      + [고급 사용 사례 정보](using/usecase/about-the-advanced-use-case.md)
       + [이벤트 구성](using/usecase/configuring-the-events.md)
       + [데이터 소스 구성](using/usecase/configuring-the-data-sources.md)
       + [여정 구축](using/usecase/building-the-journey.md)
    + [Campaign v7/v8을 사용하여 메시지 보내기](using/usecase/campaign-classic-use-case.md)
 + API 작업{#working-with-apis}
-   + [API 최대 가용량](using/api/capping.md)
+   + [API 한도 설정](using/api/capping.md)
