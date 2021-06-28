@@ -7,9 +7,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="이벤트"
->abstract="특정 사용자에게 연결되는 이벤트는 한 사람의 행동 또는 사람과 연관된 어떤 것에 관한 것입니다. [!DNL Journey Orchestration]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다."
+>abstract="특정 사용자에게 연결되는 이벤트는 한 사람의 행동 또는 한 사람과 연관되어 일어나는 일에 관한 것입니다. [!DNL Journey Orchestration]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다."
 
 특정 사용자에게 연결되는 이벤트는 해당 사용자의 제품 구매, 상점 방문, 웹 사이트 종료와 같은 행동과 관련된 항목일 수도 있고 해당 사용자와 관련하여 발생하는 상황일 수도 있습니다. 사용자가 충성도 점수 10,000점을 달성하는 등의 경우를 예로 들 수 있습니다. [!DNL Journey Orchestration]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다.
 
