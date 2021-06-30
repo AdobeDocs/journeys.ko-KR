@@ -6,10 +6,10 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 100%
+source-wordcount: '1039'
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 이러한 도구를 통해 보내는 API 호출이 올바르게 전송되었는지 여부를 확인할 수 있습니다. 오류가 반환되면 호출에 문제가 있는 것입니다. 페이로드, 헤더(특히 조직 ID) 및 대상 URL을 다시 확인하십시오. 올바른 URL이 무엇인지를 관리자에게 물어볼 수 있습니다.
 
-이벤트는 소스에서 [!DNL Journey Orchestration]으로 직접 푸시되지 않습니다. 실제로, [!DNL Journey Orchestration] (은)는 Adobe Experience Platform의 수집 API 스트리밍에 의존합니다. 따라서 이벤트 관련 문제가 발생하면 [이 페이지](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/streaming/troubleshooting.html)에서 수집 API 스트리밍 문제 해결을 참조할 수 있습니다.
+이벤트는 소스에서 [!DNL Journey Orchestration]으로 직접 푸시되지 않습니다. 실제로, [!DNL Journey Orchestration] (은)는 Adobe Experience Platform의 수집 API 스트리밍에 의존합니다. 따라서 이벤트 관련 문제가 발생하면 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)에서 수집 API 스트리밍 문제 해결을 참조할 수 있습니다.
 
 ## 사람들이 여정에 들어오는지 확인{#section_x4v_zzs_dgb}
 
