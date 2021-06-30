@@ -6,10 +6,10 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 64%
+source-wordcount: '554'
+ht-degree: 63%
 
 ---
 
@@ -49,6 +49,10 @@ ht-degree: 64%
    ![](../assets/alpha-event6.png)
 
    이 예제에서는 프로필의 도시를 기반으로 조건을 작성했습니다. 즉, 시스템에서 이 조건(**[!UICONTROL City]** 필드 및 **[!UICONTROL Paris]** 값)과 일치하는 이벤트를 수신할 때마다 Journey Orchestration에 전달됩니다.
+
+   >[!NOTE]
+   >
+   >**[!UICONTROL Event ID condition]**&#x200B;을(를) 정의할 때는 고급 표현식 편집기를 사용할 수 없습니다.
 
 1. 네임스페이스를 추가합니다. 이 단계는 원하는 경우에만 수행하면 되지만, 네임스페이스를 추가하면 실시간 고객 프로필 서비스에 저장된 정보를 활용할 수 있습니다. 이 정보에 따라 이벤트의 키 유형이 정의됩니다. [이 페이지](../event/selecting-the-namespace.md)를 참조하십시오.
 1. 키를 정의합니다. 페이로드 필드에서 필드를 선택하거나 공식을 정의하여 이벤트와 연관된 사용자를 지정합니다. 이 키는 네임스페이스를 선택하면 자동으로 설정되지만 편집할 수 있습니다. 네임스페이스에 해당하는 키는 [!DNL Journey Orchestration]에서 자동으로 선택됩니다. 예를 들어 이메일 네임스페이스를 선택하면 이메일 키가 선택됩니다. [이 페이지](../event/defining-the-event-key.md)를 참조하십시오.
