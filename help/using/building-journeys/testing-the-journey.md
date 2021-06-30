@@ -6,10 +6,10 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 3%
+source-wordcount: '1665'
+ht-degree: 2%
 
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 3%
 * 테스트 모드를 비활성화하면 이전에 테스트 모드에 들어갔거나 현재 테스트 모드에 있는 모든 사용자의 여정이 비어 있게 됩니다. 또한 보고를 지웁니다.
 * 테스트 모드를 필요한 만큼 활성화/비활성화할 수 있습니다.
 * 테스트 모드가 활성화되면 여정을 수정할 수 없습니다. 테스트 모드에서는 여정을 직접 게시할 수 있으며, 이전에 테스트 모드를 비활성화할 필요가 없습니다.
+* 분할에 도달하면 위쪽 분기가 항상 선택됩니다. 테스트에서 다른 경로를 선택하도록 하려면 분할 분기의 위치를 재구성할 수 있습니다.
 
 ## 프로필을 테스트 프로필로 전환{#turning-profile-into-test}
 
@@ -69,7 +70,7 @@ ht-degree: 3%
 
 ## 테스트 프로필 만들기{#create-test-profile}
 
-새 테스트 프로필을 만들려면 Adobe Experience Platform에서 프로필을 만들 때와 절차가 동일합니다. API 호출을 통해 수행됩니다. 이 [페이지](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/home.html)를 참조하십시오
+새 테스트 프로필을 만들려면 Adobe Experience Platform에서 프로필을 만들 때와 절차가 동일합니다. API 호출을 통해 수행됩니다. 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)를 참조하십시오
 
 프로필 테스트 세부 사항 mixin이 포함된 프로필 스키마를 사용해야 합니다. testProfile 플래그는 이 mixin의 일부입니다.
 
@@ -155,7 +156,7 @@ Adobe Experience Platform에서 테스트 프로필로 플래그가 지정된 �
 
 시각적 흐름은 이벤트가 인터페이스를 통해 트리거되는지 아니면 외부에서 트리거되는지(예: Postman 사용) 여부에따라 작동합니다.
 
-## 규칙 기반 여정 {#test-rule-based} 테스트 모드
+## 규칙 기반 여정 테스트 모드 {#test-rule-based}
 
 규칙 기반 이벤트를 사용하는 여정에 대해서도 테스트 모드를 사용할 수 있습니다. 규칙 기반 이벤트에 대한 자세한 내용은 [이 페이지](../event/about-events.md)를 참조하십시오.
 
