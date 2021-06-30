@@ -6,10 +6,10 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 5%
+source-wordcount: '398'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 키는 이벤트 페이로드 데이터의 일부이며, 시스템에서 이벤트와 연관된 사용자를 식별할 수 있도록 하는 필드 또는 필드 조합입니다. 키는 Experience Cloud ID, CRM ID 또는 이메일 주소와 같은 것일 수 있습니다.
 
-실시간 고객 프로필 데이터베이스에 저장된 데이터를 활용하려면 [실시간 고객 프로필 서비스](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/home.html)에서 프로필 ID로 정의한 정보를 이벤트 키로 선택해야 합니다.
+실시간 고객 프로필 데이터베이스에 저장된 데이터를 활용하려면 [실시간 고객 프로필 서비스](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)에서 프로필 ID로 정의한 정보를 이벤트 키로 선택해야 합니다.
 
 이렇게 하면 시스템이 이벤트와 개인 프로필 간의 조정을 수행할 수 있습니다. 기본 ID가 있는 스키마를 선택하면 **[!UICONTROL Key]** 및 **[!UICONTROL Namespace]** 필드가 미리 채워집니다. 정의된 ID가 없으면 _identityMap > id_&#x200B;를 기본 키로 선택합니다. 그런 다음 네임스페이스를 선택해야 합니다. 그러면 _identityMap > id_&#x200B;를 사용하여 키가 미리 채워져 **[!UICONTROL Namespace]** 필드 아래에 있습니다.
 
