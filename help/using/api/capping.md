@@ -7,9 +7,9 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 데이터 소스 구성 중에 여정에 사용할 추가 정보를 검색할 시스템에 대한 연결을 정의하거나, 작업 정의에 대해 메시지나 API 호출을 전송할 서드파티 시스템의 연결을 구성합니다. 여정에 의해 API 호출이 수행될 때마다 최대 가용량 API가 쿼리되고, 호출이 API 엔진을 통해 옵니다. 정의된 제한이 있으면 호출이 거부되고 외부 시스템이 오버로드되지 않습니다.
 
-작업 또는 데이터 소스 구성에 대한 자세한 내용은 [작업 정보](https://docs.adobe.com/content/help/en/journeys/using/action-journeys/action.html) 또는 [데이터 소스 정보](https://docs.adobe.com/content/help/en/journeys/using/data-source-journeys/about-data-sources.html)를 참조하십시오
+작업 또는 데이터 소스 구성에 대한 자세한 내용은 [작업 정보](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) 또는 [데이터 소스 정보](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)를 참조하십시오
 
 
 ## 리소스
@@ -173,7 +173,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 Postman에 다운로드하여 업로드했으면 다음 세 가지 변수를 추가해야 합니다.`{JO_HOST}`,`{Base_Path}` 및 `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] 게이트웨이 URL
 * `{BASE_PATH}` :API의 시작 지점입니다. 값은 &#39;/authoring&#39;입니다.
-* `{SANDBOX_NAME}` :API 작업이 발생할 샌드박스 이름에 해당하는 머리글  **x-sandbox-name** (예: &#39;prod&#39;)입니다. 자세한 내용은 [샌드박스 개요](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html)를 참조하십시오.
+* `{SANDBOX_NAME}` :API 작업이 발생할 샌드박스 이름에 해당하는 머리글  **x-sandbox-name** (예: &#39;prod&#39;)입니다. 자세한 내용은 [샌드박스 개요](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html)를 참조하십시오.
 
 다음 섹션에서는 사용 사례를 수행할 Rest API 호출 순서 목록을 확인할 수 있습니다.
 
