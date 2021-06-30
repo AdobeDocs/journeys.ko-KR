@@ -6,7 +6,7 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 784c91054e0f6b9ea12aa4b7f4079f7c2da8f949
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 12%
@@ -67,7 +67,7 @@ ht-degree: 12%
 * 여정은 **[!UICONTROL Close to new entrances]** 버튼을 통해 수동으로 닫힙니다.
 * 여정 종료 날짜에 도달했습니다.
 
-여정을 닫으면(위의 이유 중 하나) 상태가 **[!UICONTROL Closed (no entrance)]**&#x200B;입니다. 여정은 새 개인이 여정에 들어가는 것을 중지합니다. 여정에 이미 있는 사람은 여정을 정상적으로 완료합니다. 기본 글로벌 시간 초과 30일 이후에는 여정이 **Finished** 상태로 전환됩니다. 이 [섹션](../building-journeys/changing-properties.md#entrance)을 참조하십시오.
+여정을 닫으면(위의 이유 중 하나) 상태가 **[!UICONTROL Closed]**&#x200B;입니다. 여정은 새 개인이 여정에 들어가는 것을 중지합니다. 여정에 이미 있는 사람은 여정을 정상적으로 완료합니다. 기본 글로벌 시간 초과 30일 이후에는 여정이 **Finished** 상태로 전환됩니다. 이 [섹션](../building-journeys/changing-properties.md#entrance)을 참조하십시오.
 
 여정에 있는 모든 개인의 진행 상태를 중지해야 하는 경우 중지할 수 있습니다. 여정을 중지하면 여정의 모든 개인이 시간 초과됩니다.
 
