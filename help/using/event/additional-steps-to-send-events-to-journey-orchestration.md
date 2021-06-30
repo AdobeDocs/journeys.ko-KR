@@ -6,10 +6,10 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 7%
+source-wordcount: '320'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 **[!UICONTROL Streaming Ingestion APIs]**&#x200B;에 전송하고 [!DNL Journey Orchestration]에 사용할 이벤트를 구성하려면 다음 단계를 수행해야 합니다.
 
-1. Adobe Experience Platform API에서 인렛 URL을 가져옵니다([스트리밍 수집 API](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/streaming/overview.html) 참조).
+1. Adobe Experience Platform API에서 인렛 URL을 가져옵니다([스트리밍 수집 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) 참조).
 1. **[!UICONTROL Event]** 메뉴의 페이로드 미리 보기에서 페이로드를 복사합니다. [이 페이지](../event/defining-the-payload-fields.md)를 참조하십시오.
 
 그런 다음 복사한 페이로드를 사용하여 이벤트를 스트리밍 수집 API로 푸시하는 데이터 시스템을 구성해야 합니다.
@@ -91,4 +91,4 @@ ht-degree: 7%
 
 &quot;데이터&quot; 부분을 붙여넣을 위치를 쉽게 식별하기 위해 [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com) 와 같은 JSON 시각화 도구를 사용할 수 있습니다
 
-스트리밍 수집 API 문제를 해결하려면 이 [page](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/streaming/troubleshooting.html)을 참조하십시오.
+스트리밍 수집 API 문제를 해결하려면 이 [page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)을 참조하십시오.
