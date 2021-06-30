@@ -6,16 +6,16 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Platform 세그먼트 정보 {#about-segments}
+# Adobe Experience Platform 세그먼트 기본 정보 {#about-segments}
 
-[Adobe Experience Platform 세그멘테이션 서비스](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)를 사용하여 세그먼트를 만드는 경우 [!DNL Journey Orchestration]에서 활용할 수 있습니다. 전용 이벤트 활동 덕분에 Adobe Experience Platform 세그먼트 출입구 및 종료에 따라 개인이 여정에 들어오거나 앞으로 이동하도록 할 수 있습니다. 또한 단순 또는 고급 표현식 편집기를 사용하여 여정에서 복잡한 조건을 작성할 수도 있습니다.
+[Adobe Experience Platform 세그멘테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)를 사용하여 세그먼트를 만드는 경우 [!DNL Journey Orchestration]에서 활용할 수 있습니다. 전용 이벤트 활동 덕분에 Adobe Experience Platform 세그먼트 출입구 및 종료에 따라 개인이 여정에 들어오거나 앞으로 이동하도록 할 수 있습니다. 또한 단순 또는 고급 표현식 편집기를 사용하여 여정에서 복잡한 조건을 작성할 수도 있습니다.
 
 &quot;실버 고객&quot; 세그먼트가 있다고 가정해 보겠습니다. 이 활동을 사용하면 모든 신규 실버 고객이 여정을 입력하고 일련의 개인화된 메시지를 보내게 할 수 있습니다. 이 세그먼트를 기반으로 조건을 쉽게 작성할 수 있습니다.
 
