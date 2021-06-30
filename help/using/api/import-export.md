@@ -3,10 +3,10 @@ product: adobe campaign
 title: 가져오기 내보내기 API 설명
 description: 가져오기 내보내기 API에 대해 자세히 알아보십시오.
 products: journeys
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 1%
+source-wordcount: '1123'
+ht-degree: 0%
 
 ---
 
@@ -30,16 +30,16 @@ Journey Orchestration 인스턴스에서 이 API를 사용하려면 AdobeI/O 콘
 
 다음 단계에 따라 환경 간에 여정을 내보내고 가져오는 것이 좋습니다.
 
-1. 시작 환경에서 여정을 만들고 매개 변수를 지정합니다. [추가 정보는 여기에서 확인하십시오](https://docs.adobe.com/content/help/ko-KR/journeys/using/building-journeys/about-journey-building/journey.html)
-1. 여정 버전에 오류가 없는지 확인합니다. [추가 정보는 여기에서 확인하십시오](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/testing-the-journey.html)
+1. 시작 환경에서 여정을 만들고 매개 변수를 지정합니다. [추가 정보는 여기에서 확인하십시오](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
+1. 여정 버전에 오류가 없는지 확인합니다. [추가 정보는 여기에서 확인하십시오](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
 1. **/list/여정** API를 호출하여 최신 여정 버전의 UID 여정 및 UID를 검색합니다. 필요한 경우 **/여정/`{uid}`/latest**&#x200B;를 호출하여 최신 여정 버전의 UID를 찾을 수 있습니다.
 1. 시작 환경 매개 변수(orgID 및 sandboxName)를 사용하여 **export** API를 호출합니다.
 1. 반환 페이로드를 열고 다음 항목을 확인합니다.
    * 내보낸 여정에 **특정 자격 증명**&#x200B;이 포함되어 있는 경우 이러한 자격 증명을 새 환경에 해당하는 자격 증명으로 바꿔야 합니다.
-   * 내보낸 여정에 **XDM 스키마**&#x200B;를 가리키는 **events**&#x200B;이 포함되어 있는 경우 ID 값이 다른 경우 xdmEntity 노드에서 새 환경의 스키마 ID로 스키마 ID 참조를 수동으로 업데이트해야 합니다. 이 업데이트는 각 이벤트에 대해 수행해야 합니다. [추가 정보는 여기에서 확인하십시오](https://docs.adobe.com/content/help/en/journeys/using/events-journeys/experience-event-schema.html)
+   * 내보낸 여정에 **XDM 스키마**&#x200B;를 가리키는 **events**&#x200B;이 포함되어 있는 경우 ID 값이 다른 경우 xdmEntity 노드에서 새 환경의 스키마 ID로 스키마 ID 참조를 수동으로 업데이트해야 합니다. 이 업데이트는 각 이벤트에 대해 수행해야 합니다. [추가 정보는 여기에서 확인하십시오](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
    * 여정에 이메일, sms 또는 푸시 작업이 포함된 경우, 대상 환경의 이름이 시작 환경의 이름과 다른 경우 템플릿 이름 또는 mobileApp 이름을 업데이트해야 할 수 있습니다.
 1. target 환경 매개 변수(orgID 및 sandboxName)를 사용하여 **가져오기** API를 호출합니다. 가져오기 API를 원하는 만큼 호출할 수 있습니다. 가져오기 API를 호출할 때마다 여정에 포함된 각 개체의 이름과 UUID가 생성됩니다.
-1. 여정을 가져온 후에는 Journey Orchestration 애플리케이션에 게시할 수 있습니다. 추가 정보 [여기](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/publishing-the-journey.html)
+1. 여정을 가져온 후에는 Journey Orchestration 애플리케이션에 게시할 수 있습니다. 추가 정보 [여기](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
 
 
 ## 인증
