@@ -6,10 +6,10 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 58891c1bddd8fb9b0ae247d54be5cf1d7c40b9a8
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 1%
+source-wordcount: '544'
+ht-degree: 0%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 1%
 오른쪽 상단에 있는 연필 아이콘을 클릭하여 여정 속성에 액세스합니다.
 
 관리자는 여정 이름을 변경하고, 설명을 추가하고, 다시 시작하고, 시작 날짜와 종료 날짜를 선택하고, **[!UICONTROL Timeout and error]** 기간을 정의할 수 있습니다.
+
+라이브 여정의 경우 이 화면에는 여정을 게시한 사용자의 게시 날짜와 이름이 표시됩니다.
+
+**기술 정보 복사**&#x200B;를 사용하면 지원 팀이 문제를 해결하는 데 사용할 수 있는 여정에 대한 기술 정보를 복사할 수 있습니다. 다음 정보가 복사됩니다.JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
 
 ![](../assets/journey32.png)
 
