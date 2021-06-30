@@ -6,16 +6,16 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 11%
+source-wordcount: '355'
+ht-degree: 9%
 
 ---
 
 # Adobe Experience Platform 데이터 소스 {#concept_zrb_nqt_52b}
 
-Adobe Experience Platform 데이터 소스는 실시간 고객 프로필 서비스에 대한 연결을 정의합니다. 이 데이터 소스는 기본적으로 제공되며 사전 구성되어 있습니다. 삭제할 수 없습니다. 이 데이터 소스는 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 설계되었습니다(예를 들어 여정을 입력한 사람이 여성인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다. 실시간 고객 프로필 서비스에 대한 자세한 내용은 이 [page](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/home.html)을 참조하십시오.
+Adobe Experience Platform 데이터 소스는 실시간 고객 프로필 서비스에 대한 연결을 정의합니다. 이 데이터 소스는 기본적으로 제공되며 사전 구성되어 있습니다. 삭제할 수 없습니다. 이 데이터 소스는 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 설계되었습니다(예를 들어 여정을 입력한 사람이 여성인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다. 실시간 고객 프로필 서비스에 대한 자세한 내용은 이 [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)을 참조하십시오.
 
 >[!NOTE]
 >
