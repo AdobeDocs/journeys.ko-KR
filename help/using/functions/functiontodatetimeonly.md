@@ -6,10 +6,10 @@ feature: 여정
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0c55ece133639ec001b58f73afcbc69787b98c0e
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 12%
+source-wordcount: '56'
+ht-degree: 10%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 12%
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
-| ISO-8601 형식의 날짜 시간 | string |
+| ISO-8601 또는 &quot;YYYY-MM-DD&quot; 형식(XDM 날짜 형식)의 날짜 시간 | string |
 | 날짜 시간 | dateTime |
 
 ## 서명 및 반환된 형식
@@ -44,9 +44,9 @@ ht-degree: 12%
 
 ## 예제
 
-`toDateTimeOnly ("2016-08-18T23:17:59.123Z")`
+`toDateTimeOnly ("2016-08-18")`
 
-2016-08-18T23:17:59.123을 반환합니다.
+2016-08-18T00:00:00.000을 나타내는 dateTime 반환
 
 `toDateTimeOnly(now())`
 
