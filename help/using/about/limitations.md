@@ -6,9 +6,9 @@ feature: 여정
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 784c91054e0f6b9ea12aa4b7f4079f7c2da8f949
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '519'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,8 @@ ht-degree: 2%
 ## 일반 작업 제한 사항
 
 * 전송 제한이 없습니다. 
-* 오류가 발생한 경우 두 번 다시 시도가 체계적으로 수행됩니다. 받은 오류 메시지에 따라 다시 시도 횟수를 조정할 수 없습니다. 
+* 오류가 발생한 경우 세 번 다시 시도가 체계적으로 수행됩니다. 받은 오류 메시지에 따라 다시 시도 횟수를 조정할 수 없습니다. 
 * 기본 제공 **Reaction** 이벤트를 사용하면 기본 작업에 응답할 수 있습니다( 이 [page](../building-journeys/reaction-events.md) 참조). 사용자 지정 작업을 통해 전송된 메시지에 응답하려면 전용 이벤트를 구성해야 합니다. 
-* Adobe Campaign Classic 제품 통합 기능이 없습니다.
 
 ## 여정 버전 제한 사항 {#journey-versions-limitations}
 
@@ -59,7 +58,7 @@ ht-degree: 2%
 
 * 고객 여정 내에서 외부 데이터 소스를 활용하여 외부 데이터를 실시간으로 조회할 수 있습니다. 이러한 소스는 REST API를 통해 사용할 수 있어야 하며, JSON을 지원하고, 요청 볼륨을 처리할 수 있어야 합니다.
 
-## 프로필 만들기와 동시에 시작하는 여정 {#journeys-limitation-profile-creation}
+## 여정 만들기와 동시에 시작 {#journeys-limitation-profile-creation}
 
 Adobe Experience Platform의 API 기반 프로필 만들기/업데이트와 연관된 지연이 있습니다. 지연에 대한 SLT(서비스 수준 Target)은 RPS(초당 20K 요청 수)로 요청의 95번째 백분위수에 대한 통합 프로필에 대해 수집에서 1분 미만입니다.
 
