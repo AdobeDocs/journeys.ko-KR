@@ -6,10 +6,10 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 98%
+source-wordcount: '855'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 [!DNL Journey Orchestration]에 액세스할 수 있는 사용자의 자격은 다음과 같습니다.
 
 * [!DNL Journey Orchestration] 권한과 연관된 [!DNL Journey Orchestration] **[!UICONTROL product profile]**&#x200B;에 속해 있어야 합니다.
-* [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**&#x200B;에 속해 있어야 합니다. 갖고 있어야 하는 필수 권한은 없습니다. [!DNL Journey Orchestration] 인터페이스에서 플랫폼 세그먼트를 만들고 편집하려면 사용자에게 **[!UICONTROL profile management]** 권한이 있어야 합니다. 자세한 내용은 이 ](https://docs.adobe.com/content/help/ko-KR/experience-platform/access-control/home.html#adobe-admin-console)페이지[를 참조하십시오.
+* [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**&#x200B;에 속해 있어야 합니다. 갖고 있어야 하는 필수 권한은 없습니다. [!DNL Journey Orchestration] 인터페이스에서 플랫폼 세그먼트를 만들고 편집하려면 사용자에게 **[!UICONTROL profile management]** 권한이 있어야 합니다. 자세한 내용은 이 ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console)페이지[를 참조하십시오.
 
 Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에게 할당할 수 있습니다.
 
@@ -67,7 +67,7 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 
 [!DNL Journey Orchestration]에서는 제품 프로필을 직접 만들고 권한 집합 및 샌드박스를 사용자에게 할당할 수 있습니다. 제품 프로필을 사용하면 인터페이스에서 특정 기능 또는 개체에 대한 액세스를 승인하거나 거부할 수 있습니다.
 
-샌드박스를 만들고 관리하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://docs.adobe.com/content/help/ko-KR/experience-platform/sandbox/ui/user-guide.html)를 참조하십시오.
+샌드박스를 만들고 관리하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)를 참조하십시오.
 
 제품 프로필을 만들고 권한 집합 및 샌드박스를 할당하려면 다음과 같이 하십시오.
 
@@ -141,6 +141,6 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 샌드박스는 Admin Console에서 제품 프로필을 통해 할당됩니다. 샌드박스를 할당하는 방법에 대한 자세한 내용은 이 [섹션](../about/access-management.md#create-product-profile)을 참조하십시오.
 
 [!DNL Journey Orchestration] (은)는 해당 조직을 위해 만들어진 Adobe Experience Platform 샌드박스를 반영합니다.
-Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. 자세한 단계는 [샌드박스 사용 안내서](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html)를 참조하십시오.
+Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. 자세한 단계는 [샌드박스 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)를 참조하십시오.
 
 화면의 왼쪽 상단에 샌드박스 전환기 컨트롤이 있습니다. 한 샌드박스에서 다른 샌드박스로 전환하려면 전환기에서 현재 활성 샌드박스를 클릭하고 드롭다운 목록에서 다른 샌드박스를 선택하십시오.
