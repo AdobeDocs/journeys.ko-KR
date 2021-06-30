@@ -6,10 +6,10 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 8%
+source-wordcount: '440'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->이 기능은 새로 배포된 모든 인스턴스에서 기본적으로 활성화되지 않습니다. 요청 시 정품 인증을 받습니다.
+>이 기능은 여정 단계 이벤트를 위한 모든 인스턴스에서 기본적으로 활성화됩니다. 여정 프로필 단계 이벤트의 경우 활성화는 요청 시 수행됩니다. 이 기능에 대한 프로비저닝 중에 생성된 스키마 및 데이터 세트는 변경할 수 없습니다.
 
 예를 들어, 여러 개의 이메일을 보내는 여정을 설정했습니다. 이 기능을 사용하면 [!DNL Journey Orchestration] 데이터를 전환 발생 횟수, 웹 사이트에서 발생한 참여 횟수 또는 저장소에서 발생한 트랜잭션 수와 같은 다운스트림 이벤트 데이터와 결합할 수 있습니다. 여정 정보를 다른 디지털 속성에서 또는 오프라인 속성에서 Adobe Experience Platform의 데이터와 결합하여 보다 포괄적인 성능 보기를 제공할 수 있습니다.
 
@@ -59,4 +59,4 @@ Adobe Experience Platform에 전달된 XDM 필드 목록은 여기에서 자세�
 * [journeyStep 이벤트 ID 필드](../building-journeys/sharing-identity-fields.md)
 * [여정 필드](../building-journeys/sharing-journey-fields.md)
 
-Adobe Experience Platform에 보고하는 단계 이벤트에 대한 자세한 내용은 이 [튜토리얼 비디오](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)를 시청하십시오.
+Adobe Experience Platform에 보고하는 단계 이벤트에 대한 자세한 내용은 이 [튜토리얼 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)를 시청하십시오.
