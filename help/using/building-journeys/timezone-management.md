@@ -6,9 +6,9 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '278'
 ht-degree: 2%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 2%
 
 시간대를 선택하거나 사용자 프로필에 정의된 시간대를 사용하도록 선택할 수 있습니다.
 
+>[!NOTE]
+>
+>프로필 시간대는 **기본 설정 세부 정보** 필드 그룹에 있는 **timeZone** 필드와 함께 작동합니다.
+
 ## 고정 시간대 정의 {#fixed-timezone}
 
 시간대를 수정할 수도 있습니다. 사전 정의된 시간대를 지우고 드롭다운 목록에서 시간대를 선택합니다. 고정 시간대를 사용하는 경우 여정을 입력하는 모든 개인에게도 이 시간대가 동일합니다.
@@ -36,7 +40,7 @@ ht-degree: 2%
 
 ![](../assets/journey72.png)
 
-## 프로필을 사용하여 여정 시간대 {#timezone-from-profiles} 정의
+## 프로필을 사용하여 여정 시간대 정의 {#timezone-from-profiles}
 
 여정의 시작 이벤트에 네임스페이스가 있는 경우, 여정이 Adobe Experience Platform의 실시간 고객 프로필 서비스에 도달할 수 있는 경우 시간대는 여정에 흐르는 개별 프로필에 지정된 시간대로 미리 정의됩니다.
 
