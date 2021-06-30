@@ -6,9 +6,9 @@ feature: 여정
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 120671af1f8863c9d8dce5a93a487ee42a92a408
+source-git-commit: e2ff3e9d86aa9f603cf3d66507881d482a95a4a5
 workflow-type: tm+mt
-source-wordcount: '2627'
+source-wordcount: '2625'
 ht-degree: 76%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 76%
 ### 개선 사항
 
 * 이제 외부 데이터 소스의 경우 초당 15개의 호출의 최대 가용량 규칙이 자동으로 정의됩니다. [자세한 내용](../about/external-systems.md#capping)
-* 단순 및 고급 표현식 편집기에서 이제 XDM 날짜 형식을 지원합니다.
+* 이제 단순 및 고급 표현식 편집기에서 XDM 날짜 형식을 지원합니다.
 * 여정 목록 화면에서 새 필터가 추가되었습니다. 이제 여정 유형별로 필터링할 수 있습니다.**[!UICONTROL Unitary event]** 또는 **[!UICONTROL Segment qualification]** [자세한 내용](../about/user-interface.md#section_lgm_hpz_pgb)
 * 이제 라이브 여정의 경우 여정 속성 화면에 게시 날짜와 여정을 게시한 사용자의 이름이 표시됩니다. 이 정보는 여정의 기술 세부 사항을 복사할 때도 사용할 수 있습니다. [자세한 내용](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
