@@ -6,9 +6,9 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '411'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >반응 이벤트는 다른 여정에서 발생하는 이메일, SMS 또는 푸시 작업을 추적할 수 없습니다.
 >
->반응 이벤트는 &quot;추적됨&quot; 유형의 링크에 대한 클릭 수를 추적합니다( 이 [page](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls) 참조). 구독 취소 및 미러 페이지 링크는 고려되지 않습니다.
+>반응 이벤트는 &quot;추적됨&quot; 유형의 링크에 대한 클릭 수를 추적합니다( 이 [page](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls) 참조). 구독 취소 및 미러 페이지 링크는 고려되지 않습니다.
 
 >[!IMPORTANT]
 >
