@@ -6,9 +6,9 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,9 @@ ht-degree: 1%
 
 ![](../assets/segment8.png)
 
-## 권장사항 {#best-practices-segments}
+세그먼트 자격 이벤트를 포함하는 새 여정은 게시한 후 10분 후에 작동합니다. 이 시간 간격은 전용 서비스의 캐시 새로 고침 간격에 해당합니다. 따라서 이 여정을 사용하기 전에 10분을 기다려야 합니다.
+
+## 모범 사례 {#best-practices-segments}
 
 **[!UICONTROL Segment Qualification]** 활동을 사용하면 Adobe Experience Platform 세그먼트에서 자격을 얻거나 자격이 없는 개인의 여정에 바로 입장할 수 있습니다.
 
