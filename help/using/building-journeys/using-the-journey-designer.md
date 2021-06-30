@@ -6,9 +6,9 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1423'
 ht-degree: 5%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 5%
 
 캔버스에서 작업 및 이벤트 활동은 아래에 이벤트 또는 작업의 이름이 표시된 아이콘으로 표시됩니다. 활동 구성 창에서 **[!UICONTROL Label]** 필드를 사용하여 활동 이름에 접미사를 추가할 수 있습니다. 이러한 레이블은 특히 여정에서 동일한 이벤트나 작업을 여러 번 사용하는 경우, 이벤트 및 작업 사용을 컨텍스트에 맞게 설정하는 데 도움이 됩니다. 또한 [!DNL Journey Orchestration] 보고에서 추가한 레이블을 볼 수도 있습니다. 조건 활동에 대한 레이블을 정의할 수도 있습니다.
 
-기본적으로 읽기 전용 필드는 숨겨집니다. 이를 표시하려면 활동 구성 창의 왼쪽 상단에 있는 **읽기 전용 필드 표시** 아이콘을 클릭합니다.
+기본적으로 읽기 전용 필드는 숨겨집니다. 읽기 전용 필드를 표시하려면 활동 구성 창의 왼쪽 상단에 있는 **읽기 전용 필드 표시** 아이콘을 클릭합니다. 이 설정은 모든 여정의 모든 활동에 적용됩니다.
 
 ![](../assets/journey59bis.png)
 
