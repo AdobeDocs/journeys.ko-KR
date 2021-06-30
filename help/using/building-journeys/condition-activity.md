@@ -6,9 +6,9 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '778'
 ht-degree: 10%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 10%
 
 ![](../assets/journey64.png)
 
-[Adobe Experience Platform 세그멘테이션 서비스](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)를 사용하여 세그먼트를 만드는 경우 여정 조건에서 세그먼트를 활용할 수 있습니다. [조건에서 세그먼트 사용](../segment/using-a-segment.md)을 참조하십시오.
+[Adobe Experience Platform 세그멘테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)를 사용하여 세그먼트를 만드는 경우 여정 조건에서 세그먼트를 활용할 수 있습니다. [조건에서 세그먼트 사용](../segment/using-a-segment.md)을 참조하십시오.
 
 
 >[!NOTE]
@@ -75,6 +75,8 @@ ht-degree: 10%
 ## 백분율 분할 {#percentage_split}
 
 이 옵션을 사용하면 대상을 임의로 분할하여 각 그룹에 대해 다른 작업을 정의할 수 있습니다. 각 경로에 대해 분할 수 및 재분할 수를 정의합니다. 시스템에서 여정의 이 활동에서 유입되는 사람 수를 예상할 수 없으므로 분할 계산은 통계적입니다. 그 결과, 분할에는 오류 마진이 매우 낮습니다. 이 함수는 Java 무작위 메커니즘을 기반으로 합니다( 이 [page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html) 참조).
+
+테스트 모드에서 분할에 도달하면 위쪽 분기가 항상 선택됩니다. 테스트에서 다른 경로를 선택하도록 하려면 분할 분기의 위치를 재구성할 수 있습니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오
 
 >[!NOTE]
 >
