@@ -6,7 +6,7 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 2%
@@ -64,7 +64,7 @@ ht-degree: 2%
 
 ## 프로필을 테스트 프로필로 전환{#turning-profile-into-test}
 
-기존 프로필을 테스트 프로필로 전환할 수 있습니다. Adobe Experience Platform에서는 API 호출을 통해 프로필 속성을 업데이트할 수 있지만 인터페이스를 통해 수행할 수 없습니다.
+기존 프로필을 테스트 프로필로 전환할 수 있습니다. Adobe Experience Platform에서는 API 호출을 통해 프로필 속성을 업데이트할 수 있지만 인터페이스를 통해 이 속성을 수행할 수 없습니다.
 
 이렇게 하는 가장 쉬운 방법은 **프로필 업데이트** 작업 활동을 사용하고 테스트 프로필 부울 필드를 false에서 true로 변경하는 것입니다. [이 섹션](../building-journeys/update-profiles.md#using-the-test-mode)을 참조하십시오.
 
@@ -74,7 +74,7 @@ ht-degree: 2%
 
 프로필 테스트 세부 사항 mixin이 포함된 프로필 스키마를 사용해야 합니다. testProfile 플래그는 이 mixin의 일부입니다.
 
-프로필을 만들 때 값을 전달해야 합니다.testProfile = true.
+프로필을 만들 때 값을 전달해야 합니다. testProfile = true.
 
 기존 프로필을 업데이트하여 testProfile 플래그를 &quot;true&quot;로 변경할 수도 있습니다.
 
@@ -178,22 +178,22 @@ Adobe Experience Platform에서 테스트 프로필로 플래그가 지정된 �
 
 현재 여정 내에 있는 개인의 수(기술적으로 인스턴스라고 함)가 표시됩니다. 다음은 각 개인에게 표시되는 유용한 정보입니다.
 
-* _Id_:여정에서 개인의 내부 ID입니다. 디버깅 용도로 사용할 수 있습니다.
-* _currentstep_:개인이 여정에서 있는 단계입니다. 보다 쉽게 식별할 수 있도록 활동에 레이블을 추가하는 것이 좋습니다.
-* _currentstep_  > 단계:개인의 여정 상태(실행 중, 완료, 오류 또는 시간 초과)입니다. 자세한 내용은 아래를 참조하십시오.
-* _currentstep_  >  _extraInfo_:오류 및 기타 상황별 정보에 대한 설명입니다.
-* _currentstep_  >  _fetchErrors_:이 단계 동안 발생한 데이터 가져오기 오류에 대한 정보입니다.
-* _externalKeys_:이벤트에 정의된 키 수식의 값입니다.
-* _enhancedData_:여정이 데이터 소스를 사용하는 경우 여정이 검색한 데이터입니다.
-* _transitionHistory_:개인이 수행한 단계 목록입니다. 이벤트의 경우 페이로드가 표시됩니다.
-* _actionExecutionErrors_ :발생한 오류에 대한 정보입니다.
+* _Id_: 여정에서 개인의 내부 ID입니다. 디버깅 용도로 사용할 수 있습니다.
+* _currentstep_: 개인이 여정에서 있는 단계입니다. 보다 쉽게 식별할 수 있도록 활동에 레이블을 추가하는 것이 좋습니다.
+* _currentstep_  > 단계: 개인의 여정 상태(실행 중, 완료, 오류 또는 시간 초과)입니다. 자세한 내용은 아래 내용을 참조하십시오.
+* _currentstep_  >  _extraInfo_: 오류 및 기타 상황별 정보에 대한 설명입니다.
+* _currentstep_  >  _fetchErrors_: 이 단계 동안 발생한 데이터 가져오기 오류에 대한 정보입니다.
+* _externalKeys_: 이벤트에 정의된 키 수식의 값입니다.
+* _enhancedData_: 여정이 데이터 소스를 사용하는 경우 여정이 검색한 데이터입니다.
+* _transitionHistory_: 개인이 수행한 단계 목록입니다. 이벤트의 경우 페이로드가 표시됩니다.
+* _actionExecutionErrors_ : 발생한 오류에 대한 정보입니다.
 
 개별 여정의 다양한 상태는 다음과 같습니다.
 
-* _실행_ 중:개인이 현재 여정에 있습니다.
-* _완료됨_:개인이 여정 끝에 있습니다.
-* _오류_:오류로 인해 개인이 여정에서 중지됩니다.
-* _시간 초과_:개인이 너무 많은 시간이 걸린 단계 때문에 여정에서 정지됩니다.
+* _실행_ 중: 개인이 현재 여정에 있습니다.
+* _완료됨_: 개인이 여정 끝에 있습니다.
+* _오류_: 오류로 인해 개인이 여정에서 중지됩니다.
+* _시간 초과_: 개인이 너무 많은 시간이 걸린 단계 때문에 여정에서 정지됩니다.
 
 테스트 모드를 사용하여 이벤트가 트리거되면 소스 이름으로 데이터 세트가 자동으로 생성됩니다.
 
