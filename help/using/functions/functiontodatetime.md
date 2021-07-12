@@ -6,10 +6,10 @@ feature: 여정
 role: Data Engineer
 level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
-source-git-commit: 55928668cffca2f01c140a083f11ce8f57e2ee0d
+source-git-commit: 2aa73498f44f22a70bb2268afca7d1a62e434542
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
@@ -69,13 +69,13 @@ Return a datetime.
 
 -->
 
-## 예제
+## 예
 
 `toDateTime ("2016-08-18T23:17:59.123Z")`
 
 2016-08-18T23:17:59.123Z를 반환합니다.
 
-`toDateTime(toDateTimeOnly("2016-08-18T23:17:59.123"),"UTC")`
+`toDateTime(toDateTimeOnly("UTC", "2016-08-18T23:17:59.123"))`
 
 2016-08-18T23:17:59.123Z를 반환합니다.
 
