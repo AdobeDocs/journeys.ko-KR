@@ -6,7 +6,7 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 1%
@@ -50,13 +50,13 @@ ht-degree: 1%
 
    ![](../assets/segment-copy.png)
 
-1. **[!UICONTROL Behaviour]** 필드에서 세그먼트 출입구, 종료 또는 둘 다를 수신 대기할 수 있습니다.
+1. **[!UICONTROL Behaviour]** 필드에서 세그먼트 출입구, 종료 또는 둘 다 수신 여부를 선택합니다.
 
    >[!NOTE]
    >
    >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) Adobe Experience Platform의 **Acquisition** 및 **Quised** 세그먼트 기여도 상태에 해당합니다. 세그먼트를 평가하는 방법에 대한 자세한 내용은 [세분화 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)를 참조하십시오.
 
-1. 네임스페이스를 선택합니다. 이벤트가 여정의 첫 번째 단계로 배치되는 경우에만 필요합니다.
+1. 네임스페이스를 선택합니다. 이벤트가 여정의 첫 번째 단계로 배치된 경우에만 필요합니다.
 
    ![](../assets/segment7.png)
 
