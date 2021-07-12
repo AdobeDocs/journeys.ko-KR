@@ -6,7 +6,7 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 7%
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 [!DNL Journey Orchestration] 은(는) 개별 여정에서 취하는 각 단계에 대해 필요한 스키마와 스트림을 Adobe Experience Platform에 데이터 세트로 자동 만듭니다. 단계 이벤트는 여정에서 한 노드에서 다른 노드로 이동하는 개별 이벤트에 해당합니다. 예를 들어 이벤트, 조건 및 작업이 있는 여정에서 3단계 이벤트가 Adobe Experience Platform에 전송됩니다.
 
-전달되는 XDM 필드 목록은 포괄적입니다. 일부는 시스템 생성 코드를 포함하고 나머지는 읽을 수 있는 친숙한 이름을 가지고 있습니다. 예를 들면 여정 활동의 레이블이나 단계 상태가 있습니다.오류가 발생하여 작업 시간이 초과되거나 종료된 횟수입니다.
+전달되는 XDM 필드 목록은 포괄적입니다. 일부는 시스템 생성 코드를 포함하고 나머지는 읽을 수 있는 친숙한 이름을 가지고 있습니다. 예를 들면 여정 활동의 레이블이나 단계 상태가 있습니다. 오류가 발생하여 작업 시간이 초과되거나 종료된 횟수입니다.
 
 >[!CAUTION]
 >
