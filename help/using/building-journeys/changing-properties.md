@@ -6,7 +6,7 @@ feature: 여정
 role: Business Practitioner
 level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
-source-git-commit: 58891c1bddd8fb9b0ae247d54be5cf1d7c40b9a8
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 라이브 여정의 경우 이 화면에는 여정을 게시한 사용자의 게시 날짜와 이름이 표시됩니다.
 
-**기술 정보 복사**&#x200B;를 사용하면 지원 팀이 문제를 해결하는 데 사용할 수 있는 여정에 대한 기술 정보를 복사할 수 있습니다. 다음 정보가 복사됩니다.JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
+**기술 정보 복사**&#x200B;를 사용하면 지원 팀이 문제를 해결하는 데 사용할 수 있는 여정에 대한 기술 정보를 복사할 수 있습니다. 다음 정보가 복사됩니다. JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
 
 ![](../assets/journey32.png)
 
@@ -39,13 +39,13 @@ ht-degree: 0%
 
 허용된 값은 1초에서 30초 사이입니다.
 
-여정이 시간에 민감한 경우 매우 짧은 **[!UICONTROL Timeout and error]** 값을 정의하는 것이 좋습니다(예:몇 초 이상 작업을 지연할 수 없으므로 실시간 위치에 응답합니다. 여정에 시간이 덜 민감한 경우, 더 긴 값을 사용하여 유효한 응답을 보내기 위해 라는 시스템에 더 많은 시간을 줄 수 있습니다.
+여정이 시간에 민감한 경우 매우 짧은 **[!UICONTROL Timeout and error]** 값을 정의하는 것이 좋습니다(예: 몇 초 이상 작업을 지연할 수 없으므로 실시간 위치에 응답합니다. 여정에 시간이 덜 민감한 경우, 더 긴 값을 사용하여 유효한 응답을 보내기 위해 라는 시스템에 더 많은 시간을 줄 수 있습니다.
 
 [!DNL Journey Orchestration] 또한 글로벌 시간 초과를 사용합니다. [다음 섹션](#global_timeout)을 참조하십시오.
 
 ## 글로벌 여정 시간 초과 {#global_timeout}
 
-여정 활동에 사용된 [시간 초과](#timeout_and_error) 외에도 인터페이스에 표시되지 않고 변경할 수 없는 글로벌 여정 시간 초과가 있습니다. 이 시간 제한은 여정이 입력한 후 30일 후에 개인 진행 상태를 중지합니다. 이는 개인의 여정이 30일 이상 지속될 수 없음을 의미합니다. 30일 시간 제한 기간 후 개인의 데이터가 삭제됩니다. 시간 제한 기간이 끝날 때 여전히 여정에 흐르는 개인은 중지되며 보고 오류로 고려됩니다.
+여정 활동에 사용되는 [시간 초과](#timeout_and_error) 외에도 인터페이스에 표시되지 않고 변경할 수 없는 글로벌 여정 시간 초과가 있습니다. 이 시간 제한은 여정이 입력한 후 30일 후에 개인 진행 상태를 중지합니다. 이는 개인의 여정이 30일 이상 지속될 수 없음을 의미합니다. 30일 시간 제한 기간 후 개인의 데이터가 삭제됩니다. 시간 제한 기간이 끝날 때 여전히 여정에 흐르는 개인은 중지되며 보고 오류로 고려됩니다.
 
 >[!NOTE]
 >
