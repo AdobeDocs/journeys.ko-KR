@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
-title: 사용자 지정 작업 구성
+title: 사용자 지정 작업 구성 정보
 description: 사용자 지정 작업을 구성하는 방법 알아보기
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 15%
 
 ---
 
-# 사용자 지정 작업 구성 {#concept_sxy_bzs_dgb}
+# 사용자 지정 작업 구성 정보 {#concept_sxy_bzs_dgb}
 
-서드파티 시스템을 사용하여 메시지를 보내거나 [!DNL Journey Orchestration]이 서드파티 시스템에 API 호출을 전송하도록 하려면 여기서 [!DNL Journey Orchestration]에 대한 연결을 구성합니다. 기술 사용자가 정의한 사용자 정의 작업은 여정 왼쪽 팔레트의 **[!UICONTROL Action]** 범주에서 사용할 수 있습니다( [이 페이지](../building-journeys/about-action-activities.md) 참조). 다음은 사용자 지정 작업에 연결할 수 있는 시스템의 몇 가지 예입니다.Epsilon, Facebook, Adobe.io, Firebase 등
+서드파티 시스템을 사용하여 메시지를 보내거나 [!DNL Journey Orchestration]이 서드파티 시스템에 API 호출을 전송하도록 하려면 여기서 [!DNL Journey Orchestration]에 대한 연결을 구성합니다. 기술 사용자가 정의한 사용자 정의 작업은 여정 왼쪽 팔레트의 **[!UICONTROL Action]** 범주에서 사용할 수 있습니다( [이 페이지](../building-journeys/about-action-activities.md) 참조). 다음은 사용자 지정 작업에 연결할 수 있는 시스템의 몇 가지 예입니다. Epsilon, Facebook, Adobe.io, Firebase 등
 제한 사항은 [이 페이지](../about/limitations.md)에 나열되어 있습니다.
 
 사용자 지정 작업을 구성하는 데 필요한 주요 단계는 다음과 같습니다.
