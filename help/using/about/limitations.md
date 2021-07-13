@@ -3,10 +3,10 @@ product: adobe campaign
 title: Journey Orchestration 제한 사항
 description: Journey Orchestration 제한에 대해 자세히 알아보기
 feature: 여정
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 784c91054e0f6b9ea12aa4b7f4079f7c2da8f949
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
 * **세그먼트 자격**(첫 번째 노드)에서 선택한 세그먼트와 네임스페이스는 새 버전에서 변경할 수 없습니다.
 * 재시작 규칙은 모든 여정 버전에서 동일해야 합니다.
 
-## 세그먼트 자격 {#segment-qualification}
+## 세그먼트 자격 조건 {#segment-qualification}
 
 * 처리량 제한으로 인해 **세그먼트 자격** 활동을 Adobe Campaign Standard 트랜잭션 메시지와 함께 사용할 수 없습니다. [Adobe Campaign Standard 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html)을 참조하십시오. 
  
