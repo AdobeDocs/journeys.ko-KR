@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
-title: Adobe Campaign 작업
+title: Adobe Campaign을 사용한 작업
 description: Adobe Campaign 작업에 대해 알아보기
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -47,7 +47,7 @@ Campaign Standard 트랜잭션 메시지와 관련 이벤트를 Journey Orchestr
    >
    >이 Adobe Campaign Standard 인스턴스에 연결된 ORG는 Journey Orchestration의 ORG와 동일합니다.
 
-여정을 디자인할 때 **[!UICONTROL Action]** 카테고리에서 세 가지 작업을 사용할 수 있습니다.**[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]**([Adobe Campaign 작업 사용](../building-journeys/using-adobe-campaign-actions.md) 참조). **반응** 이벤트로 인해 메시지 클릭, 열기 등에 대응할 수도 있습니다. ( [반응 이벤트](../building-journeys/reaction-events.md) 참조).
+여정을 디자인할 때 **[!UICONTROL Action]** 카테고리에서 세 가지 작업을 사용할 수 있습니다. **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]**([Adobe Campaign 작업 사용](../building-journeys/using-adobe-campaign-actions.md) 참조). **반응** 이벤트로 인해 메시지 클릭, 열기 등에 대응할 수도 있습니다. ( [반응 이벤트](../building-journeys/reaction-events.md) 참조).
 
 ![](../assets/journey58.png)
 
