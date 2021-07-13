@@ -1,23 +1,23 @@
 ---
 product: adobe campaign
-title: 고급 사용 사례
+title: 고급 사용 사례 정보
 description: 여정 고급 사용 사례에 대해 자세히 알아보십시오
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
-# 고급 사용 사례{#concept_vzy_ncy_w2b}
+# 고급 사용 사례 정보{#concept_vzy_ncy_w2b}
 
-## 목적 {#purpose}
+## 용도 {#purpose}
 
-말튼이라는 호텔 브랜드를 예로 들어보자. 그들의 호텔들에서, 그들은 모든 전략적 지역들 근처에 비콘 장치들을 배치했습니다.로비, 바닥, 레스토랑, 체육관, 수영장 등
+말튼이라는 호텔 브랜드를 예로 들어보자. 그들의 호텔들에서, 그들은 모든 전략적 지역들 근처에 비콘 장치들을 배치했습니다. 로비, 바닥, 레스토랑, 체육관, 수영장 등
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 ## 사전 요구 사항 {#prerequisites}
 
-사용 사례를 위해 세 개의 Adobe Campaign Standard 트랜잭션 메시지 템플릿을 디자인했습니다. 이벤트 트랜잭션 메시지 템플릿을 사용하고 있습니다. 이 [page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)을 참조하십시오.
+사용 사례를 위해 세 개의 Adobe Campaign Standard 트랜잭션 메시지 템플릿을 디자인했습니다. 이벤트 트랜잭션 메시지 템플릿을 사용하고 있습니다. 이 [page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko)을 참조하십시오.
 
 Adobe Campaign Standard은 이메일 및 푸시 알림을 전송하도록 구성되어 있습니다.
 
