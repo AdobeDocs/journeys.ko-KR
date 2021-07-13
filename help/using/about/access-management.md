@@ -3,13 +3,13 @@ product: adobe campaign
 title: 액세스 관리
 description: 액세스 관리에 대해 자세히 알아보기
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 
 [!DNL Journey Orchestration]에서는 제품 프로필을 직접 만들고 권한 집합 및 샌드박스를 사용자에게 할당할 수 있습니다. 제품 프로필을 사용하면 인터페이스에서 특정 기능 또는 개체에 대한 액세스를 승인하거나 거부할 수 있습니다.
 
-샌드박스를 만들고 관리하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)를 참조하십시오.
+샌드박스를 만들고 관리하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko)를 참조하십시오.
 
 제품 프로필을 만들고 권한 집합 및 샌드박스를 할당하려면 다음과 같이 하십시오.
 
@@ -123,13 +123,13 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 
    ![](../assets/do-not-localize/user_management_2.png)
 
-1. **[!UICONTROL Add user]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Add user]**&#x200B;을(를) 클릭합니다.
 
    새 사용자를 사용자 그룹에 추가하여 공유 권한 집합을 세부 조정할 수도 있습니다. 자세한 내용은 이 ](https://helpx.adobe.com/kr/enterprise/using/user-groups.html)페이지[를 참조하십시오.
 
    ![](../assets/do-not-localize/user_management_3.png)
 
-1. 새 사용자의 이메일 주소를 입력한 다음 **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. 새 사용자의 이메일 주소를 입력한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    ![](../assets/do-not-localize/user_management_4.png)
 
