@@ -3,13 +3,13 @@ product: adobe campaign
 title: 대기 활동
 description: 대기 활동에 대해 알아보기
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -55,9 +55,9 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->dateTimeOnly 표현식을 활용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예:toDateTimeOnly(@{Event.offerOpened.activity.endTime}), 2016-08-12T09:46:06Z 형식의 이벤트에 있는 필드입니다.
+>dateTimeOnly 표현식을 활용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), 2016-08-12T09:46:06Z 형식의 이벤트에 있는 필드입니다.
 >
->여정 속성에 **시간대**&#x200B;가 필요합니다. 따라서 2016-08-12T09:46:06.982-05와 같은 전체 ISO-8601 타임스탬프 혼합 시간 및 시간대 오프셋을 직접 가리키도록 인터페이스에서 직접 가리키는 것은 불가능합니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
+>여정 속성에 **시간대**&#x200B;가 필요합니다. 따라서 2016-08-12T09:46:06.982-05와 같은 전체 ISO-8601 타임스탬프 혼합 시간 및 시간대 오프셋을 직접 가리키도록 인터페이스에서 바로 가리키는 것은 불가능합니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
 
 ![](../assets/journey57.png)
 
