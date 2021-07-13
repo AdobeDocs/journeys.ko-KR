@@ -3,10 +3,10 @@ product: adobe campaign
 title: 이벤트 만들기
 description: 이벤트를 만드는 방법을 알아봅니다
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 63%
@@ -35,7 +35,7 @@ ht-degree: 63%
 
    * **규칙 기반** 이벤트: 이 유형의 이벤트는 eventID를 생성하지 않습니다. **이벤트 ID 조건** 필드에서 여정을 트리거할 관련 이벤트를 식별하는 데 사용할 규칙을 간단히 정의합니다. 이 규칙은 프로필의 위치 또는 프로필의 장바구니에 추가한 항목 수와 같은 이벤트 페이로드에서 사용할 수 있는 필드를 기반으로 할 수 있습니다.
 
-   * **시스템** 생성 장치:이 유형에는 eventID가 필요합니다. 이 eventID 필드는 이벤트를 만들 때 자동으로 생성되어 페이로드 미리 보기에 추가됩니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 전달해야 합니다. [이 섹션](../event/previewing-the-payload.md)을 참조하십시오.
+   * **시스템** 생성 장치: 이 유형에는 eventID가 필요합니다. 이 eventID 필드는 이벤트를 만들 때 자동으로 생성되어 페이로드 미리 보기에 추가됩니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 전달해야 합니다. [이 섹션](../event/previewing-the-payload.md)을 참조하십시오.
    >[!NOTE]
    >
    >[이 섹션](../event/about-events.md)의 이벤트 유형에 대해 자세히 알아보십시오.
@@ -57,7 +57,7 @@ ht-degree: 63%
 1. 네임스페이스를 추가합니다. 이 단계는 원하는 경우에만 수행하면 되지만, 네임스페이스를 추가하면 실시간 고객 프로필 서비스에 저장된 정보를 활용할 수 있습니다. 이 정보에 따라 이벤트의 키 유형이 정의됩니다. [이 페이지](../event/selecting-the-namespace.md)를 참조하십시오.
 1. 키를 정의합니다. 페이로드 필드에서 필드를 선택하거나 공식을 정의하여 이벤트와 연관된 사용자를 지정합니다. 이 키는 네임스페이스를 선택하면 자동으로 설정되지만 편집할 수 있습니다. 네임스페이스에 해당하는 키는 [!DNL Journey Orchestration]에서 자동으로 선택됩니다. 예를 들어 이메일 네임스페이스를 선택하면 이메일 키가 선택됩니다. [이 페이지](../event/defining-the-event-key.md)를 참조하십시오.
 1. 시스템 생성 이벤트의 경우 조건을 추가할 수 있습니다. 조건을 추가합니다. 조건을 추가하면 시스템은 조건을 충족하는 이벤트만 처리합니다. 조건은 이벤트에 포함된 정보를 기준으로만 추가할 수 있습니다. [이 페이지](../event/adding-a-condition.md)를 참조하십시오.
-1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    ![](../assets/journey7.png)
 
