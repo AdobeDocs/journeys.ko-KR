@@ -3,10 +3,10 @@ product: adobe campaign
 title: 조건 활동
 description: 조건 활동에 대해 알아보기
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 10%
@@ -42,8 +42,8 @@ ht-degree: 10%
 
 단순 모드에서는 필드 조합을 기반으로 간단한 쿼리를 수행할 수 있습니다. 사용 가능한 모든 필드가 화면 왼쪽에 표시됩니다. 필드를 기본 영역으로 끌어다 놓습니다. 다른 요소를 결합하려면 서로 인터로크하여 다른 그룹 및/또는 그룹 수준을 만듭니다. 그런 다음 논리 연산자를 선택하여 동일한 수준에서 요소를 결합할 수 있습니다.
 
-* 및:두 가지 기준의 교집합. 모든 기준과 일치하는 요소만 고려합니다.
-* 또는:두 가지 기준의 결합. 두 기준 중 하나 이상에 일치하는 요소를 고려합니다.
+* 및: 두 가지 기준의 교집합. 모든 기준과 일치하는 요소만 고려합니다.
+* 또는: 두 가지 기준의 결합. 두 기준 중 하나 이상에 일치하는 요소를 고려합니다.
 
 ![](../assets/journey64.png)
 
