@@ -3,10 +3,10 @@ product: adobe campaign
 title: 메시지 매개 변수 정의
 description: 메시지 매개 변수를 정의하는 방법을 알아봅니다
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: 1251eafcfe7487c3df01b412f17706f5ed6c6836
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 4%
@@ -25,7 +25,7 @@ ht-degree: 4%
 >
 >페이로드의 필드 이름에는 &quot;.&quot;를 사용할 수 없습니다. 문자.
 
-매개 변수 유형(예:문자열, 정수 등)
+매개 변수 유형(예: 문자열, 정수 등)
 
 매개 변수가 상수 또는 변수인지를 지정할 수도 있습니다.
 
