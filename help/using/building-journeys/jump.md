@@ -3,13 +3,13 @@ product: adobe campaign
 title: 여정 간 이동
 description: 여정 간 이동
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '792'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->또한 자습서 비디오 [여기](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html)를 참조하십시오
+>또한 자습서 비디오 [여기](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=ko-KR)를 참조하십시오
 
 ## 라이프사이클
 
