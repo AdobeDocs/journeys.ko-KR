@@ -3,10 +3,10 @@ product: adobe campaign
 title: '외부 데이터 소스 '
 description: '외부 데이터 소스를 구성하는 방법 알아보기 '
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 100%
@@ -85,7 +85,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 ![](../assets/journey29.png)
 
-**[!UICONTROL Save]**&#x200B;을 클릭합니다.
+**[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 이제 데이터 소스가 구성되었으며 여정에서 사용할 수 있는 상태가 되었습니다. 예를 들어 조건이나 이메일 개인화 등에 데이터 소스를 사용할 수 있습니다. 가령 기온이 섭씨 30도를 넘으면 특정 메시지를 보내도록 지정할 수 있습니다.
 
