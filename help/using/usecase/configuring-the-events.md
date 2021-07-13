@@ -3,10 +3,10 @@ product: adobe campaign
 title: 이벤트 구성
 description: 여정 고급 사용 사례에 대해 이벤트를 구성하는 방법을 알아봅니다
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 7%
@@ -23,13 +23,13 @@ ht-degree: 7%
 
    ![](../assets/journeyuc1_1.png)
 
-1. 공백이나 특수 문자가 없는 이름을 입력합니다.&quot;LobbyBeacon&quot;.
+1. 공백이나 특수 문자가 없는 이름을 입력합니다. &quot;LobbyBeacon&quot;.
 
    ![](../assets/journeyuc2_1.png)
 
-1. 그런 다음 스키마를 선택하고 이 이벤트에 필요한 페이로드를 정의합니다. XDM 정규화된 모델에서 필요한 필드를 선택합니다. 실시간 고객 프로필 데이터베이스에서 개인을 식별하려면 Experience Cloud ID가 필요합니다.&quot;endUserIDs > _experience > mcid > id&quot;.
+1. 그런 다음 스키마를 선택하고 이 이벤트에 필요한 페이로드를 정의합니다. XDM 정규화된 모델에서 필요한 필드를 선택합니다. 실시간 고객 프로필 데이터베이스에서 개인을 식별하려면 Experience Cloud ID가 필요합니다. &quot;endUserIDs > _experience > mcid > id&quot;.
 
-   푸시 메시지를 전송하려면 등록 토큰이 필요합니다.&quot;_experience > campaign > 메시지 > 프로필 > pushNotificationTokens > 토큰&quot;
+   푸시 메시지를 전송하려면 등록 토큰이 필요합니다. &quot;_experience > campaign > 메시지 > 프로필 > pushNotificationTokens > 토큰&quot;
 
    이 이벤트에 대해 ID가 자동으로 생성됩니다. 이 ID는 **[!UICONTROL eventID]** 필드에 저장됩니다(&quot;_experience > campaign > orchestration > eventID&quot;). 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 사용해야 합니다. 이 사용 사례에서는 이 ID가 비콘 위치를 식별하는 데 사용됩니다. 사람이 로비 비콘 근처에 방문할 때마다 이 특정 이벤트 ID가 포함된 이벤트가 전송됩니다. 동일한 원칙은 레스토랑 비콘 이벤트에 적용됩니다. 이렇게 하면 시스템에서 이벤트 전송을 트리거한 비콘을 알 수 있습니다.
 
