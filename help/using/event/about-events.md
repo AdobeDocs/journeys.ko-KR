@@ -1,12 +1,12 @@
 ---
 product: adobe campaign
-title: 이벤트
+title: 이벤트 정보
 description: 이벤트에 대해 알아보기
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 87%
@@ -17,7 +17,7 @@ ht-degree: 87%
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
->title="이벤트"
+>title="이벤트 정보"
 >abstract="특정 사용자에게 연결되는 이벤트는 한 사람의 행동 또는 한 사람과 연관되어 일어나는 일에 관한 것입니다. [!DNL Journey Orchestration]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다."
 
 특정 사용자에게 연결되는 이벤트는 해당 사용자의 제품 구매, 상점 방문, 웹 사이트 종료와 같은 행동과 관련된 항목일 수도 있고 해당 사용자와 관련하여 발생하는 상황일 수도 있습니다. 사용자가 충성도 점수 10,000점을 달성하는 등의 경우를 예로 들 수 있습니다. [!DNL Journey Orchestration]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다.
