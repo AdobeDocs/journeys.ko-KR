@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: 표준 시간대 관리
+title: 시간대 관리
 description: 시간대 관리에 대해 알아보기
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 2%
 
 ---
 
-# 표준 시간대 관리 {#timezone_management}
+# 시간대 관리 {#timezone_management}
 
 여정의 [속성](../building-journeys/changing-properties.md)에서 시간대를 정의할 수 있습니다.
 
