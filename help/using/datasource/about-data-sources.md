@@ -1,12 +1,12 @@
 ---
 product: adobe campaign
-title: 데이터 소스
+title: 데이터 소스 정보
 description: '데이터 소스 구성 방법 알아보기 '
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 90%
@@ -54,6 +54,6 @@ Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성
 
    ![](../assets/journey23.png)
 
-1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    이제 데이터 소스가 구성되었으며 여정에서 사용할 수 있는 상태가 되었습니다.
