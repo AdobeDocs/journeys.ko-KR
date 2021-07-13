@@ -3,10 +3,10 @@ product: adobe campaign
 title: 고객 AI 점수 활용
 description: 고객 AI 점수 활용
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: b507ed24-820f-41e2-b8ce-63e992710e3a
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 3%
