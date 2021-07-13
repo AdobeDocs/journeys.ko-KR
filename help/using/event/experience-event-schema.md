@@ -3,13 +3,13 @@ product: adobe campaign
 title: 'Journey Orchestration 이벤트에 대한 ExperienceEvent 스키마 정보 '
 description: 'Journey Orchestration 이벤트에 대한 ExperienceEvent 스키마에 대해 알아봅니다 '
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    ![](../assets/schema3.png)
 
-* 이벤트의 제목을 식별할 ID 필드를 선언합니다. ID를 지정하지 않은 경우 ID 맵을 사용할 수 있습니다. 권장되지 않습니다.
+* 이벤트의 제목을 식별할 ID 필드를 선언합니다. ID를 지정하지 않은 경우 ID 맵을 사용할 수 있습니다. 이러한 방법은 권장되지 않습니다.
 
    ![](../assets/schema4.png)
 
