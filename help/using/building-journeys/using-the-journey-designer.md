@@ -3,10 +3,10 @@ product: adobe campaign
 title: 여정 디자이너 사용
 description: 여정 디자이너 사용에 대해 자세히 알아보기
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 5%
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 여정 디자이너 사용 {#concept_m1g_5qt_52b}
 
-여정 홈 메뉴를 사용하면 **여정 목록**&#x200B;을 볼 수 있습니다. 새 여정을 만들거나 기존 여정 디자이너를 클릭하여 **디자이너의 인터페이스**&#x200B;를 엽니다. 디자이너는 다음 영역으로 구성됩니다.팔레트, 캔버스 및 활동 구성 창.
+여정 홈 메뉴를 사용하면 **여정 목록**&#x200B;을 볼 수 있습니다. 새 여정을 만들거나 기존 여정 디자이너를 클릭하여 **디자이너의 인터페이스**&#x200B;를 엽니다. 디자이너는 다음 영역으로 구성됩니다. 팔레트, 캔버스 및 활동 구성 창.
 
 ## 여정 목록 {#journey_list}
 
@@ -35,7 +35,7 @@ ht-degree: 5%
 
 ## 팔레트 {#palette}
 
-**팔레트**&#x200B;는 화면 왼쪽에 있습니다. 사용 가능한 모든 활동은 몇 가지 카테고리로 분류됩니다.**[!UICONTROL Events]**, **[!UICONTROL Orchestration]** 및 **[!UICONTROL Actions]**. 해당 이름을 클릭하여 다른 카테고리를 확장/축소할 수 있습니다. 여정에서 활동을 사용하려면 팔레트에서 캔버스로 활동을 끌어서 놓습니다. 팔레트에서 활동을 두 번 클릭하여 캔버스에 추가할 수도 있으며, 다음 단계에서 사용할 수 있습니다. 여정을 게시하기 전에 팔레트에서 추가한 각 활동을 구성해야 합니다. 캔버스에 활동을 끌어다 놓고 구성을 완료하지 않으면 캔버스에 남아 있지만 이 활동에 대한 구성이 완료되지 않았음을 빨간색 경고가 표시됩니다.
+**팔레트**&#x200B;는 화면 왼쪽에 있습니다. 사용 가능한 모든 활동은 몇 가지 카테고리로 분류됩니다. **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** 및 **[!UICONTROL Actions]**. 해당 이름을 클릭하여 다른 카테고리를 확장/축소할 수 있습니다. 여정에서 활동을 사용하려면 팔레트에서 캔버스로 활동을 끌어서 놓습니다. 팔레트에서 활동을 두 번 클릭하여 캔버스에 추가할 수도 있으며, 다음 단계에서 사용할 수 있습니다. 여정을 게시하기 전에 팔레트에서 추가한 각 활동을 구성해야 합니다. 캔버스에 활동을 끌어다 놓고 구성을 완료하지 않으면 캔버스에 남아 있지만 이 활동에 대한 구성이 완료되지 않았음을 빨간색 경고가 표시됩니다.
 
 >[!NOTE]
 >
@@ -45,9 +45,9 @@ ht-degree: 5%
 
 왼쪽 상단 모서리의 **[!UICONTROL Filter items]** 아이콘을 사용하면 다음 필터를 표시할 수 있습니다.
 
-* **사용 가능한 항목만 표시**:팔레트에서 사용할 수 없는 요소(예: 여정에 사용되는 것과 다른 네임스페이스를 사용하는 이벤트)를 숨기거나 표시합니다. 기본적으로 사용할 수 없는 항목은 숨겨집니다. 표시할 경우 회색으로 표시됩니다.
+* **사용 가능한 항목만 표시**: 팔레트에서 사용할 수 없는 요소(예: 여정에 사용되는 것과 다른 네임스페이스를 사용하는 이벤트)를 숨기거나 표시합니다. 기본적으로 사용할 수 없는 항목은 숨겨집니다. 표시할 경우 회색으로 표시됩니다.
 
-* **최근 항목만 표시**:이 필터를 사용하면 기본 이벤트 및 작업 외에 마지막으로 사용된 이벤트 5개와 작업만 표시할 수 있습니다. 이는 각 사용자에게만 해당됩니다. 기본적으로 모든 항목이 표시됩니다.
+* **최근 항목만 표시**: 이 필터를 사용하면 기본 이벤트 및 작업 외에 마지막으로 사용된 이벤트 5개와 작업만 표시할 수 있습니다. 이는 각 사용자에게만 해당됩니다. 기본적으로 모든 항목이 표시됩니다.
 
 ![](../assets/palette-filter.png)
 
@@ -71,13 +71,13 @@ ht-degree: 5%
 
 ## 상단 막대 작업 {#top_actions}
 
-여정의 상태에 따라 오른쪽 상단 모서리에서 사용할 수 있는 단추를 사용하여 여정에 대해 다른 작업을 수행할 수 있습니다.**[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. 이러한 단추는 활동을 선택하지 않을 때 나타납니다. 일부 단추는 컨텍스트에 따라 나타납니다. 테스트 모드가 활성화되면 테스트 모드 로그 단추가 나타납니다( [이 페이지](../building-journeys/testing-the-journey.md) 참조). 보고 단추는 여정이 활성, 중지 또는 종료될 때 나타납니다.
+여정의 상태에 따라 오른쪽 상단 모서리에서 사용할 수 있는 단추를 사용하여 여정에 대해 다른 작업을 수행할 수 있습니다. **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. 이러한 단추는 활동을 선택하지 않을 때 나타납니다. 일부 단추는 컨텍스트에 따라 나타납니다. 테스트 모드가 활성화되면 테스트 모드 로그 단추가 나타납니다( [이 페이지](../building-journeys/testing-the-journey.md) 참조). 보고 단추는 여정이 활성, 중지 또는 종료될 때 나타납니다.
 
 ![](../assets/journey41.png)
 
 ## 캔버스에서 경로 사용 {#paths}
 
-몇 가지 활동(**[!UICONTROL Condition]**, **[!UICONTROL Action]** 활동)을 사용하면 오류 또는 시간 제한이 있을 경우 대체 작업을 정의할 수 있습니다. 활동 구성 창에서 상자를 선택합니다.**[!UICONTROL Add an alternative path in case of a timeout or an error]** 활동 뒤에 다른 경로가 추가됩니다. 시간 제한 기간은 여정의 속성에 정의됩니다( [이 페이지](../building-journeys/changing-properties.md) 참조). 예를 들어 이메일을 전송하는 데 너무 오래 걸리거나 오류가 발생한 경우 SMS를 전송하도록 결정할 수 있습니다.
+몇 가지 활동(**[!UICONTROL Condition]**, **[!UICONTROL Action]** 활동)을 사용하면 오류 또는 시간 제한이 있을 경우 대체 작업을 정의할 수 있습니다. 활동 구성 창에서 상자를 선택합니다. **[!UICONTROL Add an alternative path in case of a timeout or an error]** 활동 뒤에 다른 경로가 추가됩니다. 시간 제한 기간은 여정의 속성에 정의됩니다( [이 페이지](../building-journeys/changing-properties.md) 참조). 예를 들어 이메일을 전송하는 데 너무 오래 걸리거나 오류가 발생한 경우 SMS를 전송하도록 결정할 수 있습니다.
 
 ![](../assets/journey42.png)
 
