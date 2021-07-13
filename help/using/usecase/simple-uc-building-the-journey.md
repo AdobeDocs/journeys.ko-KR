@@ -3,13 +3,13 @@ product: adobe campaign
 title: 여정 구축
 description: 간단한 사용 사례 여정을 빌드하는 방법을 알아봅니다
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 34%
+ht-degree: 36%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 34%
 
 이제 **비즈니스 사용자**&#x200B;가 여정을 구축할 수 있습니다. 여정은 다음 활동이 있는 경로를 하나만 포함합니다.
 
-* &quot;SpaBeacon&quot; **[!UICONTROL Event]**:사용자가 spa 비콘 근처에 있으면 시스템이 이벤트를 받고 해당 사용자에 대한 여정이 시작됩니다.
+* &quot;SpaBeacon&quot; **[!UICONTROL Event]**: 사용자가 spa 비콘 근처에 있으면 시스템이 이벤트를 받고 해당 사용자에 대한 여정이 시작됩니다.
 * **[!UICONTROL Condition]** 활동 을 통해 당사자가 여성인지 확인
 * **[!UICONTROL Email]** 활동(Adobe Campaign Standard 사용)
 * **[!UICONTROL End]** 활동
@@ -48,11 +48,11 @@ ht-degree: 34%
 
    ![](../assets/journeyuc1_11.png)
 
-1. 단순 표현식 편집기를 사용하여 성별 필드(_사람 > gender_)를 찾은 다음 이 필드를 오른쪽의 (으)로 놓아 다음 조건을 만듭니다.&quot;성&quot;은 &quot;여성&quot;과 같습니다.
+1. 단순 표현식 편집기를 사용하여 성별 필드(_사람 > gender_)를 찾은 다음 이 필드를 오른쪽의 (으)로 놓아 다음 조건을 만듭니다. &quot;성&quot;은 &quot;여성&quot;과 같습니다.
 
    ![](../assets/journeyuc1_12.png)
 
-1. **[!UICONTROL Email]** 활동을 삭제하고 &quot;Spa 할인&quot; 트랜잭션 메시지 템플릿을 선택합니다. 이 템플릿은 Adobe Campaign을 사용하여 디자인되었습니다. 이 [page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)을 참조하십시오.
+1. **[!UICONTROL Email]** 활동을 삭제하고 &quot;Spa 할인&quot; 트랜잭션 메시지 템플릿을 선택합니다. 이 템플릿은 Adobe Campaign을 사용하여 디자인되었습니다. 이 [page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko)을 참조하십시오.
 
    ![](../assets/journeyuc1_13.png)
 
