@@ -4,13 +4,13 @@ product: adobe campaign
 title: Journey Orchestration 제품 설명서
 description: Journey Orchestration 제품 설명서
 feature: 여정
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -69,7 +69,7 @@ Journey Orchestration을 설정하고 첫 번째 여정을 구축하기 위한 �
 </tr>
 </table>
 
-## 추가 자료
+## 추가 리소스
 
 * [Journey Orchestration 제품 페이지](https://www.adobe.com/kr/experience-platform/journey-orchestration.html)
 * [Experience Platform 설명서](https://www.adobe.com/kr/experience-platform/documentation-and-developer-resources.html)
