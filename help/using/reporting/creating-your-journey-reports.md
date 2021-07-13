@@ -3,10 +3,10 @@ product: adobe campaign
 title: 여정 보고서 만들기
 description: 여정 보고서를 만드는 방법을 알아봅니다
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 여정 보고서 만들기 {#concept_rfj_wpt_52b}
 
-## 보고서 {#accessing-reports} 액세스 및 만들기
+## 보고서 액세스 및 만들기 {#accessing-reports}
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ ht-degree: 2%
 
 ## 패널 추가{#adding-panels}
 
-### 빈 패널 {#adding-a-blank-panel} 추가
+### 빈 패널 추가 {#adding-a-blank-panel}
 
 보고서를 시작하기 위해 패널 세트를 기본 제공 또는 사용자 지정 보고서에 추가할 수 있습니다. 각 패널은 서로 다른 데이터 세트를 포함하며, 자유 형식 테이블 및 시각화로 구성됩니다.
 
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 이제 자유 형식 테이블을 패널에 추가하여 데이터 타겟팅을 시작할 수 있습니다.
 
-### 자유 형식 테이블 {#adding-a-freeform-table} 추가
+### 자유 형식 테이블 추가 {#adding-a-freeform-table}
 
 자유 형식 테이블을 사용하면 **[!UICONTROL Component]** 테이블에서 사용할 수 있는 다양한 지표와 차원을 사용하여 데이터를 분석할 테이블을 만들 수 있습니다.
 
@@ -99,11 +99,11 @@ ht-degree: 2%
 
    **[!UICONTROL Column settings]**&#x200B;은(는) 다음과 같이 구성됩니다.
 
-   * **[!UICONTROL Number]**:열에서 요약 번호를 표시하거나 숨길 수 있습니다.
-   * **[!UICONTROL Percent]**:열에 백분율을 표시하거나 숨길 수 있습니다.
-   * **[!UICONTROL Interpret zero as no value]**:값이 0인 경우를 표시하거나 숨길 수 있습니다.
-   * **[!UICONTROL Background]**:셀에서 가로 진행률 표시줄을 표시하거나 숨길 수 있습니다.
-   * **[!UICONTROL Include retries]**:결과에 다시 시도를 포함할 수 있습니다. **[!UICONTROL Sent]** 및 **[!UICONTROL Bounces + Errors]**&#x200B;에만 사용할 수 있습니다.
+   * **[!UICONTROL Number]**: 열에서 요약 번호를 표시하거나 숨길 수 있습니다.
+   * **[!UICONTROL Percent]**: 열에 백분율을 표시하거나 숨길 수 있습니다.
+   * **[!UICONTROL Interpret zero as no value]**: 값이 0인 경우를 표시하거나 숨길 수 있습니다.
+   * **[!UICONTROL Background]**: 셀에서 가로 진행률 표시줄을 표시하거나 숨길 수 있습니다.
+   * **[!UICONTROL Include retries]**: 결과에 다시 시도를 포함할 수 있습니다. **[!UICONTROL Sent]** 및 **[!UICONTROL Bounces + Errors]**&#x200B;에만 사용할 수 있습니다.
 
 1. 하나 이상의 행을 선택하고 **[!UICONTROL Visualize]** 아이콘을 클릭합니다. 선택한 행을 반영하도록 시각화가 추가됩니다.
 
@@ -123,9 +123,9 @@ ht-degree: 2%
 
    구성 요소 테이블은 세 가지 카테고리로 분류됩니다.
 
-   * **[!UICONTROL Dimensions]**:수신자의 브라우저나 도메인 또는 게재 성공과 같은 게재 로그에서 세부 사항을 가져옵니다.
-   * **[!UICONTROL Metrics]**:메시지 상태에 대한 세부 정보를 가져옵니다. 예를 들어 메시지가 전달되고 사용자가 메시지를 연 경우,
-   * **[!UICONTROL Time]**:테이블의 기간을 설정합니다.
+   * **[!UICONTROL Dimensions]**: 수신자의 브라우저나 도메인 또는 게재 성공과 같은 게재 로그에서 세부 사항을 가져옵니다.
+   * **[!UICONTROL Metrics]**: 메시지 상태에 대한 세부 정보를 가져옵니다. 예를 들어 메시지가 전달되고 사용자가 메시지를 연 경우,
+   * **[!UICONTROL Time]**: 테이블의 기간을 설정합니다.
 
 1. 구성 요소를 패널에 드래그하여 놓아 데이터 필터링을 시작합니다.
 
@@ -146,13 +146,13 @@ ht-degree: 2%
 
 1. 그래프 유형 또는 그래프 유형(예: )을 직접 변경하려면 **[!UICONTROL Visualization]** 설정 단추를 클릭하십시오.
 
-   * **[!UICONTROL Percentages]**:값을 백분율로 표시합니다.
-   * **[!UICONTROL Anchor Y Axis at Zero]**:값이 0보다 클 경우에도 y축을 0으로 강제 적용합니다.
-   * **[!UICONTROL Legend visible]**:범례를 숨길 수 있습니다.
-   * **[!UICONTROL Normalization]**:값을 강제로 일치시킵니다.
-   * **[!UICONTROL Display Dual Axis]**:그래프에 다른 축을 추가합니다.
-   * **[!UICONTROL Limit Max Items]**:표시되는 그래프 수를 제한합니다.
-   * **[!UICONTROL Threshold]**:그래프에 임계값을 설정할 수 있도록 해줍니다. 검은색 점선으로 나타납니다.
+   * **[!UICONTROL Percentages]**: 값을 백분율로 표시합니다.
+   * **[!UICONTROL Anchor Y Axis at Zero]**: 값이 0보다 클 경우에도 y축을 0으로 강제 적용합니다.
+   * **[!UICONTROL Legend visible]**: 범례를 숨길 수 있습니다.
+   * **[!UICONTROL Normalization]**: 값을 강제로 일치시킵니다.
+   * **[!UICONTROL Display Dual Axis]**: 그래프에 다른 축을 추가합니다.
+   * **[!UICONTROL Limit Max Items]**: 표시되는 그래프 수를 제한합니다.
+   * **[!UICONTROL Threshold]**: 그래프에 임계값을 설정할 수 있도록 해줍니다. 검은색 점선으로 나타납니다.
 
    ![](../assets/dynamic_report_visualization_3.png)
 
