@@ -3,10 +3,10 @@ product: adobe campaign
 title: 세그먼트 자격 이벤트
 description: 세그먼트 자격 이벤트에 대해 알아보기
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 1%
