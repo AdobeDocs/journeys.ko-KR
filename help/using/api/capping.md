@@ -4,13 +4,13 @@ title: API 설명 최대 가용량
 description: 최대 가용량 API에 대해 자세히 알아보십시오.
 products: journeys
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: e42ef98b1d84d8311cf49967ec75ec9be6cc53f1
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe I/O에서 인증서를 관리하려면 조직에 <b>시스템 관리자</b> 권한이 있거나 Admin Console에 [개발자 계정](https://helpx.adobe.com/enterprise/using/manage-developers.html)이 있는지 확인하십시오.
+>Adobe I/O에서 인증서를 관리하려면 조직에 <b>시스템 관리자</b> 권한이 있거나 Admin Console에 [개발자 계정](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html)이 있는지 확인하십시오.
 
 1. **디지털 인증서가 있는지** 확인하거나 필요한 경우 디지털 인증서를 만듭니다. 인증서와 함께 제공된 공개 및 개인 키는 다음 단계에 필요합니다.
 1. **서비스 Adobe I/O에 대한 새  [!DNL Journey Orchestration]** 통합을 만들고 구성합니다. [!DNL Journey Orchestration] 및 Adobe Experience Platform에 대한 제품 프로필 액세스 권한이 필요합니다. 그러면 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).
@@ -60,15 +60,15 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
  -H 'x-gw-ims-org-id: <ORGANIZATION>'
 ```
 
-* **&lt;organization>**:개인 조직 ID이며, 각 인스턴스에 대해 Adobe이 하나의 조직 ID를 제공합니다.
+* **&lt;organization>**: 개인 조직 ID이며, 각 인스턴스에 대해 Adobe이 하나의 조직 ID를 제공합니다.
 
-   * &lt;organization> :프로덕션 인스턴스
+   * &lt;organization> : 프로덕션 인스턴스
 
    조직 ID 값을 얻으려면 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 새 통합을 생성할 때 라이센스 목록에서 Adobe I/O으로 검색할 수도 있습니다( <a href="https://www.adobe.io/authentication.html">Adobe I/O 설명서</a> 참조).
 
-* **&lt;access_token>**:POST 요청을 통해 JWT를 교환할 때 검색된 개인 액세스 토큰입니다.
+* **&lt;access_token>**: POST 요청을 통해 JWT를 교환할 때 검색된 개인 액세스 토큰입니다.
 
-* **&lt;api_key>**:개인 API 키 를 참조하십시오. [!DNL Journey Orchestration] 서비스에 대한 새 통합을 만든 후 Adobe I/O에 제공됩니다.
+* **&lt;api_key>**: 개인 API 키 를 참조하십시오. [!DNL Journey Orchestration] 서비스에 대한 새 통합을 만든 후 Adobe I/O에 제공됩니다.
 
 
 
@@ -76,7 +76,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 최대 가용량 API를 사용하면 최대 가용량 구성을 생성, 구성 및 모니터링할 수 있습니다.
 
-| 방법 | 경로 | 설명 |
+| 메서드 | 경로 | 설명 |
 |---|---|---|
 | [!DNL POST] | list/endpointConfigs | 끝점 최대 가용량 구성 목록 가져오기 |
 | [!DNL POST] | /endpointConfigs | 끝점 최대 가용량 구성 만들기 |
@@ -113,7 +113,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 }
 ```
 
-### 예제:
+### 예:
 
 ```
 `{
@@ -145,21 +145,21 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 잠재적 오류는 다음과 같습니다.
 
-* **ERR_ENDPOINTCONFIG_100**:최대 가용량 구성:URL이 없거나 잘못되었습니다.
-* **ERR_ENDPOINTCONFIG_101**:최대 가용량 구성:잘못된 url
-* **ERR_ENDPOINTCONFIG_102**:최대 가용량 구성:잘못된 url:url의 와일드카드 문자는 host:port에서 허용되지 않습니다.
-* **ERR_ENDPOINTCONFIG_103**:최대 가용량 구성:HTTP 메서드 누락
-* **ERR_ENDPOINTCONFIG_104**:최대 가용량 구성:정의된 통화 등급 없음
-* **ERR_ENDPOINTCONFIG_107**:최대 가용량 구성:잘못된 최대 호출 수(maxCallsCount)
-* **ERR_ENDPOINTCONFIG_108**:최대 가용량 구성:잘못된 최대 호출 수(periodInMs)입니다.
-* **ERR_ENDPOINTCONFIG_111**:최대 가용량 구성:끝점 구성을 만들 수 없습니다.잘못된 페이로드
-* **ERR_ENDPOINTCONFIG_112**:최대 가용량 구성:끝점 구성을 만들 수 없습니다.json 페이로드 필요
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**:잘못된 서비스 이름  `<!--<given value>-->`:&#39;dataSource&#39; 또는 &#39;action&#39;이어야 합니다.
+* **ERR_ENDPOINTCONFIG_100**: 최대 가용량 구성: URL이 없거나 잘못되었습니다.
+* **ERR_ENDPOINTCONFIG_101**: 최대 가용량 구성: 잘못된 url
+* **ERR_ENDPOINTCONFIG_102**: 최대 가용량 구성: 잘못된 url: url의 와일드카드 문자는 host:port에서 허용되지 않습니다.
+* **ERR_ENDPOINTCONFIG_103**: 최대 가용량 구성: HTTP 메서드 누락
+* **ERR_ENDPOINTCONFIG_104**: 최대 가용량 구성: 정의된 통화 등급 없음
+* **ERR_ENDPOINTCONFIG_107**: 최대 가용량 구성: 잘못된 최대 호출 수(maxCallsCount)
+* **ERR_ENDPOINTCONFIG_108**: 최대 가용량 구성: 잘못된 최대 호출 수(periodInMs)입니다.
+* **ERR_ENDPOINTCONFIG_111**: 최대 가용량 구성: 끝점 구성을 만들 수 없습니다. 잘못된 페이로드
+* **ERR_ENDPOINTCONFIG_112**: 최대 가용량 구성: 끝점 구성을 만들 수 없습니다. json 페이로드 필요
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**: 잘못된 서비스 이름  `<!--<given value>-->`: &#39;dataSource&#39; 또는 &#39;action&#39;이어야 합니다.
 
 
 잠재적 경고는 다음과 같습니다.
 
-**ERR_ENDPOINTCONFIG_106**:최대 가용량 구성:최대 HTTP 연결이 정의되지 않았습니다.기본적으로 제한되지 않음
+**ERR_ENDPOINTCONFIG_106**: 최대 가용량 구성: 최대 HTTP 연결이 정의되지 않았습니다. 기본적으로 제한되지 않음
 
 
 
@@ -171,43 +171,43 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 이 Postman Collection은 __[Adobe I/O 콘솔의 통합](https://console.adobe.io/integrations) > Try out > Download for Postman__&#x200B;을 통해 생성된 Postman 변수 컬렉션을 공유하도록 설정되어 있습니다. 이 컬렉션은 선택한 통합 값으로 Postman Environment 파일을 생성합니다.
 
-Postman에 다운로드하여 업로드했으면 다음 세 가지 변수를 추가해야 합니다.`{JO_HOST}`,`{Base_Path}` 및 `{SANDBOX_NAME}`.
-* `{JO_HOST}` : [!DNL Journey Orchestration] 게이트웨이 URL
-* `{BASE_PATH}` :API의 시작 지점입니다. 값은 &#39;/authoring&#39;입니다.
-* `{SANDBOX_NAME}` :API 작업이 발생할 샌드박스 이름에 해당하는 머리글  **x-sandbox-name** (예: &#39;prod&#39;)입니다. 자세한 내용은 [샌드박스 개요](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html)를 참조하십시오.
+Postman에 다운로드하여 업로드했으면 다음 세 가지 변수를 추가해야 합니다. `{JO_HOST}`,`{Base_Path}` 및 `{SANDBOX_NAME}`.
+* `{JO_HOST}` :  [!DNL Journey Orchestration] 게이트웨이 URL
+* `{BASE_PATH}` : API의 시작 지점입니다. 값은 &#39;/authoring&#39;입니다.
+* `{SANDBOX_NAME}` : API 작업이 발생할 샌드박스 이름에 해당하는 머리글  **x-sandbox-name** (예: &#39;prod&#39;)입니다. 자세한 내용은 [샌드박스 개요](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko)를 참조하십시오.
 
 다음 섹션에서는 사용 사례를 수행할 Rest API 호출 순서 목록을 확인할 수 있습니다.
 
-사용 사례°1:**새 최대 가용량 구성 만들기 및 배포**
+사용 사례°1: **새 최대 가용량 구성 만들기 및 배포**
 
-1. list
+1. 목록에 있는 참조 페이지를 나타냅니다
 1. 만들기
 1. 배포
 1. 배포
 
-사용 사례°2:**아직 배포되지 않은 최대 가용량 구성 업데이트 및 배포**
+사용 사례°2: **아직 배포되지 않은 최대 가용량 구성 업데이트 및 배포**
 
-1. list
+1. 목록에 있는 참조 페이지를 나타냅니다
 1. get
 1. 업데이트
 1. 배포
 1. 배포
 
-사용 사례°3:**배포된 최대 가용량 구성 제거 및 삭제**
+사용 사례°3: **배포된 최대 가용량 구성 제거 및 삭제**
 
-1. list
+1. 목록에 있는 참조 페이지를 나타냅니다
 1. 배포 취소
 1. delete
 
-사용 사례°4:**배포된 최대 가용량 구성을 삭제합니다.**
+사용 사례°4: **배포된 최대 가용량 구성을 삭제합니다.**
 
 한 개의 API 호출만 사용할 수 있으며 forceDelete 매개 변수를 사용하여 구성을 배포 취소하고 삭제할 수 있습니다.
-1. list
+1. 목록에 있는 참조 페이지를 나타냅니다
 1. delete, forceDelete 매개 변수 사용
 
-사용 사례°5:**이미 배포된 최대 가용량 구성 업데이트**
+사용 사례°5: **이미 배포된 최대 가용량 구성 업데이트**
 
-1. list
+1. 목록에 있는 참조 페이지를 나타냅니다
 1. get
 1. 업데이트
 1. 배포 취소
