@@ -3,10 +3,10 @@ product: adobe campaign
 title: Adobe Experience Platform 세그먼트 기본 정보
 description: Adobe Experience Platform 세그먼트를 구성하는 방법 알아보기
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
