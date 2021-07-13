@@ -3,10 +3,10 @@ product: adobe campaign
 title: 여정 테스트
 description: '여정 테스트에 대해 알아보기 '
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 2%
