@@ -3,10 +3,10 @@ product: adobe campaign
 title: 작업 활동 정보
 description: 작업 활동에 대해 알아보기
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 5436602f-af7a-41db-8b10-d3d28a6d0cd0
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 28%
@@ -21,7 +21,7 @@ ht-degree: 28%
 
 이곳에는 사용 가능한 다양한 통신 채널의 활동이 표시됩니다. 채널을 결합하여 크로스채널 시나리오를 만들 수 있습니다.
 
-Adobe Campaign Standard이 있는 경우 다음과 같은 기본 작업 활동을 사용할 수 있습니다.**[!UICONTROL Email]**, **[!UICONTROL Push]** 및 **[!UICONTROL SMS]**. [이 페이지](../building-journeys/using-adobe-campaign-actions.md)를 참조하십시오.
+Adobe Campaign Standard이 있는 경우 다음과 같은 기본 작업 활동을 사용할 수 있습니다. **[!UICONTROL Email]**, **[!UICONTROL Push]** 및 **[!UICONTROL SMS]**. [이 페이지](../building-journeys/using-adobe-campaign-actions.md)를 참조하십시오.
 
 사용자 지정 작업을 구성한 경우 여기에 표시됩니다( [이 페이지](../building-journeys/using-custom-actions.md) 참조).
 
