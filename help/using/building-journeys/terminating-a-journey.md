@@ -3,13 +3,13 @@ product: adobe campaign
 title: 여정 종료
 description: 여정 종료 방법 알아보기
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 ![](../assets/do-not-localize/journey-finish-quick-action.png)
 
-다음을 수행할 수도 있습니다.
+다음 작업도 수행할 수 있습니다.
 
 1. **[!UICONTROL Home]**&#x200B;에서 닫을 여정을 클릭합니다.
 1. 오른쪽 상단에서 아래쪽 화살표를 클릭합니다.
@@ -57,7 +57,7 @@ ht-degree: 4%
 
 ![](../assets/do-not-localize/journey-stop-quick-action.png)
 
-다음을 수행할 수도 있습니다.
+다음 작업도 수행할 수 있습니다.
 
 1. **[!UICONTROL Home]**&#x200B;에서 중지할 여정을 클릭합니다.
 1. 오른쪽 상단에서 아래쪽 화살표를 클릭합니다.
