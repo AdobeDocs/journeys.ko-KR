@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: Adobe Campaign v7/v8 작업 사용
 description: Adobe Campaign v7/v8 작업에 대해 알아보기
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: b2439788ef547b401dea64faf46d4398b9a1a0c7
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Adobe Campaign v7 또는 v8이 있는 경우 통합을 사용할 수 있습니다. Adobe Campaign 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.
 
-Journey Orchestration과 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다. Adobe에게 문의하십시오.
+Journey Orchestration 인스턴스와 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다. Adobe에게 문의하십시오.
 
 이를 수행하려면 전용 작업을 구성해야 합니다. 이 [섹션](../action/acc-action.md)을 참조하십시오.
 
