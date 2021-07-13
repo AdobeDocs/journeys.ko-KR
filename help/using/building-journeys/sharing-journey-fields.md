@@ -3,13 +3,13 @@ product: adobe campaign
 title: 여정 필드
 description: 여정 필드
 feature: 여정
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 10%
+ht-degree: 27%
 
 ---
 
@@ -21,28 +21,28 @@ ht-degree: 10%
 
 기본 여정의 ID입니다.
 
-유형:string
+유형: 문자열
 
 ## journeyVersionID
 
 여정 버전의 ID입니다. 이 id는 여정의 ID를 나타냅니다.
 
-유형:string
+유형: 문자열
 
 ## 이름
 
 여정 이름입니다.
 
-유형:string
+유형: 문자열
 
 ## 설명
 
 여정 설명.
 
-유형:string
+유형: 문자열
 
-## 버전
+## version
 
 `major`.`minor`
 
-유형:string
+유형: 문자열
