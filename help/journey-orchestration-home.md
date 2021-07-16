@@ -10,7 +10,7 @@ exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -73,10 +73,10 @@ Journey Orchestration을 설정하고 첫 번째 여정을 구축하기 위한 �
 
 * [Journey Orchestration 제품 페이지](https://www.adobe.com/kr/experience-platform/journey-orchestration.html)
 * [Experience Platform 설명서](https://www.adobe.com/kr/experience-platform/documentation-and-developer-resources.html)
-* [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
-* [Experience Cloud XDM 필드 정의](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)
-* [Identity Namespace 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)
-* [스트리밍 수집 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)
+* [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko)
+* [Experience Cloud XDM 필드 정의](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)
+* [Identity Namespace 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko)
+* [스트리밍 수집 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ko)
 * [Campaign Standard 트랜잭션 메시지 설명서](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko)
 
 ## 기술 튜토리얼
