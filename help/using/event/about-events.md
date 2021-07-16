@@ -9,7 +9,7 @@ exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 87%
 
    >[!CAUTION]
    >
-   >최대 가용량 규칙은 규칙 기반 이벤트에 대해 정의됩니다. 여정이 주어진 조직(ORG)에 대해 처리할 수 있는 적격한 이벤트 수를 초당 5000개로 제한합니다. Journey Orchestration SLA에 해당합니다. 이 [페이지](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html)를 참조하십시오.
+   >최대 가용량 규칙은 규칙 기반 이벤트에 대해 정의됩니다. 여정이 주어진 조직(ORG)에 대해 처리할 수 있는 적격한 이벤트 수를 초당 5000개로 제한합니다. Journey Orchestration SLA에 해당합니다. 이 [페이지](https://helpx.adobe.com/kr/legal/product-descriptions/journey-orchestration.html)를 참조하십시오.
 
 * **시스템 생성** 이벤트: 이러한 이벤트에는 eventID가 필요합니다. 이 eventID 필드는 이벤트를 만들 때 자동으로 생성됩니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 전달해야 합니다.
 
