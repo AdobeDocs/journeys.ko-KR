@@ -9,7 +9,7 @@ exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 6%
+ht-degree: 18%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 6%
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
-| list | listString |
-| list | listBoolean |
-| list | listInteger |
-| list | listDecimal |
-| list | listDuration |
-| list | listDateTime |
-| list | listDateTimeOnly |
+| 목록에 있는 참조 페이지를 나타냅니다 | listString |
+| 목록에 있는 참조 페이지를 나타냅니다 | listBoolean |
+| 목록에 있는 참조 페이지를 나타냅니다 | listInteger |
+| 목록에 있는 참조 페이지를 나타냅니다 | listDecimal |
+| 목록에 있는 참조 페이지를 나타냅니다 | listDuration |
+| 목록에 있는 참조 페이지를 나타냅니다 | listDateTime |
+| 목록에 있는 참조 페이지를 나타냅니다 | listDateTimeOnly |
 | 색인 | 정수 |
 
 ## 서명 및 반환된 유형
@@ -68,7 +68,7 @@ datetime 목록을 반환합니다.
 
 지속 시간 목록을 반환합니다.
 
-## 예제
+## 예
 
 `getListItem([10, 2, 3], 1)`
 
@@ -77,11 +77,11 @@ datetime 목록을 반환합니다.
 `getListItem(["A", "B", "C"], 3)`
 &quot;C&quot;를 반환합니다.
 
-값이 있는 이벤트 필드 &#39;event.appVersion&#39;의 예:&quot;20.45.2.3434&quot;
+값이 있는 이벤트 필드 &#39;event.appVersion&#39;의 예: &quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 
-`["20", "45", "2", "3434"]` 반환
+반환 `["20", "45", "2", "3434"]`
 
 `getListItem(split(@{event.appVersion}, "\\."), 0)`
 
