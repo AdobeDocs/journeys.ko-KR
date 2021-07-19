@@ -9,14 +9,14 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # 설명서 업데이트
 
 이 페이지에는 [!DNL Journey Orchestration]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
-[!DNL Journey Orchestration][릴리스 정보도 확인할 수 있습니다](../release-notes/release-notes.md).
+[!DNL Journey Orchestration] [릴리스 정보](../release-notes/release-notes.md)도 확인할 수 있습니다.
 
 ## 2021년 3월 {#march-2021}
 
@@ -39,13 +39,13 @@ ht-degree: 94%
 
 * 세그먼트 목록에 표시할 열을 정렬 및 선택하는 방법에 대한 정보가 추가되었습니다. [자세히 보기](../building-journeys/segment-qualification-events.md)
 * 세그먼트 이름과 ID를 선택한 후 복사하는 방법에 대한 정보가 추가되었습니다. [자세히 보기](../building-journeys/segment-qualification-events.md)
-* Experience Platform 발생 횟수가 여러 페이지에서 조화롭게 되었습니다.
+* Experience Platform 발생이 여러 페이지 전반에서 조화롭게 되었습니다.
 
 ## 2020년 7월 {#july-2020}
 
 * Adobe Experience Platform에 대한 단계 이벤트 보고 시 새로운 자습서 비디오에 대한 링크를 추가했습니다. [자세히 보기](../building-journeys/sharing-overview.md)
 * 이벤트 활동 섹션은 각 이벤트 유형에 대한 전용 하위 섹션으로 재구성되었습니다. [자세히 보기](../building-journeys/event-activities.md)
-* 세그먼트 자격에 대한 오버로드를 방지하기 위한 모범 사례를 추가했습니다. [자세히 보기](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* 세그먼트 자격으로 오버로드를 방지하기 위한 모범 사례를 추가했습니다. [자세히 보기](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * 작업 또는 조건에 오류가 발생한 후 여정을 계속하는 방법을 설명하는 메모가 추가되었습니다. [자세히 보기](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * 제한된 고객 집합 속에서 테스트한 알파 기능에 대한 새로운 섹션이 추가되었습니다.
 * Intelligent Services 통합에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../ai-services/ai-services-overview.md)
@@ -67,13 +67,13 @@ ht-degree: 94%
 ## 2020년 4월 {#april-2020}
 
 * 사용자가 첫 번째 이벤트를 구성하는 데 도움이 되도록 경험 이벤트 스키마 정의에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../event/experience-event-schema.md)
-* [!DNL Journey Orchestration] 설명서의 홈 페이지가 유용한 추가 링크로 업데이트되었습니다. [자세히 보기](../../journey-orchestration-home.md)
+* [!DNL Journey Orchestration] 설명서의 홈페이지가 유용한 링크를 추가하여 업데이트되었습니다. [자세히 보기](../../journey-orchestration-home.md)
 
 ## 2020년 3월 {#march-2020}
 
 * 테스트 로그 섹션에 _actionExecutionErrors_ 및 _fetchErrors_&#x200B;의 매개 변수 설명이 추가되었습니다. [자세히 보기](../building-journeys/testing-the-journey.md#viewing_logs)
 * 여정에 사용되는 사용자 지정 작업 관련 제한이 업데이트되었습니다. **[!UICONTROL URL]** 필드 및 **[!UICONTROL Authentication]** 매개 변수도 수정할 수 있습니다. [자세히 보기](../action/about-custom-action-configuration.md)
-* 새로운 상황별 도움말 항목이 추가되었습니다. 이제 작업 및 데이터 소스의 사용자 지정 인증 페이로드 창에 도움말 아이콘이 포함되어 있습니다. 해당 아이콘을 클릭하면 이 [섹션](../datasource/external-data-sources.md#section_wjp_nl5_nhb)으로 이동하게 됩니다.
+* 새로운 상황별 도움말 항목이 추가되었습니다. 이제 작업 및 데이터 소스의 사용자 지정 인증 페이로드 창에 도움말 아이콘이 포함되어 있습니다. 해당 아이콘을 클릭하면 이 [섹션](../datasource/external-data-sources.md#section_wjp_nl5_nhb)으로 이동합니다.
 * 이제는 닫힌 여정도 정지할 수 있습니다. [자세히 보기](../building-journeys/using-the-journey-designer.md)
 * 인터페이스 설명 섹션의 구성이 변경되었습니다. [자세히 보기](../about/user-interface.md)
 * 여러 이벤트를 트리거하는 방법이 테스트 모드 섹션에 추가되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md#firing_events)
@@ -91,11 +91,11 @@ ht-degree: 94%
 
 ## 2020년 1월 {#january-2020}
 
-* [경험 이벤트](../datasource/adobe-experience-platform-data-source.md) 및 [세그먼트](../functions/functioninsegment.md)의 가져오기 제한 관련 내용이 추가되었습니다.
+* [경험 이벤트](../datasource/adobe-experience-platform-data-source.md) 및 [세그먼트](../functions/functioninsegment.md)의 가져오기 제한 사항이 추가되었습니다.
 
 <!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
-## 12월 2019일 {#december-2019}
+## 2019년 12월 {#december-2019}
 
 * 인터페이스 변경 사항을 반영하여 모든 스크린샷이 업데이트되었습니다.
 * 테스트 모드 섹션이 업데이트되었습니다. [자세히 보기](../building-journeys/testing-the-journey.md)
