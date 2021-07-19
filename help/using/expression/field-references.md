@@ -21,9 +21,9 @@ ht-degree: 4%
 
 * 필드는 숫자 문자로 시작합니다
 * 필드는 &quot;-&quot; 문자로 시작합니다
-* 필드에는 다음 이외의 다른 항목이 포함되어 있습니다._a_-_z_, _A_-_Z_, _0_-_9_, _ _-_
+* 필드에는 다음 이외의 다른 항목이 포함되어 있습니다. _a_-_z_, _A_-_Z_, _0_-_9_, _ _-_
 
-예를 들어 필드가 _3h_&#x200B;인 경우:_#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
+예를 들어 필드가 _3h_&#x200B;인 경우: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```
 // event field
@@ -54,9 +54,9 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->필드의 유형과 기본값은 같아야 합니다. 예: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue :기본값은 정수이지만 예상 값은 문자열이어야 하므로 2}이(가) 잘못되었습니다.
+>필드의 유형과 기본값은 같아야 합니다. 예: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 기본값은 정수이지만 예상 값은 문자열이어야 하므로 2}이(가) 잘못되었습니다.
 
-예제:
+예
 
 ```
 // for an event 'OrderEvent' having the following payload:
@@ -92,7 +92,7 @@ expression examples:
 
 컬렉션 내에 정의된 요소는 첫 번째 및 마지막 모든 특정 함수를 사용하여 참조됩니다. 자세한 정보는 [이 페이지](../expression/collection-management-functions.md)를 참조하십시오.
 
-예제 :
+예 :
 
 ```
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
@@ -124,10 +124,10 @@ expression examples:
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
-* **`<params-1-name>`**:데이터 소스에서 첫 번째 매개 변수의 정확한 이름입니다.
-* **`<params-1-value>`**:첫 번째 매개 변수의 값입니다. 유효한 표현식일 수 있습니다.
+* **`<params-1-name>`**: 데이터 소스에서 첫 번째 매개 변수의 정확한 이름입니다.
+* **`<params-1-value>`**: 첫 번째 매개 변수의 값입니다. 유효한 표현식일 수 있습니다.
 
-예제:
+예:
 
 ```
 #{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
