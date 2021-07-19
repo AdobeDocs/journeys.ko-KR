@@ -110,7 +110,7 @@ ht-degree: 2%
                     .name} == "Arlington"
 ```
 
-설명:`Is sensitive`이 선택된 상태로 `equal to`을 사용하는 단순 모드의 질의와 동일한 엄격한 문자열 비교(대/소문자 구분)입니다.
+설명: `Is sensitive`이 선택된 상태로 `equal to`을 사용하는 단순 모드의 질의와 동일한 엄격한 문자열 비교(대/소문자 구분)입니다.
 
 `Is sensitive` 을 선택하지 않은 동일한 쿼리는 고급 모드에서 다음 표현식을 생성합니다.
 
@@ -139,6 +139,6 @@ ht-degree: 2%
                          ))
 ```
 
-설명:이 예제에서는 `substr` 및 `lastIndexOf` 함수를 사용하여 모바일 앱 실행 이벤트와 함께 전달된 CRM ID를 포함하는 중괄호를 제거합니다.
+설명: 이 예제에서는 `substr` 및 `lastIndexOf` 함수를 사용하여 모바일 앱 실행 이벤트와 함께 전달된 CRM ID를 포함하는 중괄호를 제거합니다.
 
 고급 표현식 편집기를 사용하는 방법에 대한 자세한 내용은 [이 비디오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html)를 시청하십시오.
