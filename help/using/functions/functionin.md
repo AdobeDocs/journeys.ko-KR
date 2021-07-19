@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: in
+title: 에서
 description: 의 함수에 대해 알아봅니다.
 feature: 여정
 role: Data Engineer
@@ -9,11 +9,11 @@ exl-id: 6a19ae25-99c9-47f9-8417-c3d247dbbe3f
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '112'
-ht-degree: 13%
+ht-degree: 17%
 
 ---
 
-# in {#in}
+# 에서 {#in}
 
 첫 번째 인수 값이 목록에 있는지 확인합니다. 확인은 각 인수 값에 대해 Equal 를 통해 수행됩니다. 인수 값을 찾으면 true를 반환하고, 그렇지 않으면 false를 반환합니다.
 
@@ -64,7 +64,7 @@ ht-degree: 13%
 
 부울을 반환합니다.
 
-## 예제
+## 예
 
 `in(4,[4,5,3,4])`
 
