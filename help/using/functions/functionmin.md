@@ -9,7 +9,7 @@ exl-id: 7e13a08c-c51a-4d40-a3e2-ef70bd3edca5
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -80,7 +80,7 @@ datetime을 반환합니다.
 
 정수를 반환합니다.
 
-## 예제
+## 예
 
 `min(@{BarBeacon.inventory},5)`
 
