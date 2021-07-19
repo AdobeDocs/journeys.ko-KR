@@ -6,7 +6,7 @@ exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
 source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 여정에서 테스트 모드를 사용할 때는 테스트 프로필이 필요합니다. 테스트 모드 사용 방법에 대해 알아보려면 [이 섹션](../building-journeys/testing-the-journey.md)을 참조하십시오.
 
-Adobe Experience Platform에서 테스트 프로필을 만드는 방법은 다릅니다. 이 설명서에서는 다음 두 가지 방법에 중점을 둡니다.[csv 파일](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)을 업로드하고 [API 호출](../building-journeys/creating-test-profiles.md#create-test-profiles-api)을 사용합니다. 데이터 세트에 JSON 파일을 업로드할 수도 있습니다. [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset) 를 참조하십시오.
+Adobe Experience Platform에서 테스트 프로필을 만드는 방법은 다릅니다. 이 설명서에서는 다음 두 가지 방법에 중점을 둡니다. [csv 파일](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)을 업로드하고 [API 호출](../building-journeys/creating-test-profiles.md#create-test-profiles-api)을 사용합니다. 데이터 세트에 JSON 파일을 업로드할 수도 있습니다. [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset) 를 참조하십시오.
 
 이러한 가져오기 방법을 사용하여 프로필 속성을 업데이트할 수도 있습니다. 이렇게 하면 기존 프로필을 테스트 프로필로 전환할 수 있습니다. 유사한 파일 또는 API 호출을 사용하고 &quot;true&quot; 값이 있는 &quot;testProfile&quot; 필드만 포함하면 됩니다.
 
-테스트 프로필을 만드는 것은 Adobe Experience Platform에서 일반 프로필을 만드는 것과 비슷합니다. 자세한 내용은 [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)를 참조하십시오.
+테스트 프로필을 만드는 것은 Adobe Experience Platform에서 일반 프로필을 만드는 것과 비슷합니다. 자세한 내용은 [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko)를 참조하십시오.
 
-## 필수 구성 요소{#test-profile-prerequisites}
+## 전제 조건{#test-profile-prerequisites}
 
 프로필을 만들려면 먼저 Adobe Experience Platform에서 스키마와 데이터 세트를 만들어야 합니다.
 
@@ -33,18 +33,18 @@ Adobe Experience Platform에서 테스트 프로필을 만드는 방법은 다�
 1. 스키마 이름을 선택합니다.
 1. **[!UICONTROL Mixins]** 섹션에서 **[!UICONTROL Add]** 를 클릭합니다.
    ![](../assets/test-profiles-1-bis.png)
-1. 적절한 mixin을 선택합니다. **[!UICONTROL Profile test details]** mixin을 추가해야 합니다. **[!UICONTROL Add mixin]**를 클릭합니다.
+1. 적절한 mixin을 선택합니다. **[!UICONTROL Profile test details]** mixin을 추가해야 합니다. **[!UICONTROL Add mixin]**을(를) 클릭합니다.
    ![](../assets/test-profiles-1-ter.png)
 mixin 목록이 스키마 개요 화면에 표시됩니다.
 
    ![](../assets/test-profiles-2.png)
 1. 필드 목록에서 기본 ID로 정의할 필드를 클릭합니다.
    ![](../assets/test-profiles-3.png)
-1. 오른쪽 **[!UICONTROL Field properties]** 패널에서 **[!UICONTROL Identity]** 및 **[!UICONTROL Primary Identity]** 옵션을 선택하고 네임스페이스를 선택합니다. 기본 ID를 이메일 주소로 지정하려면 **[!UICONTROL Email]** 네임스페이스를 선택합니다. **[!UICONTROL Apply]**를 클릭합니다.
+1. 오른쪽 **[!UICONTROL Field properties]** 패널에서 **[!UICONTROL Identity]** 및 **[!UICONTROL Primary Identity]** 옵션을 선택하고 네임스페이스를 선택합니다. 기본 ID를 이메일 주소로 지정하려면 **[!UICONTROL Email]** 네임스페이스를 선택합니다. **[!UICONTROL Apply]**을(를) 클릭합니다.
    ![](../assets/test-profiles-4.png)
 1. 스키마를 선택하고 **[!UICONTROL Schema properties]**&#x200B;에서 **[!UICONTROL Profile]** 옵션을 활성화합니다.
    ![](../assets/test-profiles-5.png)
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ Adobe Experience Platform에서 다른 프로필 필드가 포함된 csv 파일�
    ![](../assets/test-profiles-14.png)
 1. **[!UICONTROL Map CSV to XDM schema]**&#x200B;을 선택하고 **[!UICONTROL Launch]**을 클릭합니다.
    ![](../assets/test-profiles-16.png)
-1. 프로필을 가져올 데이터 세트를 선택합니다. **[!UICONTROL Next]**를 클릭합니다.
+1. 프로필을 가져올 데이터 세트를 선택합니다. **[!UICONTROL Next]**을(를) 클릭합니다.
    ![](../assets/test-profiles-17.png)
 1. **[!UICONTROL Choose files]** 을 클릭하고 csv 파일을 선택합니다. 파일이 업로드되면 **[!UICONTROL Next]** 을 클릭합니다.
    ![](../assets/test-profiles-18.png)
@@ -103,7 +103,7 @@ API 호출을 통해 테스트 프로필을 만들 수도 있습니다. 이 [페
 
 프로필 테스트 세부 사항 mixin이 포함된 프로필 스키마를 사용해야 합니다. testProfile 플래그는 이 mixin의 일부입니다.
 
-프로필을 만들 때 값을 전달해야 합니다.testProfile = true.
+프로필을 만들 때 값을 전달해야 합니다. testProfile = true.
 
 기존 프로필을 업데이트하여 testProfile 플래그를 &quot;true&quot;로 변경할 수도 있습니다.
 
