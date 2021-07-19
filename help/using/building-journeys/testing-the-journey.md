@@ -9,7 +9,7 @@ exl-id: be413905-0631-4229-a954-80a92651206d
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1665'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 ## 테스트 프로필 만들기{#create-test-profile}
 
-새 테스트 프로필을 만들려면 Adobe Experience Platform에서 프로필을 만들 때와 절차가 동일합니다. API 호출을 통해 수행됩니다. 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)를 참조하십시오
+새 테스트 프로필을 만들려면 Adobe Experience Platform에서 프로필을 만들 때와 절차가 동일합니다. API 호출을 통해 수행됩니다. 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko)를 참조하십시오
 
 프로필 테스트 세부 사항 mixin이 포함된 프로필 스키마를 사용해야 합니다. testProfile 플래그는 이 mixin의 일부입니다.
 
