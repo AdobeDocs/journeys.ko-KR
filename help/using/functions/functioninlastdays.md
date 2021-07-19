@@ -9,7 +9,7 @@ exl-id: 1fc29153-3554-4af1-bb2e-7bba53ffce69
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 13%
+ht-degree: 20%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 13%
 
 부울을 반환합니다.
 
-## 예제
+## 예
 
 `inLastDays(toDateTime('2019-12-12T01:11:00Z'), 4))`
 
