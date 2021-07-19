@@ -9,7 +9,7 @@ exl-id: 751fdcde-0af5-4f98-8cea-aae3ebefdb04
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 6%
 
 true를 반환합니다.
 
-## 예제
+## 예
 
 `matchRegExp("Hello World", "Hello\s+World")`
 
@@ -46,4 +46,4 @@ true를 반환합니다.
 
 설명:
 
-여기에서 문자열이 정규 표현식(java 구문)을 충족하는지 확인합니다.&quot;Hello&quot;로 시작하는 다음, 임의의 문자열로 시작하여 &quot;World&quot;로 끝납니다.
+여기에서 문자열이 정규 표현식(java 구문)을 충족하는지 확인합니다. &quot;Hello&quot;로 시작하는 다음, 임의의 문자열로 시작하여 &quot;World&quot;로 끝납니다.
