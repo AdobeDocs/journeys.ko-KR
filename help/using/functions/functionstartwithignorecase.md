@@ -9,7 +9,7 @@ exl-id: 0ef098d8-b56c-4509-bbbd-2688ecc547bf
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 13%
+ht-degree: 28%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 13%
 | 매개 변수 | 유형 |
 |-------------|--------|
 | string | string |
-| 접두사 | string |
+| prefix로 인해 영구적으로 지정되는 Mbox 매개 변수입니다 | string |
 
 ## 서명 및 반환된 형식
 
@@ -38,7 +38,7 @@ ht-degree: 13%
 
 부울을 반환합니다.
 
-## 예제
+## 예
 
 `startWith("rowing is great', "RO")`
 
