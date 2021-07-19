@@ -9,7 +9,7 @@ exl-id: 11d7013c-2190-4654-8466-920861c836f5
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 9%
+ht-degree: 15%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 9%
 | string | 문자열 값을 십진수로 변환 |
 | dateTime | 날짜를 밀리초(epoch 밀리초)로 변환 |
 | 부울 | 부울 값을 true면 1로, false이면 0으로 변환합니다 |
-| 정수 | 소수점(예)으로 변환합니다.:1.0이 됨 |
+| 정수 | 소수점(예)으로 변환합니다.: 1.0이 됨 |
 
 ## 서명 및 반환된 형식
 
@@ -46,7 +46,7 @@ ht-degree: 9%
 
 소수점 반환
 
-## 예제
+## 예
 
 `toDecimal("4.0")`
 
