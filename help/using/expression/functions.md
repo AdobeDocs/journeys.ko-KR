@@ -9,7 +9,7 @@ exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 73%
+ht-degree: 74%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 73%
 
 함수에는 서로 다른 서명(순서가 지정된 다른 매개 변수 세트)이 있을 수 있습니다. 함수 시그니처에는 순서가 지정된 매개 변수로 0-N 식이 있을 수 있습니다.
 
-`<function name>`(`<expression as param 1>`,  `<expression as param 2>`, ... , `<expression as param N>`)
+`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
 각 함수에는 특정 반환 유형이 있습니다.
 
@@ -59,7 +59,7 @@ ht-degree: 73%
 | 날짜 | [setDays](../functions/functionsetdays.md) |
 | 목록 | [distinct](../functions/functiondistinct.md) |
 | 목록 | [distinctCount](../functions/functiondistinctcount.md) |
-| 목록 | [in](../functions/functionin.md) |
+| 목록 | [](../functions/functionin.md)에서 |
 | 목록 | [listSize](../functions/functionlistsize.md) |
 | 목록 | [serializeList](../functions/functionserializelist.md) |
 | 목록 | [sort](../functions/functionsort.md) |
