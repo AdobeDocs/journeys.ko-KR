@@ -35,7 +35,7 @@ ht-degree: 10%
 
    ![](../assets/journeyuc3_1.png)
 
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 여정 구축 {#section_uzm_pyy_wfb}
 
@@ -53,7 +53,7 @@ ht-degree: 10%
 
    ![](../assets/journeyuc3_2.png)
 
-1. 단순 표현식 편집기를 사용하여 **[!UICONTROL fatigueLevel]** 필드(_ExperiencePlatformDataSource > JourneyAIScore > Profile > JourneyAI > emailScore > 피로도_)를 찾은 다음 조건을 오른쪽으로 만듭니다.&quot;피로도 수준이 &quot;낮음&quot;과 같습니다. **[!UICONTROL Ok]**&#x200B;를 클릭합니다.
+1. 단순 표현식 편집기를 사용하여 **[!UICONTROL fatigueLevel]** 필드(_ExperiencePlatformDataSource > JourneyAIScore > Profile > JourneyAI > emailScore > 피로도_)를 찾은 다음 조건을 오른쪽으로 만듭니다. &quot;피로도 수준이 &quot;낮음&quot;과 같습니다. **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
 
    ![](../assets/journeyuc3_3.png)
 
