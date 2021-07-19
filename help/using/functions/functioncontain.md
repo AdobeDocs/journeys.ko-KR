@@ -9,7 +9,7 @@ exl-id: b38619ec-94b2-450f-916e-f2dccbdbf4c5
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 16%
+ht-degree: 21%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 16%
 
 부울을 반환합니다.
 
-## 예제
+## 예
 
 `contain("rowing is great', "great")`
 
