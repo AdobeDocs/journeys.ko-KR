@@ -9,7 +9,7 @@ exl-id: 7a516705-2bbe-4b42-97fc-aeae11082002
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '41'
-ht-degree: 17%
+ht-degree: 29%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 17%
 
 문자열을 반환합니다.
 
-## 예제
+## 예
 
 `concat("Hello","World")`
 
