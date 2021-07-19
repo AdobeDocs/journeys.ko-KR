@@ -9,7 +9,7 @@ exl-id: b7844bce-1286-4d9e-b9e6-619c2d467c91
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 27%
+ht-degree: 33%
 
 ---
 
@@ -43,7 +43,7 @@ null 값을 무시하고 다른 값의 수를 계산합니다.
 
 정수를 반환합니다.
 
-## 예제
+## 예
 
 `distinctCount([10,2,10,null])`
 
