@@ -25,9 +25,9 @@ ht-degree: 5%
 
 공통 문자 시퀀스입니다. 사용 가능한 메모리의 양과 같은 환경에서 나오는 암시적 크기를 제외하고 특정 크기가 없습니다.
 
-JSON 형식:문자열
+JSON 형식: 문자열
 
-직렬화 형식:UTF-8
+직렬화 형식: UTF-8
 
 **리터럴 표현**
 
@@ -39,7 +39,7 @@ JSON 형식:문자열
 '<value>'
 ```
 
-**예제**
+**예**
 
 ```
 "hello world"
@@ -55,7 +55,7 @@ JSON 형식:문자열
 
 -2^63에서 2^63-1까지의 정수 값입니다.
 
-JSON 형식:숫자
+JSON 형식: 숫자
 
 **리터럴 표현**
 
@@ -63,7 +63,7 @@ JSON 형식:숫자
 <integer value>
 ```
 
-**예제**
+**예**
 
 ```
 42
@@ -79,9 +79,9 @@ JSON 형식:숫자
 * 2-1022 유형의 가장 작은 양의 정규 값
 * 더블 유형의 최소양수 0값, 2p-1074
 
-JSON 형식:숫자
+JSON 형식: 숫자
 
-직렬화 형식:&#39;&#39; 사용 를 소수점 구분 기호로 사용합니다.
+직렬화 형식: &#39;&#39; 사용 를 소수점 구분 기호로 사용합니다.
 
 **리터럴 표현**
 
@@ -89,7 +89,7 @@ JSON 형식:숫자
 <integer value>.<integer value>
 ```
 
-**예제**
+**예**
 
 ```
 3.14
@@ -99,9 +99,9 @@ JSON 형식:숫자
 
 **설명**
 
-소문자로 쓴 부울 값:true 또는 false
+소문자로 쓴 부울 값: true 또는 false
 
-JSON 형식:부울
+JSON 형식: 부울
 
 **리터럴 표현**
 
@@ -113,13 +113,13 @@ true
 false
 ```
 
-**예제**
+**예**
 
 ```
 true
 ```
 
-## dateTimeOnly {#date-time-only}
+## dateTimeOnly {#date-time-only}
 
 **설명**
 
@@ -129,7 +129,7 @@ true
 
 오프셋 또는 시간대 등의 추가 정보 없이 타임라인에서 인스턴스를 나타낼 수 없습니다.
 
-직렬화 형식:ISO-8601 확장 오프셋 날짜-시간 형식입니다.
+직렬화 형식: ISO-8601 확장 오프셋 날짜-시간 형식입니다.
 
 DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize하고 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
@@ -147,17 +147,17 @@ toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")
 
 오프셋의 추가 정보를 사용하여 적시에 인스턴스로 볼 수 있습니다. 세계 어느 곳에서 특정 순간을 표현하는 방법이다.
 
-JSON 형식:문자열.
+JSON 형식: 문자열.
 
 toDateTime 함수에 캡슐화되어야 합니다.
 
-직렬화 형식:ISO-8601 확장 오프셋 날짜-시간 형식입니다.
+직렬화 형식: ISO-8601 확장 오프셋 날짜-시간 형식입니다.
 
 DateTimeFormatter ISO_OFFSET_DATE_TIME을 사용하여 값을 deserialize하고 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-epoch 값을 전달하는 정수를 전달할 수도 있습니다. [자세히 알아보기](https://www.epochconverter.com)
+epoch 값을 전달하는 정수를 전달할 수도 있습니다. [자세히 보기](https://www.epochconverter.com)
 
-시간대는 오프셋이나 시간대 코드로 지정할 수 있습니다(예:유럽/파리, Z - UTC).
+시간대는 오프셋이나 시간대 코드로 지정할 수 있습니다(예: 유럽/파리, Z - UTC).
 
 **리터럴 표현**
 
@@ -169,7 +169,7 @@ toDateTime("<dateTime in ISO-8601 format>")
 toDateTime(<integer value of an epoch in milliseconds>)
 ```
 
-**예제**
+**예**
 
 ```
 toDateTime("1977-04-22T06:00:00Z")
@@ -201,15 +201,15 @@ toDateTime(1560762190189)
 
 시간 기반 시간(예: &#39;34.5초&#39;)을 나타냅니다. 수량 또는 시간을 밀리초 단위로 모델링합니다.
 
-지원되는 임시 단위는 다음과 같습니다.밀리초, 초, 분, 시간, 일(하루가 24시간)입니다. 연도 및 달은 고정된 시간이 아니므로 지원되지 않습니다.
+지원되는 임시 단위는 다음과 같습니다. 밀리초, 초, 분, 시간, 일(하루가 24시간)입니다. 연도 및 달은 고정된 시간이 아니므로 지원되지 않습니다.
 
-JSON 형식:문자열.
+JSON 형식: 문자열.
 
 toDuration 함수에 캡슐화되어야 합니다.
 
-직렬화 형식:표준 시간대 ID를 deserialize하려면 java 함수 java.time을 사용합니다.
+직렬화 형식: 표준 시간대 ID를 deserialize하려면 java 함수 java.time을 사용합니다.
 
-Duration.parse:허용되는 형식은 ISO-8601 기간 형식 PnDTnHnMn.nS를 기반으로 하며, 일 수는 정확히 24시간으로 간주됩니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse: 허용되는 형식은 ISO-8601 기간 형식 PnDTnHnMn.nS를 기반으로 하며, 일 수는 정확히 24시간으로 간주됩니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
 **리터럴 표현**
 
@@ -221,7 +221,7 @@ toDuration("<duration in ISO-8601 format>")
 toDuration(<duration in milliseconds>)
 ```
 
-**예제**
+**예**
 
 ```
 toDuration("PT5S") -- parses as 5 seconds
@@ -263,7 +263,7 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## list {#list}
+## 목록에 있는 참조 페이지를 나타냅니다 {#list}
 
 **설명**
 
@@ -277,7 +277,7 @@ toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 [<expression>, <expression>, ... ]
 ```
 
-**예제**
+**예**
 
 ```
 ["value1","value2"]
