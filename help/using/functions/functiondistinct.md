@@ -9,7 +9,7 @@ exl-id: 034e4d77-2f0e-4117-9fd4-b9e35ef71a39
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -67,8 +67,8 @@ datetime 목록을 반환합니다.
 
 지속 시간 목록을 반환합니다.
 
-## 예제
+## 예
 
 `distinct([10,2,10,null])`
 
-`[10, 2]`을 반환합니다.
+반환 `[10, 2]`.
