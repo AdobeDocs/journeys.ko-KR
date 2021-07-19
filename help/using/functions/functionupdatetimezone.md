@@ -5,7 +5,7 @@ description: 함수 updateTimeZone에 대해 알아봅니다.
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '41'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 7%
 
 ## 매개 변수
 
-* 시간대 id:string
+* 시간대 id: string
 * dateTime
 
 ## 서명 및 반환된 형식
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 datetime을 반환합니다.
 
-## 예제
+## 예
 
 `updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 
