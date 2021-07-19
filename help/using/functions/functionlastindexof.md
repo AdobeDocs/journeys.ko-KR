@@ -9,7 +9,7 @@ exl-id: e82f3c45-e2f0-421a-be7e-c52e4badebbf
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 11%
+ht-degree: 19%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 11%
 
 정수를 반환합니다.
 
-## 예제
+## 예
 
 `lastIndexOf("Hello, "l"))`
 
