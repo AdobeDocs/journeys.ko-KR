@@ -6,7 +6,7 @@ products: journeys
 source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
 source-wordcount: '1123'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -50,7 +50,7 @@ Journey Orchestration API 액세스는 아래 단계를 통해 설정됩니다. 
 
 >[!CAUTION]
 >
->Adobe I/O에서 인증서를 관리하려면 조직에 <b>시스템 관리자</b> 권한이 있거나 Admin Console에 [개발자 계정](https://helpx.adobe.com/enterprise/using/manage-developers.html)이 있는지 확인하십시오.
+>Adobe I/O에서 인증서를 관리하려면 조직에 <b>시스템 관리자</b> 권한이 있거나 Admin Console에 [개발자 계정](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html)이 있는지 확인하십시오.
 
 1. **디지털 인증서가 있는지** 확인하거나 필요한 경우 디지털 인증서를 만듭니다. 인증서와 함께 제공된 공개 및 개인 키는 다음 단계에 필요합니다.
 1. **서비스 Adobe I/O에 대한 새  [!DNL Journey Orchestration]** 통합을 만들고 구성합니다. Journey Orchestration 및 Adobe Experience Platform에 대한 제품 프로필 액세스 권한이 필요합니다. 그러면 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).
@@ -66,14 +66,14 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
  -H 'x-gw-ims-org-id: <ORGANIZATION>'
 ```
 
-* **&lt;organization>**:개인 조직 ID이며, 각 인스턴스에 대해 Adobe이 하나의 조직 ID를 제공합니다.
+* **&lt;organization>**: 개인 조직 ID이며, 각 인스턴스에 대해 Adobe이 하나의 조직 ID를 제공합니다.
 
-   * &lt;organization> :프로덕션 인스턴스
+   * &lt;organization> : 프로덕션 인스턴스
    조직 ID 값을 얻으려면 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 새 통합을 생성할 때 라이센스 목록에서 Adobe I/O으로 검색할 수도 있습니다( [Adobe I/O 설명서](https://www.adobe.io/authentication.html) 참조).
 
-* **&lt;access_token>**:POST 요청을 통해 JWT를 교환할 때 검색된 개인 액세스 토큰입니다.
+* **&lt;access_token>**: POST 요청을 통해 JWT를 교환할 때 검색된 개인 액세스 토큰입니다.
 
-* **&lt;api_key>**:개인 API 키 를 참조하십시오. [!DNL Journey Orchestration] 서비스에 대한 새 통합을 만든 후 Adobe I/O에 제공됩니다.
+* **&lt;api_key>**: 개인 API 키 를 참조하십시오. [!DNL Journey Orchestration] 서비스에 대한 새 통합을 만든 후 Adobe I/O에 제공됩니다.
 
 
 
@@ -82,7 +82,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 이 API를 사용하면 UID로 식별된 여정 버전과 모든 관련 개체(여정, 이벤트, 데이터 소스, 필드 그룹, 사용자 지정 작업)를 해당 uid로 내보낼 수 있습니다.
 결과 페이로드를 사용하여 다른 환경(샌드박스 또는 인스턴스)에서 여정 버전을 가져올 수 있습니다.
 
-| 방법 | 경로 | 설명 |
+| 메서드 | 경로 | 설명 |
 |---|---|---|
 | `[POST]` | /journeyVersions/import | 여정 버전 내보내기로 인한 여정 버전 콘텐츠 가져오기 |
 | `[GET]` | /journeyVersions/`{uid}`/export | 여정 버전 내보내기 |
@@ -98,8 +98,8 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 내보내기 호출 후에 대상 환경에서 페이로드를 가져오기 전에 새 자격 증명(대상 환경에 해당)을 수동으로 삽입해야 합니다.
 
 * 다음 개체는 내보내지지만 대상 환경에서는 가져오지 않습니다. Journey Orchestration에서 자동으로 관리하는 시스템 리소스입니다. &quot;INSERT_SECRET_HERE&quot;를 바꿀 필요가 없습니다.
-   * **데이터 공급자**:&quot;Adobe Campaign Standard 데이터 공급자&quot;(acsDataProvider) 및 &quot;Experience Platform&quot;(acppsDataProvider)
-   * **필드 그룹** (dataEntities):&quot;ProfileFieldGroup&quot;(acppsDataPack)
+   * **데이터 공급자**: &quot;Adobe Campaign Standard 데이터 공급자&quot;(acsDataProvider) 및 &quot;Experience Platform&quot;(acppsDataProvider)
+   * **필드 그룹** (dataEntities): &quot;ProfileFieldGroup&quot;(acppsDataPack)
 
 
 
@@ -113,8 +113,8 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 잠재적 오류는 다음과 같습니다.
 
-* 여정 버전이 잘못된 경우 **내보내기 시간**&#x200B;에오류 500
+* 여정 버전이 잘못된 경우 **내보내기 시간**&#x200B;에 오류 500
 
-* **가져오기 시간**&#x200B;에서 페이로드가 수정 후 유효하지 않거나 페이로드에 자격 증명이 잘 정의되어 있지 않은 경우:오류 400
+* **가져오기 시간**&#x200B;에서 페이로드가 수정 후 유효하지 않거나 페이로드에 자격 증명이 잘 정의되어 있지 않은 경우: 오류 400
 
 * 가져오기 단계 후에 이벤트에 대한 XDM 스키마 ID가 대상 환경에서 유효하지 않으면 Journey Orchestration 애플리케이션에 오류가 표시됩니다. 이러한 경우에는 여정을 게시할 수 없습니다.
