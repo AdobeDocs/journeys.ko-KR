@@ -9,7 +9,7 @@ exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
 source-git-commit: 0c55ece133639ec001b58f73afcbc69787b98c0e
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 10%
+ht-degree: 17%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 10%
 
 시간대를 고려하지 않고 날짜/시간을 반환합니다.
 
-## 예제
+## 예
 
 `toDateTimeOnly ("2016-08-18")`
 
