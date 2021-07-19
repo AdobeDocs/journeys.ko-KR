@@ -5,7 +5,7 @@ description: toTimeZone 함수에 대해 알아봅니다.
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 7%
 
 표준 시간대를 반환합니다.
 
-## 예제
+## 예
 
 `toTimeZone("UTC")`
 
