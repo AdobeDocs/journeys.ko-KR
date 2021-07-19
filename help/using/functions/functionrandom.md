@@ -9,7 +9,7 @@ exl-id: c47dc5f0-ea69-4814-863b-e0e483ba7770
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 ## 카테고리
 
-수학
+계산
 
 ## 함수 구문
 
@@ -31,8 +31,8 @@ ht-degree: 7%
 
 소수점 반환
 
-## 예제
+## 예
 
 `#{MarltonReservation.statistics.successRatio, defaultValue : random() * 100}`
 
-설명:성공 비율에 값이 없거나 값이 null이면 기본값이 적용되고 0에서 1 * 100 사이의 임의 숫자가 됩니다(0~100 의미).
+설명: 성공 비율에 값이 없거나 값이 null이면 기본값이 적용되고 0에서 1 * 100 사이의 임의 숫자가 됩니다(0~100 의미).
