@@ -9,7 +9,7 @@ exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
@@ -64,12 +64,12 @@ datetime 목록을 반환합니다.
 
 부울 목록을 반환합니다.
 
-## 예제
+## 예
 
 `sort(["A", "C", "B"], true)`
 
-`["A","B","C"]`을 반환합니다.
+반환 `["A","B","C"]`.
 
 `sort([1, 3, 2], false)`
 
-`[3, 2, 1]`을 반환합니다.
+반환 `[3, 2, 1]`.
