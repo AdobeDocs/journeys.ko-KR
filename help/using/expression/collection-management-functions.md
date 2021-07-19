@@ -9,7 +9,7 @@ exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
 source-git-commit: e0bf1a6f9c160b72da28feaca1ca52665f365630
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 <listExpression>.all(<condition>)
 ```
 
-예를 들어 모든 앱 사용자 중에서 IOS 13(부울 식 &quot;app used == IOS 13&quot;)을 사용하여 앱을 가져올 수 있습니다. 이 함수의 결과는 부울 표현식과 일치하는 항목이 포함된 필터링된 목록입니다(예:앱 사용자 1, 앱 사용자 34, 앱 사용자 432).
+예를 들어 모든 앱 사용자 중에서 IOS 13(부울 식 &quot;app used == IOS 13&quot;)을 사용하여 앱을 가져올 수 있습니다. 이 함수의 결과는 부울 표현식과 일치하는 항목이 포함된 필터링된 목록입니다(예: 앱 사용자 1, 앱 사용자 34, 앱 사용자 432).
 
 데이터 소스 조건 활동에서 **[!UICONTROL all]** 함수의 결과가 null인지 여부를 확인할 수 있습니다. 이 **[!UICONTROL all]** 함수를 **[!UICONTROL count]** 등의 다른 함수와 결합할 수도 있습니다. 자세한 내용은 [데이터 소스 조건 활동](../building-journeys/condition-activity.md#data_source_condition)을 참조하십시오.
 
@@ -223,7 +223,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 _`<listExpression>`.at(`<index>`)_
 
-**예제:**
+**예:**
 
 이 표현식은 목록의 두 번째 푸시 알림 토큰을 반환합니다.
 
