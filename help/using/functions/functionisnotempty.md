@@ -9,7 +9,7 @@ exl-id: 32bb3d72-7abe-4220-acae-f19a09f83657
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 16%
+ht-degree: 21%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 16%
 
 부울을 반환합니다.
 
-## 예제
+## 예
 
 `isNotEmpty("")`
 
