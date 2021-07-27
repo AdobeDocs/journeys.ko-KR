@@ -6,9 +6,9 @@ feature: 여정
 role: User
 level: Intermediate
 exl-id: 87f63d7d-b7d9-4243-a5ce-8948939f3d93
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '139'
 ht-degree: 7%
 
 ---
@@ -19,7 +19,8 @@ ht-degree: 7%
 
 데이터 소스 구성에 대한 자세한 내용은 [이 페이지](../datasource/about-data-sources.md)를 참조하십시오.
 
-1. 상단 메뉴에서 **[!UICONTROL Data Sources]** 탭을 클릭하고 내장된 Adobe Experience Platform 데이터 소스를 선택합니다.
+1. 메뉴 창에서 **[!UICONTROL Admin]** 을 선택합니다. **[!UICONTROL Data sources]** 섹션에서 **[!UICONTROL Manage]** 를 클릭합니다.
+1. 기본 제공 Adobe Experience Platform 데이터 소스를 선택합니다.
 
    ![](../assets/journey23.png)
 
