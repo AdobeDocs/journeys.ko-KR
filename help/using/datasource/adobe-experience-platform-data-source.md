@@ -6,9 +6,9 @@ feature: 여정
 role: User
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '351'
 ht-degree: 11%
 
 ---
@@ -39,7 +39,6 @@ Adobe Experience Platform 데이터 소스는 실시간 고객 프로필 서비�
 
 1. **[!UICONTROL Schema]** 드롭다운에서 스키마를 선택합니다. 이 필드에는 Adobe Experience Platform에서 사용할 수 있는 프로필 및 경험 이벤트 스키마가 나열됩니다. 스키마 만들기가 [!DNL Journey Orchestration]에서 수행되지 않습니다. Adobe Experience Platform에서 수행됩니다.
 1. 사용할 필드를 선택합니다.
-1. 캐시 기간을 정의합니다.
 1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
 필드 그룹 이름에 커서를 놓으면 오른쪽에 두 개의 아이콘이 표시됩니다. 필드 그룹을 삭제하고 복제할 수 있습니다. **[!UICONTROL Delete]** 아이콘은 필드 그룹이 라이브 또는 초안 여정(**[!UICONTROL Used in]** 필드에 표시된 정보)에서 사용되지 않는 경우에만 사용할 수 있습니다.
