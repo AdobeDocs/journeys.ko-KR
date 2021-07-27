@@ -2,9 +2,9 @@
 product: adobe campaign
 title: 피로 점수 활용
 description: 여정에서 피로도 점수를 활용하는 방법을 알아봅니다
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '249'
 ht-degree: 10%
 
 ---
@@ -26,7 +26,8 @@ ht-degree: 10%
 
 기본 제공 데이터 소스에서 피로도 점수 필드를 선택하려면 다음 단계를 수행하십시오.
 
-1. 상단 메뉴에서 **[!UICONTROL Data Sources]** 탭을 클릭하고 내장된 Adobe Experience Platform 데이터 소스를 선택합니다.
+1. 메뉴 창에서 **[!UICONTROL Admin]** 을 선택합니다. **[!UICONTROL Data sources]** 섹션에서 **[!UICONTROL Manage]** 를 클릭합니다.
+1. 기본 제공 Adobe Experience Platform 데이터 소스를 선택합니다.
 
    ![](../assets/journey23.png)
 
