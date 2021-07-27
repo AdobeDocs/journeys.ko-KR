@@ -6,10 +6,10 @@ feature: 여정
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
 workflow-type: tm+mt
-source-wordcount: '2625'
-ht-degree: 76%
+source-wordcount: '2701'
+ht-degree: 75%
 
 ---
 
@@ -17,6 +17,29 @@ ht-degree: 76%
 
 이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 최신 [설명서 업데이트](../release-notes/documentation-updates.md)도 확인할 수 있습니다.
+
+## 2021년 7월 릴리스 {#july-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>스키마 관계 활용</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이터 세트에 대한 조회 테이블로 사용하기 위해 스키마 간의 관계를 정의할 수 있습니다. 이제 Journey Orchestration은 연결된 스키마에서 가져온 데이터를 활용할 수 있습니다.</p>
+<p>이러한 필드는 단일 이벤트 구성, 여정 조건 및 사용자 지정 작업 개인화에서 사용할 수 있습니다.
+<p>자세한 내용은 <a href="../event/experience-event-schema.md#leverage_schema_relationships">자세한 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 개선 사항
+
+* **캐시 기간** 필드가 데이터 소스 구성 창에서 제거되었습니다. [자세히 보기](../datasource/about-data-sources.md)
 
 ## 2021년 6월 릴리스 {#june-2021-release}
 
