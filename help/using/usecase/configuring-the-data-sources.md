@@ -6,10 +6,10 @@ feature: 여정
 role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 14%
+source-wordcount: '441'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 14%
 
 데이터 소스 구성에 대한 자세한 내용은 [이 페이지](../datasource/about-data-sources.md)를 참조하십시오.
 
-1. 상단 메뉴에서 **[!UICONTROL Data Sources]** 탭을 클릭하고 내장된 Adobe Experience Platform 데이터 소스를 선택합니다.
+1. 메뉴 창에서 **[!UICONTROL Admin]** 을 선택합니다. **[!UICONTROL Data sources]** 섹션에서 **[!UICONTROL Manage]** 를 클릭합니다.
+1. 기본 제공 Adobe Experience Platform 데이터 소스를 선택합니다.
 
    ![](../assets/journey23.png)
 
@@ -58,7 +59,6 @@ ht-degree: 14%
 1. 검색할 정보와 API 매개 변수를 정의하려면 **[!UICONTROL Add a New Field Group]** 을 클릭합니다. 예를 들어 매개 변수(id)는 하나만 있으므로 다음 정보를 사용하여 필드 그룹을 하나씩 만들어야 합니다.
 
    * **[!UICONTROL Method]**: POST 또는 GET 메서드를 선택합니다. 여기서는 GET 메서드를 선택합니다.
-   * **[!UICONTROL Cache duration]**: 이것은 API 호출 빈도에 따라 달라집니다. 예약 시스템은 10분마다 갱신됩니다
    * **[!UICONTROL Response Payload]**: 필드 내부 **[!UICONTROL Payload]** 를 클릭하고 페이로드 예제를 붙여넣습니다. 필드 유형이 올바른지 확인합니다. API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 이 예제의 페이로드에는 예약 상태만 포함됩니다.
 
    ```
