@@ -6,10 +6,10 @@ feature: 여정
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 5ea6578ec15b8e1116f58f7644cbf45c523d1840
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 100%
+source-wordcount: '1264'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 새 외부 데이터 소스를 만들고 구성하는 주요 단계는 다음과 같습니다.
 
-1. 새 외부 데이터 소스를 만들려면 데이터 소스 목록에서 **[!UICONTROL Add]**&#x200B;를 클릭합니다.
+1. 새 외부 데이터 소스를 만들려면 데이터 소스 목록에서 **[!UICONTROL Create data source]** 을 클릭하십시오.
 
    ![](../assets/journey25.png)
 
@@ -69,7 +69,6 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 * **[!UICONTROL Used in]**: 필드 그룹을 사용하는 여정 수를 표시합니다. **[!UICONTROL View journeys]** 아이콘을 클릭하여 이 필드 그룹을 사용하는 여정 목록을 표시할 수 있습니다.
 * **[!UICONTROL Method]**: POST 또는 GET 메서드를 선택합니다. 여기서는 GET 메서드를 선택합니다.
-* **[!UICONTROL Cache duration]**: 여기서는 10분 동안 날씨를 캐시합니다.
 * **[!UICONTROL Response Payload]**: **[!UICONTROL Payload]** 필드 안을 클릭하여 호출에서 반환된 페이로드의 예제를 붙여넣습니다. 이 예제에서는 날씨 API 웹 사이트의 페이로드를 사용했습니다. 필드 유형이 올바른지 확인합니다. API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 현재 전달된 페이로드를 변경하려는 경우 **[!UICONTROL Paste a new payload]**&#x200B;를 클릭하면 됩니다.
 * **[!UICONTROL Dynamic Values]**: 각 매개 변수를 쉼표로 구분하여 입력합니다. 이 예제에서는 &quot;long,lat&quot;를 입력합니다. 매개 변수 값은 실행 컨텍스트에 따라 달라지므로 여정에서 정의됩니다. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오.
 * **[!UICONTROL Sent Payload]**: 이 예제에서는 이 필드가 표시되지 않습니다. POST 메서드를 선택해야 이 필드를 사용할 수 있습니다. 서드파티 시스템으로 전송할 페이로드를 붙여넣습니다.
