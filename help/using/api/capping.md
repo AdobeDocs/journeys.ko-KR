@@ -3,13 +3,13 @@ product: adobe campaign
 title: API 설명 최대 가용량
 description: 최대 가용량 API에 대해 자세히 알아보십시오.
 products: journeys
-feature: 여정
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1173'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 데이터 소스 구성 중에 여정에 사용할 추가 정보를 검색할 시스템에 대한 연결을 정의하거나, 작업 정의에 대해 메시지나 API 호출을 전송할 서드파티 시스템의 연결을 구성합니다. 여정에 의해 API 호출이 수행될 때마다 최대 가용량 API가 쿼리되고, 호출이 API 엔진을 통해 옵니다. 정의된 제한이 있으면 호출이 거부되고 외부 시스템이 오버로드되지 않습니다.
 
-외부 데이터 소스의 경우 초당 최대 호출 수는 15로 설정됩니다. 호출 수가 초당 15개를 초과하는 경우 나머지 호출은 무시됩니다. 비공개 외부 데이터 소스에 대해 이 제한을 늘릴 수 있습니다. 엔드포인트를 화이트리스트에 추가하려면 Adobe에 문의하십시오. 이는 공용 외부 데이터 소스에는 사용할 수 없습니다. 외부 시스템을 통합할 때 모범 사례 및 보안에 대한 자세한 내용은 이 [page](../about/external-systems.md)을 참조하십시오.
+외부 데이터 소스의 경우 초당 최대 호출 수는 15로 설정됩니다. 호출 수가 초당 15개를 초과하는 경우 나머지 호출은 무시됩니다. 비공개 외부 데이터 소스에 대해 이 제한을 늘릴 수 있습니다. 엔드포인트를 Adobe에 포함하려면에 허용 목록에 추가하다 문의하십시오. 이는 공용 외부 데이터 소스에는 사용할 수 없습니다. 외부 시스템을 통합할 때 모범 사례 및 보안에 대한 자세한 내용은 이 [page](../about/external-systems.md)을 참조하십시오.
 
 작업 또는 데이터 소스 구성에 대한 자세한 내용은 [작업 정보](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) 또는 [데이터 소스 정보](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)를 참조하십시오
 
