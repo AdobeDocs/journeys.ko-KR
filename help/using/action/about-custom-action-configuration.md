@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 사용자 지정 작업 구성 정보
 description: 사용자 지정 작업을 구성하는 방법 알아보기
-feature: 여정
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '249'
 ht-degree: 15%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 15%
 1. 이 작업을 사용하는 여정 수가 **[!UICONTROL Used in]** 필드에 표시됩니다. **[!UICONTROL View journeys]** 단추를 클릭하여 이 작업을 사용하는 여정 목록을 표시할 수 있습니다.
 1. 다른 **[!UICONTROL URL Configuration]** 매개 변수를 정의합니다. [이 페이지](../action/url-configuration.md)를 참조하십시오.
 1. **[!UICONTROL Authentication]** 섹션을 구성합니다. 이 구성은 데이터 소스와 동일합니다.  [이 섹션](../datasource/external-data-sources.md#section_wjp_nl5_nhb)을 참조하십시오.
-1. **[!UICONTROL Message parameters]**&#x200B;을(를) 정의합니다. [이 페이지](../action/defining-the-message-parameters.md)를 참조하십시오.
+1. **[!UICONTROL Action parameters]**&#x200B;을(를) 정의합니다. [이 페이지](../action/defining-the-message-parameters.md)를 참조하십시오.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    이제 사용자 지정 작업이 구성되었으며 여정에서 사용할 준비가 되었습니다. [이 페이지](../building-journeys/about-action-activities.md)를 참조하십시오.
