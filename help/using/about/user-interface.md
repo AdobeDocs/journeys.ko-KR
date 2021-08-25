@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 사용자 인터페이스
 description: 사용자 인터페이스에 대해 자세히 알아보기
-feature: 여정
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 97%
+source-wordcount: '989'
+ht-degree: 63%
 
 ---
 
@@ -87,58 +87,135 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 [!D
 >
 >스키마 조합에서 필드를 선택하면 친숙한 이름이 검색되지 않습니다.
 
-## 다양한 단축키 사용{#section_ksq_zr1_ffb}
+## 접근성{#accessibility}
 
-[!DNL Journey Orchestration] 인터페이스에서는 다음과 같은 여러 단축키를 사용할 수 있습니다.
+Adobe Journey Optimizer의 액세스 가능성 기능은 Adobe Experience Platform에서 제공합니다.
 
-_여정, 작업, 데이터 소스 또는 이벤트 목록:_
+* 키보드 액세스 가능성
+* 색상 대비
+* 필수 필드 유효성 검사
 
-* 새 여정, 작업, 데이터 소스 또는 이벤트를 만들려면 **c** 키를 누릅니다.
+[Adobe Experience Platform 설명서에서 자세한](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html) 내용{target=&quot;_blank&quot;}.
 
-_여정에서 활동 구성 시:_
+Adobe Journey Optimizer에서 다음과 같은 일반적인 키보드 단축키를 사용할 수 있습니다.
 
-캔버스는 자동으로 저장됩니다. 캔버스 왼쪽 위에서 저장 상태를 확인할 수 있습니다.
+| 작업 | 단축키 |
+| --- | --- |
+| 사용자 인터페이스 요소, 섹션 및 메뉴 그룹 간 이동 | 탭 |
+| 사용자 인터페이스 요소, 섹션 및 메뉴 그룹 간 뒤로 이동 | Shift + 탭 |
+| 섹션 내에서 이동하여 포커스를 개별 요소로 설정 | 화살표 |
+| 포커스에 있는 요소 선택 또는 지우기 | Enter 키 또는 스페이스바 |
+| 선택 취소, 패널 축소 또는 대화 상자 닫기 | Esc |
 
-* 구성 창을 닫고 적용한 변경 사항을 취소하려면 **Esc** 키를 누릅니다. 그러면 **[!UICONTROL Cancel]** 버튼을 누르는 것과 같은 작업이 수행됩니다.
-* 구성 창을 닫으려면 **Enter** 키를 누르거나 창 바깥쪽을 클릭합니다. 그러면 변경 사항이 저장됩니다. 즉, **[!UICONTROL Ok]** 버튼을 누르는 것과 같은 작업이 수행됩니다.
-* **Delete** 또는 **백스페이스** 키를 누른 다음 **Enter** 키를 눌러 삭제를 확인할 수 있습니다.
+[Adobe Experience Platform 설명서에서 자세한](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html) 내용{target=&quot;_blank&quot;}.
 
-_팝업:_
+Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있습니다.
 
-* 팝업을 닫으려면 **Esc** 키를 누릅니다. 그러면 **[!UICONTROL Cancel]** 버튼을 누르는 것과 같은 작업이 수행됩니다.
-* 저장하거나 확인하려면 **Enter** 키를 누릅니다. 그러면 **[!UICONTROL Ok]** 또는 **[!UICONTROL Save]** 버튼을 누르는 것과 같은 작업이 수행됩니다.
+<table>
+  <thead>
+    <tr>
+      <th>인터페이스 요소</th>
+      <th>작업</th>
+      <th>단축키</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>여정, 작업, 데이터 소스 또는 이벤트 목록</td>
+    <td>여정, 작업, 데이터 소스 또는 이벤트 만들기</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">초안 상태의 캔버스 여정</td>
+    <td>사용 가능한 첫 번째 위치에서 맨 위에서 맨 아래로 활동을 왼쪽 팔레트에서 추가합니다</td>
+    <td>활동을 두 번 클릭합니다</td>
+  </tr>
+  <tr>
+    <td>모든 활동을 선택합니다</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+  <tr>
+    <td>선택한 활동을 삭제합니다</td>
+    <td>삭제 또는 백스페이스 순으로 입력한 다음 Enter 키를 눌러 삭제를 확인합니다</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
 
-_이벤트, 데이터 소스 또는 작업 구성 창:_
+다음 요소의 구성 창:
 
-* 내용을 저장하지 않고 구성 창을 닫으려면 **Esc** 키를 누릅니다.
-* 수정 사항을 저장하고 구성 창을 닫으려면 **Enter** 키를 누릅니다.
-* 구성하려는 필드 간을 이동하려면 **Tab** 키를 누릅니다.
+<ul>
+  <li>여정의 활동</li>
+  <li>이벤트</li>
+  <li>데이터 소스</li>
+  <li>작업</li>
+</ul>
 
-_단순 표현식 편집기:_
+</td>
+    <td>구성할 다음 필드로 이동</td>
+    <td>탭</td>
+  </tr>
+  <tr>
+    <td>변경 내용을 저장하고 구성 창을 닫습니다.</td>
+    <td>Enter 키</td>
+  </tr>
+  <tr>
+    <td>변경 내용을 취소하고 구성 창을 닫습니다.</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td rowspan="4">테스트 모드의 여정</td>
+    <td>테스트 모드 활성화 또는 비활성화</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>이벤트 기반 여정에서 이벤트 트리거</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
 
-* 왼쪽의 필드를 두 번 클릭하여 쿼리를 추가합니다. 그러면 쿼리를 끌어서 놓는 것과 같은 작업이 수행됩니다.
+**[!UICONTROL Single profile at a time]** 옵션이 설정된 세그먼트 기반 여정에서 이벤트를 트리거합니다
 
-_XDM 필드 검색 시:_
-
-* &quot;node&quot;를 선택하면 노드의 모든 필드가 선택됩니다.
-
-_모든 텍스트 영역:_
-
-* 텍스트를 선택하려면 **Ctrl/Command+A** 키 조합을 사용합니다. 페이로드 미리 보기에서 이 키 조합을 누르면 페이로드가 선택됩니다.
-
-_검색 창이 있는 화면:_
-
-* 검색 창을 선택하려면 **Ctrl/Command+F** 키 조합을 사용합니다.
-
-_여정의 캔버스:_
-
-* 모든 활동을 선택하려면 **Ctrl/Command+A** 키 조합을 사용합니다.
-* 선택한 하나 이상의 활동을 삭제하려면 **Delete** 또는 **백스페이스** 키를 누릅니다. 그런 다음 **Enter** 키를 눌러 확인 팝업에서 삭제를 확인할 수 있습니다.
-* 활동을 사용 가능한 첫 번째 위치(위쪽부터)에 추가하려면 왼쪽 팔레트에서 해당 활동을 두 번 클릭합니다.
-
-_여정:_
-
-* 테스트 모드를 활성화/비활성화하려면 **T** 키를 누릅니다.
-* 테스트 모드의 이벤트 기반 여정에서 **E** 키를 눌러 이벤트를 트리거합니다.
-* 세그먼트 기반 여정에서 테스트 모드에서 **한 번에 하나의 프로필** 옵션이 선택된 경우 **P** 키를 눌러 이벤트를 트리거합니다.
-* 테스트 모드에서 **L** 키를 눌러 로그를 표시합니다.
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>테스트 로그 표시</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>텍스트 필드</td>
+    <td>선택한 필드에서 모든 텍스트를 선택합니다</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">팝업 창</td>
+    <td>변경 내용을 저장하거나 작업을 확인합니다</td>
+    <td>Enter 키</td>
+  </tr>
+  <tr>
+    <td>창을 닫습니다.</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td>단순 표현식 편집기</td>
+    <td>필드 선택 및 추가</td>
+    <td>필드를 두 번 클릭합니다</td>
+  </tr>
+  <tr>
+    <td>XDM 필드 탐색</td>
+    <td>노드의 모든 필드를 선택합니다</td>
+    <td>상위 노드를 선택합니다</td>
+  </tr>
+  <tr>
+    <td>페이로드 미리 보기</td>
+    <td>페이로드를 선택합니다</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+</table>
