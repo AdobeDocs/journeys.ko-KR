@@ -3,13 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 외부 시스템과 통합
 description: 외부 시스템을 통합할 때 모범 사례에 대해 배웁니다.
-feature: 여정
+feature: Journeys
 role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1014'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Journey Orchestration이 외부 API에 대한 호출을 실행하면 다음과 �
 
 기본 제공 Capping API는 외부 시스템을 보호하는 데 도움이 되는 업스트림 기술 보호 기능을 제공합니다.
 
-외부 데이터 소스의 경우 초당 최대 호출 수는 15로 설정됩니다. 호출 수가 초당 15개를 초과하는 경우 나머지 호출은 무시됩니다. 비공개 외부 데이터 소스에 대해 이 제한을 늘릴 수 있습니다. 엔드포인트를 화이트리스트에 추가하려면 Adobe에 문의하십시오. 이는 공용 외부 데이터 소스에는 사용할 수 없습니다.
+외부 데이터 소스의 경우 초당 최대 호출 수는 15로 설정됩니다. 호출 수가 초당 15개를 초과하는 경우 나머지 호출은 무시됩니다. 비공개 외부 데이터 소스에 대해 이 제한을 늘릴 수 있습니다. 엔드포인트를 Adobe에 포함하려면에 허용 목록에 추가하다 문의하십시오. 이는 공용 외부 데이터 소스에는 사용할 수 없습니다.
 
 사용자 지정 작업의 경우 외부 API의 용량을 평가해야 합니다. 예를 들어, Journey Optimizer이 초당 1000개의 호출을 전송하고 시스템이 초당 100개의 호출만 지원할 수 있는 경우 시스템이 포화되지 않도록 최대 가용량 규칙을 정의해야 합니다.
 
