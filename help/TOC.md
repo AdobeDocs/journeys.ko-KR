@@ -4,11 +4,11 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축에 대한 방법 지침을 제공합니다.
 index: true
-feature: 여정
-source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
+feature: Journeys
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 99%
+source-wordcount: '421'
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 99%
    + 서드파티 시스템 사용 {#action-third-party}
       + [사용자 지정 작업 구성 정보](using/action/about-custom-action-configuration.md)
       + [URL 구성](using/action/url-configuration.md)
-      + [메시지 매개 변수 정의](using/action/defining-the-message-parameters.md)
+      + [작업 매개 변수 정의](using/action/defining-the-message-parameters.md)
 + 세그먼트 사용 {#configuring-segment}
    + [세그먼트 정보](using/segment/about-segments.md)
    + [세그먼트 만들기](using/segment/creating-a-segment.md)
