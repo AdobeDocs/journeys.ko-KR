@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 릴리스 정보
 description: 릴리스 정보에 대해 알아보기
-feature: 여정
+feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
+source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
 workflow-type: tm+mt
-source-wordcount: '2701'
-ht-degree: 75%
+source-wordcount: '2756'
+ht-degree: 74%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 75%
 
 이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 최신 [설명서 업데이트](../release-notes/documentation-updates.md)도 확인할 수 있습니다.
+
+## 2021년 8월 릴리스 {#august-2021-release}
+
+### 개선 사항
+
+**여정**
+
+* **동적 헤더**  - 이제 HTTP 헤더 매개 변수로 동적 데이터를 전달할 수 있습니다. 이러한 매개 변수는 타임스탬프 또는 추적 ID와 같이 여정 작업 HTTP 호출을 받는 통합 시스템에서 사용할 수 있습니다. [자세히 보기](../action/url-configuration.md)
+* **동적 URL 경로**  - 이제 사용자 지정 작업에 대한 동적 URL 경로를 설정할 수 있습니다. [자세히 보기](../action/url-configuration.md)
 
 ## 2021년 7월 릴리스 {#july-2021-release}
 
@@ -31,7 +40,7 @@ ht-degree: 75%
 <td>
 <p>Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이터 세트에 대한 조회 테이블로 사용하기 위해 스키마 간의 관계를 정의할 수 있습니다. 이제 Journey Orchestration은 연결된 스키마에서 가져온 데이터를 활용할 수 있습니다.</p>
 <p>이러한 필드는 단일 이벤트 구성, 여정 조건 및 사용자 지정 작업 개인화에서 사용할 수 있습니다.
-<p>자세한 내용은 <a href="../event/experience-event-schema.md#leverage_schema_relationships">자세한 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../event/experience-event-schema.md#leverage_schema_relationships">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -54,7 +63,7 @@ ht-degree: 75%
 <td>
 <p>이제 Adobe Campaign Classic 통합과의 통합이 GA됩니다. Adobe Campaign v7 또는 v8 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.</p>
 <p>Journey Orchestration 인스턴스와 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다.</p>
-<p>자세한 내용은 <a href="../action/acc-action.md">자세한 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../action/acc-action.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -221,7 +230,7 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 <td>
 <p>이제 여정에 조건을 추가할 때 레이블을 정의할 수 있습니다. 여정에서 여러 조건을 사용하는 경우 해당 조건을 보다 쉽게 식별할 수 있습니다.
 </p>
-<p>자세한 내용은 <a href="../building-journeys/condition-activity.md#about_condition">자세한 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/condition-activity.md#about_condition">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -496,7 +505,7 @@ Journey Orchestration 인터페이스를 일본어로 사용할 수 있습니다
 <p>이제는 여정 디자이너에서 여정의 최신 버전에 액세스하고 있는지를 확인할 수 있습니다. 이 정보는 버전 번호 옆에 표시됩니다.</p>
 <p>이제는 여정 <strong>캔버스</strong>에서 두 활동의 연결이 끊기면 경고 메시지가 표시됩니다.</p>
 <img src="../assets/rn-canvas.png"/>
-<p>자세한 내용은 <a href="../building-journeys/using-the-journey-designer.md">자세한 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/using-the-journey-designer.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
