@@ -1,23 +1,23 @@
 ---
 product: adobe campaign
-title: 메시지 매개 변수 정의
-description: 메시지 매개 변수를 정의하는 방법을 알아봅니다
-feature: 여정
+title: 작업 매개 변수 정의
+description: 작업 매개 변수를 정의하는 방법을 알아봅니다
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: eb765d2f12ade397e124281f52213bb3e58263cb
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 4%
+source-wordcount: '225'
+ht-degree: 0%
 
 ---
 
-# 메시지 매개 변수 정의 {#concept_wy4_bf1_2gb}
+# 작업 매개 변수 정의 {#concept_wy4_bf1_2gb}
 
 ![](../assets/messageparameterssection.png)
 
-**[!UICONTROL Message parameters]** 섹션에서 외부 서비스로 전송할 JSON 페이로드의 예제를 붙여넣습니다.
+**[!UICONTROL Action parameters]** 섹션에서 외부 서비스로 전송할 JSON 페이로드의 예제를 붙여넣습니다.
 
 ![](../assets/customactionpayloadmessage.png)
 
