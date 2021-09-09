@@ -2,13 +2,13 @@
 product: adobe campaign
 user-guide-title: Journey Orchestration
 title: Journey Orchestration 안내서
-user-guide-description: 여정 구현 및 구축에 대한 방법 지침을 제공합니다.
+user-guide-description: 여정 구현 및 구축 방법에 대한 지침을 확인할 수 있습니다.
 index: true
 feature: Journeys
 source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 98%
       + [이벤트 만들기](using/event/about-creating.md)
       + [Adobe Analytics 활용](using/event/about-analytics.md)
       + [ExperienceEvent 스키마 정보](using/event/experience-event-schema.md)
-      + [추가적인 이벤트 전송 단계](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+      + [이벤트를 보내는 추가적인 단계](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [페이로드 필드 정의](using/event/defining-the-payload-fields.md)
    + [네임스페이스 선택](using/event/selecting-the-namespace.md)
    + [이벤트 키 정의](using/event/defining-the-event-key.md)
@@ -70,7 +70,7 @@ ht-degree: 98%
       + 이벤트 활동 {#events-activities}
          + [이벤트 활동 정보](using/building-journeys/event-activities.md)
          + [일반 이벤트](using/building-journeys/general-events.md)
-         + [반응 events](using/building-journeys/reaction-events.md)
+         + [반응 이벤트](using/building-journeys/reaction-events.md)
          + [세그먼트 자격 이벤트](using/building-journeys/segment-qualification-events.md)
       + 오케스트레이션 활동 {#orchestration-activities}
          + [오케스트레이션 활동 정보](using/building-journeys/about-orchestration-activities.md)
@@ -103,7 +103,7 @@ ht-degree: 98%
       + [컬렉션 관리 기능](using/expression/collection-management-functions.md)
       + [연산자](using/expression/operators.md)
       + [여정 속성](using/expression/journey-properties.md)
-      + [예](using/expression/advanced-editor-use-cases.md)
+      + [예시](using/expression/advanced-editor-use-cases.md)
    + 함수 {#main-functions-journey}
       + [기본 함수](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
@@ -144,7 +144,7 @@ ht-degree: 98%
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
          + [getListItem](using/functions/functiongetlistitem.md)
-         + [에서](using/functions/functionin.md)
+         + [in](using/functions/functionin.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
