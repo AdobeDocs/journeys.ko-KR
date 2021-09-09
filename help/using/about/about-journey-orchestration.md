@@ -2,20 +2,20 @@
 product: adobe campaign
 title: Journey Orchestration
 description: Journey Orchestration에 대해 자세히 알아보십시오
-feature: 여정
+feature: Journeys
 role: User
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
-source-wordcount: '389'
+workflow-type: ht
+source-wordcount: '388'
 ht-degree: 100%
 
 ---
 
 # [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
-이벤트 또는 데이터 소스에 저장된 컨텍스트 데이터를 활용하여 실시간 편성 사용 사례를 구축할 수 있습니다.
+이벤트 또는 데이터 소스에 저장된 컨텍스트 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 구축합니다.
 
 [!DNL Journey Orchestration]은(는) Adobe Experience Platform과 통합된 애플리케이션 서비스입니다. 
 
@@ -46,4 +46,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->이 설명서는 제품의 최근 변경 사항을 반영하여 자주 업데이트됩니다. 그러나 실제 제품 인터페이스와 약간 다른 스크린샷도 있습니다.
+>이 설명서는 제품의 최근 변경 사항을 반영하기 위해 자주 업데이트됩니다. 그러나 실제 제품 인터페이스와 약간 다른 스크린샷도 있습니다.
