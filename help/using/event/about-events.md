@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 이벤트 정보
 description: 이벤트에 대해 알아보기
-feature: 여정
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
-source-wordcount: '403'
+workflow-type: ht
+source-wordcount: '402'
 ht-degree: 100%
 
 ---
