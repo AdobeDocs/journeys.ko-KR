@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 96%
 
 ## 2021년 8월
 
-* 동적 URL 경로 및 동적 헤더로 사용자 지정 작업에 대한 구성 절차가 업데이트되었습니다. [자세히 보기](../action/url-configuration.md)
-* 액세스 가능성 기능에 대한 섹션을 추가했습니다. [자세히 보기](../about/user-interface.md#accessibility)
+* 동적 URL 경로 및 동적 헤더가 있는 사용자 지정 작업을 구성하는 절차를 업데이트했습니다. [자세히 보기](../action/url-configuration.md)
+* 접근 가능성 기능에 대한 섹션을 추가했습니다. [자세히 보기](../about/user-interface.md#accessibility)
 * 세그먼트 평가 방법에 대한 섹션을 추가했습니다. [자세히 보기](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
 
 ## 2021년 3월 {#march-2021}
