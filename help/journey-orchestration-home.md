@@ -3,13 +3,13 @@ keywords: 여정;홈;인기 항목
 product: adobe campaign
 title: Journey Orchestration 제품 설명서
 description: Journey Orchestration 제품 설명서
-feature: 여정
+feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
-source-wordcount: '249'
+workflow-type: ht
+source-wordcount: '248'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ Journey Orchestration을 설정하고 첫 번째 여정을 구축하기 위한 �
 
 * [Journey Orchestration 제품 페이지](https://www.adobe.com/kr/experience-platform/journey-orchestration.html)
 * [Experience Platform 설명서](https://www.adobe.com/kr/experience-platform/documentation-and-developer-resources.html)
-* [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko)
+* [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko)
 * [Experience Cloud XDM 필드 정의](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)
 * [Identity Namespace 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko)
 * [스트리밍 수집 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ko)
