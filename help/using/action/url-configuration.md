@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: e7cba6c4-a231-44f9-927a-10115e7ab1dd
-source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
+source-git-commit: 2a93bce42ea9f1f21d70c68da3dbc36844dafd1b
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 5%
+source-wordcount: '328'
+ht-degree: 4%
 
 ---
 
@@ -25,12 +25,14 @@ ht-degree: 5%
 
    * URL에 동적 경로가 포함된 경우 URL의 정적 부분, 즉 구성표, 호스트, 포트 및 선택적으로 경로의 정적 부분만 입력합니다.
 
-      예: `https://xxx.yyy.com:8080/somethingstatic/`
+      예: `https://xxx.yyy.com/somethingstatic/`
 
       사용자 지정 작업을 여정에 추가할 때 URL의 동적 경로를 지정합니다. [자세히 알아보기](../building-journeys/using-custom-actions.md).
    >[!NOTE]
    >
    >보안상의 이유로 URL에 HTTPS 체계를 사용하는 것이 좋습니다. 공개되지 않은 Adobe 주소 및 IP 주소 사용을 허용하지 않습니다.
+   >
+   >사용자 지정 작업을 정의할 때는 기본 포트만 허용됩니다. http의 경우 80, https의 경우 443.
 
 1. 호출 **[!UICONTROL Method]**&#x200B;을 선택합니다. **[!UICONTROL POST]** 또는 **[!UICONTROL PUT]**&#x200B;일 수 있습니다.
 1. **[!UICONTROL Headers]** 섹션에서 외부 서비스로 전송할 요청 메시지의 HTTP 헤더를 정의합니다.

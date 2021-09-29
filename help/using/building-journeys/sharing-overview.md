@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 여정 단계 공유 개요
 description: 여정 단계 공유 개요
-feature: 여정
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: ec5337e6b2df126370b55e1466fc5027659441fe
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '452'
 ht-degree: 7%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->이 기능은 여정 단계 이벤트를 위한 모든 인스턴스에서 기본적으로 활성화됩니다. 여정 프로필 단계 이벤트의 경우 활성화는 요청 시 수행됩니다. 이 기능에 대한 프로비저닝 중에 생성된 스키마 및 데이터 세트는 변경할 수 없습니다.
+>이 기능은 여정 단계 이벤트를 위한 모든 인스턴스에서 기본적으로 활성화됩니다. 여정 프로필 단계 이벤트의 경우 활성화는 요청 시 수행됩니다. 단계 이벤트를 프로비전하는 동안 생성된 스키마 및 데이터 세트는 수정하거나 업데이트할 수 없습니다. 기본적으로 이러한 스키마와 데이터 세트는 읽기 전용 모드입니다.
 
 예를 들어, 여러 개의 이메일을 보내는 여정을 설정했습니다. 이 기능을 사용하면 [!DNL Journey Orchestration] 데이터를 전환 발생 횟수, 웹 사이트에서 발생한 참여 횟수 또는 저장소에서 발생한 트랜잭션 수와 같은 다운스트림 이벤트 데이터와 결합할 수 있습니다. 여정 정보를 다른 디지털 속성에서 또는 오프라인 속성에서 Adobe Experience Platform의 데이터와 결합하여 보다 포괄적인 성능 보기를 제공할 수 있습니다.
 

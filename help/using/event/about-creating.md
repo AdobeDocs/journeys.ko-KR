@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 이벤트 만들기
 description: 이벤트를 만드는 방법을 알아봅니다
-feature: 여정
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: f1773cc56f69894d376d83eb68891499991aa1ab
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 63%
+source-wordcount: '584'
+ht-degree: 60%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 63%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Event ID condition]**&#x200B;을(를) 정의할 때는 고급 표현식 편집기를 사용할 수 없습니다.
+   >**[!UICONTROL Event ID condition]**&#x200B;을(를) 정의할 때는 고급 표현식 편집기를 사용할 수 없습니다. 단순 표현식 편집기에서 모든 연산자를 사용할 수 있는 것은 아니며, 데이터 유형에 따라 달라집니다. 예를 들어 문자열 유형 필드의 경우 &quot;contains&quot; 또는 &quot;equal to&quot;를 사용할 수 있습니다.
 
 1. 네임스페이스를 추가합니다. 이 단계는 원하는 경우에만 수행하면 되지만, 네임스페이스를 추가하면 실시간 고객 프로필 서비스에 저장된 정보를 활용할 수 있습니다. 이 정보에 따라 이벤트의 키 유형이 정의됩니다. [이 페이지](../event/selecting-the-namespace.md)를 참조하십시오.
 1. 키를 정의합니다. 페이로드 필드에서 필드를 선택하거나 공식을 정의하여 이벤트와 연관된 사용자를 지정합니다. 이 키는 네임스페이스를 선택하면 자동으로 설정되지만 편집할 수 있습니다. 네임스페이스에 해당하는 키는 [!DNL Journey Orchestration]에서 자동으로 선택됩니다. 예를 들어 이메일 네임스페이스를 선택하면 이메일 키가 선택됩니다. [이 페이지](../event/defining-the-event-key.md)를 참조하십시오.

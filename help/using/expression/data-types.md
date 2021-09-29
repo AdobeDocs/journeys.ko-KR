@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 데이터 유형
 description: 고급 표현식의 데이터 유형에 대해 알아봅니다
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '636'
 ht-degree: 5%
 
 ---
@@ -119,15 +119,47 @@ false
 true
 ```
 
+## dateOnly {#date-only}
+
+**설명**
+
+일(년 기준)로 본 시간대가 없는 날짜만 나타냅니다.
+
+생일에 사용되는 날짜의 설명입니다.
+
+JSON 형식: 문자열.
+
+형식은 다음과 같습니다. YYYY-MM-DD(ISO-8601), 예: &quot;2021-03-11&quot;.
+
+toDateOnly 함수에 캡슐화할 수 있습니다.
+
+DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize하고 serialize합니다. [자세히 알아보기](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+
+**리터럴 표현**
+
+```
+date("<dateOnly in ISO-8601 format>")  
+```
+
+**예**
+
+```
+date("2021-02-19")
+```
+
 ## dateTimeOnly {#date-time-only}
 
 **설명**
 
 연 달 1일 시간(분) 밀리초 단위로 표시된 시간대가 없는 날짜 시간을 나타냅니다.
 
+JSON 형식: 문자열.
+
 시간대를 저장하거나 나타내지는 않습니다. 대신, 그것은 벽시계처럼 현지 시간과 결합되어 생일에 사용되는 그 날짜의 설명입니다.
 
 오프셋 또는 시간대 등의 추가 정보 없이 타임라인에서 인스턴스를 나타낼 수 없습니다.
+
+toDateTimeOnly 함수에 캡슐화할 수 있습니다.
 
 직렬화 형식: ISO-8601 확장 오프셋 날짜-시간 형식입니다.
 
@@ -136,7 +168,14 @@ DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize하고 s
 **리터럴 표현**
 
 ```
-toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
+date("<dateTimeOnly in ISO-8601 format>")  
+```
+
+**예**
+
+```
+date("2021-02-19T00.00.000")
+date("2021-02-19T00.00")
 ```
 
 ## dateTime {#date-time}
@@ -149,7 +188,7 @@ toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")
 
 JSON 형식: 문자열.
 
-toDateTime 함수에 캡슐화되어야 합니다.
+toDateTime 함수에 캡슐화할 수 있습니다.
 
 직렬화 형식: ISO-8601 확장 오프셋 날짜-시간 형식입니다.
 
@@ -166,10 +205,18 @@ toDateTime("<dateTime in ISO-8601 format>")
 ```
 
 ```
+date("<dateTime in ISO-8601 format>")
+```
+
+```
 toDateTime(<integer value of an epoch in milliseconds>)
 ```
 
 **예**
+
+```
+date("2021-02-19T00.00.000Z")
+```
 
 ```
 toDateTime("1977-04-22T06:00:00Z")

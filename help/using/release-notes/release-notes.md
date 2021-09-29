@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
+source-git-commit: a60640f91e80becd2769d647b762ca2225f9e9b2
 workflow-type: tm+mt
-source-wordcount: '2756'
-ht-degree: 74%
+source-wordcount: '2965'
+ht-degree: 70%
 
 ---
 
@@ -18,13 +18,40 @@ ht-degree: 74%
 이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 최신 [설명서 업데이트](../release-notes/documentation-updates.md)도 확인할 수 있습니다.
 
+## 2021년 9월 릴리스 {#september-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>사용자 지정 작업을 사용하여 동적으로 데이터 목록 전달</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 런타임 시 동적으로 채워지는 사용자 지정 작업 매개 변수에 컬렉션이나 데이터 목록을 전달할 수 있습니다. 지원되는 컬렉션은 두 가지입니다. 간단한 컬렉션 및 개체 컬렉션. 이전에 만든 사용자 지정 작업은 계속 작동합니다. </p>
+<p>컬렉션에 대한 자세한 내용은 <a href="../usecase/collections.md">자세한 설명서</a>를 참조하십시오. </p>
+<p>필터 및 교차 함수가 고급 표현식 편집기에서 사용할 수 있는 함수 목록에 추가되었습니다. 이 기능은 컬렉션 필터링 및 비교에 대한 더 많은 가능성을 제공합니다.</p>
+<p><a href="../functions/functionfilter.md">필터</a> 및 <a href="../functions/functionintersect.md">intersect</a> 함수에 대한 설명서를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 개선 사항
+
+* 단계 이벤트를 프로비전하는 동안 생성된 시스템 생성 스키마 및 데이터 세트가 이제 읽기 전용 모드로 되어 중요한 스키마를 실수로 수정하는 것을 방지할 수 있습니다. [자세히 알아보기](../building-journeys/sharing-overview.md)
+* 캔버스에 표시될 **Wait** 활동의 레이블을 레이블로 지정합니다. 이 레이블은 보고 및 테스트 모드 로그에서 수행할 작업을 명확하게 식별하는 데에도 사용됩니다. [자세히 알아보기](../building-journeys/using-the-journey-designer.md)
+* 검색을 사용하여 **이벤트** 및 **작업** 카테고리의 요소를 필터링하여 이벤트와 작업을 보다 신속하게 찾을 수 있습니다. 오케스트레이션 활동은 더 이상 필터링되지 않습니다. [자세히 알아보기](../building-journeys/using-the-journey-designer.md)
+* 규칙 기반의 이벤트 ID 조건을 정의할 때 이제 문자열 유형의 필드에 &quot;포함&quot; 연산자를 사용할 수 있습니다. [자세히 알아보기](../event/about-creating.md)
+
 ## 2021년 8월 릴리스 {#august-2021-release}
 
 ### 개선 사항
 
 **여정**
 
-* **동적 헤더**  - 이제 HTTP 헤더 매개 변수로 동적 데이터를 전달할 수 있습니다. 이러한 매개 변수는 타임스탬프 또는 추적 ID와 같이 여정 작업 HTTP 호출을 받는 통합 시스템에서 사용할 수 있습니다. [자세히 보기](../action/url-configuration.md)
+* **동적 헤더**  - 이제 HTTP 헤더 매개 변수로 동적 데이터를 전달할 수 있습니다. 이러한 매개 변수는 여정 작업 HTTP 호출(예: 타임스탬프 또는 추적 ID)을 수신하는 통합 시스템에서 사용할 수 있습니다. [자세히 보기](../action/url-configuration.md)
 * **동적 URL 경로**  - 이제 사용자 지정 작업에 대한 동적 URL 경로를 설정할 수 있습니다. [자세히 보기](../action/url-configuration.md)
 
 ## 2021년 7월 릴리스 {#july-2021-release}
@@ -544,7 +571,7 @@ Journey Orchestration 인터페이스를 일본어로 사용할 수 있습니다
 
 고객 여정 통합 운영.
 
-이벤트 또는 데이터 소스에 저장된 컨텍스트 데이터를 활용하여 실시간 편성 사용 사례를 구축할 수 있습니다.
+이벤트 또는 데이터 소스에 저장된 컨텍스트 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 구축합니다.
 
 Journey Orchestration에서는 이벤트, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 활용한 실시간 오케스트레이션이 가능합니다. 이 애플리케이션은 여러 단계로 진행되는 &#39;여정&#39;를 통해 소비자의 프로필과 행동을 토대로 하여 해당 사용자에 맞는 최적의 다음 작업을 결정합니다. 즉, 다음 작업을 수행하기에 가장 적절한 시점과 해당 작업의 유형이 모두 결정됩니다. Adobe Campaign Standard 트랜잭션 메시지 기능을 통해 소비자에게 푸시 알림을 보내거나(Adobe Campaign Standard 필요), 서드파티 시스템의 알림을 보내는 등의 작업을 예로 들 수 있습니다. 규칙과 Sensei 점수를 기반으로 이러한 사항을 결정합니다.
 

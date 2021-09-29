@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 함수
 description: 기능에 대해 알아보기
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 74%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 74%
 | 집계 | [min](../functions/functionmin.md) |
 | 집계 | [sum](../functions/functionsum.md) |
 | 전환 | [toBool](../functions/functiontobool.md) |
+| 전환 | [toDateOnly](../functions/functiontodateonly.md) |
 | 전환 | [toDateTime](../functions/functiontodatetime.md) |
 | 전환 | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
 | 전환 | [toDecimal](../functions/functiontodecimal.md) |
@@ -58,8 +59,11 @@ ht-degree: 74%
 | 날짜 | [setHours](../functions/functionsethours.md) |
 | 날짜 | [setDays](../functions/functionsetdays.md) |
 | 목록 | [distinct](../functions/functiondistinct.md) |
-| 목록 | [distinctCount](../functions/functiondistinctcount.md) |
-| 목록 | [](../functions/functionin.md)에서 |
+| 목록 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
+| 목록 | [filter](../functions/functionfilter.md) |
+| 목록 | [getListItem](../functions/functiongetlistitem.md) |
+| 목록 | [in](../functions/functionin.md) |
+| 목록 | [교차](../functions/functionintersect.md) |
 | 목록 | [listSize](../functions/functionlistsize.md) |
 | 목록 | [serializeList](../functions/functionserializelist.md) |
 | 목록 | [sort](../functions/functionsort.md) |

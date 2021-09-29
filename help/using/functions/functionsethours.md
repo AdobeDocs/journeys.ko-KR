@@ -2,14 +2,14 @@
 product: adobe campaign
 title: setHours
 description: 함수 setHours에 대해 알아봅니다.
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: d4fe578f-c3be-4c8b-98b3-090dab0c41d1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 51536b20e81cde1a7fdd7f4654d70bfe6176b0d4
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 12%
+source-wordcount: '101'
+ht-degree: 8%
 
 ---
 
@@ -43,7 +43,7 @@ datetime을 반환합니다.
 
 시간대를 고려하지 않고 datetime을 반환합니다.
 
-## 예
+## 예시
 
 `setHours(toDateTime('2010-12-12T01:11:00Z'), 4))`
 
@@ -51,4 +51,4 @@ datetime을 반환합니다.
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-내일 오후 8시에 돌아옵니다.
+내일 오후 8시 XY에 돌아옵니다. XY는 현재 시간 평가 순간에 분입니다. 평가가 오전 2시 45분에 발생하면 반환 시간은 오후 8시 45분입니다.
