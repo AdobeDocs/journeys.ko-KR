@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: 사용자 지정 작업을 사용하여 동적으로 컬렉션 전달
 description: Campaign v7/v8을 사용하여 메시지 보내기
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 8225167c686112f737d2b6ca22237324a6189b09
+source-git-commit: ded8f65e7210c252f59ec26150daaa964c7a6a77
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 4%
@@ -148,7 +148,7 @@ ht-degree: 4%
 
    ![](../assets/uc-collection-4.png)
 
-배열 필드의 경우 고급 표현식 편집기를 사용하여 데이터 조작을 수행할 수도 있습니다. 다음 예제에서는 [filter](../functions/functionfilter.md) 및 [intersect](../functions/functiontintersect.md) 함수를 사용합니다.
+배열 필드의 경우 고급 표현식 편집기를 사용하여 데이터 조작을 수행할 수도 있습니다. 다음 예제에서는 [filter](../functions/functionfilter.md) 및 [intersect](../functions/functionintersect.md) 함수를 사용합니다.
 
 ![](../assets/uc-collection-5.png)
 
