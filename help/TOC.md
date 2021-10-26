@@ -6,9 +6,9 @@ user-guide-description: 여정 구현 및 구축 방법에 대한 지침을 확�
 index: true
 feature: Journeys
 source-git-commit: 5c3cc59d83b4b88c8ba9bde1bb8ea15a29e069be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
    + [릴리스 정보](using/release-notes/release-notes.md)
    + [설명서 업데이트](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] 시작 {#starting-with-journeys}
-   + [정보 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [ [!DNL Journey Orchestration] 정보](using/about/about-journey-orchestration.md)
    + [제한 사항](using/about/limitations.md)
    + [시작](using/about/get-started.md)
    + [사용자 인터페이스](using/about/user-interface.md)
@@ -93,7 +93,7 @@ ht-degree: 97%
       + [journeyStep 이벤트 데이터 가져오기 필드](using/building-journeys/sharing-fetch-fields.md)
       + [journeyStep 이벤트 ID 필드](using/building-journeys/sharing-identity-fields.md)
       + [여정 필드](using/building-journeys/sharing-journey-fields.md)
-      + [쿼리의 예](using/building-journeys/query-examples.md)
+      + [쿼리 예제](using/building-journeys/query-examples.md)
 + 고급 표현식 편집기 사용 {#building-advanced-conditions-journeys}
    + [고급 표현식 편집기 정보](using/expression/expressionadvanced.md)
    + 구문 {#syntax}
@@ -148,7 +148,7 @@ ht-degree: 97%
          + [filter](using/functions/functionfilter.md)
          + [getListItem](using/functions/functiongetlistitem.md)
          + [in](using/functions/functionin.md)
-         + [교차](using/functions/functionintersect.md)
+         + [intersect](using/functions/functionintersect.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
@@ -198,6 +198,6 @@ ht-degree: 97%
       + [데이터 소스 구성](using/usecase/configuring-the-data-sources.md)
       + [여정 구축](using/usecase/building-the-journey.md)
    + [Campaign v7/v8을 사용하여 메시지 보내기](using/usecase/campaign-classic-use-case.md)
-   + [사용자 지정 작업을 사용하여 동적으로 컬렉션 전달](using/usecase/collections.md)
+   + [사용자 지정 작업으로 컬렉션을 동적으로 보내기](using/usecase/collections.md)
 + API 작업{#working-with-apis}
    + [API 한도 설정](using/api/capping.md)
