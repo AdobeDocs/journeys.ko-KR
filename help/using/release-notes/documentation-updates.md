@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: ed09f77617ae193ef7a217222f831f17ffc6b07c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '902'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 93%
 
 ## 2021년 9월
 
-* 다음 함수 페이지가 업데이트되었습니다. [set](../functions/functionsethours.md), [getListItem](../functions/functiongetlistitem.md), [inSegment](../functions/functioninsegment.md)
+* 함수 페이지 업데이트: [sethours](../functions/functionsethours.md), [getListItem](../functions/functiongetlistitem.md), [inSegment](../functions/functioninsegment.md)
 
-* 다음 기능이 추가되었습니다. [필터](../functions/functionfilter.md), [intersect](../functions/functionintersect.md), [toDateOnly](../functions/functiontodateonly.md)
+* 함수 추가: [filter](../functions/functionfilter.md), [intersect](../functions/functionintersect.md), [toDateOnly](../functions/functiontodateonly.md)
 
-* dateOnly 날짜 유형이 표현식 편집기 설명서에 추가되었습니다. [자세히 보기](../expression/data-types.md)
+* 표현식 편집기 설명서에 dateOnly 날짜 유형을 추가했습니다. [자세히 보기](../expression/data-types.md)
 
-* 사용자 지정 작업 캐시 기간에 대한 세부 사항이 추가되었습니다. [자세히 보기](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* 사용자 지정 작업 캐시 지속 시간에 대해 자세한 정보를 추가했습니다. [자세히 보기](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 
-* 사용자 지정 작업 기본 포트에 대한 정보가 추가되었습니다. [자세히 보기](../action/url-configuration.md)
+* 사용자 지정 작업 기본 포트에 대한 정보를 추가했습니다. [자세히 보기](../action/url-configuration.md)
 
-* 데이터 레이크에서 여정 단계 이벤트를 쿼리하는 데 일반적으로 사용되는 예를 추가했습니다. [자세히 보기](../building-journeys/query-examples.md)
+* 데이터 레이크의 여정 단계 이벤트 쿼리에 대해 많이 쓰이는 사례를 추가했습니다. [자세히 보기](../building-journeys/query-examples.md)
 
 ## 2021년 8월
 
