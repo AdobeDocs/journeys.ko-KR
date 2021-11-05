@@ -2,13 +2,13 @@
 product: adobe campaign
 title: listSize
 description: 함수 listSize에 대해 알아보기
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: c0d34a8d-33e9-4c7b-9b7d-a1b21ed96d35
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '47'
 ht-degree: 34%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 34%
 | 목록 | listDuration |
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
+| 목록 | listDateOnly |
 
 ## 서명 및 반환된 유형
 
@@ -50,6 +51,8 @@ ht-degree: 34%
 `listSize(<listDateTimeOnly>)`
 
 `listSize(<listDateTime>)`
+
+`listSize(<listDateOnly>)`
 
 `listSize(<listDuration>)`
 

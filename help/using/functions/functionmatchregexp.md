@@ -2,20 +2,20 @@
 product: adobe campaign
 title: matchRegExp
 description: matchRegExp 함수에 대해 알아봅니다.
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 751fdcde-0af5-4f98-8cea-aae3ebefdb04
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 13%
+source-wordcount: '85'
+ht-degree: 12%
 
 ---
 
 # matchRegExp {#matchRegExp}
 
-첫 번째 매개 변수의 문자열이 두 번째 매개 변수의 정규 표현식과 일치하면 true를 반환합니다. 자세한 내용은 [이 페이지](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)를 참조하십시오.
+첫 번째 매개 변수의 문자열이 두 번째 매개 변수의 정규 표현식과 일치하면 true를 반환합니다. 자세한 내용은 [이 페이지](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
 
 ## 카테고리
 
@@ -36,7 +36,7 @@ ht-degree: 13%
 
 `matchRegExp(<string>,<string>)`
 
-true를 반환합니다.
+부울을 반환합니다.
 
 ## 예
 

@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 74%
+ht-degree: 73%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 74%
 | 목록 | [filter](../functions/functionfilter.md) |
 | 목록 | [getListItem](../functions/functiongetlistitem.md) |
 | 목록 | [in](../functions/functionin.md) |
-| 목록 | [교차](../functions/functionintersect.md) |
+| 목록 | [intersect](../functions/functionintersect.md) |
 | 목록 | [listSize](../functions/functionlistsize.md) |
 | 목록 | [serializeList](../functions/functionserializelist.md) |
 | 목록 | [sort](../functions/functionsort.md) |
@@ -71,10 +71,10 @@ ht-degree: 74%
 | 수학 | [round](../functions/functionround.md) |
 | 문자열 | [concat](../functions/functionconcat.md) |
 | 문자열 | [contain](../functions/functioncontain.md) |
-| 문자열 | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
+| 문자열 | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
 | 문자열 | [endWith](../functions/functionendwith.md) |
 | 문자열 | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| 문자열 | [equalWithIgnoreCase](../functions/functionequalignorecase.md) |
+| 문자열 | [equalIgnoreCase](../functions/functionequalignorecase.md) |
 | 문자열 | [indexOf](../functions/functionindexof.md) |
 | 문자열 | [isEmpty](../functions/functionisempty.md) |
 | 문자열 | [isNotEmpty](../functions/functionisnotempty.md) |
@@ -82,7 +82,7 @@ ht-degree: 74%
 | 문자열 | [length](../functions/functionlength.md) |
 | 문자열 | [lower](../functions/functionlower.md) |
 | 문자열 | [matchRegExp](../functions/functionmatchregexp.md) |
-| 문자열 | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
+| 문자열 | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
 | 문자열 | [replace](../functions/functionreplace.md) |
 | 문자열 | [replaceAll](../functions/functionreplaceall.md) |
 | 문자열 | [startWith](../functions/functionstartwith.md) |

@@ -2,14 +2,14 @@
 product: adobe campaign
 title: distinctWithNull
 description: distinctWithNull 함수에 대해 알아봅니다.
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 65a904c1-14ff-42b3-8f03-abb97ef47625
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 16%
+source-wordcount: '106'
+ht-degree: 15%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 16%
 | 목록 | listDuration |
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
+| 목록 | listDateOnly |
 
 ## 서명 및 반환된 형식
 
@@ -59,6 +60,10 @@ ht-degree: 16%
 
 datetime 목록을 반환합니다.
 
+`distinctWithNull(<listDateOnly>)`
+
+날짜 목록을 반환합니다.
+
 `distinctWithNull(<listBoolean>)`
 
 부울 목록을 반환합니다.
@@ -67,8 +72,8 @@ datetime 목록을 반환합니다.
 
 지속 시간 목록을 반환합니다.
 
-## 예
+## 예시
 
 `distinctWithNull([10,2,10,null])`
 
-[10, 2, null] 반환
+반환 [10, 2, null]

@@ -2,14 +2,14 @@
 product: adobe campaign
 title: count
 description: 함수 개수에 대해 알아보기
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 46528642-18d5-4ca9-a344-de2c7f939d00
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 31%
+source-wordcount: '52'
+ht-degree: 30%
 
 ---
 
@@ -36,6 +36,7 @@ null 값을 고려하지 않는 목록의 요소를 계산합니다.
 | 목록 | listDuration |
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
+| 목록 | listDateOnly |
 
 ## 서명 및 반환된 유형
 

@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: equalWithIgnoreCase
-description: equalWithIgnoreCase 함수에 대해 알아봅니다.
-feature: 여정
+title: equalIgnoreCase
+description: equalIgnoreCase 함수에 대해 알아봅니다.
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9311c799-a4e6-47b3-9867-b09093d3a981
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 21%
+source-wordcount: '36'
+ht-degree: 13%
 
 ---
 
-# equalWithIgnoreCase {#equalWithIgnoreCase}
+# equalIgnoreCase {#equalIgnoreCase}
 
 대/소문자 고려 사항을 무시하고 첫 번째 인수 문자열을 두 번째 인수 문자열로 비교합니다.
 
@@ -23,7 +23,7 @@ ht-degree: 21%
 
 ## 함수 구문
 
-`equalWithIgnoreCase(<parameters>)`
+`equalIgnoreCase(<parameters>)`
 
 ## 매개 변수
 
@@ -31,12 +31,12 @@ ht-degree: 21%
 
 ## 서명 및 반환된 형식
 
-`equalWithIgnoreCase(<string>,<string>)`
+`equalIgnoreCase(<string>,<string>)`
 
 부울을 반환합니다.
 
 ## 예
 
-`equalWithIgnoreCase("rowing is great', "rowing is GREAT")`
+`equalIgnoreCase("rowing is great", "rowing is GREAT")`
 
 true를 반환합니다.

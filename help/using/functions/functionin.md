@@ -1,23 +1,23 @@
 ---
 product: adobe campaign
-title: 에서
+title: in
 description: 의 함수에 대해 알아봅니다.
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 6a19ae25-99c9-47f9-8417-c3d247dbbe3f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 17%
+source-wordcount: '113'
+ht-degree: 19%
 
 ---
 
-# 에서 {#in}
+# in {#in}
 
 첫 번째 인수 값이 목록에 있는지 확인합니다. 확인은 각 인수 값에 대해 Equal 를 통해 수행됩니다. 인수 값을 찾으면 true를 반환하고, 그렇지 않으면 false를 반환합니다.
 
-`<expression>` 유형은 목록의 항목과 일치해야 합니다. 목록의 항목 유형은 미리 알림으로 서로 일치해야 합니다.
+의 유형 `<expression>` 는 목록의 항목과 일치해야 합니다. 목록의 항목 유형은 미리 알림으로 서로 일치해야 합니다.
 
 ## 카테고리
 
@@ -45,6 +45,7 @@ ht-degree: 17%
 | 목록 | listDuration |
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
+| 목록 | listDateOnly |
 
 ## 서명 및 반환된 형식
 
@@ -59,6 +60,8 @@ ht-degree: 17%
 `in(<dateTimeOnly>,<listDateTimeOnly>)`
 
 `in(<dateTime>,<listDateTime>)`
+
+`in(<dateOnly>,<listDateOnly>)`
 
 `in(<duration>,<listDuration>)`
 

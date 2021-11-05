@@ -2,14 +2,14 @@
 product: adobe campaign
 title: sort
 description: 함수 정렬에 대해 알아보기
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 17%
+source-wordcount: '111'
+ht-degree: 18%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 17%
 | 목록 | listDuration |
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
+| 목록 | listDateOnly |
 | 부울 | 부울 |
 
 ## 서명 및 반환된 형식
@@ -59,6 +60,10 @@ ht-degree: 17%
 `sort(<listDateTime>,<boolean>)`
 
 datetime 목록을 반환합니다.
+
+`sort(<listDateOnly>,<boolean>)`
+
+날짜 목록을 반환합니다.
 
 `sort(<listBoolean>,<boolean>)`
 

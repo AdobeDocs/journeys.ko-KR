@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
-title: 교차
+title: intersect
 description: 함수 교차에 대해 알아보기
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
-source-git-commit: f2f5cc29f5079419662439f1cb1dee8fcb1b1ab9
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -34,29 +34,29 @@ ht-degree: 10%
 
 ## 서명 및 반환된 형식
 
-`intersect(listString,listString)`: listString 
-`intersect(listDecimal,listDecimal)`: listDecimal 
-`intersect(listInteger,listInteger)`: listInteger 
-`intersect(listDateTime,listDateTime)`: listDateTime 
-`intersect(listDateTimeOnly,listDateTimeOnly)`: listDateTimeOnly 
-`intersect(listDateOnly,listDateOnly)`: listDateOnly 
-`intersect(listDuration,listDuration)`: listDuration 
+`intersect(listString,listString)`: listString
+`intersect(listDecimal,listDecimal)`: listDecimal
+`intersect(listInteger,listInteger)`: listInteger
+`intersect(listDateTime,listDateTime)`: listDateTime
+`intersect(listDateTimeOnly,listDateTimeOnly)`: listDateTimeOnly
+`intersect(listDateOnly,listDateOnly)`: listDateOnly
+`intersect(listDuration,listDuration)`: listDuration
 `intersect(listBoolean,listBoolean)`: listBoolean
 
 목록을 반환합니다.
 
 ## 예시
 
-```
+```json
 intersect(
     ["sports", "news", "documentary"],
     ["sports", "movies", "documentary"]
 )
 ```
 
-[&quot;sports&quot;, &quot;news&quot;] 반환
+반환 [&quot;sports&quot;, &quot;news&quot;]
 
-```
+```json
 intersect(
     #{ExperienceDataPlatform.profile.interests},
     ["sports", "news", "documentary"]
@@ -65,10 +65,10 @@ intersect(
 
 프로필 속성과 지정된 카테고리 목록 사이의 공통 항목을 반환합니다.
 
-```
+```json
 intersect(
-        	#{ExperienceDataPlatform.profile.interests},
-            @{myEvent.sport_interests}
+    #{ExperienceDataPlatform.profile.interests},
+        @{myEvent.sport_interests}
 )
 ```
 

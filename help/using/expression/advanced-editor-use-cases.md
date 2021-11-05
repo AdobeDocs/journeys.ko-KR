@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 고급 표현식 편집기 사용
 description: 고급 표현식을 작성하는 방법에 대해 알아보기
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 601bed30d3c414f03c60ef52c787372e778dee54
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '492'
 ht-degree: 2%
 
 ---
@@ -50,22 +50,22 @@ ht-degree: 2%
 
 지정한 타임스탬프가 날짜 시간 값으로 작동하며, 두 번째는 일 수입니다.
 
-```
-        In( “addToCart”, #{ExperiencePlatformDataSource
+```json
+        in( "addToCart", #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
                         .productInteraction})
-        And
-        Not(In( “completePurchase”, #{ExperiencePlatformDataSource
+        and
+        not(in( "completePurchase", #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
-                        .productInteraction})
+                        .productInteraction}))
 ```
 
 이 표현식은 부울을 반환합니다.
@@ -76,20 +76,20 @@ ht-degree: 2%
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
-* 오른쪽에서는 필요한 값이 지정되며, 여기서는 &quot;DeliveryLumaStudio&quot; 이벤트의 위치에서 매핑되는 저장소의 위치를 검색해야 합니다.
+* 오른쪽에서는 필요한 값이 지정되며, 여기에서 &quot;DeliveryLumaStudio&quot; 이벤트의 위치에서 매핑되는 저장소의 위치를 검색해야 합니다.
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* 및 `first` 함수를 사용하여 최신 &quot;addToCart&quot; 상호 작용을 검색하는 SKU를 지정합니다.
+* 및 함수를 사용하여 SKU를 지정합니다 `first` 가장 최근 &quot;addToCart&quot; 상호 작용을 검색하려면
 
-   ```
+   ```json
        #{ExperiencePlatformDataSource
                        .ExperienceEventFieldGroup
                        .experienceevent
                        .first(
                        currentDataPackField
                        .productData
-                       .productInteraction == “addToCart”
+                       .productInteraction == "addToCart"
                        )
                        .SKU}
    ```
@@ -102,7 +102,7 @@ ht-degree: 2%
 
 이 조건은 &quot;Arlington&quot;에서 트리거된 지오펜스 이벤트만 검색합니다.
 
-```
+```json
         @{GeofenceEntry
                     .placeContext
                     .POIinteraction
@@ -110,11 +110,11 @@ ht-degree: 2%
                     .name} == "Arlington"
 ```
 
-설명: `Is sensitive`이 선택된 상태로 `equal to`을 사용하는 단순 모드의 질의와 동일한 엄격한 문자열 비교(대/소문자 구분)입니다.
+설명: 이는 를 사용하는 단순 모드의 질의와 동일한 엄격한 문자열 비교(대/소문자 구분)입니다 `equal to` with `Is sensitive` 확인됨.
 
-`Is sensitive` 을 선택하지 않은 동일한 쿼리는 고급 모드에서 다음 표현식을 생성합니다.
+과 동일한 쿼리 `Is sensitive` 선택 취소하면 고급 모드에서 다음 표현식이 생성됩니다.
 
-```
+```json
         equalIgnoreCase(@{GeofenceEntry
                         .placeContext
                         .POIinteraction
@@ -126,7 +126,7 @@ ht-degree: 2%
 
 다음 표현식을 사용하면 작업 개인화 필드에서 CRM ID를 정의할 수 있습니다.
 
-```
+```json
     substr(@{MobileAppLaunch
             ._myorganization
             .identification
@@ -135,10 +135,9 @@ ht-degree: 2%
                         ._myorganization
                         .identification
                         .crmid}
-                         }
                          ))
 ```
 
-설명: 이 예제에서는 `substr` 및 `lastIndexOf` 함수를 사용하여 모바일 앱 실행 이벤트와 함께 전달된 CRM ID를 포함하는 중괄호를 제거합니다.
+설명: 이 예에서는 을 사용합니다 `substr` 및 `lastIndexOf` 모바일 앱 실행 이벤트와 함께 전달된 CRM ID를 포함하는 중괄호를 제거하는 함수입니다.
 
-고급 표현식 편집기를 사용하는 방법에 대한 자세한 내용은 [이 비디오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html)를 시청하십시오.
+고급 표현식 편집기를 사용하는 방법에 대한 자세한 내용은 [이 비디오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).

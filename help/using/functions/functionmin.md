@@ -2,14 +2,14 @@
 product: adobe campaign
 title: min
 description: 최소 함수에 대해 알아보기
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 7e13a08c-c51a-4d40-a3e2-ef70bd3edca5
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 7%
+source-wordcount: '92'
+ht-degree: 6%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 7%
 * listDecimal
 * listDateTime
 * listDateTimeOnly
+* listDateOnly
 * 기간
 * 정수
 * 십진수
@@ -55,6 +56,10 @@ ht-degree: 7%
 `min(<listDateTime>)`
 
 datetime을 반환합니다.
+
+`min(<listDateOnly>)`
+
+날짜를 반환합니다.
 
 `min(<listDecimal>)`
 
@@ -80,7 +85,7 @@ datetime을 반환합니다.
 
 정수를 반환합니다.
 
-## 예
+## 예시
 
 `min(@{BarBeacon.inventory},5)`
 

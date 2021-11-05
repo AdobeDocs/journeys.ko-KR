@@ -2,14 +2,14 @@
 product: adobe campaign
 title: distinctCountWithNull
 description: distinctCountWithNull 함수에 대해 알아봅니다.
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b8380d30-160e-45c2-b187-34eb42845923
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 33%
+source-wordcount: '49'
+ht-degree: 32%
 
 ---
 
@@ -36,10 +36,11 @@ null 값을 포함하여 다른 값의 수를 계산합니다.
 | 목록 | listDuration |
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
+| 목록 | listDateOnly |
 
 ## 서명 및 반환된 형식
 
-`distinctCountwithNull(<listAny>)`
+`distinctCountWithNull(<listAny>)`
 
 정수를 반환합니다.
 

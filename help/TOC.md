@@ -5,10 +5,10 @@ title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축 방법에 대한 지침을 확인할 수 있습니다.
 index: true
 feature: Journeys
-source-git-commit: 5c3cc59d83b4b88c8ba9bde1bb8ea15a29e069be
-workflow-type: ht
-source-wordcount: '433'
-ht-degree: 100%
+source-git-commit: b557e94076bc7ce5c212246ddf313248ca10dd60
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 96%
 
 ---
 
@@ -88,11 +88,14 @@ ht-degree: 100%
    + [여정 게시](using/building-journeys/publishing-the-journey.md)
    + Adobe Experience Platform과 여정 단계 공유 {#sharing-journey-steps}
       + [여정 단계 공유 개요](using/building-journeys/sharing-overview.md)
-      + [journeySteps 이벤트 공통 필드](using/building-journeys/sharing-common-fields.md)
-      + [journeyStep 이벤트 작업 실행 필드](using/building-journeys/sharing-execution-fields.md)
-      + [journeyStep 이벤트 데이터 가져오기 필드](using/building-journeys/sharing-fetch-fields.md)
-      + [journeyStep 이벤트 ID 필드](using/building-journeys/sharing-identity-fields.md)
-      + [여정 필드](using/building-journeys/sharing-journey-fields.md)
+      + [단계 이벤트 필드 목록](using/building-journeys/sharing-field-list.md)
+      + 이전 단계 이벤트 필드 {#legacy-step-event-fields}
+         + [기존 필드 정보](using/building-journeys/sharing-legacy-fields.md)
+         + [journeySteps 이벤트 공통 필드](using/building-journeys/sharing-common-fields.md)
+         + [journeyStep 이벤트 작업 실행 필드](using/building-journeys/sharing-execution-fields.md)
+         + [journeyStep 이벤트 데이터 가져오기 필드](using/building-journeys/sharing-fetch-fields.md)
+         + [journeyStep 이벤트 ID 필드](using/building-journeys/sharing-identity-fields.md)
+         + [여정 필드](using/building-journeys/sharing-journey-fields.md)
       + [쿼리 예제](using/building-journeys/query-examples.md)
 + 고급 표현식 편집기 사용 {#building-advanced-conditions-journeys}
    + [고급 표현식 편집기 정보](using/expression/expressionadvanced.md)
@@ -158,10 +161,10 @@ ht-degree: 100%
       + 문자열 {#string}
          + [concat](using/functions/functionconcat.md)
          + [contain](using/functions/functioncontain.md)
-         + [containWithIgnoreCase](using/functions/functioncontainwithignorecase.md)
+         + [containIgnoreCase](using/functions/functioncontainwithignorecase.md)
          + [endWith](using/functions/functionendwith.md)
          + [endWithIgnorecase](using/functions/functionendwithignorecase.md)
-         + [equalWithIgnoreCase](using/functions/functionequalignorecase.md)
+         + [equalIgnoreCase](using/functions/functionequalignorecase.md)
          + [indexOf](using/functions/functionindexof.md)
          + [isEmpty](using/functions/functionisempty.md)
          + [isNotEmpty](using/functions/functionisnotempty.md)
@@ -169,7 +172,7 @@ ht-degree: 100%
          + [length](using/functions/functionlength.md)
          + [lower](using/functions/functionlower.md)
          + [matchRegExp](using/functions/functionmatchregexp.md)
-         + [notEqualWithIgnoreCase](using/functions/functionnotequalignorecase.md)
+         + [notequalIgnoreCase](using/functions/functionnotequalignorecase.md)
          + [replace](using/functions/functionreplace.md)
          + [replaceAll](using/functions/functionreplaceall.md)
          + [split](using/functions/functionsplit.md)

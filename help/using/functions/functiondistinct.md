@@ -2,14 +2,14 @@
 product: adobe campaign
 title: distinct
 description: 고유한 기능에 대해 알아보기
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 034e4d77-2f0e-4117-9fd4-b9e35ef71a39
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 20%
+source-wordcount: '90'
+ht-degree: 18%
 
 ---
 
@@ -36,6 +36,7 @@ null 값 없이 목록의 고유 값을 반환합니다.
 | 목록 | listDuration |
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
+| 목록 | listDateOnly |
 
 ## 서명 및 반환된 형식
 
@@ -59,6 +60,10 @@ null 값 없이 목록의 고유 값을 반환합니다.
 
 datetime 목록을 반환합니다.
 
+`distinct(<listDateOnly>)`
+
+날짜 목록을 반환합니다.
+
 `distinct(<listBoolean>)`
 
 부울 목록을 반환합니다.
@@ -67,7 +72,7 @@ datetime 목록을 반환합니다.
 
 지속 시간 목록을 반환합니다.
 
-## 예
+## 예시
 
 `distinct([10,2,10,null])`
 

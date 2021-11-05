@@ -2,14 +2,14 @@
 product: adobe campaign
 title: serializeList
 description: serializeList 함수에 대해 알아봅니다.
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 84912d38-32ee-4cfe-8cb4-bad12f9c52af
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 20%
+source-wordcount: '88'
+ht-degree: 22%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 20%
 | 목록 | listDuration |
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
+| 목록 | listDateOnly |
 
 ## 서명 및 반환된 형식
 
@@ -53,6 +54,8 @@ ht-degree: 20%
 `serializeList(<listDateTimeOnly>,<string>,<boolean>)`
 
 `serializeList(<listDateTime>,<string>,<boolean>)`
+
+`serializeList(<listDateOnly>,<string>,<boolean>)`
 
 `serializeList(<listDuration>,<string>,<boolean>)`
 
