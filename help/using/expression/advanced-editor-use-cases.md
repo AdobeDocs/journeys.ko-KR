@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: 601bed30d3c414f03c60ef52c787372e778dee54
+source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
 * 첫 번째 함수는 가장 최근 이벤트를 반환합니다
 * 마지막 함수는 가장 오래된 함수를 반환합니다.
 
-예를 들어 고객이 스토어에 가까워지면 고객이 원하는 항목에 대한 오퍼가 포함된 메시지를 보내기 위해 지난 7일 동안 장바구니 포기 고객을 타겟팅한다고 가정합니다.
+예를 들어 고객이 스토어에 가까워지면 장바구니에 저장된 항목에 대한 오퍼와 함께 메시지를 보낼 수 있도록 지난 7일 동안 장바구니 포기 고객을 타겟팅한다고 가정합니다.
 
 **다음 조건을 빌드해야 합니다.**
 
@@ -127,15 +127,20 @@ ht-degree: 2%
 다음 표현식을 사용하면 작업 개인화 필드에서 CRM ID를 정의할 수 있습니다.
 
 ```json
-    substr(@{MobileAppLaunch
-            ._myorganization
-            .identification
-            .crmid}, 1, 
-            lastIndexOf(@{MobileAppLaunch
-                        ._myorganization
-                        .identification
-                        .crmid}
-                         ))
+substr(
+   @{MobileAppLaunch
+   ._myorganization
+   .identification
+   .crmid},
+   1, 
+   lastIndexOf(
+     @{MobileAppLaunch
+     ._myorganization
+     .identification
+     .crmid},
+     '}'
+   )
+)
 ```
 
 설명: 이 예에서는 을 사용합니다 `substr` 및 `lastIndexOf` 모바일 앱 실행 이벤트와 함께 전달된 CRM ID를 포함하는 중괄호를 제거하는 함수입니다.

@@ -5,9 +5,9 @@ title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축 방법에 대한 지침을 확인할 수 있습니다.
 index: true
 feature: Journeys
-source-git-commit: b557e94076bc7ce5c212246ddf313248ca10dd60
+source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '438'
 ht-degree: 96%
 
 ---
@@ -97,8 +97,8 @@ ht-degree: 96%
          + [journeyStep 이벤트 ID 필드](using/building-journeys/sharing-identity-fields.md)
          + [여정 필드](using/building-journeys/sharing-journey-fields.md)
       + [쿼리 예제](using/building-journeys/query-examples.md)
-+ 고급 표현식 편집기 사용 {#building-advanced-conditions-journeys}
-   + [고급 표현식 편집기 정보](using/expression/expressionadvanced.md)
++ 표현식 작성 {#building-advanced-conditions-journeys}
+   + [개요](using/expression/expressionadvanced.md)
    + 구문 {#syntax}
       + [일반성](using/expression/generalities.md)
       + [조건부 지침](using/expression/conditional-instruction.md)
@@ -145,6 +145,7 @@ ht-degree: 96%
          + [nowWithDelta](using/functions/functionnowwithdelta.md)
          + [setHours](using/functions/functionsethours.md)
          + [setDays](using/functions/functionsetdays.md)
+         + [updateTimeZone](using/functions/functionupdatetimezone.md)
       + 목록 {#list}
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
