@@ -2,20 +2,20 @@
 product: adobe campaign
 title: now
 description: 지금 함수 알아보기
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: ab1f9efe-cbb7-4e3a-ace0-24f2fb6165cb
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 20%
+source-wordcount: '49'
+ht-degree: 18%
 
 ---
 
 # now {#now}
 
-현재 날짜를 날짜 시간 형식으로 반환합니다. 데이터 유형에 대한 자세한 내용은 [이 페이지](../expression/data-types.md)를 참조하십시오.
+현재 날짜를 날짜 시간 형식으로 반환합니다. 데이터 유형에 대한 자세한 내용은 [이 페이지](../expression/data-types.md).
 
 ## 카테고리
 
@@ -39,7 +39,7 @@ ht-degree: 20%
 
 dateTime 반환
 
-## 예
+## 예시
 
 `now()`
 

@@ -2,20 +2,20 @@
 product: adobe campaign
 title: toDuration
 description: toDuration 함수에 대해 알아봅니다.
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 77f068fa-678e-49a4-b45f-843c3287390a
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '279'
 ht-degree: 3%
 
 ---
 
 # toDuration {#toDuration}
 
-인수 값을 기간으로 변환합니다. 데이터 유형에 대한 자세한 내용은 [이 페이지](../expression/data-types.md)를 참조하십시오.
+인수 값을 기간으로 변환합니다. 데이터 유형에 대한 자세한 내용은 [이 페이지](../expression/data-types.md).
 
 ## 카테고리
 
@@ -44,7 +44,7 @@ ht-degree: 3%
 
 지속 시간을 반환합니다.
 
-## 예
+## 예시
 
 `toDuration("PT10H")`
 

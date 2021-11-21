@@ -1,6 +1,6 @@
 ---
-title: 쿼리의 예
-description: 쿼리의 예
+title: 쿼리 예제
+description: 쿼리 예제
 topic: Content Management
 role: User
 level: Intermediate
@@ -8,11 +8,11 @@ exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: e758d4430bb28c109633c96e330b56ad08a61c02
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# 쿼리의 예{#query-examples}
+# 쿼리 예제{#query-examples}
 
 이 섹션에는 데이터 레이크에서 여정 단계 이벤트를 쿼리하는 데 일반적으로 사용되는 몇 가지 예제가 나와 있습니다.
 
@@ -70,7 +70,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 ### 프로필에서 특정 메시지를 보냈는지 확인
 
-**방법 1:**  메시지 이름이 여정에서 고유하지 않은 경우(여러 위치에서 사용).
+**방법 1:** 메시지 이름이 여정에서 고유하지 않은 경우(여러 위치에서 사용됨).
 
 _Data Lake 쿼리_
 

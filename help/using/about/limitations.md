@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Journey Orchestration 제한 사항
 description: Journey Orchestration 제한에 대해 자세히 알아보기
-feature: 여정
+feature: Journeys
 role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
@@ -21,18 +21,18 @@ ht-degree: 2%
 
 * 전송 제한이 없습니다. 
 * 오류가 발생한 경우 세 번 다시 시도가 체계적으로 수행됩니다. 받은 오류 메시지에 따라 다시 시도 횟수를 조정할 수 없습니다. 
-* 기본 제공 **Reaction** 이벤트를 사용하면 기본 작업에 응답할 수 있습니다( 이 [page](../building-journeys/reaction-events.md) 참조). 사용자 지정 작업을 통해 전송된 메시지에 응답하려면 전용 이벤트를 구성해야 합니다. 
+* 기본 제공 **반응** 이벤트를 사용하면 기본 작업에 대응할 수 있습니다(다음 참조) [페이지](../building-journeys/reaction-events.md)). 사용자 지정 작업을 통해 전송된 메시지에 응답하려면 전용 이벤트를 구성해야 합니다. 
 
 ## 여정 버전 제한 사항 {#journey-versions-limitations}
 
-* v1에서 이벤트 활동으로 시작하는 여정은 이후 버전의 이벤트 이외의 항목으로 시작할 수 없습니다. **여정 자격** 이벤트로 세그먼트를 시작할 수 없습니다.
-* v1에서 **세그먼트 자격** 활동으로 시작하는 여정은 항상 추가 버전에서 **세그먼트 자격**&#x200B;으로 시작해야 합니다.
-* **세그먼트 자격**(첫 번째 노드)에서 선택한 세그먼트와 네임스페이스는 새 버전에서 변경할 수 없습니다.
+* v1에서 이벤트 활동으로 시작하는 여정은 이후 버전의 이벤트 이외의 항목으로 시작할 수 없습니다. 여정은 **세그먼트 자격** 이벤트.
+* 다음으로 시작하는 여정 **세그먼트 자격** v1의 활동은 항상 **세그먼트 자격** 추가 버전.
+* 에서 선택한 세그먼트 및 네임스페이스 **세그먼트 자격** (첫 번째 노드)는 새 버전에서 변경할 수 없습니다.
 * 재시작 규칙은 모든 여정 버전에서 동일해야 합니다.
 
 ## 세그먼트 자격 조건 {#segment-qualification}
 
-* 처리량 제한으로 인해 **세그먼트 자격** 활동을 Adobe Campaign Standard 트랜잭션 메시지와 함께 사용할 수 없습니다. [Adobe Campaign Standard 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html)을 참조하십시오. 
+* 다음 **세그먼트 자격** 처리량 제한으로 인해 활동을 Adobe Campaign Standard 트랜잭션 메시지와 함께 사용할 수 없습니다. 자세한 내용은 [Adobe Campaign Standard 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html). 
  
 
 ## 사용자 지정 작업 제한
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 ## Adobe Campaign 작업 제한 사항
 
-* Adobe Campaign Standard 트랜잭션 메시징의 스케일은 주어진 인스턴스에 대해 채널 간에 최대 시간당 50,000개의 메시지 수입니다. [Adobe Campaign Standard 제품 설명](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)을 참조하십시오. 
+* Adobe Campaign Standard 트랜잭션 메시징의 스케일은 주어진 인스턴스에 대해 채널 간에 최대 시간당 50,000개의 메시지 수입니다. 자세한 내용은 [Adobe Campaign Standard 제품 설명](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
  
 
 ## 이벤트 제한 사항

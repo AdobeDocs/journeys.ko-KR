@@ -2,14 +2,14 @@
 product: adobe campaign
 title: setDays
 description: 함수 setDays에 대해 알아봅니다.
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: eee7bf61-9101-4959-aa93-27d0f221c517
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 13%
+source-wordcount: '74'
+ht-degree: 12%
 
 ---
 
@@ -43,10 +43,10 @@ datetime을 반환합니다.
 
 시간대를 고려하지 않고 datetime을 반환합니다.
 
-## 예
+## 예시
 
 `setDays(toDateTime('2010-12-12T01:11:00Z'), 25)`
 
-2010-12-25T01:11:00Z를 반환합니다.
+2010-12-25T01 반환:11:00Z
 
 `setDays(toDateTimeOnly(@{MyEvent.registrationDate}), 1)`

@@ -2,14 +2,14 @@
 product: adobe campaign
 title: toDateTimeOnly
 description: toDateTime 함수에 대해 알아봅니다.
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
 source-git-commit: 0c55ece133639ec001b58f73afcbc69787b98c0e
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 17%
+source-wordcount: '55'
+ht-degree: 16%
 
 ---
 
@@ -42,11 +42,11 @@ ht-degree: 17%
 
 시간대를 고려하지 않고 날짜/시간을 반환합니다.
 
-## 예
+## 예시
 
 `toDateTimeOnly ("2016-08-18")`
 
-2016-08-18T00:00:00.000을 나타내는 dateTime 반환
+2016-08-18T00을 나타내는 dateTime 반환:00:00.000
 
 `toDateTimeOnly(now())`
 

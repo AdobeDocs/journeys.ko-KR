@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 여정 필드
 description: 여정 필드
-feature: 여정
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 27%
+source-wordcount: '67'
+ht-degree: 26%
 
 ---
 
@@ -43,6 +43,6 @@ ht-degree: 27%
 
 ## version
 
-`major`.`minor`
+버전, 다음으로 표시됨 `major`.`minor`
 
 유형: 문자열

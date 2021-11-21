@@ -2,14 +2,14 @@
 product: adobe campaign
 title: toDecimal
 description: toDecimal 함수에 대해 알아보기
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 11d7013c-2190-4654-8466-920861c836f5
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 15%
+source-wordcount: '71'
+ht-degree: 14%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 15%
 
 소수점 반환
 
-## 예
+## 예시
 
 `toDecimal("4.0")`
 

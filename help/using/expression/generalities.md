@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 일반성
 description: 고급 표현식 일반성에 대해 알아봅니다
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 6%
+source-wordcount: '214'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 ## 괄호 및 식 우선 순위{#section_edf_fks_bgb}
 
-괄호를 사용하여 복잡한 표현식을 더 읽기 쉽게 만들 수 있습니다. _(&lt;expression>_ )는  _&lt;expression>_&#x200B;과 같습니다. 괄호를 사용하여 평가 순서 및 연관성을 정의할 수도 있습니다.
+괄호를 사용하여 복잡한 표현식을 더 읽기 쉽게 만들 수 있습니다. _(&lt;expression>)_ 은 _&lt;expression>_. 괄호를 사용하여 평가 순서 및 연관성을 정의할 수도 있습니다.
 
 표현식은 왼쪽에서 오른쪽으로 평가됩니다. 산술 연산자에 대한 연결을 적용해야 합니다. 복수 및 사업부의 우선 순위는 추가 및 감산보다 우선합니다. 특정 순서를 지정하려면 괄호를 추가하여 작업을 구분해야 합니다. 예:
 
@@ -32,8 +32,8 @@ ht-degree: 6%
 
 대/소문자 구분 규칙은 다음과 같습니다.
 
-* 모든 연산자(및, 또는 등) 소문자를 사용해야 합니다. 예를 들어 _`<expression1>`및`<expression2>`_&#x200B;은 유효한 표현식이지만 _`<expression1>`AND`<expression2>`_&#x200B;는 유효하지 않습니다.
-* 모든 함수 이름은 대/소문자를 구분합니다. 예를 들어 _inSegment()_&#x200B;는 유효하지만 _INSEGMENT()_ 함수는 유효하지 않습니다.
+* 모든 연산자(및, 또는 등) 소문자를 사용해야 합니다. 예, _`<expression1>`및`<expression2>`_ 는 유효한 표현식이지만 표현식은 유효한 표현식입니다 _`<expression1>`및`<expression2>`_ 은 아닙니다.
+* 모든 함수 이름은 대/소문자를 구분합니다. 예, _inSegment()_ 은 유효하지만 함수는 _INSEGMENT()_ 은 아닙니다.
 * 필드 참조 및 상수 값은 대/소문자를 구분합니다. 이 구성 요소는 언어의 기본 요소가 아니며(연산자 및 함수가 아니라) 최종 사용자가 작성합니다.
 
 ## 반환된 표현식 유형{#section_gyc_435_53b}

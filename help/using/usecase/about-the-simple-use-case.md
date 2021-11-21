@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 단순 사용 사례 정보
 description: 여정 단순 사용 사례에 대해 자세히 알아보기
-feature: 여정
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 12%
+source-wordcount: '173'
+ht-degree: 11%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 12%
 
 ## 사전 요구 사항 {#prerequisites}
 
-사용 사례를 위해 Adobe Campaign Standard에 이메일 트랜잭션 메시지 템플릿 1개를 디자인했습니다. 이벤트 트랜잭션 메시지 템플릿을 사용하고 있습니다. 이 [page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko)을 참조하십시오.
+사용 사례를 위해 Adobe Campaign Standard에 이메일 트랜잭션 메시지 템플릿 1개를 디자인했습니다. 이벤트 트랜잭션 메시지 템플릿을 사용하고 있습니다. 다음을 참조하십시오 [페이지](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko).
 
 Adobe Campaign Standard이 이메일을 보내도록 구성되어 있습니다.
 

@@ -23,7 +23,7 @@ ht-degree: 6%
 
 세그먼트 이름은 문자열 상수여야 합니다. 필드 참조나 식이 될 수 없습니다.
 
-세그먼트는 [Adobe Experience Platform](https://platform.adobe.com/segment/overview)에 정의됩니다. 표현식 편집기는 자동으로 완료된 세그먼트 목록을 제공합니다.
+세그먼트는 [Adobe Experience Platform](https://platform.adobe.com/segment/overview). 표현식 편집기는 자동으로 완료된 세그먼트 목록을 제공합니다.
 
 세그먼트에는 다음과 같은 세 가지 상태가 있을 수 있습니다.
 
@@ -31,7 +31,7 @@ ht-degree: 6%
 * 실현: 엔티티가 세그먼트를 입력하고 있습니다.
 * 종료됨: 엔티티가 세그먼트를 종료 중입니다.
 
-**실현됨** 및 **기존** 세그먼트 기여도 상태가 있는 개인만 세그먼트의 구성원으로 간주됩니다. 세그먼트를 평가하는 방법에 대한 자세한 내용은 [세분화 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)를 참조하십시오.
+오직 **실현** 및 **기존** 세그먼트 기여도 상태는 세그먼트의 구성원으로 간주됩니다. 세그먼트 평가 방법에 대한 자세한 내용은 [Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` 은(는) 입력한/기존 상태의 segmentMembership을 가지고 있음을 의미합니다.
 
@@ -63,4 +63,4 @@ Adobe Experience Platform
 
 설명:
 
-여정 인스턴스 내의 개인이 &quot;men over 50&quot;(으)로 명명된 Adobe Experience Platform 세그먼트의 일부인 경우 이 함수는 **[!UICONTROL true]**&#x200B;을 반환하고, 그렇지 않으면 **[!UICONTROL false]**&#x200B;을 반환합니다.
+함수는 **[!UICONTROL true]** 여정 인스턴스 내의 개인이 &quot;men over 50&quot;이라는 Adobe Experience Platform 세그먼트의 일부인 경우, **[!UICONTROL false]** 그렇지 않은 경우

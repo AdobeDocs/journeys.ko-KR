@@ -19,7 +19,7 @@ ht-degree: 63%
 >
 >[!DNL Journey Orchestration]을 최대한 활용하려면 인터넷 브라우저로 Chrome을 사용하는 것이 좋습니다. 인터페이스는 IMS에 정의된 언어로 표시됩니다. IMS 언어가 [!DNL Journey Orchestration]에서 지원되지 않는 경우에는 인터페이스가 영어로 표시됩니다.
 >
->이 설명서는 제품의 최근 변경 사항을 반영하여 자주 업데이트됩니다. 그러나 실제 제품 인터페이스와 약간 다른 스크린샷도 있습니다.
+>이 설명서는 제품의 최근 변경 사항을 반영하기 위해 자주 업데이트됩니다. 그러나 실제 제품 인터페이스와 약간 다른 스크린샷도 있습니다.
 
 ## [!DNL Journey Orchestration] 액세스{#accessing_journey_orchestration}
 
@@ -55,7 +55,7 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 [!D
 
 **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 및 **[!UICONTROL Actions]** 목록에서 **[!UICONTROL Creation filters]**&#x200B;을(를) 사용하여 만든 날짜와 사용자를 기준으로 필터링합니다. 예를 들어 지난 30일 동안 만든 이벤트만 표시하도록 선택할 수 있습니다.
 
-여정 목록(**[!UICONTROL Home]** 아래)에서는 **[!UICONTROL Creation filters]** 외에, 상태, 유형 및 버전(**[!UICONTROL Status and version filters]**)에 따라 표시된 여정을 필터링할 수도 있습니다. 유형은 다음과 같습니다. **[!UICONTROL Unitary event]** 또는 **[!UICONTROL Segment qualification]** **[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**&#x200B;를 사용하면 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정만 표시하도록 선택할 수도 있습니다. 그리고 **[!UICONTROL Publication filters]**&#x200B;를 사용하면 게시 날짜나 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 여정의 최신 버전만 표시하도록 선택할 수 있습니다. [이 페이지](../building-journeys/using-the-journey-designer.md)를 참조하십시오.
+여정 목록(아래) **[!UICONTROL Home]**) 내의 모든 세그먼트를 **[!UICONTROL Creation filters]**, 상태, 유형 및 버전에 따라 표시된 여정을 필터링할 수도 있습니다(**[!UICONTROL Status and version filters]**). 유형은 다음과 같습니다. **[!UICONTROL Unitary event]** 또는 **[!UICONTROL Segment qualification]**. **[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**&#x200B;를 사용하면 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정만 표시하도록 선택할 수도 있습니다. 그리고 **[!UICONTROL Publication filters]**&#x200B;를 사용하면 게시 날짜나 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 여정의 최신 버전만 표시하도록 선택할 수 있습니다. [이 페이지](../building-journeys/using-the-journey-designer.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ Adobe Journey Optimizer의 액세스 가능성 기능은 Adobe Experience Platfo
 * 색상 대비
 * 필수 필드 유효성 검사
 
-[Adobe Experience Platform 설명서에서 자세한](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html) 내용{target=&quot;_blank&quot;}.
+[추가 정보](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html)Adobe Experience Platform 설명서의 {target=&quot;_blank&quot;}.
 
 Adobe Journey Optimizer에서 다음과 같은 일반적인 키보드 단축키를 사용할 수 있습니다.
 
@@ -107,7 +107,7 @@ Adobe Journey Optimizer에서 다음과 같은 일반적인 키보드 단축키�
 | 포커스에 있는 요소 선택 또는 지우기 | Enter 키 또는 스페이스바 |
 | 선택 취소, 패널 축소 또는 대화 상자 닫기 | Esc |
 
-[Adobe Experience Platform 설명서에서 자세한](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html) 내용{target=&quot;_blank&quot;}.
+[추가 정보](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html)Adobe Experience Platform 설명서의 {target=&quot;_blank&quot;}.
 
 Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있습니다.
 
@@ -173,7 +173,7 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
   <tr>
     <td>
 
-**[!UICONTROL Single profile at a time]** 옵션이 설정된 세그먼트 기반 여정에서 이벤트를 트리거합니다
+세그먼트 기반 여정에서 **[!UICONTROL Single profile at a time]** 옵션이 켜져 있음
 
 </td>
     <td>P</td>

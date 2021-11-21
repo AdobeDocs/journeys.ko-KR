@@ -2,13 +2,13 @@
 product: adobe campaign
 title: journeyStep 이벤트 데이터 가져오기 필드
 description: journeyStep 이벤트 데이터 가져오기 필드
-feature: 여정
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 7%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 7%
 
 ## fetchOriginErrorCode
 
-시스템 [!DNL Journey Orchestration]에서 제공한 오류 코드가 쿼리 중입니다. 예를 들어 404, 500 등이 될 수 있습니다.
+시스템에서 제공한 오류 코드 [!DNL Journey Orchestration] 쿼리 중입니다. 예를 들어 404, 500 등이 될 수 있습니다.
 
 유형: 문자열
 

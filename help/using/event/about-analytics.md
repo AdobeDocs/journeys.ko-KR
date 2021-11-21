@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Adobe Analytics 데이터 기본 정보
 description: Adobe Analytics 데이터를 활용하는 방법 알아보기
-feature: 여정
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: e9b128be-9411-4b68-935e-4cc09eae3ef6
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 0%
+source-wordcount: '187'
+ht-degree: 9%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 이를 수행하려면 Adobe Experience Platform에서 활용할 보고서 세트를 활성화해야 합니다.
 
-1. Adobe Experience Platform의 Adobe Analytics 섹션에서 **[!UICONTROL Sources]** 을 선택하고 **[!UICONTROL Add data]** 을 선택합니다. 사용 가능한 Adobe Analytics 보고서 세트 목록이 표시됩니다.
+1. Adobe Experience Platform에서 **[!UICONTROL Sources]** 그런 다음 **[!UICONTROL Add data]** ( Adobe Analytics 섹션)을 참조하십시오. 사용 가능한 Adobe Analytics 보고서 세트 목록이 표시됩니다.
 
-1. 활성화할 보고서 세트를 선택하고 **[!UICONTROL Next]** 을 클릭한 다음 **[!UICONTROL Finish]** 를 클릭합니다.
+1. 활성화할 보고서 세트를 선택하고 **[!UICONTROL Next]** 을(를) 클릭합니다. **[!UICONTROL Finish]**.
 
 1. 소스 데이터 ID를 알파 프로그램 연락처와 공유합니다.
 
@@ -33,4 +33,4 @@ ht-degree: 0%
 
 ![](../assets/alpha-event9.png)
 
-Adobe Analytics 소스 커넥터에 대한 자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) 및 [자습서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 참조하십시오.
+Adobe Analytics 소스 커넥터에 대한 자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko-KR) 및 [튜토리얼](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR).

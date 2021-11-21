@@ -16,23 +16,23 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->예측 피로도 점수 기능은 [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html)를 사용하는 고객에게만 제공됩니다.
+>예측 피로도 점수 기능은 [Adobe Experience Platform 데이터 커넥터](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).
 
 ## 이벤트 구성 {#section_ptb_ws1_ffb}
 
-[이 페이지](../event/about-events.md)에 설명된 단계를 수행합니다.
+에 설명된 단계를 수행합니다. [이 페이지](../event/about-events.md).
 
 ## 데이터 소스 구성 {#section_o3n_4yy_wfb}
 
 기본 제공 데이터 소스에서 피로도 점수 필드를 선택하려면 다음 단계를 수행하십시오.
 
-1. 메뉴 창에서 **[!UICONTROL Admin]** 을 선택합니다. **[!UICONTROL Data sources]** 섹션에서 **[!UICONTROL Manage]** 를 클릭합니다.
+1. 메뉴 창에서 **[!UICONTROL Admin]**. 에서 **[!UICONTROL Data sources]** 섹션을 클릭합니다. **[!UICONTROL Manage]**.
 1. 기본 제공 Adobe Experience Platform 데이터 소스를 선택합니다.
 
    ![](../assets/journey23.png)
 
 1. 사용 사례에 필요한 필드가 선택되어 있는지 확인합니다.
-1. **[!UICONTROL Add a New Field Group]** 을 클릭하고 **[!UICONTROL Profiles]** 모델을 선택하고 **[!UICONTROL fatigueLevel]** 및 **[!UICONTROL fatigueScore]** 필드(_journeyAI > emailScore > 피로도_)를 추가합니다.
+1. 클릭 **[!UICONTROL Add a New Field Group]**&#x200B;에서 을(를) 선택합니다. **[!UICONTROL Profiles]** 모델 및 추가 **[!UICONTROL fatigueLevel]** 및 **[!UICONTROL fatigueScore]** 필드(아래) _journeyAI > emailScore > 피로도_).
 
    ![](../assets/journeyuc3_1.png)
 
@@ -40,9 +40,9 @@ ht-degree: 10%
 
 ## 여정 구축 {#section_uzm_pyy_wfb}
 
-여정을 만들고, 유효성을 확인하고, 게시하려면 [이 페이지](../building-journeys/journey.md)에 설명된 단계를 수행합니다.
+여정을 만들고, 유효성을 확인하고, 게시하려면 [이 페이지](../building-journeys/journey.md).
 
-사용 사례에서는 **[!UICONTROL fatigueLevel]** 필드를 활용하고 있습니다. **[!UICONTROL fatigueScore]** 필드를 사용할 수도 있습니다.
+사용 사례에서는 **[!UICONTROL fatigueLevel]** 필드. 를 사용할 수도 있습니다 **[!UICONTROL fatigueScore]** 필드.
 
 여정에서 피로도 수준을 활용하려면 다음 단계를 수행하십시오.
 
@@ -54,7 +54,7 @@ ht-degree: 10%
 
    ![](../assets/journeyuc3_2.png)
 
-1. 단순 표현식 편집기를 사용하여 **[!UICONTROL fatigueLevel]** 필드(_ExperiencePlatformDataSource > JourneyAIScore > Profile > JourneyAI > emailScore > 피로도_)를 찾은 다음 조건을 오른쪽으로 만듭니다. &quot;피로도 수준이 &quot;낮음&quot;과 같습니다. **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
+1. 단순 표현식 편집기를 사용하여 **[!UICONTROL fatigueLevel]** 필드 (_ExperiencePlatformDataSource > JourneyAIScore > Profile > journeyAI > emailScore > 피로도_)을 클릭하여 오른쪽으로 삭제하고 다음 조건을 만듭니다. &quot;피로도 수준이 &quot;낮음&quot;과 같습니다. **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
 
    ![](../assets/journeyuc3_3.png)
 

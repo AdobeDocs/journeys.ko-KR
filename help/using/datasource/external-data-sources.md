@@ -30,7 +30,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 새 외부 데이터 소스를 만들고 구성하는 주요 단계는 다음과 같습니다.
 
-1. 새 외부 데이터 소스를 만들려면 데이터 소스 목록에서 **[!UICONTROL Create data source]** 을 클릭하십시오.
+1. 데이터 소스 목록에서 **[!UICONTROL Create data source]** 새 외부 데이터 소스를 만들려면
 
    ![](../assets/journey25.png)
 

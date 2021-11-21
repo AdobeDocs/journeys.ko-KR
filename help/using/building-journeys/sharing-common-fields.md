@@ -2,13 +2,13 @@
 product: adobe campaign
 title: journeysteps 이벤트 공통 필드
 description: journeysteps 이벤트 공통 필드
-feature: 여정
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '581'
 ht-degree: 9%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 9%
 
 이 mixin은 journeyStepEvent 및 journeyStepProfileEvent가 공유합니다.
 
-이러한 필드는 [!DNL Journey Orchestration]이 Adobe Experience Platform에 보내는 일반적인 XDM 필드입니다. 여정에서 처리되는 모든 단계에 대해 공통 필드가 전송됩니다. 더 구체적인 필드가 사용자 지정 작업 및 데이터 보강 용도로 사용됩니다.
+이러한 필드는 다음과 같은 일반적인 XDM 필드입니다 [!DNL Journey Orchestration] Adobe Experience Platform에 을 보냅니다. 여정에서 처리되는 모든 단계에 대해 공통 필드가 전송됩니다. 더 구체적인 필드가 사용자 지정 작업 및 데이터 보강 용도로 사용됩니다.
 
 이러한 필드 중 일부는 특정 처리 패턴(작업 실행, 데이터 가져오기 등)에서만 사용할 수 있습니다. 를 사용하여 이벤트 크기를 제한할 수 있습니다.
 

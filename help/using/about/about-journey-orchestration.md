@@ -7,13 +7,13 @@ role: User
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
 
 ---
 
-# [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
+# [!DNL Journey Orchestration] 정보{#concept_nd3_mqt_52b}
 
 이벤트 또는 데이터 소스에 저장된 컨텍스트 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 구축합니다.
 

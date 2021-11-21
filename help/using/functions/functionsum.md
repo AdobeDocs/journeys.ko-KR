@@ -2,14 +2,14 @@
 product: adobe campaign
 title: sum
 description: 함수 합에 대해 알아봅니다
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 04289d72-aade-4725-b1f5-47cf55e3a40b
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 13%
+source-wordcount: '51'
+ht-degree: 11%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 13%
 
 소수점 반환
 
-## 예
+## 예시
 
 `sum(@{BarBeacon.inventory},5)`
 

@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 문제 해결
 description: 문제 해결에 대해 자세히 알아보기
-feature: 여정
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1038'
 ht-degree: 99%
 
 ---

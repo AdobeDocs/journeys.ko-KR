@@ -125,7 +125,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 표현식의 결과는 다음과 같습니다 **3**.
 
-**예 3:**
+**예제 3:**
 
 여기에서 개인이 지난 24시간 내에 어떠한 연락도 받지 못했는지를 확인합니다. 컬렉션의 두 요소를 기반으로 두 개의 표현식을 사용하여 Experience Platform 데이터 소스에서 검색된 경험 이벤트 컬렉션을 필터링합니다. 특히 이벤트의 타임스탬프는 **[!UICONTROL nowWithDelta]** 함수 위에 있어야 합니다.
 
@@ -137,7 +137,7 @@ count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
 
 두 조건과 일치하는 경험 이벤트가 없으면 결과는 true가 됩니다.
 
-**예 4:**
+**예제 4:**
 
 여기서는 개인이 지난 7일 동안 적어도 한 번 이상 애플리케이션을 시작했는지 확인하려고 합니다. 예를 들어 자습서를 시작할 수 있도록 푸시 알림을 트리거할 수 있습니다.
 
@@ -208,7 +208,7 @@ _`<listExpression>.last(<condition>)`_
 >* **[!UICONTROL last]** 함수는 가장 오래된 것을 반환합니다.
 
 
-**예 3:**
+**예제 3:**
 
 DMA ID에 대해 값이 0이 아닌 첫 번째(가장 최근) Adobe Analytics 이벤트가 602와 같은지 확인합니다.
 

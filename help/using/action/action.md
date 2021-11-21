@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 작업 정보
 description: 작업 구성 방법 알아보기
-feature: 여정
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '311'
 ht-degree: 93%
 
 ---

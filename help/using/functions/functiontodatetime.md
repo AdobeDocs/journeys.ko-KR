@@ -2,14 +2,14 @@
 product: adobe campaign
 title: toDateTime
 description: toDateTime 함수에 대해 알아봅니다.
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
 source-git-commit: 2aa73498f44f22a70bb2268afca7d1a62e434542
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 11%
+source-wordcount: '93'
+ht-degree: 10%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->시간대 ID는 문자열 상수여야 합니다. 필드 참조나 식이 될 수 없습니다. 데이터 유형에 대한 자세한 내용은 [이 페이지](../expression/data-types.md)를 참조하십시오.
+>시간대 ID는 문자열 상수여야 합니다. 필드 참조나 식이 될 수 없습니다. 데이터 유형에 대한 자세한 내용은 [이 페이지](../expression/data-types.md).
 
 ## 서명 및 반환된 형식
 
@@ -46,7 +46,7 @@ ht-degree: 11%
 
 `toDateTime(<integer>)`
 
-**dateTime**&#x200B;을 반환합니다.
+반환 **dateTime**.
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
@@ -69,19 +69,19 @@ Return a datetime.
 
 -->
 
-## 예
+## 예시
 
 `toDateTime ("2016-08-18T23:17:59.123Z")`
 
-2016-08-18T23:17:59.123Z를 반환합니다.
+2016-08-18T23 반환:17:59.123Z
 
 `toDateTime(toDateTimeOnly("UTC", "2016-08-18T23:17:59.123"))`
 
-2016-08-18T23:17:59.123Z를 반환합니다.
+2016-08-18T23 반환:17:59.123Z
 
 `toDateTime(1560762190189)`
 
-2019-06-17T09:03:10.189Z를 반환합니다.
+2019-06-17T09 반환:03:10.189Z
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 

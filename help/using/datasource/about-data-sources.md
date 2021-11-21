@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 데이터 소스 정보
 description: '데이터 소스 구성 방법 알아보기 '
-feature: 여정
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '344'
 ht-degree: 88%
 
 ---
@@ -44,7 +44,7 @@ Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성
 >
 >데이터 소스는 항상 **기술 사용자**&#x200B;가 구성해야 합니다.
 
-1. 메뉴 창에서 **[!UICONTROL Admin]** 을 선택합니다. **[!UICONTROL Data sources]** 섹션에서 **[!UICONTROL Manage]** 를 클릭합니다.
+1. 메뉴 창에서 **[!UICONTROL Admin]**. 에서 **[!UICONTROL Data sources]** 섹션을 클릭합니다. **[!UICONTROL Manage]**.
 
    데이터 소스 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [이 페이지](../about/user-interface.md)를 참조하십시오.
 

@@ -2,20 +2,20 @@
 product: adobe campaign
 title: 여정 구축
 description: 비즈니스 사용자는 이벤트, 오케스트레이션 및 작업 활동을 통합하여 여정을 구축하는 방법을 살펴봅니다.
-feature: 여정
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 12%
 
 ---
 
 # 여정 만들기 {#concept_gq5_sqt_52b}
 
-이 단계는 **비즈니스 사용자**&#x200B;에 의해 수행됩니다. 여기에서 여정을 만듭니다. 다양한 이벤트, 오케스트레이션 및 작업 활동을 조합하여 여러 단계로 구성된 크로스 채널 시나리오를 작성할 수 있습니다.
+이 단계는 **비즈니스 사용자**. 여기에서 여정을 만듭니다. 다양한 이벤트, 오케스트레이션 및 작업 활동을 조합하여 여러 단계로 구성된 크로스 채널 시나리오를 작성할 수 있습니다.
 
 여정 인터페이스를 사용하면 팔레트의 활동을 캔버스로 쉽게 드래그하여 놓을 수 있습니다. 활동을 두 번 클릭하여 사용 가능한 다음 단계에서 캔버스에 추가할 수도 있습니다. 각 활동에는 특정 역할과 위치가 있습니다. 활동이 시퀀싱됩니다. 활동이 끝나면 플로우는 계속 진행되며 다음 활동을 처리하는 등 다양한 작업을 수행합니다.
 
@@ -29,11 +29,11 @@ ht-degree: 12%
 
 1. 상단 메뉴에서 **[!UICONTROL Home]** 탭을 클릭합니다.
 
-   여정 목록이 표시됩니다. 인터페이스에 대한 자세한 내용은 [이 페이지](../building-journeys/using-the-journey-designer.md)를 참조하십시오.
+   여정 목록이 표시됩니다. 을(를) 참조하십시오. [이 페이지](../building-journeys/using-the-journey-designer.md) 를 참조하십시오.
 
    ![](../assets/journey30.png)
 
-1. **[!UICONTROL Create]** 을 클릭하여 새 여정을 만듭니다.
+1. 클릭 **[!UICONTROL Create]** 새 여정을 만들려면
 
    ![](../assets/journey31.png)
 
@@ -45,11 +45,11 @@ ht-degree: 12%
 
    ![](../assets/journey33.png)
 
-1. 다른 활동을 끌어다 놓고 구성합니다. [이벤트 활동](../building-journeys/event-activities.md), [오케스트레이션 활동 정보](../building-journeys/about-orchestration-activities.md) 및 [작업 활동 정보](../building-journeys/about-action-activities.md) 페이지를 참조하십시오.
+1. 다른 활동을 끌어다 놓고 구성합니다. 페이지를 참조하십시오 [이벤트 활동](../building-journeys/event-activities.md), [오케스트레이션 활동](../building-journeys/about-orchestration-activities.md) 및 [작업 활동](../building-journeys/about-action-activities.md).
 
    ![](../assets/journey34.png)
 
-1. 여정이 자동으로 저장됩니다. 여정을 테스트하고 게시합니다. [여정 테스트](../building-journeys/testing-the-journey.md) 및 [여정 게시](../building-journeys/publishing-the-journey.md)를 참조하십시오.
+1. 여정이 자동으로 저장됩니다. 여정을 테스트하고 게시합니다. 자세한 내용은 [여정 테스트](../building-journeys/testing-the-journey.md) 및 [여정 게시](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
@@ -64,11 +64,11 @@ ht-degree: 12%
 
 다음 이유로 인해 여정을 닫을 수 있습니다.
 
-* 여정은 **[!UICONTROL Close to new entrances]** 버튼을 통해 수동으로 닫힙니다.
+* 여정은 를 통해 수동으로 닫힙니다 **[!UICONTROL Close to new entrances]** 버튼을 클릭합니다.
 * 여정 종료 날짜에 도달했습니다.
 
-여정을 닫으면(위의 이유 중 하나) 상태가 **[!UICONTROL Closed]**&#x200B;입니다. 여정은 새 개인이 여정에 들어가는 것을 중지합니다. 여정에 이미 있는 사람은 여정을 정상적으로 완료합니다. 기본 글로벌 시간 초과 30일 이후에는 여정이 **Finished** 상태로 전환됩니다. 이 [섹션](../building-journeys/changing-properties.md#entrance)을 참조하십시오.
+여정을 닫으면(위의 이유 중 하나) 상태가 됩니다 **[!UICONTROL Closed]**. 여정은 새 개인이 여정에 들어가는 것을 중지합니다. 여정에 이미 있는 사람은 여정을 정상적으로 완료합니다. 기본 글로벌 시간 초과 30일 이후에는 여정이 **완료됨** 상태. 다음 보기 [섹션](../building-journeys/changing-properties.md#entrance).
 
 여정에 있는 모든 개인의 진행 상태를 중지해야 하는 경우 중지할 수 있습니다. 여정을 중지하면 여정의 모든 개인이 시간 초과됩니다.
 
-여정을 수동으로 닫거나 중지하는 방법에 대해 알아보려면 이 [섹션](../building-journeys/terminating-a-journey.md)을 참조하십시오.
+여정을 수동으로 닫거나 중지하는 방법에 대해 알아보려면 다음을 참조하십시오 [섹션](../building-journeys/terminating-a-journey.md).

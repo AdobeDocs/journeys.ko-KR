@@ -2,24 +2,24 @@
 product: adobe campaign
 title: 데이터 소스 구성
 description: 여정 단순 사용 사례에 대한 데이터 소스를 구성하는 방법을 알아봅니다
-feature: 여정
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 87f63d7d-b7d9-4243-a5ce-8948939f3d93
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 7%
+source-wordcount: '138'
+ht-degree: 6%
 
 ---
 
 # 데이터 소스 구성{#concept_ax3_bcy_w2b}
 
-사용 사례에서는 메시지에 개인화 데이터를 사용하려고 합니다. 우리는 또한 그 사람이 여성인지 확인할 필요가 있습니다. 이 정보는 실시간 고객 프로필 데이터베이스에 저장됩니다. **기술 사용자**&#x200B;는 이러한 필드가 기본 제공 Adobe Experience Platform 데이터 소스에 정의되어 있는지 확인해야 합니다.
+사용 사례에서는 메시지에 개인화 데이터를 사용하려고 합니다. 우리는 또한 그 사람이 여성인지 확인할 필요가 있습니다. 이 정보는 실시간 고객 프로필 데이터베이스에 저장됩니다. 다음 **기술 사용자** 에서는 이러한 필드가 기본 제공 Adobe Experience Platform 데이터 소스에 정의되어 있는지 확인해야 합니다.
 
-데이터 소스 구성에 대한 자세한 내용은 [이 페이지](../datasource/about-data-sources.md)를 참조하십시오.
+데이터 소스 구성에 대한 자세한 내용은 [이 페이지](../datasource/about-data-sources.md).
 
-1. 메뉴 창에서 **[!UICONTROL Admin]** 을 선택합니다. **[!UICONTROL Data sources]** 섹션에서 **[!UICONTROL Manage]** 를 클릭합니다.
+1. 메뉴 창에서 **[!UICONTROL Admin]**. 에서 **[!UICONTROL Data sources]** 섹션을 클릭합니다. **[!UICONTROL Manage]**.
 1. 기본 제공 Adobe Experience Platform 데이터 소스를 선택합니다.
 
    ![](../assets/journey23.png)

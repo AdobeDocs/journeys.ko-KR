@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 오케스트레이션 활동 정보
 description: 오케스트레이션 활동에 대해 알아보기
-feature: 여정
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 3c2de723-d990-43f5-b39d-2348de62bbcc
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 39%
+source-wordcount: '32'
+ht-degree: 37%
 
 ---
 

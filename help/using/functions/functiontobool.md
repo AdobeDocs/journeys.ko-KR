@@ -2,14 +2,14 @@
 product: adobe campaign
 title: toBool
 description: Bool에 대한 함수 알아보기
-feature: 여정
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 490144c2-1ecd-4772-ab15-e23b1b7d8f0c
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 12%
+source-wordcount: '74'
+ht-degree: 10%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 12%
 
 부울을 반환합니다.
 
-## 예
+## 예시
 
 `toBool("true")`
 

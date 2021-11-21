@@ -15,11 +15,11 @@ ht-degree: 4%
 
 # URL 구성 {#concept_gbg_1f1_2gb}
 
-사용자 지정 작업을 구성할 때 다음 **[!UICONTROL URL Configuration]** 매개 변수를 정의해야 합니다.
+사용자 지정 작업을 구성할 때 다음을 정의해야 합니다 **[!UICONTROL URL Configuration]** 매개 변수:
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. **[!UICONTROL URL]** 필드에서 외부 서비스의 URL을 지정합니다.
+1. 에서 **[!UICONTROL URL]** 필드에서 외부 서비스의 URL을 지정합니다.
 
    * URL이 정적인 경우 이 필드에 URL을 입력합니다.
 
@@ -34,22 +34,22 @@ ht-degree: 4%
    >
    >사용자 지정 작업을 정의할 때는 기본 포트만 허용됩니다. http의 경우 80, https의 경우 443.
 
-1. 호출 **[!UICONTROL Method]**&#x200B;을 선택합니다. **[!UICONTROL POST]** 또는 **[!UICONTROL PUT]**&#x200B;일 수 있습니다.
-1. **[!UICONTROL Headers]** 섹션에서 외부 서비스로 전송할 요청 메시지의 HTTP 헤더를 정의합니다.
-   1. 헤더 필드를 추가하려면 **[!UICONTROL Add a header field]** 을 클릭합니다.
+1. 호출을 선택합니다 **[!UICONTROL Method]**: 다음 중 하나일 수 있습니다 **[!UICONTROL POST]** 또는 **[!UICONTROL PUT]**.
+1. 에서 **[!UICONTROL Headers]** 섹션에서 외부 서비스로 전송할 요청 메시지의 HTTP 헤더를 정의합니다.
+   1. 헤더 필드를 추가하려면 **[!UICONTROL Add a header field]**.
    1. 헤더 필드의 키를 입력합니다.
-   1. 키-값 쌍에 대한 동적 값을 설정하려면 **[!UICONTROL Variable]** 을 선택합니다. 그렇지 않으면 **[!UICONTROL Constant]** 을 선택합니다.
+   1. 키-값 쌍에 대한 동적 값을 설정하려면 다음을 선택합니다 **[!UICONTROL Variable]**. 그렇지 않으면 을 선택합니다. **[!UICONTROL Constant]**.
 
       예를 들어 타임스탬프의 경우 동적 값을 설정할 수 있습니다.
 
-   1. **[!UICONTROL Constant]** 을 선택한 경우 상수 값을 입력합니다.
+   1. 선택한 경우 **[!UICONTROL Constant]**&#x200B;를 입력한 다음 상수 값을 입력합니다.
 
-      **[!UICONTROL Variable]** 을 선택한 경우 여정에 사용자 지정 작업을 추가할 때 이 변수를 지정합니다. [자세히 알아보기](../building-journeys/using-custom-actions.md).
+      선택한 경우 **[!UICONTROL Variable]**&#x200B;를 채울 경우 사용자 지정 작업을 여정에 추가할 때 이 변수를 지정합니다. [자세히 알아보기](../building-journeys/using-custom-actions.md).
 
       ![](../assets/journeyurlconfiguration2.png)
 
-   1. 헤더 필드를 삭제하려면 헤더 필드를 가리킨 다음 **[!UICONTROL Delete]** 아이콘을 클릭합니다.
-   **[!UICONTROL Content-Type]** 및 **[!UICONTROL Charset]** 헤더 필드는 기본적으로 설정되어 있습니다. 이러한 필드는 수정하거나 삭제할 수 없습니다.
+   1. 헤더 필드를 삭제하려면 헤더 필드를 가리킨 다음 **[!UICONTROL Delete]** 아이콘.
+   다음 **[!UICONTROL Content-Type]** 및 **[!UICONTROL Charset]** 헤더 필드는 기본적으로 설정되어 있습니다. 이러한 필드는 수정하거나 삭제할 수 없습니다.
 
    여정에 사용자 지정 작업을 추가한 후에도 여정이 초안 상태인 경우 헤더 필드를 추가할 수 있습니다. 여정이 구성 변경 사항의 영향을 받지 않도록 하려면 사용자 지정 작업을 복제하고 헤더 필드를 새 사용자 지정 작업에 추가합니다.
 
