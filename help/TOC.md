@@ -6,9 +6,9 @@ user-guide-description: 여정 구현 및 구축 방법에 대한 지침을 확�
 index: true
 feature: Journeys
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -89,8 +89,8 @@ ht-degree: 96%
    + Adobe Experience Platform과 여정 단계 공유 {#sharing-journey-steps}
       + [여정 단계 공유 개요](using/building-journeys/sharing-overview.md)
       + [단계 이벤트 필드 목록](using/building-journeys/sharing-field-list.md)
-      + 이전 단계 이벤트 필드 {#legacy-step-event-fields}
-         + [기존 필드 정보](using/building-journeys/sharing-legacy-fields.md)
+      + 레거시 단계 이벤트 필드 {#legacy-step-event-fields}
+         + [레거시 필드 정보](using/building-journeys/sharing-legacy-fields.md)
          + [journeySteps 이벤트 공통 필드](using/building-journeys/sharing-common-fields.md)
          + [journeyStep 이벤트 작업 실행 필드](using/building-journeys/sharing-execution-fields.md)
          + [journeyStep 이벤트 데이터 가져오기 필드](using/building-journeys/sharing-fetch-fields.md)
