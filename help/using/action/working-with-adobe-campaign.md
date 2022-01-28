@@ -6,7 +6,7 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 545352efdcda80cb9940010c4587a20f53326085
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 4%
@@ -23,7 +23,7 @@ Campaign Standard 트랜잭션 메시지와 관련 이벤트를 Journey Orchestr
 
 >[!NOTE]
 >
->Adobe Campaign Standard 통합이 설정되는 즉시 초당 13개의 호출의 최대 가용량 규칙이 Adobe Campaign Standard 작업에 대해 자동으로 정의됩니다. 이는 Adobe Campaign Standard 트랜잭션 메시지의 공식 규모에 해당합니다.
+>Adobe Campaign Standard 통합이 설정되는 즉시 Adobe Campaign Standard 작업에 대해 5분당 4000개의 호출의 최대 가용량 규칙이 자동으로 정의됩니다. 이는 Adobe Campaign Standard 트랜잭션 메시지의 공식 규모에 해당합니다.
 >
 >의 트랜잭션 메시지 SLA에 대해 자세히 알아보십시오. [Adobe Campaign Standard 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html).
 

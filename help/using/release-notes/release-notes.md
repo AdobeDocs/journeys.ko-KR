@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
+source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
 workflow-type: tm+mt
-source-wordcount: '3069'
-ht-degree: 67%
+source-wordcount: '3130'
+ht-degree: 77%
 
 ---
 
@@ -18,45 +18,37 @@ ht-degree: 67%
 이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 최신 [설명서 업데이트](../release-notes/documentation-updates.md)도 확인할 수 있습니다.
 
-## 2021년 10월 릴리스 {#october-2021-release}
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Profile cap condition</strong><br/></th>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
-<p>For more information, refer to the <a href="../building-journeys/condition-activity.md#profile_cap}">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+## 2022년 1월 릴리스 {#january-2022-release}
 
 ### 개선 사항
 
-* **표현식 편집기** - 이제 고급 사용자로서 기능을 사용하여 지도를 사용할 수 있습니다. [자세히 알아보기](../expression/field-references.md)
+* 이제 Journey Orchestration 단계 이벤트를 의 다른 데이터 세트에 연결할 수 있습니다 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko). 다음 **profileID** 기본 제공 여정 단계 이벤트 스키마의 필드가 이제 id 필드로 정의됩니다. [자세히 알아보기](../building-journeys/sharing-overview.md#integration-cja)
+* Adobe Campaign Standard 작업에 대한 최대 가용량 규칙이 호출 4000개/5분으로 변경되었습니다. [자세히 보기](../action/working-with-adobe-campaign.md)
+
+## 2021년 10월 릴리스 {#october-2021-release}
+
+### 개선 사항
+
+* **표현식 편집기** - 이제 고급 사용자는 여정 지도 작업에 함수를 사용할 수 있습니다. [자세히 알아보기](../expression/field-references.md)
 * **접근성** - 액세스 가능성이 개선되었습니다. 이제 Journey Orchestration은 접근성 측면에서 완전히 준수됩니다.
 * **컬렉션** - 이제 하위 개체가 포함된 개체 배열이 지원됩니다. [자세히 보기](../usecase/collections.md)
-* **모니터링** - 라이브 여정 및 테스트 모드에 대한 단계 이벤트가 향상되었습니다. [새 필드](../building-journeys/sharing-field-list.md#serviceevents) 프로필 내보내기 작업과 관련하여 가 추가되었습니다. 더 나은 사용자 경험을 위해 이제 단계 이벤트 필드가 Journey Orchestration의 여정 단계 이벤트 스키마에서 다른 카테고리로 구성됩니다. 이전 단계 이벤트 필드는 여전히 [stepEvents](../building-journeys/sharing-legacy-fields.md) 카테고리.
+* **모니터링** - 실시간 여정 및 테스트 모드에 대한 단계 이벤트를 개선했습니다. 프로필 내보내기 작업과 관련하여 [새 필드](../building-journeys/sharing-field-list.md#serviceevents)를 추가했습니다. 더 나은 사용자 경험을 위해 이제 단계 이벤트 필드가 Journey Orchestration의 여정 단계 이벤트 스키마에서 다른 카테고리로 구성됩니다. 이전 단계 이벤트 필드는 [stepEvents](../building-journeys/sharing-legacy-fields.md) 카테고리에서 계속 사용할 수 있습니다.
 
 ## 2021년 9월 릴리스 {#september-2021-release}
 
 <table>
 <thead>
 <tr>
-<th><strong>사용자 지정 작업을 사용하여 동적으로 데이터 목록 전달</strong><br/></th>
+<th><strong>사용자 지정 작업으로 데이터 목록을 동적으로 보내기</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 런타임 시 동적으로 채워지는 사용자 지정 작업 매개 변수에 컬렉션이나 데이터 목록을 전달할 수 있습니다. 지원되는 컬렉션은 두 가지입니다. 간단한 컬렉션 및 개체 컬렉션. 이전에 만든 사용자 지정 작업은 계속 작동합니다. </p>
-<p>컬렉션에 대한 자세한 내용은 <a href="../usecase/collections.md">세부 설명서</a>. </p>
-<p>필터 및 교차 함수가 고급 표현식 편집기에서 사용할 수 있는 함수 목록에 추가되었습니다. 이 기능은 컬렉션 필터링 및 비교에 대한 더 많은 가능성을 제공합니다.</p>
-<p>다음 항목에 대한 설명서를 참조하십시오. <a href="../functions/functionfilter.md">필터</a> 및 <a href="../functions/functionintersect.md">교차</a> 함수 위에 있어야 합니다.</p>
+<p>이제 사용자 지정 작업 매개 변수에 컬렉션이나 데이터 목록을 전달할 수 있으며 그 내용은 실시간으로, 동적으로 채워집니다. 지원되는 컬렉션은 단순 컬렉션과 개체 컬렉션, 두 가지입니다. 이전에 만든 사용자 지정 작업은 계속 작동합니다. </p>
+<p>컬렉션에 대한 자세한 내용은 <a href="../usecase/collections.md">자세한 설명서</a>를 참조하세요. </p>
+<p>고급 표현식 편집기에서 사용할 수 있는 함수 목록에 필터링 및 교차 함수가 추가되었습니다. 이 함수를 통해 컬렉션을 더욱 다양하게 필터링 및 비교할 수 있습니다.</p>
+<p><a href="../functions/functionfilter.md">필터링</a> 및 <a href="../functions/functionintersect.md">교차</a> 함수에 대한 설명서를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -64,9 +56,9 @@ ht-degree: 67%
 
 ### 개선 사항
 
-* 단계 이벤트를 프로비전하는 동안 생성된 시스템 생성 스키마 및 데이터 세트가 이제 읽기 전용 모드로 되어 중요한 스키마를 실수로 수정하는 것을 방지할 수 있습니다. [자세히 알아보기](../building-journeys/sharing-overview.md)
-* 완전히 레이블 지정 **대기** 캔버스에 표시할 레이블이 있는 활동. 이 레이블은 보고 및 테스트 모드 로그에서 수행할 작업을 명확하게 식별하는 데에도 사용됩니다. [자세히 알아보기](../building-journeys/using-the-journey-designer.md)
-* 에서 요소를 필터링하여 이벤트 및 작업을 보다 신속하게 찾을 수 있습니다. **이벤트** 및 **작업** 검색을 사용하는 카테고리. 오케스트레이션 활동은 더 이상 필터링되지 않습니다. [자세히 알아보기](../building-journeys/using-the-journey-designer.md)
+* 단계 이벤트를 프로비전하는 동안 시스템에서 생성한 스키마 및 데이터 세트가 이제 읽기 전용 모드로 변경됩니다. 이를 통해 중요한 스키마를 실수로 수정하는 것을 방지할 수 있습니다. [자세히 알아보기](../building-journeys/sharing-overview.md)
+* **대기** 활동에 레이블을 지정하면 캔버스에 명확하게 표시됩니다. 이 레이블은 보고 및 테스트 모드 로그에서 수행할 작업을 정확하게 확인하는 데에도 사용됩니다. [자세히 알아보기](../building-journeys/using-the-journey-designer.md)
+* 검색 사용 시 **이벤트** 및 **작업** 카테고리로 요소를 필터링하여 이벤트 및 작업을 보다 신속하게 찾을 수 있습니다. 오케스트레이션 활동은 더 이상 필터링되지 않습니다. [자세히 알아보기](../building-journeys/using-the-journey-designer.md)
 * 규칙 기반의 이벤트 ID 조건을 정의할 때 이제 문자열 유형의 필드에 &quot;포함&quot; 연산자를 사용할 수 있습니다. [자세히 알아보기](../event/about-creating.md)
 
 ## 2021년 8월 릴리스 {#august-2021-release}
@@ -75,8 +67,8 @@ ht-degree: 67%
 
 **여정**
 
-* **동적 머리글** - 이제 HTTP 헤더 매개 변수에 동적 데이터를 전달할 수 있습니다. 이러한 매개 변수는 여정 작업 HTTP 호출(예: 타임스탬프 또는 추적 ID)을 수신하는 통합 시스템에서 사용할 수 있습니다. [자세히 보기](../action/url-configuration.md)
-* **동적 URL 경로** - 이제 사용자 지정 작업에 대한 동적 URL 경로를 설정할 수 있습니다. [자세히 보기](../action/url-configuration.md)
+* **동적 헤더** - 이제 HTTP 헤더 매개 변수에서 동적 데이터를 전달할 수 있습니다. 이러한 매개 변수는 여정 작업 HTTP 호출(예: 타임스탬프 또는 추적 ID)을 수신하는 통합 시스템에서 사용할 수 있습니다. [자세히 보기](../action/url-configuration.md)
+* **동적 URL 경로** - 이제 사용자 지정 작업에 대해 동적 URL 경로를 설정할 수 있습니다. [자세히 보기](../action/url-configuration.md)
 
 ## 2021년 7월 릴리스 {#july-2021-release}
 
@@ -99,7 +91,7 @@ ht-degree: 67%
 
 ### 개선 사항
 
-* 다음 **캐시 기간** 필드가 데이터 소스 구성 창에서 제거되었습니다. [자세히 보기](../datasource/about-data-sources.md)
+* **캐시 기간** 필드가 데이터 소스 구성 창에서 제거되었습니다. [자세히 보기](../datasource/about-data-sources.md)
 
 ## 2021년 6월 릴리스 {#june-2021-release}
 
@@ -122,10 +114,10 @@ ht-degree: 67%
 
 ### 개선 사항
 
-* 이제 외부 데이터 소스의 경우 초당 15개의 호출의 최대 가용량 규칙이 자동으로 정의됩니다. [자세히 보기](../about/external-systems.md#capping)
+* 이제 외부 데이터 소스의 경우 초당 최대 15회 호출할 수 있는 가용량 규칙이 자동으로 정의됩니다. [자세히 보기](../about/external-systems.md#capping)
 * 이제 단순 및 고급 표현식 편집기에서 XDM 날짜 형식을 지원합니다.
 * 여정 목록 화면에서 새 필터가 추가되었습니다. 이제 여정 유형별로 필터링할 수 있습니다. **[!UICONTROL Unitary event]** 또는 **[!UICONTROL Segment qualification]**. [자세히 보기](../about/user-interface.md#section_lgm_hpz_pgb)
-* 이제 라이브 여정의 경우 여정 속성 화면에 게시 날짜와 여정을 게시한 사용자의 이름이 표시됩니다. 이 정보는 여정의 기술 세부 사항을 복사할 때도 사용할 수 있습니다. [자세히 보기](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
+* 이제 실시간 여정의 여정 속성 화면에 게시 날짜와 여정을 게시한 사용자의 이름이 표시됩니다. 이 정보는 여정의 기술 세부 사항을 복사할 때도 사용할 수 있습니다. [자세히 보기](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
 ## 2021년 4월 릴리스 {#april-2021-release}
 
