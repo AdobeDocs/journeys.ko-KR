@@ -1,18 +1,17 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 사용자 지정 작업을 사용하여 동적으로 컬렉션 전달
+title: 사용자 지정 작업으로 컬렉션을 동적으로 보내기
 description: Campaign v7/v8을 사용하여 메시지 보내기
-exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 358fddd8e5c2ca80532ff2b74dc9627ffdc8837e
+source-git-commit: 2195ee3863b38ead504eb6785ceb3c37735fade9
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 
-# 사용자 지정 작업을 사용하여 동적으로 컬렉션 전달{#passing-collection}
+# 사용자 지정 작업으로 컬렉션을 동적으로 보내기{#passing-collection}
 
 런타임 시 동적으로 채워지는 사용자 지정 작업 매개 변수에 컬렉션을 전달할 수 있습니다. 지원되는 컬렉션은 두 가지입니다.
 

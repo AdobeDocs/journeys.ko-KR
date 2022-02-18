@@ -5,15 +5,14 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: 4291dfc91c2fb29d294416ceed022ee00842c870
+source-git-commit: 2195ee3863b38ead504eb6785ceb3c37735fade9
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 43%
+ht-degree: 50%
 
 ---
 
-# 기존 필드 정보 {#sharing-legacy-fields}
+# 레거시 필드 정보 {#sharing-legacy-fields}
 
 이 카테고리에는 원래 단계 이벤트 필드가 포함되어 있습니다. 이러한 필드는 다음 필드 그룹의 일부입니다.
 
