@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 141937cd16d5676a80412b2b72750710ee1e537f
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1692'
 ht-degree: 3%
 
 ---
@@ -61,6 +61,7 @@ ht-degree: 3%
 * 테스트 모드를 필요한 만큼 활성화/비활성화할 수 있습니다.
 * 테스트 모드가 활성화되면 여정을 수정할 수 없습니다. 테스트 모드에서는 여정을 직접 게시할 수 있으며, 이전에 테스트 모드를 비활성화할 필요가 없습니다.
 * 분할에 도달하면 위쪽 분기가 항상 선택됩니다. 테스트에서 다른 경로를 선택하도록 하려면 분할 분기의 위치를 재구성할 수 있습니다.
+* 성능을 최적화하고 오래된 리소스 사용을 방지하기 위해, 1주일 동안 트리거되지 않은 테스트 모드의 모든 여정은 다시 초안 상태로 전환됩니다.
 
 ## 프로필을 테스트 프로필로 전환{#turning-profile-into-test}
 

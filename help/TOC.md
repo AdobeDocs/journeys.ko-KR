@@ -5,9 +5,9 @@ title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축 방법에 대한 지침을 확인할 수 있습니다.
 index: true
 feature: Journeys
-source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
-workflow-type: ht
-source-wordcount: '438'
+source-git-commit: 95d9ce8ffd213e46320a4c131ffae8442cfb23bf
+workflow-type: tm+mt
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 100%
    + [페이로드 필드 정의](using/event/defining-the-payload-fields.md)
    + [네임스페이스 선택](using/event/selecting-the-namespace.md)
    + [이벤트 키 정의](using/event/defining-the-event-key.md)
-   + [조건 추가](using/event/adding-a-condition.md)
    + [페이로드 미리 보기](using/event/previewing-the-payload.md)
 + 데이터 소스 구성 {#data-source-journeys}
    + [데이터 소스 정보](using/datasource/about-data-sources.md)

@@ -6,20 +6,16 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9996d1eb-ddef-46dd-aaa9-c37fa9deb2f9
-source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
+source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 9%
+source-wordcount: '253'
+ht-degree: 11%
 
 ---
 
 # 사용자 지정 작업 사용 {#section_f2c_hbg_nhb}
 
 활동 구성 창에는 사용자 지정 작업에 대해 구성된 URL 구성 매개 변수와 인증 매개 변수가 표시됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md).
-
->[!NOTE]
->
->사용자 지정 작업 매개 변수에는 단순 컬렉션을 전달할 수 없습니다. 더 복잡한 컬렉션 필드(개체 배열)는 지원되지 않습니다.  매개 변수에는 예상 형식(예: 문자열, 십진수 등.) 이러한 예상 형식을 준수하도록 주의해야 합니다.
 
 ## URL 구성
 

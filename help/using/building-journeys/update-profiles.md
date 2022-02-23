@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
-title: 여정 간 이동
-description: 여정 간 이동
+title: 프로필 업데이트
+description: 프로필 업데이트
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+source-git-commit: 64f415f3a4120685b64a4b1dc15bf004e86b35d2
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 4%
+source-wordcount: '343'
+ht-degree: 2%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 4%
 * 다른 작업과 마찬가지로 오류 또는 시간 제한 시 대체 경로를 정의할 수 있으며 두 작업을 동시에 배치할 수 없습니다.
 * Platform으로 보낸 업데이트 요청은 속도가 빠르지만 1초 이내에 전송되지 않습니다. 보통 몇 초 정도 걸리지만 가끔은 장담할 수 없는 경우도 있다. 따라서 예를 들어, 작업이 바로 앞에 배치된 프로필 업데이트 작업에 의해 업데이트된 &quot;필드 1&quot;을 사용하는 경우 작업에서 &quot;필드 1&quot;이 업데이트될 것으로 예상하면 안 됩니다.
 * 테스트 모드에서는 프로필 업데이트가 시뮬레이션되지 않습니다. 업데이트는 테스트 프로필에서 수행됩니다.
+* 다음 **프로필 업데이트** 활동은 열거형으로 정의된 XDM 필드를 지원하지 않습니다.
 
 ## 프로필 업데이트 사용
 

@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
+source-git-commit: 0d1355f036b22df6b484ed2a0ea9a8b121e947e0
 workflow-type: tm+mt
-source-wordcount: '3130'
-ht-degree: 77%
+source-wordcount: '3164'
+ht-degree: 76%
 
 ---
 
@@ -18,11 +18,17 @@ ht-degree: 77%
 이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 최신 [설명서 업데이트](../release-notes/documentation-updates.md)도 확인할 수 있습니다.
 
+## 2022년 2월 릴리스 {#february-2022-release}
+
+### 개선 사항
+
+* 성능을 최적화하고 오래된 리소스 사용을 방지하기 위해, 1주일 동안 트리거되지 않은 테스트 모드의 모든 여정은 이제 초안 상태로 다시 전환됩니다. [자세히 보기](../building-journeys/testing-the-journey.md#important_notes)
+
 ## 2022년 1월 릴리스 {#january-2022-release}
 
 ### 개선 사항
 
-* 이제 Journey Orchestration 단계 이벤트를 의 다른 데이터 세트에 연결할 수 있습니다 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko). 다음 **profileID** 기본 제공 여정 단계 이벤트 스키마의 필드가 이제 id 필드로 정의됩니다. [자세히 알아보기](../building-journeys/sharing-overview.md#integration-cja)
+* 이제 Journey Orchestration 단계 이벤트를 의 다른 데이터 세트에 연결할 수 있습니다 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko). 기본 제공 여정 단계 이벤트 스키마의 **profileID** 필드가 이제 ID 필드로 정의됩니다. [자세히 알아보기](../building-journeys/sharing-overview.md#integration-cja)
 * Adobe Campaign Standard 작업에 대한 최대 가용량 규칙이 호출 4000개/5분으로 변경되었습니다. [자세히 보기](../action/working-with-adobe-campaign.md)
 
 ## 2021년 10월 릴리스 {#october-2021-release}

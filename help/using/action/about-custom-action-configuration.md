@@ -6,17 +6,20 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
+source-git-commit: 7ad2419854b4fcecae7fbb20bdd6a6f2fbc04988
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 15%
+source-wordcount: '301'
+ht-degree: 12%
 
 ---
 
 # 사용자 지정 작업 구성 정보 {#concept_sxy_bzs_dgb}
 
 서드파티 시스템을 사용하여 메시지를 보내거나 원하는 경우 [!DNL Journey Orchestration] 서드파티 시스템에 API 호출을 전송하기 위해 여기에서 연결을 구성합니다 [!DNL Journey Orchestration]. 기술 사용자가 정의한 사용자 정의 작업은 여정 왼쪽 팔레트의 **[!UICONTROL Action]** 카테고리(참조) [이 페이지](../building-journeys/about-action-activities.md). 다음은 사용자 지정 작업에 연결할 수 있는 시스템의 몇 가지 예입니다. Epsilon, Facebook, Adobe.io, Firebase 등
+
 제한 사항은 [이 페이지](../about/limitations.md).
+
+사용자 지정 작업 매개 변수에서는 간단한 컬렉션과 객체 컬렉션을 전달할 수 있습니다. 제한 사항에 대해서는 [이 페이지](../usecase/collections.md#limitations). 매개 변수에는 예상 형식(예: 문자열, 십진수 등.) 이러한 예상 형식을 준수하도록 주의해야 합니다. 다음을 참조하십시오 [사용 사례](../usecase/collections.md).
 
 사용자 지정 작업을 구성하는 데 필요한 주요 단계는 다음과 같습니다.
 
