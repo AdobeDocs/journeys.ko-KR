@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
-title: 여정 구축
+title: 여정 구축 - 단순
 description: 간단한 사용 사례 여정을 빌드하는 방법을 알아봅니다
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 36%
+source-wordcount: '394'
+ht-degree: 35%
 
 ---
 
