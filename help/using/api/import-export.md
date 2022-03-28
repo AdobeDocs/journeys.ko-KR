@@ -23,7 +23,7 @@ Journey Orchestration Export-Import API는 사용 가능한 Swagger 파일 내�
 
 Journey Orchestration 인스턴스에서 이 API를 사용하려면 AdobeI/O 콘솔을 사용해야 합니다. 다음을 수행하여 시작할 수 있습니다 [Adobe 개발자 콘솔 시작하기](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 그런 다음 이 페이지의 섹션을 사용합니다.
 
-통합을 테스트하고 준비하려면 Postman 컬렉션을 사용할 수 있습니다 [여기](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json).
+통합을 테스트하고 준비하기 위해 Postman 컬렉션을 사용할 수 있습니다 [여기](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json).
 
 
 ## 내보내기-가져오기 흐름

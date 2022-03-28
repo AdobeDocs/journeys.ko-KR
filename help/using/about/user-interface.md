@@ -9,7 +9,7 @@ exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 63%
+ht-degree: 94%
 
 ---
 
@@ -91,23 +91,23 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 [!D
 
 Adobe Journey Optimizer의 액세스 가능성 기능은 Adobe Experience Platform에서 제공합니다.
 
-* 키보드 액세스 가능성
+* 키보드 접근성
 * 색상 대비
 * 필수 필드 유효성 검사
 
-[추가 정보](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html)Adobe Experience Platform 설명서의 {target=&quot;_blank&quot;}.
+Adobe Experience Platform 설명서에서 [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ko){target=&quot;_blank&quot;}
 
 Adobe Journey Optimizer에서 다음과 같은 일반적인 키보드 단축키를 사용할 수 있습니다.
 
 | 작업 | 단축키 |
 | --- | --- |
-| 사용자 인터페이스 요소, 섹션 및 메뉴 그룹 간 이동 | 탭 |
-| 사용자 인터페이스 요소, 섹션 및 메뉴 그룹 간 뒤로 이동 | Shift + 탭 |
+| 사용자 인터페이스 요소, 섹션, 메뉴 그룹 간 이동 | 탭 |
+| 사용자 인터페이스 요소, 섹션, 메뉴 그룹 간에 뒤로 이동 | Shift + Tab |
 | 섹션 내에서 이동하여 포커스를 개별 요소로 설정 | 화살표 |
-| 포커스에 있는 요소 선택 또는 지우기 | Enter 키 또는 스페이스바 |
+| 포커스에 있는 요소 선택 또는 지우기 | Enter 또는 스페이스바 |
 | 선택 취소, 패널 축소 또는 대화 상자 닫기 | Esc |
 
-[추가 정보](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html)Adobe Experience Platform 설명서의 {target=&quot;_blank&quot;}.
+Adobe Experience Platform 설명서에서 [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ko){target=&quot;_blank&quot;}
 
 Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있습니다.
 
@@ -120,22 +120,22 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
     </tr>
   </thead>
   <tr>
-    <td>여정, 작업, 데이터 소스 또는 이벤트 목록</td>
+    <td>여정, 작업, 데이터 소스 또는 이벤트의 목록</td>
     <td>여정, 작업, 데이터 소스 또는 이벤트 만들기</td>
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">초안 상태의 캔버스 여정</td>
-    <td>사용 가능한 첫 번째 위치에서 맨 위에서 맨 아래로 활동을 왼쪽 팔레트에서 추가합니다</td>
-    <td>활동을 두 번 클릭합니다</td>
+    <td rowspan="3">초안 상태의 여정 캔버스</td>
+    <td>왼쪽 팔레트의 사용 가능한 첫 번째 위치에 활동 추가(위에서 아래로)</td>
+    <td>활동 두 번 클릭</td>
   </tr>
   <tr>
-    <td>모든 활동을 선택합니다</td>
+    <td>모든 활동 선택</td>
     <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
   </tr>
   <tr>
-    <td>선택한 활동을 삭제합니다</td>
-    <td>삭제 또는 백스페이스 순으로 입력한 다음 Enter 키를 눌러 삭제를 확인합니다</td>
+    <td>선택한 활동 삭제</td>
+    <td>[삭제]를 선택하거나 백스페이스를 누른 다음 Enter 키로 삭제 확인</td>
   </tr>
   <tr>
   <td rowspan="3">
@@ -154,15 +154,15 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
     <td>탭</td>
   </tr>
   <tr>
-    <td>변경 내용을 저장하고 구성 창을 닫습니다.</td>
-    <td>Enter 키</td>
+    <td>변경 내용을 저장하고 구성 창 닫기</td>
+    <td>Enter</td>
   </tr>
   <tr>
-    <td>변경 내용을 취소하고 구성 창을 닫습니다.</td>
+    <td>변경 내용을 취소하고 구성 창 닫기</td>
     <td>Esc</td>
   </tr>
   <tr>
-    <td rowspan="4">테스트 모드의 여정</td>
+    <td rowspan="4">테스트 모드 여정</td>
     <td>테스트 모드 활성화 또는 비활성화</td>
     <td>T</td>
   </tr>
@@ -173,7 +173,7 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
   <tr>
     <td>
 
-세그먼트 기반 여정에서 **[!UICONTROL Single profile at a time]** 옵션이 켜져 있음
+**[!UICONTROL Single profile at a time]** 옵션이 켜진 세그먼트 기반 여정에서 이벤트 트리거
 
 </td>
     <td>P</td>
@@ -191,31 +191,31 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
 -->
   <tr>
     <td>텍스트 필드</td>
-    <td>선택한 필드에서 모든 텍스트를 선택합니다</td>
+    <td>선택한 필드의 모든 텍스트 선택</td>
     <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">팝업 창</td>
-    <td>변경 내용을 저장하거나 작업을 확인합니다</td>
+    <td>변경 내용을 저장하거나 작업 확인</td>
     <td>Enter 키</td>
   </tr>
   <tr>
-    <td>창을 닫습니다.</td>
+    <td>창 닫기</td>
     <td>Esc</td>
   </tr>
   <tr>
     <td>단순 표현식 편집기</td>
     <td>필드 선택 및 추가</td>
-    <td>필드를 두 번 클릭합니다</td>
+    <td>필드 두 번 클릭</td>
   </tr>
   <tr>
-    <td>XDM 필드 탐색</td>
-    <td>노드의 모든 필드를 선택합니다</td>
-    <td>상위 노드를 선택합니다</td>
+    <td>XDM 필드 검색</td>
+    <td>노드의 모든 필드 선택</td>
+    <td>상위 노드 선택</td>
   </tr>
   <tr>
     <td>페이로드 미리 보기</td>
-    <td>페이로드를 선택합니다</td>
+    <td>페이로드 선택</td>
     <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
   </tr>
 </table>

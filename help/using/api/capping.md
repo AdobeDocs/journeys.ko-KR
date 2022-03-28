@@ -34,7 +34,7 @@ ht-degree: 3%
 
 와 함께 이 API를 사용하려면 [!DNL Journey Orchestration] 예를 들어 AdobeI/O 콘솔을 사용해야 합니다. 다음을 수행하여 시작할 수 있습니다 [Adobe 개발자 콘솔 시작하기](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 그런 다음 이 페이지의 섹션을 사용합니다.
 
-통합을 테스트하고 준비하려면 Postman 컬렉션을 사용할 수 있습니다 [여기](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+통합을 테스트하고 준비하기 위해 Postman 컬렉션을 사용할 수 있습니다 [여기](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 ## 인증
 
@@ -169,7 +169,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 테스트 및 구성에 도움이 되도록 Postman 컬렉션을 사용할 수 있습니다 [여기](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
-이 Postman Collection은 를 통해 생성된 Postman Variable 컬렉션을 공유하도록 설정되었습니다 __[Adobe I/O 콘솔의 통합](https://console.adobe.io/integrations) > 사용해 보기 > Postman용 다운로드__&#x200B;는 선택한 통합 값으로 Postman Environment 파일을 생성합니다.
+이 Postman 컬렉션은 다음을 통해 생성된 Postman 변수 컬렉션을 공유하도록 설정되었습니다 __[Adobe I/O 콘솔의 통합](https://console.adobe.io/integrations) > 사용해 보기 > Postman용 다운로드__: 선택한 통합 값으로 Postman 환경 파일을 생성합니다.
 
 Postman에 다운로드하여 업로드했으면 다음 세 가지 변수를 추가해야 합니다. `{JO_HOST}`,`{Base_Path}` 및 `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] 게이트웨이 URL

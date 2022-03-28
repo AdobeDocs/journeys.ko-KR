@@ -6,7 +6,8 @@ description: 외부 시스템을 통합할 때 모범 사례에 대해 배웁니
 feature: Journeys
 role: User
 level: Beginner
-source-git-commit: 2195ee3863b38ead504eb6785ceb3c37735fade9
+exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
+source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 1%

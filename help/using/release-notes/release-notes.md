@@ -279,7 +279,7 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 <td>
 <p>이제 여정에 조건을 추가할 때 레이블을 정의할 수 있습니다. 여정에서 여러 조건을 사용하는 경우 해당 조건을 보다 쉽게 식별할 수 있습니다.
 </p>
-<p>자세한 내용은 <a href="../building-journeys/condition-activity.md#about_condition">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../building-journeys/condition-activity.md#about_condition">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -554,7 +554,7 @@ Journey Orchestration 인터페이스를 일본어로 사용할 수 있습니다
 <p>이제는 여정 디자이너에서 여정의 최신 버전에 액세스하고 있는지를 확인할 수 있습니다. 이 정보는 버전 번호 옆에 표시됩니다.</p>
 <p>이제는 여정 <strong>캔버스</strong>에서 두 활동의 연결이 끊기면 경고 메시지가 표시됩니다.</p>
 <img src="../assets/rn-canvas.png"/>
-<p>자세한 내용은 <a href="../building-journeys/using-the-journey-designer.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../building-journeys/using-the-journey-designer.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>

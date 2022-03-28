@@ -9,7 +9,7 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: a5f84d291a5fcb3a0899e9eaabfaf7a7aa12471d
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 96%
 
 ## 2022년 2월 {#feb-2022}
 
-* 다음 [replace](../functions/functionreplace.md#example_2) 및 [replaceAll](../functions/functionreplaceall.md#example) 함수 설명서 페이지가 target 매개 변수에 대한 추가 정보 및 예를 포함하여 업데이트되었습니다.
-* 모범 사례가 [연산자](../expression/operators.md#important-notes) 페이지.
+* 다음 [replace](../functions/functionreplace.md#example_2) 및 [replaceAll](../functions/functionreplaceall.md#example) 함수 설명서 페이지가 target 매개변수에 대한 추가 정보 및 예를 포함하여 업데이트되었습니다.
+* 모범 사례가 [연산자](../expression/operators.md#important-notes) 페이지에 추가되었습니다.
 
 ## 2021년 9월
 

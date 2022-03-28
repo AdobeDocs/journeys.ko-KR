@@ -53,7 +53,7 @@ ht-degree: 5%
 |  | externalKey | 외부 키 | 여정을 트리거하는 개별 식별자 |
 |  | organizationId | 조직 식별자 | 브랜드 조직 |
 |  | sandboxName | 샌드박스 이름 | 샌드박스의 이름 |
-| ID | profileId | 프로필 ID 식별자 | 여정에 있는 프로필의 식별자입니다 |
+| 신원 | profileId | 프로필 ID 식별자 | 여정에 있는 프로필의 식별자입니다 |
 |  | namespace | 프로필 ID 네임스페이스 | 여정에 있는 프로필의 네임스페이스(예: ECID) |
 | 현재 노드 | currentNodeId | 현재 노드 식별자 | 현재 활동의 식별자(노드) |
 |  | currentNodeName | 현재 노드 이름 | 현재 활동의 이름(노드) |
