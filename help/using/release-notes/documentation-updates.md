@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: a5f84d291a5fcb3a0899e9eaabfaf7a7aa12471d
+source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 100%
+source-wordcount: '951'
+ht-degree: 98%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 100%
 
 이 페이지에는 [!DNL Journey Orchestration]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
 [!DNL Journey Orchestration] [릴리스 정보](../release-notes/release-notes.md)도 확인할 수 있습니다.
+
+## 2022년 3월 {#march-2022}
+
+* 표현식 편집기에서 표현식을 기본값으로 추가하는 방법에 대한 예를 추가했습니다. [자세히 보기](../expression/field-references.md#default-value)
 
 ## 2022년 2월 {#feb-2022}
 

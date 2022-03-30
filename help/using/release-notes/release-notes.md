@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 0d1355f036b22df6b484ed2a0ea9a8b121e947e0
+source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
-source-wordcount: '3164'
-ht-degree: 76%
+source-wordcount: '3228'
+ht-degree: 75%
 
 ---
 
@@ -17,6 +17,17 @@ ht-degree: 76%
 
 이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 최신 [설명서 업데이트](../release-notes/documentation-updates.md)도 확인할 수 있습니다.
+
+## 2022년 3월 릴리스 {#feb-2022-release}
+
+### 새로운 기능
+
+### 개선 사항
+
+**여정**
+
+* 통합 프로필 스키마에 불필요한 필드가 없도록 하기 위해 기본적으로 프로필에 대해 여정 단계 이벤트 스키마가 더 이상 활성화되지 않습니다. 필요한 경우 활성화할 수 있습니다. [자세히 알아보기](../building-journeys/sharing-overview.md)
+* 이제 내보내기 작업과 관련된 새 단계 이벤트를 Journey Optimizer에서 Adobe Experience Platform으로 보냅니다. 쿼리의 예가 설명서에 추가되었습니다. [자세히 알아보기](../building-journeys/query-examples.md)
 
 ## 2022년 2월 릴리스 {#february-2022-release}
 

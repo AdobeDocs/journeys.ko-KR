@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: 034473b318eddf93e4ed27d9cbe9e18dab1d96cb
+source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '506'
 ht-degree: 5%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->이 기능은 여정 단계 이벤트를 위한 모든 인스턴스에서 기본적으로 활성화됩니다. 여정 프로필 단계 이벤트의 경우 활성화는 요청 시 수행됩니다. 단계 이벤트를 프로비전하는 동안 생성된 스키마 및 데이터 세트는 수정하거나 업데이트할 수 없습니다. 기본적으로 이러한 스키마와 데이터 세트는 읽기 전용 모드입니다.
+>이 기능은 여정 단계 이벤트를 위한 모든 인스턴스에서 기본적으로 활성화됩니다. 단계 이벤트를 프로비전하는 동안 생성된 스키마 및 데이터 세트는 수정하거나 업데이트할 수 없습니다. 기본적으로 이러한 스키마와 데이터 세트는 읽기 전용 모드입니다.
 
 예를 들어, 여러 개의 이메일을 보내는 여정을 설정했습니다. 이 기능을 사용하면 [!DNL Journey Orchestration] 전환 발생 횟수, 웹 사이트에서 발생한 참여 수 또는 저장소에서 발생한 트랜잭션 수와 같은 다운스트림 이벤트 데이터가 있는 데이터입니다. 여정 정보를 다른 디지털 속성에서 또는 오프라인 속성에서 Adobe Experience Platform의 데이터와 결합하여 보다 포괄적인 성능 보기를 제공할 수 있습니다.
 
@@ -35,7 +35,6 @@ ht-degree: 5%
 
 다음 스키마가 만들어집니다.
 
-* 여정 단계 프로필 이벤트 스키마 [!DNL Journey Orchestration] - 경험 이벤트 를 참조하십시오.
 * 에 대한 여정 단계 이벤트 스키마 [!DNL Journey Orchestration] - 여정 메타데이터에 연결된 여정 단계 이벤트입니다.
 * 여정 필드가 있는 여정 스키마 [!DNL Journey Orchestration] - 여정을 설명하는 여정 메타데이터.
 
@@ -45,7 +44,6 @@ ht-degree: 5%
 
 다음 데이터 세트가 전달됩니다.
 
-* 여정 단계 프로필 이벤트 스키마 [!DNL Journey Orchestration]
 * 여정 단계 이벤트
 * 여정
 

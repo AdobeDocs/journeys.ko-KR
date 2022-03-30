@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
-source-git-commit: e4a003656058ac7ae6706e22fd5162c9e875629a
+source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '557'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 구문 색상은 이벤트 필드(녹색)와 필드 그룹(파란색)을 시각적으로 구분하는 데 사용됩니다.
 
-## 필드 참조의 기본값
+## 필드 참조의 기본값 {#default-value}
 
 기본값을 필드 이름과 연결할 수 있습니다. 구문은 다음과 같습니다.
 
@@ -86,6 +86,13 @@ expression examples:
 - #{ACP.Profile.emails.at(1).email}              -> "snow@thewall.westeros"
 - #{ACP.Profile.person.age, defaultValue : -1}   -> -1 // default value, age is not a field present in the payload
 - #{ACP.Profile.person.age}                      -> null
+```
+
+모든 종류의 표현식을 기본값으로 추가할 수 있습니다. 유일한 제약 조건은 표현식이 필요한 데이터 형식을 반환해야 한다는 것입니다. 함수를 사용할 때는 ()를 사용하여 함수를 캡슐화해야 합니다.
+
+```
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
+== date("2022-02-10T00:00:00Z")
 ```
 
 ## 컬렉션 내의 필드 참조
