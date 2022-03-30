@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
+source-git-commit: 617915d3f2e62e750c3559424ef4c203891124eb
 workflow-type: tm+mt
-source-wordcount: '3228'
+source-wordcount: '3226'
 ht-degree: 75%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 75%
 최신 [설명서 업데이트](../release-notes/documentation-updates.md)도 확인할 수 있습니다.
 
 ## 2022년 3월 릴리스 {#feb-2022-release}
-
-### 새로운 기능
 
 ### 개선 사항
 
