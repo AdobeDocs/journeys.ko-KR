@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 1e9cb572cbebf1434e236f18ce58ce45dc6c0409
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1576'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >반응 이벤트를 여정에 사용하면 대기 시간 기본값과 최소값은 40초입니다. [이 섹션](../building-journeys/reaction-events.md)을 참조하십시오.
+   >여정에서 시간 제한이 있는 반응 이벤트를 사용하면 대기 시간 기본값과 최소값은 40초입니다. [이 섹션](../building-journeys/reaction-events.md)을 참조하십시오.
 
 1. 클릭 **[!UICONTROL Trigger an event]** 이벤트를 구성하여 여정에 보냅니다.
 
@@ -155,7 +155,7 @@ Adobe Experience Platform에서 테스트 프로필로 플래그가 지정된 �
 
 테스트에서 여정을 열 때 표시된 경로가 마지막으로 실행된 테스트에 해당합니다.
 
-시각적 흐름은 이벤트가 인터페이스를 통해 트리거되는지 아니면 외부에서 트리거되는지(예: Postman 사용) 여부에따라 작동합니다.
+시각적 흐름은 이벤트가 인터페이스를 통해 트리거되는지 아니면 외부적으로 트리거되는지를 결정합니다(예: Postman 사용).
 
 ## 규칙 기반 여정 테스트 모드 {#test-rule-based}
 

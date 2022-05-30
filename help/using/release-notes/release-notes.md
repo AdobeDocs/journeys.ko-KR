@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 617915d3f2e62e750c3559424ef4c203891124eb
-workflow-type: ht
-source-wordcount: '3226'
-ht-degree: 100%
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+workflow-type: tm+mt
+source-wordcount: '3274'
+ht-degree: 98%
 
 ---
 
@@ -18,11 +18,15 @@ ht-degree: 100%
 이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다.
 최신 [설명서 업데이트](../release-notes/documentation-updates.md)도 확인할 수 있습니다.
 
-## 2022년 3월 릴리스 {#feb-2022-release}
+## 2022년 5월 릴리스 {#may-2022-release}
 
 ### 개선 사항
 
-**여정**
+* **표현식 편집기** - [제한](../functions/functionlimit.md) 목록 항목 수를 제한할 수 있도록 함수가 추가되었습니다. 다음 [sort](../functions/functionsort.md) 이제 함수 를 사용하여 목록 개체를 정렬할 수 있습니다. listObject에 대한 지원도 추가되었습니다 [불변](../functions/functiondistinct.md) 및 [distinctWithNull](../functions/functiondistinctwithnull.md) 함수 위에 있어야 합니다.
+
+## 2022년 3월 릴리스 {#feb-2022-release}
+
+### 개선 사항
 
 * 통합 프로필 스키마에 불필요한 필드가 없도록 하기 위해, 여정 단계 이벤트 스키마는 이제 프로필에서 기본적으로 사용하도록 설정되지 않습니다. 필요한 경우 활성화할 수 있습니다. [자세히 알아보기](../building-journeys/sharing-overview.md)
 * 내보내기 작업 관련 새로운 단계 이벤트는 이제 Journey Optimizer에서 Adobe Experience Platform으로 보내집니다. 쿼리 예시를 설명서에 추가했습니다. [자세히 알아보기](../building-journeys/query-examples.md)

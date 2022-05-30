@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 034e4d77-2f0e-4117-9fd4-b9e35ef71a39
-source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 18%
+source-wordcount: '151'
+ht-degree: 7%
 
 ---
 
 # distinct {#distinct}
 
-null 값 없이 목록의 고유 값을 반환합니다.
+지정된 목록의 고유 값 또는 개체를 반환합니다. Null 항목은 무시됩니다.
 
 ## 카테고리
 
@@ -23,20 +23,14 @@ null 값 없이 목록의 고유 값을 반환합니다.
 
 ## 함수 구문
 
-`distinct(<parameter>)`
+`distinct(<parameters>)`
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
-|-----------|------------------|
-| 목록 | listString |
-| 목록 | listBoolean |
-| 목록 | listInteger |
-| 목록 | listDecimal |
-| 목록 | listDuration |
-| 목록 | listDateTime |
-| 목록 | listDateTimeOnly |
-| 목록 | listDateOnly |
+| 매개 변수 | 유형 | 설명 |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly 또는 listObject | 처리할 목록. listObject의 경우 필드 참조여야 합니다. |
+| keyAttributeName | string | 이 매개 변수는 선택 사항이며 listObject에만 사용됩니다. 매개 변수를 제공하지 않으면 모든 속성에 값이 동일한 경우 개체가 중복으로 간주됩니다. 그렇지 않으면 지정된 속성에 값이 동일한 경우 개체가 중복으로 간주됩니다. |
 
 ## 서명 및 반환된 형식
 
@@ -71,6 +65,13 @@ datetime 목록을 반환합니다.
 `distinct(<listDuration>)`
 
 지속 시간 목록을 반환합니다.
+
+`distinct(<listObject>)`
+
+`distinct(<listObject>,<string>)`
+
+개체 목록을 반환합니다.
+
 
 ## 예시
 
