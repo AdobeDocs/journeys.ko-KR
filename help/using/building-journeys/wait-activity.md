@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: bdc9ac3f54fae1dfd6f24a54a2687a0834f69c36
+source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '355'
 ht-degree: 5%
 
 ---
@@ -18,9 +18,7 @@ ht-degree: 5%
 경로에서 다음 활동을 실행하기 전에 기다리려면 **[!UICONTROL Wait]** 활동. 이를 통해 다음 활동이 실행될 순간을 정의할 수 있습니다. 다음 세 가지 옵션을 사용할 수 있습니다.
 
 * [기간](#duration)
-* [고정 날짜](#fixed_date)
 * [사용자 지정](#custom)
-
 <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## 대기 활동 정보{#about_wait}
@@ -40,12 +38,6 @@ ht-degree: 5%
 다음 활동을 실행하기 전 대기 기간을 선택합니다.
 
 ![](../assets/journey55.png)
-
-## 고정 날짜 대기{#fixed_date}
-
-다음 활동을 실행할 날짜를 선택합니다.
-
-![](../assets/journey56.png)
 
 ## 사용자 지정 대기{#custom}
 
