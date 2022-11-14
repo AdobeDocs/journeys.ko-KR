@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 96%
 
 ## 2022년 7월 {#july-2022}
 
-* 여정 속성에서 **프로필 시간대** 이제 옵션이 기본적으로 비활성화됩니다. [자세히 보기](../building-journeys/timezone-management.md#timezone-from-profiles)
-* 에서 **대기** 활동, **고정 날짜** 옵션을 더 이상 사용할 수 없습니다. [자세히 보기](../building-journeys/wait-activity.md)
+* 여정 속성에서 **프로필 시간대** 옵션이 이제 기본적으로 비활성화됩니다. [자세히 보기](../building-journeys/timezone-management.md#timezone-from-profiles)
+* **대기** 활동에서, **고정 날짜** 옵션을 더 이상 사용할 수 없습니다. [자세히 보기](../building-journeys/wait-activity.md)
 
 ## 2022년 6월 {#june-2022}
 
-* 여기에 새 쿼리 예가 추가되었습니다 [페이지](../building-journeys/query-examples.md)
+* 새 쿼리 예제가 이 [페이지](../building-journeys/query-examples.md)에 추가되었습니다.
 
 ## 2022년 3월 {#march-2022}
 
