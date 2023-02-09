@@ -3,13 +3,13 @@ title: Adobe Journey Optimizer으로 업그레이드
 description: Adobe Journey Optimizer으로 업그레이드하는 방법 알아보기
 hide: true
 hidefromtoc: true
-source-git-commit: 8591ed266f5a360dbc7bea8dd8a6d7a089aa346f
+exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
+source-git-commit: 3e9ff02cecfe85ea38cce4b0d241156f6209202f
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '753'
 ht-degree: 2%
 
 ---
-
 
 # Journey Orchestration 환경을 Adobe Journey Optimizer으로 업그레이드{#ugrade-ajo}
 
@@ -55,7 +55,7 @@ Journey Orchestration은 Adobe Experience Platform에 구축된 서비스로, �
 
 ## Journey Orchestration 환경을 업그레이드하는 방법
 
-1. 계정 팀에 연락하여 Adobe으로 계약을 무료로 업데이트합니다.
+1. Adobe으로 계약을 업데이트하려면 계정 팀에 문의하십시오.
 
 1. 엔지니어링 팀이 변경을 완료할 때까지 기다립니다.
 
@@ -88,7 +88,7 @@ Journey Orchestration은 Adobe Experience Platform에 구축된 서비스로, �
 
 ![](../assets/migration-ajo-9.png)
 
-네, 정상입니다. 업그레이드 후 한 달 동안 Journey Orchestration에 대한 액세스 권한을 유지합니다. 이렇게 하면 모든 사용자 권한을 업데이트하고 Adobe Journey Optimizer에 대해 더 잘 알 수 있을 만큼 충분한 시간이 제공됩니다. 한 달 후에 액세스가 제거됩니다.
+네, 정상입니다. 업그레이드 후 며칠 동안 Journey Orchestration 항목이 계속 표시될 수 있습니다. Journey Optimizer을 사용하세요
 
 ### 오늘 Adobe Campaign Standard에서 Journey Orchestration을 사용하면 어떻게 됩니까?
 
