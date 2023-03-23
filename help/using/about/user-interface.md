@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '985'
 ht-degree: 94%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 94%
 >
 >이 설명서는 제품의 최근 변경 사항을 반영하기 위해 자주 업데이트됩니다. 그러나 실제 제품 인터페이스와 약간 다른 스크린샷도 있습니다.
 
-## [!DNL Journey Orchestration] 액세스{#accessing_journey_orchestration}
+## [!DNL Journey Orchestration]에 액세스{#accessing_journey_orchestration}
 
 [!DNL Journey Orchestration]의 인터페이스에 액세스하려면 오른쪽 위의 **[!UICONTROL App Selector]** 아이콘을 클릭한 후 **[!UICONTROL Journey Orchestration]**&#x200B;을(를) 클릭합니다.
 
@@ -37,7 +37,7 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 [!D
 >id="jo_home"
 >title="여정 목록"
 >abstract="여정 목록에서는 모든 여정을 한꺼번에 표시하여 해당 상태를 확인하고 기본적인 작업을 수행할 수 있습니다."
->additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="데모 비디오 시청"
+>additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="데모 비디오 보기"
 
 상단 메뉴에서는 **[!UICONTROL Home]**(여정), **[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**&#x200B;과 같은 [!DNL Journey Orchestration]의 다양한 기능 간을 이동할 수 있습니다.
 
@@ -95,7 +95,7 @@ Adobe Journey Optimizer의 액세스 가능성 기능은 Adobe Experience Platfo
 * 색상 대비
 * 필수 필드 유효성 검사
 
-Adobe Experience Platform 설명서에서 [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ko){target=&quot;_blank&quot;}
+[자세한 내용](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ko){target="_blank"}은 Adobe Experience Platform 설명서를 참조하세요.
 
 Adobe Journey Optimizer에서 다음과 같은 일반적인 키보드 단축키를 사용할 수 있습니다.
 
@@ -107,7 +107,7 @@ Adobe Journey Optimizer에서 다음과 같은 일반적인 키보드 단축키�
 | 포커스에 있는 요소 선택 또는 지우기 | Enter 또는 스페이스바 |
 | 선택 취소, 패널 축소 또는 대화 상자 닫기 | Esc |
 
-Adobe Experience Platform 설명서에서 [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ko){target=&quot;_blank&quot;}
+[자세한 내용](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ko){target="_blank"}은 Adobe Experience Platform 설명서를 참조하세요.
 
 Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있습니다.
 
@@ -197,7 +197,7 @@ Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있�
   <tr>
     <td rowspan="2">팝업 창</td>
     <td>변경 내용을 저장하거나 작업 확인</td>
-    <td>Enter 키</td>
+    <td>Enter</td>
   </tr>
   <tr>
     <td>창 닫기</td>

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: '외부 데이터 소스 '
-description: '외부 데이터 소스를 구성하는 방법 알아보기 '
+title: 외부 데이터 소스
+description: 외부 데이터 소스를 구성하는 방법 알아보기
 feature: Journeys
 role: User
 level: Intermediate
@@ -92,8 +92,8 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
->title="사용자 지정 인증"
->abstract="사용자 지정 인증 모드는 OAuth2 등의 API 래핑 프로토콜을 호출하는 복잡한 인증에 사용됩니다. 작업은 두 단계로 실행됩니다. 첫 단계에서는 엔드포인트 호출을 수행하여 액세스 토큰을 생성합니다. 두 번째 단계에서는 작업의 HTTP 요청에 액세스 토큰을 삽입합니다."
+>title="사용자 정의 인증"
+>abstract="사용자 정의 인증 모드는 OAuth2 등의 API 래핑 프로토콜을 호출하는 복잡한 인증에 사용됩니다. 작업은 두 단계로 실행됩니다. 첫 단계에서는 엔드포인트 호출을 수행하여 액세스 토큰을 생성합니다. 두 번째 단계에서는 작업의 HTTP 요청에 액세스 토큰을 삽입합니다."
 
 이 인증 모드는 작업의 실제 HTTP 요청에 삽입할 액세스 토큰을 검색하기 위한 복잡한 인증(대개 OAuth2 등의 API 래핑 프로토콜을 호출하는 데 사용됨)에 사용됩니다.
 
