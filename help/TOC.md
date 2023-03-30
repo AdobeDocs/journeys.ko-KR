@@ -5,10 +5,10 @@ title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축 방법에 대한 지침을 확인할 수 있습니다.
 index: true
 feature: Journeys
-source-git-commit: 235992282b0a05873dc17984e044400dc8de1dd8
-workflow-type: ht
-source-wordcount: '440'
-ht-degree: 100%
+source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 97%
 
 ---
 
@@ -205,4 +205,6 @@ ht-degree: 100%
    + [Campaign v7/v8을 사용하여 메시지 보내기](using/usecase/campaign-classic-use-case.md)
    + [사용자 지정 작업으로 컬렉션을 동적으로 보내기](using/usecase/collections.md)
 + API 작업{#working-with-apis}
-   + [API 한도 설정](using/api/capping.md)
+   + [여정 API 시작](using/api/journeys-apis.md)
+   + [API 최대 가용량](using/api/capping.md)
+   + [조절 API](using/api/throttling.md)
