@@ -6,9 +6,9 @@ products: journeys
 feature: Journeys
 role: User
 level: Intermediate
-source-git-commit: 1f91bae24dfcb291dd354e4bff9eab85afdaf5a1
+source-git-commit: fa493cf1e856378e4d79a6932c30cebf5e11e028
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '788'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ Throttling API를 사용하면 조절 구성을 생성, 구성 및 모니터링�
 >조직당 현재 하나의 구성만 허용됩니다. 구성은 프로덕션 샌드박스에서 정의해야 합니다(헤더에서 x-sandbox-name을 통해 제공).
 >
 >구성은 조직 수준에서 적용됩니다.
+>
+>API에 설정된 제한에 도달하면 최대 6시간 동안 추가 이벤트가 큐에 추가됩니다. 이 값은 수정할 수 없습니다.
 
 ## 조절 API 설명 {#description}
 
