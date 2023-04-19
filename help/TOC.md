@@ -6,9 +6,9 @@ user-guide-description: 여정 구현 및 구축 방법에 대한 지침을 확�
 index: true
 feature: Journeys
 source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -205,6 +205,6 @@ ht-degree: 97%
    + [Campaign v7/v8을 사용하여 메시지 보내기](using/usecase/campaign-classic-use-case.md)
    + [사용자 지정 작업으로 컬렉션을 동적으로 보내기](using/usecase/collections.md)
 + API 작업{#working-with-apis}
-   + [여정 API 시작](using/api/journeys-apis.md)
-   + [API 최대 가용량](using/api/capping.md)
-   + [조절 API](using/api/throttling.md)
+   + [여정 API 사용 시작](using/api/journeys-apis.md)
+   + [Capping API](using/api/capping.md)
+   + [Throttling API](using/api/throttling.md)
