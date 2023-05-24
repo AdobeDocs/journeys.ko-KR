@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # sort {#sort}
 
-값이나 개체 목록을 자연어 순서로 정렬합니다.
+값 또는 개체 목록을 원래 순서로 정렬합니다.
 
 ## 카테고리
 
@@ -27,13 +27,13 @@ ht-degree: 9%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 |-----------|------------------|------------------|
 | listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly 또는 listObject | 정렬할 목록입니다. listObject의 경우 필드 참조여야 합니다. |
-| keyAttributeName | string | 이 매개 변수는 listObject에만 사용됩니다. 지정된 목록의 개체에 있는 속성 이름이 정렬 키로 사용됩니다. |
-| sortingOrder | 부울 | 오름차순(true) 또는 내림차순(false) |
+| keyAttributeName | 문자열 | 이 매개 변수는 listObject에만 사용할 수 있습니다. 해당 목록의 개체에 있는 특성 이름은 정렬의 키로 사용됩니다. |
+| 정렬 순서 | 부울 | 오름차순(true) 또는 내림차순(false) |
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `sort(<listInteger>,<boolean>)`
 
@@ -41,7 +41,7 @@ ht-degree: 9%
 
 `sort(<listDecimal>,<boolean>)`
 
-소수 목록을 반환합니다.
+소수점 목록을 반환합니다.
 
 `sort(<listString>,<boolean>)`
 
@@ -49,11 +49,11 @@ ht-degree: 9%
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-시간대를 고려하지 않고 날짜 시간 목록을 반환합니다.
+시간대를 고려하지 않고 날짜/시간 목록을 반환합니다.
 
 `sort(<listDateTime>,<boolean>)`
 
-datetime 목록을 반환합니다.
+날짜/시간 목록을 반환합니다.
 
 `sort(<listDateOnly>,<boolean>)`
 

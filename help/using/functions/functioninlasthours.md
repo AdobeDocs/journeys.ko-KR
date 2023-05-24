@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: inLastHours
-description: LastHours의 함수에 대해 알아봅니다.
+description: inLastHours 함수에 대해 알아보기
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: 9baeb836-e029-4e19-b08e-7b7b5f27ff8f
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
 # inLastHours {#inLastHours}
 
-주어진 날짜 시간이 지금부터 현재 - 델타 시간 사이에 있는 경우 true를 반환합니다.
+지정된 날짜 시간이 지금부터 델타 시간 사이인 경우 true를 반환합니다.
 
 ## 카테고리
 
@@ -27,7 +27,7 @@ ht-degree: 17%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |-----------|------------------|
 | 날짜 시간 | dateTime |
 | 델타 | 정수 |
@@ -36,7 +36,7 @@ ht-degree: 17%
 
 `inLastHours(<dateTime>,<integer>)`
 
-부울을 반환합니다.
+부울 반환.
 
 ## 예시
 

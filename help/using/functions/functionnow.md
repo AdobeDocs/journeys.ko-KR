@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: now
-description: 지금 함수 알아보기
+description: 이제 함수에 대해 알아봅니다.
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -27,9 +27,9 @@ ht-degree: 18%
 
 ## 매개 변수
 
-| 매개 변수 | 설명 |
+| 매개변수 | 설명 |
 |--- |--- |
-| string |  |
+| 문자열 |  |
 
 ## 서명 및 반환된 유형
 
@@ -37,7 +37,7 @@ ht-degree: 18%
 
 `now("<timeZone id>")`
 
-dateTime 반환
+dateTime을 반환합니다.
 
 ## 예시
 
@@ -47,7 +47,7 @@ dateTime 반환
 
 `toString(now())`
 
-반환: &quot;2019-06-03T06:30Z&quot;
+&quot;2019-06-03T06:30Z&quot; 반환
 
 `now("Europe/Paris")`
 

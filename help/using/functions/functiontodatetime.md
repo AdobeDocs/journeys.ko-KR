@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: toDateTime
-description: toDateTime 함수에 대해 알아봅니다.
+description: 함수 toDateTime에 대해 알아보기
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
 source-git-commit: 2aa73498f44f22a70bb2268afca7d1a62e434542
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
 # toDateTime {#toDateTime}
 
-유형에 따라 매개 변수를 날짜 시간 값으로 변환합니다.
+유형에 따라 매개 변수를 날짜/시간 값으로 변환합니다.
 
 ## 카테고리
 
@@ -27,18 +27,18 @@ ht-degree: 10%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |-----------|------------------|
-| ISO-8601 형식의 날짜 시간 | string |
-| 시간대 id | string |
+| ISO-8601 형식의 날짜 시간 | 문자열 |
+| 시간대 id | 문자열 |
 | 시간대 없는 날짜 시간 | dateTimeOnly |
-| epoch의 정수 값(밀리초) | 정수 |
+| 에포크의 정수 값(밀리초) | 정수 |
 
 >[!NOTE]
 >
 >시간대 ID는 문자열 상수여야 합니다. 필드 참조나 식이 될 수 없습니다. 데이터 유형에 대한 자세한 내용은 [이 페이지](../expression/data-types.md).
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `toDateTime(<string>)`
 

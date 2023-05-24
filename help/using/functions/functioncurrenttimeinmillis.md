@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: currentTimeInMillis
-description: currentTimeInMillis 함수에 대해 알아봅니다.
+description: currentTimeInMillis 함수에 대해 알아봅니다
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 12%
 
 # currentTimeInMillis {#currentTimeInMillis}
 
-epoch 밀리초 단위의 현재 시간을 반환합니다.
+에포크 밀리초로 현재 시간을 반환합니다.
 
 ## 카테고리
 
@@ -33,10 +33,10 @@ epoch 밀리초 단위의 현재 시간을 반환합니다.
 
 `currentTimeInMillis()`
 
-정수를 반환합니다.
+정수 반환.
 
 ## 예시
 
 `currentTimeInMillis()`
 
-&quot;1544712617131&quot;을 반환합니다.
+&quot;1544712617131&quot;를 반환합니다.

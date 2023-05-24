@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: equalIgnoreCase
-description: equalIgnoreCase 함수에 대해 알아봅니다.
+description: equalIgnoreCase 함수에 대해 알아봅니다
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 19%
 
 # equalIgnoreCase {#equalIgnoreCase}
 
-대/소문자 고려 사항을 무시하고 첫 번째 인수 문자열을 두 번째 인수 문자열로 비교합니다.
+대/소문자 고려 사항을 무시하면서 첫 번째 인수 문자열과 두 번째 인수 문자열을 비교합니다.
 
 ## 카테고리
 
@@ -27,13 +27,13 @@ ht-degree: 19%
 
 ## 매개 변수
 
-* string
+* 문자열
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `equalIgnoreCase(<string>,<string>)`
 
-부울을 반환합니다.
+부울 반환.
 
 ## 예
 

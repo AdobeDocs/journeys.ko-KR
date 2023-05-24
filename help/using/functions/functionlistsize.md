@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: listSize
-description: 함수 listSize에 대해 알아보기
+description: listSize 함수에 대해 알아봅니다
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -27,11 +27,11 @@ ht-degree: 34%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |-----------|------------------|
 | 목록 | listString |
-| 목록 | listBoolean |
-| 목록 | listInteger |
+| 목록 | list부울 |
+| 목록 | list정수 |
 | 목록 | listDecimal |
 | 목록 | listDuration |
 | 목록 | listDateTime |
@@ -64,4 +64,4 @@ ht-degree: 34%
 
 `listSize([10,2,3])`
 
-3 반환.
+3을 반환합니다.

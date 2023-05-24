@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: upper
-description: 함수 상부에 대해 알아보기
+description: 함수 상단에 대해 알아보기
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -25,7 +25,7 @@ ht-degree: 17%
 
 `upper(<parameters>)`
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `upper(<string>)`
 

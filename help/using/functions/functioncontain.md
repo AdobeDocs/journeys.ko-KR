@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: contain
-description: 다음 포함 함수에 대해 알아봅니다.
+description: 함수 contain에 대해 알아보기
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -27,13 +27,13 @@ ht-degree: 19%
 
 ## 매개 변수
 
-* string
+* 문자열
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `contain(<string>,<string>)`
 
-부울을 반환합니다.
+부울 반환.
 
 ## 예
 

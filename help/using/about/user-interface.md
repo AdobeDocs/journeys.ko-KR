@@ -55,7 +55,7 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 [!D
 
 **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 및 **[!UICONTROL Actions]** 목록에서 **[!UICONTROL Creation filters]**&#x200B;을(를) 사용하여 만든 날짜와 사용자를 기준으로 필터링합니다. 예를 들어 지난 30일 동안 만든 이벤트만 표시하도록 선택할 수 있습니다.
 
-여정 목록(아래) **[!UICONTROL Home]**) 내의 모든 세그먼트를 **[!UICONTROL Creation filters]**, 상태, 유형 및 버전에 따라 표시된 여정을 필터링할 수도 있습니다(**[!UICONTROL Status and version filters]**). 유형은 다음과 같습니다. **[!UICONTROL Unitary event]** 또는 **[!UICONTROL Segment qualification]**. **[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**&#x200B;를 사용하면 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정만 표시하도록 선택할 수도 있습니다. 그리고 **[!UICONTROL Publication filters]**&#x200B;를 사용하면 게시 날짜나 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 여정의 최신 버전만 표시하도록 선택할 수 있습니다. [이 페이지](../building-journeys/using-the-journey-designer.md)를 참조하십시오.
+여정 목록 내(아래) **[!UICONTROL Home]**), 및 **[!UICONTROL Creation filters]**, 상태, 유형 및 버전에 따라 표시된 여정을 필터링할 수도 있습니다(**[!UICONTROL Status and version filters]**). 유형은 다음과 같습니다. **[!UICONTROL Unitary event]** 또는 **[!UICONTROL Segment qualification]**. **[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**&#x200B;를 사용하면 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정만 표시하도록 선택할 수도 있습니다. 그리고 **[!UICONTROL Publication filters]**&#x200B;를 사용하면 게시 날짜나 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 여정의 최신 버전만 표시하도록 선택할 수 있습니다. [이 페이지](../building-journeys/using-the-journey-designer.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 [!D
 
 ## 접근성{#accessibility}
 
-Adobe Journey Optimizer의 액세스 가능성 기능은 Adobe Experience Platform에서 제공합니다.
+Adobe Journey Optimizer의 접근성 기능은 Adobe Experience Platform에서 제공합니다.
 
 * 키보드 접근성
 * 색상 대비

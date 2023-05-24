@@ -27,11 +27,11 @@ null 값을 고려하지 않는 목록의 요소를 계산합니다.
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |-----------|------------------|
 | 목록 | listString |
-| 목록 | listBoolean |
-| 목록 | listInteger |
+| 목록 | list부울 |
+| 목록 | list정수 |
 | 목록 | listDecimal |
 | 목록 | listDuration |
 | 목록 | listDateTime |
@@ -42,10 +42,10 @@ null 값을 고려하지 않는 목록의 요소를 계산합니다.
 
 `count(<listAny>)`
 
-정수를 반환합니다.
+정수 반환.
 
 ## 예
 
 `count([10,2,10,null])`
 
-3 반환.
+3을 반환합니다.

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: lower
-description: lower 기능에 대해 알아보기
+description: 함수 하위에 대해 알아보기
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -25,11 +25,11 @@ ht-degree: 23%
 
 `lower(<parameter>)`
 
-## 매개 변수
+## 매개변수
 
-* string
+* 문자열
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `lower(<string>)`
 

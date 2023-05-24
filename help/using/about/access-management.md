@@ -40,7 +40,7 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 
    >[!NOTE]
    >
-   >**[!UICONTROL Administrators]**&#x200B;는 Adobe Campaign Standard에서 트랜잭션 메시지(또는 메시지 템플릿)를 작성, 편집, 게시할 수 있는 유일한 제품 프로필입니다. Adobe Campaign Standard를 사용하여 여정에서 메시지를 보내는 경우에 이 제품 프로필이 필요합니다. Admin Console에서 이름을 변경해서는 안 됩니다.
+   >**[!UICONTROL Administrators]**&#x200B;는 Adobe Campaign Standard에서 트랜잭션 메시지(또는 메시지 템플릿)를 작성, 편집, 게시할 수 있는 유일한 제품 프로필입니다. Adobe Campaign Standard를 사용하여 여정에서 메시지를 보내는 경우에 이 제품 프로필이 필요합니다. Admin Console에서 이름을 바꾸면 안 됩니다.
 
 * **[!UICONTROL Standard User]**: 여정 관리와 같은 기본적인 액세스 권한을 가진 사용자. 이 제품 프로필에는 다음과 같은 권한이 포함됩니다.
    * 여정 관리
@@ -71,7 +71,7 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 
 제품 프로필을 만들고 권한 집합 및 샌드박스를 할당하려면 다음과 같이 하십시오.
 
-1. Admin Console에서 **[!UICONTROL Journey Orchestration]**&#x200B;을 선택합니다. **[!UICONTROL Product profile]** 탭에서 **[!UICONTROL New Profile]**&#x200B;을 클릭합니다.
+1. Admin Console에서 **[!UICONTROL Journey Orchestration]**&#x200B;을 선택합니다. **[!UICONTROL Product profile]** 탭에서 **[!UICONTROL New Profile]**&#x200B;을(를) 클릭합니다.
 
    ![](../assets/do-not-localize/user_management_5.png)
 
@@ -141,6 +141,6 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 샌드박스는 Admin Console에서 제품 프로필을 통해 할당됩니다. 샌드박스를 할당하는 방법에 대한 자세한 내용은 이 [섹션](../about/access-management.md#create-product-profile)을 참조하십시오.
 
 [!DNL Journey Orchestration] (은)는 해당 조직을 위해 만들어진 Adobe Experience Platform 샌드박스를 반영합니다.
-Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. 자세한 단계는 [샌드박스 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)를 참조하십시오.
+Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. 자세한 단계는 [샌드박스 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko)를 참조하십시오.
 
 화면의 왼쪽 상단에 샌드박스 전환기 컨트롤이 있습니다. 한 샌드박스에서 다른 샌드박스로 전환하려면 전환기에서 현재 활성 샌드박스를 클릭하고 드롭다운 목록에서 다른 샌드박스를 선택하십시오.

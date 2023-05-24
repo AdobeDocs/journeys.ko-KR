@@ -27,16 +27,16 @@ ht-degree: 18%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |--- |--- |
-| string | string |
-| regexp | string |
+| 문자열 | 문자열 |
+| regexp | 문자열 |
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `matchRegExp(<string>,<string>)`
 
-부울을 반환합니다.
+부울 반환.
 
 ## 예
 

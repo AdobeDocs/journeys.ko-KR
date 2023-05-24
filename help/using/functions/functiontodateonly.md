@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: toDateOnly
-description: toDateOnly 함수에 대해 알아봅니다.
+description: toDateOnly 함수에 대해 알아보기
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 21%
 
 # toDateOnly{#toDateOnly}
 
-인수 값을 날짜 전용 값으로 변환합니다.
+인수 값을 날짜만 값으로 변환합니다.
 
 ## 카테고리
 
@@ -27,12 +27,12 @@ ht-degree: 21%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |-----------|------------------|
-| ISO-8601 또는 &quot;YYYY-MM-DD&quot; 형식(XDM 날짜 형식)의 날짜 | string |
+| ISO-8601 또는 &quot;YYYY-MM-DD&quot; 형식의 날짜(XDM 날짜 형식) | 문자열 |
 | 날짜 | 날짜 |
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `toDateOnly(<date>)`
 

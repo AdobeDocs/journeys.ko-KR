@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 페이로드 필드 정의
-description: 페이로드 필드를 정의하는 방법에 대해 알아봅니다
+description: 페이로드 필드를 정의하는 방법 알아보기
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,29 +15,29 @@ ht-degree: 5%
 
 # 페이로드 필드 정의 {#concept_yrw_3qt_52b}
 
-페이로드 정의를 사용하면 시스템에서 여정의 이벤트에서 받게 될 정보를 선택하고 키와 어떤 사람이 이벤트에 연결되어 있는지 식별할 수 있습니다. 페이로드는 Experience Cloud XDM 필드 정의를 기반으로 합니다. XDM에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko).
+페이로드 정의를 사용하면 여정의 이벤트에서 시스템이 받을 것으로 예상되는 정보와 해당 이벤트와 연관된 사용자를 식별하는 키를 선택할 수 있습니다. 페이로드는 Experience Cloud XDM 필드 정의를 기반으로 합니다. XDM에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR).
 
-1. 목록에서 XDM 스키마를 선택하고 를 클릭합니다. **[!UICONTROL Payload]** 필드 또는 **[!UICONTROL Edit]** 아이콘.
+1. 목록에서 XDM 스키마를 선택하고 **[!UICONTROL Payload]** 필드 또는 **[!UICONTROL Edit]** 아이콘.
 
    ![](../assets/journey8.png)
 
-   스키마에 정의된 모든 필드가 표시됩니다. 필드 목록은 스키마마다 다릅니다. 특정 필드를 검색하거나 필터를 사용하여 모든 노드와 필드를 표시하거나 선택한 필드만 표시할 수 있습니다. 스키마 정의에 따라 일부 필드는 필수 필드이며 미리 선택되어 있을 수 있습니다. 선택 취소할 수 없습니다. Journey Orchestration에서 이벤트를 제대로 수신하기 위해 필요한 모든 필드는 기본적으로 선택됩니다.
+   스키마에 정의된 모든 필드가 표시됩니다. 필드 목록은 스키마마다 다릅니다. 특정 필드를 검색하거나 필터를 사용하여 모든 노드 및 필드를 표시하거나 선택한 필드만 표시할 수 있습니다. 스키마 정의에 따라 일부 필드는 필수이고 미리 선택될 수 있습니다. 선택을 취소할 수 없습니다. Journey Orchestration에서 이벤트를 제대로 수신하기 위해 반드시 필요한 모든 필드가 기본적으로 선택됩니다.
 
    >[!NOTE]
    >
-   >XDM 스키마에 &quot;orchestration&quot; mixin을 추가해야 합니다. 이렇게 하면 스키마에 작업에 필요한 모든 정보가 포함됩니다 [!DNL Journey Orchestration].
+   >XDM 스키마에 &quot;orchestration&quot; mixin을 추가했는지 확인합니다. 이렇게 하면 스키마에 작업에 필요한 모든 정보가 포함됩니다 [!DNL Journey Orchestration].
 
    ![](../assets/journey9.png)
 
-1. 이벤트에서 받을 필드를 선택합니다. 비즈니스 사용자가 여정에서 활용할 수 있는 필드입니다. 또한 이벤트와 연관된 사용자를 식별하는 데 사용할 키도 포함해야 합니다( 참조). [이 페이지](../event/defining-the-event-key.md)).
+1. 이벤트에서 수신할 필드를 선택합니다. 비즈니스 사용자가 여정 시 활용할 필드입니다. 또한 이벤트와 관련된 사용자를 식별하는 데 사용할 키도 포함해야 합니다(참조) [이 페이지](../event/defining-the-event-key.md)).
 
    ![](../assets/journey10.png)
 
    >[!NOTE]
    >
-   >시스템 생성 이벤트의 경우, **[!UICONTROL eventID]** 필드를 선택한 필드 목록에 자동으로 추가하여 [!DNL Journey Orchestration] 이벤트를 식별할 수 있습니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 사용해야 합니다. [이 페이지](../event/previewing-the-payload.md)를 참조하십시오.
+   >시스템 생성 이벤트의 경우 **[!UICONTROL eventID]** 필드는 선택한 필드 목록에 자동으로 추가되므로 [!DNL Journey Orchestration] 이벤트를 식별할 수 있습니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 사용해야 합니다. [이 페이지](../event/previewing-the-payload.md)를 참조하십시오.
 
-1. 필요한 필드 선택을 완료했으면 을 클릭합니다 **[!UICONTROL Save]** 또는 **[!UICONTROL Enter]**.
+1. 필요한 필드 선택을 마쳤으면 **[!UICONTROL Save]** 또는 누르기 **[!UICONTROL Enter]**.
 
    ![](../assets/journey11.png)
 

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 여정 작성 - 고급
-description: '고급 사용 사례 여정 구축 방법 살펴보기 '
+title: 여정 구축 - 고급
+description: 고급 사용 사례 여정 구축 방법 살펴보기
 feature: Journeys
 role: User
 level: Intermediate
@@ -102,7 +102,7 @@ ht-degree: 91%
 
    ![](../assets/journeyuc2_18.png)
 
-1. 외부 데이터 소스에서 필드를 선택하면 화면의 오른쪽 부분에 외부 데이터 소스를 구성할 때 정의된 매개 변수 목록이 표시됩니다(참조 [이 페이지](../usecase/configuring-the-data-sources.md)). 매개 변수 이름을 클릭하고 다음 예제에서 예약 시스템 키, Experience Cloud ID의 값을 정의합니다.
+1. 외부 데이터 소스에서 필드를 선택하면 화면의 오른쪽 부분에 외부 데이터 소스를 구성할 때 정의된 매개 변수 목록이 표시됩니다( 참조) [이 페이지](../usecase/configuring-the-data-sources.md)). 매개 변수 이름을 클릭하고 다음 예제에서 예약 시스템 키, Experience Cloud ID의 값을 정의합니다.
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -168,7 +168,7 @@ ht-degree: 91%
 
 1. **[!UICONTROL End]** 활동을 추가합니다.
 
-**[!UICONTROL Test]** 토글을 클릭하고 여정을 테스트합니다. 오류가 있는 경우 테스트 모드를 비활성화하고 여정를 수정한 후 다시 테스트하십시오. 테스트 모드에 대한 자세한 내용은 [이 페이지](../building-journeys/testing-the-journey.md).
+**[!UICONTROL Test]** 토글을 클릭하고 여정을 테스트합니다. 오류가 있는 경우 테스트 모드를 비활성화하고 여정를 수정한 후 다시 테스트하십시오. 테스트 모드에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../building-journeys/testing-the-journey.md).
 
 ![](../assets/journeyuc2_32bis.png)
 

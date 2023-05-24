@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 함수
-description: 기능에 대해 알아보기
+description: 함수에 대해 알아보기
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 75%
 
 # 함수 {#concept_p1r_qj5_dgb}
 
-함수에는 서로 다른 서명(순서가 지정된 다른 매개 변수 세트)이 있을 수 있습니다. 함수 시그니처에는 순서가 지정된 매개 변수로 0-N 식이 있을 수 있습니다.
+함수에는 서로 다른 서명(순서가 지정된 매개 변수의 다른 세트)이 있을 수 있습니다. 함수 시그니처에는 순서가 지정된 매개 변수로 0-N 표현식이 있을 수 있습니다.
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 

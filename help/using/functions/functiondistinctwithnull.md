@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # distinctWithNull {#distinctWithNull}
 
-지정된 목록의 고유 값 또는 개체를 반환합니다. 목록에 Null 항목이 하나 이상 있으면 반환된 목록에 Null 항목이 표시됩니다.
+주어진 목록의 고유 값 또는 개체를 반환합니다. 목록에 null 항목이 하나 이상 있으면 반환된 목록에 null 항목이 표시됩니다.
 
 ## 카테고리
 
@@ -27,12 +27,12 @@ ht-degree: 5%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly 또는 listObject | 처리할 목록. listObject의 경우 필드 참조여야 합니다. |
-| keyAttributeName | string | 이 매개 변수는 선택 사항이며 listObject에만 사용됩니다. 매개 변수를 제공하지 않으면 모든 속성에 값이 동일한 경우 개체가 중복으로 간주됩니다. 그렇지 않으면 지정된 속성에 값이 동일한 경우 개체가 중복으로 간주됩니다. |
+| listToprocess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly 또는 listObject | 처리할 목록. listObject의 경우 필드 참조여야 합니다. |
+| keyAttributeName | 문자열 | 이 매개 변수는 선택 사항이며 listObject에만 사용됩니다. 매개변수를 제공하지 않으면 모든 속성의 값이 동일한 경우 객체가 복제된 것으로 간주됩니다. 그렇지 않으면, 지정된 속성에 동일한 값이 있으면 객체가 복제된 것으로 간주됩니다. |
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `distinctWithNull(<listInteger>)`
 
@@ -40,7 +40,7 @@ ht-degree: 5%
 
 `distinctWithNull(<listDecimal>)`
 
-소수 목록을 반환합니다.
+소수점 목록을 반환합니다.
 
 `distinctWithNull(<listString>)`
 
@@ -48,11 +48,11 @@ ht-degree: 5%
 
 `distinctWithNull(<listDateTimeOnly>)`
 
-시간대를 고려하지 않고 날짜 시간 목록을 반환합니다.
+시간대를 고려하지 않고 날짜/시간 목록을 반환합니다.
 
 `distinctWithNull(<listDateTime>)`
 
-datetime 목록을 반환합니다.
+날짜/시간 목록을 반환합니다.
 
 `distinctWithNull(<listDateOnly>)`
 
@@ -64,7 +64,7 @@ datetime 목록을 반환합니다.
 
 `distinctWithNull(<listDuration>)`
 
-지속 시간 목록을 반환합니다.
+기간 목록을 반환합니다.
 
 `distinctWithNull(<listObject>)`
 

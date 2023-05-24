@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: distinct
-description: 고유한 기능에 대해 알아보기
+description: 기능 고유 사항에 대해 알아보기
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # distinct {#distinct}
 
-지정된 목록의 고유 값 또는 개체를 반환합니다. Null 항목은 무시됩니다.
+주어진 목록의 고유 값 또는 개체를 반환합니다. Null 항목은 무시됩니다.
 
 ## 카테고리
 
@@ -27,12 +27,12 @@ ht-degree: 7%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly 또는 listObject | 처리할 목록. listObject의 경우 필드 참조여야 합니다. |
-| keyAttributeName | string | 이 매개 변수는 선택 사항이며 listObject에만 사용됩니다. 매개 변수를 제공하지 않으면 모든 속성에 값이 동일한 경우 개체가 중복으로 간주됩니다. 그렇지 않으면 지정된 속성에 값이 동일한 경우 개체가 중복으로 간주됩니다. |
+| listToprocess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly 또는 listObject | 처리할 목록. listObject의 경우 필드 참조여야 합니다. |
+| keyAttributeName | 문자열 | 이 매개 변수는 선택 사항이며 listObject에만 사용됩니다. 매개변수를 제공하지 않으면 모든 속성의 값이 동일한 경우 객체가 복제된 것으로 간주됩니다. 그렇지 않으면, 지정된 속성에 동일한 값이 있으면 객체가 복제된 것으로 간주됩니다. |
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `distinct(<listInteger>)`
 
@@ -40,7 +40,7 @@ ht-degree: 7%
 
 `distinct(<listDecimal>)`
 
-소수 목록을 반환합니다.
+소수점 목록을 반환합니다.
 
 `distinct(<listString>)`
 
@@ -48,11 +48,11 @@ ht-degree: 7%
 
 `distinct(<listDateTimeOnly>)`
 
-시간대를 고려하지 않고 날짜 시간 목록을 반환합니다.
+시간대를 고려하지 않고 날짜/시간 목록을 반환합니다.
 
 `distinct(<listDateTime>)`
 
-datetime 목록을 반환합니다.
+날짜/시간 목록을 반환합니다.
 
 `distinct(<listDateOnly>)`
 
@@ -64,7 +64,7 @@ datetime 목록을 반환합니다.
 
 `distinct(<listDuration>)`
 
-지속 시간 목록을 반환합니다.
+기간 목록을 반환합니다.
 
 `distinct(<listObject>)`
 

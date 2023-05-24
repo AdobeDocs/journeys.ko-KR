@@ -9,13 +9,13 @@ exl-id: 116713e0-7bbd-4150-8495-f87034eafb5f
 source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
 # max{#max}
 
-목록 또는 두 개의 표현식으로 제공되는 표현식 집합 중 최대값을 반환합니다. Null 값은 무시됩니다.
+목록 또는 두 표현식으로 지정된 표현식 세트 중 최대값을 반환합니다. Null 값은 무시됩니다.
 
 ## 카테고리
 
@@ -28,34 +28,34 @@ ht-degree: 6%
 ## 매개 변수
 
 * listDuration
-* listInteger
+* list정수
 * listDecimal
 * listDateTime
 * listDateTimeOnly
 * listDateOnly
-* 기간
+* 지속 시간
 * 정수
-* 십진수
+* decimal
 * dateTime
 * dateTimeOnly
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `max(<listDuration>)`
 
-지속 시간을 반환합니다.
+기간을 반환합니다.
 
 `max(<listInteger>)`
 
-지속 시간을 반환합니다.
+기간을 반환합니다.
 
 `max(<listDateTimeOnly>)`
 
-시간대를 고려하지 않고 datetime을 반환합니다.
+시간대를 고려하지 않고 날짜/시간을 반환합니다.
 
 `max(<listDateTime>)`
 
-datetime을 반환합니다.
+날짜/시간을 반환합니다.
 
 `max(<listDateOnly>)`
 
@@ -63,27 +63,27 @@ datetime을 반환합니다.
 
 `max(<listDecimal>)`
 
-소수점 반환
+십진수를 반환합니다.
 
 `max(<decimal>,<decimal>)`
 
-소수점 반환
+십진수를 반환합니다.
 
 `max(<duration>,<duration>)`
 
-지속 시간을 반환합니다.
+기간을 반환합니다.
 
 `max(<dateTime>,<dateTime>)`
 
-datetime을 반환합니다.
+날짜/시간을 반환합니다.
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-시간대를 고려하지 않고 datetime을 반환합니다.
+시간대를 고려하지 않고 날짜/시간을 반환합니다.
 
 `max(<integer>,<integer>)`
 
-정수를 반환합니다.
+정수 반환.
 
 ## 예시
 

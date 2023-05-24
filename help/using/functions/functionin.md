@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: in
-description: 의 함수에 대해 알아봅니다.
+description: 의 기능에 대해 알아보기
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,9 +15,9 @@ ht-degree: 19%
 
 # in {#in}
 
-첫 번째 인수 값이 목록에 있는지 확인합니다. 확인은 각 인수 값에 대해 Equal 를 통해 수행됩니다. 인수 값을 찾으면 true를 반환하고, 그렇지 않으면 false를 반환합니다.
+첫 번째 인수 값이 목록에 있는지 확인합니다. 각 인수 값에 대해 같음 을 통해 확인이 수행됩니다. 인수 값이 발견되면 true를 반환하고, 그렇지 않으면 false를 반환합니다.
 
-의 유형 `<expression>` 는 목록의 항목과 일치해야 합니다. 목록의 항목 유형은 미리 알림으로 서로 일치해야 합니다.
+의 유형입니다. `<expression>` 은(는) 목록의 항목과 일치해야 합니다. 미리 알림으로 목록의 항목 유형은 서로 일치해야 합니다.
 
 ## 카테고리
 
@@ -29,25 +29,25 @@ ht-degree: 19%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |-----------|------------------|
 | 문자열 | 문자열 |
 | 부울 | 부울 |
 | 정수 | 정수 |
-| 십진수 | 십진수 |
+| 10진수 | 10진수 |
 | 기간 | 기간 |
 | DateTime | DateTime |
-| DateTimeOnly | DateTimeOnly |
+| 날짜/시간만 | 날짜/시간만 |
 | 목록 | listString |
-| 목록 | listBoolean |
-| 목록 | listInteger |
+| 목록 | list부울 |
+| 목록 | list정수 |
 | 목록 | listDecimal |
 | 목록 | listDuration |
 | 목록 | listDateTime |
 | 목록 | listDateTimeOnly |
 | 목록 | listDateOnly |
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `in(<integer>,<listInteger>)`
 
@@ -65,7 +65,7 @@ ht-degree: 19%
 
 `in(<duration>,<listDuration>)`
 
-부울을 반환합니다.
+부울 반환.
 
 ## 예
 

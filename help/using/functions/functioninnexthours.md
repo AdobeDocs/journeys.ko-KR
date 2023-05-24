@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: inNextHours
-description: 다음 시간의 함수에 대해 알아봅니다.
+description: inNextHours 함수에 대해 알아보기
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: 4bcbfdbc-fc95-4089-8abc-f9314dde2c06
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
 # inNextHours {#inNextHours}
 
-주어진 날짜 또는 dateTime이 now와 now + delta 시간 사이에 있으면 true를 반환합니다.
+지정된 date 또는 dateTime이 now와 now + delta 시간 사이에 있으면 true를 반환합니다.
 
 ## 카테고리
 
@@ -27,7 +27,7 @@ ht-degree: 18%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |-----------|------------------|
 | 날짜 시간 | dateTime |
 | 델타 | 정수 |
@@ -36,7 +36,7 @@ ht-degree: 18%
 
 `inNextHours(<dateTime>,<integer>)`
 
-부울을 반환합니다.
+부울 반환.
 
 ## 예시
 

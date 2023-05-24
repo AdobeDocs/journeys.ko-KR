@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: serializeList
-description: serializeList 함수에 대해 알아봅니다.
+description: serializeList 함수에 대해 알아봅니다
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 22%
 
 # serializeList {#serializeList}
 
-첫 번째 매개 변수에 제공된 목록(모든 유형)을 문자열로 변환합니다. 두 번째 매개 변수는 사용할 구분 기호를 나타냅니다. 세 번째 매개 변수는 표현식의 각 요소에 따옴표가 포함되어야 하는지 여부를 나타내는 부울 값입니다.
+첫 번째 매개 변수에 지정된 목록(모든 유형)을 문자열로 변환합니다. 두 번째 매개 변수는 사용할 구분 기호를 나타냅니다. 세 번째 매개 변수는 표현식의 각 요소에 따옴표가 포함되어야 하는지 여부를 나타내는 부울 값입니다.
 
 ## 카테고리
 
@@ -27,13 +27,13 @@ ht-degree: 22%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |-----------|------------------|
 | 문자열 | 문자열 |
 | 부울 | 부울 |
-| DateTimeOnly | DateTimeOnly |
+| 날짜/시간만 | 날짜/시간만 |
 | 목록 | listString |
-| 목록 | listBoolean |
+| 목록 | list부울 |
 | 목록 | listPoint |
 | 목록 | listDecimal |
 | 목록 | listDuration |
@@ -41,7 +41,7 @@ ht-degree: 22%
 | 목록 | listDateTimeOnly |
 | 목록 | listDateOnly |
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `serializeList(<listInteger>,<string>,<boolean>)`
 

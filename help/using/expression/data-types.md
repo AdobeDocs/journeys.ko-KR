@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 데이터 유형
-description: 고급 표현식의 데이터 유형에 대해 알아봅니다
+description: 고급 표현식의 데이터 유형에 대해 알아보기
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,15 +15,15 @@ ht-degree: 5%
 
 # 데이터 유형 {#concept_gp3_rj5_dgb}
 
-기본적으로 상수에는 항상 데이터 유형이 포함됩니다. 리터럴 표현식에서 값만 지정합니다. 데이터 유형은 값(예: 문자열, 정수, 십진수 등)에서 추론할 수 있습니다. 날짜 시간과 같은 특정 경우에는 표현에만 전용 함수를 사용합니다.
+기술적으로, 상수는 항상 데이터 형식을 포함합니다. 리터럴 표현식에서는 값만 지정합니다. 값(예: 문자열, 정수, 십진수 등)에서 데이터 형식을 유추할 수 있습니다. 날짜 시간과 같은 특정한 경우에, 우리는 표현에 전용 함수를 사용한다.
 
-아래 섹션에서는 다양한 데이터 유형 표현식과 표현식에 대한 정보를 제공합니다.
+아래 섹션에서는 다양한 데이터 유형 표현식과 표현식을 표시하는 방법에 대한 정보를 제공합니다.
 
-## string {#string}
+## 문자열 {#string}
 
 **설명**
 
-공통 문자 시퀀스입니다. 사용 가능한 메모리의 양과 같은 환경에서 나오는 암시적 크기를 제외하고 특정 크기가 없습니다.
+일반적인 문자 시퀀스. 사용 가능한 메모리 양과 같은 환경에서 발생하는 암시적 크기 외에는 특정 크기가 없습니다.
 
 JSON 형식: 문자열
 
@@ -53,7 +53,7 @@ JSON 형식: 문자열
 
 **설명**
 
--2^63에서 2^63-1까지의 정수 값입니다.
+-2^63부터 2^63-1까지의 정수 값입니다.
 
 JSON 형식: 숫자
 
@@ -69,19 +69,19 @@ JSON 형식: 숫자
 42
 ```
 
-## 십진수 {#decimal}
+## decimal {#decimal}
 
 **설명**
 
-십진수. 부동 소수점 값을 나타냅니다.
+십진수. 부동 값을 나타냅니다.
 
-* 더블 타입(2-2^-52)x2^1023 중 가장 큰 양의 유한 값
-* 2-1022 유형의 가장 작은 양의 정규 값
-* 더블 유형의 최소양수 0값, 2p-1074
+* double 유형의 가장 큰 양의 유한 값, (2-2^-52)x2^1023
+* double 유형의 가장 작은 양의 정규 값, 2-1022
+* double, 2 p-1074 유형의 가장 작은 양수 nonzero 값
 
 JSON 형식: 숫자
 
-직렬화 형식: &#39;&#39; 사용 를 소수점 구분 기호로 사용합니다.
+직렬화 형식: &#39;.&#39; 사용 를 소수점 구분 기호로 사용하십시오.
 
 **리터럴 표현**
 
@@ -99,7 +99,7 @@ JSON 형식: 숫자
 
 **설명**
 
-소문자로 쓴 부울 값: true 또는 false
+소문자로 작성된 부울 값: true 또는 false
 
 JSON 형식: 부울
 
@@ -123,17 +123,17 @@ true
 
 **설명**
 
-일(년 기준)로 본 시간대가 없는 날짜만 나타냅니다.
+표준 시간대 없이 1년 1개월로 표시된 날짜만 나타냅니다.
 
-생일에 사용되는 날짜의 설명입니다.
+생일에 사용되는 날짜에 대한 설명입니다.
 
 JSON 형식: 문자열.
 
-형식은 다음과 같습니다. YYYY-MM-DD(ISO-8601), 예: &quot;2021-03-11&quot;.
+형식은 YYYY-MM-DD(ISO-8601)입니다(예: &quot;2021-03-11&quot;).
 
 toDateOnly 함수에 캡슐화할 수 있습니다.
 
-DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize하고 serialize합니다. [자세히 알아보기](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize 및 serialize합니다. [자세히 알아보기](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
 
 **리터럴 표현**
 
@@ -151,19 +151,19 @@ date("2021-02-19")
 
 **설명**
 
-연 달 1일 시간(분) 밀리초 단위로 표시된 시간대가 없는 날짜 시간을 나타냅니다.
+표준 시간대 없이 연-월-일-시간-분-초(밀리초)로 표시되는 날짜 시간을 나타냅니다.
 
 JSON 형식: 문자열.
 
-시간대를 저장하거나 나타내지는 않습니다. 대신, 그것은 벽시계처럼 현지 시간과 결합되어 생일에 사용되는 그 날짜의 설명입니다.
+시간대를 저장하거나 나타내지 않습니다. 대신, 월시계에서 본 현지 시간과 결합하여 생일 때 사용되는 날짜의 설명입니다.
 
-오프셋 또는 시간대 등의 추가 정보 없이 타임라인에서 인스턴스를 나타낼 수 없습니다.
+오프셋이나 시간대와 같은 추가 정보 없이 타임라인에서 순간을 나타낼 수 없습니다.
 
 toDateTimeOnly 함수에 캡슐화할 수 있습니다.
 
-직렬화 형식: ISO-8601 확장 오프셋 날짜-시간 형식입니다.
+직렬화 포맷: ISO-8601 확장 오프셋 날짜-시간 포맷.
 
-DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize하고 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize 및 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
 **리터럴 표현**
 
@@ -182,21 +182,21 @@ date("2021-02-19T00.00")
 
 **설명**
 
-시간대도 고려하는 날짜 시간 상수. UTC의 오프셋과 함께 날짜 시간을 나타냅니다.
+시간대도 고려하는 날짜 시간 상수입니다. UTC의 오프셋이 있는 날짜-시간을 나타냅니다.
 
-오프셋의 추가 정보를 사용하여 적시에 인스턴스로 볼 수 있습니다. 세계 어느 곳에서 특정 순간을 표현하는 방법이다.
+오프셋의 추가적 정보를 가지고 순간적으로 볼 수 있다. 세계의 특정 장소에서 특정한 &quot;순간&quot;을 나타내는 방법이다.
 
 JSON 형식: 문자열.
 
 toDateTime 함수에 캡슐화할 수 있습니다.
 
-직렬화 형식: ISO-8601 확장 오프셋 날짜-시간 형식입니다.
+직렬화 포맷: ISO-8601 확장 오프셋 날짜-시간 포맷.
 
-DateTimeFormatter ISO_OFFSET_DATE_TIME을 사용하여 값을 deserialize하고 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+DateTimeFormatter ISO_OFFSET_DATE_TIME을 사용하여 값을 deserialize 및 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-epoch 값을 전달하는 정수를 전달할 수도 있습니다. [자세히 보기](https://www.epochconverter.com)
+에포크 값을 전달하는 정수를 전달할 수도 있습니다. [자세히 보기](https://www.epochconverter.com)
 
-시간대는 오프셋이나 시간대 코드로 지정할 수 있습니다(예: 유럽/파리, Z - UTC).
+시간대는 오프셋 또는 시간대 코드(예: 유럽/파리, Z - UTC 의미)로 지정할 수 있습니다.
 
 **리터럴 표현**
 
@@ -242,21 +242,21 @@ toDateTime("2011-12-03T15:15:30.123-00:20")
 toDateTime(1560762190189)
 ```
 
-## 기간 {#duration}
+## 지속 시간 {#duration}
 
 **설명**
 
-시간 기반 시간(예: &#39;34.5초&#39;)을 나타냅니다. 수량 또는 시간을 밀리초 단위로 모델링합니다.
+이는 &#39;34.5초&#39;와 같이 시간 기반 시간을 나타냅니다. 그것은 밀리초로 수량이나 시간을 모델링한다.
 
-지원되는 임시 단위는 다음과 같습니다. 밀리초, 초, 분, 시간, 일(하루가 24시간)입니다. 연도 및 달은 고정된 시간이 아니므로 지원되지 않습니다.
+지원되는 시간 단위는 밀리초, 초, 분, 시간, 일수가 24시간과 같은 경우입니다. 연도 및 월은 고정된 시간이 아니므로 지원되지 않습니다.
 
 JSON 형식: 문자열.
 
-toDuration 함수에 캡슐화되어야 합니다.
+toDuration 함수에 캡슐화해야 합니다.
 
-직렬화 형식: 표준 시간대 ID를 deserialize하려면 java 함수 java.time을 사용합니다.
+직렬화 형식: 시간대 ID를 역직렬화하려면 java 함수 java.time을 사용합니다.
 
-Duration.parse: 허용되는 형식은 ISO-8601 기간 형식 PnDTnHnMn.nS를 기반으로 하며, 일 수는 정확히 24시간으로 간주됩니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse: 허용되는 형식은 ISO-8601 기간 형식 PnDTnHnMn.nS를 기반으로 하며, 일은 정확히 24시간으로 간주됩니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
 **리터럴 표현**
 
@@ -310,13 +310,13 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## 목록에 있는 참조 페이지를 나타냅니다 {#list}
+## list {#list}
 
 **설명**
 
-대괄호를 구분 기호로 사용하여 쉼표로 구분된 표현식 목록.
+대괄호를 구분 기호로 사용하여 쉼표로 구분된 표현식 목록입니다.
 
-다형성 기능은 지원되지 않으므로 목록에 포함된 모든 표현식의 형식이 같아야 합니다.
+다형성은 지원되지 않으므로 목록에 포함된 모든 표현식의 유형이 같아야 합니다.
 
 **리터럴 표현**
 

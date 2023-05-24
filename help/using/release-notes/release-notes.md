@@ -9,7 +9,7 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
 source-wordcount: '3274'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 ### 개선 사항
 
-* **표현식 편집기** - [제한](../functions/functionlimit.md) 목록 항목 수를 제한할 수 있도록 함수가 추가되었습니다. 다음 [sort](../functions/functionsort.md) 이제 함수 를 사용하여 목록 개체를 정렬할 수 있습니다. listObject에 대한 지원도 추가되었습니다 [불변](../functions/functiondistinct.md) 및 [distinctWithNull](../functions/functiondistinctwithnull.md) 함수 위에 있어야 합니다.
+* **표현식 편집기** - 목록의 항목 수를 제한할 수 있도록 [limit](../functions/functionlimit.md) 함수가 추가되었습니다. 이제 [sort](../functions/functionsort.md) 함수를 사용하여 목록 개체를 정렬할 수 있습니다. 또한 [disctinct](../functions/functiondistinct.md) 및 [distinctWithNull](../functions/functiondistinctwithnull.md) 함수에 listObject에 대한 지원도 추가되었습니다.
 
 ## 2022년 3월 릴리스 {#feb-2022-release}
 

@@ -13,9 +13,9 @@ ht-degree: 10%
 
 ---
 
-# 필터{#filter}
+# filter{#filter}
 
-지정된 키 값 중 하나와 일치하는 키 특성이 있는 개체를 사용하여 listObject를 반환합니다.
+지정된 키 값 중 하나와 일치하는 키 특성을 가진 개체와 함께 listObject를 반환합니다.
 
 ## 카테고리
 
@@ -27,13 +27,13 @@ ht-degree: 10%
 
 ## 매개 변수
 
-| 매개 변수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 |-----------|------------------|------------------|
-| listToFilter | listObject | 필터링할 개체 목록 필드 참조여야 합니다. |
-| keyAttributeName | string | 필터링에 키로 사용되는 지정된 목록의 객체 속성 이름 |
-| keyValueList | 목록에 있는 참조 페이지를 나타냅니다 | 필터링을 위한 키 값 배열 |
+| listTofilter | listObject | 필터링할 객체 목록입니다. 필드 참조여야 합니다. |
+| keyAttributeName | 문자열 | 해당 목록의 개체에서 필터링용 키로 사용되는 속성 이름 |
+| 키 값 목록 | list | 필터링에 사용할 키 값 배열 |
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `filter(listObject, string, listString)`
 
@@ -55,7 +55,7 @@ listObject를 반환합니다.
 
 ## 예시
 
-다음은 들어오는 이벤트 &quot;myevent&quot;에서 전달된 페이로드의 예입니다.
+다음은 수신 이벤트 &quot;myevent&quot;에서 전달된 페이로드의 예입니다.
 
 ```json
 "productListItems": [{
@@ -83,4 +83,4 @@ filter(
 )
 ```
 
-id로 &quot;product2&quot; 및 &quot;product3&quot;이 있는 두 개체가 포함된 listObject를 반환합니다.
+id로 &quot;product2&quot; 및 &quot;product3&quot;을 사용하는 두 개체가 포함된 listObject를 반환합니다.

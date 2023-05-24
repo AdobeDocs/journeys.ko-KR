@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: trim
-description: 함수 트리밍에 대해 알아보기
+description: 함수 트림에 대해 알아보기
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 32%
 
 # trim {#trim}
 
-시작 및 종료 공백을 제거합니다.
+시작 및 끝 공백을 제거합니다.
 
 ## 카테고리
 
@@ -25,13 +25,13 @@ ht-degree: 32%
 
 `trim(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
-| 매개 변수 | 유형 |
+| 매개변수 | 유형 |
 |-----------|------------------|
-| string | string |
+| 문자열 | 문자열 |
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `trim(<string>)`
 

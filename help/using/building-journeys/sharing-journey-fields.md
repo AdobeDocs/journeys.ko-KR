@@ -9,40 +9,40 @@ exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 26%
+ht-degree: 28%
 
 ---
 
 # 여정 필드 {#sharing-journey-fields}
 
-이 mixin은 여정 스키마에서 사용됩니다(journeyStepEvent와 관련됨). 여기에는 다음 필드가 포함되어 있습니다.
+해당 mixin은 journeyStepEvent와 관련하여 여정 스키마에서 사용됩니다. 여기에는 다음 필드가 포함되어 있습니다.
 
 ## journeyID
 
-기본 여정의 ID입니다.
+기본 여정 ID.
 
 유형: 문자열
 
-## journeyVersionID
+## 여정 버전 ID
 
-여정 버전의 ID입니다. 이 id는 여정의 ID를 나타냅니다.
+여정 버전 ID. 이 ID는 여정 ID를 나타냅니다.
 
 유형: 문자열
 
 ## 이름
 
-여정 이름입니다.
+여정 이름.
 
 유형: 문자열
 
 ## 설명
 
-여정 설명.
+여정에 대한 설명.
 
 유형: 문자열
 
 ## version
 
-버전, 다음으로 표시됨 `major`.`minor`
+버전, 다음으로 표시 `major`.`minor`
 
 유형: 문자열

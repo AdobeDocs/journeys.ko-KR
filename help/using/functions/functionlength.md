@@ -25,15 +25,15 @@ ht-degree: 20%
 
 `length(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
-* string
+* 문자열
 
-## 서명 및 반환된 형식
+## 서명 및 반환된 유형
 
 `length(<string>)`
 
-정수를 반환합니다.
+정수 반환.
 
 ## 예
 

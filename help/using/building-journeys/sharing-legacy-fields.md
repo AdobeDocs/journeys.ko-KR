@@ -1,6 +1,6 @@
 ---
 title: 단계 이벤트 필드 목록
-description: 이전 필드
+description: 레거시 필드
 feature: Journeys
 topic: Content Management
 role: User
