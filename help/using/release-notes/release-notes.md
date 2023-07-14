@@ -7,19 +7,19 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: d759aab70b2a6f6d4897bdd3498a9499dff2899f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4188'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # 릴리스 정보 {#release-notes}
 
-이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다. Experience Platform 기능에 대해서는 다음을 참조하십시오 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko).
+이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다. Experience Platform의 기능을 확인하려면 다음 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko)를 참조하십시오.
 
 >[!NOTE]
 >
->2022년 및 2023년에 릴리스된 기능의 경우 링크는 Adobe Journey Optimizer 설명서로 연결됩니다.
+>2022년과 2023년에 릴리스된 기능의 경우 링크는 Adobe Journey Optimizer 설명서로 연결됩니다.
 
 ## 2023년 4월 릴리스 {#apr-rn-2023}
 
@@ -28,10 +28,10 @@ ht-degree: 90%
 **여정**
 
 * 작업과 데이터 소스, 이벤트 및 여정에 표시되는 구성 창의 레이아웃을 개선했습니다.
-* 이제 사용자 정의 작업에서 정적 또는 동적 쿼리 매개 변수를 정의할 수 있습니다. Journey Optimizer 참조 [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html#url-configuration).
-* 여정이 제공하는 경험 증가를 관리할 수 있는 새로운 보호 기능:
-   * 여정의 성능과 읽기, QA 및 문제 해결을 유지하려면 노드 수를 50 이하로 제한하는 것이 좋습니다. 활동 수가 여정 캔버스의 왼쪽 상단에 표시됩니다. Journey Optimizer 참조 [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#journeys-guardrails-journeys)
-   * 여정을 개발하고 시작하면 한 번에 100개의 라이브 여정 이정표에 도달하면 알려드리겠습니다. 플랜에 한 번에 100개 이상의 여정이 필요한 경우 알림을 보고 지원 티켓을 만드십시오. 도움이 될 것입니다. Journey Optimizer 참조 [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#journeys-guardrails-journeys)
+* 이제 사용자 정의 작업에서 정적 또는 동적 쿼리 매개 변수를 정의할 수 있습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=ko#url-configuration)를 참조하십시오.
+* 여정을 통해 제공하는 경험의 증가량을 관리할 수 있는 새로운 가드레일:
+   * 여정의 성능과 가독성, QA, 문제 해결을 위해 노드 수를 50개 이하로 제한하는 것이 좋습니다. 활동 수는 여정 캔버스의 왼쪽 위 섹션에 표시됩니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko#journeys-guardrails-journeys)를 참조하십시오
+   * 여정을 개발하고 시작한 뒤 한 번에 100개의 실시간 여정을 실행하는 마일스톤에 도달하면 알림을 보내 드리겠습니다. 기획에 한 번에 100개가 넘는 여정이 필요한 경우 알림을 확인한 뒤 지원 티켓을 개설해 주시면 Adobe가 도와 드리겠습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko#journeys-guardrails-journeys)를 참조하십시오
 
 ## 2023년 3월 릴리스 {#mar-2023}
 
@@ -40,21 +40,21 @@ ht-degree: 90%
 * 새로운 **Throttling API**&#x200B;를 통해 초당 전송 이벤트 수에 제한을 설정하여 외부 시스템 또는 API에서 급격한 트래픽 스파이크가 발생하는 것을 방지할 수 있습니다. 설정한 제한에 도달하면 그 뒤의 API 호출은 수신되는 순서로 모두 큐에 올려 가능한 한 빨리 처리합니다. 이 기능은 모든 샌드박스를 통틀어 하나의 스로틀링 구성만 지원합니다. [자세히 알아보기](../api/throttling.md)
 * 여정 캔버스가 보다 간단하고 개선된 사용자 경험을 제공하도록 향상되었습니다. 캔버스에서 각 경로의 끝에 있던 빈 자리 표시자를 제거했습니다. 이제 활동을 추가하려면 간단히 경로 끝에 끌어다 놓기만 하면 됩니다.
 * 이제 여정 캔버스의 **종료** 태그가 자동으로 이전 활동의 이름으로 설정되지 않습니다. 필요한 경우 사용자가 수동으로 사용자 정의 레이블을 추가할 수 있습니다.
-* 여정 속성의 기본 시간 제한 및 오류 지속 시간을 5초에서 30초로 변경했습니다. Journey Optimizer 참조 [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html#timeout).
-* 테스트 모드에 인터페이스를 통해 보낸 이벤트만 수신하도록 하는 가드레일을 추가했습니다. 외부 도구를 통해 전송된 이벤트는 고려되지 않습니다. Journey Optimizer 참조 [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=ko-KR).
+* 여정 속성의 기본 시간 제한 및 오류 지속 시간을 5초에서 30초로 변경했습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=ko#timeout)를 참조하십시오.
+* 테스트 모드에 인터페이스를 통해 보낸 이벤트만 수신하도록 하는 가드레일을 추가했습니다. 외부 도구를 통해 보낸 이벤트는 고려하지 않습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=ko-KR)를 참조하십시오.
 
 ## 2023년 2월 릴리스 {#feb-2023}
 
 ### 개선 사항 {#feb-2023-improvements}
 
-* 여정 속성에 **재입장 대기 시간** 필드가 추가되었습니다. 이 필드에서는 단일 여정(이벤트 또는 세그먼트 검증으로 시작)에서 프로필이 다시 여정에 들어오려면 기다려야 하는 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. Journey Optimizer 참조 [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#entrance).
-* **여정 시작 및 종료 일자**&#x200B;를 개선했습니다. 이제 시작 일자를 지정하지 않은 경우 게시할 때 자동으로 추가됩니다. 이렇게 하면 해당 일자가 되었을 때 프로필이 자동으로 종료됩니다. Journey Optimizer 참조 [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#dates).
+* 여정 속성에 **재입장 대기 시간** 필드가 추가되었습니다. 이 필드에서는 단일 여정(이벤트 또는 세그먼트 검증으로 시작)에서 프로필이 다시 여정에 들어오려면 기다려야 하는 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=ko#entrance)를 참조하십시오.
+* **여정 시작 및 종료 일자**&#x200B;를 개선했습니다. 이제 시작 일자를 지정하지 않은 경우 게시할 때 자동으로 추가됩니다. 이렇게 하면 해당 일자가 되었을 때 프로필이 자동으로 종료됩니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=ko#dates)를 참조하십시오.
 
 ## 2023년 1월 릴리스 {#jan-2023-release}
 
 ### 개선 사항 {#jan-2023-improvements}
 
-* 를 추가할 때 **세그먼트 선별** 여정에서 네임스페이스는 이제 기본적으로 마지막으로 사용된 네임스페이스로 미리 채워집니다. Journey Optimizer 참조 [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html#about-segment-qualification).
+* 이제 여정에 **세그먼트 검증**&#x200B;을 추가할 때 네임스페이스를 기본적으로 미리 채웁니다. 마지막으로 사용한 네임스페이스가 자동으로 미리 입력됩니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=ko#about-segment-qualification)를 참조하십시오.
 * 여정 캔버스에서 도구 모음의 새 버튼을 통해 여정의 스크린샷을 다운로드할 수 있습니다.
 
 ## 2022년 9월 릴리스{#sept-2022-release}
@@ -71,9 +71,9 @@ ht-degree: 90%
 <tbody>
 <tr>
 <td>
-<p>DULE(데이터 사용 레이블 및 적용) 거버넌스 프레임워크를 사용하여 Journey Orchestration은 이제 Adobe Experience Platform 거버넌스 정책을 활용하여 사용자 지정 작업을 통해 중요한 필드를 타사 시스템으로 내보내지는 것을 방지할 수 있습니다. 시스템이 사용자 지정 작업 매개 변수에서 제한된 필드를 식별하면 여정을 게시하지 못하게 하는 오류가 표시됩니다.</p>
+<p>Journey Orchestration이 이제 DULE(데이터 사용 라벨링 및 적용) 거버넌스 프레임워크를 통해 Adobe Experience Platform 거버넌스 정책을 활용할 수 있습니다. 이 방법으로 사용자 정의 작업 시 중요한 정보가 있는 필드를 서드파티 시스템으로 내보내는 것을 방지할 수 있습니다. 시스템이 사용자 지정 작업 매개 변수에서 제한된 필드를 식별하면 여정을 게시하지 못하게 하는 오류가 표시됩니다.</p>
 <p>DULE(데이터 사용 레이블 및 적용) 사용은 현재 선택한 고객으로 제한되며, 향후 릴리스의 모든 환경에 배포될 예정입니다.</p>
-<p>자세한 내용은 Journey Optimizer 를 참조하십시오. <a href="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/action-privacy.html">설명서</a>.
+<p>자세한 내용은 Journey Optimizer <a href="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/action-privacy.html?lang=ko">설명서</a>를 참조하십시오.
 </td>
 </tr>
 </tbody>
@@ -81,17 +81,17 @@ ht-degree: 90%
 
 ### 개선 사항{#sept-2022-improvements}
 
-* 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하기 위해 단일 여정(이벤트 또는 세그먼트 자격 조건 시작)에 새로운 보호 기능이 추가되었습니다. 프로필 재입장은 이제 기본 5분 동안 일시적으로 차단됩니다. Journey Optimizer 참조 [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#events-g).
+* 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하기 위해 단일 여정(이벤트 또는 세그먼트 자격 조건 시작)에 새로운 보호 기능이 추가되었습니다. 프로필 재입장은 이제 기본 5분 동안 일시적으로 차단됩니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=kol#events-g)를 참조하십시오.
 
 ### 기타 변경 사항{#sept-2022-other}
 
-* 성능을 향상시키기 위해 세그먼트 자격 활동으로 시작하는 여정에서 더 이상 경험 이벤트 필드 그룹을 사용할 수 없습니다. 이 변경 사항은 새로운 여정에만 적용됩니다. 기존 동작은 현재 동작을 유지합니다. Journey Optimizer 참조 [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#expression-editor).
+* 성능을 향상시키기 위해 [세그먼트 자격 조건] 활동으로 시작하는 여정에서는 더 이상 [경험 이벤트] 필드 그룹을 사용할 수 없습니다. 이 변경 사항은 새로운 여정에만 적용됩니다. 기존 동작은 현재 동작을 유지합니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko#expression-editor)를 참조하십시오.
 
 ### 개선 사항
 
-* **여정 종료** - 여정 캔버스에서 **종료** 활동이 팔레트에서 제거되었습니다. 이제 종료 태그가 각 경로 끝에 기본적으로 추가되므로 제거할 수 없습니다. 이 개선 사항을 통해 고객이 여정에서 드롭된 위치를 여정 전문가의 작업 없이 더 잘 보고할 수 있습니다. Journey Optimizer 참조 [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html).
+* **여정 종료** - 여정 캔버스에서 **종료** 활동이 팔레트에서 제거되었습니다. 이제 종료 태그가 각 경로 끝에 기본적으로 추가되므로 제거할 수 없습니다. 이 개선 사항을 통해 고객이 여정에서 드롭된 위치를 여정 전문가의 작업 없이 더 잘 보고할 수 있습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html?lang=ko)를 참조하십시오.
 
-* 이제 여정 속성에서 **프로필 시간대** 옵션이 기본적으로 선택되지 않습니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html#timezone-from-profiles).
+* 이제 여정 속성에서 **프로필 시간대** 옵션이 기본적으로 선택되지 않습니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=ko#timezone-from-profiles).
 
 ## 2022년 5월 릴리스 {#may-2022-release}
 
