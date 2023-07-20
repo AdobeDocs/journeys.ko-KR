@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: b0bf5c12adc6e9c538f2264f79b7c43656424f05
+source-git-commit: c4d9ebacf2083f4df76e59228a75c51c4d7b006e
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 93%
+source-wordcount: '196'
+ht-degree: 90%
 
 ---
 
@@ -79,9 +79,3 @@ Journey Orchestration을 설정하고 첫 번째 여정을 구축하기 위한 �
 * [스트리밍 수집 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ko)
 * [Campaign Standard 트랜잭션 메시지 설명서](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko)
 
-## 기술 튜토리얼
-
-* [Journey Orchestration 구성](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module6/journey-orchestration-create-account.html?lang=ko#6.-journey-orchestration)
-* [외부 날씨 API, SMS 동작 등](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module12/journey-orchestration-external-weather-api-sms.html?lang=ko#module12)
-* [Journey Orchestration을 사용하여 Dynamics 365에서 연락처 만들기](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module17/ex3.html?lang=ko#17.3-create-a-contact-in-microsoft-dynamics-365-using-journey-orchestration-%26-import-data-from-microsoft-dynamics)
-* [Journey Orchestration을 사용하여 이메일 후속 조치 트리거](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module20/ex4.html?lang=ko#20.4-use-journey-orchestration-to-trigger-an-email-follow-up-after-interacting-with-your-chatbot)
