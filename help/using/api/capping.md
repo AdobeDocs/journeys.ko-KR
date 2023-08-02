@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 1f91bae24dfcb291dd354e4bff9eab85afdaf5a1
+source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 32%
+source-wordcount: '580'
+ht-degree: 29%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 32%
     "methods": [ "<HTTP method such as GET, POST, >, ...],
     "services": {
         "<service name>": { . //must be "action" or "dataSource" 
-            "maxHttpConnections": <max connections count to the endpoint>
+            "maxHttpConnections": <max connections count to the endpoint (optional)>
             "rating": {          
                 "maxCallsCount": <max calls to be performed in the period defined by period/timeUnit>,
                 "periodInMs": <integer value greater than 0>
@@ -55,6 +55,12 @@ ht-degree: 32%
     }
 }
 ```
+
+>[!IMPORTANT]
+>
+>다음 **maxHttpConnection** 매개 변수는 선택 사항입니다. 이를 통해 Journey Optimizer이 외부 시스템에 대해 여는 연결 수를 제한할 수 있습니다.
+>
+>설정할 수 있는 최대값은 400입니다. 아무 것도 지정되지 않은 경우, 시스템은 시스템의 동적 확장에 따라 최대 수천 개의 연결을 열 수 있습니다.
 
 ### 예:
 
@@ -66,9 +72,9 @@ ht-degree: 32%
   ],
   "services": {
     "dataSource": {
-      "maxHttpConnections": 30000,
+      "maxHttpConnections": 50,
       "rating": {
-        "maxCallsCount": 5000,
+        "maxCallsCount": 500,
         "periodInMs": 1000
       }
     }
