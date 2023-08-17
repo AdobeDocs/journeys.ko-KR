@@ -44,26 +44,26 @@ ht-degree: 5%
 
 | 카테고리 | 필드 이름 | 레이블 | 설명 |
 |---|---|---|------------|
-| 여정 버전 | journeyUID | 여정 식별자 |  |
-|  | journeyVersionUID | 여정 버전 식별자 |  |
-|  | 여정 버전 이름 | 여정 버전 이름 |  |
-|  | 여정버전설명 | 여정 버전 설명 |  |
-|  | journeyVersion | 여정 버전 |  |
+| 여정 버전 | journeyUID | 여정 식별자 | |
+| | journeyVersionUID | 여정 버전 식별자 | |
+| | 여정 버전 이름 | 여정 버전 이름 | |
+| | 여정버전설명 | 여정 버전 설명 | |
+| | journeyVersion | 여정 버전 | |
 | 여정 인스턴스 | instanceUID | 여정 인스턴스 식별자 | 인스턴스 ID |
-|  | externalKey | 외부 키 | 여정을 트리거하는 개별 식별자 |
-|  | organizationId | 조직 식별자 | 브랜드 조직 |
-|  | sandboxName | 샌드박스 이름 | 샌드박스 이름 |
+| | externalKey | 외부 키 | 여정을 트리거하는 개별 식별자 |
+| | organizationId | 조직 식별자 | 브랜드 조직 |
+| | sandboxName | 샌드박스 이름 | 샌드박스 이름 |
 | 신원 | profileId | 프로필 ID 식별자 | 여정 내 프로필 식별자 |
-|  | namespace | 프로필 ID 네임스페이스 | 여정 내 프로필의 네임스페이스(예: ECID) |
+| | namespace | 프로필 ID 네임스페이스 | 여정 내 프로필의 네임스페이스(예: ECID) |
 | 현재 노드 | currentNodeId | 현재 노드 식별자 | 현재 활동의 식별자(노드) |
-|  | currentNodeName | 현재 노드 이름 | 현재 활동의 이름(노드) |
+| | currentNodeName | 현재 노드 이름 | 현재 활동의 이름(노드) |
 | 이전 노드 | previousNodeId | 이전 노드 식별자 | 이전 활동의 식별자(노드) |
-|  | previousNodeName | 이전 노드 이름 | 이전 활동의 이름(노드) |
+| | previousNodeName | 이전 노드 이름 | 이전 활동의 이름(노드) |
 | 오류 | lastNodeUIDInError | 오류의 마지막 노드 식별자 | 오류의 최신 활동(노드) 식별자 |
-|  | lastNodeNameInError | 오류의 마지막 노드 이름 | 오류의 최신 활동(노드) 이름 |
-|  | lastNodeTypeInerror | 오류의 마지막 노드 유형 | 오류의 최신 활동(노드) 오류 유형. 가능한 유형:<ul><li>이벤트: 이벤트, 반응, SQ(예: 세그먼트 자격)</li><li>흐름 제어: 종료, 조건, 대기</li><li>작업: ACS 작업, 이동, 사용자 지정 작업</li></ul> |
-|  | 마지막 오류 코드 | 마지막 오류 코드 | 오류의 최신 활동(노드) 오류 코드. 가능한 오류: <ul><li>HTTP 오류 코드</li><li>제한됨</li><li>timedOut</li><li>오류(예: 예기치 않은 오류의 경우 기본값) 일어나지 않아야/극히 드물게 발생해서는 안 됨)</li></ul> |
-|  | lastExecutedActionErrorCode | 마지막으로 실행된 작업 오류 코드 | 오류의 최신 액션에 대한 오류 코드 |
-|  | lastDataFetchErrorCode | 마지막 데이터 가져오기 오류 코드 | 데이터 소스에서 가져온 최신 데이터의 오류 코드 |
+| | lastNodeNameInError | 오류의 마지막 노드 이름 | 오류의 최신 활동(노드) 이름 |
+| | lastNodeTypeInerror | 오류의 마지막 노드 유형 | 오류의 최신 활동(노드) 오류 유형. 가능한 유형:<ul><li>이벤트: 이벤트, 반응, SQ(예: 세그먼트 자격)</li><li>흐름 제어: 종료, 조건, 대기</li><li>작업: ACS 작업, 이동, 사용자 지정 작업</li></ul> |
+| | 마지막 오류 코드 | 마지막 오류 코드 | 오류의 최신 활동(노드) 오류 코드. 가능한 오류: <ul><li>HTTP 오류 코드</li><li>제한됨</li><li>timedOut</li><li>오류(예: 예기치 않은 오류의 경우 기본값) 일어나지 않아야/극히 드물게 발생해서는 안 됨)</li></ul> |
+| | lastExecutedActionErrorCode | 마지막으로 실행된 작업 오류 코드 | 오류의 최신 액션에 대한 오류 코드 |
+| | lastDataFetchErrorCode | 마지막 데이터 가져오기 오류 코드 | 데이터 소스에서 가져온 최신 데이터의 오류 코드 |
 | 시간 | lastActionExecutionElapsedTime | 마지막 작업 실행 경과 시간 | 최신 작업을 실행하는 데 걸린 시간 |
-|  | lastDataFetchElapsedTime | 마지막 데이터 가져오기 경과 시간 | 데이터 소스에서 최신 데이터 가져오기를 실행하는 데 걸린 시간 |
+| | lastDataFetchElapsedTime | 마지막 데이터 가져오기 경과 시간 | 데이터 소스에서 최신 데이터 가져오기를 실행하는 데 걸린 시간 |

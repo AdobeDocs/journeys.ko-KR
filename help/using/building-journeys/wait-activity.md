@@ -19,7 +19,7 @@ ht-degree: 9%
 
 * [기간](#duration)
 * [사용자 지정](#custom)
-   <!--* [Email send time optimization](#email_send_time_optimization)-->
+  <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## 대기 활동 정보{#about_wait}
 

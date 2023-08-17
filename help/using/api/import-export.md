@@ -69,7 +69,8 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * **&lt;ORGANIZATION>**: 사용자 개인의 조직 ID이며, Adobe는 한 인스턴스에 조직 ID를 하나씩 제공합니다 :
 
    * &lt;organization> : 프로덕션 인스턴스
-   조직 ID 값은 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 새 통합을 만들 때 라이선스 목록에서 검색해 Adobe I/O로 가져올 수도 있습니다([Adobe I/O 설명서](https://www.adobe.io/authentication.html) 참조).
+
+  조직 ID 값은 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 새 통합을 만들 때 라이선스 목록에서 검색해 Adobe I/O로 가져올 수도 있습니다([Adobe I/O 설명서](https://www.adobe.io/authentication.html) 참조).
 
 * **&lt;ACCESS_TOKEN>**: POST 요청을 통해 JWT를 교환할 때 검색하여 가져온 사용자의 개인 액세스 토큰입니다.
 

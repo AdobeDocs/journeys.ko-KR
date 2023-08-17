@@ -125,7 +125,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 표현식의 결과는 다음과 같습니다. **3**.
 
-**예제 3:**
+**예 3:**
 
 여기에서는 개인이 지난 24시간 내에 어떤 연락도 받지 않았는지 확인합니다. 컬렉션의 두 요소를 기반으로 하는 두 개의 표현식을 사용하여 ExperiencePlatform 데이터 소스에서 검색된 경험 이벤트 컬렉션을 필터링합니다. 특히 이벤트의 타임스탬프는 가 반환하는 dateTime과 비교됩니다 **[!UICONTROL nowWithDelta]** 함수.
 
@@ -207,8 +207,7 @@ _`<listExpression>.last(<condition>)`_
 >* **[!UICONTROL first]** 함수는 가장 최근 이벤트를 반환합니다.
 >* **[!UICONTROL last]** 함수는 가장 오래된 것을 반환합니다.
 
-
-**예제 3:**
+**예 3:**
 
 DMA ID에 대해 0이 아닌 값이 있는 첫 번째(가장 최근) Adobe Analytics 이벤트의 값이 602와 같은지 확인합니다.
 

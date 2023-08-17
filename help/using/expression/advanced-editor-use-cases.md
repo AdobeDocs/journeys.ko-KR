@@ -82,17 +82,17 @@ ht-degree: 2%
 
 * 및 함수를 사용하여 SKU를 지정합니다 `first` 가장 최근의 &quot;addToCart&quot; 상호 작용을 검색하려면 다음 작업을 수행하십시오.
 
-   ```json
-       #{ExperiencePlatformDataSource
-                       .ExperienceEventFieldGroup
-                       .experienceevent
-                       .first(
-                       currentDataPackField
-                       .productData
-                       .productInteraction == "addToCart"
-                       )
-                       .SKU}
-   ```
+  ```json
+      #{ExperiencePlatformDataSource
+                      .ExperienceEventFieldGroup
+                      .experienceevent
+                      .first(
+                      currentDataPackField
+                      .productData
+                      .productInteraction == "addToCart"
+                      )
+                      .SKU}
+  ```
 
 여기에서 제품이 스토어에 없는 경우 여정에 다른 경로를 추가하고 참여 오퍼와 함께 알림을 전송할 수 있습니다. 이에 따라 메시지를 구성하고 개인화 데이터를 사용하여 메시지 타겟을 향상시킵니다.
 

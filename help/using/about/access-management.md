@@ -38,9 +38,9 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
    * 이벤트, 데이터 소스 및 작업 관리
    * 보고서 관리
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Administrators]**&#x200B;는 Adobe Campaign Standard에서 트랜잭션 메시지(또는 메시지 템플릿)를 작성, 편집, 게시할 수 있는 유일한 제품 프로필입니다. Adobe Campaign Standard를 사용하여 여정에서 메시지를 보내는 경우에 이 제품 프로필이 필요합니다. Admin Console에서 이름을 바꾸면 안 됩니다.
+  >[!NOTE]
+  >
+  >**[!UICONTROL Administrators]**&#x200B;는 Adobe Campaign Standard에서 트랜잭션 메시지(또는 메시지 템플릿)를 작성, 편집, 게시할 수 있는 유일한 제품 프로필입니다. Adobe Campaign Standard를 사용하여 여정에서 메시지를 보내는 경우에 이 제품 프로필이 필요합니다. Admin Console에서 이름을 바꾸면 안 됩니다.
 
 * **[!UICONTROL Standard User]**: 여정 관리와 같은 기본적인 액세스 권한을 가진 사용자. 이 제품 프로필에는 다음과 같은 권한이 포함됩니다.
    * 여정 관리

@@ -64,10 +64,10 @@ ht-degree: 99%
 * 이벤트 구성 창에서 페이로드 구조 미리 보기를 사용하여 수집 API 스트리밍 페이로드 구조를 따랐습니까? [이 페이지](../event/previewing-the-payload.md)를 참조하십시오.
 * 이벤트 헤더에 올바른 키/값 쌍을 사용했습니까?
 
-   ```
-   X-gw-ims-org-id - your ORGID
-   Content-type - application/json
-   ```
+  ```
+  X-gw-ims-org-id - your ORGID
+  Content-type - application/json
+  ```
 
 ## 사람들이 여정을 탐색하는 방법 확인{#section_l5y_yzs_dgb}
 

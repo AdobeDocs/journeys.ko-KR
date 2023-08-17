@@ -51,11 +51,11 @@ ht-degree: 3%
 
    * 단순 표현식 편집기를 사용하여 데이터 소스 또는 수신 이벤트에서 필드를 선택할 수 있습니다.
 
-      ![](../assets/profileupdate4.png)
+     ![](../assets/profileupdate4.png)
 
    * 특정 값을 정의하거나 고급 함수를 활용하려면 다음을 클릭하십시오. **고급 모드**.
 
-      ![](../assets/profileupdate3.png)
+     ![](../assets/profileupdate3.png)
 
 다음 **프로필 업데이트** 이제 가 구성되었습니다.
 

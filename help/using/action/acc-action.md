@@ -35,7 +35,7 @@ Journey Orchestration 인스턴스와 Campaign 인스턴스 간의 연결은 프
 
 * 세그먼트 자격 이벤트에서 Campaign 작업을 사용할 수 없습니다.
 
-## 사전 요구 사항
+## 전제 조건
 
 Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. 다음을 참조하십시오. [Adobe Campaign 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging).
 

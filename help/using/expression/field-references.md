@@ -54,7 +54,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->필드 유형과 기본값은 동일해야 합니다. 예: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}은(는) 기본값이 정수이므로 유효하지 않지만 예상 값은 문자열이어야 합니다.
+>필드 유형과 기본값은 동일해야 합니다. 예: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} 은(는) 기본값이 정수이므로 유효하지 않으며, 예상 값은 문자열이어야 합니다.
 
 예:
 

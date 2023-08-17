@@ -78,9 +78,9 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 * 호출 시 전달할 매개 변수의 목록을 **[!UICONTROL Dynamic Values]** 필드에 포함합니다. 아래 예제에서는 매개 변수가 &quot;identifier&quot;입니다.
 * 전송되는 페이로드 본문에서도 정확히 동일한 구문을 사용하여 매개 변수를 지정합니다. 이렇게 하려면 &quot;param&quot;: &quot;매개 변수 이름&quot;(아래 예제에서는 &quot;identifier&quot;)을 추가해야 합니다. 아래 구문을 따르십시오.
 
-   ```
-   {"id":{"param":"identifier"}}
-   ```
+  ```
+  {"id":{"param":"identifier"}}
+  ```
 
 ![](../assets/journey29.png)
 

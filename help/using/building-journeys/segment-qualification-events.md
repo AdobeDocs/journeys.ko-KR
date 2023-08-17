@@ -88,7 +88,7 @@ ht-degree: 5%
 
 ### 스트리밍된 세그먼트{#streamed-speed-segment-qualification}
 
-스트리밍된 세그먼트에 대한 세그먼트 자격 사용 시, 세그먼트에 대한 지속적인 평가로 인해 큰 출입구 정점이 발생할 위험이 적다. 세그먼트 정의가 많은 수의 고객이 동시에 자격을 얻도록 만드는 경우에도 최고점이 있을 수 있습니다.
+스트리밍된 세그먼트에 대한 세그먼트 자격을 사용할 때, 세그먼트에 대한 지속적인 평가로 인해 큰 출입구 정점이 발생할 위험이 적다. 세그먼트 정의가 많은 수의 고객이 동시에 자격을 얻도록 만드는 경우에도 최고점이 있을 수 있습니다.
 
 스트리밍 세분화에 대한 자세한 내용은 다음을 참조하십시오. [페이지](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 

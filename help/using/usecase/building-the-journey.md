@@ -130,9 +130,9 @@ ht-degree: 91%
    * **[!UICONTROL Push platform]**:플랫폼 선택: **[!UICONTROL Apple Push Notification Server]** (Apple) 또는 **[!UICONTROL Firebase Cloud Messaging]** (Android).
    * **[!UICONTROL Registration token]**:고급 모드를 사용하여 구성된 이벤트를 기반으로 다음과 같은 표현식을 추가합니다.
 
-      ```
-      @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
-      ```
+     ```
+     @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+     ```
 
 1. 푸시 알림 개인화 필드를 정의합니다. 예제에서는: 이름 및 성
 

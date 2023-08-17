@@ -44,7 +44,7 @@ _고급 표현식 편집기 인터페이스_
 
 * 데이터 소스 조건을 만들 때 **[!UICONTROL Advanced mode]** 아이콘을 클릭하여 고급 편집기에 액세스할 수 있습니다.
 
-   ![](../assets/journeyuc2_33.png)
+  ![](../assets/journeyuc2_33.png)
 
 * 사용자 지정 타이머를 만들 때 고급 편집기가 바로 나타납니다.
 * 작업 매개 변수를 매핑할 때 **[!UICONTROL Advanced mode]**&#x200B;를 클릭합니다.

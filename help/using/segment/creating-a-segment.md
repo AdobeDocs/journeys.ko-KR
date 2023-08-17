@@ -9,19 +9,19 @@ exl-id: f84dc133-3b70-479e-b5be-a155d892fec0
 source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 10%
+ht-degree: 19%
 
 ---
 
 # 세그먼트 작성 {#creating-a-segment}
 
-다음을 사용하여 세그먼트를 만들 수 있습니다. [Adobe Experience Platform 세그멘테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) 또는에서 직접 액세스하고 만들 수 있습니다. [!DNL Journey Orchestration].
+다음을 사용하여 세그먼트를 만들 수 있습니다. [Adobe Experience Platform 세그멘테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko) 또는에서 직접 액세스하고 만들 수 있습니다. [!DNL Journey Orchestration].
 
 1. 상단 메뉴에서 **[!UICONTROL Segments]** 탭을 클릭합니다. Adobe Experience Platform 세그먼트 목록이 표시됩니다. 목록에서 특정 세그먼트를 검색할 수 있습니다.
 
    ![](../assets/segment1.png)
 
-1. 클릭 **[!UICONTROL Add]** 을 클릭하여 새 세그먼트를 만듭니다. 세그먼트 정의 화면에서 세그먼트를 정의하는 데 필요한 모든 필드를 구성할 수 있습니다. 구성은 세분화 서비스와 동일합니다. 다음을 참조하십시오. [세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+1. 클릭 **[!UICONTROL Add]** 을 클릭하여 새 세그먼트를 만듭니다. 세그먼트 정의 화면에서 세그먼트를 정의하는 데 필요한 모든 필드를 구성할 수 있습니다. 구성은 세분화 서비스와 동일합니다. 다음을 참조하십시오. [세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko).
 
    ![](../assets/segment2.png)
 

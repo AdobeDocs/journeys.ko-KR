@@ -20,7 +20,7 @@ Adobe Experience Platform에서 테스트 프로필을 만드는 방법에는 �
 
 테스트 프로필을 만드는 것은 Adobe Experience Platform에서 일반 프로필을 만드는 것과 비슷합니다. 자세한 내용은 [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko).
 
-## 사전 요구 사항{#test-profile-prerequisites}
+## 전제 조건{#test-profile-prerequisites}
 
 프로필을 만들 수 있으려면 먼저 Adobe Experience Platform에서 스키마와 데이터 세트를 만들어야 합니다.
 
@@ -36,7 +36,6 @@ Adobe Experience Platform에서 테스트 프로필을 만드는 방법에는 �
 1. 적절한 mixin을 선택합니다. 다음을 추가해야 합니다. **[!UICONTROL Profile test details]** mixin. **[!UICONTROL Add mixin]**을(를) 클릭합니다.
    ![](../assets/test-profiles-1-ter.png)
 mixin 목록이 스키마 개요 화면에 표시됩니다.
-
    ![](../assets/test-profiles-2.png)
 1. 필드 목록에서 기본 ID로 정의할 필드를 클릭합니다.
    ![](../assets/test-profiles-3.png)

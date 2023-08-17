@@ -9,13 +9,13 @@ exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
 source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
 # Adobe Experience Platform 세그먼트 {#about-segments}
 
-를 사용하는 경우 [Adobe Experience Platform 세그멘테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) 세그먼트를 만들려면 다음을 활용할 수 있습니다. [!DNL Journey Orchestration]. 전용 이벤트 활동 덕분에 Adobe Experience Platform 세그먼트 출입구를 기반으로 한 여정에서 개인이 들어오거나 앞으로 이동하도록 할 수 있습니다. 또한 단순 또는 고급 표현식 편집기를 사용하여 여정에서 복잡한 조건을 작성할 수 있습니다.
+를 사용하는 경우 [Adobe Experience Platform 세그멘테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko) 세그먼트를 만들려면 다음을 활용할 수 있습니다. [!DNL Journey Orchestration]. 전용 이벤트 활동 덕분에 Adobe Experience Platform 세그먼트 출입구를 기반으로 한 여정에서 개인이 들어오거나 앞으로 이동하도록 할 수 있습니다. 또한 단순 또는 고급 표현식 편집기를 사용하여 여정에서 복잡한 조건을 작성할 수 있습니다.
 
 &quot;실버 고객&quot; 세그먼트가 있다고 가정해 보겠습니다. 이 활동을 사용하면 모든 신규 실버 고객이 여정을 입력하고 일련의 개인화된 메시지를 보내도록 할 수 있습니다. 이 세그먼트를 기반으로 조건을 쉽게 작성할 수도 있습니다.
 
@@ -39,4 +39,4 @@ Journey Orchestration에서 대상자는 다음 평가 방법 중 하나를 사�
 
 세그먼트를 처음 정의한 후 자격이 주어지면 프로필이 대상자에 추가됩니다.
 
-이전 데이터에서 대상을 다시 채우는 데 최대 24시간이 걸릴 수 있습니다. 대상자가 다시 채워진 후 대상자는 계속 최신 상태로 유지되며 항상 타깃팅할 준비가 되어 있습니다.
+이전 데이터를 사용하여 대상자를 다시 채우는 데 최대 24시간이 걸릴 수 있습니다. 대상자를 다시 채운 후 대상자는 계속 최신 상태로 유지되며 언제든 타겟팅할 수 있습니다.

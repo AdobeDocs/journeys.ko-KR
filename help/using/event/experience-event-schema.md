@@ -29,27 +29,27 @@ ht-degree: 4%
 
 * 스키마는 XDM ExperienceEvent 클래스의 스키마여야 합니다.
 
-   ![](../assets/schema2.png)
+  ![](../assets/schema2.png)
 
 * 시스템 생성 이벤트의 경우 스키마에 오케스트레이션 eventID mixin이 포함되어야 합니다. [!DNL Journey Orchestration] 이 필드를 사용하여 여정에 사용된 이벤트를 식별합니다.
 
-   ![](../assets/schema3.png)
+  ![](../assets/schema3.png)
 
 * 이벤트 주체를 식별하기 위한 ID 필드를 선언합니다. ID를 지정하지 않으면 ID 맵을 사용할 수 있습니다. 이러한 방법은 권장되지 않습니다.
 
-   ![](../assets/schema4.png)
+  ![](../assets/schema4.png)
 
 * 나중에 여정에서 이 데이터를 조회에 사용하려면 스키마와 데이터 세트에 프로필을 표시하십시오.
 
-   ![](../assets/schema5.png)
+  ![](../assets/schema5.png)
 
-   ![](../assets/schema6.png)
+  ![](../assets/schema6.png)
 
 * 사용자, 이벤트가 생성된 장치, 위치 또는 이벤트와 관련된 기타 의미 있는 상황 등 이벤트와 함께 포함하려는 다른 컨텍스트 데이터를 캡처하기 위해 데이터 필드를 자유롭게 포함할 수 있습니다.
 
-   ![](../assets/schema7.png)
+  ![](../assets/schema7.png)
 
-   ![](../assets/schema8.png)
+  ![](../assets/schema8.png)
 
 ## 스키마 관계 활용{#leverage_schema_relationships}
 
