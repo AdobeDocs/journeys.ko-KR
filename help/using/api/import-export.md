@@ -3,10 +3,10 @@ product: adobe campaign
 title: 내보내기 API 설명 가져오기
 description: 가져오기 내보내기 API에 대해 자세히 알아보십시오.
 products: journeys
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 29%
+source-wordcount: '1119'
+ht-degree: 22%
 
 ---
 
@@ -54,8 +54,16 @@ Journey Orchestration API 액세스는 아래 단계를 통해 설정됩니다. 
 
 1. **디지털 인증서가 있는지 확인**&#x200B;하고, 필요한 경우 만들 수 있습니다. 인증서와 함께 제공된 공개 및 비공개 키는 다음 단계에서 필요합니다.
 1. **Adobe I/O에서 [!DNL Journey Orchestration] 서비스**&#x200B;에 대한 새 통합을 만들고 구성합니다. Journey Orchestration 및 Adobe Experience Platform에는 제품 프로필 액세스가 필요합니다. 그러면 자격 증명이 생성됩니다(API 키, 클라이언트 암호 등).
-1. 이전에 생성된 자격 증명으로 **JWT(JSON 웹 토큰)를 만들고** 비공개 키를 사용하여 서명합니다. JWT는 Adobe가 사용자의 신원을 확인하고 API 액세스 권한을 부여하는 데 필요한 모든 신원 및 보안 정보를 인코딩합니다. 이 단계는 이 [섹션](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)에서 자세히 설명합니다.
-1. POST 요청 또는 Developer Console 인터페이스를 통해 **JWT를 액세스 토큰으로 교환**&#x200B;합니다. API 요청의 각 헤더에 이 액세스 토큰을 사용해야 합니다.
+
+>[!CAUTION]
+>
+>액세스 토큰을 생성하기 위한 JWT 메서드가 더 이상 사용되지 않습니다. 모든 새 통합은 [OAuth 서버 간 인증 방법](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). 또한 Adobe 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다.
+>
+>다음 중요 설명서를 참조하십시오.
+>[JWT에서 OAuth로의 애플리케이션 마이그레이션 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),
+>[OAuth를 사용한 신규 및 기존 애플리케이션 구현 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
+>[OAuth 서버 간 자격 증명 메서드 사용의 이점](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+
 
 서비스 간 Adobe I/O API 세션을 안전하게 구성하기 위해, Adobe 서비스에 대한 모든 요청의 인증 헤더에 아래 정보를 포함해야 합니다.
 
@@ -72,7 +80,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
   조직 ID 값은 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 새 통합을 만들 때 라이선스 목록에서 검색해 Adobe I/O로 가져올 수도 있습니다([Adobe I/O 설명서](https://www.adobe.io/authentication.html) 참조).
 
-* **&lt;ACCESS_TOKEN>**: POST 요청을 통해 JWT를 교환할 때 검색하여 가져온 사용자의 개인 액세스 토큰입니다.
+* **&lt;access_token>**: 개인 액세스 토큰
 
 * **&lt;API_KEY>**: 사용자의 개인 API 키입니다. [!DNL Journey Orchestration] 서비스 통합을 새로 만든 뒤에 Adobe I/O를 통해 제공됩니다.
 
