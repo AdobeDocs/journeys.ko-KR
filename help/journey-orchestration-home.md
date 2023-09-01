@@ -2,15 +2,15 @@
 keywords: 여정;홈;인기 항목
 product: adobe campaign
 title: Journey Orchestration 제품 설명서
-description: 여정 구현 및 빌드에 대한 간단한 방법 지침은 Adobe Journey Orchestration 안내서 를 참조하십시오.
+description: Adobe Journey Orchestration 안내서에서 여정을 구현하고 작성하는 방법을 간단하게 안내합니다.
 feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: c4d9ebacf2083f4df76e59228a75c51c4d7b006e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
