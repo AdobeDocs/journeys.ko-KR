@@ -6,26 +6,30 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: d759aab70b2a6f6d4897bdd3498a9499dff2899f
+source-git-commit: 77b7979b2023e58298298c88240cb2855b55d56b
 workflow-type: tm+mt
-source-wordcount: '4188'
-ht-degree: 100%
+source-wordcount: '4232'
+ht-degree: 99%
 
 ---
 
 # 릴리스 정보 {#release-notes}
 
-이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다. Experience Platform의 기능을 확인하려면 다음 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko)를 참조하십시오.
+이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다. Experience Platform의 기능을 확인하려면 다음 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html)를 참조하십시오.
 
 >[!NOTE]
 >
 >2022년과 2023년에 릴리스된 기능의 경우 링크는 Adobe Journey Optimizer 설명서로 연결됩니다.
 
+## 2023년 8월 릴리스 {#aug-rn-2023}
+
+### 개선 사항 {#aug-2023-improvements}
+
+* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 Private Beta로 사용할 수 있습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html)를 참조하십시오.
+
 ## 2023년 4월 릴리스 {#apr-rn-2023}
 
 ### 개선 사항 {#april-2023-improvements}
-
-**여정**
 
 * 작업과 데이터 소스, 이벤트 및 여정에 표시되는 구성 창의 레이아웃을 개선했습니다.
 * 이제 사용자 정의 작업에서 정적 또는 동적 쿼리 매개 변수를 정의할 수 있습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=ko#url-configuration)를 참조하십시오.
