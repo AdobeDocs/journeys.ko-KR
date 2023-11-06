@@ -88,7 +88,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 이제 데이터 소스가 구성되었으며 여정에서 사용할 수 있는 상태가 되었습니다. 예를 들어 조건이나 이메일 개인화 등에 데이터 소스를 사용할 수 있습니다. 가령 기온이 섭씨 30도를 넘으면 특정 메시지를 보내도록 지정할 수 있습니다.
 
-## 사용자 지정 인증 모드{#section_wjp_nl5_nhb}
+## 사용자 정의 인증 모드{#section_wjp_nl5_nhb}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
