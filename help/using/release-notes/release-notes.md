@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 77b7979b2023e58298298c88240cb2855b55d56b
+source-git-commit: ea4b589755b904007cc4ea8be04f67f8742ff5a0
 workflow-type: tm+mt
-source-wordcount: '4232'
-ht-degree: 99%
+source-wordcount: '4352'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,23 @@ ht-degree: 99%
 >[!NOTE]
 >
 >2022년과 2023년에 릴리스된 기능의 경우 링크는 Adobe Journey Optimizer 설명서로 연결됩니다.
+
+## 2024년 2월 릴리스 {#feb-rn-2024}
+
+### 개선 사항 {#feb-2024-improvements}
+
+* **여정 필터링** - 이제 다음을 사용할 수 있습니다 **여정을 필터링할 사용자 정의 날짜** 기존 사전 정의된 날짜 필터 외에 인벤토리 이렇게 하면 특정 날짜, 특정 달 내, 전체 연도 또는 지정된 시간 범위 내에서 만들거나 게시한 여정을 표시하여 목록을 개선할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
+* **사용자 지정 작업** - 이제 다음을 업데이트할 수 있습니다. **content-type** 머리글입니다. 이 새로운 항목 **content-type** 는 JSON 콘텐츠를 참조해야 합니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=ko#url-configuration)
+* **구성** - stepEvents의 identityMap 속성이 이제 미리 채워져 있습니다. 기본 ID는 &quot;primary = true&quot;로 정의됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
+* **사용자 인터페이스** - 여정 화면의 상단 표시줄이 향상된 경험을 위해 재구성되었습니다. 여러 업데이트 중 여정 속성에 액세스할 수 있는 &quot;연필&quot; 아이콘이 이제 여정 이름 옆의 상단 표시줄 왼쪽에 표시됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+
+## 2024년 1월 릴리스 {#jan-rn-2024}
+
+### 개선 사항 {#jan-2024-improvements}
+
+* **반응 이벤트 기간** - **반응 이벤트**&#x200B;에서 정의할 수 있는 최대 기간은 이제 30일이 아니라 29일입니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html)
+* **필드 그룹** - 이 릴리스에서는 특정 경우에 필드 그룹이 저장되지 않는 문제를 해결했습니다.
+* 여러 함수에서 `<listObject>` 지원이 수정되었습니다.
 
 ## 2023년 8월 릴리스 {#aug-rn-2023}
 
@@ -95,7 +112,7 @@ ht-degree: 99%
 
 * **여정 종료** - 여정 캔버스에서 **종료** 활동이 팔레트에서 제거되었습니다. 이제 종료 태그가 각 경로 끝에 기본적으로 추가되므로 제거할 수 없습니다. 이 개선 사항을 통해 고객이 여정에서 드롭된 위치를 여정 전문가의 작업 없이 더 잘 보고할 수 있습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html?lang=ko)를 참조하십시오.
 
-* 이제 여정 속성에서 **프로필 시간대** 옵션이 기본적으로 선택되지 않습니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=ko#timezone-from-profiles).
+* 이제 여정 속성에서 **프로필 시간대** 옵션이 기본적으로 선택되지 않습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=ko#timezone-from-profiles).
 
 ## 2022년 5월 릴리스 {#may-2022-release}
 
@@ -305,7 +322,7 @@ Adobe Campaign Standard SLA에 맞추기 위해 이제 Adobe Campaign Standard �
 <td>
 <p>고급 표현식 편집기에서 필드 및 함수 목록에 새 카테고리를 추가했습니다. 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정 시스템에서 검색한 정보입니다. 여정을 구축하면 가능성이 높아집니다. 예를 들어 조건이나 작업에서 오류가 발생한 경우 서드파티 시스템에 경고할 수 있습니다.
 </p>
-<p>자세한 내용은 <a href="../expression/journey-properties.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../expression/journey-properties.md">세부 설명서</a>를 참고하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -314,7 +331,7 @@ Adobe Campaign Standard SLA에 맞추기 위해 이제 Adobe Campaign Standard �
 <table>
 <thead>
 <tr>
-<th><strong>규칙 기반 이벤트  (Beta)</strong><br/></th>
+<th><strong>규칙 기반 이벤트 (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
