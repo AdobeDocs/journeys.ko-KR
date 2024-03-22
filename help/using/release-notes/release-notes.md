@@ -6,29 +6,41 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: ea4b589755b904007cc4ea8be04f67f8742ff5a0
+source-git-commit: bb74c7dc1ebad0a707b830602a8d0b33e8443a5d
 workflow-type: tm+mt
-source-wordcount: '4352'
-ht-degree: 96%
+source-wordcount: '4418'
+ht-degree: 97%
 
 ---
 
 # 릴리스 정보 {#release-notes}
 
-이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다. Experience Platform의 기능을 확인하려면 다음 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html)를 참조하십시오.
+이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다. Experience Platform의 기능을 확인하려면 다음 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR)를 참조하십시오.
 
 >[!NOTE]
 >
 >2022년과 2023년에 릴리스된 기능의 경우 링크는 Adobe Journey Optimizer 설명서로 연결됩니다.
 
+## 2024년 3월 릴리스 {#mar-rn-2024}
+
+### 개선 사항 {#mar-2024-improvements}
+
+여정 작성 라이프사이클에 새로운 중간 상태가 추가되었습니다.
+
+* **게시** 다음 사이의 상태: **초안** 상태 및 **라이브** 상태
+* **중지 중** 다음 사이의 상태: **라이브** 상태 및 **중지됨** 상태
+* **테스트 모드 활성화 중** 또는 **테스트 모드 비활성화** 다음 사이의 상태 **초안** 상태 및 **초안(테스트)** 상태
+
+여정이 중간 상태일 때는 읽기 전용입니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
+
 ## 2024년 2월 릴리스 {#feb-rn-2024}
 
 ### 개선 사항 {#feb-2024-improvements}
 
-* **여정 필터링** - 이제 다음을 사용할 수 있습니다 **여정을 필터링할 사용자 정의 날짜** 기존 사전 정의된 날짜 필터 외에 인벤토리 이렇게 하면 특정 날짜, 특정 달 내, 전체 연도 또는 지정된 시간 범위 내에서 만들거나 게시한 여정을 표시하여 목록을 개선할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
-* **사용자 지정 작업** - 이제 다음을 업데이트할 수 있습니다. **content-type** 머리글입니다. 이 새로운 항목 **content-type** 는 JSON 콘텐츠를 참조해야 합니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=ko#url-configuration)
-* **구성** - stepEvents의 identityMap 속성이 이제 미리 채워져 있습니다. 기본 ID는 &quot;primary = true&quot;로 정의됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
-* **사용자 인터페이스** - 여정 화면의 상단 표시줄이 향상된 경험을 위해 재구성되었습니다. 여러 업데이트 중 여정 속성에 액세스할 수 있는 &quot;연필&quot; 아이콘이 이제 여정 이름 옆의 상단 표시줄 왼쪽에 표시됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+* **여정 필터링** - 이제 기존의 사전 정의된 날짜 필터 외에도 **사용자 정의 날짜를 사용하여 여정** 인벤토리를 필터링할 수 있습니다. 이렇게 하면 특정 날짜, 특정 달 내, 전체 연도 또는 지정된 시간 범위에 작성되었거나 게시된 여정을 표시하여 목록을 세분화할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
+* **사용자 정의 작업** - 이제 **content-type** 헤더를 업데이트할 수 있습니다. 이 새로운 **content-type**&#x200B;은 JSON 콘텐츠를 참조해야 합니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=ko#url-configuration)
+* **구성** - stepEvents의 identityMap 속성이 이제 미리 채워져 있습니다. 기본 신원은 “primary = true”로 정의됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
+* **사용자 인터페이스** - 여정 화면의 상단 표시줄이 향상된 경험을 위해 재구성되었습니다. 여러 업데이트 중 여정 속성에 액세스할 수 있는 &#39;연필&#39; 아이콘이 이제 여정 이름 옆의 상단 표시줄 왼쪽에 표시됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
 
 ## 2024년 1월 릴리스 {#jan-rn-2024}
 
@@ -322,7 +334,7 @@ Adobe Campaign Standard SLA에 맞추기 위해 이제 Adobe Campaign Standard �
 <td>
 <p>고급 표현식 편집기에서 필드 및 함수 목록에 새 카테고리를 추가했습니다. 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정 시스템에서 검색한 정보입니다. 여정을 구축하면 가능성이 높아집니다. 예를 들어 조건이나 작업에서 오류가 발생한 경우 서드파티 시스템에 경고할 수 있습니다.
 </p>
-<p>자세한 내용은 <a href="../expression/journey-properties.md">세부 설명서</a>를 참고하십시오.</p>
+<p>자세한 내용은 <a href="../expression/journey-properties.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
