@@ -33,9 +33,9 @@ else
    (<expression3>)
 ```
 
-`<expression1>` 은(는) 다음을 반환해야 합니다. **부울**.
+`<expression1>`은(는) **부울**&#x200B;을 반환해야 합니다.
 
-`<expression2>` 및 `<expression3>` 은(는) 동일한 유형 또는 호환되는 유형을 포함해야 합니다. 지원되는 서명 및 반환된 유형은 다음과 같습니다.
+`<expression2>`과(와) `<expression3>`은(는) 같은 형식이거나 호환되는 형식이어야 합니다. 지원되는 서명 및 반환된 유형은 다음과 같습니다.
 
 ```json
 boolean,boolean : boolean

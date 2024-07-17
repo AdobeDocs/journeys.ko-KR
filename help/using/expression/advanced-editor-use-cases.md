@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
 source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 2%
+source-wordcount: '490'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 예를 들어 지난 7일 동안 장바구니 포기를 통해 고객이 스토어에 가까워지면 스토어에 있는 원하는 항목에 대한 오퍼와 함께 메시지를 보내기 위해 고객을 타겟팅한다고 가정해 보겠습니다.
 
-**다음 조건을 빌드해야 합니다.**
+**다음 조건을 만들어야 합니다.**
 
 우선 온라인 매장을 찾아보았지만 지난 7일 동안 주문이 확정되지 않은 고객을 대상으로 했다.
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 `In (“addToCart”, #{field reference from experience event})`-->
 
-**이 표현식은 지난 7일 동안 지정된 이 사용자에 대한 모든 이벤트를 찾습니다.**
+**이 식은 지난 7일 동안 지정한 이 사용자의 모든 이벤트를 찾습니다.**
 
 그런 다음 completePurchase로 변환되지 않은 모든 addtocart 이벤트를 선택합니다.
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 이 표현식은 부울을 반환합니다.
 
-**이제 제품의 재고를 확인하는 표현식을 만들겠습니다**
+**이제 제품의 재고 여부를 확인하는 식을 만들어 보겠습니다**
 
 * Inventory에서 이 표현식은 제품의 수량 필드를 찾고 0보다 커야 한다고 지정합니다.
 
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* 및 함수를 사용하여 SKU를 지정합니다 `first` 가장 최근의 &quot;addToCart&quot; 상호 작용을 검색하려면 다음 작업을 수행하십시오.
+* `first` 함수를 사용하여 가장 최근의 &quot;addToCart&quot; 상호 작용을 검색하는 SKU를 지정하십시오.
 
   ```json
       #{ExperiencePlatformDataSource
@@ -98,7 +98,7 @@ ht-degree: 2%
 
 ## 고급 표현식 편집기를 사용한 문자열 조작의 예
 
-**조건:**
+**조건**
 
 이 조건은 &quot;Arlington&quot;에서 트리거된 지오펜스 이벤트만 검색합니다.
 
@@ -110,9 +110,9 @@ ht-degree: 2%
                     .name} == "Arlington"
 ```
 
-설명: 이는 를 사용하는 단순 모드의 쿼리와 동일한 엄격한 문자열 비교(대소문자 구분)입니다 `equal to` 포함 `Is sensitive` 선택함.
+설명: 이는 엄격한 문자열 비교(대/소문자 구분)입니다. `Is sensitive`이(가) 선택된 상태에서 `equal to`을(를) 사용하는 단순 모드의 쿼리와 같습니다.
 
-와 동일한 쿼리 `Is sensitive` 선택하지 않으면 고급 모드에서 다음 표현식이 생성됩니다.
+`Is sensitive`을(를) 선택 취소한 동일한 쿼리는 고급 모드에서 다음 식을 생성합니다.
 
 ```json
         equalIgnoreCase(@{GeofenceEntry
@@ -122,7 +122,7 @@ ht-degree: 2%
                         .name}, "Arlington")
 ```
 
-**작업**
+**작업에서**
 
 다음 표현식을 사용하면 작업 개인화 필드에서 CRM ID를 정의할 수 있습니다.
 
@@ -143,6 +143,6 @@ substr(
 )
 ```
 
-설명: 이 예제에서는 를 `substr` 및 `lastIndexOf` 모바일 앱 실행 이벤트와 함께 전달된 CRM ID를 둘러싸는 중괄호를 제거하는 함수입니다.
+설명: 이 예제에서는 `substr` 및 `lastIndexOf` 함수를 사용하여 모바일 앱 실행 이벤트와 함께 전달된 CRM ID를 둘러싸는 중괄호를 제거합니다.
 
-고급 표현식 편집기를 사용하는 방법에 대한 자세한 내용은 [이 비디오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+고급 표현식 편집기를 사용하는 방법에 대한 자세한 내용은 [이 비디오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html)를 시청하십시오.

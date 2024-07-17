@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
 source-git-commit: c7730ecac062719e5e5adfd465d1cedb59b3eaf1
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '107'
 ht-degree: 9%
 
 ---
 
 # toString {#toString}
 
-인수 유형에 따라 인수 값을 문자열 값으로 변환합니다. 데이터 유형에 대한 자세한 내용은 [이 페이지](../expression/data-types.md).
+인수 유형에 따라 인수 값을 문자열 값으로 변환합니다. 데이터 형식에 대한 자세한 내용은 [이 페이지](../expression/data-types.md)를 참조하세요.
 
 ## 카테고리
 

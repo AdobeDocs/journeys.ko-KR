@@ -7,7 +7,7 @@ index: true
 feature: Journeys
 source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 100%
 + 표현식 작성 {#building-advanced-conditions-journeys}
    + [개요](using/expression/expressionadvanced.md)
    + 구문 {#syntax}
-      + [일반성](using/expression/generalities.md)
+      + [일반 사항](using/expression/generalities.md)
       + [조건부 지침](using/expression/conditional-instruction.md)
       + [데이터 유형](using/expression/data-types.md)
       + [필드 참조](using/expression/field-references.md)
@@ -109,7 +109,7 @@ ht-degree: 100%
       + [여정 속성](using/expression/journey-properties.md)
       + [예시](using/expression/advanced-editor-use-cases.md)
    + 함수 {#main-functions-journey}
-      + [기본 함수](using/expression/functions.md)
+      + [주요 함수](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
          + [inSegment](using/functions/functioninsegment.md)
       + 집계 {#aggregation}
@@ -132,7 +132,7 @@ ht-degree: 100%
          + [toInteger](using/functions/functiontointeger.md)
          + [toString](using/functions/functiontostring.md)
       + 날짜 {#date}
-         + [currentTimeInMillis](using/functions/functioncurrenttimeinmillis.md)
+         + [currentTime&#x200B;InMillis](using/functions/functioncurrenttimeinmillis.md)
          + [inLastDays](using/functions/functioninlastdays.md)
          + [inLastHours](using/functions/functioninlasthours.md)
          + [inLastMonths](using/functions/functioninlastmonths.md)

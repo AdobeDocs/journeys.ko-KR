@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '437'
 ht-degree: 13%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 Journey Orchestration 인스턴스와 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다.
 
-이 슬라이드에는 엔드 투 엔드 활용 사례가 나와 있습니다 [섹션](../usecase/campaign-classic-use-case.md).
+이 [섹션](../usecase/campaign-classic-use-case.md)에 엔드 투 엔드 사용 사례가 표시됩니다.
 
 구성된 각 작업에 대해 여정 디자이너 팔레트에서 작업 활동을 사용할 수 있습니다. 이 [섹션](../building-journeys/using-adobe-campaign-classic.md)을 참조하십시오.
 
@@ -37,7 +37,7 @@ Journey Orchestration 인스턴스와 Campaign 인스턴스 간의 연결은 프
 
 ## 전제 조건
 
-Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. 다음을 참조하십시오. [Adobe Campaign 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging).
+Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. [Adobe Campaign 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging)를 참조하세요.
 
 아래 패턴에 따라 각 메시지에 해당하는 JSON 페이로드를 빌드할 수 있습니다. 그런 다음 Journey Orchestration에서 작업을 구성할 때 이 페이로드를 붙여 넣습니다(아래 참조).
 
@@ -54,7 +54,7 @@ Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시
 }
 ```
 
-* **channel**: 캠페인 트랜잭션 템플릿에 정의된 채널
+* **채널**: 캠페인 트랜잭션 템플릿에 대해 정의된 채널
 * **eventType**: Campaign 이벤트의 내부 이름
 * **ctx**: 메시지에 있는 개인화를 기반으로 하는 변수입니다.
 
@@ -64,8 +64,8 @@ Journey Orchestration에서 트랜잭션 메시지당 하나의 작업을 구성
 
 1. 새 작업을 만듭니다. 이 [섹션](../action/action.md)을 참조하십시오.
 1. 이름과 설명을 입력합니다.
-1. 다음에서 **작업 유형** 필드, 선택 **Adobe Campaign Classic**.
-1. 을(를) 클릭합니다. **페이로드** 필드를 만들고 Campaign 메시지에 해당하는 JSON 페이로드의 예제를 붙여넣습니다. 이 페이로드를 가져오려면 Adobe에게 문의하십시오.
+1. **작업 유형** 필드에서 **Adobe Campaign Classic**&#x200B;을(를) 선택합니다.
+1. **페이로드** 필드를 클릭하고 캠페인 메시지에 해당하는 JSON 페이로드의 예제를 붙여 넣습니다. 이 페이로드를 가져오려면 Adobe에게 문의하십시오.
 1. 여정 캔버스에서 매핑할지 여부에 따라 다양한 필드를 정적 또는 변수로 조정합니다. 이메일 주소에 대한 채널 매개 변수 및 개인화 필드(ctx)와 같은 특정 필드는 여정 컨텍스트에서 매핑하기 위한 변수로 정의할 수 있습니다.
 1. **저장**&#x200B;을 클릭합니다.
 

@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1283'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 다음은 추적 데이터 세트 및 관련 사용 사례 목록입니다.
 
-**이메일 추적 경험 이벤트 데이터 세트** (cjm_email_tracking_experience_event_dataset)
+**전자 메일 추적 경험 이벤트 데이터 세트**(cjm_email_tracking_experience_event_dataset)
 
 Journey Optimizer에서 이메일 추적 경험 이벤트를 수집하기 위한 시스템 데이터 세트입니다.
 
@@ -57,7 +57,7 @@ order by
 limit 100;
 ```
 
-**메시지 피드백 이벤트 데이터 세트** (cjm_message_feedback_event_dataset)
+**메시지 피드백 이벤트 데이터 세트**(cjm_message_feedback_event_dataset)
 
 Journey Optimizer에서 이메일 및 푸시 애플리케이션 피드백 이벤트를 수집하기 위한 데이터 세트입니다.
 
@@ -92,7 +92,7 @@ order by
 limit 100;
 ```
 
-**푸시 추적 경험 이벤트 데이터 세트** (cjm_push_tracking_experience_event_dataset)
+**푸시 추적 경험 이벤트 데이터 세트**(cjm_push_tracking_experience_event_dataset)
 
 Journey Optimizer의 푸시 및 인앱 채널에 대한 모바일 추적 경험 이벤트를 수집하기 위한 데이터 세트입니다.
 
@@ -108,7 +108,7 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
 
-**여정 단계 이벤트** (여정_step_events)
+**여정 단계 이벤트**(여정_step_events)
 
 여정 내 사용자에 대한 단계 이벤트를 수집하기 위한 데이터 세트입니다.
 
@@ -196,7 +196,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 결과는 0보다 커야 합니다. 이 쿼리는 프로필이 여정을 입력한 정확한 횟수를 반환합니다.
 
-**프로필에 특정 메시지가 전송되었는지 확인**
+**특정 메시지를 보낸 프로필인지 확인**
 
 방법 1: 메시지 이름이 여정에서 고유하지 않은 경우(여러 위치에서 사용됨).
 
@@ -272,7 +272,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 이 쿼리는 선택한 프로필에 대해 호출된 카운트와 함께 모든 메시지 목록을 반환합니다.
 
-**지난 30일 동안 프로필이 입력한 모든 여정 찾기**
+**프로필이 지난 30일 동안 입력한 모든 여정 찾기**
 
 _데이터 레이크 쿼리_
 
@@ -354,7 +354,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 쿼리는 세그먼트 내보내기 작업이 큐에 추가된 시간과 최종적으로 종료되는 시간 사이의 시간 차이를 분 단위로 반환합니다.
 
-**중복 항목이므로 여정에서 버린 프로필 수입니다.**
+**중복되어 여정에서 삭제된 프로필 수**
 
 _데이터 레이크 쿼리_
 
@@ -376,7 +376,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 쿼리는 여정이 중복되었기 때문에 삭제한 모든 프로필 ID를 반환합니다.
 
-**잘못된 네임스페이스로 인해 여정에서 삭제된 프로필 수입니다.**
+**잘못된 네임스페이스로 인해 여정에서 삭제된 프로필 수**
 
 _데이터 레이크 쿼리_
 
@@ -398,7 +398,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 이 쿼리는 잘못된 네임스페이스가 있거나 해당 네임스페이스에 대한 ID가 없기 때문에 여정에서 삭제된 모든 프로필 ID를 반환합니다.
 
-**ID 맵이 없어 여정에서 삭제된 프로필 수입니다.**
+**ID 맵이 없어 여정에서 삭제된 프로필 수**
 
 _데이터 레이크 쿼리_
 
@@ -420,7 +420,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 이 쿼리는 ID 맵이 누락되었기 때문에 여정이 삭제한 모든 프로필 ID를 반환합니다.
 
-**여정이 테스트 여정에 있고 프로필이 테스트 프로필이 아니기 때문에 테스트 노드에서 삭제된 프로필 수입니다**
+**여정이 테스트 노드에 있고 프로필이 테스트 프로필이 아니기 때문에 여정에서 삭제된 프로필 수입니다.**
 
 _데이터 레이크 쿼리_
 
@@ -442,7 +442,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 내보내기 작업이 테스트 모드에서 실행되었지만 프로필에 testProfile 특성이 true로 설정되지 않았으므로 여정에서 삭제된 모든 프로필 ID가 쿼리에서 반환됩니다.
 
-**내부 오류로 인해 여정에서 삭제된 프로필 수입니다**
+**내부 오류로 인해 여정에서 삭제된 프로필 수**
 
 _데이터 레이크 쿼리_
 
@@ -464,7 +464,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 이 쿼리는 일부 내부 오류로 인해 여정에서 삭제된 모든 프로필 ID를 반환합니다.
 
-**주어진 여정 버전에 대한 세그먼트 읽기 개요**
+**지정된 여정 버전에 대한 세그먼트 읽기 개요**
 
 _데이터 레이크 쿼리_
 
@@ -682,7 +682,7 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 ## 세그먼트 자격 관련 쿼리 {#segment-qualification-queries}
 
-**구성된 것과 다른 세그먼트 실현으로 인해 프로필이 삭제되었습니다.**
+구성된 프로필과 다른 세그먼트 구현으로 인해 **프로필이 삭제되었습니다.**
 
 _데이터 레이크 쿼리_
 
@@ -706,7 +706,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEG
 
 이 쿼리는 잘못된 세그먼트 실현으로 인해 여정 버전에서 삭제된 모든 프로필 ID를 반환합니다.
 
-**특정 프로필에 대한 다른 이유로 삭제된 세그먼트 자격 이벤트**
+**특정 프로필에 대한 다른 이유로 세그먼트 자격 이벤트가 삭제되었습니다.**
 
 _데이터 레이크 쿼리_
 
@@ -760,7 +760,7 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
-**관련 여정을 찾을 수 없어 프로필의 외부 이벤트가 삭제되었는지 확인**
+**관련 여정이 없으므로 프로필의 외부 이벤트가 삭제되었는지 확인**
 
 _데이터 레이크 쿼리_
 
@@ -784,7 +784,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-**다른 이유로 인해 프로필의 외부 이벤트가 무시되었는지 확인**
+**다른 이유로 인해 프로필의 외부 이벤트가 삭제되었는지 확인**
 
 _데이터 레이크 쿼리_
 
@@ -810,7 +810,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-**errorCode로 stateMachine에서 삭제한 모든 이벤트 수를 확인합니다.**
+**errorCode로 stateMachine에서 삭제한 모든 이벤트의 수를 확인합니다**
 
 _데이터 레이크 쿼리_
 
@@ -828,7 +828,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-**재입력이 허용되지 않아 삭제된 모든 이벤트 확인**
+**재입력이 허용되지 않아 삭제된 모든 이벤트를 확인**
 
 _데이터 레이크 쿼리_
 
@@ -854,7 +854,7 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 ## 일반적인 여정 기반 쿼리 {#journey-based-queries}
 
-**일별 활성 여정 수**
+**일일 활성 여정 수**
 
 _데이터 레이크 쿼리_
 
@@ -878,7 +878,7 @@ ORDER BY DATE(timestamp) desc
 
 ## 여정 인스턴스의 쿼리 {#journey-instances-queries}
 
-**특정 시간 동안 특정 상태에 있는 프로필 수**
+**특정 시간에 특정 상태에 있는 프로필 수**
 
 _데이터 레이크 쿼리_
 
@@ -1026,7 +1026,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-**특정 기간에 여정을 종료한 프로필 수입니다.**
+**특정 기간 동안 여정을 종료한 프로필 수**
 
 _데이터 레이크 쿼리_
 
@@ -1064,7 +1064,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-**노드/상태에서 특정 기간 동안 여정을 종료한 프로필 수입니다.**
+**노드/상태가 있는 특정 기간에 여정을 종료한 프로필 수**
 
 _데이터 레이크 쿼리_
 

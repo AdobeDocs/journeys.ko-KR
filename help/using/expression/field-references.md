@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 3%
+source-wordcount: '562'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 3%
 
 * 필드는 숫자로 시작합니다.
 * 필드는 &quot;-&quot; 문자로 시작합니다.
-* 이 필드에는 다음 항목 이외의 항목이 포함됩니다. _a_-_z_, _A_-_Z_, _0_-_9_, _ , _-_
+* 필드에 _a_-_z_, _A_-_Z_, _0_-_9_, _ , _-_ 이외의 항목이 포함되어 있습니다.
 
-예를 들어 필드가 입니다. _3시간_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
+예를들어 필드가 _3h_&#x200B;인 경우 _#{OpenWeather.weatherData.rain&#39;.3h&#39;} > 0_
 
 ```json
 // event field
@@ -54,7 +54,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->필드 유형과 기본값은 동일해야 합니다. 예: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} 은(는) 기본값이 정수이므로 유효하지 않으며, 예상 값은 문자열이어야 합니다.
+>필드 유형과 기본값은 동일해야 합니다. 예: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}은(는) 기본값이 정수이지만 예상 값은 문자열이어야 하므로 잘못되었습니다.
 
 예:
 
@@ -97,7 +97,7 @@ expression examples:
 
 ## 컬렉션 내의 필드 참조
 
-컬렉션 내에 정의된 요소는 특정 함수를 사용하여 참조됩니다 `all`, `first` 및 `last`. 자세한 정보는 [이 페이지](../expression/collection-management-functions.md)를 참조하십시오.
+컬렉션 내에 정의된 요소는 특정 함수 `all`, `first` 및 `last`을(를) 사용하여 참조됩니다. 자세한 정보는 [이 페이지](../expression/collection-management-functions.md)를 참조하십시오.
 
 예 :
 
@@ -107,19 +107,19 @@ expression examples:
 
 ## 맵에 정의된 필드 참조
 
-### `entry` 함수 위에 있어야 합니다
+### `entry` 함수
 
-맵에서 요소를 검색하기 위해 주어진 키와 함께 entry 함수를 사용한다. 예를 들어 선택한 네임스페이스에 따라 이벤트의 키를 정의할 때 사용됩니다. 네임스페이스 선택을 참조하십시오. 자세한 내용은 [이 페이지](../event/selecting-the-namespace.md).
+맵에서 요소를 검색하기 위해 주어진 키와 함께 entry 함수를 사용한다. 예를 들어 선택한 네임스페이스에 따라 이벤트의 키를 정의할 때 사용됩니다. 네임스페이스 선택을 참조하십시오. 자세한 내용은 [이 페이지](../event/selecting-the-namespace.md)를 참조하세요.
 
 ```json
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-이 표현식에서 이벤트의 &#39;IdentityMap&#39; 필드의 &#39;이메일&#39; 키 항목을 가져옵니다. &#39;Email&#39; 항목은 컬렉션이며, 여기에서 &#39;first()&#39;를 사용하여 첫 번째 요소의 &#39;id&#39;를 가져옵니다. 자세한 내용은 [이 페이지](../expression/collection-management-functions.md).
+이 표현식에서 이벤트의 &#39;IdentityMap&#39; 필드의 &#39;이메일&#39; 키 항목을 가져옵니다. &#39;Email&#39; 항목은 컬렉션이며, 여기에서 &#39;first()&#39;를 사용하여 첫 번째 요소의 &#39;id&#39;를 가져옵니다. 자세한 내용은 [이 페이지](../expression/collection-management-functions.md)를 참조하세요.
 
-### `firstEntryKey` 함수 위에 있어야 합니다
+### `firstEntryKey` 함수
 
-맵의 첫 번째 항목 키를 검색하려면 `firstEntryKey` 함수.
+맵의 첫 번째 시작 키를 검색하려면 `firstEntryKey` 함수를 사용하십시오.
 
 다음 예에서는 특정 목록의 구독자에 대한 첫 번째 이메일 주소를 검색하는 방법을 보여 줍니다.
 
@@ -127,11 +127,11 @@ expression examples:
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
-이 예제에서 가입 목록의 이름은 입니다 `daily-email`. 이메일 주소는 의 키로 정의됨 `subscribers` 구독 목록 맵에 연결된 맵.
+이 예제에서 구독 목록의 이름은 `daily-email`입니다. 이메일 주소는 `subscribers` 맵에서 구독 목록 맵에 연결된 키로 정의됩니다.
 
-### `keys` 함수 위에 있어야 합니다
+### `keys` 함수
 
-맵의 모든 키로 검색하려면 `keys` 함수.
+맵의 모든 키로 검색하려면 `keys` 함수를 사용하십시오.
 
 다음 예에서는 특정 프로필에 대해 특정 목록의 구독자와 연결된 모든 이메일 주소를 검색하는 방법을 보여 줍니다.
 
@@ -143,7 +143,7 @@ expression examples:
 
 매개 변수를 호출해야 하는 외부 데이터 소스에서 필드를 선택하는 경우 이 매개 변수를 지정할 수 있도록 오른쪽에 새 탭이 나타납니다. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오.
 
-보다 복잡한 사용 사례에서는 주 표현식에 데이터 소스의 매개 변수를 포함하려는 경우 키워드를 사용하여 해당 값을 정의할 수 있습니다 _매개 변수_. 매개 변수는 다른 매개 변수를 포함하는 다른 데이터 소스에서도 유효한 표현식이 될 수 있습니다.
+보다 복잡한 사용 사례에서는 기본 식에 데이터 원본의 매개 변수를 포함하려는 경우 키워드 _params_&#x200B;을 사용하여 해당 값을 정의할 수 있습니다. 매개 변수는 다른 매개 변수를 포함하는 다른 데이터 소스에서도 유효한 표현식이 될 수 있습니다.
 
 >[!NOTE]
 >
@@ -155,7 +155,7 @@ expression examples:
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
-* **`<params-1-name>`**: 데이터 소스의 첫 번째 매개변수에 대한 정확한 이름.
+* **`<params-1-name>`**: 데이터 원본의 첫 번째 매개 변수의 정확한 이름.
 * **`<params-1-value>`**: 첫 번째 매개 변수의 값입니다. 모든 유효한 표현식일 수 있습니다.
 
 예:

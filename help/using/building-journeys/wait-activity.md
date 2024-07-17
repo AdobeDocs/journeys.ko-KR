@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 9%
+source-wordcount: '368'
+ht-degree: 7%
 
 ---
 
 # 대기 활동{#section_rlm_nft_dgb}
 
-경로에서 다음 활동을 실행하기 전에 기다리려면 **[!UICONTROL Wait]** 활동. 이를 통해 다음 활동이 실행되는 시점을 정의할 수 있습니다. 다음 세 가지 옵션을 사용할 수 있습니다.
+경로에서 다음 활동을 실행하기 전에 기다리려면 **[!UICONTROL Wait]** 활동을 사용할 수 있습니다. 이를 통해 다음 활동이 실행되는 시점을 정의할 수 있습니다. 다음 세 가지 옵션을 사용할 수 있습니다.
 
 * [기간](#duration)
 * [사용자 지정](#custom)
@@ -31,7 +31,7 @@ ht-degree: 9%
 >
 >최대 대기 기간은 30일입니다.
 >
->테스트 모드에서 **[!UICONTROL Wait time in test]** 매개 변수를 사용하면 각 대기 활동이 지속되는 시간을 정의할 수 있습니다. 기본 시간은 10초입니다. 이렇게 하면 테스트 결과를 빠르게 얻을 수 있습니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오
+>테스트 모드에서 **[!UICONTROL Wait time in test]** 매개 변수를 사용하면 각 대기 활동을 지속할 시간을 정의할 수 있습니다. 기본 시간은 10초입니다. 이렇게 하면 테스트 결과를 빠르게 얻을 수 있습니다. [이 페이지](../building-journeys/testing-the-journey.md) 보기
 
 ## 기간 대기{#duration}
 
@@ -41,13 +41,13 @@ ht-degree: 9%
 
 ## 사용자 지정 대기{#custom}
 
-이 옵션을 사용하면 이벤트 또는 데이터 소스에서 가져온 필드를 기반으로 하는 고급 표현식을 사용하여 사용자 정의 날짜(예: 2020년 7월 12일 오후 5시)를 정의할 수 있습니다. 사용자 정의 기간(예: 7일)을 정의할 수는 없습니다. 표현식 편집기의 표현식은 dateTimeOnly 형식을 제공해야 합니다. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오. dateTimeOnly 형식에 대한 자세한 내용은 [이 페이지](../expression/data-types.md).
+이 옵션을 사용하면 이벤트 또는 데이터 소스에서 가져온 필드를 기반으로 하는 고급 표현식을 사용하여 사용자 정의 날짜(예: 2020년 7월 12일 오후 5시)를 정의할 수 있습니다. 사용자 정의 기간(예: 7일)을 정의할 수는 없습니다. 표현식 편집기의 표현식은 dateTimeOnly 형식을 제공해야 합니다. [이 페이지](../expression/expressionadvanced.md)를 참조하세요. dateTimeOnly 형식에 대한 자세한 내용은 [이 페이지](../expression/data-types.md)를 참조하십시오.
 
 >[!NOTE]
 >
->dateTimeOnly 식을 활용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), 이벤트의 필드는 양식 2016-08-12T09:46:6Z.
+>dateTimeOnly 식을 활용하거나 함수를 사용하여 dateTimeOnly로 변환할 수 있습니다. 예: toDateTimeOnly(@{Event.offerOpened.activity.endTime}). 이벤트의 필드는 양식 2016-08-12T09:46:06Z입니다.
 >
->다음 **시간대** 은 여정 속성에서 필요합니다. 따라서 오늘 인터페이스에서 2016-08-12T09와 같은 전체 ISO-8601 타임스탬프 혼합 시간 및 시간대 오프셋을 직접 지정하는 것은 불가능합니다:46:06.982-05. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
+>여정 속성에 **표준 시간대**&#x200B;이(가) 필요합니다. 따라서 현재 인터페이스에서 2016-08-12T09:46:06.982-05와 같은 전체 ISO-8601 타임스탬프 혼합 시간 및 시간대 오프셋을 직접 지정하는 것은 불가능합니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
 
 ![](../assets/journey57.png)
 

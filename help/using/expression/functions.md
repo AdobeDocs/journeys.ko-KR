@@ -9,7 +9,7 @@ exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 75%
+ht-degree: 70%
 
 ---
 
@@ -61,10 +61,10 @@ ht-degree: 75%
 | 날짜 | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | 목록 | [distinct](../functions/functiondistinct.md) |
 | 목록 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| 목록 | [filter](../functions/functionfilter.md) |
+| 목록 | [필터](../functions/functionfilter.md) |
 | 목록 | [getListItem](../functions/functiongetlistitem.md) |
 | 목록 | [in](../functions/functionin.md) |
-| 목록 | [intersect](../functions/functionintersect.md) |
+| 목록 | [교차](../functions/functionintersect.md) |
 | 목록 | [listSize](../functions/functionlistsize.md) |
 | 목록 | [serializeList](../functions/functionserializelist.md) |
 | 목록 | [sort](../functions/functionsort.md) |

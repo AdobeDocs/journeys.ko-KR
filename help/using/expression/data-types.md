@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '611'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ JSON 형식: 문자열
 
 직렬화 형식: UTF-8
 
-**리터럴 표현**
+**리터럴 표시**
 
 ```json
 "<value>"
@@ -57,7 +57,7 @@ JSON 형식: 문자열
 
 JSON 형식: 숫자
 
-**리터럴 표현**
+**리터럴 표시**
 
 ```json
 <integer value>
@@ -73,7 +73,7 @@ JSON 형식: 숫자
 
 **설명**
 
-십진수. 부동 값을 나타냅니다.
+10진수입니다. 부동 값을 나타냅니다.
 
 * double 유형의 가장 큰 양의 유한 값, (2-2^-52)x2^1023
 * double 유형의 가장 작은 양의 정규 값, 2-1022
@@ -83,7 +83,7 @@ JSON 형식: 숫자
 
 직렬화 형식: &#39;.&#39; 사용 를 소수점 구분 기호로 사용하십시오.
 
-**리터럴 표현**
+**리터럴 표시**
 
 ```json
 <integer value>.<integer value>
@@ -103,7 +103,7 @@ JSON 형식: 숫자
 
 JSON 형식: 부울
 
-**리터럴 표현**
+**리터럴 표시**
 
 ```json
 true
@@ -135,7 +135,7 @@ toDateOnly 함수에 캡슐화할 수 있습니다.
 
 DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize 및 serialize합니다. [자세히 알아보기](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
 
-**리터럴 표현**
+**리터럴 표시**
 
 ```json
 date("<dateOnly in ISO-8601 format>")  
@@ -165,7 +165,7 @@ toDateTimeOnly 함수에 캡슐화할 수 있습니다.
 
 DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize 및 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
-**리터럴 표현**
+**리터럴 표시**
 
 ```json
 date("<dateTimeOnly in ISO-8601 format>")  
@@ -198,7 +198,7 @@ DateTimeFormatter ISO_OFFSET_DATE_TIME을 사용하여 값을 deserialize 및 se
 
 시간대는 오프셋 또는 시간대 코드(예: 유럽/파리, Z - UTC 의미)로 지정할 수 있습니다.
 
-**리터럴 표현**
+**리터럴 표시**
 
 ```json
 toDateTime("<dateTime in ISO-8601 format>")
@@ -258,7 +258,7 @@ toDuration 함수에 캡슐화해야 합니다.
 
 Duration.parse: 허용되는 형식은 ISO-8601 기간 형식 PnDTnHnMn.nS를 기반으로 하며, 일은 정확히 24시간으로 간주됩니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
-**리터럴 표현**
+**리터럴 표시**
 
 ```json
 toDuration("<duration in ISO-8601 format>")
@@ -318,7 +318,7 @@ toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 
 다형성은 지원되지 않으므로 목록에 포함된 모든 표현식의 유형이 같아야 합니다.
 
-**리터럴 표현**
+**리터럴 표시**
 
 ```json
 [<expression>, <expression>, ... ]

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
 source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 4%
+source-wordcount: '411'
+ht-degree: 2%
 
 ---
 
@@ -36,19 +36,19 @@ ht-degree: 4%
 
 ![](../assets/journeyuc2_29.png)
 
-이 사용 사례에서는 두 개의 이벤트를 만들어야 합니다( 참조) [이 페이지](../usecase/configuring-the-events.md)):
+이 사용 사례에서는 두 개의 이벤트를 만들어야 합니다([이 페이지](../usecase/configuring-the-events.md) 참조).
 
 * 고객이 호텔에 입장할 때 시스템에 푸시되는 로비 비콘 이벤트.
 * 고객이 레스토랑에 입장할 때 푸시되는 레스토랑 비콘 이벤트입니다.
 
-두 개의 데이터 소스에 대한 연결을 구성해야 합니다(참조) [이 페이지](../usecase/configuring-the-data-sources.md)):
+두 데이터 원본에 대한 연결을 구성해야 합니다([이 페이지](../usecase/configuring-the-data-sources.md) 참조).
 
 * 두 조건(충성도 멤버십 및 마지막 연락 날짜)에 대한 정보와 메시지 개인화 정보를 검색할 수 있는 기본 제공 Adobe Experience Platform 데이터 소스입니다.
 * 호텔 예약 시스템, 예약 상태 정보 검색.
 
-## 사전 요구 사항 {#prerequisites}
+## 전제 조건 {#prerequisites}
 
-사용 사례에서는 세 가지 Adobe Campaign Standard 트랜잭션 메시지 템플릿을 디자인했습니다. 이벤트 트랜잭션 메시지 템플릿을 사용하고 있습니다. 다음을 참조하십시오. [페이지](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko).
+사용 사례에서는 세 가지 Adobe Campaign Standard 트랜잭션 메시지 템플릿을 디자인했습니다. 이벤트 트랜잭션 메시지 템플릿을 사용하고 있습니다. 이 [페이지](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko)를 참조하세요.
 
 Adobe Campaign Standard은 이메일 및 푸시 알림을 보내도록 구성되어 있습니다.
 

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 94%
+source-wordcount: '959'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 94%
 >
 >이 설명서는 제품의 최근 변경 사항을 반영하기 위해 자주 업데이트됩니다. 그러나 실제 제품 인터페이스와 약간 다른 스크린샷도 있습니다.
 
-## [!DNL Journey Orchestration]에 액세스{#accessing_journey_orchestration}
+## [!DNL Journey Orchestration] 액세스{#accessing_journey_orchestration}
 
 [!DNL Journey Orchestration]의 인터페이스에 액세스하려면 오른쪽 위의 **[!UICONTROL App Selector]** 아이콘을 클릭한 후 **[!UICONTROL Journey Orchestration]**&#x200B;을(를) 클릭합니다.
 
@@ -55,7 +55,7 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 [!D
 
 **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 및 **[!UICONTROL Actions]** 목록에서 **[!UICONTROL Creation filters]**&#x200B;을(를) 사용하여 만든 날짜와 사용자를 기준으로 필터링합니다. 예를 들어 지난 30일 동안 만든 이벤트만 표시하도록 선택할 수 있습니다.
 
-여정 목록 내(아래) **[!UICONTROL Home]**), 및 **[!UICONTROL Creation filters]**, 상태, 유형 및 버전에 따라 표시된 여정을 필터링할 수도 있습니다(**[!UICONTROL Status and version filters]**). 유형은 다음과 같습니다. **[!UICONTROL Unitary event]** 또는 **[!UICONTROL Segment qualification]**. **[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**&#x200B;를 사용하면 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정만 표시하도록 선택할 수도 있습니다. 그리고 **[!UICONTROL Publication filters]**&#x200B;를 사용하면 게시 날짜나 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 여정의 최신 버전만 표시하도록 선택할 수 있습니다. [이 페이지](../building-journeys/using-the-journey-designer.md)를 참조하십시오.
+**[!UICONTROL Home]** 아래의 여정 목록에서는 **[!UICONTROL Creation filters]** 외에도 상태, 유형 및 버전(**[!UICONTROL Status and version filters]**)에 따라 표시된 여정을 필터링할 수도 있습니다. 형식은 **[!UICONTROL Unitary event]** 또는 **[!UICONTROL Segment qualification]**&#x200B;일 수 있습니다. **[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**&#x200B;를 사용하면 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정만 표시하도록 선택할 수도 있습니다. 그리고 **[!UICONTROL Publication filters]**&#x200B;를 사용하면 게시 날짜나 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 여정의 최신 버전만 표시하도록 선택할 수 있습니다. [이 페이지](../building-journeys/using-the-journey-designer.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 [!D
 
 ![](../assets/journey4.png)
 
-## Adobe Experience Platform 필드를 통한 검색 {#friendly-names-display}
+## Adobe Experience Platform 필드 검색 {#friendly-names-display}
 
 [이벤트 페이로드](../event/defining-the-payload-fields.md)와 [필드 그룹 페이로드](../datasource/field-groups.md)를 정의하고 [표현식 편집기](../expression/expressionadvanced.md)에서 필드를 선택할 때는 필드 이름과 함께 표시 이름도 표시됩니다. 이 정보는 Experience Data Model의 스키마 정의에서 검색됩니다.
 

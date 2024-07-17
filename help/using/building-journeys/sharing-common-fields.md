@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 9%
+source-wordcount: '582'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 9%
 
 이 mixin은 journeyStepEvent 및 journeyStepProfileEvent에서 공유됩니다.
 
-이는 다음과 같은 일반적인 XDM 필드입니다. [!DNL Journey Orchestration] 는 Adobe Experience Platform으로 전송합니다. 여정에서 처리되는 모든 단계에 대해 공통 필드가 전송됩니다. 사용자 지정 작업 및 보강에는 더 구체적인 필드가 사용됩니다.
+[!DNL Journey Orchestration]이(가) Adobe Experience Platform으로 보내는 일반적인 XDM 필드입니다. 여정에서 처리되는 모든 단계에 대해 공통 필드가 전송됩니다. 사용자 지정 작업 및 보강에는 더 구체적인 필드가 사용됩니다.
 
 이러한 필드 중 일부는 특정 처리 패턴(작업 실행, 데이터 가져오기 등)에서만 사용할 수 있습니다 이벤트 크기를 제한하기 위해
 
@@ -77,7 +77,7 @@ ht-degree: 9%
 
 * 조건
 * 작업
-* 예약
+* 스케줄러
 * 타이머
 
 ## stepStatus

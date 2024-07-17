@@ -15,7 +15,7 @@ ht-degree: 28%
 
 # 작업 활동 정보 {#concept_hbj_hrt_52b}
 
-팔레트에서 아래 화면의 왼쪽에 **[!UICONTROL Events]** 및 **[!UICONTROL Orchestration]**, 다음을 찾을 수 있습니다. **[!UICONTROL Actions]** 범주.
+화면 왼쪽의 팔레트에서 **[!UICONTROL Events]**&#x200B;과(와) **[!UICONTROL Orchestration]** 아래에 **[!UICONTROL Actions]** 범주가 있습니다.
 
 ![](../assets/journey58.png)
 
@@ -23,9 +23,9 @@ ht-degree: 28%
 
 Adobe Campaign Standard이 있는 경우 다음과 같은 기본 작업 활동을 사용할 수 있습니다. **[!UICONTROL Email]**, **[!UICONTROL Push]** 및 **[!UICONTROL SMS]**. [이 페이지](../building-journeys/using-adobe-campaign-actions.md)를 참조하십시오.
 
-사용자 지정 작업을 구성하면 여기에 표시됩니다(참조) [이 페이지](../building-journeys/using-custom-actions.md)).
+사용자 지정 작업을 구성하면 여기에 표시됩니다([이 페이지](../building-journeys/using-custom-actions.md) 참조).
 
-캔버스에 작업 활동을 놓으면 **[!UICONTROL Label]**. 이를 통해 캔버스의 활동 아래에 표시될 작업 이름에 접미사를 추가할 수 있습니다. 이 기능은 여정에서 동일한 작업을 여러 번 사용하고 이러한 작업을 보다 쉽게 식별하려는 경우 유용합니다. 보고서를 더 쉽게 읽을 수 있습니다. 선택 사항을 추가할 수도 있습니다 **[!UICONTROL Description]**.
+작업 활동을 캔버스에 놓으면 **[!UICONTROL Label]**&#x200B;을(를) 정의할 수 있습니다. 이를 통해 캔버스의 활동 아래에 표시될 작업 이름에 접미사를 추가할 수 있습니다. 이 기능은 여정에서 동일한 작업을 여러 번 사용하고 이러한 작업을 보다 쉽게 식별하려는 경우 유용합니다. 보고서를 더 쉽게 읽을 수 있습니다. 선택적 **[!UICONTROL Description]**&#x200B;을(를) 추가할 수도 있습니다.
 
 ![](../assets/journey59bis.png)
 

@@ -21,7 +21,7 @@ ht-degree: 7%
 >
 >시스템 생성 이벤트의 경우 이벤트를 만들 때 페이로드 미리 보기를 보려면 이벤트를 저장한 다음 다시 엽니다. 이 단계는 페이로드에서 이벤트 ID를 생성하는 데 필요합니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL View Payload]** 시스템에 필요한 페이로드를 미리 보기 위한 아이콘입니다.
+1. 시스템에서 예상한 페이로드를 미리 보려면 **[!UICONTROL View Payload]** 아이콘을 클릭하십시오.
 
    ![](../assets/journey13.png)
 
@@ -31,4 +31,4 @@ ht-degree: 7%
 
 1. 미리 보기를 확인하여 페이로드 정의의 유효성을 검사합니다.
 
-1. 그런 다음 이벤트 전송을 담당하는 사람과 페이로드 미리 보기를 공유할 수 있습니다. 이 페이로드는 을 푸시하는 이벤트의 설정을 디자인하는 데 도움이 됩니다. [!DNL Journey Orchestration]. [이 페이지](../event/additional-steps-to-send-events-to-journey-orchestration.md)를 참조하십시오.
+1. 그런 다음 이벤트 전송을 담당하는 사람과 페이로드 미리 보기를 공유할 수 있습니다. 이 페이로드는 [!DNL Journey Orchestration]에 푸시하는 이벤트의 설정을 디자인하는 데 도움이 될 수 있습니다. [이 페이지](../event/additional-steps-to-send-events-to-journey-orchestration.md)를 참조하십시오.

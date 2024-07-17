@@ -8,8 +8,8 @@ level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
 source-git-commit: a0b6ab595bc16a75aa5a56a858900418e2381ab9
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 7%
+source-wordcount: '459'
+ht-degree: 6%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 7%
 
 ## 중요 정보{#important-notes}
 
-* 곱셈 사용 시(`*`)에서 두 작업 필드는 정수나 십진수로 같은 형식을 가져야 합니다. 예 :
-   * 다음 예는 올바릅니다. `3.0 * 4.0`
-   * `3 * 4.0` 오류가 발생합니다.
+* 곱셈(`*`)을 사용할 때는 두 연산 필드의 형식이 같아야 합니다(정수 또는 십진수). 예 :
+   * 다음 예제는 올바릅니다. `3.0 * 4.0`
+   * `3 * 4.0`에 오류가 발생합니다.
 
 ## 논리적  {#logical}
 
@@ -46,7 +46,7 @@ ht-degree: 7%
 <expression1> and <expression2>
 ```
 
-모두 &lt;expression1> 및 &lt;expression2> 은(는) 부울이어야 합니다. 결과는 부울입니다.
+&lt;expression1>과 &lt;expression2> 모두 부울이어야 합니다. 결과는 부울입니다.
 
 예:
 
@@ -62,7 +62,7 @@ ht-degree: 7%
 <expression1> or <expression2>
 ```
 
-모두 &lt;expression1> 및 &lt;expression2> 은(는) 부울이어야 합니다. 결과는 부울입니다.
+&lt;expression1>과 &lt;expression2> 모두 부울이어야 합니다. 결과는 부울입니다.
 
 예:
 
@@ -78,7 +78,7 @@ ht-degree: 7%
 not <expression>
 ```
 
-&lt;expression> 은(는) 부울이어야 합니다. 결과는 부울입니다.
+&lt;expression>은(는) 부울이어야 합니다. 결과는 부울입니다.
 
 예:
 
@@ -132,7 +132,7 @@ null은 표현식에 평가된 값이 없음을 의미합니다.
 <expression> has null
 ```
 
-&lt;expression> 목록이어야 합니다. 결과는 부울입니다.
+&lt;expression>은(는) 목록이어야 합니다. 결과는 부울입니다.
 
 목록에 Null 값이 하나 이상 포함되어 있음을 식별하는 데 유용합니다.
 
@@ -154,7 +154,7 @@ null은 표현식에 평가된 값이 없음을 의미합니다.
 <expression1> == <expression2>
 ```
 
-모두 &lt;expression1> 및 &lt;expression2> 은(는) 동일한 데이터 유형을 가지고 있어야 합니다. 결과는 부울입니다.
+&lt;expression1>과 &lt;expression2> 모두 동일한 데이터 형식을 가져야 합니다. 결과는 부울입니다.
 
 예:
 
@@ -174,7 +174,7 @@ null은 표현식에 평가된 값이 없음을 의미합니다.
 <expression1> != <expression2>
 ```
 
-모두 &lt;expression1> 및 &lt;expression2> 은(는) 동일한 데이터 유형을 가지고 있어야 합니다. 결과는 부울입니다.
+&lt;expression1>과 &lt;expression2> 모두 동일한 데이터 형식을 가져야 합니다. 결과는 부울입니다.
 
 예:
 
@@ -332,7 +332,7 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 
 결과도 숫자입니다.
 
-&lt;expression2> 은(는) 0이 아니어야 합니다(반환 0).
+&lt;expression2>는 0이 아니어야 합니다(반환 0).
 
 예:
 

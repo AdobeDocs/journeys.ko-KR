@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 99%
+source-wordcount: '1030'
+ht-degree: 96%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 99%
 
 작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. 이 작업을 계속 진행할 수 있는 유일한 방법은 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 상자를 선택하는 것입니다 . [이 섹션](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
 
-## 이벤트를 제대로 보냈는지 확인{#section_rqz_11t_dgb}
+## 이벤트가 제대로 전송되었는지 확인{#section_rqz_11t_dgb}
 
 여정의 시작점은 항상 이벤트입니다. Postman과 같은 도구를 사용하여 테스트를 수행할 수 있습니다.
 

@@ -32,7 +32,7 @@ ht-degree: 10%
 | 매개변수 | 유형 |
 |-----------|--------------|
 | 기본 | 문자열 |
-| target | 문자열(RegExp) |
+| 대상 | 문자열(RegExp) |
 | 교체 | 문자열 |
 
 ## 서명 및 반환된 유형
@@ -47,4 +47,4 @@ ht-degree: 10%
 
 &quot;Hexxo Worxd&quot;를 반환합니다.
 
-대상 매개 변수는 RegExp이므로 바꿀 문자열에 따라 일부 문자를 이스케이프해야 할 수 있습니다. 의 예제를 참조하십시오. [이 페이지](../functions/functionreplace.md#example_2).
+대상 매개 변수는 RegExp이므로 바꿀 문자열에 따라 일부 문자를 이스케이프해야 할 수 있습니다. [이 페이지](../functions/functionreplace.md#example_2)의 예제를 참조하십시오.

@@ -62,12 +62,12 @@ ht-degree: 87%
 
 >[!CAUTION]
 >
->액세스 토큰을 생성하기 위한 JWT 메서드가 더 이상 사용되지 않습니다. 모든 새 통합은 [OAuth 서버 간 인증 방법](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). 또한 Adobe은 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다.
+>액세스 토큰을 생성하기 위한 JWT 메서드가 더 이상 사용되지 않습니다. 모든 새 통합은 [OAuth 서버 간 인증 방법](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server)을 사용하여 만들어야 합니다. 또한 Adobe은 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다.
 >
 >다음 중요 설명서를 참조하십시오.
->[JWT에서 OAuth로의 애플리케이션 마이그레이션 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),
->[OAuth를 사용하는 신규 및 기존 애플리케이션에 대한 구현 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
->[OAuth 서버 간 자격 증명 메서드 사용의 이점](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+>[JWT에서 OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)(으)로 애플리케이션에 대한 마이그레이션 안내서,
+>[OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)을(를) 사용하는 새 응용 프로그램과 이전 응용 프로그램에 대한 구현 안내서,
+>[OAuth 서버 간 자격 증명 메서드 ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)을(를) 사용할 때의 이점
 
 서비스 간 Adobe I/O API 세션을 안전하게 구성하기 위해, Adobe 서비스에 대한 모든 요청의 인증 헤더에 아래 정보를 포함해야 합니다.
 
@@ -80,6 +80,6 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * **&lt;ORGANIZATION>**: 사용자 개인의 조직 ID이며, Adobe는 한 인스턴스에 조직 ID를 하나씩 제공합니다. 조직 ID 값은 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 새 통합을 만들 때 라이선스 목록에서 검색해 Adobe I/O로 가져올 수도 있습니다([Adobe I/O 설명서](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 참조).
 
-* **&lt;access_token>**: 개인 액세스 토큰
+* **&lt;ACCESS_TOKEN>**: 개인 액세스 토큰
 
 * **&lt;API_KEY>**: 사용자의 개인 API 키입니다. [!DNL Journey Orchestration] 서비스 통합을 새로 만든 뒤에 Adobe I/O를 통해 제공됩니다.

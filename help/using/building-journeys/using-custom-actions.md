@@ -21,7 +21,7 @@ ht-degree: 11%
 
 ### 동적 경로
 
-URL에 동적 경로가 포함된 경우 **[!UICONTROL Path]** 필드.
+URL에 동적 경로가 포함된 경우 **[!UICONTROL Path]** 필드에 경로를 지정하십시오.
 
 >[!NOTE]
 >
@@ -38,26 +38,26 @@ URL에 동적 경로가 포함된 경우 **[!UICONTROL Path]** 필드.
 
 연결된 URL의 형식은 다음과 같습니다.
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;캠페인 ID\>`/messages`
 
 ![](../assets/journey-custom-action-url.png)
 
 ### 헤더
 
-다음 **[!UICONTROL URL Configuration]** 섹션에는 동적 헤더 필드가 표시되지만 상수 헤더 필드는 표시되지 않습니다. 동적 헤더 필드는 값이 변수로 구성된 HTTP 헤더 필드입니다. [자세히 알아보기](../action/about-custom-action-configuration.md).
+**[!UICONTROL URL Configuration]** 섹션에는 동적 헤더 필드가 표시되지만 상수 헤더 필드는 표시되지 않습니다. 동적 헤더 필드는 값이 변수로 구성된 HTTP 헤더 필드입니다. [자세히 알아보기](../action/about-custom-action-configuration.md).
 
 필요한 경우 동적 헤더 필드의 값을 지정합니다.
 
 1. 여정에서 사용자 지정 작업을 선택합니다.
-1. 구성 창에서 의 헤더 필드 옆에 있는 연필 아이콘을 클릭합니다 **[!UICONTROL URL Configuration]** 섹션.
+1. 구성 창에서 **[!UICONTROL URL Configuration]** 섹션의 머리글 필드 옆에 있는 연필 아이콘을 클릭합니다.
 
    ![](../assets/journey-dynamicheaderfield.png)
 
-1. 필드를 선택하고 **[!UICONTROL OK]**.
+1. 필드를 선택하고 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
 ## 작업 매개 변수
 
-다음에서 **[!UICONTROL Action parameters]** 섹션에는 다음과 같이 정의된 메시지 매개 변수가 표시됩니다 _&quot;변수&quot;_. 이러한 매개 변수의 경우 이 정보를 가져올 위치(예: 이벤트, 데이터 소스)를 정의하거나, 값을 수동으로 전달하거나, 고급 사용 사례에 고급 표현식 편집기를 사용할 수 있습니다. 고급 사용 사례는 데이터 조작 및 기타 함수 사용일 수 있습니다. [자세히 알아보기](../expression/expressionadvanced.md).
+**[!UICONTROL Action parameters]** 섹션에는 _&quot;변수&quot;_(으)로 정의된 메시지 매개 변수가 표시됩니다. 이러한 매개 변수의 경우 이 정보를 가져올 위치(예: 이벤트, 데이터 소스)를 정의하거나, 값을 수동으로 전달하거나, 고급 사용 사례에 고급 표현식 편집기를 사용할 수 있습니다. 고급 사용 사례는 데이터 조작 및 기타 함수 사용일 수 있습니다. [자세히 알아보기](../expression/expressionadvanced.md).
 
 **관련 항목**
 

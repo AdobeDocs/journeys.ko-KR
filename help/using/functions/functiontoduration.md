@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 77f068fa-678e-49a4-b45f-843c3287390a
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '285'
 ht-degree: 3%
 
 ---
 
 # toDuration {#toDuration}
 
-인수 값을 duration으로 변환합니다. 데이터 유형에 대한 자세한 내용은 [이 페이지](../expression/data-types.md).
+인수 값을 duration으로 변환합니다. 데이터 형식에 대한 자세한 내용은 [이 페이지](../expression/data-types.md)를 참조하세요.
 
 ## 카테고리
 

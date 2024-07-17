@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '554'
 ht-degree: 29%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 29%
 
 >[!IMPORTANT]
 >
->다음 **maxHttpConnection** 매개 변수는 선택 사항입니다. 이를 통해 Journey Optimizer이 외부 시스템에 대해 여는 연결 수를 제한할 수 있습니다.
+>**maxHttpConnections** 매개 변수는 선택 사항입니다. 이를 통해 Journey Optimizer이 외부 시스템에 대해 여는 연결 수를 제한할 수 있습니다.
 >
 >설정할 수 있는 최대값은 400입니다. 아무 것도 지정되지 않은 경우, 시스템은 시스템의 동적 확장에 따라 최대 수천 개의 연결을 열 수 있습니다.
 
@@ -85,7 +85,7 @@ ht-degree: 29%
 
 ## 경고 및 오류
 
-다음과 같은 경우 **canDeploy** 메서드가 호출되면 이 프로세스가 구성을 확인하고 다음 중 하나의 고유 ID로 식별된 유효성 검사 상태를 반환합니다.
+**canDeploy** 메서드가 호출되면 이 프로세스는 구성을 확인하고 다음 중 하나의 고유 ID로 확인된 유효성 검사 상태를 반환합니다.
 
 ```
 "ok" or "error"
@@ -94,23 +94,23 @@ ht-degree: 29%
 잠재적 오류는 다음과 같습니다.
 
 * **ERR_ENDPOINTCONFIG_100**: 최대 구성: 누락되었거나 잘못된 url
-* **ERR_ENDPOINTCONFIG_101**: 캡핑 구성: 잘못된 url
-* **ERR_ENDPOINTCONFIG_102**: 구성 캡핑: url 형식이 잘못되었습니다. host:port에 url의 와일드문자를 사용할 수 없습니다.
-* **ERR_ENDPOINTCONFIG_103**: 구성 제한: HTTP 메서드 누락
-* **ERR_ENDPOINTCONFIG_104**: 구성 한도 설정: 정의된 호출 등급 없음
-* **ERR_ENDPOINTCONFIG_107**: 최대 구성: 잘못된 최대 호출 수(maxCallsCount)
-* **ERR_ENDPOINTCONFIG_108**: 최대 구성: 잘못된 최대 호출 수(periodInMs)
-* **ERR_ENDPOINT_111**: 최대 구성: 끝점 구성을 만들 수 없음: 잘못된 페이로드
-* **ERR_ENDPOINTCONFIG_112**: 최대 구성: 엔드포인트 구성을 만들 수 없음: JSON 페이로드가 필요합니다.
+* **ERR_ENDPOINTCONFIG_101**: 구성 제한: url 형식이 잘못되었습니다.
+* **ERR_ENDPOINTCONFIG_102**: 최대 구성: url 형식이 잘못되었습니다. host:port에서 url의 와일드문자를 사용할 수 없습니다.
+* **ERR_ENDPOINTCONFIG_103**: 최대 구성: HTTP 메서드가 없습니다.
+* **ERR_ENDPOINTCONFIG_104**: 최대 구성: 호출 등급이 정의되지 않았습니다.
+* **ERR_ENDPOINTCONFIG_107**: 최대 호출 수 제한 구성: 잘못된 최대 호출 수(maxCallsCount)
+* **ERR_ENDPOINTCONFIG_108**: 최대 호출 수 제한 구성: 잘못된 최대 호출 수(periodInMs)
+* **ERR_ENDPOINTCONFIG_111**: 최대 구성: 끝점 구성을 만들 수 없음: 잘못된 페이로드
+* **ERR_ENDPOINTCONFIG_112**: 최대 구성: 끝점 구성을 만들 수 없습니다. JSON 페이로드가 필요합니다.
 * **ERR_AUTHORING_ENDPOINTCONFIG_1**: 잘못된 서비스 이름 `<!--<given value>-->`: &#39;dataSource&#39; 또는 &#39;action&#39;이어야 합니다.
 
 잠재적인 경고는 다음과 같습니다.
 
-**ERR_ENDPOINTCONFIG_106**: 구성 제한: 최대 HTTP 연결이 정의되지 않음: 기본적으로 제한 없음
+**ERR_ENDPOINTCONFIG_106**: 최대 구성: 최대 HTTP 연결이 정의되지 않음: 기본적으로 제한 없음
 
 ## 사용 사례
 
-이 섹션에서는 캡핑 구성을 관리하기 위해 수행할 수 있는 5가지 주요 사용 사례를에서 확인할 수 있습니다. [!DNL Journey Orchestration].
+이 섹션에서는 [!DNL Journey Orchestration]에서 최대 가용량 구성을 관리하기 위해 수행할 수 있는 5가지 주요 사용 사례를 확인할 수 있습니다.
 
 [여기](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)에서 테스트 및 구성에 도움이 되는 Postman 컬렉션을 사용할 수 있습니다.
 

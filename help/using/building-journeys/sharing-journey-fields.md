@@ -9,7 +9,7 @@ exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 28%
+ht-degree: 11%
 
 ---
 
@@ -41,8 +41,8 @@ ht-degree: 28%
 
 유형: 문자열
 
-## version
+## 버전
 
-버전, 다음으로 표시 `major`.`minor`
+버전, `major`.`minor`(으)로 표시됨
 
 유형: 문자열

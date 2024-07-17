@@ -8,12 +8,12 @@ level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '381'
 ht-degree: 100%
 
 ---
 
-# [!DNL Journey Orchestration] 정보{#concept_nd3_mqt_52b}
+# [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
 이벤트 또는 데이터 소스에 저장된 컨텍스트 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 구축합니다.
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 그리고 다음을 기준으로 조건을 만듭니다.
 
-* time
+* 시간
 * 이벤트 페이로드에서 오는 데이터
 * 데이터 소스에서 오는 정보: 실시간 고객 프로필 데이터 소스 또는 사용자 지정 데이터 소스
 

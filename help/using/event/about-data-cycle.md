@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: b362589a-32b0-4dbd-8ceb-a371e1e048ac
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 79%
+source-wordcount: '219'
+ht-degree: 78%
 
 ---
 
@@ -21,4 +21,4 @@ POST API 호출인 이벤트는 이벤트는 스트리밍 수집 API를 통해 A
 
 스트리밍 수집 API를 통과하여 대상에 도착한 이벤트는 파이프라인이라는 내부 서비스로 이동한 후 Adobe Experience Platform으로 이동합니다. 이벤트 스키마에 실시간 고객 프로필 서비스 플래그가 설정되어 있고, 역시 실시간 고객 프로필 태그가 설정된 데이터 세트 ID도 포함되어 있으면 이벤트는 실시간 고객 프로필 서비스로 이동합니다.
 
-시스템 생성 이벤트의 경우 파이프라인은 페이로드에 포함된 이벤트를 필터링합니다 [!DNL Journey Orchestration] 에서 제공한 eventID(아래 이벤트 만들기 프로세스 참조) [!DNL Journey Orchestration] 이벤트 페이로드에 포함됩니다. 규칙 기반 이벤트의 경우 시스템은 eventID 조건을 사용하여 이벤트를 식별합니다. [!DNL Journey Orchestration]에서 이러한 이벤트를 수신하면 해당하는 경로가 트리거됩니다.
+시스템 생성 이벤트의 경우 파이프라인은 [!DNL Journey Orchestration]에서 제공하고 이벤트 페이로드에 포함된 [!DNL Journey Orchestration]개의 eventID(아래 이벤트 만들기 프로세스 참조)가 포함된 페이로드가 있는 이벤트를 필터링합니다. 규칙 기반 이벤트의 경우 시스템은 eventID 조건을 사용하여 이벤트를 식별합니다. [!DNL Journey Orchestration]에서 이러한 이벤트를 수신하면 해당하는 경로가 트리거됩니다.

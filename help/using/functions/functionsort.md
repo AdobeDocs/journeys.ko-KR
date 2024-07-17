@@ -9,7 +9,7 @@ exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -71,9 +71,9 @@ ht-degree: 9%
 
 `sort(["A", "C", "B"], true)`
 
-반환 `["A","B","C"]`.
+`["A","B","C"]`을(를) 반환합니다
 
 `sort([1, 3, 2], false)`
 
-반환 `[3, 2, 1]`.
+`[3, 2, 1]`을(를) 반환합니다
 

@@ -9,7 +9,7 @@ exl-id: 0ef098d8-b56c-4509-bbbd-2688ecc547bf
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 27%
+ht-degree: 25%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 27%
 | 매개변수 | 유형 |
 |-------------|--------|
 | 문자열 | 문자열 |
-| prefix로 인해 영구적으로 지정되는 Mbox 매개 변수입니다 | 문자열 |
+| 접두사 | 문자열 |
 
 ## 서명 및 반환된 유형
 

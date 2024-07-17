@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
 source-git-commit: 2aa73498f44f22a70bb2268afca7d1a62e434542
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '100'
 ht-degree: 11%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->시간대 ID는 문자열 상수여야 합니다. 필드 참조나 식이 될 수 없습니다. 데이터 유형에 대한 자세한 내용은 [이 페이지](../expression/data-types.md).
+>시간대 ID는 문자열 상수여야 합니다. 필드 참조나 식이 될 수 없습니다. 데이터 형식에 대한 자세한 내용은 [이 페이지](../expression/data-types.md)를 참조하세요.
 
 ## 서명 및 반환된 유형
 
@@ -46,7 +46,7 @@ ht-degree: 11%
 
 `toDateTime(<integer>)`
 
-반환 **dateTime**.
+**dateTime** 반환
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
@@ -81,7 +81,7 @@ Return a datetime.
 
 `toDateTime(1560762190189)`
 
-2019-06-17T09 반환:03:10.189Z
+2019-06-17T09:03:10.189Z 반환
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 

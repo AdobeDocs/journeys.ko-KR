@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
 source-git-commit: 3856e323569054fac9e73f2a6af2b86518f62ab9
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1305'
 ht-degree: 94%
 
 ---
@@ -30,7 +30,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 새 외부 데이터 소스를 만들고 구성하는 주요 단계는 다음과 같습니다.
 
-1. 데이터 소스 목록에서 **[!UICONTROL Create data source]** 새 외부 데이터 소스를 만듭니다.
+1. 새 외부 데이터 원본을 만들려면 데이터 원본 목록에서 **[!UICONTROL Create data source]**&#x200B;을(를) 클릭하십시오.
 
    ![](../assets/journey25.png)
 
@@ -42,7 +42,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
    >[!NOTE]
    >
-   >공백이나 특수 문자는 사용하지 마십시오. 이름은 30자까지만 입력하십시오.
+   >공백이나 특수 문자는 사용하지 말고 이름은 30자까지만 입력하십시오.
 
 1. 원하는 경우 데이터 소스에 이벤트에 설명을 추가합니다.
 1. 외부 서비스의 URL을 추가합니다. 이 예제에서는 _https://api.adobeweather.org/weather_&#x200B;를 추가합니다.

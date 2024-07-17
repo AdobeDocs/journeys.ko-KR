@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 7%
+source-wordcount: '377'
+ht-degree: 4%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 7%
 * http
 * 캡핑
 * 시간 초과
-* 라는 오류가 표시됩니다
+* 오류
 
 ## fetchErrorCode
 
@@ -75,7 +75,7 @@ ht-degree: 7%
 
 ## fetchOriginErrorCode
 
-시스템에서 제공한 오류 코드 [!DNL Journey Orchestration] 을(를) 쿼리하고 있습니다. 예를 들어 404, 500 등이 될 수 있습니다.
+시스템 [!DNL Journey Orchestration]에서 제공한 오류 코드를 쿼리하는 중입니다. 예를 들어 404, 500 등이 될 수 있습니다.
 
 유형: 문자열
 

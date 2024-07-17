@@ -8,30 +8,30 @@ level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
 source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 4%
+source-wordcount: '717'
+ht-degree: 0%
 
 ---
 
-# 에 대한 ExperienceEvent 스키마 정보 [!DNL Journey Orchestration] 이벤트
+# [!DNL Journey Orchestration] 이벤트에 대한 ExperienceEvent 스키마 정보
 
 [!DNL Journey Orchestration] 이벤트는 스트리밍 수집을 통해 Adobe Experience Platform으로 전송되는 XDM 경험 이벤트입니다.
 
-따라서 이벤트를 설정하기 위한 중요한 전제 조건 [!DNL Journey Orchestration] 는 Adobe Experience Platform의 XDM(Experience Data Model) 및 XDM 경험 이벤트 스키마를 구성하는 방법과 XDM 형식 데이터를 Adobe Experience Platform에 스트리밍하는 방법에 대해 잘 알고 있습니다.
+따라서 [!DNL Journey Orchestration]에 대한 이벤트를 설정하기 위한 중요한 전제 조건은 Adobe Experience Platform의 XDM(Experience Data Model) 및 XDM 경험 이벤트 스키마를 구성하는 방법과 XDM 형식 데이터를 Adobe Experience Platform으로 스트리밍하는 방법에 대해 잘 알고 있어야 한다는 것입니다.
 
-## 스키마 요구 사항 [!DNL Journey Orchestration] 이벤트
+## [!DNL Journey Orchestration] 이벤트에 대한 스키마 요구 사항
 
-에 대한 이벤트를 설정하는 첫 번째 단계 [!DNL Journey Orchestration] 는 이벤트를 나타내도록 정의된 XDM 스키마와 Adobe Experience Platform에서 이벤트의 인스턴스를 기록하도록 만들어진 데이터 세트가 있는지 확인하기 위한 것입니다. 이벤트에 대한 데이터 세트를 보유하는 것은 엄격히 필요하지 않지만 이벤트를 특정 데이터 세트에 전송하면 향후 참조 및 분석을 위해 사용자의 이벤트 내역을 유지할 수 있으므로 항상 좋은 방법입니다. 이벤트에 적합한 스키마와 데이터 세트가 없는 경우 Adobe Experience Platform 웹 인터페이스에서 두 작업을 모두 수행할 수 있습니다.
+[!DNL Journey Orchestration]에 대한 이벤트를 설정하는 첫 번째 단계는 이벤트를 나타내도록 정의된 XDM 스키마와 Adobe Experience Platform에서 이벤트의 인스턴스를 기록하도록 만들어진 데이터 세트가 있는지 확인하는 것입니다. 이벤트에 대한 데이터 세트를 보유하는 것은 엄격히 필요하지 않지만 이벤트를 특정 데이터 세트에 전송하면 향후 참조 및 분석을 위해 사용자의 이벤트 내역을 유지할 수 있으므로 항상 좋은 방법입니다. 이벤트에 적합한 스키마와 데이터 세트가 없는 경우 Adobe Experience Platform 웹 인터페이스에서 두 작업을 모두 수행할 수 있습니다.
 
 ![](../assets/schema1.png)
 
-다음에 사용될 모든 XDM 스키마 [!DNL Journey Orchestration] 이벤트는 다음 요구 사항을 충족해야 합니다.
+[!DNL Journey Orchestration] 이벤트에 사용할 모든 XDM 스키마는 다음 요구 사항을 충족해야 합니다.
 
 * 스키마는 XDM ExperienceEvent 클래스의 스키마여야 합니다.
 
   ![](../assets/schema2.png)
 
-* 시스템 생성 이벤트의 경우 스키마에 오케스트레이션 eventID mixin이 포함되어야 합니다. [!DNL Journey Orchestration] 이 필드를 사용하여 여정에 사용된 이벤트를 식별합니다.
+* 시스템 생성 이벤트의 경우 스키마에 오케스트레이션 eventID mixin이 포함되어야 합니다. [!DNL Journey Orchestration]은(는) 이 필드를 사용하여 여정에서 사용되는 이벤트를 식별합니다.
 
   ![](../assets/schema3.png)
 
@@ -69,13 +69,13 @@ Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이�
 
 >[!NOTE]
 >
->에서 스키마 관계에 대해 자세히 알아보십시오. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+>[Experience Platform 설명서](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en)에서 스키마 관계에 대해 자세히 알아보세요.
 
 그런 다음 Journey Orchestration에서 연결된 테이블의 모든 필드를 활용할 수 있습니다.
 
-* 단일 이벤트를 구성할 때 [자세히 보기](../event/experience-event-schema.md#unitary_event_configuration)
-* 여정에서 조건을 사용할 때, [자세히 보기](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* 사용자 지정 작업 개인화, [자세히 보기](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* 단일 이벤트를 구성할 때 [자세한 내용](../event/experience-event-schema.md#unitary_event_configuration)
+* 여정에서 조건을 사용할 때 [자세한 내용](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* 사용자 지정 작업 개인화에서 [자세한 내용](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
 ### 단일 이벤트 구성{#unitary_event_configuration}
 
@@ -91,7 +91,7 @@ Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이�
 * 이벤트 키 공식
 * 이벤트 id 조건(규칙 기반 이벤트)
 
-단일 이벤트를 구성하는 방법에 대해 알아보려면 다음을 참조하십시오. [페이지](../event/about-creating.md).
+단일 이벤트를 구성하는 방법에 대해 알아보려면 이 [페이지](../event/about-creating.md)를 참조하세요.
 
 ### 이벤트 컨텍스트를 사용하여 조건 여정{#journey_conditions_using_event_context}
 
@@ -101,7 +101,7 @@ Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이�
 
 ![](../assets/schema12.png)
 
-여정 조건을 정의하는 방법에 대해 알아보려면 다음을 참조하십시오. [페이지](../building-journeys/condition-activity.md).
+여정 조건을 정의하는 방법을 알아보려면 이 [페이지](../building-journeys/condition-activity.md)를 참조하세요.
 
 ### 여정 이벤트 컨텍스트를 사용한 작업 개인화{#custom_action_personalization_with_journey_event_context}
 
@@ -109,5 +109,5 @@ Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이�
 
 ![](../assets/schema13.png)
 
-사용자 지정 작업을 사용하는 방법에 대해 알아보려면 다음을 참조하십시오. [페이지](../building-journeys/using-custom-actions.md).
+사용자 지정 작업을 사용하는 방법에 대해 알아보려면 이 [페이지](../building-journeys/using-custom-actions.md)를 참조하세요.
 

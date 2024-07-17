@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 91%
+source-wordcount: '857'
+ht-degree: 89%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 91%
 >
 >**[!UICONTROL Push]** 및 **[!UICONTROL Email]** 활동은 Adobe Campaign Standard를 보유한 경우에만 팔레트에서 사용할 수 있습니다.
 
-여정 빌드 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey.md).
+여정 빌드 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey.md)를 참조하세요.
 
 ## 첫 단계{#section_ntb_ws1_ffb}
 
@@ -77,7 +77,7 @@ ht-degree: 91%
    >
    >표현식의 두 번째 부분에서 &quot;프로필&quot;은 선택 사항입니다.
 
-1. 네임스페이스를 선택해야 합니다. 스키마 속성을 기반으로 네임스페이스를 미리 선택합니다. 미리 선택된 상태로 둘 수 있습니다. 네임스페이스에 대한 자세한 내용은 [이 페이지](../event/selecting-the-namespace.md).
+1. 네임스페이스를 선택해야 합니다. 스키마 속성을 기반으로 네임스페이스를 미리 선택합니다. 미리 선택된 상태로 둘 수 있습니다. 네임스페이스에 대한 자세한 내용은 [이 페이지](../event/selecting-the-namespace.md)를 참조하세요.
 
 사용 사례에서는 이러한 두 가지 조건에만 대응하려 하므로 **[!UICONTROL Show path for other cases than the one(s) above]** 상자를 선택하지 않습니다 .
 
@@ -88,7 +88,7 @@ ht-degree: 91%
 
 ![](../assets/journeyuc2_16.png)
 
-## 첫 번째 경로: 고객이 충성도 멤버일 경우   {#section_otb_ws1_ffb}
+## 첫 번째 경로: 고객이 충성도 멤버임 {#section_otb_ws1_ffb}
 
 1. 첫 번째 경로에 고객의 예약 여부를 확인하는 조건을 추가해 보겠습니다. 조건 활동을 여정으로 끌어다 놓습니다.
 
@@ -102,7 +102,7 @@ ht-degree: 91%
 
    ![](../assets/journeyuc2_18.png)
 
-1. 외부 데이터 소스에서 필드를 선택하면 화면의 오른쪽 부분에 외부 데이터 소스를 구성할 때 정의된 매개 변수 목록이 표시됩니다( 참조) [이 페이지](../usecase/configuring-the-data-sources.md)). 매개 변수 이름을 클릭하고 다음 예제에서 예약 시스템 키, Experience Cloud ID의 값을 정의합니다.
+1. 외부 데이터 원본에서 필드를 선택하면 화면의 오른쪽 부분에 외부 데이터 원본을 구성할 때 정의된 매개 변수 목록이 표시됩니다([이 페이지](../usecase/configuring-the-data-sources.md) 참조). 매개 변수 이름을 클릭하고 다음 예제에서 예약 시스템 키, Experience Cloud ID의 값을 정의합니다.
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -168,7 +168,7 @@ ht-degree: 91%
 
 1. **[!UICONTROL End]** 활동을 추가합니다.
 
-**[!UICONTROL Test]** 토글을 클릭하고 여정을 테스트합니다. 오류가 있는 경우 테스트 모드를 비활성화하고 여정를 수정한 후 다시 테스트하십시오. 테스트 모드에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../building-journeys/testing-the-journey.md).
+**[!UICONTROL Test]** 토글을 클릭하고 여정을 테스트합니다. 오류가 있는 경우 테스트 모드를 비활성화하고 여정를 수정한 후 다시 테스트하십시오. 테스트 모드에 대한 자세한 내용은 [이 페이지](../building-journeys/testing-the-journey.md)를 참조하세요.
 
 ![](../assets/journeyuc2_32bis.png)
 
