@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 여정 작성 기본 정보
-description: 비즈니스 사용자는 이벤트, 오케스트레이션 및 작업 활동을 통합하여 여정을 구축하는 방법을 살펴봅니다.
+description: 비즈니스 사용자는 이벤트, 오케스트레이션 및 작업 활동을 통합하여 여정을 빌드하는 방법을 살펴봅니다.
 feature: Journeys
 role: User
 level: Intermediate
