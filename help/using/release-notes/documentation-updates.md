@@ -5,8 +5,10 @@ description: 설명서 업데이트에 대해 알아보기
 feature: Journeys
 role: User
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
+source-git-commit: af224593ca69f79c3e4458f26f77b92197ad73a2
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 100%
@@ -83,7 +85,7 @@ ht-degree: 100%
 
 * Adobe Experience Platform에 대한 단계 이벤트 보고 시 새로운 자습서 비디오에 대한 링크를 추가했습니다. [자세히 보기](../building-journeys/sharing-overview.md)
 * 이벤트 활동 섹션은 각 이벤트 유형에 대한 전용 하위 섹션으로 재구성되었습니다. [자세히 보기](../building-journeys/event-activities.md)
-* 세그먼트 자격으로 오버로드를 방지하기 위한 모범 사례를 추가했습니다. [자세히 보기](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* 세그먼트 선별로 오버로드를 방지하기 위한 모범 사례를 추가했습니다. [자세히 보기](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * 작업 또는 조건에 오류가 발생한 후 여정을 계속하는 방법을 설명하는 메모가 추가되었습니다. [자세히 보기](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * 제한된 고객 집합 속에서 테스트한 알파 기능에 대한 새로운 섹션이 추가되었습니다.
 * Intelligent Services 통합에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../ai-services/ai-services-overview.md)
@@ -92,7 +94,7 @@ ht-degree: 100%
 * 캠페인 트랜잭션 메시지 및 이벤트 게시에 대한 메모가 추가되었습니다. [Adobe Campaign 작업](../action/working-with-adobe-campaign.md) 및 [Adobe Campaign 작업 사용](../building-journeys/using-adobe-campaign-actions.md)을 참조하십시오.
 * Campaign Standard 인스턴스 URL을 테스트할 때 수행되는 검사에 대한 정보가 추가되었습니다. [자세히 보기](../action/working-with-adobe-campaign.md)
 * AWS 또는 Azure 서버에서 호스팅되는 Campaign Standard 인스턴스와의 반응 이벤트 호환성에 대한 정보가 추가되었습니다. [자세히 보기](../building-journeys/reaction-events.md)
-* Campaign Standard 트랜잭션 메시징을 작업할 때 최대 가용량 규칙을 설정해야 할 필요성에 대한 메모가 추가되었습니다. [자세히 보기](../action/working-with-adobe-campaign.md)
+* Campaign Standard 트랜잭션 메시징을 작업할 때 상한 설정 규칙을 설정해야 할 필요성에 대한 메모가 추가되었습니다. [자세히 보기](../action/working-with-adobe-campaign.md)
 * 테스트 모드를 사용하여 이벤트를 트리거할 때의 실제 이벤트 생성에 대한 메모가 추가되었습니다. [자세히 보기](../building-journeys/testing-the-journey.md#firing_events)
 
 ## 2020년 6월 {#june-2020}
