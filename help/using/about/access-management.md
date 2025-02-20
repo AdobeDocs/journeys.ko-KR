@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: 액세스 관리
-description: 액세스 관리에 대해 자세히 알아보기
+description: 액세스 관리에 대해 자세히 알아보십시오.
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: cf9bc6db0627eb0dba57e30652bba5ac8783cb55
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 95%
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 [!DNL Journey Orchestration]에서는 사용자에게 권한 집합을 할당함으로써 사용자가 액세스할 수 있는 인터페이스 부분을 정의할 수 있습니다.
 
-권한 집합은 Admin Console에 액세스할 수 있는 관리자가 관리할 수 있습니다. Admin Console에 대한 자세한 내용은 이 [설명서](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html)를 참조하십시오.
+Admin Console에 액세스할 수 있는 관리자가 관리할 수 있습니다. Admin Console에 대한 자세한 내용은 [Enterprise 및 Teams 관리 가이드](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html)를 참조하십시오.
 
 [!DNL Journey Orchestration]에 액세스할 수 있는 사용자의 자격은 다음과 같습니다.
 
@@ -71,7 +71,7 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 
 제품 프로필을 만들고 권한 집합 및 샌드박스를 할당하려면 다음과 같이 하십시오.
 
-1. Admin Console에서 **[!UICONTROL Journey Orchestration]**&#x200B;을 선택합니다. **[!UICONTROL Product profile]** 탭에서 **[!UICONTROL New Profile]**&#x200B;을(를) 클릭합니다.
+1. Admin Console에서 **[!UICONTROL Journey Orchestration]**&#x200B;을(를) 선택합니다. **[!UICONTROL Product profile]** 탭에서 **[!UICONTROL New Profile]**&#x200B;을(를) 클릭합니다.
 
    ![](../assets/do-not-localize/user_management_5.png)
 
