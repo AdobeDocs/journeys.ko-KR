@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '473'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,6 @@ Adobe Experience Platform에 전달된 XDM 필드 목록은 여기에 자세히 
 * [단계 이벤트 필드 목록](../building-journeys/sharing-field-list.md)
 * [이전 단계 이벤트 필드](../building-journeys/sharing-legacy-fields.md)
 
-Adobe Experience Platform에 보고하는 단계 이벤트에 대한 자세한 내용은 이 [튜토리얼 비디오](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)를 시청하십시오.
 
 ## 고객 여정 분석과 통합{#integration-cja}
 

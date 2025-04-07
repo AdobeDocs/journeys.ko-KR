@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: af224593ca69f79c3e4458f26f77b92197ad73a2
-workflow-type: ht
-source-wordcount: '1010'
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
+workflow-type: tm+mt
+source-wordcount: '992'
 ht-degree: 100%
 
 ---
@@ -83,7 +83,6 @@ ht-degree: 100%
 
 ## 2020년 7월 {#july-2020}
 
-* Adobe Experience Platform에 대한 단계 이벤트 보고 시 새로운 자습서 비디오에 대한 링크를 추가했습니다. [자세히 보기](../building-journeys/sharing-overview.md)
 * 이벤트 활동 섹션은 각 이벤트 유형에 대한 전용 하위 섹션으로 재구성되었습니다. [자세히 보기](../building-journeys/event-activities.md)
 * 세그먼트 선별로 오버로드를 방지하기 위한 모범 사례를 추가했습니다. [자세히 보기](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * 작업 또는 조건에 오류가 발생한 후 여정을 계속하는 방법을 설명하는 메모가 추가되었습니다. [자세히 보기](../about/troubleshooting.md#section_h3q_kqk_fhb)

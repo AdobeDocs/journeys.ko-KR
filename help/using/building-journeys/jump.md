@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '777'
 ht-degree: 6%
 
 ---
@@ -23,10 +23,6 @@ ht-degree: 6%
 원본 여정에서 **[!UICONTROL Jump]** 활동을 추가하고 대상 여정을 선택하면 됩니다. 개인이 **[!UICONTROL Jump]** 단계에 들어오면 내부 이벤트가 대상 여정의 첫 번째 이벤트로 전송됩니다. **[!UICONTROL Jump]** 작업이 성공하면 개인은 여정에서 계속 진행됩니다. 이 동작은 다른 동작과 유사합니다.
 
 대상 여정에서 **[!UICONTROL Jump]** 활동에 의해 내부적으로 트리거된 첫 번째 이벤트는 여정에서 개별 흐름을 만듭니다.
-
->[!NOTE]
->
->튜토리얼 비디오 [여기](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html)도 참조하세요.
 
 ## 라이프사이클
 
