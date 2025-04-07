@@ -7,16 +7,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: d9d41f2fbde16237257a95b3b396fcbe5261e390
+source-git-commit: 6a5226ea0f7b5a87f236eeac108737fc69d4f9c8
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '206'
+ht-degree: 78%
 
 ---
 
 # Journey Orchestration 안내서 {#journeys-documentation}
 
 <!--![](using/assets/do-not-localize/bannerjourney.png) -->
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오.
+
 
 ## 시작
 

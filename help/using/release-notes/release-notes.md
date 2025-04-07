@@ -6,14 +6,20 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: bb74c7dc1ebad0a707b830602a8d0b33e8443a5d
+source-git-commit: 6a5226ea0f7b5a87f236eeac108737fc69d4f9c8
 workflow-type: tm+mt
-source-wordcount: '4418'
-ht-degree: 100%
+source-wordcount: '4463'
+ht-degree: 98%
 
 ---
 
 # 릴리스 정보 {#release-notes}
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오.
 
 이 페이지에는 Journey Orchestration의 새로운 기능과 개선 사항이 모두 포함되어 있습니다. Experience Platform의 기능을 확인하려면 다음 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko-KR)를 참조하십시오.
 
@@ -39,7 +45,7 @@ ht-degree: 100%
 
 * **여정 필터링** - 이제 기존의 사전 정의된 날짜 필터 외에도 **사용자 정의 날짜를 사용하여 여정** 인벤토리를 필터링할 수 있습니다. 이렇게 하면 특정 날짜, 특정 달 내, 전체 연도 또는 지정된 시간 범위에 작성되었거나 게시된 여정을 표시하여 목록을 세분화할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=ko#filter)
 * **사용자 정의 작업** - 이제 **content-type** 헤더를 업데이트할 수 있습니다. 이 새로운 **content-type**&#x200B;은 JSON 콘텐츠를 참조해야 합니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=ko#url-configuration)
-* **구성** - stepEvents의 identityMap 속성이 이제 미리 채워져 있습니다. 기본 신원은 “primary = true”로 정의됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html?lang=ko)
+* **구성** - stepEvents의 identityMap 속성이 이제 미리 채워져 있습니다. 기본 ID는 “primary = true”로 정의됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html?lang=ko)
 * **사용자 인터페이스** - 여정 화면의 상단 표시줄이 향상된 경험을 위해 재구성되었습니다. 여러 업데이트 중 여정 속성에 액세스할 수 있는 &#39;연필&#39; 아이콘이 이제 여정 이름 옆의 상단 표시줄 왼쪽에 표시됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=ko#change-properties)
 
 ## 2024년 1월 릴리스 {#jan-rn-2024}
@@ -80,14 +86,14 @@ ht-degree: 100%
 
 ### 개선 사항 {#feb-2023-improvements}
 
-* 여정 속성에 **재입장 대기 시간** 필드가 추가되었습니다. 이 필드에서는 단일 여정(이벤트 또는 세그먼트 검증으로 시작)에서 프로필이 다시 여정에 들어오려면 기다려야 하는 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=ko#entrance)를 참조하십시오.
+* 여정 속성에 **재입장 대기 시간** 필드가 추가되었습니다. 이 필드에서는 단일 여정(이벤트 또는 세그먼트 선별로 시작)에서 프로필이 다시 여정에 들어오려면 기다려야 하는 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=ko#entrance)를 참조하십시오.
 * **여정 시작 및 종료 일자**&#x200B;를 개선했습니다. 이제 시작 일자를 지정하지 않은 경우 게시할 때 자동으로 추가됩니다. 이렇게 하면 해당 일자가 되었을 때 프로필이 자동으로 종료됩니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=ko#dates)를 참조하십시오.
 
 ## 2023년 1월 릴리스 {#jan-2023-release}
 
 ### 개선 사항 {#jan-2023-improvements}
 
-* 이제 여정에 **세그먼트 검증**&#x200B;을 추가할 때 네임스페이스를 기본적으로 미리 채웁니다. 마지막으로 사용한 네임스페이스가 자동으로 미리 입력됩니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=ko#about-segment-qualification)를 참조하십시오.
+* 이제 여정에 **세그먼트 선별**&#x200B;을 추가할 때 네임스페이스를 기본적으로 미리 채웁니다. 마지막으로 사용한 네임스페이스가 자동으로 미리 입력됩니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=ko#about-segment-qualification)를 참조하십시오.
 * 여정 캔버스에서 도구 모음의 새 버튼을 통해 여정의 스크린샷을 다운로드할 수 있습니다.
 
 ## 2022년 9월 릴리스{#sept-2022-release}
@@ -114,11 +120,11 @@ ht-degree: 100%
 
 ### 개선 사항{#sept-2022-improvements}
 
-* 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하기 위해 단일 여정(이벤트 또는 세그먼트 자격 조건 시작)에 새로운 보호 기능이 추가되었습니다. 프로필 재입장은 이제 기본 5분 동안 일시적으로 차단됩니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=kol#events-g)를 참조하십시오.
+* 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하기 위해 단일 여정(이벤트 또는 세그먼트 선별 시작)에 새로운 보호 기능이 추가되었습니다. 프로필 재입장은 이제 기본 5분 동안 일시적으로 차단됩니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=kol#events-g)를 참조하십시오.
 
 ### 기타 변경 사항{#sept-2022-other}
 
-* 성능을 향상시키기 위해 [세그먼트 자격 조건] 활동으로 시작하는 여정에서는 더 이상 [경험 이벤트] 필드 그룹을 사용할 수 없습니다. 이 변경 사항은 새로운 여정에만 적용됩니다. 기존 동작은 현재 동작을 유지합니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko#expression-editor)를 참조하십시오.
+* 성능을 향상시키기 위해 [세그먼트 선별] 활동으로 시작하는 여정에서는 더 이상 [경험 이벤트] 필드 그룹을 사용할 수 없습니다. 이 변경 사항은 새로운 여정에만 적용됩니다. 기존 동작은 현재 동작을 유지합니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko#expression-editor)를 참조하십시오.
 
 ### 개선 사항
 
@@ -150,7 +156,7 @@ ht-degree: 100%
 ### 개선 사항
 
 * 이제 Journey Orchestration 단계 이벤트를 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko)의 다른 데이터 세트에 연결할 수 있습니다. 기본 제공 여정 단계 이벤트 스키마의 **profileID** 필드가 이제 ID 필드로 정의됩니다. [자세히 알아보기](../building-journeys/sharing-overview.md#integration-cja)
-* Adobe Campaign Standard 작업에 대한 최대 가용량 규칙이 5분당 호출 4,000건으로 변경되었습니다. [자세히 보기](../action/working-with-adobe-campaign.md)
+* Adobe Campaign Standard 작업에 대한 상한 설정 규칙이 5분당 호출 4,000건으로 변경되었습니다. [자세히 보기](../action/working-with-adobe-campaign.md)
 
 ## 2021년 10월 릴리스 {#october-2021-release}
 
@@ -241,7 +247,7 @@ ht-degree: 100%
 
 ### 개선 사항
 
-* 이제 외부 데이터 소스의 경우 초당 최대 15회 호출할 수 있는 가용량 규칙이 자동으로 정의됩니다. [자세히 보기](../about/external-systems.md#capping)
+* 이제 외부 데이터 소스의 경우 초당 최대 15회 호출할 수 있는 상한 설정 규칙이 자동으로 정의됩니다. [자세히 보기](../about/external-systems.md#capping)
 * 이제 단순 및 고급 표현식 편집기에서 XDM 날짜 형식을 지원합니다.
 * 여정 목록 화면에 새로운 필터를 추가했습니다. 이제 **[!UICONTROL Unitary event]** 또는 **[!UICONTROL Segment qualification]** 여정 유형별로 필터링할 수 있습니다. [자세히 보기](../about/user-interface.md#section_lgm_hpz_pgb)
 * 이제 실시간 여정의 여정 속성 화면에 게시 날짜와 여정을 게시한 사용자의 이름이 표시됩니다. 이 정보는 여정의 기술 세부 사항을 복사할 때도 사용할 수 있습니다. [자세히 보기](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
@@ -294,7 +300,7 @@ ht-degree: 100%
 
 두 개의 새 여정 속성 특성(sandboxName 및 organizationId)이 추가되었습니다. [자세히 보기](../expression/journey-properties.md)
 
-Adobe Campaign Standard SLA에 맞추기 위해 이제 Adobe Campaign Standard 통합이 설정되는 즉시 Adobe Campaign Standard 작업에 대해 초당 13개의 호출 제한 규칙이 자동으로 정의됩니다. [자세히 보기](../action/working-with-adobe-campaign.md)
+Adobe Campaign Standard SLA에 맞추기 위해 이제 Adobe Campaign Standard 통합이 설정되는 즉시 Adobe Campaign Standard 작업에 대해 초당 13개의 호출 상한 설정 규칙이 자동으로 정의됩니다. [자세히 보기](../action/working-with-adobe-campaign.md)
 
 이제 이벤트 시간 제한 기간이 시간 제한 경로에 더 명확하게 지정됩니다. [자세히 보기](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
@@ -360,7 +366,7 @@ Adobe Campaign Standard SLA에 맞추기 위해 이제 Adobe Campaign Standard �
 
 여정의 새 버전을 만들 때 제한 사항을 추가했습니다. 이러한 제한 사항은 여정에서 너무 많은 변경 사항을 방지하여 버전 간에 일관성을 유지합니다. [자세히 보기](../about/limitations.md#journey-versions-limitations)
 
-Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세그먼트 자격** 활동을 사용할 수 없습니다. 이러한 제한은 Adobe Campaign Standard 인스턴스의 무결성을 보호합니다. 실제로, 세그먼트 자격 사용은 Campaign Standard 트랜잭션 메시지를 오버로드하게 하는 메시지를 매일 가장 많이 보낼 수 있습니다. [자세히 보기](../about/limitations.md#segment-qualification)
+Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세그먼트 선별** 활동을 사용할 수 없습니다. 이러한 제한은 Adobe Campaign Standard 인스턴스의 무결성을 보호합니다. 실제로, 세그먼트 선별 사용은 Campaign Standard 트랜잭션 메시지를 오버로드하게 하는 일일 메시지 전송 피크를 초래할 수 있습니다. [자세히 보기](../about/limitations.md#segment-qualification)
 
 ## 2020년 10월 릴리스 {#october-release}
 
@@ -434,7 +440,7 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 
 ### GA 업데이트{#august-ga-update}
 
-이제 세그먼트 자격 이벤트의 페이로드에는 동작(시작, 종료), 자격 타임스탬프 및 세그먼트 ID와 같은 컨텍스트 정보가 포함되어 있으며 조건 및 작업에 사용할 수 있습니다. [자세히 보기](../building-journeys/segment-qualification-events.md)
+이제 세그먼트 선별 이벤트의 페이로드에는 동작(시작, 종료), 선별 타임스탬프 및 세그먼트 ID와 같은 컨텍스트 정보가 포함되어 있으며 조건 및 작업에 사용할 수 있습니다. [자세히 보기](../building-journeys/segment-qualification-events.md)
 
 ### 알파 업데이트{#august-alpha-update}
 
@@ -452,7 +458,7 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 <ul>
 <li><p>활동의 이름이 "세그먼트 읽기"로 변경되었습니다. </p>
 </li>
-<li><p>여정 스케줄러 구성이 활동의 속성에서 제거되었습니다. 이제 세그먼트 읽기 활동이 캔버스에 드롭된 경우 표시되는 전용 섹션의 여정의 속성에서 직접 액세스할 수 있습니다. </p>
+<li><p>활동 속성에서 여정 스케줄러 구성이 제거되었습니다. 이제 세그먼트 읽기 활동이 캔버스에 드롭된 경우 표시되는 전용 섹션의 여정의 속성에서 직접 액세스할 수 있습니다. </p>
 </li>
 <li><p>이제 단일 프로필에서 여정을 테스트하고 시각적인 흐름을 사용하여 여정의 진행 상황을 추적할 수 있습니다.</p>
 </li>
@@ -604,7 +610,7 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 
 **기타 개선 사항**
 
-서드파티 시스템에 너무 많은 API 호출을 보내지 않도록 &quot;최대 가용량&quot; 규칙을 설정하는 새로운 공개 API를 채택하고 있습니다. 최대 가용량 규칙을 사용하면 API 엔드포인트에 대한 밀리초당 최대 호출 수를 정의할 수 있습니다. [자세히 보기](../api/capping.md)
+서드파티 시스템에 너무 많은 API 호출을 보내지 않도록 &quot;상한 설정&quot; 규칙을 설정하는 새로운 공개 API를 채택하고 있습니다. 상한 설정 규칙을 사용하면 API 엔드포인트에 대한 밀리초당 최대 호출 수를 정의할 수 있습니다. [자세히 보기](../api/capping.md)
 
 이제 액세스 제어를 통해 사용자 액세스를 더 세부적으로 관리할 수 있습니다. 발효 날짜: 2020년 6월 30일. [자세히 보기](../about/access-management.md#create-product-profile)
 
