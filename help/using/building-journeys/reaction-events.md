@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '451'
 ht-degree: 2%
 
 ---
 
 # 반응 이벤트 {#section_dhx_gss_dgb}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+
+
 
 팔레트에서 사용할 수 있는 여러 이벤트 활동 중에서 기본 제공 **[!UICONTROL Reactions]** 이벤트를 찾을 수 있습니다. 이 활동을 사용하면 동일한 여정 내에서 이메일, SMS 또는 푸시 활동으로 보낸 메시지와 관련된 추적 데이터에 반응할 수 있습니다. 이 정보는 Adobe Campaign Standard의 트랜잭션 메시지에서 가져온 것입니다. Adobe Experience Platform과 공유되는 즉시 이 정보를 실시간으로 캡처합니다. 푸시 알림의 경우 클릭, 전송 또는 실패한 메시지에 반응할 수 있습니다. SMS 메시지의 경우, 전송 또는 실패한 메시지에 반응할 수 있습니다. 이메일의 경우 클릭, 전송, 열림 또는 실패한 메시지에 반응할 수 있습니다.
 

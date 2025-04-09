@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '598'
 ht-degree: 2%
 
 ---
 
 # 속성 변경 {#concept_prq_wqt_52b}
+
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+
 
 오른쪽 상단의 연필 아이콘을 클릭하여 여정 속성에 액세스합니다.
 
@@ -27,7 +37,7 @@ ht-degree: 2%
 
 ## Entrance{#entrance}
 
-기본적으로 새 여정에서는 재진입이 허용됩니다. 예를 들어 한 사람이 상점에 들어갈 때 일회성 선물을 제공하려는 경우 &quot;한 방&quot; 여정에 대한 옵션을 선택 취소할 수 있습니다. 이 경우 고객이 여정에 다시 입장하여 오퍼를 다시 받을 수 없도록 해야 합니다.
+기본적으로 새 여정은 재진입을 허용합니다. 예를 들어 한 사람이 상점에 들어갈 때 일회성 선물을 제공하려는 경우 &quot;한 방&quot; 여정에 대한 옵션을 선택 취소할 수 있습니다. 이 경우 고객이 여정에 다시 입장하여 오퍼를 다시 받을 수 없도록 해야 합니다.
 
 여정이 &quot;종료&quot;되면 **[!UICONTROL Closed (no entrance)]** 상태가 됩니다. 여정은 새로운 개인이 여정에 들어오도록 하는 것을 중단합니다. 이미 여정에 있는 사람은 여정을 정상적으로 완료합니다.
 

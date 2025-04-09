@@ -7,20 +7,29 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
-source-git-commit: 87d5cf223d9adec27eabcb55f2e09aa6d40b23a6
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 87%
+source-wordcount: '836'
+ht-degree: 83%
 
 ---
 
 # 여정 API 사용 시작
 
-## Capping 및 Throttling API 정보
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+
+
+## 상한 설정 및 Throttling API 정보
 
 데이터 소스나 작업을 구성할 때는 여정에서 사용할 추가 정보를 검색하거나 메시지 또는 API 호출을 보내기 위해 특정 시스템에 대한 연결을 설정하게 됩니다.
 
-여정 API는 이벤트를 초당 최대 5,000개까지 지원하지만, 일부 외부 시스템이나 API의 처리량은 이 수준이 아닐 수 있습니다. 이런 시스템의 과부하를 방지하기 위해 **Capping** 및 **Throttling** API로 초당 보낼 이벤트의 수를 제한할 수 있습니다.
+여정 API는 이벤트를 초당 최대 5,000개까지 지원하지만, 일부 외부 시스템이나 API의 처리량은 이 수준이 아닐 수 있습니다. 이런 시스템의 과부하를 방지하기 위해 **상한 설정** 및 **스로틀링** API로 초당 보낼 이벤트의 수를 제한할 수 있습니다.
 
 여정이 API를 호출할 때마다 호출은 API 엔진을 통과합니다. 이때 API에서 설정한 제한에 도달한 경우 API 엔진은 호출을 거부하거나(Capping API를 사용하는 경우), 호출을 최대 6시간까지 큐에 보관했다가 최대한 빨리 수신한 순서대로 처리합니다(Throttling API를 사용하는 경우).
 
@@ -28,7 +37,7 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->**한도 설정 규칙**&#x200B;은 샌드박스 수준에서 특정 엔드포인트(호출 대상 URL)에 대해 구성되지만 해당 샌드박스의 모든 여정에 적용됩니다.
+>**상한 설정 규칙**&#x200B;은 샌드박스 수준에서 특정 엔드포인트(호출 대상 URL)에 대해 구성되지만 해당 샌드박스의 모든 여정에 적용됩니다.
 >
 >**스로틀링 규칙**&#x200B;은 프로덕션 샌드박스에서만 특정 엔드포인트에 대해 구성되지만 모든 샌드박스의 모든 여정에 적용됩니다. 스로틀링 구성은 한 조직에 하나씩만 가질 수 있습니다.
 
@@ -47,7 +56,7 @@ ht-degree: 87%
 >
 >데이터 소스에서 해당 데이터 소스에 사용한 것과 다른 엔드포인트를 사용하는 사용자 정의 인증을 사용하는 경우에는 Adobe 문의를 통해 해당 엔드포인트도 허용 목록에 추가해야 합니다.
 
-**사용자 정의 작업**&#x200B;을 구성할 때는 외부 API의 용량을 예상해야 합니다. 예를 들어 Journey Optimizer가 초당 1000개의 호출을 보내는데 시스템은 초당 100개의 호출만 지원할 수 있는 경우 시스템이 포화되지 않도록 한도 설정이나 스로틀링 구성을 정의해야 합니다. [작업을 구성하는 방법 알아보기](../action/action.md)
+**사용자 정의 작업**&#x200B;을 구성할 때는 외부 API의 용량을 예상해야 합니다. 예를 들어 Journey Optimizer가 초당 1000개의 호출을 보내는데 시스템은 초당 100개의 호출만 지원할 수 있는 경우 시스템이 포화되지 않도록 상한 설정이나 스로틀링 구성을 정의해야 합니다. [작업을 구성하는 방법 알아보기](../action/action.md)
 
 ## API 액세스 설정 {#api}
 
@@ -62,10 +71,10 @@ ht-degree: 87%
 
 >[!CAUTION]
 >
->액세스 토큰을 생성하기 위한 JWT 메서드가 더 이상 사용되지 않습니다. 모든 새 통합은 [OAuth 서버 간 인증 방법](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server)을 사용하여 만들어야 합니다. 또한 Adobe은 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다.
+>액세스 토큰을 생성하기 위한 JWT 메서드가 더 이상 사용되지 않습니다. 모든 새 통합은 [OAuth 서버 간 인증 방법](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server)을 사용하여 만들어야 합니다. Adobe은 또한 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다.
 >
 >다음 중요 설명서를 참조하십시오.
->[JWT에서 OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)(으)로 애플리케이션에 대한 마이그레이션 안내서,
+>[JWT에서 OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)&#x200B;(으)로 애플리케이션에 대한 마이그레이션 안내서,
 >[OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)을(를) 사용하는 새 응용 프로그램과 이전 응용 프로그램에 대한 구현 안내서,
 >[OAuth 서버 간 자격 증명 메서드 ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)을(를) 사용할 때의 이점
 

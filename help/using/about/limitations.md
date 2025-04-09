@@ -1,19 +1,29 @@
 ---
 product: adobe campaign
 title: Journey Orchestration 제한 사항
-description: Journey Orchestration 제한에 대해 자세히 알아보기
+description: Journey Orchestration 제한 사항에 대해 자세히 알아보기
 feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
-source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 45%
+source-wordcount: '609'
+ht-degree: 42%
 
 ---
 
 # 제한 사항 {#limitations}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+
+
 
 다음은 Journey Orchestration 사용과 관련된 제한 사항입니다.
 
@@ -29,12 +39,12 @@ ht-degree: 45%
 
 ## 여정 버전 제한 사항 {#journey-versions-limitations}
 
-* v1의 이벤트 활동으로 시작하는 여정은 이후 버전의 이벤트 이외의 다른 것으로 시작할 수 없습니다. **세그먼트 자격** 이벤트로 여정을 시작할 수 없습니다.
-* v1에서 **세그먼트 자격** 활동으로 시작하는 여정은 이후 버전에서 항상 **세그먼트 자격**&#x200B;으로 시작해야 합니다.
+* v1의 이벤트 활동으로 시작하는 여정은 이후 버전의 이벤트 이외의 다른 것으로 시작할 수 없습니다. **세그먼트 선별** 이벤트로 여정을 시작할 수 없습니다.
+* v1에서 **세그먼트 선별** 활동으로 시작하는 여정은 이후 버전에서 항상 **세그먼트 선별**&#x200B;로 시작해야 합니다.
 * **세그먼트 자격**(첫 번째 노드)에서 선택한 세그먼트 및 네임스페이스는 새 버전에서 변경할 수 없습니다.
 * 재입력 규칙은 모든 여정 버전에서 동일해야 합니다.
 
-## 세그먼트 자격 조건 {#segment-qualification}
+## 세그먼트 선별 {#segment-qualification}
 
 * 처리량 제한으로 인해 **세그먼트 자격** 활동을 Adobe Campaign Standard 트랜잭션 메시지와 함께 사용할 수 없습니다. [Adobe Campaign Standard 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html)을 참조하세요. 
  
@@ -44,7 +54,7 @@ ht-degree: 45%
 * POST 및 PUT 호출 메서드만 지원됩니다. 
 * 쿼리 매개 변수 또는 헤더의 이름은 “.” 또는 &quot;$&quot;입니다. 
 * IP 주소는 허용되지 않습니다. 
-* 내부 Adobe 주소(.adobe.)를 허용되지 않습니다.
+* 내부 Adobe 주소(.adobe.)는 허용되지 않습니다.
  
 ## Adobe Campaign 작업 제한 사항
 
@@ -52,7 +62,7 @@ ht-degree: 45%
  
 ## 이벤트 제한 사항
 
-* 시스템 생성 이벤트의 경우 고유한 오케스트레이션 ID를 얻으려면 먼저 고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 Journey Orchestration 내에 구성해야 합니다. 이 오케스트레이션 ID는 Adobe Experience Platform으로 들어오는 스트리밍 페이로드에 추가되어야 합니다. 이 제한은 규칙 기반 이벤트에는 적용되지 않습니다.
+* 시스템 생성 이벤트의 경우 고유한 오케스트레이션 ID를 얻으려면 먼저 고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 Journey Orchestration 내에서 구성해야 합니다. 이 오케스트레이션 ID는 Adobe Experience Platform으로 들어오는 스트리밍 페이로드에 추가되어야 합니다. 이 제한은 규칙 기반 이벤트에는 적용되지 않습니다.
  
 ## 데이터 소스 제한 사항
 

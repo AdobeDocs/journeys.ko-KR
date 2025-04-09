@@ -6,14 +6,23 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '631'
 ht-degree: 3%
 
 ---
 
 # 여정 속성 속성 {#journey-properties}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+
 
 고급 표현식 편집기에서 이벤트 및 데이터 소스 범주 아래에 **여정 속성** 범주가 있습니다. 이 카테고리에는 지정된 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 이는 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정에서 시스템이 검색한 정보입니다.
 
@@ -53,7 +62,7 @@ ht-degree: 3%
 | | externalKey | 외부 키 | 여정을 트리거하는 개별 식별자 |
 | | organizationId | 조직 식별자 | 브랜드 조직 |
 | | sandboxName | 샌드박스 이름 | 샌드박스 이름 |
-| 신원 | profileId | 프로필 ID 식별자 | 여정 내 프로필 식별자 |
+| ID | profileId | 프로필 ID 식별자 | 여정 내 프로필 식별자 |
 | | 네임스페이스 | 프로필 ID 네임스페이스 | 여정 내 프로필의 네임스페이스(예: ECID) |
 | 현재 노드 | currentNodeId | 현재 노드 식별자 | 현재 활동의 식별자(노드) |
 | | currentNodeName | 현재 노드 이름 | 현재 활동의 이름(노드) |

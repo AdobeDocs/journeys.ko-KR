@@ -4,14 +4,23 @@ solution: Journey Orchestration
 title: Campaign v7/v8을 사용하여 메시지 보내기
 description: Campaign v7/v8을 사용하여 메시지 보내기
 exl-id: 717a927a-4357-4058-a626-1b69f4bb46bc
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 6%
+source-wordcount: '439'
+ht-degree: 5%
 
 ---
 
 # Campaign v7/v8을 사용하여 메시지 보내기 {#campaign-classic-use-case}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+
 
 이 사용 사례에서는 Adobe Campaign Classic v7 및 Adobe Campaign v8과의 통합을 사용하여 이메일을 보내는 데 필요한 모든 단계를 설명합니다.
 
@@ -42,7 +51,7 @@ Campaign 통합에 대한 자세한 내용은 다음 페이지를 참조하십�
 
    ![](../assets/accintegration-uc-3.png)
 
-1. 트랜잭션 템플릿을 Publish 합니다.
+1. 트랜잭션 템플릿을 게시합니다.
 
    ![](../assets/accintegration-uc-4.png)
 

@@ -6,21 +6,31 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 90%
 
 ---
 
 # 일반 원칙 {#concept_gfj_fqt_52b}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+
+
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="이벤트 정보"
 >abstract="특정 사용자에게 연결되는 이벤트는 한 사람의 행동 또는 한 사람과 연관되어 일어나는 일에 관한 것입니다. [!DNL Journey Orchestration]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다."
 
-특정 사용자에게 연결되는 이벤트는 해당 사용자의 제품 구매, 상점 방문, 웹 사이트 종료와 같은 행동과 관련된 항목일 수도 있고 해당 사용자와 관련하여 발생하는 상황일 수도 있습니다. 사용자가 충성도 점수 10,000점을 달성하는 등의 경우를 예로 들 수 있습니다. [!DNL Journey Orchestration]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다.
+특정 사용자에게 연결되는 이벤트는 이는 사람의 행동(예: 제품 구매, 매장 방문, 웹 사이트 종료 등) 또는 사람과 관련된 일(예: 로열티 포인트 10,000점 도달)과 관련이 있습니다. [!DNL Journey Orchestration]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다.
 
 [!DNL Journey Orchestration]은 이벤트를 수신하도록 설계되어 있으므로 이 구성은 **필수** 작업이며, 항상 **기술 사용자**&#x200B;가 수행해야 합니다.
 
@@ -34,7 +44,7 @@ ht-degree: 100%
 
   >[!CAUTION]
   >
-  >최대 가용량 규칙은 규칙 기반 이벤트에 대해 정의됩니다. 여정이 주어진 조직(ORG)에 대해 처리할 수 있는 적격한 이벤트 수를 초당 5000개로 제한합니다. Journey Orchestration SLA에 해당합니다. 이 [페이지](https://helpx.adobe.com/kr/legal/product-descriptions/journey-orchestration.html)를 참조하십시오.
+  >상한 설정 규칙은 규칙 기반 이벤트에 대해 정의됩니다. 여정이 주어진 조직(ORG)에 대해 처리할 수 있는 적격한 이벤트 수를 초당 5000개로 제한합니다. Journey Orchestration SLA에 해당합니다. 이 [페이지](https://helpx.adobe.com/kr/legal/product-descriptions/journey-orchestration.html)를 참조하십시오.
 
 * **시스템 생성** 이벤트: 이러한 이벤트에는 eventID가 필요합니다. 이 eventID 필드는 이벤트를 만들 때 자동으로 생성됩니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 전달해야 합니다.
 

@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '456'
 ht-degree: 2%
 
 ---
 
 # 고급 사용 사례 정보{#concept_vzy_ncy_w2b}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+
 
 ## 용도 {#purpose}
 
@@ -52,8 +61,8 @@ ht-degree: 2%
 
 Adobe Campaign Standard은 이메일 및 푸시 알림을 보내도록 구성되어 있습니다.
 
-Experience Cloud ID는 호텔 예약 시스템에서 고객을 식별하기 위한 키로 사용된다.
+Experience Cloud ID는 호텔 예약 시스템에서 고객을 식별하는 키로 사용됩니다.
 
-이벤트가 비콘 근처에서 감지되면 고객의 휴대폰에서 전송됩니다. 고객의 휴대폰에서 Mobile SDK로 이벤트를 전송할 모바일 애플리케이션을 디자인해야 합니다.
+이벤트가 비콘 근처에서 감지되면 고객의 휴대폰에서 전송됩니다. 고객의 휴대폰에서 Mobile SDK으로 이벤트를 전송할 모바일 애플리케이션을 디자인해야 합니다.
 
 충성도 멤버 필드는 사용자 지정 필드이며 특정 조직 ID에 대한 XDM에 추가되었습니다.

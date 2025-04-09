@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: 545352efdcda80cb9940010c4587a20f53326085
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '345'
 ht-degree: 2%
 
 ---
 
 # Adobe Campaign Standard 작업 {#using_adobe_campaign_standard}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+
 
 Adobe Campaign Standard의 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.
 
@@ -45,7 +54,7 @@ Journey Orchestration에서 사용하려면 Campaign Standard 트랜잭션 메�
    >
    >URL은 https로 시작합니다.
    >
-   >이 Adobe Campaign Standard 인스턴스와 연결된 조직이 Journey Orchestration 조직과 동일합니다.
+   >이 Adobe Campaign Standard의 인스턴스와 연결된 조직이 Journey Orchestration 조직과 동일합니다.
 
 여정을 디자인할 때 **[!UICONTROL Action]** 범주에서 다음 세 가지 작업을 사용할 수 있습니다. **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]**([Adobe Campaign 작업 사용](../building-journeys/using-adobe-campaign-actions.md) 참조). **반응 이벤트**&#x200B;를 사용하면 메시지 클릭, 열기 등에 반응할 수도 있습니다. ([반응 이벤트](../building-journeys/reaction-events.md) 참조).
 

@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 13%
+source-wordcount: '391'
+ht-degree: 11%
 
 ---
 
 # Adobe Experience Platform 데이터 소스 {#concept_zrb_nqt_52b}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+
 
 Adobe Experience Platform 데이터 소스는 실시간 고객 프로필 서비스에 대한 연결을 정의합니다. 이 데이터 소스는 내장되어 있으며 사전 구성되어 있습니다. 삭제할 수 없습니다. 이 데이터 소스는 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 설계되었습니다(예: 여정에 입력한 사람이 여성인지 확인). 프로필 데이터 및 경험 이벤트 데이터를 사용할 수 있습니다. 실시간 고객 프로필 서비스에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko)를 참조하세요.
 
@@ -37,7 +46,7 @@ Adobe Experience Platform 데이터 소스는 실시간 고객 프로필 서비�
 
    ![](../assets/journey24.png)
 
-1. **[!UICONTROL Schema]** 드롭다운에서 스키마를 선택합니다. 이 필드에는 Adobe Experience Platform에서 사용할 수 있는 프로필 및 경험 이벤트 스키마가 나열됩니다. [!DNL Journey Orchestration]에서 스키마 만들기가 수행되지 않았습니다. Adobe Experience Platform에서 수행됩니다.
+1. **[!UICONTROL Schema]** 드롭다운에서 스키마를 선택합니다. 이 필드에는 Adobe Experience Platform에서 사용할 수 있는 프로필 및 경험 이벤트 스키마가 나열됩니다. [!DNL Journey Orchestration]에서 스키마 만들기가 수행되지 않았습니다. Adobe Experience Platform에서 공연됩니다.
 1. 사용할 필드를 선택합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 

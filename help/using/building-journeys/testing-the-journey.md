@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1619'
 ht-degree: 4%
 
 ---
 
 # 여정 테스트{#testing_the_journey}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+
 
 여정을 테스트하기 전에 오류가 있는 경우 모두 해결해야 합니다. [이 섹션](../about/troubleshooting.md#section_h3q_kqk_fhb)을 참조하십시오.
 
@@ -23,13 +32,13 @@ ht-degree: 4%
 
 테스트 모드를 사용하려면 다음 단계를 수행하십시오.
 
-1. 여정을 테스트하기 전에 유효하고 오류가 없는지 확인합니다. 오류가 있는 여정의 테스트를 시작할 수 없습니다. [이 섹션](../about/troubleshooting.md#section_h3q_kqk_fhb)을 참조하세요. 오류가 있으면 경고 기호가 표시됩니다.
+1. 여정을 테스트하기 전에 유효하고 오류가 없는지 확인합니다. 오류가 있는 여정의 테스트를 시작할 수 없습니다. [이 섹션](../about/troubleshooting.md#section_h3q_kqk_fhb)을 참조하세요. 오류가 있는 경우 경고 기호가 표시됩니다.
 
-1. 테스트 모드를 활성화하려면 오른쪽 상단 모서리에 있는 **[!UICONTROL Test]** 토글을 클릭합니다.
+1. 테스트 모드를 활성화하려면 오른쪽 상단 모서리에 있는 토글을 클릭합니다 **[!UICONTROL Test]** .
 
    ![](../assets/journeytest1.png)
 
-1. 왼쪽 아래 모서리에서 **[!UICONTROL Wait time]** 매개 변수를 사용하여 테스트 모드에서 각 대기 활동 및 이벤트 시간 제한이 지속되는 시간을 정의합니다. 대기 및 이벤트 시간 초과에 대한 기본 시간은 10초입니다. 이렇게 하면 테스트 결과를 빠르게 얻을 수 있습니다. 이 매개 변수는 여정에서 대기 활동을 하나 이상 삭제한 경우에만 나타납니다.
+1. **[!UICONTROL Wait time]** 왼쪽 아래 모서리에 있는 매개 변수를 사용하여 각 대기 활동 및 이벤트 시간 제한이 테스트 모드에서 지속되는 시간을 정의합니다. 대기 및 이벤트 시간 제한의 경우 기본 시간은 10초입니다. 이렇게 하면 테스트 결과를 빠르게 얻을 수 있습니다. 이 매개 변수는 여정에서 대기 활동을 하나 이상 삭제한 경우에만 나타납니다.
 
    ![](../assets/journeytest_wait.png)
 
@@ -67,11 +76,11 @@ ht-degree: 4%
 
 기존 프로필을 테스트 프로필로 만들 수 있습니다. Adobe Experience Platform에서는 API 호출을 통해 프로필 속성을 업데이트할 수 있지만 인터페이스를 통해 수행할 수는 없습니다.
 
-이렇게 하는 가장 쉬운 방법은 **프로필 업데이트** 작업 활동을 사용하고 테스트 프로필 부울 필드를 false에서 true로 변경하는 것입니다. [이 섹션](../building-journeys/update-profiles.md#using-the-test-mode)을 참조하십시오.
+이 작업을 수행하는 가장 쉬운 방법은 프로필&#x200B;**업데이트 작업 활동을 사용하고**&#x200B;테스트 프로필 부울 필드를 false에서 true로 변경하는 것입니다. [이 섹션](../building-journeys/update-profiles.md#using-the-test-mode)을 참조하십시오.
 
 ## 테스트 프로필 만들기{#create-test-profile}
 
-새 테스트 프로필을 만들려는 경우 절차는 Adobe Experience Platform에서 프로필을 만들 때와 동일합니다. API 호출을 통해 수행됩니다. 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko) 보기
+새 테스트 프로필을 만들려는 경우 절차는 Adobe Experience Platform 에서 프로필을 만들 때와 동일합니다. API 호출을 통해 수행됩니다. 이 [페이지 참조](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko)
 
 &quot;프로필 테스트 세부 사항&quot; mixin이 포함된 프로필 스키마를 사용해야 합니다. testProfile 플래그는 이 mixin의 일부입니다.
 
@@ -135,13 +144,13 @@ curl -X POST \
 
 >[!NOTE]
 >
->열거형을 예상하는 필드에 드롭다운이 표시됩니다. 사용 가능한 값 중 하나를 선택하면 됩니다.
+>열거형을 예상하는 필드에 드롭다운이 표시됩니다. 사용 가능한 값 중 하나를 선택하기만 하면 됩니다.
 
-여정에 여러 이벤트가 포함된 경우 드롭다운 목록을 사용하여 이벤트를 선택합니다. 그런 다음 각 이벤트에 대해 전달된 필드와 이벤트 전송 실행을 구성합니다. 인터페이스는 이벤트 페이로드에 올바른 정보를 전달하고 정보 유형이 올바른지 확인하는 데 도움이 됩니다. 테스트 모드는 나중에 사용할 수 있도록 테스트 세션에 사용된 마지막 매개 변수를 저장합니다.
+여정에 여러 이벤트가 포함된 경우 드롭다운 목록을 사용하여 이벤트를 선택합니다. 그런 다음 각 이벤트에 대해 전달된 필드와 이벤트 전송 실행을 구성합니다. 이 인터페이스는 이벤트 페이로드에 올바른 정보를 전달하고 정보 유형이 올바른지 확인하는 데 도움이 됩니다. 테스트 모드는 나중에 사용할 수 있도록 테스트 세션에서 사용된 마지막 매개 변수를 저장합니다.
 
 ![](../assets/journeytest4.png)
 
-인터페이스를 사용하면 간단한 이벤트 매개 변수를 전달할 수 있습니다. 이벤트에서 컬렉션이나 기타 고급 개체를 전달하려면 **[!UICONTROL Code View]**&#x200B;을(를) 클릭하여 페이로드의 전체 코드를 확인하고 수정할 수 있습니다. 예를 들어 기술 사용자가 준비한 이벤트 정보를 복사하여 붙여넣을 수 있습니다.
+이 인터페이스를 사용하면 간단한 이벤트 매개 변수를 전달할 수 있습니다. 이벤트에서 컬렉션 또는 기타 고급 개체를 전달하려는 경우 를 **[!UICONTROL Code View]** 클릭하여 페이로드의 전체 코드를 보고 수정할 수 있습니다. 예를 들어 기술 사용자 담당자가 준비한 이벤트 정보를 복사하여 붙여 넣을 수 있습니다.
 
 ![](../assets/journeytest5.png)
 
@@ -153,7 +162,7 @@ curl -X POST \
 
 이벤트 구성 화면에서 다른 테스트 프로필을 선택하고 테스트를 다시 실행하면 시각적 흐름이 지워지고 새 개인의 경로가 표시됩니다.
 
-테스트에서 여정을 열 때 표시되는 경로가 마지막으로 실행된 테스트에 해당합니다.
+테스트에서 여정을 열 때 표시된 경로는 마지막으로 실행된 테스트에 해당합니다.
 
 시각적 흐름은 이벤트가 인터페이스를 통해 트리거되는지 또는 외부에서 트리거되는지(예: Postman 사용) 작동합니다.
 
@@ -165,11 +174,11 @@ curl -X POST \
 
 ![](../assets/alpha-event8.png)
 
-테스트 모드 사용 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/testing-the-journey.md)를 참조하세요.
+테스트 모드 사용 방법에 대한 자세한 내용은 이 페이지 페이지를](../building-journeys/testing-the-journey.md) 참조하십시오[.
 
 ## 로그 보기 {#viewing_logs}
 
-**[!UICONTROL Show log]** 단추를 사용하면 테스트 결과를 볼 수 있습니다. 이 페이지에는 여정의 현재 정보가 JSON 형식으로 표시됩니다. 버튼을 사용하면 전체 노드를 복사할 수 있습니다. 여정의 테스트 결과를 업데이트하려면 페이지를 수동으로 새로 고쳐야 합니다.
+버튼 을 **[!UICONTROL Show log]** 사용하여 테스트 결과를 볼 수 있습니다. 이 페이지에는 여정의 현재 정보가 JSON 포맷 형식으로 표시됩니다. 버튼을 사용하면 전체 노드를 복사할 수 있습니다. 여정의 테스트 결과를 업데이트하려면 페이지 수를 수동으로 새로 고쳐야 합니다.
 
 ![](../assets/journeytest3.png)
 

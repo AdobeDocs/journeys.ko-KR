@@ -6,22 +6,25 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 93%
+source-wordcount: '944'
+ht-degree: 85%
 
 ---
 
 # 사용자 인터페이스{#concept_rcq_lqt_52b}
 
->[!NOTE]
->
->[!DNL Journey Orchestration]을 최대한 활용하려면 인터넷 브라우저로 Chrome을 사용하는 것이 좋습니다. 인터페이스는 IMS에 정의된 언어로 표시됩니다. IMS 언어가 [!DNL Journey Orchestration]에서 지원되지 않는 경우에는 인터페이스가 영어로 표시됩니다.
->
->이 설명서는 제품의 최근 변경 사항을 반영하기 위해 자주 업데이트됩니다. 그러나 실제 제품 인터페이스와 약간 다른 스크린샷도 있습니다.
 
-## [!DNL Journey Orchestration] 액세스{#accessing_journey_orchestration}
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+
+
+## [!DNL Journey Orchestration]에 액세스 {#accessing_journey_orchestration}
 
 [!DNL Journey Orchestration]의 인터페이스에 액세스하려면 오른쪽 위의 **[!UICONTROL App Selector]** 아이콘을 클릭한 후 **[!UICONTROL Journey Orchestration]**&#x200B;을(를) 클릭합니다.
 
@@ -77,7 +80,7 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 [!D
 
 [이벤트 페이로드](../event/defining-the-payload-fields.md)와 [필드 그룹 페이로드](../datasource/field-groups.md)를 정의하고 [표현식 편집기](../expression/expressionadvanced.md)에서 필드를 선택할 때는 필드 이름과 함께 표시 이름도 표시됩니다. 이 정보는 Experience Data Model의 스키마 정의에서 검색됩니다.
 
-스키마를 설정할 때 &quot;xdm:alternateDisplayInfo&quot;와 같은 설명자를 입력하면 사용자에게 친숙한 이름이 표시 이름 대신 표시됩니다. 따라서 &quot;eVar&quot; 및 일반 필드 사용 시에 특히 유용합니다. 친숙한 이름 설명자는 API 호출을 통해 구성할 수 있습니다. 자세한 내용은 [스키마 레지스트리 개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko)를 참조하십시오.
+스키마를 설정할 때 &quot;xdm:alternateDisplayInfo&quot;와 같은 설명자를 입력하면 사용자에게 친숙한 이름이 표시 이름 대신 표시됩니다. 이 방법은 &quot;eVar&quot; 및 일반 필드로 작업할 때 특히 유용합니다. 친숙한 이름 설명자는 API 호출을 통해 구성할 수 있습니다. 자세한 내용은 [스키마 레지스트리 개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko)를 참조하십시오.
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -95,7 +98,7 @@ Adobe Journey Optimizer의 접근성 기능은 Adobe Experience Platform에서 �
 * 색상 대비
 * 필수 필드 유효성 검사
 
-[자세한 내용](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ko){target="_blank"}은 Adobe Experience Platform 설명서를 참조하세요.
+Adobe Experience Platform 설명서에서 [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ko){target="_blank"}.
 
 Adobe Journey Optimizer에서 다음과 같은 일반적인 키보드 단축키를 사용할 수 있습니다.
 
@@ -107,7 +110,7 @@ Adobe Journey Optimizer에서 다음과 같은 일반적인 키보드 단축키�
 | 포커스에 있는 요소 선택 또는 지우기 | Enter 또는 스페이스바 |
 | 선택 취소, 패널 축소 또는 대화 상자 닫기 | Esc |
 
-[자세한 내용](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ko){target="_blank"}은 Adobe Experience Platform 설명서를 참조하세요.
+Adobe Experience Platform 설명서에서 [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ko){target="_blank"}.
 
 Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있습니다.
 

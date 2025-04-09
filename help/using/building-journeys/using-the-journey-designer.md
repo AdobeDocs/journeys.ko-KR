@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: a7a49113a8b53e9c15123e788d50bb72310d949d
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1474'
 ht-degree: 5%
 
 ---
 
 # 여정 디자이너 사용 {#concept_m1g_5qt_52b}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+
 
 여정 홈 메뉴를 통해 **여정 목록**&#x200B;을 볼 수 있습니다. 새 여정을 만들거나 기존 여정을 클릭하여 **사용자 디자이너의 인터페이스를 엽니다**. 디자이너는 팔레트, 캔버스 및 활동 구성 창의 영역으로 구성됩니다.
 

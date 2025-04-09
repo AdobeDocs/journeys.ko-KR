@@ -3,18 +3,27 @@ product: adobe campaign
 title: 테스트 프로필 만들기
 description: 테스트 프로필 만들기에 대해 알아보기
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '681'
 ht-degree: 3%
 
 ---
 
 # 테스트 프로필 만들기 {#create-test-profiles}
 
-여정에서 테스트 모드를 사용할 때 테스트 프로필이 필요합니다. 테스트 모드를 사용하는 방법을 알아보려면 [이 섹션](../building-journeys/testing-the-journey.md)을 참조하세요.
 
-Adobe Experience Platform에서 테스트 프로필을 만드는 방법에는 여러 가지가 있습니다. 이 설명서에서는 [csv 파일 업로드](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)와 [API 호출 사용](../building-journeys/creating-test-profiles.md#create-test-profiles-api)의 두 가지 방법에 중점을 둡니다. 데이터 집합에 json 파일을 업로드할 수도 있습니다. [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)를 참조하세요.
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home)를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer로 대체된 레거시 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer에 대한 액세스에 대해 질문이 있는 경우 계정 팀에 문의하십시오._
+
+
+여정에서 테스트 모드를 사용할 때 테스트 프로필이 필요합니다. 테스트 모드를 사용하는 방법에 대한 자세한 내용은 이 섹션을](../building-journeys/testing-the-journey.md) 참조하십시오[.
+
+Adobe Experience Platform 에서 테스트 프로필을 만드는 방법에는 여러 가지가 있습니다. 이 문서에서는 csv 파일](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) 업로드[와 API 호출](../building-journeys/creating-test-profiles.md#create-test-profiles-api) 사용[의 두 가지 방법을 포커스 합니다. 데이터 집합에 json 파일을 업로드할 수도 있습니다. [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)를 참조하세요.
 
 이러한 가져오기 메서드를 사용하면 프로필 속성을 업데이트할 수도 있습니다. 이렇게 하면 기존 프로필을 테스트 프로필로 만들 수 있습니다. 단순히 유사한 파일 또는 API 호출을 사용하고 값이 &quot;true&quot;인 &quot;testProfile&quot; 필드만 포함하면 됩니다.
 
@@ -39,17 +48,17 @@ mixin 목록이 스키마 개요 화면에 표시됩니다.
    ![](../assets/test-profiles-2.png)
 1. 필드 목록에서 기본 ID로 정의할 필드를 클릭합니다.
    ![](../assets/test-profiles-3.png)
-1. **[!UICONTROL Field properties]** 오른쪽 패널에서 **[!UICONTROL Identity]** 및 **[!UICONTROL Primary Identity]** 옵션을 확인하고 네임스페이스를 선택합니다. 기본 ID를 전자 메일 주소로 설정하려면 **[!UICONTROL Email]** 네임스페이스를 선택하세요. **[!UICONTROL Apply]**을(를) 클릭합니다.
+1. **[!UICONTROL Field properties]** 오른쪽 패널에서 **[!UICONTROL Identity]** 및 **[!UICONTROL Primary Identity]** 옵션을 확인하고 네임스페이스를 선택합니다. 기본 자격 증명을 이메일 주소로 사용하려면 네임스페이스를 **[!UICONTROL Email]** 선택합니다. **[!UICONTROL Apply]**을(를) 클릭합니다.
    ![](../assets/test-profiles-4.png)
-1. 스키마를 선택하고 **[!UICONTROL Schema properties]**&#x200B;에서 **[!UICONTROL Profile]** 옵션을 활성화하십시오.
+1. 스키마를 선택하고 에서 옵션을 활성화 **[!UICONTROL Profile]** 합니다 **[!UICONTROL Schema properties]**.
    ![](../assets/test-profiles-5.png)
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 >[!NOTE]
 >
->스키마 만들기에 대한 자세한 내용은 [XDM 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites)를 참조하세요.
+>스키마 생성에 대한 자세한 내용은 XDM 설명서를](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites) 참조하십시오[.
 
-프로필을 가져올 데이터 집합을 **만들어야** 합니다. 다음 단계를 수행하십시오.
+**그런 다음 프로필을 가져올 데이터 세트** 세트를 만들어야 합니다. 다음 단계를 수행하십시오.
 
 1. Adobe Experience Platform에서 왼쪽 메뉴에서 **[!UICONTROL Datasets]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Create dataset]**을(를) 클릭합니다.
    ![](../assets/test-profiles-6.png)
@@ -75,12 +84,12 @@ Adobe Experience Platform에서는 다른 프로필 필드가 포함된 csv 파�
    ![](../assets/test-profiles-11.png)
 1. 프로필당 한 줄을 추가하고 각 필드의 값을 입력합니다.
    ![](../assets/test-profiles-12.png)
-1. 스프레드시트를 csv 파일로 저장합니다. 쉼표를 구분 기호로 사용해야 합니다.
-1. Adobe Experience Platform의 왼쪽 메뉴에서 **[!UICONTROL Workflows]**을(를) 클릭합니다.
+1. 스프레드시트를 csv 파일로 저장. 쉼표가 구분 기호로 사용되는지 확인합니다.
+1. Adobe Experience Platform의 왼쪽 메뉴에서 을 클릭합니다 **[!UICONTROL Workflows]**.
    ![](../assets/test-profiles-14.png)
-1. **[!UICONTROL Map CSV to XDM schema]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Launch]**을(를) 클릭합니다.
+1. 을 선택하고 **[!UICONTROL Map CSV to XDM schema]**&#x200B;을 클릭합니다 **[!UICONTROL Launch]**.
    ![](../assets/test-profiles-16.png)
-1. 프로필을 가져올 데이터 세트를 선택합니다. **[!UICONTROL Next]**을(를) 클릭합니다.
+1. 프로필을 가져올 데이터 세트 를 선택합니다. **[!UICONTROL Next]**을(를) 클릭합니다.
    ![](../assets/test-profiles-17.png)
 1. **[!UICONTROL Choose files]**&#x200B;을(를) 클릭하고 csv 파일을 선택하십시오. 파일이 업로드되면 **[!UICONTROL Next]**을(를) 클릭합니다.
    ![](../assets/test-profiles-18.png)

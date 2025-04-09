@@ -7,14 +7,24 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1084'
 ht-degree: 5%
 
 ---
 
 # 외부 시스템과 통합 {#external-systems}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+
+
 
 이 페이지에서는 외부 시스템 통합 시 Journey Orchestration에서 제공하는 다양한 보호 기능과 모범 사례, 즉 최대 가용량 API를 사용하여 외부 시스템 보호를 최적화하는 방법, 여정 시간 제한을 구성하는 방법 및 다시 시도 작동 방식을 제공합니다.
 
@@ -34,7 +44,7 @@ Journey Orchestration이 외부 API 호출을 실행하면 다음과 같이 기�
 
 내장된 캡핑 API는 외부 시스템을 보호하는 데 도움이 되는 업스트림 기술 가드레일을 제공합니다.
 
-외부 데이터 소스의 경우 초당 최대 호출 수는 15개로 설정됩니다. 호출 수가 초당 15개를 초과하는 경우 나머지 호출은 무시됩니다. 비공개 외부 데이터 소스에 대해 이 제한을 늘릴 수 있습니다. Adobe허용 목록에 추가하다 에 끝점을 포함하려면 문의하십시오. 이는 공개 외부 데이터 소스에는 사용할 수 없습니다.
+외부 데이터 소스의 경우 초당 최대 호출 수는 15개로 설정됩니다. 호출 수가 초당 15개를 초과하는 경우 나머지 호출은 무시됩니다. 비공개 외부 데이터 소스에 대해 이 제한을 늘릴 수 있습니다. 끝점을 Adobe에 포함하려면 허용 목록에 추가하다에 문의하십시오. 이는 공개 외부 데이터 소스에는 사용할 수 없습니다.
 
 사용자 지정 작업의 경우 외부 API의 용량을 평가해야 합니다. 예를 들어 Journey Optimizer이 초당 1000개의 호출을 전송하고 시스템이 초당 100개의 호출만 지원할 수 있는 경우 시스템이 포화되지 않도록 최대 가용량 규칙을 정의해야 합니다.
 
@@ -54,7 +64,7 @@ Journey Orchestration이 외부 API 호출을 실행하면 다음과 같이 기�
 
 이 시간 제한은 모든 외부 호출(사용자 지정 작업 및 사용자 지정 데이터 소스의 외부 API 호출)에 적용됩니다. 기본적으로 5초로 설정되어 있습니다.
 
-정의된 제한 시간 동안 Journey Orchestration은 외부 시스템을 호출하려고 시도합니다. 첫 번째 호출 후 시간 초과 기간 끝에 도달할 때까지 최대 3회의 재시도를 수행할 수 있습니다. 재시도 횟수는 변경할 수 없습니다.
+정의된 시간 제한 기간 동안 Journey Orchestration은 외부 시스템을 호출하려고 합니다. 첫 번째 호출 후 시간 초과 기간 끝에 도달할 때까지 최대 3회의 재시도를 수행할 수 있습니다. 재시도 횟수는 변경할 수 없습니다.
 
 각 재시도에서는 하나의 슬롯을 사용합니다. 초당 호출 수가 100개이고 각 호출에 두 번의 재시도가 필요한 경우, 속도는 초당 호출 수 30개로 떨어집니다(각 호출에는 첫 번째 호출과 두 번의 재시도, 이렇게 3개의 슬롯이 사용됨).
 

@@ -1,19 +1,29 @@
 ---
 product: adobe campaign
 title: Journey Orchestration에 이벤트를 보내는 추가 단계
-description: Journey Orchestration에 이벤트를 보내는 추가 단계에 대해 알아보기
+description: Journey Orchestration에 이벤트를 전송하는 추가 단계에 대해 알아보기
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '350'
 ht-degree: 2%
 
 ---
 
 # [!DNL Journey Orchestration]에 이벤트를 보내는 추가 단계 {#concept_xrz_n1q_y2b}
+
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+
 
 >[!NOTE]
 >

@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-source-git-commit: 7ad2419854b4fcecae7fbb20bdd6a6f2fbc04988
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 12%
+source-wordcount: '347'
+ht-degree: 11%
 
 ---
 
 # 사용자 지정 작업 구성 정보 {#concept_sxy_bzs_dgb}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+
 
 서드파티 시스템을 사용하여 메시지를 보내거나 [!DNL Journey Orchestration]이(가) 서드파티 시스템으로 API 호출을 보내도록 하려면 여기에서 [!DNL Journey Orchestration]에 대한 연결을 구성하십시오. 그러면 기술 사용자가 정의한 사용자 지정 작업을 여정 왼쪽 팔레트의 **[!UICONTROL Action]** 범주에서 사용할 수 있습니다([이 페이지](../building-journeys/about-action-activities.md) 참조). 다음은 사용자 지정 작업으로 연결할 수 있는 시스템의 몇 가지 예입니다. Epsilon, Facebook, Adobe.io, Firebase 등
 

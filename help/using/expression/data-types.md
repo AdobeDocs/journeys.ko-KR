@@ -6,14 +6,23 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '656'
 ht-degree: 5%
 
 ---
 
 # 데이터 유형 {#concept_gp3_rj5_dgb}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+
 
 기술적으로, 상수는 항상 데이터 형식을 포함합니다. 리터럴 표현식에서는 값만 지정합니다. 값(예: 문자열, 정수, 십진수 등)에서 데이터 형식을 유추할 수 있습니다. 날짜 시간과 같은 특정한 경우에, 우리는 표현에 전용 함수를 사용한다.
 
@@ -184,7 +193,7 @@ date("2021-02-19T00.00")
 
 시간대도 고려하는 날짜 시간 상수입니다. UTC의 오프셋이 있는 날짜-시간을 나타냅니다.
 
-오프셋의 추가적 정보를 가지고 순간적으로 볼 수 있다. 세계의 특정 장소에서 특정한 &quot;순간&quot;을 나타내는 방법이다.
+오프셋의 추가적 정보를 가지고 순간적으로 볼 수 있다. 세계의 일정한 장소에서 특정한 &#39;순간&#39;을 나타내는 방법이다.
 
 JSON 형식: 문자열.
 

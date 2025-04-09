@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 96%
+source-wordcount: '1075'
+ht-degree: 83%
 
 ---
 
 # 문제 해결{#concept_nlv_bcv_2fb}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+
+
 
 이 섹션에서는 테스트 또는 게시 전에 여정 문제를 해결하는 방법에 대해 알아봅니다. 아래 나열된 모든 검사는 여정이 테스트 모드에 있거나 여정이 라이브 상태일 때 수행할 수 있습니다. 테스트 모드에서 아래의 모든 검사를 수행한 후에 게시를 진행하는 것이 좋습니다. [이 페이지](../building-journeys/testing-the-journey.md)를 참조하십시오.
 
@@ -47,7 +57,7 @@ ht-degree: 96%
 
 이러한 도구를 통해 보내는 API 호출이 올바르게 전송되었는지 여부를 확인할 수 있습니다. 오류가 반환되면 호출에 문제가 있는 것입니다. 페이로드, 헤더(특히 조직 ID) 및 대상 URL을 다시 확인하십시오. 올바른 URL이 무엇인지를 관리자에게 물어볼 수 있습니다.
 
-이벤트는 소스에서 [!DNL Journey Orchestration]으로 직접 푸시되지 않습니다. 실제로, [!DNL Journey Orchestration] (은)는 Adobe Experience Platform의 수집 API 스트리밍에 의존합니다. 따라서 이벤트 관련 문제가 발생하면 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)에서 수집 API 스트리밍 문제 해결을 참조할 수 있습니다.
+이벤트는 소스에서 [!DNL Journey Orchestration]으로 직접 푸시되지 않습니다. [!DNL Journey Orchestration]은(는) Adobe Experience Platform의 수집 API 스트리밍에 의존합니다. 따라서 이벤트 관련 문제가 발생하면 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)에서 수집 API 스트리밍 문제 해결을 참조할 수 있습니다.
 
 ## 사람들이 여정에 들어오는지 확인{#section_x4v_zzs_dgb}
 
@@ -85,4 +95,4 @@ ht-degree: 96%
 * 트랜잭션 메시지에서 메시지를 보낼 요청을 올바르게 고려했는지 여부. 비즈니스 사용자는 전송되어야 하는 트랜잭션 메시지에 액세스하여 최신 실행 시간이 여정의 실행 시간과 일치하는지 확인할 수 있습니다. 트랜잭션 메시징이 받은 최신 API 호출/이벤트도 확인할 수 있습니다.
 * 트랜잭션 메시징이 메시지를 성공적으로 보냈는지 여부. 트랜잭션 메시지의 전송 로그에서 각 실행의 상태를 확인할 수 있습니다. 녹색인지, 빨간색인지 그리고 무엇이 문제인지를 볼 수 있습니다. 비즈니스 사용자는 이 화면에 액세스하고 추가 조사를 위해 관리자에게 로그를 보낼 수 있습니다.
 
-사용자 지정 작업을 통해 전송된 메시지의 경우, 여정 테스트 중에 확인할 수 있는 유일한 사실은 사용자 지정 작업 시스템의 호출이 오류로 이어졌는지 여부입니다. 사용자 지정 작업과 연결된 외부 시스템에 대한 호출이 오류로 이어지지 않았는데 메시지가 전송되지 않은 경우에는 외부 시스템 쪽에서 몇 가지를 조사해 봐야 합니다.
+사용자 지정 작업을 통해 전송된 메시지의 경우, 여정 테스트 중에 확인할 수 있는 유일한 사실은 사용자 지정 작업 시스템의 호출이 오류로 이어졌는지 여부입니다. 사용자 지정 작업과 연결된 외부 시스템에 대한 호출이 오류로 이어지지 않았는데 메시지가 전송되지 않은 경우에는 외부 시스템 쪽에서 몇 가지 조사를 수행해야 합니다.

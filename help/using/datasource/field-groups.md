@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f7f2673-9080-4274-afa3-a0255798f78d
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 0%
+source-wordcount: '498'
+ht-degree: 1%
 
 ---
 
 # 필드 그룹 {#concept_ntl_ypt_52b}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>
+>
+>_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+
 
 필드 그룹은 데이터 소스에서 검색하고 여정에서 사용할 수 있는 필드 세트입니다.
 
@@ -44,7 +53,7 @@ ht-degree: 0%
 하나 이상의 여정에 사용된 필드 그룹에서 필드를 삭제하려면 다음 단계를 따르십시오. &quot;필드 그룹 A&quot;라는 필드 그룹의 예를 사용하겠습니다.
 
 1. 필드 그룹 목록에서 &quot;필드 그룹 A&quot; 위에 커서를 놓고 오른쪽에 있는 **[!UICONTROL Duplicate]** 아이콘을 클릭합니다. 복제된 필드 그룹의 이름을 &quot;필드 그룹 B&quot;로 지정합니다.
-1. &quot;필드 그룹 B&quot;에서 더 이상 원하지 않는 필드를 제거합니다.
+1. 필드 그룹 B에서 더 이상 원하지 않는 필드를 제거합니다.
 1. &quot;필드 그룹 A&quot;에서 이 필드 그룹이 사용되는 위치를 확인합니다. 이 정보는 **[!UICONTROL Used in]** 필드에 표시됩니다.
 1. 필드 그룹 A를 사용하는 모든 여정을 엽니다.
 1. 이러한 각 여정의 새 버전을 만듭니다. &quot;필드 그룹 A&quot;를 사용하여 모든 활동을 편집하고 &quot;필드 그룹 B&quot;를 선택합니다.
