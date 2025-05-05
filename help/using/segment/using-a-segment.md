@@ -28,7 +28,7 @@ ht-degree: 4%
 
 여정 조건에서 세그먼트를 사용하려면 다음 단계를 따르십시오.
 
-1. 여정을 열고 **[!UICONTROL Condition]** 활동을 삭제하고 **데이터 Source 조건**을 선택하세요.
+1. 여정을 열고 **[!UICONTROL Condition]** 활동을 삭제하고 **데이터 Source 조건**&#x200B;을 선택하세요.
    ![](../assets/journey47.png)
 
 1. 필요한 각 추가 경로에 대해 **[!UICONTROL Add a path]**&#x200B;을(를) 클릭합니다. 각 경로에 대해 **[!UICONTROL Expression]** 필드를 클릭합니다.

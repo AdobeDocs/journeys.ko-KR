@@ -18,13 +18,13 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 여기를](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"} 클릭하십시오[.
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 여기를[&#128279;](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"} 클릭하십시오.
 >
 >
 >_이 설명서는 Journey Optimizer로 대체된 레거시 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer에 대한 액세스에 대해 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
-기술 사용자(이 페이지](../event/about-events.md) 참조[)가 구성한 이벤트는 모두 화면 왼쪽에 있는 팔레트의 첫 번째 범주에 표시됩니다.
+기술 사용자(이 페이지[&#128279;](../event/about-events.md) 참조)가 구성한 이벤트는 모두 화면 왼쪽에 있는 팔레트의 첫 번째 범주에 표시됩니다.
 
 ![](../assets/journey43.png)
 

@@ -18,7 +18,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->**Adobe Systems Journey Optimizer** 특가를 찾고 계십니까? Journey Optimizer 설명서를 보려면 여기를](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"} 클릭하십시오[.
+>**Adobe Systems Journey Optimizer** 특가를 찾고 계십니까? Journey Optimizer 설명서를 보려면 여기를[&#128279;](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"} 클릭하십시오.
 >
 >
 >_이 설명서는 Journey Optimizer로 대체된 레거시 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer에 대한 액세스에 대해 질문이 있는 경우 계정 팀에 문의하십시오._
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 이 사용 사례에서는 메시지에 개인화 데이터를 사용하려고 합니다. 우리는 또한 그 사람이 여성인지 확인해야 합니다. 이 정보는 실시간 고객 프로필 데이터베이스에 저장됩니다. **기술 사용자** 는 해당 필드가 내장된 Adobe Experience Platform 데이터 소스에 정의되어 있는지 확인해야 합니다.
 
-데이터 소스 구성에 대한 자세한 내용은 이 페이지 페이지를](../datasource/about-data-sources.md) 참조하십시오[.
+데이터 소스 구성에 대한 자세한 내용은 이 페이지 페이지를[&#128279;](../datasource/about-data-sources.md) 참조하십시오.
 
 1. 메뉴 창에서 을 선택합니다 **[!UICONTROL Admin]**. **[!UICONTROL Data sources]** 섹션에서 을 클릭합니다&#x200B;**[!UICONTROL Manage]**.
 1. 빌드 Adobe Experience Platform 데이터 소스를 선택합니다.

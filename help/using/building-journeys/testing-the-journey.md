@@ -174,7 +174,7 @@ curl -X POST \
 
 ![](../assets/alpha-event8.png)
 
-테스트 모드 사용 방법에 대한 자세한 내용은 이 페이지 페이지를](../building-journeys/testing-the-journey.md) 참조하십시오[.
+테스트 모드 사용 방법에 대한 자세한 내용은 이 페이지 페이지를[&#128279;](../building-journeys/testing-the-journey.md) 참조하십시오.
 
 ## 로그 보기 {#viewing_logs}
 

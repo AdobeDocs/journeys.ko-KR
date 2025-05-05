@@ -34,7 +34,7 @@ Admin Console에 액세스할 수 있는 관리자가 관리할 수 있습니다
 [!DNL Journey Orchestration]에 액세스할 수 있는 사용자의 자격은 다음과 같습니다.
 
 * [!DNL Journey Orchestration] 권한과 연관된 [!DNL Journey Orchestration] **[!UICONTROL product profile]**&#x200B;에 속해 있어야 합니다.
-* [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**&#x200B;에 속해 있어야 합니다. 갖고 있어야 하는 필수 권한은 없습니다. [!DNL Journey Orchestration] 인터페이스에서 플랫폼 세그먼트를 만들고 편집하려면 사용자에게 **[!UICONTROL profile management]** 권한이 있어야 합니다. 자세한 내용은 이 ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console)페이지[를 참조하십시오.
+* [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**&#x200B;에 속해 있어야 합니다. 갖고 있어야 하는 필수 권한은 없습니다. [!DNL Journey Orchestration] 인터페이스에서 플랫폼 세그먼트를 만들고 편집하려면 사용자에게 **[!UICONTROL profile management]** 권한이 있어야 합니다. 자세한 내용은 이 [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console)페이지를 참조하십시오.
 
 Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에게 할당할 수 있습니다.
 
@@ -93,7 +93,7 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 
    ![](../assets/do-not-localize/user_management_1.png)
 
-1. 새 제품 프로필을 선택하여 권한 관리를 시작합니다. **[!UICONTROL Users]** 탭에서 사용자를 제품 프로필에 추가합니다. 자세한 내용은 이 ](../about/access-management.md#assigning-product-profile)페이지[를 참조하십시오.
+1. 새 제품 프로필을 선택하여 권한 관리를 시작합니다. **[!UICONTROL Users]** 탭에서 사용자를 제품 프로필에 추가합니다. 자세한 내용은 이 [&#128279;](../about/access-management.md#assigning-product-profile)페이지를 참조하십시오.
 
 1. 위의 설명과 동일한 단계를 수행하여 **[!UICONTROL Admin]**&#x200B;을 제품 프로필에 추가합니다.
 
@@ -135,7 +135,7 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 
 1. **[!UICONTROL Add user]**&#x200B;을(를) 클릭합니다.
 
-   새 사용자를 사용자 그룹에 추가하여 공유 권한 집합을 세부 조정할 수도 있습니다. 자세한 내용은 이 ](https://helpx.adobe.com/kr/enterprise/using/user-groups.html)페이지[를 참조하십시오.
+   새 사용자를 사용자 그룹에 추가하여 공유 권한 집합을 세부 조정할 수도 있습니다. 자세한 내용은 이 [&#128279;](https://helpx.adobe.com/kr/enterprise/using/user-groups.html)페이지를 참조하십시오.
 
    ![](../assets/do-not-localize/user_management_3.png)
 

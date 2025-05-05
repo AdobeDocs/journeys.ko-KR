@@ -18,7 +18,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->**Adobe Systems Journey Optimizer** 특가를 찾고 계십니까? Journey Optimizer 설명서를 보려면 여기를](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"} 클릭하십시오[.
+>**Adobe Systems Journey Optimizer** 특가를 찾고 계십니까? Journey Optimizer 설명서를 보려면 여기를[&#128279;](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"} 클릭하십시오.
 >
 >
 >_이 설명서는 Journey Optimizer로 대체된 레거시 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer에 대한 액세스에 대해 질문이 있는 경우 계정 팀에 문의하십시오._
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 ## 중요 정보
 
-* 프로필 **** 업데이트 작업은 네임스페이스가 있는 이벤트로 시작하는 여정에서만 사용할 수 있습니다.
+* 프로필 **&#x200B;**&#x200B;업데이트 작업은 네임스페이스가 있는 이벤트로 시작하는 여정에서만 사용할 수 있습니다.
 * 이 작업은 기존 필드만 업데이트하고 새 프로필 필드를 만들지는 않습니다.
 * 프로필&#x200B;**업데이트 작업을 사용하여**&#x200B;구매와 같은 경험 이벤트를 생성할 수 없습니다.
 * 다른 작업과 좋아요 오류 또는 시간 초과가 발생할 경우 대체 경로를 정의할 수 있으며 두 작업을 병렬로 배치할 수 없습니다.
@@ -54,7 +54,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >프로필 **** 업데이트 작업은 프로필 데이터를 실시간으로 업데이트하지만 데이터 세트를 업데이트하지는 않습니다. 프로필이 데이터 세트와 관련된 레코드이므로 데이터 세트 선택이 필요합니다.
+   >프로필 **&#x200B;**&#x200B;업데이트 작업은 프로필 데이터를 실시간으로 업데이트하지만 데이터 세트를 업데이트하지는 않습니다. 프로필이 데이터 세트와 관련된 레코드이므로 데이터 세트 선택이 필요합니다.
 
 1. **값** 필드를 클릭하여 사용할 값을 정의합니다.
 

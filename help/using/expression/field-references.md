@@ -124,7 +124,7 @@ expression examples:
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-이 식에서는 이벤트의 &#39;IdentityMap&#39; 필드에 있는 &#39;Email&#39; 키에 대한 항목을 가져옵니다. &#39;이메일&#39;항목은 &#39;first()&#39;를 사용하여 첫 번째 요소의 &#39;id&#39;를 취하는 컬렉션 입니다. 자세한 내용은 이 페이지](../expression/collection-management-functions.md) 를 참조하십시오[.
+이 식에서는 이벤트의 &#39;IdentityMap&#39; 필드에 있는 &#39;Email&#39; 키에 대한 항목을 가져옵니다. &#39;이메일&#39;항목은 &#39;first()&#39;를 사용하여 첫 번째 요소의 &#39;id&#39;를 취하는 컬렉션 입니다. 자세한 내용은 이 페이지[&#128279;](../expression/collection-management-functions.md) 를 참조하십시오.
 
 ### `firstEntryKey` 기능
 

@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**Adobe Systems Journey Optimizer** 특가를 찾고 계십니까? Journey Optimizer 설명서를 보려면 여기를](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home) 클릭하십시오[.
+>**Adobe Systems Journey Optimizer** 특가를 찾고 계십니까? Journey Optimizer 설명서를 보려면 여기를[&#128279;](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home) 클릭하십시오.
 >
 >
 >_이 설명서는 Journey Optimizer로 대체된 레거시 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer에 대한 액세스에 대해 질문이 있는 경우 계정 팀에 문의하십시오._
@@ -78,7 +78,7 @@ ht-degree: 1%
 
 활동 뒤에 **[!UICONTROL Segment qualification]** 오는 조건이나 작업에서 표현식 편집기를 사용하는 경우 노드에 **[!UICONTROL SegmentQualification]** 액세스할 수 있습니다. 와 **[!UICONTROL status]** (시작 또는 종료) 중에서 **[!UICONTROL Last qualification time]** 선택할 수 있습니다.
 
-조건 활동을](../building-journeys/condition-activity.md#about_condition) 참조하십시오[.
+조건 활동을[&#128279;](../building-journeys/condition-activity.md#about_condition) 참조하십시오.
 
 ![](../assets/segment8.png)
 

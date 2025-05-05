@@ -18,7 +18,7 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 여기를](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"} 클릭하십시오[.
+>**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 여기를[&#128279;](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"} 클릭하십시오.
 >
 >
 >_이 설명서는 Journey Optimizer로 대체된 레거시 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer에 대한 액세스에 대해 질문이 있는 경우 계정 팀에 문의하십시오._
@@ -41,7 +41,7 @@ ht-degree: 7%
 >
 >최대 대기 기간은 30일입니다.
 >
->테스트 모드에서 **[!UICONTROL Wait time in test]** 매개 변수를 사용하면 각 대기 활동이 지속되는 시간을 정의할 수 있습니다. 기본 시간은 10초입니다. 이렇게 하면 테스트 결과를 빠르게 얻을 수 있습니다. 이 페이지 참조 [](../building-journeys/testing-the-journey.md)
+>테스트 모드에서 **[!UICONTROL Wait time in test]** 매개 변수를 사용하면 각 대기 활동이 지속되는 시간을 정의할 수 있습니다. 기본 시간은 10초입니다. 이렇게 하면 테스트 결과를 빠르게 얻을 수 있습니다. 이 페이지 참조 [&#128279;](../building-journeys/testing-the-journey.md)
 
 ## 기간 대기{#duration}
 
@@ -51,7 +51,7 @@ ht-degree: 7%
 
 ## 사용자 지정 대기{#custom}
 
-이 옵션을 사용하면 이벤트 또는 데이터 소스 출신의 필드를 기반으로 고급 표현식을 사용하여 사용자 지정 날짜(예: 2020년 7월 12일 오후 5시)를 정의할 수 있습니다. 사용자 지정 기간(예: 7일)을 정의할 수는 없습니다. 표현식 편집기 의 표현식은 dateTimeOnly 포맷 형식을 제공해야 합니다. 이 페이지 페이지를](../expression/expressionadvanced.md) 참조하십시오[. dateTimeOnly 형식에 대한 자세한 내용은 [이 페이지](../expression/data-types.md)를 참조하십시오.
+이 옵션을 사용하면 이벤트 또는 데이터 소스 출신의 필드를 기반으로 고급 표현식을 사용하여 사용자 지정 날짜(예: 2020년 7월 12일 오후 5시)를 정의할 수 있습니다. 사용자 지정 기간(예: 7일)을 정의할 수는 없습니다. 표현식 편집기 의 표현식은 dateTimeOnly 포맷 형식을 제공해야 합니다. 이 페이지 페이지를[&#128279;](../expression/expressionadvanced.md) 참조하십시오. dateTimeOnly 형식에 대한 자세한 내용은 [이 페이지](../expression/data-types.md)를 참조하십시오.
 
 >[!NOTE]
 >

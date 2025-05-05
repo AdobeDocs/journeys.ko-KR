@@ -48,6 +48,7 @@ ht-degree: 42%
 
 * 처리량 제한으로 인해 **세그먼트 자격** 활동을 Adobe Campaign Standard 트랜잭션 메시지와 함께 사용할 수 없습니다. [Adobe Campaign Standard 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html)을 참조하세요. 
  
+
 ## 사용자 지정 작업 제한 사항
 
 * 사용자 정의 작업 URL은 동적 매개 변수를 지원하지 않습니다.  
@@ -56,14 +57,17 @@ ht-degree: 42%
 * IP 주소는 허용되지 않습니다. 
 * 내부 Adobe 주소(.adobe.)는 허용되지 않습니다.
  
+
 ## Adobe Campaign 작업 제한 사항
 
 * Adobe Campaign Standard 트랜잭션 메시지는 주어진 인스턴스에 대해 채널 전체에서 시간당 최대 50,000개의 메시지 크기가 있습니다. [Adobe Campaign Standard 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html)을 참조하세요. 
  
+
 ## 이벤트 제한 사항
 
 * 시스템 생성 이벤트의 경우 고유한 오케스트레이션 ID를 얻으려면 먼저 고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 Journey Orchestration 내에서 구성해야 합니다. 이 오케스트레이션 ID는 Adobe Experience Platform으로 들어오는 스트리밍 페이로드에 추가되어야 합니다. 이 제한은 규칙 기반 이벤트에는 적용되지 않습니다.
  
+
 ## 데이터 소스 제한 사항
 
 * 고객 여정 내에서 외부 데이터 소스를 활용하여 실시간으로 외부 데이터를 조회할 수 있습니다. 이러한 소스는 REST API를 통해 사용할 수 있어야 하고 JSON을 지원하고 요청 볼륨을 처리할 수 있어야 합니다.
