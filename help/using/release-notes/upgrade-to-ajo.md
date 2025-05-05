@@ -23,7 +23,7 @@ Journey Orchestration은 Adobe Experience Platform을 기반으로 구축된 서
 
 ## Adobe Journey Optimizer으로 이동해야 하는 이유는 무엇입니까?
 
-여정, 데이터 세트, 프로필, 경고 등에 빠르게 액세스할 수 있는 Experience Platform 기능이 있는 **간소화된 인터페이스에 액세스**. 스키마나 데이터 세트에 액세스하기 위해 더 이상 Adobe Experience Platform과 Journey Orchestration을 왔다 갔다 할 필요가 없으므로 Adobe Journey Optimizer에서 모든 것을 직접 사용할 수 있습니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html)를 참조하세요.
+여정, 데이터 세트, 프로필, 경고 등에 빠르게 액세스할 수 있는 Experience Platform 기능이 있는 **간소화된 인터페이스에 액세스**. 스키마나 데이터 세트에 액세스하기 위해 더 이상 Adobe Experience Platform과 Journey Orchestration을 왔다 갔다 할 필요가 없으므로 Adobe Journey Optimizer에서 모든 것을 직접 사용할 수 있습니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html?lang=ko)를 참조하세요.
 
 <table>
 <tr>
@@ -96,6 +96,6 @@ Adobe Journey Optimizer으로 이동하더라도 Adobe Journey Optimizer에서 �
 
 그러나 Adobe Journey Optimizer 보고 스택의 작동 방식으로 인해 보고는 여정 및 Campaign Standard 데이터를 결합하지 않습니다. 여정 정보는 Adobe Journey Optimizer 보고서에서 사용할 수 있고 게재 정보는 Adobe Campaign Standard에서 사용할 수 있습니다. Experience Platform을 구성하여 Adobe Campaign Standard 데이터를 Adobe Experience Platform으로 다시 가져올 수 있으므로 Customer Journey Analytics([자세히 알아보기](https://business.adobe.com/products/experience-platform/customer-journey-analytics.html)) 또는 Tableau 또는 PowerBI와 같은 기타 타사 보고 도구에서 사용할 수 있습니다.
 
-Adobe Journey Optimizer 보고서는 Adobe Journey Optimizer의 기본 메시징 기능(전용 Adobe Journey Optimizer 오퍼링에서 사용 가능)을 사용할 때 가장 잘 작동합니다. 여정 캔버스에서 메시지를 작성하는 방법에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html)를 참조하세요.
+Adobe Journey Optimizer 보고서는 Adobe Journey Optimizer의 기본 메시징 기능(전용 Adobe Journey Optimizer 오퍼링에서 사용 가능)을 사용할 때 가장 잘 작동합니다. 여정 캔버스에서 메시지를 작성하는 방법에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html?lang=ko)를 참조하세요.
 
 자세한 내용은 계정 팀에 문의하십시오.

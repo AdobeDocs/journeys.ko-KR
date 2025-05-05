@@ -48,7 +48,7 @@ ht-degree: 2%
 >
 >반응 이벤트는 다른 여정에서 발생하는 이메일, SMS 또는 푸시 작업을 추적할 수 없습니다.
 >
->반응 이벤트는 &quot;추적됨&quot; 유형의 링크에서 클릭을 추적합니다([페이지](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls) 참조). 구독 취소 및 미러 페이지 링크는 고려되지 않습니다.
+>반응 이벤트는 &quot;추적됨&quot; 유형의 링크에서 클릭을 추적합니다([페이지](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html?lang=ko#about-tracked-urls) 참조). 구독 취소 및 미러 페이지 링크는 고려되지 않습니다.
 
 >[!IMPORTANT]
 >

@@ -42,4 +42,4 @@ ht-degree: 0%
 
 ![](../assets/alpha-event9.png)
 
-Adobe Analytics 소스 커넥터에 대한 자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) 및 [자습서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)를 참조하세요.
+Adobe Analytics 소스 커넥터에 대한 자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko) 및 [자습서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko)를 참조하세요.

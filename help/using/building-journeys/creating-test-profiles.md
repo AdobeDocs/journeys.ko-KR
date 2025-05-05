@@ -23,7 +23,7 @@ ht-degree: 3%
 
 여정에서 테스트 모드를 사용할 때 테스트 프로필이 필요합니다. 테스트 모드를 사용하는 방법에 대한 자세한 내용은 이 섹션을[&#128279;](../building-journeys/testing-the-journey.md) 참조하십시오.
 
-Adobe Experience Platform 에서 테스트 프로필을 만드는 방법에는 여러 가지가 있습니다. 이 문서에서는 csv 파일[&#128279;](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) 업로드[와 API 호출](../building-journeys/creating-test-profiles.md#create-test-profiles-api) 사용의 두 가지 방법을 포커스 합니다. 데이터 집합에 json 파일을 업로드할 수도 있습니다. [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)를 참조하세요.
+Adobe Experience Platform 에서 테스트 프로필을 만드는 방법에는 여러 가지가 있습니다. 이 문서에서는 csv 파일[&#128279;](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) 업로드[와 API 호출](../building-journeys/creating-test-profiles.md#create-test-profiles-api) 사용의 두 가지 방법을 포커스 합니다. 데이터 집합에 json 파일을 업로드할 수도 있습니다. [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ko#add-data-to-dataset)를 참조하세요.
 
 이러한 가져오기 메서드를 사용하면 프로필 속성을 업데이트할 수도 있습니다. 이렇게 하면 기존 프로필을 테스트 프로필로 만들 수 있습니다. 단순히 유사한 파일 또는 API 호출을 사용하고 값이 &quot;true&quot;인 &quot;testProfile&quot; 필드만 포함하면 됩니다.
 
@@ -56,7 +56,7 @@ mixin 목록이 스키마 개요 화면에 표시됩니다.
 
 >[!NOTE]
 >
->스키마 생성에 대한 자세한 내용은 XDM 설명서를[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites) 참조하십시오.
+>스키마 생성에 대한 자세한 내용은 XDM 설명서를[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ko#prerequisites) 참조하십시오.
 
 **그런 다음 프로필을 가져올 데이터 세트** 세트를 만들어야 합니다. 다음 단계를 수행하십시오.
 
@@ -73,7 +73,7 @@ mixin 목록이 스키마 개요 화면에 표시됩니다.
 
 >[!NOTE]
 >
-> 데이터 집합 만들기에 대한 자세한 내용은 [카탈로그 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started)를 참조하세요.
+> 데이터 집합 만들기에 대한 자세한 내용은 [카탈로그 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko#getting-started)를 참조하세요.
 
 ## csv 파일을 사용하여 테스트 프로필 만들기{#create-test-profiles-csv}
 
@@ -103,7 +103,7 @@ Adobe Experience Platform에서는 다른 프로필 필드가 포함된 csv 파�
 테스트 프로필이 추가되었으며 이제 여정 테스트 시 사용할 수 있습니다. [이 섹션](../building-journeys/testing-the-journey.md)을 참조하십시오.
 >[!NOTE]
 >
-> csv 가져오기에 대한 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials)를 참조하세요.
+> csv 가져오기에 대한 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ko#tutorials)를 참조하세요.
 
 ## API 호출을 사용하여 테스트 프로필 만들기{#create-test-profiles-api}
 

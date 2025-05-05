@@ -16,7 +16,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->예측 피로도 점수 기능은 [Adobe Experience Platform 데이터 커넥터](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html)를 사용하는 고객에게만 제공됩니다.
+>예측 피로도 점수 기능은 [Adobe Experience Platform 데이터 커넥터](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=ko)를 사용하는 고객에게만 제공됩니다.
 
 ## 이벤트 구성 {#section_ptb_ws1_ffb}
 

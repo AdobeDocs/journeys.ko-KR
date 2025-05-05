@@ -64,7 +64,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]** 는 **[!UICONTROL Exit]** Adobe Experience Platform의 실현됨&#x200B;**및**&#x200B;종료됨&#x200B;**세그먼트 참여 상태에 해당**&#x200B;합니다. 세그먼트 평가 방법에 대한 자세한 내용은 [세그멘테이션 서비스 설명서를](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results) 참조하십시오.
+   >**[!UICONTROL Enter]** 는 **[!UICONTROL Exit]** Adobe Experience Platform의 실현됨&#x200B;**및**&#x200B;종료됨&#x200B;**세그먼트 참여 상태에 해당**&#x200B;합니다. 세그먼트 평가 방법에 대한 자세한 내용은 [세그멘테이션 서비스 설명서를](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results) 참조하십시오.
 
 1. 네임스페이스를 선택합니다. 이벤트가 여정의 첫 번째 단계로 배치된 경우에만 필요합니다.
 
@@ -100,7 +100,7 @@ ht-degree: 1%
 
 스트리밍된 세그먼트에 대해 세그먼트 자격을 사용하면 세그먼트의 지속적인 평가로 인해 입구/출구의 큰 피크가 발생할 위험이 줄어듭니다. 그러나 세그먼트 정의로 인해 많은 수의 고객이 동시에 자격을 갖추게 된다면 피크도 있을 수 있습니다.
 
-스트리밍 세분화 방법에 대한 자세한 내용은 이 [페이지 페이지를 참조하십시오](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+스트리밍 세분화 방법에 대한 자세한 내용은 이 [페이지 페이지를 참조하십시오](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ko#api)
 
 ### 과부하를 피하는 방법{#overloads-speed-segment-qualification}
 

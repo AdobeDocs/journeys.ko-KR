@@ -34,7 +34,7 @@ Admin Console에 액세스할 수 있는 관리자가 관리할 수 있습니다
 [!DNL Journey Orchestration]에 액세스할 수 있는 사용자의 자격은 다음과 같습니다.
 
 * [!DNL Journey Orchestration] 권한과 연관된 [!DNL Journey Orchestration] **[!UICONTROL product profile]**&#x200B;에 속해 있어야 합니다.
-* [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**&#x200B;에 속해 있어야 합니다. 갖고 있어야 하는 필수 권한은 없습니다. [!DNL Journey Orchestration] 인터페이스에서 플랫폼 세그먼트를 만들고 편집하려면 사용자에게 **[!UICONTROL profile management]** 권한이 있어야 합니다. 자세한 내용은 이 [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console)페이지를 참조하십시오.
+* [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**&#x200B;에 속해 있어야 합니다. 갖고 있어야 하는 필수 권한은 없습니다. [!DNL Journey Orchestration] 인터페이스에서 플랫폼 세그먼트를 만들고 편집하려면 사용자에게 **[!UICONTROL profile management]** 권한이 있어야 합니다. 자세한 내용은 이 [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko#adobe-admin-console)페이지를 참조하십시오.
 
 Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에게 할당할 수 있습니다.
 

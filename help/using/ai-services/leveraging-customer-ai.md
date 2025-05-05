@@ -24,7 +24,7 @@ ht-degree: 2%
 >_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
-고객 AI는 Intelligent Services의 일부입니다. 이는 고객이 무엇을 할 가능성이 높은지 예측하는 데 도움이 됩니다. [설명서](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html)를 참조하세요.
+고객 AI는 Intelligent Services의 일부입니다. 이는 고객이 무엇을 할 가능성이 높은지 예측하는 데 도움이 됩니다. [설명서](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=ko)를 참조하세요.
 
 고객 AI를 사용하면 브랜드가 Adobe Experience Platform 프로필(실시간 고객 프로필)에서 프로필 속성으로 사용할 수 있는 회전 또는 전환 머신 러닝 기반 점수를 만들 수 있습니다.
 

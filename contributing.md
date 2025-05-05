@@ -37,4 +37,4 @@ submitting a pull request!
 
 ## 보안 문제
 
-이 문제 추적기에 대한 보안 문제는 보고하면 안 됩니다. 대신 보안 전문가에게 [문제 제기](https://helpx.adobe.com/security/alertus.html)
+이 문제 추적기에 대한 보안 문제는 보고하면 안 됩니다. 대신 보안 전문가에게 [문제 제기](https://helpx.adobe.com/kr/security/alertus.html)

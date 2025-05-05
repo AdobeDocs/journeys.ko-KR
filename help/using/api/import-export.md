@@ -30,16 +30,16 @@ Journey Orchestration 인스턴스에서 이 API를 사용하려면 AdobeI/O 콘
 
 다음 단계에 따라 여러 환경에서 여정을 내보내고 가져오는 것이 좋습니다.
 
-1. 시작 환경에서 여정을 만들고 매개 변수를 지정합니다. [추가 정보](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
-1. 여정 버전에 오류가 없는지 확인합니다. [추가 정보](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
+1. 시작 환경에서 여정을 만들고 매개 변수를 지정합니다. [추가 정보](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html?lang=ko)
+1. 여정 버전에 오류가 없는지 확인합니다. [추가 정보](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html?lang=ko)
 1. 여정 **/list/properties** API를 호출하여 UID 여정 및 최신 여정 버전의 UID를 검색합니다. 필요한 경우 **/여정/`{uid}`/최신**&#x200B;에 호출하여 최신 여정 버전의 UID를 찾을 수 있습니다.
 1. 시작 환경 매개 변수(orgID 및 sandboxName)를 사용하여 **내보내기** API를 호출합니다.
 1. 반환 페이로드를 연 다음 다음 항목을 확인합니다.
    * 내보낸 여정에 **특정 자격 증명**&#x200B;이 포함된 경우 이러한 자격 증명을 새 환경에 해당하는 자격 증명으로 바꾸어야 합니다.
-   * 내보낸 여정에 **XDM 스키마**&#x200B;을(를) 가리키는 **events**&#x200B;이 포함된 경우 ID 값이 다른 경우 xdmEntity 노드에서 새 환경의 스키마 ID로 스키마 ID 참조를 수동으로 업데이트해야 합니다. 이 업데이트는 각 이벤트에 대해 수행해야 합니다. [추가 정보](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
+   * 내보낸 여정에 **XDM 스키마**&#x200B;을(를) 가리키는 **events**&#x200B;이 포함된 경우 ID 값이 다른 경우 xdmEntity 노드에서 새 환경의 스키마 ID로 스키마 ID 참조를 수동으로 업데이트해야 합니다. 이 업데이트는 각 이벤트에 대해 수행해야 합니다. [추가 정보](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html?lang=ko)
    * 여정에 이메일, SMS 또는 푸시 작업이 포함된 경우 대상 환경의 이름이 시작 환경의 이름과 다른 경우 템플릿 이름 또는 mobileApp 이름을 업데이트해야 할 수 있습니다.
 1. 대상 환경 매개 변수(orgID 및 sandboxName)를 사용하여 **가져오기** API를 호출합니다. 가져오기 API를 원하는 만큼 호출할 수 있습니다. 가져오기 API를 호출할 때마다 여정에 포함된 각 객체의 UUID 및 이름이 생성됩니다.
-1. 여정을 가져오면 Journey Orchestration 애플리케이션에 게시할 수 있습니다. 추가 정보 [여기](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
+1. 여정을 가져오면 Journey Orchestration 애플리케이션에 게시할 수 있습니다. 추가 정보 [여기](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html?lang=ko)
 
 
 ## 인증
@@ -57,7 +57,7 @@ Journey Orchestration API 액세스는 아래 단계를 통해 설정됩니다. 
 
 >[!CAUTION]
 >
->액세스 토큰을 생성하기 위한 JWT 메서드가 더 이상 사용되지 않습니다. 모든 새 통합은 [OAuth 서버 간 인증 방법](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server)을 사용하여 만들어야 합니다. 또한 Adobe은 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다.
+>액세스 토큰을 생성하기 위한 JWT 메서드가 더 이상 사용되지 않습니다. 모든 새 통합은 [OAuth 서버 간 인증 방법](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ko#select-oauth-server-to-server)을 사용하여 만들어야 합니다. 또한 Adobe은 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다.
 >
 >다음 중요 설명서를 참조하십시오.
 >[JWT에서 OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)(으)로 애플리케이션에 대한 마이그레이션 안내서,
