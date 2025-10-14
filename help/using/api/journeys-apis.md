@@ -76,7 +76,7 @@ ht-degree: 83%
 >다음 중요 설명서를 참조하십시오.
 >[JWT에서 OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)&#x200B;(으)로 애플리케이션에 대한 마이그레이션 안내서,
 >[OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)을(를) 사용하는 새 응용 프로그램과 이전 응용 프로그램에 대한 구현 안내서,
->[OAuth 서버 간 자격 증명 메서드 ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)을(를) 사용할 때의 이점
+>[OAuth 서버 간 자격 증명 메서드 &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)을(를) 사용할 때의 이점
 
 서비스 간 Adobe I/O API 세션을 안전하게 구성하기 위해, Adobe 서비스에 대한 모든 요청의 인증 헤더에 아래 정보를 포함해야 합니다.
 
