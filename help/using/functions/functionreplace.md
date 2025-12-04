@@ -3,10 +3,10 @@ product: adobe campaign
 title: replace
 description: 함수 바꾸기에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: f30377c2-4d5e-4905-a972-8f4ccb272bc0
-source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 12%
@@ -27,7 +27,7 @@ ht-degree: 12%
 
 `replace(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 유형 |
 |-----------|--------------|
@@ -55,7 +55,7 @@ ht-degree: 12%
 * 프로필 특성 `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`에서 제공함
 * 바꿀 문자열: `|OFFER_A`
 * 문자열을 `''`(으)로 대체함
-* `|`자 앞에 `\\`을(를) 추가해야 합니다.
+* `\\`자 앞에 `|`을(를) 추가해야 합니다.
 
 표현식:
 

@@ -3,10 +3,10 @@ product: adobe campaign
 title: serializeList
 description: serializeList 함수에 대해 알아봅니다
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 84912d38-32ee-4cfe-8cb4-bad12f9c52af
-source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 22%
@@ -25,7 +25,7 @@ ht-degree: 22%
 
 `serializeList(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 유형 |
 |-----------|------------------|

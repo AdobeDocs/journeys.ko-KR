@@ -3,13 +3,13 @@ product: adobe campaign
 title: 데이터 유형
 description: 고급 표현식의 데이터 유형에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>**Adobe Journey Optimizer를 찾고 계신가요**? [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하여 Journey Optimizer 설명서를 확인할 수 있습니다.
 >
 >
->_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+>_이 설명서는 Journey Optimizer로 대체된 이전 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
 기술적으로, 상수는 항상 데이터 형식을 포함합니다. 리터럴 표현식에서는 값만 지정합니다. 값(예: 문자열, 정수, 십진수 등)에서 데이터 형식을 유추할 수 있습니다. 날짜 시간과 같은 특정한 경우에, 우리는 표현에 전용 함수를 사용한다.
@@ -172,7 +172,7 @@ toDateTimeOnly 함수에 캡슐화할 수 있습니다.
 
 직렬화 포맷: ISO-8601 확장 오프셋 날짜-시간 포맷.
 
-DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize 및 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize 및 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME")
 
 **리터럴 표시**
 

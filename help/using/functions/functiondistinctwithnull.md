@@ -3,10 +3,10 @@ product: adobe campaign
 title: distinctWithNull
 description: distinctWithNull 함수에 대해 알아봅니다.
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 65a904c1-14ff-42b3-8f03-abb97ef47625
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 5%
@@ -25,7 +25,7 @@ ht-degree: 5%
 
 `distinctWithNull(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 유형 | 설명 |
 |-----------|------------------|------------------|
@@ -72,7 +72,7 @@ ht-degree: 5%
 
 개체 목록을 반환합니다.
 
-## 예시
+## 예
 
 `distinctWithNull([10,2,10,null])`
 

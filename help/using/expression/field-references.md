@@ -3,13 +3,13 @@ product: adobe campaign
 title: 필드 참조
 description: 고급 표현식의 필드 참조에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**Adobe Systems Journey Optimizer** 특가를 찾고 계십니까? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>**Adobe Journey Optimizer를 찾고 계신가요**? [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하여 Journey Optimizer 설명서를 확인할 수 있습니다.
 >
 >
->_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+>_이 설명서는 Journey Optimizer로 대체된 이전 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
 필드 참조는 이벤트 또는 필드 그룹에 첨부할 수 있습니다. 유일한 의미 있는 정보는 필드의 이름과 경로입니다.
@@ -30,9 +30,9 @@ ht-degree: 2%
 
 * 필드는 숫자로 시작합니다.
 * 필드는 &quot;-&quot; 문자로 시작합니다.
-* 필드에 a-z, A-Z ___,__0-9___, _ , _- 이외의 항목이 포함됩니다._____
+* 필드에 _a_-_z_, _A_-_Z_, _0_-_9_, _ , _-_ 이외의 항목이 포함되어 있습니다.
 
-예를 들어 필드가 _3h_&#x200B;인 경우: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
+예를들어 필드가 _3h_&#x200B;인 경우 _#{OpenWeather.weatherData.rain&#39;.3h&#39;} > 0_
 
 ```json
 // event field
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 식에서 이벤트 필드는 &quot;@&quot;에서 참조되고 데이터 소스 필드는 &quot;#&quot;에서 참조됩니다.
 
-구문 색상은 이벤트 필드(녹색)와 필드 그룹(파란색)을 시각적으로 구분하는 데 사용됩니다.
+구문 색상은 이벤트 필드(녹색)와 필드 그룹(파란색)을 시각적으로 구별하는 데 사용됩니다.
 
 ## 필드 참조의 기본값 {#default-value}
 
@@ -63,7 +63,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->필드의 유형과 기본값은 동일해야 합니다. 예: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} 기본값은 정수이지만 예상 값은 문자열이어야 하므로 잘못된됩니다.
+>필드 유형과 기본값은 동일해야 합니다. 예: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}은(는) 기본값이 정수이지만 예상 값은 문자열이어야 하므로 잘못되었습니다.
 
 예:
 
@@ -124,9 +124,9 @@ expression examples:
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-이 식에서는 이벤트의 &#39;IdentityMap&#39; 필드에 있는 &#39;Email&#39; 키에 대한 항목을 가져옵니다. &#39;이메일&#39;항목은 &#39;first()&#39;를 사용하여 첫 번째 요소의 &#39;id&#39;를 취하는 컬렉션 입니다. 자세한 내용은 이 페이지[&#128279;](../expression/collection-management-functions.md) 를 참조하십시오.
+이 식에서 이벤트의 &#39;IdentityMap&#39; 필드의 &#39;이메일&#39; 키 항목을 가져옵니다. &#39;Email&#39; 항목은 컬렉션이며, 여기에서 &#39;first()&#39;를 사용하여 첫 번째 요소의 &#39;id&#39;를 가져옵니다. 자세한 내용은 [이 페이지](../expression/collection-management-functions.md)를 참조하세요.
 
-### `firstEntryKey` 기능
+### `firstEntryKey` 함수
 
 맵의 첫 번째 시작 키를 검색하려면 `firstEntryKey` 함수를 사용하십시오.
 
@@ -136,13 +136,13 @@ expression examples:
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
-이 예제에서 구독 목록의 이름은 `daily-email`입니다. 이메일 주소는 맵에서 `subscribers` 키로 정의되며, 구독 목록 맵에 연결됩니다.
+이 예제에서 구독 목록의 이름은 `daily-email`입니다. 이메일 주소는 `subscribers` 맵에서 구독 목록 맵에 연결된 키로 정의됩니다.
 
-### `keys` 기능
+### `keys` 함수
 
-맵의 모든 키를 검색하려면 함수를 사용하십시오 `keys` .
+맵의 모든 키로 검색하려면 `keys` 함수를 사용하십시오.
 
-이 예제에서는 특정 프로필에 대해 특정 목록의 구독자와 연결된 모든 이메일 주소를 검색하는 방법을 보여 줍니다.
+다음 예에서는 특정 프로필에 대해 특정 목록의 구독자와 연결된 모든 이메일 주소를 검색하는 방법을 보여 줍니다.
 
 ```json
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-mail').subscribers.keys()
@@ -150,7 +150,7 @@ expression examples:
 
 ## 데이터 소스의 매개 변수 값(데이터 소스 동적 값)
 
-외부 데이터 소스에서 매개 변수를 호출해야 하는 필드를 선택하면 오른쪽에 이 매개 변수를 지정할 수 있는 새 탭 나타납니다. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오.
+매개 변수를 호출해야 하는 외부 데이터 소스에서 필드를 선택하는 경우 이 매개 변수를 지정할 수 있도록 오른쪽에 새 탭이 나타납니다. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오.
 
 보다 복잡한 사용 사례에서는 기본 식에 데이터 원본의 매개 변수를 포함하려는 경우 키워드 _params_&#x200B;을 사용하여 해당 값을 정의할 수 있습니다. 매개 변수는 다른 매개 변수를 포함하는 다른 데이터 소스에서도 유효한 표현식이 될 수 있습니다.
 
@@ -164,8 +164,8 @@ expression examples:
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
-* **`<params-1-name>`**: 데이터 소스 첫 번째 매개 변수의 정확한 이름입니다.
-* **`<params-1-value>`**: 첫 번째 매개 변수의 값입니다. 모든 유효한 표현식이 될 수 있습니다.
+* **`<params-1-name>`**: 데이터 원본의 첫 번째 매개 변수의 정확한 이름.
+* **`<params-1-value>`**: 첫 번째 매개 변수의 값입니다. 모든 유효한 표현식일 수 있습니다.
 
 예:
 

@@ -3,10 +3,10 @@ product: adobe campaign
 title: sum
 description: 함수 합에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 04289d72-aade-4725-b1f5-47cf55e3a40b
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 13%
@@ -25,7 +25,7 @@ ht-degree: 13%
 
 `sum(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 * list정수
 * listDecimal
@@ -51,7 +51,7 @@ ht-degree: 13%
 
 십진수를 반환합니다.
 
-## 예시
+## 예
 
 `sum(@{BarBeacon.inventory},5)`
 

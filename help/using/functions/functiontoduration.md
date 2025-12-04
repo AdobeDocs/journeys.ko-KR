@@ -3,10 +3,10 @@ product: adobe campaign
 title: toDuration
 description: 함수 toDuration에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 77f068fa-678e-49a4-b45f-843c3287390a
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 3%
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 `toDuration(<parameter>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 설명 |
 |--- |--- |
@@ -44,7 +44,7 @@ ht-degree: 3%
 
 기간을 반환합니다.
 
-## 예시
+## 예
 
 `toDuration("PT10H")`
 

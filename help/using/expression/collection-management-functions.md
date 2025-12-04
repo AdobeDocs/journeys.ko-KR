@@ -3,10 +3,10 @@ product: adobe campaign
 title: 컬렉션 관리 기능
 description: 컬렉션 관리 기능의 데이터 유형에 대해 알아봅니다
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 1%
@@ -167,7 +167,7 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]**&#x200B;은(는) 이벤트 컬렉션 및 **currentDataPackField**&#x200B;을 조작할 때만 사용할 수 있습니다.
+>**[!UICONTROL currentEventField]**&#x200B;은(는) 이벤트 컬렉션 및 **currentDataPackField**을 조작할 때만 사용할 수 있습니다.
 >데이터 소스 컬렉션을 조작할 때. **[!UICONTROL all]**, **[!UICONTROL first]** 및 **[!UICONTROL last]**(으)로 컬렉션을 처리할 때
 >컬렉션의 각 요소를 하나씩 반복합니다. **[!UICONTROL currentEventField]** 및 **currentDataPackField**
 >루핑되는 요소에 해당합니다.

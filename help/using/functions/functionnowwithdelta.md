@@ -3,10 +3,10 @@ product: adobe campaign
 title: nowWithDelta
 description: nowWithDelta 함수에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: f23f729b-7edb-4efc-a7ea-904314a7b2e1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 7%
@@ -19,13 +19,13 @@ ht-degree: 7%
 
 ## 카테고리
 
-날짜
+Date
 
 ## 함수 구문
 
 `nowWithDelta(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 설명 |
 |--- |--- |
@@ -41,7 +41,7 @@ ht-degree: 7%
 
 dateTime을 반환합니다.
 
-## 예시
+## 예
 
 `nowWithDelta(-2, "hours")`
 

@@ -3,13 +3,13 @@ product: adobe campaign
 title: 함수
 description: 함수에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 57%
+ht-degree: 77%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 57%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>**Adobe Journey Optimizer를 찾고 계신가요**? [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하여 Journey Optimizer 설명서를 확인할 수 있습니다.
 >
 >
->_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+>_이 설명서는 Journey Optimizer로 대체된 이전 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
 함수에는 서로 다른 서명(순서가 지정된 매개 변수의 다른 세트)이 있을 수 있습니다. 함수 시그니처에는 순서가 지정된 매개 변수로 0-N 표현식이 있을 수 있습니다.
@@ -54,20 +54,20 @@ ht-degree: 57%
 | 전환 | [toDuration](../functions/functiontoduration.md) |
 | 전환 | [toInteger](../functions/functiontointeger.md) |
 | 전환 | [toString](../functions/functiontostring.md) |
-| 일자 | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
-| 일자 | [inLastDays](../functions/functioninlastdays.md) |
-| 일자 | [inLastHours](../functions/functioninlasthours.md) |
-| 일자 | [inLastMonths](../functions/functioninlastmonths.md) |
-| 일자 | [inLastYears](../functions/functioninlastyears.md) |
-| 일자 | [inNextDays](../functions/functioninnextdays.md) |
-| 일자 | [inNextHours](../functions/functioninnexthours.md) |
-| 일자 | [inNextMonths](../functions/functioninnextmonths.md) |
-| 일자 | [inNextYears](../functions/functioninnextyears.md) |
-| 일자 | [now](../functions/functionnow.md) |
-| 일자 | [nowWithDelta](../functions/functionnowwithdelta.md) |
-| 일자 | [setHours](../functions/functionsethours.md) |
-| 일자 | [setDays](../functions/functionsetdays.md) |
-| 일자 | [updateTimeZone](../functions/functionupdatetimezone.md) |
+| Date | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
+| Date | [inLastDays](../functions/functioninlastdays.md) |
+| Date | [inLastHours](../functions/functioninlasthours.md) |
+| Date | [inLastMonths](../functions/functioninlastmonths.md) |
+| Date | [inLastYears](../functions/functioninlastyears.md) |
+| Date | [inNextDays](../functions/functioninnextdays.md) |
+| Date | [inNextHours](../functions/functioninnexthours.md) |
+| Date | [inNextMonths](../functions/functioninnextmonths.md) |
+| Date | [inNextYears](../functions/functioninnextyears.md) |
+| Date | [now](../functions/functionnow.md) |
+| Date | [nowWithDelta](../functions/functionnowwithdelta.md) |
+| Date | [setHours](../functions/functionsethours.md) |
+| Date | [setDays](../functions/functionsetdays.md) |
+| Date | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | 목록 | [distinct](../functions/functiondistinct.md) |
 | 목록 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
 | 목록 | [필터](../functions/functionfilter.md) |

@@ -3,12 +3,12 @@ product: adobe campaign
 title: setHours
 description: setHours 함수에 대해 알아봅니다.
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: d4fe578f-c3be-4c8b-98b3-090dab0c41d1
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '105'
 ht-degree: 9%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 9%
 
 ## 카테고리
 
-날짜
+Date
 
 ## 함수 구문
 
 `setHours(<parameter>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 유형 |
 |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 9%
 
 시간대를 고려하지 않고 날짜/시간을 반환합니다.
 
-## 예시
+## 예
 
 `setHours(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
@@ -51,4 +51,4 @@ ht-degree: 9%
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-내일 오후 8시(XY)에 를 반환합니다. XY는 현재 시간 평가 시점의 분입니다. 오전 2시 45분에 평가가 이뤄지면 돌아오는 시간은 오후 8시 45분이다.
+내일 오후 8:XY에 반환합니다. XY는 현재 시간 평가 시점의 분입니다. 평가가 오전 2:45에 이루어지면 반환된 시간은 오후 8:45입니다.

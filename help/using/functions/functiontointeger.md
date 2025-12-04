@@ -3,10 +3,10 @@ product: adobe campaign
 title: toInteger
 description: toInteger 함수에 대해 알아봅니다.
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 3fcbf4dd-3ca5-4f4b-b774-af6ac3170768
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 13%
@@ -25,7 +25,7 @@ ht-degree: 13%
 
 `toInteger(<parameter>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 설명 |
 |--- |--- |
@@ -48,7 +48,7 @@ ht-degree: 13%
 
 정수를 반환합니다.
 
-## 예시
+## 예
 
 `toInteger("4")`
 

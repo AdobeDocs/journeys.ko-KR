@@ -3,10 +3,10 @@ product: adobe campaign
 title: filter
 description: 함수 필터에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 3c1c188c-0ffd-44c5-b1b3-1758ed12235e
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 10%
@@ -25,7 +25,7 @@ ht-degree: 10%
 
 `filter(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 유형 | 설명 |
 |-----------|------------------|------------------|
@@ -53,7 +53,7 @@ ht-degree: 10%
 
 listObject를 반환합니다.
 
-## 예시
+## 예
 
 다음은 수신 이벤트 &quot;myevent&quot;에서 전달된 페이로드의 예입니다.
 

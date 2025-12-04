@@ -3,10 +3,10 @@ product: adobe campaign
 title: sort
 description: 함수 정렬에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 8%
@@ -25,7 +25,7 @@ ht-degree: 8%
 
 `sort(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 유형 | 설명 |
 |-----------|------------------|------------------|

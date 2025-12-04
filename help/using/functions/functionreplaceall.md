@@ -3,10 +3,10 @@ product: adobe campaign
 title: replaceAll
 description: replaceAll 함수에 대해 알아봅니다.
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: d60059e5-6bf8-4a57-88a4-5323d5f0fa0b
-source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 10%
@@ -27,7 +27,7 @@ ht-degree: 10%
 
 `replaceAll(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 유형 |
 |-----------|--------------|

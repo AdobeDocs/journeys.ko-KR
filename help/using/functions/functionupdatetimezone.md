@@ -3,12 +3,12 @@ product: adobe campaign
 title: updateTimeZone
 description: updateTimeZone 함수에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 2ce60ed2-161a-4b98-9694-eb47cc0e04a9
-source-git-commit: d5531d0aad22f33da2cc5612cc289c600411fd8c
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '57'
 ht-degree: 10%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 10%
 
 ## 카테고리
 
-날짜
+Date
 
 ## 함수 구문
 
 `updateTimeZone(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 * 시간대 id: 문자열
 * dateTime
@@ -36,7 +36,7 @@ ht-degree: 10%
 
 날짜/시간을 반환합니다.
 
-## 예시
+## 예
 
 `updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 

@@ -3,10 +3,10 @@ product: adobe campaign
 title: matchRegExp
 description: matchRegExp 함수에 대해 알아봅니다.
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 751fdcde-0af5-4f98-8cea-aae3ebefdb04
-source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 21%
@@ -25,7 +25,7 @@ ht-degree: 21%
 
 `matchRegExp(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 유형 |
 |--- |--- |

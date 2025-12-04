@@ -3,10 +3,10 @@ product: adobe campaign
 title: inLastHours
 description: inLastHours 함수에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 9baeb836-e029-4e19-b08e-7b7b5f27ff8f
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 20%
@@ -19,13 +19,13 @@ ht-degree: 20%
 
 ## 카테고리
 
-날짜
+Date
 
 ## 함수 구문
 
 `inLastHours(<dateTime>,<delta>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 유형 |
 |-----------|------------------|
@@ -38,7 +38,7 @@ ht-degree: 20%
 
 부울 반환.
 
-## 예시
+## 예
 
 `inLastHours(toDateTime('2019-12-12T01:11:00Z'), 4)`
 

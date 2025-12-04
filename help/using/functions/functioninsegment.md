@@ -3,10 +3,10 @@ product: adobe campaign
 title: inSegment
 description: inSegment 함수에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
-source-git-commit: e56e6f5dcb8a4680851858355ac18a70bd832b73
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 6%
@@ -31,7 +31,7 @@ ht-degree: 6%
 * 인식됨: 엔티티가 세그먼트를 입력 중입니다.
 * 종료됨: 엔티티가 세그먼트를 종료 중입니다.
 
-**실현됨** 및 **기존** 세그먼트 참여 상태가 있는 개인만 세그먼트의 구성원으로 간주됩니다. 세그먼트를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results)를 참조하세요.
+**실현됨** 및 **기존** 세그먼트 참여 상태가 있는 개인만 세그먼트의 구성원으로 간주됩니다. 세그먼트를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)를 참조하세요.
 
 `IF inSegment('segmentName') == true`은(는) 입력한/기존 상태의 segmentMembership이 있음을 의미합니다.
 
@@ -45,7 +45,7 @@ Adobe Experience Platform
 
 `inSegment(<parameter>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 설명 | 유형 |
 |--- |--- |--- |

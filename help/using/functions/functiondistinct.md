@@ -3,10 +3,10 @@ product: adobe campaign
 title: distinct
 description: 기능 고유 사항에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 034e4d77-2f0e-4117-9fd4-b9e35ef71a39
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 6%
@@ -25,7 +25,7 @@ ht-degree: 6%
 
 `distinct(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 유형 | 설명 |
 |-----------|------------------|------------------|
@@ -73,7 +73,7 @@ ht-degree: 6%
 개체 목록을 반환합니다.
 
 
-## 예시
+## 예
 
 `distinct([10,2,10,null])`
 

@@ -3,10 +3,10 @@ product: adobe campaign
 title: toDateTimeOnly
 description: 함수 toDateTime에 대해 알아보기
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b19adbd0-8449-4bd4-bc4d-f1f305f87cb0
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 15%
@@ -25,7 +25,7 @@ ht-degree: 15%
 
 `toDateTimeOnly(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 유형 |
 |-----------|------------------|
@@ -42,7 +42,7 @@ ht-degree: 15%
 
 시간대를 고려하지 않고 날짜/시간을 반환합니다.
 
-## 예시
+## 예
 
 `toDateTimeOnly ("2016-08-18")`
 
