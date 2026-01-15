@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
-workflow-type: ht
+source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
+workflow-type: tm+mt
 source-wordcount: '4452'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -161,7 +161,7 @@ ht-degree: 100%
 
 ### 개선 사항
 
-* **표현식 편집기** - 이제 고급 사용자는 여정 지도 작업에 함수를 사용할 수 있습니다. [자세히 보기](../expression/field-references.md)
+* **표현식 편집기** - 이제 고급 사용자는 여정 지도 작업에 함수를 사용할 수 있습니다. [자세히 알아보기](../expression/field-references.md)
 * **접근성** - 접근성을 개선했습니다. 이제 Journey Orchestration은 접근성 측면에서 완전히 규정을 준수합니다.
 * **컬렉션** - 이제 하위 개체가 포함된 개체 배열이 지원됩니다. [자세히 보기](../usecase/collections.md)
 * **모니터링** - 실시간 여정 및 테스트 모드에 대한 단계 이벤트를 개선했습니다. 프로필 내보내기 작업과 관련하여 [새 필드](../building-journeys/sharing-field-list.md#serviceevents)를 추가했습니다. 더 나은 사용자 경험을 위해 이제 단계 이벤트 필드가 Journey Orchestration의 여정 단계 이벤트 스키마에서 다른 카테고리로 구성됩니다. 이전 단계 이벤트 필드는 [stepEvents](../building-journeys/sharing-legacy-fields.md) 카테고리에서 계속 사용할 수 있습니다.
@@ -215,7 +215,7 @@ ht-degree: 100%
 <td>
 <p>Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이터 세트에 대한 조회 테이블로 사용하기 위해 스키마 간의 관계를 정의할 수 있습니다. 이제 Journey Orchestration은 연결된 스키마에서 가져온 데이터를 활용할 수 있습니다.</p>
 <p>이러한 필드는 단일 이벤트 구성, 여정 조건 및 사용자 지정 작업 개인화에서 사용할 수 있습니다.
-<p>자세한 내용은 <a href="../event/experience-event-schema.md#leverage_schema_relationships">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../event/experience-event-schema.md#leverage_schema_relationships">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -238,7 +238,7 @@ ht-degree: 100%
 <td>
 <p>이제 Adobe Campaign Classic 통합과의 통합을 일반적으로 사용할 수 있습니다(GA). Adobe Campaign v7 또는 v8 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다.</p>
 <p>Journey Orchestration 인스턴스와 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다.</p>
-<p>자세한 내용은 <a href="../action/acc-action.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../action/acc-action.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -278,7 +278,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이 새 작업 활동을 사용하면 이벤트, 데이터 소스 또는 특정 값을 사용하여 도출하는 데이터로 기존 Adobe Experience Platform 프로필을 업데이트할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../building-journeys/update-profiles.md">자세한 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/update-profiles.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -380,7 +380,7 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 <td>
 <p>이제 여정이 특정 시간 동안에만 이벤트를 수신하도록 하기 위해 이벤트에 대한 시간 제한을 구성할 수 있습니다. 이를 위해 더 이상 이벤트 여정을 동시에 대기 활동을 추가할 필요가 없습니다.
 </p>
-<p>자세한 내용은 <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">자세한 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -405,7 +405,7 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 <td>
 <p>이제 여정에 조건을 추가할 때 레이블을 정의할 수 있습니다. 여정에서 여러 조건을 사용하는 경우 해당 조건을 보다 쉽게 식별할 수 있습니다.
 </p>
-<p>자세한 내용은 <a href="../building-journeys/condition-activity.md#about_condition">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../building-journeys/condition-activity.md#about_condition">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -680,7 +680,7 @@ Journey Orchestration 인터페이스를 일본어로 사용할 수 있습니다
 <p>이제는 여정 디자이너에서 여정의 최신 버전에 액세스하고 있는지를 확인할 수 있습니다. 이 정보는 버전 번호 옆에 표시됩니다.</p>
 <p>이제는 여정 <strong>캔버스</strong>에서 두 활동의 연결이 끊기면 경고 메시지가 표시됩니다.</p>
 <img src="../assets/rn-canvas.png"/>
-<p>자세한 내용은 <a href="../building-journeys/using-the-journey-designer.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../building-journeys/using-the-journey-designer.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -721,6 +721,6 @@ Journey Orchestration 인터페이스를 일본어로 사용할 수 있습니다
 
 이벤트 또는 데이터 소스에 저장된 컨텍스트 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 구축합니다.
 
-Journey Orchestration에서는 이벤트, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 활용한 실시간 오케스트레이션이 가능합니다. 이 애플리케이션은 여러 단계로 진행되는 &#39;여정&#39;를 통해 소비자의 프로필과 행동을 토대로 하여 해당 사용자에 맞는 최적의 다음 작업을 결정합니다. 즉, 다음 작업을 수행하기에 가장 적절한 시점과 해당 작업의 유형이 모두 결정됩니다. Adobe Campaign Standard 트랜잭션 메시지 기능을 통해 소비자에게 푸시 알림을 보내거나(Adobe Campaign Standard 필요), 서드파티 시스템의 알림을 보내는 등의 작업을 예로 들 수 있습니다. 규칙과 Sensei 점수를 기반으로 이러한 사항을 결정합니다.
+Journey Orchestration에서는 이벤트, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 활용한 실시간 오케스트레이션이 가능합니다. 이 애플리케이션은 여러 단계로 진행되는 &#39;여정&#39;를 통해 소비자의 프로필과 행동을 토대로 하여 해당 사용자에 맞는 최적의 다음 작업을 결정합니다. 즉, 다음 작업을 수행하기에 가장 적절한 시점과 해당 작업의 유형이 모두 결정됩니다. Adobe Campaign Standard 트랜잭션 메시지 기능을 통해 소비자에게 푸시 알림을 보내거나(Adobe Campaign Standard 필요), 서드파티 시스템의 알림을 보내는 등의 작업을 예로 들 수 있습니다. 이러한 결정은 규칙과 AI 점수를 기반으로 이루어집니다.
 
 [](../action/working-with-adobe-campaign.md)Journey Orchestration에 대해 자세히 알아보십시오.
