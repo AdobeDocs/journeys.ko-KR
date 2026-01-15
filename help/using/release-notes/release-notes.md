@@ -723,4 +723,4 @@ Journey Orchestration 인터페이스를 일본어로 사용할 수 있습니다
 
 Journey Orchestration에서는 이벤트, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 활용한 실시간 오케스트레이션이 가능합니다. 이 애플리케이션은 여러 단계로 진행되는 &#39;여정&#39;를 통해 소비자의 프로필과 행동을 토대로 하여 해당 사용자에 맞는 최적의 다음 작업을 결정합니다. 즉, 다음 작업을 수행하기에 가장 적절한 시점과 해당 작업의 유형이 모두 결정됩니다. Adobe Campaign Standard 트랜잭션 메시지 기능을 통해 소비자에게 푸시 알림을 보내거나(Adobe Campaign Standard 필요), 서드파티 시스템의 알림을 보내는 등의 작업을 예로 들 수 있습니다. 이러한 결정은 규칙과 AI 점수를 기반으로 이루어집니다.
 
-[](../action/working-with-adobe-campaign.md)Journey Orchestration에 대해 자세히 알아보십시오.
+[&#128279;](../action/working-with-adobe-campaign.md)Journey Orchestration에 대해 자세히 알아보십시오.
