@@ -6,10 +6,10 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 9%
+source-wordcount: '554'
+ht-degree: 10%
 
 ---
 
@@ -45,9 +45,11 @@ ht-degree: 9%
 
 우선 온라인 매장을 찾아보았지만 지난 7일 동안 주문이 확정되지 않은 고객을 대상으로 했다.
 
-<!--**This expression looks for a specified value in a string value:**
+<!--
+**This expression looks for a specified value in a string value:**
 
-`In ("addToCart", #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`
+-->
 
 **이 식은 지난 7일 동안 지정한 이 사용자의 모든 이벤트를 찾습니다.**
 
@@ -119,7 +121,7 @@ ht-degree: 9%
                     .name} == "Arlington"
 ```
 
-설명: 이는 엄격한 문자열 비교(대/소문자 구분)입니다. `equal to`이(가) 선택된 상태에서 `Is sensitive`을(를) 사용하는 단순 모드의 쿼리와 같습니다.
+설명: 이는 엄격한 문자열 비교(대/소문자 구분)입니다. `Is sensitive`이(가) 선택된 상태에서 `equal to`을(를) 사용하는 단순 모드의 쿼리와 같습니다.
 
 `Is sensitive`을(를) 선택 취소한 동일한 쿼리는 고급 모드에서 다음 식을 생성합니다.
 
@@ -154,4 +156,4 @@ substr(
 
 설명: 이 예제에서는 `substr` 및 `lastIndexOf` 함수를 사용하여 모바일 앱 실행 이벤트와 함께 전달된 CRM ID를 둘러싸는 중괄호를 제거합니다.
 
-고급 표현식 편집기를 사용하는 방법에 대한 자세한 내용은 [이 비디오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html?lang=ko)를 시청하십시오.
+고급 표현식 편집기를 사용하는 방법에 대한 자세한 내용은 [이 비디오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html)를 시청하십시오.

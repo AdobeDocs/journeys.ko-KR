@@ -6,9 +6,9 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: 2ce60ed2-161a-4b98-9694-eb47cc0e04a9
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '56'
 ht-degree: 10%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 10%
 
 ## 카테고리
 
-Date
+일자
 
 ## 함수 구문
 
@@ -36,14 +36,16 @@ Date
 
 날짜/시간을 반환합니다.
 
-## 예
+## 예시
 
 `updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 
 2019-08-28T17:15:30.123+02:00을 반환합니다.
 
-<!--`updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), toTimeZone("Europe/Paris")))`
-Returns "2019-08-28T17:15:30.123+02:00".-->
+<!--
+`updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), toTimeZone("Europe/Paris")))`
+Returns "2019-08-28T17:15:30.123+02:00".
+-->
 
 `updateTimeZone(@{MyExpEvent.timestamp}, "Australia/Sydney")`
 

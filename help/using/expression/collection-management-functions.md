@@ -6,10 +6,10 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 1%
+source-wordcount: '605'
+ht-degree: 3%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 1%
 
 Data Source 조건 활동에서 **[!UICONTROL all]** 함수의 결과가 null인지 여부를 확인할 수 있습니다. 이 **[!UICONTROL all]** 함수를 **[!UICONTROL count]**&#x200B;과(와) 같은 다른 함수와 결합할 수도 있습니다. 자세한 내용은 [데이터 Source 조건 활동](../building-journeys/condition-activity.md#data_source_condition)을 참조하세요.
 
-**예 1:**
+**예제 1:**
 
 사용자가 특정 버전의 애플리케이션을 설치했는지 확인하려고 합니다. 이를 위해 버전이 1.0인 모바일 애플리케이션과 연결된 모든 푸시 알림 토큰을 가져옵니다. 그런 다음 **[!UICONTROL count]** 함수로 조건을 수행하여 반환된 토큰 목록에 하나 이상의 요소가 포함되어 있는지 확인합니다.
 
@@ -81,7 +81,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 결과는 true입니다.
 
-**예 2:**
+**예제 2:**
 
 여기에서는 **[!UICONTROL count]** 함수를 사용하여 컬렉션에 푸시 알림 토큰이 있는지 확인합니다.
 
@@ -91,7 +91,8 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 그 결과는 참이 될 것이다.
 
-<!--Alternatively, you can check if there is no token in the collection:
+<!--
+Alternatively, you can check if there is no token in the collection:
 
    ```json
    count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) == 0
@@ -112,7 +113,8 @@ Note that when the condition in the **all()** function is empty, the filter will
 In both cases, the result of the expression is **3**.
 
 A query of experience events recorded on the Adobe Experience Platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which [!DNL Journey Orchestration] sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the Adobe Experience Platform. For example, when using the .all() syntax to query experience events from the Adobe Experience Platform, we recommend enforcing the exclusion of the current event (by requiring an
-earlier timestamp) in order to only consider prior events.-->
+earlier timestamp) in order to only consider prior events.
+-->
 
 >[!NOTE]
 >
@@ -125,7 +127,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 식의 결과는 **3**&#x200B;입니다.
 
-**예 3:**
+**예제 3:**
 
 여기에서는 개인이 지난 24시간 내에 어떤 연락도 받지 않았는지 확인합니다. 컬렉션의 두 요소를 기반으로 하는 두 개의 표현식을 사용하여 ExperiencePlatform 데이터 소스에서 검색된 경험 이벤트 컬렉션을 필터링합니다. 특히 이벤트의 타임스탬프는 **[!UICONTROL nowWithDelta]** 함수에서 반환된 dateTime과 비교됩니다.
 
@@ -137,7 +139,7 @@ count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
 
 두 조건과 일치하는 경험 이벤트가 없으면 결과는 true가 됩니다.
 
-**예 4:**
+**예제 4:**
 
 여기에서는 개인이 자습서를 시작할 수 있도록 푸시 알림을 트리거하기 위해 지난 7일 동안 애플리케이션을 최소 한 번 시작했는지 확인하려고 합니다.
 
@@ -149,7 +151,8 @@ count(
 )._id}) > 0
 ```
 
-<!--**"All + Count" example 4:** here we use the count function in a boolean expression to see if there is push notification tokens in the collection.
+<!--
+**"All + Count" example 4:** here we use the count function in a boolean expression to see if there is push notification tokens in the collection.
 
 `count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) > 0`
 
@@ -163,13 +166,13 @@ Alternatively, you can check if there is NO token in the collection:
 
 The result will be:
 
-`false`-->
+`false`
+-->
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]**&#x200B;은(는) 이벤트 컬렉션 및 **currentDataPackField**&#x200B;을 조작할 때만 사용할 수 있습니다.
->데이터 소스 컬렉션을 조작할 때. **[!UICONTROL all]**, **[!UICONTROL first]** 및 **[!UICONTROL last]**(으)로 컬렉션을 처리할 때
->컬렉션의 각 요소를 하나씩 반복합니다. **[!UICONTROL currentEventField]** 및 **currentDataPackField**
+>**[!UICONTROL currentEventField]**&#x200B;은(는) 이벤트 컬렉션 및 **currentDataPackField를 조작할 때만 사용할 수 있습니다.**
+>데이터 소스 컬렉션을 조작할 때. **[!UICONTROL all]**, **[!UICONTROL first]** 및 **[!UICONTROL last]**(으)로 컬렉션을 처리할 때>컬렉션의 각 요소를 하나씩 반복합니다. **[!UICONTROL currentEventField]** 및 **currentDataPackField**
 >루핑되는 요소에 해당합니다.
 
 **함수 &quot;first(`<condition>`)&quot; 및 &quot;last(`<condition>`)&quot;**
@@ -180,7 +183,7 @@ _`<listExpression>.first(<condition>)`_
 
 _`<listExpression>.last(<condition>)`_
 
-**예 1:**
+**예제 1:**
 
 이 표현식은 버전이 1.0인 모바일 애플리케이션과 연결된 첫 번째 푸시 알림 토큰을 반환합니다.
 
@@ -190,7 +193,7 @@ _`<listExpression>.last(<condition>)`_
 
 결과는 &quot;token_1&quot;입니다.
 
-**예 2:**
+**예제 2:**
 
 이 표현식은 버전이 1.0인 모바일 애플리케이션과 연결된 마지막 푸시 알림 토큰을 반환합니다.
 
@@ -207,7 +210,7 @@ _`<listExpression>.last(<condition>)`_
 >* **[!UICONTROL first]** 함수는 가장 최근 이벤트를 반환합니다.
 >* **[!UICONTROL last]** 함수는 가장 오래된 함수를 반환합니다.
 
-**예 3:**
+**예제 3:**
 
 DMA ID에 대해 0이 아닌 값이 있는 첫 번째(가장 최근) Adobe Analytics 이벤트의 값이 602와 같은지 확인합니다.
 

@@ -5,10 +5,10 @@ title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축 방법에 대한 지침을 확인할 수 있습니다.
 index: true
 feature: Journeys
-source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
+source-git-commit: 517aedc8568a9988a56fe5a0ebd08cf4bf593bb8
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '450'
+ht-degree: 87%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 100%
    + [릴리스 정보](using/release-notes/release-notes.md)
    + [설명서 업데이트](using/release-notes/documentation-updates.md)
    + [Journey Optimizer로 업그레이드](using/release-notes/upgrade-to-ajo.md)
-+ [!DNL Journey Orchestration] 시작 {#starting-with-journeys}
++ [!DNL Journey Orchestration]&#x200B;(으)로 시작 {#starting-with-journeys}
    + [ [!DNL Journey Orchestration] 정보](using/about/about-journey-orchestration.md)
    + [제한 사항](using/about/limitations.md)
-   + [시작](using/about/get-started.md)
+   + [시작하기](using/about/get-started.md)
    + [사용자 인터페이스](using/about/user-interface.md)
    + [액세스 관리](using/about/access-management.md)
    + [문제 해결](using/about/troubleshooting.md)
@@ -35,7 +35,7 @@ ht-degree: 100%
       + [이벤트 만들기](using/event/about-creating.md)
       + [Adobe Analytics 활용](using/event/about-analytics.md)
       + [ExperienceEvent 스키마 정보](using/event/experience-event-schema.md)
-      + [이벤트를 보내는 추가적인 단계](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+      + [추가적인 이벤트 전송 단계](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [페이로드 필드 정의](using/event/defining-the-payload-fields.md)
    + [네임스페이스 선택](using/event/selecting-the-namespace.md)
    + [이벤트 키 정의](using/event/defining-the-event-key.md)
@@ -58,7 +58,7 @@ ht-degree: 100%
    + [세그먼트 작성](using/segment/creating-a-segment.md)
    + [조건에서 세그먼트 사용](using/segment/using-a-segment.md)
 + 여정 구축 {#building-journeys}
-   + 여정 구축 {#about-journey-building}
+   + 여정 작성 기본 정보 {#about-journey-building}
       + [여정 만들기](using/building-journeys/journey.md)
       + [여정 디자이너 사용](using/building-journeys/using-the-journey-designer.md)
       + [속성 변경](using/building-journeys/changing-properties.md)
@@ -71,7 +71,7 @@ ht-degree: 100%
          + [이벤트 활동 정보](using/building-journeys/event-activities.md)
          + [일반 이벤트](using/building-journeys/general-events.md)
          + [반응 이벤트](using/building-journeys/reaction-events.md)
-         + [세그먼트 자격 이벤트](using/building-journeys/segment-qualification-events.md)
+         + [세그먼트 선별 이벤트](using/building-journeys/segment-qualification-events.md)
       + 오케스트레이션 활동 {#orchestration-activities}
          + [오케스트레이션 활동 정보](using/building-journeys/about-orchestration-activities.md)
          + [조건 활동](using/building-journeys/condition-activity.md)
@@ -89,7 +89,7 @@ ht-degree: 100%
    + Adobe Experience Platform과 여정 단계 공유 {#sharing-journey-steps}
       + [여정 단계 공유 개요](using/building-journeys/sharing-overview.md)
       + [단계 이벤트 필드 목록](using/building-journeys/sharing-field-list.md)
-      + 레거시 단계 이벤트 필드 {#legacy-step-event-fields}
+      + 기존 단계 이벤트 필드 {#legacy-step-event-fields}
          + [레거시 필드 정보](using/building-journeys/sharing-legacy-fields.md)
          + [journeySteps 이벤트 공통 필드](using/building-journeys/sharing-common-fields.md)
          + [journeyStep 이벤트 작업 실행 필드](using/building-journeys/sharing-execution-fields.md)
@@ -131,7 +131,7 @@ ht-degree: 100%
          + [toDuration](using/functions/functiontoduration.md)
          + [toInteger](using/functions/functiontointeger.md)
          + [toString](using/functions/functiontostring.md)
-      + 날짜 {#date}
+      + 일자 {#date}
          + [currentTime&#x200B;InMillis](using/functions/functioncurrenttimeinmillis.md)
          + [inLastDays](using/functions/functioninlastdays.md)
          + [inLastHours](using/functions/functioninlasthours.md)
@@ -188,11 +188,11 @@ ht-degree: 100%
    + [여정 보고서 정보](using/reporting/about-journey-reports.md)
    + [여정 보고서 만들기](using/reporting/creating-your-journey-reports.md)
    + [지표 및 차원](using/reporting/metrics-and-dimensions.md)
-+ 인텔리전스 서비스와 통합{#use-case-advanced}
++ Intelligent Services와 통합{#use-case-advanced}
    + [AI 통합 정보](using/ai-services/ai-services-overview.md)
    + [고객 AI 활용](using/ai-services/leveraging-customer-ai.md)
 + 사용 사례{#use-cases-journeys}
-   + 개인화된 이메일 전송{#use-case-simple}
+   + 개인화된 이메일 보내기{#use-case-simple}
       + [단순 사용 사례 정보](using/usecase/about-the-simple-use-case.md)
       + [이벤트 구성](using/usecase/configuring-the-event.md)
       + [데이터 소스 구성](using/usecase/configuring-the-data-source.md)
