@@ -5,10 +5,10 @@ title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축 방법에 대한 지침을 확인할 수 있습니다.
 index: true
 feature: Journeys
-source-git-commit: 517aedc8568a9988a56fe5a0ebd08cf4bf593bb8
+source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 87%
 + [제품 설명서](journey-orchestration-home.md)
 + 새로운 기능 {#release-notes}
    + [릴리스 정보](using/release-notes/release-notes.md)
-   + [설명서 업데이트](using/release-notes/documentation-updates.md)
-   + [Journey Optimizer로 업그레이드](using/release-notes/upgrade-to-ajo.md)
+   + {hide-from-toc}[설명서 업데이트](using/release-notes/documentation-updates.md)
+   + {hide-from-toc}[Journey Optimizer으로 업그레이드](using/release-notes/upgrade-to-ajo.md)
 + [!DNL Journey Orchestration]&#x200B;(으)로 시작 {#starting-with-journeys}
    + [&#x200B; [!DNL Journey Orchestration] 정보](using/about/about-journey-orchestration.md)
    + [제한 사항](using/about/limitations.md)

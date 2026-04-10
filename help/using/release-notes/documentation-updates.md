@@ -6,12 +6,11 @@ feature: Journeys
 role: User
 level: Beginner
 hide: true
-hidefromtoc: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
-workflow-type: ht
-source-wordcount: '992'
-ht-degree: 100%
+source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
+workflow-type: tm+mt
+source-wordcount: '994'
+ht-degree: 99%
 
 ---
 
@@ -136,7 +135,7 @@ ht-degree: 100%
 ## 2019년 12월 {#december-2019}
 
 * 인터페이스 변경 사항을 반영하여 모든 스크린샷이 업데이트되었습니다.
-* 테스트 모드 섹션이 업데이트되었습니다. [자세히 보기](../building-journeys/testing-the-journey.md)
+* 테스트 모드 섹션이 업데이트되었습니다. [자세한 내용](../building-journeys/testing-the-journey.md)
   <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=ko).-->
 * 이제는 정지된 여정을 삭제할 수 있습니다. 관련 설명서 페이지가 업데이트되었습니다.
 * 이제는 여정에서 문제가 탐지되면 두 가지 색상이 표시됩니다. 오류의 경우 빨간색, 경고의 경우에는 주황색이 표시됩니다. [자세히 보기](../about/troubleshooting.md)
