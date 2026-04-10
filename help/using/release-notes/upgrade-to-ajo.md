@@ -2,12 +2,11 @@
 title: Adobe Journey Optimizer으로 업그레이드
 description: Adobe Journey Optimizer으로 업그레이드하는 방법 알아보기
 hide: true
-hidefromtoc: true
 exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
-source-git-commit: 3e9ff02cecfe85ea38cce4b0d241156f6209202f
+source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 0%
+source-wordcount: '772'
+ht-degree: 2%
 
 ---
 
@@ -17,21 +16,21 @@ ht-degree: 0%
 
 Adobe Journey Optimizer은 모든 앱, 장치, 화면 또는 채널에서 개인화되고, 연결되며, 시기적절한 고객 여정을 조정하고 전달하기 위해 Adobe Experience Platform에 기본적으로 구축된 민첩하고 확장 가능한 애플리케이션입니다&#x200B;.
 
-## Journey Orchestration이란?
+## Journey Orchestration란?
 
-Journey Orchestration은 Adobe Experience Platform을 기반으로 구축된 서비스로, 이전 비헤이비어와 환경 설정을 기반으로 각 고객에 대한 개별 여정을 조정할 수 있습니다. Journey Orchestration은 Journey Optimizer에 대한 사전 응용 프로그램입니다.
+Journey Orchestration은 Adobe Experience Platform을 기반으로 구축된 서비스로, 이전 비헤이비어와 환경 설정을 기반으로 각 고객에 대한 개별 여정을 조정할 수 있습니다. Journey Orchestration은 Journey Optimizer의 선행 응용 프로그램입니다.
 
 ## Adobe Journey Optimizer으로 이동해야 하는 이유는 무엇입니까?
 
-여정, 데이터 세트, 프로필, 경고 등에 빠르게 액세스할 수 있는 Experience Platform 기능이 있는 **간소화된 인터페이스에 액세스**. 스키마나 데이터 세트에 액세스하기 위해 더 이상 Adobe Experience Platform과 Journey Orchestration을 왔다 갔다 할 필요가 없으므로 Adobe Journey Optimizer에서 모든 것을 직접 사용할 수 있습니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html?lang=ko)를 참조하세요.
+**간소화된 인터페이스에 액세스** Experience Platform 기능을 통해 여정, 데이터 세트, 프로필, 경고 등에 빠르게 액세스할 수 있습니다. 스키마나 데이터 세트에 액세스하기 위해 더 이상 Adobe Experience Platform과 Journey Orchestration을 왔다 갔다 할 필요가 없으므로 Adobe Journey Optimizer에서 모든 것을 직접 사용할 수 있습니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html)를 참조하세요.
 
 <table>
 <tr>
 <th>다음 이전</th>
-<th>다음 이후</th>
+<th>후</th>
 </tr>
 <tr>
-<td><img src="../assets/migration-ajo-1.png"><p>Journey Orchestration의 여정, 세그먼트 및 관리 섹션(데이터 소스, 이벤트 및 작업)에 대한 액세스 권한. 세그먼트와 데이터 세트는 Adobe Experience Platform에서 액세스할 수 있습니다. </p></td>
+<td><img src="../assets/migration-ajo-1.png"><p>Journey Orchestration의 여정, 세그먼트 및 관리 섹션(데이터 소스, 이벤트 및 작업)에 액세스합니다. 세그먼트와 데이터 세트는 Adobe Experience Platform에서 액세스할 수 있습니다. </p></td>
 <td><img src="../assets/migration-ajo-2.png"><p>여정, 세그먼트, 관리자, 세그먼트 및 데이터 세트, <strong>모두 Adobe Journey Optimizer 내</strong>에 액세스 <strong>추가 Adobe Experience Platform 기능</strong>도 여기에서 액세스할 수 있습니다.</p></td>
 </tr>
 </table>
@@ -41,7 +40,7 @@ Journey Orchestration은 Adobe Experience Platform을 기반으로 구축된 서
 <table>
 <tr>
 <th>다음 이전</th>
-<th>다음 이후</th>
+<th>후</th>
 </tr>
 <tr>
 <td><img src="../assets/migration-ajo-5.png"></td>
@@ -53,7 +52,7 @@ Journey Orchestration은 Adobe Experience Platform을 기반으로 구축된 서
 
 다른 최신 **Adobe Journey Optimizer 기능**&#x200B;과 필드 수준 액세스 제어 및 개체 수준 액세스 제어와 같은 새로운 기능을 활용하십시오. 자세한 내용은 계정 팀에 문의하십시오.
 
-## 내 Journey Orchestration 환경을 업그레이드하는 방법
+## Journey Orchestration 환경을 업그레이드하는 방법
 
 1. 계정 팀에 연락하여 Adobe과의 계약을 업데이트합니다.
 
@@ -65,9 +64,9 @@ Journey Orchestration은 Adobe Experience Platform을 기반으로 구축된 서
 
 ## 자주 묻는 질문
 
-### Journey Orchestration에서 Adobe Journey Optimizer으로 이동할 계획을 수립해야 합니까?
+### Journey Orchestration에서 Adobe Journey Optimizer으로 이동하려면 무엇을 계획해야 합니까?
 
-아니요, 마이그레이션이 필요 없으며, 작업이 필요하지 않으며, 다운타임이 없고 추가 투자도 없습니다. Adobe과의 계약만 업데이트하면 되며, 나머지는 저희가 진행합니다. 이 프로세스를 시작하는 방법에 대한 지침은 계정 담당자에게 문의하십시오.
+아니요, 마이그레이션이 필요 없으며, 작업이 필요하지 않으며, 다운타임이 없고 추가 투자도 없습니다. Adobe과의 계약만 업데이트하면 되며, 나머지 작업은 수행됩니다. 이 프로세스를 시작하는 방법에 대한 지침은 계정 담당자에게 문의하십시오.
 
 ### 제가 변경후에 물건을 잃어버릴까요?
 
@@ -76,7 +75,7 @@ Journey Orchestration은 Adobe Experience Platform을 기반으로 구축된 서
 <table>
 <tr>
 <th>다음 이전</th>
-<th>다음 이후</th>
+<th>후</th>
 </tr>
 <tr>
 <td><img src="../assets/migration-ajo-7.png"></td>
@@ -84,7 +83,7 @@ Journey Orchestration은 Adobe Experience Platform을 기반으로 구축된 서
 </tr>
 </table>
 
-### 응용 프로그램 전환기에 Journey Orchestration이 여전히 표시되는데, 정상입니까?
+### 애플리케이션 전환기에 여전히 Journey Orchestration이 보이는데, 정상입니까?
 
 ![](../assets/migration-ajo-9.png)
 
@@ -94,8 +93,8 @@ Journey Orchestration은 Adobe Experience Platform을 기반으로 구축된 서
 
 Adobe Journey Optimizer으로 이동하더라도 Adobe Journey Optimizer에서 고객 여정을 디자인하고 Adobe Campaign Standard에서 게재를 보내도록 하여 여정과 Adobe Campaign Standard 간의 통합을 사용할 수 있습니다.
 
-그러나 Adobe Journey Optimizer 보고 스택의 작동 방식으로 인해 보고는 여정 및 Campaign Standard 데이터를 결합하지 않습니다. 여정 정보는 Adobe Journey Optimizer 보고서에서 사용할 수 있고 게재 정보는 Adobe Campaign Standard에서 사용할 수 있습니다. Experience Platform을 구성하여 Adobe Campaign Standard 데이터를 Adobe Experience Platform으로 다시 가져올 수 있으므로 Customer Journey Analytics([자세히 알아보기](https://business.adobe.com/kr/products/experience-platform/customer-journey-analytics.html)) 또는 Tableau 또는 PowerBI와 같은 기타 타사 보고 도구에서 사용할 수 있습니다.
+그러나 Adobe Journey Optimizer 보고 스택의 작동 방식으로 인해 보고는 여정 및 Campaign Standard 데이터를 결합하지 않습니다. 여정 정보는 Adobe Journey Optimizer 보고서에서 사용할 수 있고 게재 정보는 Adobe Campaign Standard에서 사용할 수 있습니다. Experience Platform의 구성을 통해 Adobe Campaign Standard 데이터를 Adobe Experience Platform으로 다시 가져와 Customer Journey Analytics([자세히 알아보기](https://business.adobe.com/products/experience-platform/customer-journey-analytics.html)) 또는 Tableau 또는 PowerBI와 같은 다른 서드파티 보고 도구에서 사용할 수 있습니다.
 
-Adobe Journey Optimizer 보고서는 Adobe Journey Optimizer의 기본 메시징 기능(전용 Adobe Journey Optimizer 오퍼링에서 사용 가능)을 사용할 때 가장 잘 작동합니다. 여정 캔버스에서 메시지를 작성하는 방법에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html?lang=ko)를 참조하세요.
+Adobe Journey Optimizer 보고서는 Adobe Journey Optimizer의 기본 메시징 기능(전용 Adobe Journey Optimizer 오퍼링에서 사용 가능)을 사용할 때 가장 잘 작동합니다. 여정 캔버스에서 메시지를 작성하는 방법에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html)를 참조하세요.
 
 자세한 내용은 계정 팀에 문의하십시오.
