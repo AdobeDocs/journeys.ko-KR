@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 89%
+source-wordcount: '1390'
+ht-degree: 92%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 89%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>**Adobe Journey Optimizer를 찾고 계신가요**? [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하여 Journey Optimizer 설명서를 확인할 수 있습니다.
 >
 >
->_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+>_이 설명서는 Journey Optimizer로 대체된 이전 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
 외부 데이터 소스를 사용하면 서드파티 시스템에 대한 연결을 정의할 수 있습니다. 호텔 예약 시스템을 사용하여 특정인의 객실 투숙 여부를 확인하는 경우를 예로 들 수 있습니다. 기본 제공 Adobe Experience Platform 데이터 소스와는 달리 외부 데이터 소스는 필요한 수만큼 만들 수 있습니다.
@@ -140,7 +140,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 * tokenInResponse: 인증 호출에서 액세스 토큰을 추출하는 방법을 나타냅니다. 이 속성은 다음 중 하나일 수 있습니다.
    * &#39;response&#39;: HTTP 응답이 액세스 토큰임을 나타냅니다.
-   * json의 선택기. 응답이 json이면 XML 등의 기타 형식은 지원되지 않습니다. 이 선택기의 형식은 _json://&lt;액세스 토큰 속성의 여정>_&#x200B;입니다. 예를 들어 호출의 응답이 _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_&#x200B;이면 tokenInResponse는 _json: //access_token_&#x200B;이 됩니다.
+   * json의 선택기. 응답이 json이면 XML 등의 기타 형식은 지원되지 않습니다. 이 선택기의 형식은 _json://&lt;액세스 토큰 속성의 여정>_&#x200B;입니다. 예를 들어 호출의 응답이 _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_이면 tokenInResponse는_ json: //access_token_이 됩니다.
 
 이 인증의 형식은 다음과 같습니다.
 
