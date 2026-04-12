@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '446'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '464'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 >title="이벤트 정보"
 >abstract="특정 사용자에게 연결되는 이벤트는 한 사람의 행동 또는 한 사람과 연관되어 일어나는 일에 관한 것입니다. [!DNL Journey Orchestration]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다."
 
-특정 사용자에게 연결되는 이벤트는 이는 사람의 행동(예: 제품 구매, 매장 방문, 웹 사이트 종료 등) 또는 사람과 관련된 일(예: 로열티 포인트 10,000점 도달)과 관련이 있습니다. [!DNL Journey Orchestration]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다.
+특정 사용자에게 연결되는 이벤트는 해당 사용자의 제품 구매, 상점 방문, 웹 사이트 종료와 같은 행동과 관련된 항목일 수도 있고 또는 사용자와 관련하여 발생하는 상황입니다(예: 한 사람이 충성도 점수 10,000점에 도달). [!DNL Journey Orchestration]은 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다.
 
 [!DNL Journey Orchestration]은 이벤트를 수신하도록 설계되어 있으므로 이 구성은 **필수** 작업이며, 항상 **기술 사용자**&#x200B;가 수행해야 합니다.
 
