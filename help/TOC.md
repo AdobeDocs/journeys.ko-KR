@@ -8,7 +8,7 @@ feature: Journeys
 source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 86%
+ht-degree: 99%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 86%
    + [릴리스 정보](using/release-notes/release-notes.md)
    + {hide-from-toc}[설명서 업데이트](using/release-notes/documentation-updates.md)
    + {hide-from-toc}[Journey Optimizer으로 업그레이드](using/release-notes/upgrade-to-ajo.md)
-+ [!DNL Journey Orchestration]&#x200B;(으)로 시작 {#starting-with-journeys}
-   + [&#x200B; [!DNL Journey Orchestration] 정보](using/about/about-journey-orchestration.md)
++ [!DNL Journey Orchestration] 시작 {#starting-with-journeys}
+   + [ [!DNL Journey Orchestration] 정보](using/about/about-journey-orchestration.md)
    + [제한 사항](using/about/limitations.md)
    + [시작하기](using/about/get-started.md)
    + [사용자 인터페이스](using/about/user-interface.md)
@@ -45,7 +45,7 @@ ht-degree: 86%
    + [필드 그룹](using/datasource/field-groups.md)
    + [Adobe Experience Platform 데이터 소스](using/datasource/adobe-experience-platform-data-source.md)
    + [외부 데이터 소스](using/datasource/external-data-sources.md)
-+ 작업 구성 {#action-journeys}
++ 액션 구성 {#action-journeys}
    + [작업 정보](using/action/action.md)
    + [Adobe Campaign Standard 작업](using/action/working-with-adobe-campaign.md)
    + [Adobe Campaign v7/v8 작업](using/action/acc-action.md)
@@ -57,8 +57,8 @@ ht-degree: 86%
    + [세그먼트 정보](using/segment/about-segments.md)
    + [세그먼트 작성](using/segment/creating-a-segment.md)
    + [조건에서 세그먼트 사용](using/segment/using-a-segment.md)
-+ 여정 구축 {#building-journeys}
-   + 여정 작성 기본 정보 {#about-journey-building}
++ 여정 작성 {#building-journeys}
+   + 여정 작성 정보 {#about-journey-building}
       + [여정 만들기](using/building-journeys/journey.md)
       + [여정 디자이너 사용](using/building-journeys/using-the-journey-designer.md)
       + [속성 변경](using/building-journeys/changing-properties.md)
@@ -188,7 +188,7 @@ ht-degree: 86%
    + [여정 보고서 정보](using/reporting/about-journey-reports.md)
    + [여정 보고서 만들기](using/reporting/creating-your-journey-reports.md)
    + [지표 및 차원](using/reporting/metrics-and-dimensions.md)
-+ Intelligent Services와 통합{#use-case-advanced}
++ 인텔리전트 서비스와 통합{#use-case-advanced}
    + [AI 통합 정보](using/ai-services/ai-services-overview.md)
    + [고객 AI 활용](using/ai-services/leveraging-customer-ai.md)
 + 사용 사례{#use-cases-journeys}
@@ -197,7 +197,7 @@ ht-degree: 86%
       + [이벤트 구성](using/usecase/configuring-the-event.md)
       + [데이터 소스 구성](using/usecase/configuring-the-data-source.md)
       + [여정 구축](using/usecase/simple-uc-building-the-journey.md)
-   + 크로스 채널 여정 구축{#use-case-advanced}
+   + 크로스 채널 여정 작성{#use-case-advanced}
       + [고급 사용 사례 정보](using/usecase/about-the-advanced-use-case.md)
       + [이벤트 구성](using/usecase/configuring-the-events.md)
       + [데이터 소스 구성](using/usecase/configuring-the-data-sources.md)
