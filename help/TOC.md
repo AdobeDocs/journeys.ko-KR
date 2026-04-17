@@ -20,7 +20,7 @@ ht-degree: 99%
    + {hide-from-toc}[설명서 업데이트](using/release-notes/documentation-updates.md)
    + {hide-from-toc}[Journey Optimizer으로 업그레이드](using/release-notes/upgrade-to-ajo.md)
 + [!DNL Journey Orchestration] 시작 {#starting-with-journeys}
-   + [ [!DNL Journey Orchestration] 정보](using/about/about-journey-orchestration.md)
+   + [&#x200B; [!DNL Journey Orchestration] 정보](using/about/about-journey-orchestration.md)
    + [제한 사항](using/about/limitations.md)
    + [시작하기](using/about/get-started.md)
    + [사용자 인터페이스](using/about/user-interface.md)
