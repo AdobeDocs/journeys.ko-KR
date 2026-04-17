@@ -1,11 +1,10 @@
 ---
-product: adobe campaign
 user-guide-title: Journey Orchestration
 title: Journey Orchestration 안내서
 user-guide-description: 여정 구현 및 구축 방법에 대한 지침을 확인할 수 있습니다.
 index: true
 feature: Journeys
-source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
+source-git-commit: 3d103df093f77f0dabee9a291eb999f959f3180f
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 99%
@@ -21,7 +20,7 @@ ht-degree: 99%
    + {hide-from-toc}[설명서 업데이트](using/release-notes/documentation-updates.md)
    + {hide-from-toc}[Journey Optimizer으로 업그레이드](using/release-notes/upgrade-to-ajo.md)
 + [!DNL Journey Orchestration] 시작 {#starting-with-journeys}
-   + [&#x200B; [!DNL Journey Orchestration] 정보](using/about/about-journey-orchestration.md)
+   + [ [!DNL Journey Orchestration] 정보](using/about/about-journey-orchestration.md)
    + [제한 사항](using/about/limitations.md)
    + [시작하기](using/about/get-started.md)
    + [사용자 인터페이스](using/about/user-interface.md)
