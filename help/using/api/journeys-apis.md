@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '925'
 ht-degree: 83%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 83%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>**Adobe Journey Optimizer를 찾고 계신가요**? [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하여 Journey Optimizer 설명서를 확인할 수 있습니다.
 >
 >
->_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+>_이 설명서는 Journey Optimizer로 대체된 이전 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
 ## 상한 설정 및 Throttling API 정보
@@ -33,7 +33,7 @@ ht-degree: 83%
 
 여정이 API를 호출할 때마다 호출은 API 엔진을 통과합니다. 이때 API에서 설정한 제한에 도달한 경우 API 엔진은 호출을 거부하거나(Capping API를 사용하는 경우), 호출을 최대 6시간까지 큐에 보관했다가 최대한 빨리 수신한 순서대로 처리합니다(Throttling API를 사용하는 경우).
 
-예를 들어 외부 시스템에 대해 초당 100개의 호출 제한 또는 제한 규칙을 정의했다고 가정해 보겠습니다. 서로 다른 여정 10개에서 사용자 정의 작업이 이 시스템을 호출합니다. 한 여정에서 초당 200회의 호출을 수신하는 경우 이 여정은 지금 사용할 수 있는 100회의 호출 처리 슬롯을 사용하고 나머지 100회는 무시하거나 큐로 보냅니다. 최대 처리량을 초과했으므로 다른 9개의 여정에는 호출을 처리할 슬롯이 남아 있지 않습니다. 이런 단위 설정을 통해 외부 시스템을 과부하 및 충돌으로부터 보호할 수 있습니다.
+예를 들어 외부 시스템에 대해 초당 100개의 호출 제한 또는 제한 규칙을 정의했다고 가정해 보겠습니다. 서로 다른 여정 10개에서 사용자 정의 작업이 이 시스템을 호출합니다. 한 여정에서 초당 200회의 호출을 수신하는 경우 이 여정은 지금 사용할 수 있는 100회의 호출 처리 슬롯을 사용하고 나머지 100회는 무시하거나 큐로 보냅니다. 최대 처리량을 초과했으므로 다른 9개의 여정에는 호출을 처리할 슬롯이 남아 있지 않습니다. 이러한 세부성 설정을 통해 외부 시스템을 과부하와 충돌로부터 보호할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -56,11 +56,11 @@ ht-degree: 83%
 >
 >데이터 소스에서 해당 데이터 소스에 사용한 것과 다른 엔드포인트를 사용하는 사용자 정의 인증을 사용하는 경우에는 Adobe 문의를 통해 해당 엔드포인트도 허용 목록에 추가해야 합니다.
 
-**사용자 정의 작업**&#x200B;을 구성할 때는 외부 API의 용량을 예상해야 합니다. 예를 들어 Journey Optimizer가 초당 1000개의 호출을 보내는데 시스템은 초당 100개의 호출만 지원할 수 있는 경우 시스템이 포화되지 않도록 상한 설정이나 스로틀링 구성을 정의해야 합니다. [작업을 구성하는 방법 알아보기](../action/action.md)
+**사용자 정의 작업**&#x200B;을 구성할 때는 외부 API의 용량을 평가해야 합니다. 예를 들어 Journey Optimizer가 초당 1000개의 호출을 보내는데 시스템은 초당 100개의 호출만 지원할 수 있는 경우 시스템이 포화되지 않도록 상한 설정이나 스로틀링 구성을 정의해야 합니다. [작업을 구성하는 방법 알아보기](../action/action.md)
 
 ## API 액세스 설정 {#api}
 
-[!DNL Journey Orchestration] 인스턴스에 이런 API를 사용하려면 Adobe I/O Console을 사용해야 합니다. [!DNL Journey Orchestration] API 액세스는 아래 단계를 통해 설정할 수 있습니다. 각 단계에 대한 자세한 설명은 [Adobe I/O 설명서](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)에서 확인할 수 있습니다.
+[!DNL Journey Orchestration] 인스턴스에서 이러한 API를 사용하려면 AdobeI/O 콘솔을 사용해야 합니다. [!DNL Journey Orchestration] API 액세스는 아래 단계를 통해 설정됩니다. 각 단계에 대한 자세한 설명은 [Adobe I/O 설명서](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)에서 확인할 수 있습니다.
 
 >[!CAUTION]
 >
@@ -71,12 +71,9 @@ ht-degree: 83%
 
 >[!CAUTION]
 >
->액세스 토큰을 생성하기 위한 JWT 메서드가 더 이상 사용되지 않습니다. 모든 새 통합은 [OAuth 서버 간 인증 방법](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ko#select-oauth-server-to-server)을 사용하여 만들어야 합니다. Adobe은 또한 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다.
+>액세스 토큰을 생성하기 위한 JWT 메서드가 더 이상 사용되지 않습니다. 모든 새 통합은 [OAuth 서버 간 인증 방법](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server)을 사용하여 만들어야 합니다. 또한 Adobe 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다.
 >
->다음 중요 설명서를 참조하십시오.
->[JWT에서 OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)&#x200B;(으)로 애플리케이션에 대한 마이그레이션 안내서,
->[OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)을(를) 사용하는 새 응용 프로그램과 이전 응용 프로그램에 대한 구현 안내서,
->[OAuth 서버 간 자격 증명 메서드 &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)을(를) 사용할 때의 이점
+>다음 중요 설명서를 참조하십시오.JWT에서 OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)&#x200B;(으)로 애플리케이션에 대한 마이그레이션 안내서,OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)을(를) 사용하는 새 응용 프로그램과 이전 응용 프로그램에 대한 구현 안내서,OAuth 서버 간 자격 증명 메서드 ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)을(를) 사용할 때의 이점
 
 서비스 간 Adobe I/O API 세션을 안전하게 구성하기 위해, Adobe 서비스에 대한 모든 요청의 인증 헤더에 아래 정보를 포함해야 합니다.
 
