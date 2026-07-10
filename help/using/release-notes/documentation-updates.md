@@ -7,17 +7,16 @@ role: User
 level: Beginner
 hide: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 331d2797093c7287c317fd398c74e04613896f01
+source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1001'
 ht-degree: 100%
 
 ---
 
 # 설명서 업데이트
 
-이 페이지에는 [!DNL Journey Orchestration]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
-[!DNL Journey Orchestration] [릴리스 정보](../release-notes/release-notes.md)도 확인할 수 있습니다.
+이 페이지에는 [!DNL Journey Orchestration]의 설명서 업데이트 내용이 모두 포함되어 있습니다.[!DNL Journey Orchestration] [릴리스 정보](../release-notes/release-notes.md)도 확인할 수 있습니다.
 
 ## 2022년 7월 {#july-2022}
 
@@ -40,15 +39,10 @@ ht-degree: 100%
 ## 2021년 9월
 
 * 함수 페이지 업데이트: [sethours](../functions/functionsethours.md), [getListItem](../functions/functiongetlistitem.md), [inSegment](../functions/functioninsegment.md)
-
 * 함수 추가: [filter](../functions/functionfilter.md), [intersect](../functions/functionintersect.md), [toDateOnly](../functions/functiontodateonly.md)
-
 * 표현식 편집기 설명서에 dateOnly 날짜 유형을 추가했습니다. [자세히 보기](../expression/data-types.md)
-
 * 사용자 지정 작업 캐시 지속 시간에 대해 자세한 정보를 추가했습니다. [자세히 보기](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
-
 * 사용자 지정 작업 기본 포트에 대한 정보를 추가했습니다. [자세히 보기](../action/url-configuration.md)
-
 * 데이터 레이크의 여정 단계 이벤트 쿼리에 대해 많이 쓰이는 사례를 추가했습니다. [자세히 보기](../building-journeys/query-examples.md)
 
 ## 2021년 8월
@@ -135,8 +129,7 @@ ht-degree: 100%
 ## 2019년 12월 {#december-2019}
 
 * 인터페이스 변경 사항을 반영하여 모든 스크린샷이 업데이트되었습니다.
-* 테스트 모드 섹션이 업데이트되었습니다. [자세히 보기](../building-journeys/testing-the-journey.md)
-  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=ko).-->
+* 테스트 모드 섹션이 업데이트되었습니다. [자세히 보기  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * 이제는 정지된 여정을 삭제할 수 있습니다. 관련 설명서 페이지가 업데이트되었습니다.
 * 이제는 여정에서 문제가 탐지되면 두 가지 색상이 표시됩니다. 오류의 경우 빨간색, 경고의 경우에는 주황색이 표시됩니다. [자세히 보기](../about/troubleshooting.md)
 * 고급 표현식 편집기 섹션이 업데이트되었습니다. [자세히 보기](../expression/expressionadvanced.md).
