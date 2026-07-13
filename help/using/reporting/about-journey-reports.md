@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 1%
+source-wordcount: '796'
+ht-degree: 7%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>**Adobe Journey Optimizer를 찾고 계신가요**? [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하여 Journey Optimizer 설명서를 확인할 수 있습니다.
 >
 >
->_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+>_이 설명서는 Journey Optimizer로 대체된 이전 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
 
@@ -70,8 +70,7 @@ ht-degree: 1%
 
 ## 여정 요약 템플릿 {#ootb-template}
 
-보고서는 기본 제공 템플릿과 사용자 정의 보고서의 두 가지 범주로 나뉩니다.
-기본 제공 템플릿 **[!UICONTROL Journey summary]**&#x200B;을(를) 통해 가장 중요한 추적 데이터를 명확하게 볼 수 있습니다.
+보고서는 기본 제공 템플릿과 사용자 정의 보고서의 두 가지 범주로 나뉩니다.기본 제공 템플릿 **[!UICONTROL Journey summary]**&#x200B;을(를) 통해 가장 중요한 추적 데이터를 명확하게 볼 수 있습니다.
 
 ![](../assets/dynamic_report_journey_8.png)
 
