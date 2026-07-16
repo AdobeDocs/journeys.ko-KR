@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 5%
+source-wordcount: '1492'
+ht-degree: 9%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>**Adobe Journey Optimizer를 찾고 계신가요**? [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하여 Journey Optimizer 설명서를 확인할 수 있습니다.
 >
 >
->_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+>_이 설명서는 Journey Optimizer로 대체된 이전 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
 여정 홈 메뉴를 통해 **여정 목록**&#x200B;을 볼 수 있습니다. 새 여정을 만들거나 기존 여정을 클릭하여 **사용자 디자이너의 인터페이스를 엽니다**. 디자이너는 팔레트, 캔버스 및 활동 구성 창의 영역으로 구성됩니다.
@@ -118,10 +118,10 @@ ht-degree: 5%
 활동을 복사/붙여넣는 단계는 다음과 같습니다.
 
 1. 여정을 엽니다.
-1. 을(를) 클릭하는 동안 마우스를 이동하여 복사할 활동을 선택합니다. **Ctrl/Command** 키를 누른 채 각 활동을 클릭할 수도 있습니다. 모든 활동을 선택하려면 **Ctrl/Command+A**&#x200B;를 사용하십시오.
+1. 을(를) 클릭하는 동안 마우스를 이동하여 복사할 활동을 선택합니다. **Ctrl/Command** 키를 누른 채 각 활동을 클릭할 수도 있습니다. 모든 활동을 선택하려면 **Ctrl/Command+A**를 사용하십시오.
    ![](../assets/copy-paste1.png)
-1. **Ctrl/Command + C**&#x200B;을 누릅니다.
+1. **Ctrl/Command + C**을 누릅니다.
 한 개의 활동만 복사하려는 경우 해당 활동을 클릭하고 활동 구성 창의 왼쪽 상단에 있는 **복사** 아이콘을 사용할 수 있습니다.
    ![](../assets/copy-paste2.png)
-1. 모든 여정에서 **Ctrl/Command+V**&#x200B;을 눌러 기존 노드에 연결하지 않고 활동을 붙여 넣습니다. 붙여넣은 활동은 동일한 순서로 배치됩니다. 붙여넣기 후에는 쉽게 이동할 수 있도록 활동이 선택된 상태로 유지됩니다. 빈 자리 표시자에 커서를 놓고 **Ctrl/Command + V**&#x200B;을 누를 수도 있습니다. 붙여넣은 활동은 노드에 연결됩니다.
+1. 모든 여정에서 **Ctrl/Command+V**&#x200B;을 눌러 기존 노드에 연결하지 않고 활동을 붙여 넣습니다. 붙여넣은 활동은 동일한 순서로 배치됩니다. 붙여넣기 후에는 쉽게 이동할 수 있도록 활동이 선택된 상태로 유지됩니다. 빈 자리 표시자에 커서를 놓고 **Ctrl/Command + V**을 누를 수도 있습니다. 붙여넣은 활동은 노드에 연결됩니다.
    ![](../assets/copy-paste3.png)
