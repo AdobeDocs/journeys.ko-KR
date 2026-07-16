@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 83%
+source-wordcount: '933'
+ht-degree: 88%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 83%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>**Adobe Journey Optimizer를 찾고 계신가요**? [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하여 Journey Optimizer 설명서를 확인할 수 있습니다.
 >
 >
->_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+>_이 설명서는 Journey Optimizer로 대체된 이전 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
 
@@ -34,7 +34,7 @@ Admin Console에 액세스할 수 있는 관리자가 관리할 수 있습니다
 [!DNL Journey Orchestration]에 액세스할 수 있는 사용자의 자격은 다음과 같습니다.
 
 * [!DNL Journey Orchestration] 권한과 연관된 [!DNL Journey Orchestration] **[!UICONTROL product profile]**&#x200B;에 속해 있어야 합니다.
-* [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**&#x200B;에 속해 있어야 합니다. 갖고 있어야 하는 필수 권한은 없습니다. [!DNL Journey Orchestration] 인터페이스에서 플랫폼 세그먼트를 만들고 편집하려면 사용자에게 **[!UICONTROL profile management]** 권한이 있어야 합니다. 자세한 내용은 이 [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko#adobe-admin-console)페이지를 참조하십시오.
+* [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**&#x200B;에 속해 있어야 합니다. 갖고 있어야 하는 필수 권한은 없습니다. [!DNL Journey Orchestration] 인터페이스에서 플랫폼 세그먼트를 만들고 편집하려면 사용자에게 **[!UICONTROL profile management]** 권한이 있어야 합니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko#adobe-admin-console)를 참조하십시오.
 
 Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에게 할당할 수 있습니다.
 
@@ -93,7 +93,7 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 
    ![](../assets/do-not-localize/user_management_1.png)
 
-1. 새 제품 프로필을 선택하여 권한 관리를 시작합니다. **[!UICONTROL Users]** 탭에서 사용자를 제품 프로필에 추가합니다. 자세한 내용은 이 [&#128279;](../about/access-management.md#assigning-product-profile)페이지를 참조하십시오.
+1. 새 제품 프로필을 선택하여 권한 관리를 시작합니다. **[!UICONTROL Users]** 탭에서 사용자를 제품 프로필에 추가합니다. 자세한 정보는 이 [페이지](../about/access-management.md#assigning-product-profile)를 참조하십시오.
 
 1. 위의 설명과 동일한 단계를 수행하여 **[!UICONTROL Admin]**&#x200B;을 제품 프로필에 추가합니다.
 
@@ -133,9 +133,9 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 
    ![](../assets/do-not-localize/user_management_2.png)
 
-1. **[!UICONTROL Add user]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Add user]** 아이콘을 클릭합니다.
 
-   새 사용자를 사용자 그룹에 추가하여 공유 권한 집합을 세부 조정할 수도 있습니다. 자세한 내용은 이 [&#128279;](https://helpx.adobe.com/kr/enterprise/using/user-groups.html)페이지를 참조하십시오.
+   새 사용자를 사용자 그룹에 추가하여 공유 권한 집합을 세부 조정할 수도 있습니다. 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/enterprise/using/user-groups.html)를 참조하십시오.
 
    ![](../assets/do-not-localize/user_management_3.png)
 
@@ -151,6 +151,6 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 샌드박스는 Admin Console에서 제품 프로필을 통해 할당됩니다. 샌드박스를 할당하는 방법에 대한 자세한 내용은 이 [섹션](../about/access-management.md#create-product-profile)을 참조하십시오.
 
 [!DNL Journey Orchestration] (은)는 해당 조직을 위해 만들어진 Adobe Experience Platform 샌드박스를 반영합니다.
-Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. 자세한 단계는 [샌드박스 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko)를 참조하십시오.
+Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. 자세한 단계는 [샌드박스 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko-KR)를 참조하십시오.
 
 화면의 왼쪽 상단에 샌드박스 전환기 컨트롤이 있습니다. 한 샌드박스에서 다른 샌드박스로 전환하려면 전환기에서 현재 활성 샌드박스를 클릭하고 드롭다운 목록에서 다른 샌드박스를 선택하십시오.
