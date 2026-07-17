@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 2%
+source-wordcount: '482'
+ht-degree: 17%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>**Adobe Journey Optimizer를 찾고 계신가요**? [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하여 Journey Optimizer 설명서를 확인할 수 있습니다.
 >
 >
->_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+>_이 설명서는 Journey Optimizer로 대체된 이전 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
 ## 용도 {#purpose}
@@ -40,8 +40,8 @@ ht-degree: 2%
 
 * 이 사람이 충성도 멤버가 아닌 경우 충성도 멤버십 오퍼에 참여하기 위해 이메일을 보냅니다.
 * 이 사람이 이미 충성도 멤버인 경우 룸 예약이 있는지 확인합니다.
-   * 그렇지 않으면 객실 요금과 함께 푸시 알림을 보내드립니다.
-   * 푸시 알림이 있으면 환영 푸시 알림을 보냅니다. 그리고 앞으로 6시간 이내에 식당에 들어오면 식사 할인이 포함된 푸시 알림을 보냅니다.
+  * 그렇지 않으면 객실 요금과 함께 푸시 알림을 보내드립니다.
+  * 푸시 알림이 있으면 환영 푸시 알림을 보냅니다. 그리고 앞으로 6시간 이내에 식당에 들어오면 식사 할인이 포함된 푸시 알림을 보냅니다.
 
 ![](../assets/journeyuc2_29.png)
 
@@ -55,7 +55,7 @@ ht-degree: 2%
 * 두 조건(충성도 멤버십 및 마지막 연락 날짜)에 대한 정보와 메시지 개인화 정보를 검색할 수 있는 기본 제공 Adobe Experience Platform 데이터 소스입니다.
 * 호텔 예약 시스템, 예약 상태 정보 검색.
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 사용 사례에서는 세 가지 Adobe Campaign Standard 트랜잭션 메시지 템플릿을 디자인했습니다. 이벤트 트랜잭션 메시지 템플릿을 사용하고 있습니다. 이 [페이지](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko)를 참조하세요.
 

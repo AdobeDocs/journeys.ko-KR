@@ -7,8 +7,8 @@ role: User
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '426'
+workflow-type: tm+mt
+source-wordcount: '458'
 ht-degree: 100%
 
 ---
@@ -26,16 +26,16 @@ ht-degree: 100%
 
 이벤트 또는 데이터 소스에 저장된 컨텍스트 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 구축합니다.
 
-[!DNL Journey Orchestration]은(는) Adobe Experience Platform과 통합된 애플리케이션 서비스입니다. 
+[!DNL Journey Orchestration]은(는) Adobe Experience Platform과 통합된 애플리케이션 서비스입니다.
 
 [!DNL Journey Orchestration]에서는 이벤트, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 활용한 실시간 오케스트레이션이 가능합니다. 서드파티 시스템을 사용하여 메시지를 보내는 경우에는 사용자 지정 작업을 구성할 수 있습니다. Adobe Campaign Standard가 설치되어 있다면 Adobe Campaign Standard의 [트랜잭션 메시지 기능](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko)을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.
 
-이벤트 구성 탭에서 **기술 사용자**&#x200B;는 여정에서 예상되는 이벤트를 구성합니다. 수신되는 이벤트 데이터는 Adobe 경험 데이터 모델(XDM)에 따라 표준화됩니다. 이벤트는 인증된 이벤트와 인증되지 않은 이벤트(예: Adobe Mobile SDK 이벤트)를 위한 수집 API 스트리밍에서 옵니다.
+이벤트 구성 탭에서 **기술 사용자**&#x200B;는 여정에서 예상되는 이벤트를 구성합니다. 수신되는 이벤트 데이터는 Adobe Experience 데이터 모델(XDM)에 따라 표준화됩니다. 이벤트는 인증된 이벤트와 인증되지 않은 이벤트(예: Adobe Mobile SDK 이벤트)를 위한 수집 API 스트리밍에서 옵니다.
 
 데이터 소스 구성 탭에서 **기술 사용자**&#x200B;는 다음을 구성합니다.
 
 * 조건 작성 및 개인화를 위해 여정 디자이너에서 Adobe Experience Platform으로부터 노출되는 다양한 필드.
-* 여정 디자이너에서 활용하는 추가적인 사용자 지정 데이터 소스. 사용자 지정 데이터 소스는 API를 통해 이루어지는 [!DNL Journey Orchestration] 및 서드파티 시스템 또는 서비스의 연결입니다. 충성도 시스템과 같은 서드파티 시스템을 연결할 수 있습니다. 예를 들어 날씨 API와 같은 서드파티 서비스가 있을 수 있습니다.
+* 여정 디자이너에서 활용하는 추가적인 사용자 지정 데이터 소스. 사용자 지정 데이터 소스는 API를 통해 이루어지는 [!DNL Journey Orchestration] 및 서드파티 시스템 또는 서비스의 연결입니다. 로열티 시스템과 같은 서드파티 시스템을 연결할 수 있습니다. 예를 들어 날씨 API와 같은 서드파티 서비스가 있을 수 있습니다.
 
 여정 디자이너를 통해 **비즈니스 사용자**&#x200B;는 손쉽게 항목 이벤트를 끌어서 놓고, 조건을 추가하고, 수행할 작업을 지정할 수 있습니다.
 

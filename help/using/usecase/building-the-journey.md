@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 85%
+source-wordcount: '912'
+ht-degree: 90%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 85%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>**Adobe Journey Optimizer를 찾고 계신가요**? [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하여 Journey Optimizer 설명서를 확인할 수 있습니다.
 >
 >
->_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+>_이 설명서는 Journey Optimizer로 대체된 이전 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
 이제 **비즈니스 사용자**&#x200B;가 여정을 구축할 수 있습니다. 여정은 다음과 같은 활동을 포함합니다.
 
 * 두 가지 **[!UICONTROL Event]** 활동: &quot;LobbyBeacon&quot; 및 &quot;RestaurantBeacon&quot;
-* 두 가지 **[!UICONTROL Condition]** 활동 
+* 두 가지 **[!UICONTROL Condition]** 활동
 * 세 가지 **[!UICONTROL Push]** 활동 및 한 가지 **[!UICONTROL Email]** 활동(Adobe Campaign Standard 사용)
 * **[!UICONTROL Wait]** 활동
-* 네 가지 **[!UICONTROL End]** 활동 
+* 네 가지 **[!UICONTROL End]** 활동
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ ht-degree: 85%
 
    ![](../assets/journeyuc2_14.png)
 
-1. **[!UICONTROL Data Source Condition]** 유형을 선택하고 **[!UICONTROL Expression]** 필드를 클릭합니다. 캔버스에서 화살표에 나타날 조건 레이블을 정의할 수도 있습니다. 이 예에서는 &quot;조건 1&quot;을 &quot;충성도 멤버&quot;로 바꿉니다.
+1. **[!UICONTROL Data Source Condition]** 유형을 선택하고 **[!UICONTROL Expression]** 필드를 클릭합니다. 캔버스에서 화살표에 나타날 조건 레이블을 정의할 수도 있습니다. 이 예에서는 &quot;조건 1&quot;을 &quot;로열티 멤버&quot;로 바꿉니다.
 
    ![](../assets/journeyuc2_15.png)
 
@@ -72,7 +72,7 @@ ht-degree: 85%
 
    ![](../assets/journeyuc2_30.png)
 
-1. **[!UICONTROL Add a path]** 버튼을 클릭하고 지난 24시간 동안 연락을 하지 않았고 충성도 멤버가 아닌 고객을 위한 두 번째 경로를 만듭니다. 경로 이름을 &quot;충성도 멤버 아님&quot;으로 지정합니다. 표현식의 구문은 다음과 같습니다.
+1. **[!UICONTROL Add a path]** 버튼을 클릭하고 지난 24시간 동안 연락을 하지 않았고 충성도 멤버가 아닌 고객을 위한 두 번째 경로를 만듭니다. 경로 이름을 &quot;로열티 멤버 아님&quot;으로 지정합니다. 표현식의 구문은 다음과 같습니다.
 
    ```
    count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
@@ -149,7 +149,7 @@ ht-degree: 85%
 
    ![](../assets/journeyuc2_23.png)
 
-1. 새 **[!UICONTROL Push]** 활동을 추가하고 &quot;식사 할인&quot; 템플릿을 선택하고 **[!UICONTROL Address]** 및 **[!UICONTROL Personalization]** 필드를 정의합니다. **[!UICONTROL End]** 활동을 추가합니다. 
+1. 새 **[!UICONTROL Push]** 활동을 추가하고 &quot;식사 할인&quot; 템플릿을 선택하고 **[!UICONTROL Address]** 및 **[!UICONTROL Personalization]** 필드를 정의합니다. **[!UICONTROL End]** 활동을 추가합니다.
 
    ![](../assets/journeyuc2_24.png)
 
