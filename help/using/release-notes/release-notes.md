@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
-workflow-type: ht
-source-wordcount: '4452'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '4593'
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 * **초안** 상태와 **라이브** 상태 사이의 **게시 중** 상태
 * **라이브** 상태와 **정지됨** 상태 사이의 **멈추는 중** 상태
-* **초안** 상태와 **초안(테스트)** 상태 사이의 **테스트 모드 활성화 중** 또는 **테스트 모드 비활성화 중** 
+* **초안** 상태와 **초안(테스트)** 상태 사이의 **테스트 모드 활성화 중** 또는 **테스트 모드 비활성화 중**
 
 여정이 중간 상태일 때는 읽기 전용입니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter){target="_blank"}
 
@@ -68,8 +68,8 @@ ht-degree: 100%
 * 작업과 데이터 소스, 이벤트 및 여정에 표시되는 구성 창의 레이아웃을 개선했습니다.
 * 이제 사용자 정의 작업에서 정적 또는 동적 쿼리 매개 변수를 정의할 수 있습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=ko#url-configuration){target="_blank"}를 참조하십시오.
 * 여정을 통해 제공하는 경험의 증가량을 관리할 수 있는 새로운 가드레일:
-   * 여정의 성능과 가독성, QA, 문제 해결을 위해 노드 수를 50개 이하로 제한하는 것이 좋습니다. 활동 수는 여정 캔버스의 왼쪽 위 섹션에 표시됩니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko#journeys-guardrails-journeys){target="_blank"}를 참조하십시오
-   * 여정을 개발하고 시작한 뒤 한 번에 100개의 실시간 여정을 실행하는 마일스톤에 도달하면 알림을 보내 드리겠습니다. 기획에 한 번에 100개가 넘는 여정이 필요한 경우 알림을 확인한 뒤 지원 티켓을 개설해 주시면 Adobe가 도와 드리겠습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko#journeys-guardrails-journeys){target="_blank"}를 참조하십시오
+  * 여정의 성능과 가독성, QA, 문제 해결을 위해 노드 수를 50개 이하로 제한하는 것이 좋습니다. 활동 수는 여정 캔버스의 왼쪽 위 섹션에 표시됩니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko#journeys-guardrails-journeys){target="_blank"}를 참조하십시오
+  * 여정을 개발하고 시작한 뒤 한 번에 100개의 실시간 여정을 실행하는 마일스톤에 도달하면 알림을 보내 드리겠습니다. 기획에 한 번에 100개가 넘는 여정이 필요한 경우 알림을 확인한 뒤 지원 티켓을 개설해 주시면 Adobe가 도와 드리겠습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko#journeys-guardrails-journeys){target="_blank"}를 참조하십시오
 
 ## 2023년 3월 릴리스 {#mar-2023}
 
@@ -129,7 +129,7 @@ ht-degree: 100%
 
 * **여정 종료** - 여정 캔버스에서 **종료** 활동이 팔레트에서 제거되었습니다. 이제 종료 태그가 각 경로 끝에 기본적으로 추가되므로 제거할 수 없습니다. 이 개선 사항을 통해 고객이 여정에서 드롭된 위치를 여정 전문가의 작업 없이 더 잘 보고할 수 있습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html?lang=ko){target="_blank"}를 참조하십시오.
 
-* 이제 여정 속성에서 **프로필 시간대** 옵션이 기본적으로 선택되지 않습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=ko#timezone-from-profiles){target="_blank"}.
+* 이제 여정 속성에서 **프로필 시간대** 옵션이 기본적으로 선택되지 않습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=ko#timezone-from-profiles){target="_blank"}
 
 ## 2022년 5월 릴리스 {#may-2022-release}
 
@@ -316,7 +316,7 @@ Adobe Campaign Standard SLA에 맞추기 위해 이제 Adobe Campaign Standard �
 <tbody>
 <tr>
 <td>
-<p>새 작업 활동을 사용하면 한 여정에서 다른 여정으로 개인 사용자를 푸시할 수 있습니다. <strong>Jump</strong> 활동을 통해 다음을 수행할 수 있습니다.
+<p>새 작업 활동을 사용하면 한 여정에서 다른 작업 영역으로 개인을 푸시할 수 있습니다. <strong>Jump</strong> 활동을 통해 다음을 수행할 수 있습니다.
 </p>
 <ul>
 <li>여러 개로 분할하여 매우 복잡한 여정의 디자인을 간소화 </li>
@@ -337,7 +337,7 @@ Adobe Campaign Standard SLA에 맞추기 위해 이제 Adobe Campaign Standard �
 <tbody>
 <tr>
 <td>
-<p>고급 표현식 편집기에서 필드 및 함수 목록에 새 카테고리를 추가했습니다. 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정 시스템에서 검색한 정보입니다. 여정을 구축하면 가능성이 높아집니다. 예를 들어 조건이나 작업에서 오류가 발생한 경우 서드파티 시스템에 경고할 수 있습니다.
+<p>고급 표현식 편집기에서 필드 및 함수 목록에 새 카테고리를 추가했습니다. 이는 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정에서 시스템이 검색한 정보입니다. 이렇게 하면 여정을 작성할 때 더 많은 가능성을 얻을 수 있습니다. 예를 들어 조건이나 작업에서 오류가 발생한 경우 서드파티 시스템에 경고할 수 있습니다.
 </p>
 <p>자세한 내용은 <a href="../expression/journey-properties.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -354,7 +354,7 @@ Adobe Campaign Standard SLA에 맞추기 위해 이제 Adobe Campaign Standard �
 <tbody>
 <tr>
 <td>
-<p>이제 eventID를 사용하지 않고 이벤트를 보다 쉽게 설정하는 새로운 방법을 사용할 수 있습니다. 규칙 기반 이벤트는 조건에 따라 이벤트를 트리거해야 하는지 여부를 평가합니다. "시스템 생성"이라는 기존 방법을 계속 사용할 수 있습니다. 알파 프로그램을 통해 제한된 고객 집합에서 테스트한 이 기능은 이제 모든 고객에게 베타 버전으로 제공됩니다.
+<p>이제 eventID를 사용하지 않고 이벤트를 보다 쉽게 설정하는 새로운 방법을 사용할 수 있습니다. 규칙 기반 이벤트는 조건에 따라 이벤트를 트리거해야 하는지 여부를 평가합니다. 이제 "시스템 생성"이라는 기존 메서드를 계속 사용할 수 있습니다. Alpha 프로그램을 통해 제한된 고객 집합에서 테스트한 이 기능은 이제 모든 고객이 Beta에서 사용할 수 있습니다.
 </p>
 </td>
 </tr>
@@ -378,7 +378,7 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 <tbody>
 <tr>
 <td>
-<p>이제 여정이 특정 시간 동안에만 이벤트를 수신하도록 하기 위해 이벤트에 대한 시간 제한을 구성할 수 있습니다. 이를 위해 더 이상 이벤트 여정을 동시에 대기 활동을 추가할 필요가 없습니다.
+<p>이제 여정이 특정 시간 동안에만 이벤트를 수신하도록 하기 위해 이벤트에 대한 시간 제한을 구성할 수 있습니다. 이를 위해 더 이상 이벤트 경로와 동시에 대기 활동을 추가할 필요가 없습니다.
 </p>
 <p>자세한 내용은 <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -526,7 +526,7 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 <tbody>
 <tr>
 <td>
-<p>세그먼트 트리거 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정을 시작할 수 있습니다. 여정의 시작은 한 번 또는 정기적으로 실행될 수 있습니다. 
+<p>여정 트리거 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 세그먼트를 입력하도록 할 수 있습니다. 여정 시작은 한 번 또는 정기적으로 실행될 수 있습니다. 
 </p>
 </td>
 </tr>
@@ -542,7 +542,7 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 <tbody>
 <tr>
 <td>
-<p>경험 이벤트를 설정하는 방법을 간소화했습니다. eventID를 사용할 필요가 없는 새 메서드가 도입되었습니다. 이제 Journey Orchestration에서 이벤트를 설정할 때 규칙 기반 이벤트를 정의할 수 있습니다. <a href="../event/about-events.md">자세히 보기</a>
+<p>경험 이벤트를 설정하는 방법을 간소화했습니다. eventID를 사용할 필요가 없는 새로운 메서드를 도입하고 있습니다. 이제 Journey Orchestration에서 이벤트를 설정할 때 규칙 기반 이벤트를 정의할 수 있습니다. <a href="../event/about-events.md">자세히 보기</a>
 </p>
 </td>
 </tr>
@@ -633,7 +633,7 @@ Journey Orchestration 인터페이스를 일본어로 사용할 수 있습니다
 <li>이제는 여정 하나에서 여러 이벤트를 사용할 때 테스트 모드의 <strong>이벤트 구성</strong> 화면 내 드롭다운 목록에서 각 이벤트를 개별적으로 트리거할 수 있습니다. <a href="../building-journeys/testing-the-journey.md#firing_events">자세히 보기</a></p></li>
 <li><p>이제는 여정에서 <strong>대기</strong> 활동을 하나 이상 사용할 때 테스트 모드에서 이러한 각 활동을 진행할 시간을 정의할 수 있습니다. 기본 시간은 10초입니다. 왼쪽 아래에서 <strong>테스트의 대기 시간</strong> 매개 변수를 사용하여 이 시간을 변경할 수 있습니다. <a href="../building-journeys/testing-the-journey.md">자세히 보기</a></p><img src="../assets/rn-test.png"/>
 </li>
-<li>이제는 서드파티 시스템(데이터 소스 또는 작업)을 호출할 때 오류가 발생하면 <strong>테스트 로그</strong>에 오류 코드와 오류 응답이 표시됩니다. <a href="../building-journeys/testing-the-journey.md#viewing_logs">자세히 보기</a>
+<li><strong>테스트 로그</strong>에서 서드파티 시스템(데이터 원본 또는 작업)을 호출할 때 오류가 발생하면 이제 오류 코드와 오류 응답이 표시됩니다. <a href="../building-journeys/testing-the-journey.md#viewing_logs">자세히 보기</a>
 </li>
 </ul>
 </td>

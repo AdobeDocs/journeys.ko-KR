@@ -5,8 +5,8 @@ description: 테스트 프로필 만들기에 대해 알아보기
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 11%
+source-wordcount: '685'
+ht-degree: 12%
 
 ---
 
@@ -42,13 +42,13 @@ Adobe Experience Platform에서 테스트 프로필을 만드는 방법에는 �
 1. 스키마 이름을 선택합니다.
 1. **[!UICONTROL Mixins]** 섹션에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
    ![](../assets/test-profiles-1-bis.png)
-1. 적절한 mixin을 선택합니다. **[!UICONTROL Profile test details]** mixin을 추가하세요. **[!UICONTROL Add mixin]** 아이콘을 클릭합니다.
+1. 적절한 mixin을 선택합니다. **[!UICONTROL Profile test details]** mixin을 추가하세요. **[!UICONTROL Add mixin]**&#x200B;을(를) 클릭합니다.
    ![](../assets/test-profiles-1-ter.png)
 mixin 목록이 스키마 개요 화면에 표시됩니다.
    ![](../assets/test-profiles-2.png)
 1. 필드 목록에서 기본 ID로 정의할 필드를 클릭합니다.
    ![](../assets/test-profiles-3.png)
-1. **[!UICONTROL Field properties]** 오른쪽 패널에서 **[!UICONTROL Identity]** 및 **[!UICONTROL Primary Identity]** 옵션을 확인하고 네임스페이스를 선택합니다. 기본 ID를 전자 메일 주소로 설정하려면 **[!UICONTROL Email]** 네임스페이스를 선택하세요. **[!UICONTROL Apply]** 아이콘을 클릭합니다.
+1. **[!UICONTROL Field properties]** 오른쪽 패널에서 **[!UICONTROL Identity]** 및 **[!UICONTROL Primary Identity]** 옵션을 확인하고 네임스페이스를 선택합니다. 기본 ID를 전자 메일 주소로 설정하려면 **[!UICONTROL Email]** 네임스페이스를 선택하세요. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
    ![](../assets/test-profiles-4.png)
 1. 스키마를 선택하고 **[!UICONTROL Schema properties]**&#x200B;에서 **[!UICONTROL Profile]** 옵션을 활성화하십시오.
    ![](../assets/test-profiles-5.png)
@@ -89,7 +89,7 @@ Adobe Experience Platform에서는 다른 프로필 필드가 포함된 csv 파�
    ![](../assets/test-profiles-14.png)
 1. **[!UICONTROL Map CSV to XDM schema]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Launch]**&#x200B;을(를) 클릭합니다.
    ![](../assets/test-profiles-16.png)
-1. 프로필을 가져올 데이터 세트를 선택합니다. **[!UICONTROL Next]** 아이콘을 클릭합니다.
+1. 프로필을 가져올 데이터 세트를 선택합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
    ![](../assets/test-profiles-17.png)
 1. **[!UICONTROL Choose files]**&#x200B;을(를) 클릭하고 csv 파일을 선택하십시오. 파일이 업로드되면 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
    ![](../assets/test-profiles-18.png)

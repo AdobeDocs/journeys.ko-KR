@@ -50,7 +50,7 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 [!D
 
 ![](../assets/journey2bis.png)
 
-## Searching and filtering{#section_lgm_hpz_pgb}
+## 검색 및 필터링{#section_lgm_hpz_pgb}
 
 **[!UICONTROL Home]**,**[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 및 **[!UICONTROL Actions]** 목록의 검색 창에서는 특정 항목을 검색할 수 있습니다.
 
@@ -58,7 +58,7 @@ Experience Cloud 홈 페이지의 **[!UICONTROL Quick access]** 섹션에서 [!D
 
 **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 및 **[!UICONTROL Actions]** 목록에서 **[!UICONTROL Creation filters]**&#x200B;을(를) 사용하여 만든 날짜와 사용자를 기준으로 필터링합니다. 예를 들어 지난 30일 동안 만든 이벤트만 표시하도록 선택할 수 있습니다.
 
-In the journey list (under **[!UICONTROL Home]**), in addition to the **[!UICONTROL Creation filters]**, you can also filter the displayed journeys according to their status, type and version (**[!UICONTROL Status and version filters]**). The type can be: **[!UICONTROL Unitary event]** or **[!UICONTROL Segment qualification]**. **[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**&#x200B;를 사용하면 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정만 표시하도록 선택할 수도 있습니다. 그리고 **[!UICONTROL Publication filters]**&#x200B;를 사용하면 게시 날짜나 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 여정의 최신 버전만 표시하도록 선택할 수 있습니다. [이 페이지](../building-journeys/using-the-journey-designer.md)를 참조하십시오.
+**[!UICONTROL Home]** 아래의 여정 목록에서는 **[!UICONTROL Creation filters]** 외에도 상태, 유형 및 버전(**[!UICONTROL Status and version filters]**)에 따라 표시된 여정을 필터링할 수도 있습니다. 형식은 **[!UICONTROL Unitary event]** 또는 **[!UICONTROL Segment qualification]**&#x200B;일 수 있습니다. **[!UICONTROL Activity filters]** 및 **[!UICONTROL Data filters]**&#x200B;를 사용하면 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정만 표시하도록 선택할 수도 있습니다. 그리고 **[!UICONTROL Publication filters]**&#x200B;를 사용하면 게시 날짜나 사용자를 선택할 수 있습니다. 예를 들어 어제 게시된 라이브 여정의 최신 버전만 표시하도록 선택할 수 있습니다. [이 페이지](../building-journeys/using-the-journey-designer.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -76,11 +76,11 @@ In the journey list (under **[!UICONTROL Home]**), in addition to the **[!UICONT
 
 ![](../assets/journey4.png)
 
-## Browsing through Adobe Experience Platform fields {#friendly-names-display}
+## Adobe Experience Platform 필드 검색 {#friendly-names-display}
 
 [이벤트 페이로드](../event/defining-the-payload-fields.md)와 [필드 그룹 페이로드](../datasource/field-groups.md)를 정의하고 [표현식 편집기](../expression/expressionadvanced.md)에서 필드를 선택할 때는 필드 이름과 함께 표시 이름도 표시됩니다. 이 정보는 Experience Data Model의 스키마 정의에서 검색됩니다.
 
-If descriptors such as &quot;xdm:alternateDisplayInfo&quot; are provided while setting up schemas, the user-friendly names will replace display names. It is especially useful when working with &quot;eVars&quot; and generic fields.API 호출을 통해 친숙한 이름 설명자를 구성할 수 있습니다. 자세한 내용은 [스키마 레지스트리 개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko)를 참조하십시오.
+스키마를 설정할 때 &quot;xdm:alternateDisplayInfo&quot;과 같은 설명자를 제공하면 사용자에게 친숙한 이름이 표시 이름을 대체합니다. 이 변수는 &quot;eVar&quot; 및 일반 필드로 작업할 때 특히 유용합니다.API 호출을 통해 친숙한 이름 설명자를 구성할 수 있습니다. 자세한 내용은 [스키마 레지스트리 개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko)를 참조하십시오.
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -92,15 +92,15 @@ If descriptors such as &quot;xdm:alternateDisplayInfo&quot; are provided while s
 
 ## 접근성{#accessibility}
 
-The accessibility features in Adobe Journey Optimizer are provided by Adobe Experience Platform:
+Adobe Journey Optimizer의 접근성 기능은 Adobe Experience Platform에서 제공합니다.
 
 * 키보드 접근성
 * 색상 대비
 * 필수 필드 유효성 검사
 
-[Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ko){target="_blank"} in Adobe Experience Platform documentation.
+Adobe Experience Platform 설명서에서 [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ko){target="_blank"}.
 
-You can use these common keyboard shortcuts in Adobe Journey Optimizer:
+Adobe Journey Optimizer에서 다음과 같은 일반적인 키보드 단축키를 사용할 수 있습니다.
 
 | 작업 | 단축키 |
 | --- | --- |
@@ -110,7 +110,7 @@ You can use these common keyboard shortcuts in Adobe Journey Optimizer:
 | 포커스에 있는 요소 선택 또는 지우기 | Enter 또는 스페이스바 |
 | 선택 취소, 패널 축소 또는 대화 상자 닫기 | Esc |
 
-[Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ko){target="_blank"} in Adobe Experience Platform documentation.
+Adobe Experience Platform 설명서에서 [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ko){target="_blank"}.
 
 Journey Optimizer의 특정 부분에서 다음 단축키를 사용할 수 있습니다.
 

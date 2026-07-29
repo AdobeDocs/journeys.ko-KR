@@ -19,7 +19,7 @@ ht-degree: 12%
 
 ## 카테고리
 
-Date
+일자
 
 ## 함수 구문
 
@@ -35,7 +35,7 @@ Date
 
 정수 반환.
 
-## 예
+## 예시
 
 `currentTimeInMillis()`
 

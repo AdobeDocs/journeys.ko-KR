@@ -47,7 +47,7 @@ ht-degree: 12%
 
 부울 반환.
 
-## 예
+## 예시
 
 `toBool("true")`
 

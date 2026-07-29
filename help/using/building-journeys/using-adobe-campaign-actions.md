@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
-title: Using Adobe Campaign actions
-description: Learn about Adobe Campaign actions
+title: Adobe Campaign 작업 사용
+description: Adobe Campaign 작업에 대해 알아보기
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: b2e5c333-d0d8-4fe1-a6b8-5f2e6b3624a4
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 2%
+source-wordcount: '979'
+ht-degree: 11%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>**Adobe Journey Optimizer를 찾고 계신가요**? [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하여 Journey Optimizer 설명서를 확인할 수 있습니다.
 >
 >
->_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+>_이 설명서는 Journey Optimizer로 대체된 이전 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
 
@@ -45,23 +45,23 @@ Adobe Campaign Standard이 있는 경우 다음과 같은 기본 작업 활동�
 >
 >실시간 트랜잭션 메시지(rtEvent)를 보내거나 사용자 지정 작업 덕분에 서드파티 시스템으로 메시지를 라우팅하는 경우 피로, 차단 목록 또는 구독 취소 관리에 특정 설정이 필요합니다. 예를 들어 &quot;구독 취소&quot; 속성이 Adobe Experience Platform 또는 서드파티 시스템에 저장된 경우 이 조건을 확인하려면 메시지를 보내기 전에 조건을 추가해야 합니다.
 
-템플릿을 선택하면 메시지 페이로드에 필요한 모든 필드가 **[!UICONTROL Address]** 및 **[!UICONTROL Personalization Data]** 아래의 활동 구성 창에 표시됩니다. 이러한 각 필드를 이벤트 또는 데이터 소스에서 사용할 필드에 매핑해야 합니다. You can also use the advanced expression editor to pass a value manually, perform data manipulation on retrieved information (for example convert a string to uppercase) or use functions such as &quot;if, then, else&quot;. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오.
+템플릿을 선택하면 메시지 페이로드에 필요한 모든 필드가 **[!UICONTROL Address]** 및 **[!UICONTROL Personalization Data]** 아래의 활동 구성 창에 표시됩니다. 이러한 각 필드를 이벤트 또는 데이터 소스에서 사용할 필드에 매핑해야 합니다. 고급 표현식 편집기를 사용하여 값을 수동으로 전달하거나, 검색된 정보에 대해 데이터 조작을 수행하거나(예: 문자열을 대문자로 변환), &quot;if, then, else&quot;와 같은 함수를 사용할 수도 있습니다. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오.
 
 ![](../assets/journey60.png)
 
-## Email and SMS {#section_asc_51g_nhb}
+## 이메일 및 SMS {#section_asc_51g_nhb}
 
-For **[!UICONTROL Email]** and **[!UICONTROL SMS]**, the parameters are identical.
+**[!UICONTROL Email]**&#x200B;과(와) **[!UICONTROL SMS]**&#x200B;의 매개 변수는 동일합니다.
 
 >[!NOTE]
 >
->For email, if you&#39;re using a profiles transactional template, the unsubscription mechanism is handled out-of-the-box by Campaign Standard. You simply add an **[!UICONTROL Unsubscription link]** content block in the template ([learn more](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko)). 이벤트 기반 템플릿(rtEvent)을 사용하는 경우 메시지에 URL 매개 변수에서 개인 이메일을 전달하고 구독 취소 랜딩 페이지를 가리키는 링크를 추가해야 합니다. You need to create this landing page and make sure the person&#39;s decision to unsubscribe is transmitted to Adobe.
+>이메일의 경우 프로필 트랜잭션 템플릿을 사용하는 경우 구독 취소 메커니즘은 Campaign Standard에서 즉시 처리됩니다. 템플릿에 **[!UICONTROL Unsubscription link]** 콘텐츠 블록을 추가하면 됩니다([자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko)). 이벤트 기반 템플릿(rtEvent)을 사용하는 경우 메시지에 URL 매개 변수에서 개인 이메일을 전달하고 구독 취소 랜딩 페이지를 가리키는 링크를 추가해야 합니다. 이 랜딩 페이지를 만들고 개인의 구독 취소 결정이 Adobe에 전송되었는지 확인해야 합니다.
 
-First, you need to choose a transactional messaging template. [이 페이지](../building-journeys/about-action-activities.md)를 참조하십시오.
+먼저 트랜잭션 메시지 템플릿을 선택해야 합니다. [이 페이지](../building-journeys/about-action-activities.md)를 참조하십시오.
 
-Two categories are available: **[!UICONTROL Address]** and **[!UICONTROL Personalization Data]**.
+두 가지 범주가 있습니다. **[!UICONTROL Address]** 및 **[!UICONTROL Personalization Data]**.
 
-You can easily define where to retrieve the **[!UICONTROL Address]** or the **[!UICONTROL Personalization Data]** using the interface. You can browse through events and available data source&#39;s fields. You can also use the advanced expression editor for more advanced use cases such as using a data source that requires the passing of parameters or performing manipulations. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오.
+인터페이스를 사용하여 **[!UICONTROL Address]** 또는 **[!UICONTROL Personalization Data]**&#x200B;을(를) 검색할 위치를 쉽게 정의할 수 있습니다. 이벤트 및 사용 가능한 데이터 소스의 필드를 찾아볼 수 있습니다. 매개 변수를 전달하거나 조작해야 하는 데이터 소스를 사용하는 것과 같은 고급 사용 사례에 고급 표현식 편집기를 사용할 수도 있습니다. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오.
 
 **[!UICONTROL Address]**
 
@@ -91,17 +91,17 @@ Adobe Campaign Standard 메시지에서 예상하는 필드입니다. 이러한 
 
 ![](../assets/journey62bis.png)
 
-Two categories are available: **[!UICONTROL Target]** and **[!UICONTROL Personalization Data]**.
+두 가지 범주가 있습니다. **[!UICONTROL Target]** 및 **[!UICONTROL Personalization Data]**.
 
 **[!UICONTROL Target]**
 
 >[!NOTE]
 >
->This category is only visible if you select an event message. For profile messages, the **[!UICONTROL Target]** fields are automatically retrieved by the system using the reconciliation performed by Adobe Campaign Standard.
+>이 범주는 이벤트 메시지를 선택한 경우에만 표시됩니다. 프로필 메시지의 경우 Adobe Campaign Standard에서 수행한 조정을 사용하여 시스템에서 **[!UICONTROL Target]** 필드를 자동으로 검색합니다.
 
-In this section, you need to define the **[!UICONTROL Push platform]**. The drop-down list allows you to select **[!UICONTROL Apple Push Notification Server]** (iOS) or **[!UICONTROL Firebase Cloud Messaging]** (Android). You can alternatively select a specific field from an event or a data source, or define an advanced expression.
+이 섹션에서는 **[!UICONTROL Push platform]**&#x200B;을(를) 정의해야 합니다. 드롭다운 목록에서 **[!UICONTROL Apple Push Notification Server]**(iOS) 또는 **[!UICONTROL Firebase Cloud Messaging]**(Android)을(를) 선택할 수 있습니다. 이벤트 또는 데이터 소스에서 특정 필드를 선택하거나 고급 표현식을 정의할 수도 있습니다.
 
-You also need to define the **[!UICONTROL Registration Token]**. The expression depends on how the token is defined in the event payload or in other [!DNL Journey Orchestration] information. 토큰이 예를 들어 컬렉션에 정의된 경우 단순 필드 또는 더 복잡한 식이 될 수 있습니다.
+**[!UICONTROL Registration Token]**&#x200B;도 정의해야 합니다. 식은 이벤트 페이로드 또는 다른 [!DNL Journey Orchestration] 정보에서 토큰이 정의되는 방식에 따라 다릅니다. 토큰이 예를 들어 컬렉션에 정의된 경우 단순 필드 또는 더 복잡한 식이 될 수 있습니다.
 
 ```
 @{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}

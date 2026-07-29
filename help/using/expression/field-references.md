@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 10%
+source-wordcount: '614'
+ht-degree: 11%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 10%
 
 * 필드는 숫자로 시작합니다.
 * 필드는 &quot;-&quot; 문자로 시작합니다.
-* 필드에 _a_-_z_, _A_-_Z_, _0_-_9_, _ , _-_ 이외의 항목이 포함되어 있습니다.
+* 필드에 _a_-_z_, _A_-_Z_, _0_-_9_, _,_-_ 이외의 항목이 포함되어 있습니다.
 
-예를들어 필드가 _3h_&#x200B;인 경우 _#{OpenWeather.weatherData.rain&#39;.3h&#39;} > 0_
+예를 들어 필드가 _3h_&#x200B;인 경우: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```json
 // event field
@@ -63,9 +63,9 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->필드 유형과 기본값은 동일해야 합니다. 예: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}은(는) 기본값이 정수이지만 예상 값은 문자열이어야 하므로 잘못되었습니다.
+>필드 유형과 기본값은 동일해야 합니다. 예를 들어 @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}은(는) 기본값이 정수이지만 예상 값은 문자열이어야 하므로 잘못되었습니다.
 
-예:
+예
 
 ```json
 // for an event 'OrderEvent' having the following payload:

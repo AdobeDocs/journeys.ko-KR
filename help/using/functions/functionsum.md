@@ -51,7 +51,7 @@ ht-degree: 13%
 
 십진수를 반환합니다.
 
-## 예
+## 예시
 
 `sum(@{BarBeacon.inventory},5)`
 

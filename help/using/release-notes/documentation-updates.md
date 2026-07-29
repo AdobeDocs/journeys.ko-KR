@@ -9,14 +9,15 @@ hide: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 100%
+source-wordcount: '985'
+ht-degree: 98%
 
 ---
 
 # 설명서 업데이트
 
-이 페이지에는 [!DNL Journey Orchestration]의 설명서 업데이트 내용이 모두 포함되어 있습니다.[!DNL Journey Orchestration] [릴리스 정보](../release-notes/release-notes.md)도 확인할 수 있습니다.
+이 페이지에는 [!DNL Journey Orchestration]에 대한 설명서 업데이트가 모두 나열됩니다.
+[!DNL Journey Orchestration] [릴리스 정보](../release-notes/release-notes.md)도 확인할 수 있습니다.
 
 ## 2022년 7월 {#july-2022}
 

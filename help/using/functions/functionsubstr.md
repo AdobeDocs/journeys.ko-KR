@@ -8,7 +8,7 @@ level: Experienced
 exl-id: dda01de5-b865-4323-ac36-2e3d90d213ee
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '65'
 ht-degree: 18%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 18%
 
 ## 매개변수
 
-| 매개변수 | 유형 |
+| 매개 변수 | 유형 |
 |-------------|----------|
 | 문자열 | 문자열 |
 | beginIndex | 정수 |

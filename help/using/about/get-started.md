@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: 시작
+title: 시작하기
 description: Journey Orchestration을 설정하고 첫 번째 여정을 구축하는 주요 단계를 살펴봅니다.
 feature: Journeys
 role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '367'
+workflow-type: tm+mt
+source-wordcount: '380'
 ht-degree: 100%
 
 ---
 
-# 시작{#concept_y4b_4qt_52b}
+# 시작하기{#concept_y4b_4qt_52b}
 
 
 >[!CAUTION]
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 1. **이벤트 구성**
 
-   필요한 정보와 정보 처리 방법을 정의해야 합니다. 이 구성은 반드시 진행해야 하며, **기술 사용자**&#x200B;가 이 단계를 수행해야 합니다.
+   필요한 정보와 정보 처리 방법을 정의해야 합니다. 이 구성은 반드시 진행해야 하며, 이 단계가 필요한 경우에는 **기술 사용자**&#x200B;가 이 단계를 수행해야 합니다.
 
    자세한 정보는 이 [페이지](../event/about-events.md)를 참조하십시오.
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
    서드파티 시스템을 사용하여 메시지를 전송하는 경우 [!DNL Journey Orchestration]과의 연결을 구성해야 합니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오.
 
-   Adobe Campaign Standard를 사용하여 메시지를 전송하는 경우 기본 작업을 구성해야 합니다. [이 페이지](../action/working-with-adobe-campaign.md)를 참조하십시오.
+   Adobe Campaign Standard를 사용하여 메시지를 전송하는 경우 기본 제공 작업을 구성해야 합니다. [이 페이지](../action/working-with-adobe-campaign.md)를 참조하십시오.
 
    이러한 단계는 **기술 사용자**&#x200B;가 수행해야 합니다.
 

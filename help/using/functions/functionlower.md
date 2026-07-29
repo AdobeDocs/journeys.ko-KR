@@ -25,7 +25,7 @@ ht-degree: 23%
 
 `lower(<parameter>)`
 
-## 매개변수
+## 매개 변수
 
 * 문자열
 

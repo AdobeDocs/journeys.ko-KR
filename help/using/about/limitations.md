@@ -8,8 +8,8 @@ level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 42%
+source-wordcount: '564'
+ht-degree: 54%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 42%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>**Adobe Journey Optimizer를 찾고 계신가요**? [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하여 Journey Optimizer 설명서를 확인할 수 있습니다.
 >
 >
->_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+>_이 설명서는 Journey Optimizer로 대체된 이전 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
 
@@ -34,12 +34,12 @@ ht-degree: 42%
 
 ## 일반 작업 제한 사항
 
-* 오류가 발생하면 시스템에서 세 번 다시 시도합니다. 수신된 오류 메시지에 따라 재시도 횟수를 조정할 수 없습니다. 
+* 오류가 발생하는 경우 체계적으로 세 번 다시 시도합니다. 수신된 오류 메시지에 따라 재시도 횟수를 조정할 수 없습니다. 
 * 기본 제공 **반응** 이벤트를 사용하면 기본 작업에 반응할 수 있습니다([페이지](../building-journeys/reaction-events.md) 참조). 사용자 지정 작업을 통해 전송된 메시지에 반응하려면 전용 이벤트를 구성해야 합니다. 
 
 ## 여정 버전 제한 사항 {#journey-versions-limitations}
 
-* v1의 이벤트 활동으로 시작하는 여정은 이후 버전의 이벤트 이외의 다른 것으로 시작할 수 없습니다. **세그먼트 선별** 이벤트로 여정을 시작할 수 없습니다.
+* v1에서 이벤트 활동으로 시작하는 여정은 이후 버전에서 이벤트 이외의 다른 것으로 시작할 수 없습니다. **세그먼트 선별** 이벤트로 여정을 시작할 수 없습니다.
 * v1에서 **세그먼트 선별** 활동으로 시작하는 여정은 이후 버전에서 항상 **세그먼트 선별**&#x200B;로 시작해야 합니다.
 * **세그먼트 자격**(첫 번째 노드)에서 선택한 세그먼트 및 네임스페이스는 새 버전에서 변경할 수 없습니다.
 * 재입력 규칙은 모든 여정 버전에서 동일해야 합니다.
@@ -51,9 +51,9 @@ ht-degree: 42%
 
 ## 사용자 지정 작업 제한 사항
 
-* 사용자 정의 작업 URL은 동적 매개 변수를 지원하지 않습니다.  
+* 사용자 정의 작업 URL은 동적 매개 변수를 지원하지 않습니다. 
 * POST 및 PUT 호출 메서드만 지원됩니다. 
-* 쿼리 매개 변수 또는 헤더의 이름은 “.” 또는 &quot;$&quot;입니다. 
+* 쿼리 매개 변수 또는 헤더의 이름은 &quot;.&quot; 또는 &quot;$&quot;로 시작할 수 없습니다. 
 * IP 주소는 허용되지 않습니다. 
 * 내부 Adobe 주소(.adobe.)는 허용되지 않습니다.
  
