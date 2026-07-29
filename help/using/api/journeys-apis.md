@@ -71,7 +71,7 @@ ht-degree: 86%
 
 >[!CAUTION]
 >
->액세스 토큰을 생성하기 위한 JWT 메서드가 더 이상 사용되지 않습니다. 모든 새 통합은 [OAuth 서버 간 인증 방법](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server)을 사용하여 만들어야 합니다. 또한 Adobe 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다.
+>액세스 토큰을 생성하기 위한 JWT 메서드가 더 이상 사용되지 않습니다. 모든 새 통합은 [OAuth 서버 간 인증 방법](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ko#select-oauth-server-to-server)을 사용하여 만들어야 합니다. 또한 Adobe 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다.
 >
 >다음 중요한 설명서를 읽어 보십시오.>[JWT에서 OAuth로의 응용 프로그램에 대한 마이그레이션 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),>[OAuth가 있는 새 응용 프로그램과 이전 응용 프로그램에 대한 구현 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),>[OAuth 서버 간 자격 증명 메서드를 사용할 때의 이점](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
