@@ -62,6 +62,6 @@ ht-degree: 95%
 
    ![](../assets/journey23.png)
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
    이제 데이터 소스가 구성되었으며 여정에서 사용할 수 있는 상태가 되었습니다.

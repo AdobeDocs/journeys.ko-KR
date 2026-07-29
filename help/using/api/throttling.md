@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 91%
+source-wordcount: '835'
+ht-degree: 95%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 91%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>**Adobe Journey Optimizer를 찾고 계신가요**? [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하여 Journey Optimizer 설명서를 확인할 수 있습니다.
 >
 >
->_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+>_이 설명서는 Journey Optimizer로 대체된 이전 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
 Throttling API를 사용하면 초당 전송되는 이벤트 수를 제한하기 위해 제한 구성을 만들고 구성하고 모니터링할 수 있습니다.
@@ -37,7 +37,7 @@ Throttling API를 사용하면 초당 전송되는 이벤트 수를 제한하기
 
 ## Throttling API 설명 {#description}
 
-| 메서드 | 경로 | 설명 |
+| 방법 | 경로 | 설명 |
 |---|---|---|
 | [!DNL POST] | list/throttlingConfigs | 스로틀링 구성 목록 가져오기 |
 | [!DNL POST] | /throttlingConfigs | 스로틀링 구성 만들기 |
@@ -150,7 +150,7 @@ Throttling API를 사용하면 초당 전송되는 이벤트 수를 제한하기
 다운로드하여 Postman에 업로드한 다음에는 `{JO_HOST}`, `{BASE_PATH}`, `{SANDBOX_NAME}` 세 가지 변수를 추가해야 합니다.
 * `{JO_HOST}`: [!DNL Journey Orchestration] 게이트웨이 URL입니다.
 * `{BASE_PATH}`: API의 시작 지점입니다. 값은 ‘/authoring’입니다.
-* `{SANDBOX_NAME}`: API 작업이 발생할 샌드박스 이름에 해당하는 헤더 **x-sandbox-name**(예: ‘prod’)입니다.  자세한 내용은 [샌드박스 개요](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko)를 참조하십시오.
+* `{SANDBOX_NAME}`: API 작업이 발생할 샌드박스 이름에 해당하는 헤더 **x-sandbox-name**(예: ‘prod’)입니다. 자세한 내용은 [샌드박스 개요](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko-KR)를 참조하십시오.
 
 다음 섹션에서는 사용 사례를 수행하기 위한 Rest API 호출 목록을 순서대로 확인할 수 있습니다.
 

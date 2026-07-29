@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 5%
+source-wordcount: '748'
+ht-degree: 13%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>**Adobe Journey Optimizer를 찾고 계신가요**? [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하여 Journey Optimizer 설명서를 확인할 수 있습니다.
 >
 >
->_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+>_이 설명서는 Journey Optimizer로 대체된 이전 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 
 ## 라이프사이클
 
-여정 A의 **[!UICONTROL Jump]** 활동을 여정 B에 추가했다고 가정해 보겠습니다. 여정 A는 **원본 여정**&#x200B;이고 여정 B, **대상 여정**&#x200B;입니다.
+여정 A의 **[!UICONTROL Jump]** 활동을 여정 B에 추가했다고 가정해 보겠습니다. 여정 A는 **원본 여정**&#x200B;이고 여정 B, **대상 여정**입니다.
 실행 프로세스의 여러 단계는 다음과 같습니다.
 
 **여정 A**&#x200B;이(가) 외부 이벤트에서 트리거되었습니다.

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: ab1f9efe-cbb7-4e3a-ace0-24f2fb6165cb
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 16%
+source-wordcount: '58'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 16%
 
 ## 카테고리
 
-Date
+일자
 
 ## 함수 구문
 
@@ -27,7 +27,7 @@ Date
 
 ## 매개변수
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 |--- |--- |
 | 문자열 |  |
 
@@ -39,11 +39,11 @@ Date
 
 dateTime을 반환합니다.
 
-## 예
+## 예시
 
 `now()`
 
-2019-06-03T06:30Z을 반환합니다.
+2019-06-03T06:30Z를 반환합니다.
 
 `toString(now())`
 

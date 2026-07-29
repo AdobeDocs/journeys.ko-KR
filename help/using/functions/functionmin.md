@@ -85,7 +85,7 @@ ht-degree: 7%
 
 정수 반환.
 
-## 예
+## 예시
 
 `min(@{BarBeacon.inventory},5)`
 

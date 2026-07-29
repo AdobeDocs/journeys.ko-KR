@@ -19,7 +19,7 @@ ht-degree: 7%
 
 ## 카테고리
 
-Date
+일자
 
 ## 함수 구문
 
@@ -27,7 +27,7 @@ Date
 
 ## 매개변수
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 |--- |--- |
 | 델타 | 양의 정수 값 또는 음의 정수 값 |
 | 날짜 부분 | years, months, days, hours, minutes 또는 seconds as a string |
@@ -41,7 +41,7 @@ Date
 
 dateTime을 반환합니다.
 
-## 예
+## 예시
 
 `nowWithDelta(-2, "hours")`
 

@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: 여정 작성 기본 정보
+title: 여정 작성 정보
 description: 비즈니스 사용자는 이벤트, 오케스트레이션 및 작업 활동을 통합하여 여정을 빌드하는 방법을 살펴봅니다.
 feature: Journeys
 role: User
@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 13%
+source-wordcount: '617'
+ht-degree: 28%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 13%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>**Adobe Journey Optimizer를 찾고 계신가요**? [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하여 Journey Optimizer 설명서를 확인할 수 있습니다.
 >
 >
->_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+>_이 설명서는 Journey Optimizer로 대체된 이전 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
-**비즈니스 사용자**&#x200B;가 이 단계를 수행합니다. 여기에서 여정을 만들 수 있습니다. 다양한 이벤트, 오케스트레이션 및 작업 활동을 결합하여 여러 단계로 구성된 크로스 채널 시나리오를 작성할 수 있습니다.
+**비즈니스 사용자**&#x200B;가 이 단계를 수행합니다. 여기에서 여정을 만들 수 있습니다. 다양한 이벤트, 오케스트레이션 및 작업 활동을 조합하여 여러 단계로 구성된 크로스 채널 시나리오를 작성할 수 있습니다.
 
-여정 인터페이스를 통해 팔레트에서 캔버스로 활동을 쉽게 드래그 앤 드롭할 수 있습니다. 활동을 두 번 클릭하여 사용 가능한 다음 단계에서 캔버스에 추가할 수도 있습니다. 각 활동에는 프로세스에서 특정 역할과 위치가 있습니다. 활동의 순서가 지정됩니다. 활동이 완료되면, 플로우는 계속되고 다음 활동을 처리하는 등의 작업을 수행합니다.
+여정 인터페이스를 통해 팔레트에서 캔버스로 활동을 쉽게 드래그 앤 드롭할 수 있습니다. 활동을 더블 클릭하여 사용 가능한 다음 단계에서 캔버스에 추가할 수도 있습니다. 각 활동에는 프로세스에서 특정 역할과 위치가 있습니다. 활동의 순서가 지정됩니다. 활동이 완료되면, 플로우는 계속되고 다음 활동을 처리하는 등의 작업을 수행합니다.
 
-네임스페이스는 여정 당 하나만 허용됩니다. 첫 번째 이벤트를 드롭하면 네임스페이스가 다른 이벤트가 회색으로 표시됩니다. 첫 번째 이벤트에 네임스페이스가 없으면 네임스페이스가 있는 모든 이벤트가 회색으로 표시됩니다. [이 페이지](../event/selecting-the-namespace.md)를 참조하세요. 또한 여정에 네임스페이스가 없는 이벤트가 있는 경우 Adobe Experience Platform 필드 그룹이 회색으로 표시됩니다. 마지막으로, 동일한 여정에서 여러 이벤트를 사용하는 경우 동일한 네임스페이스를 사용해야 합니다.
+네임스페이스는 여정 당 하나만 허용됩니다. 첫 번째 이벤트를 드롭하면 네임스페이스가 다른 이벤트가 회색으로 표시됩니다. 첫 번째 이벤트에 네임스페이스가 없으면 네임스페이스가 있는 모든 이벤트가 회색으로 표시됩니다. [이 페이지](../event/selecting-the-namespace.md)를 참조하십시오. 또한 여정에 네임스페이스가 없는 이벤트가 있는 경우 Adobe Experience Platform 필드 그룹이 회색으로 표시됩니다. 마지막으로, 동일한 여정에서 여러 이벤트를 사용하는 경우 동일한 네임스페이스를 사용해야 합니다.
 
 새 여정을 시작할 때 첫 번째 단계로 캔버스에 놓을 수 없는 요소는 숨겨집니다. 이는 모든 작업, 조건 활동, 대기 및 반응과 관련되어 있습니다.
 

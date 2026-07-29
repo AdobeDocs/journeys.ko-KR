@@ -8,7 +8,7 @@ level: Experienced
 exl-id: eee7bf61-9101-4959-aa93-27d0f221c517
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '75'
 ht-degree: 13%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 ## 카테고리
 
-Date
+일자
 
 ## 함수 구문
 
@@ -27,7 +27,7 @@ Date
 
 ## 매개변수
 
-| 매개변수 | 유형 |
+| 매개 변수 | 유형 |
 |--- |--- |
 | 날짜 시간 | dateTime |
 | 시간대를 고려하지 않은 날짜 시간 | dateTimeOnly |
@@ -43,7 +43,7 @@ Date
 
 시간대를 고려하지 않고 날짜/시간을 반환합니다.
 
-## 예
+## 예시
 
 `setDays(toDateTime('2010-12-12T01:11:00Z'), 25)`
 

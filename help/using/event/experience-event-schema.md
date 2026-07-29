@@ -79,7 +79,7 @@ Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이�
 
 >[!NOTE]
 >
->[Experience Platform 설명서](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=ko)에서 스키마 관계에 대해 자세히 알아보세요.
+>[Experience Platform 설명서](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en)에서 스키마 관계에 대해 자세히 알아보세요.
 
 그런 다음 Journey Orchestration에서 연결된 테이블의 모든 필드를 활용할 수 있습니다.
 

@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '719'
 ht-degree: 12%
 
 ---
@@ -90,7 +90,7 @@ JSON 형식: 숫자
 
 JSON 형식: 숫자
 
-직렬화 형식: &#39;.&#39; 사용 를 소수점 구분 기호로 사용하십시오.
+직렬화 형식: 소수점 구분 기호로 &#39;.&#39;를 사용합니다.
 
 **리터럴 표시**
 

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 47%
+source-wordcount: '578'
+ht-degree: 63%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 47%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>**Adobe Journey Optimizer를 찾고 계신가요**? [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하여 Journey Optimizer 설명서를 확인할 수 있습니다.
 >
 >
->_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+>_이 설명서는 Journey Optimizer로 대체된 이전 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
 새 이벤트를 구성하는 주요 단계는 다음과 같습니다.
@@ -30,13 +30,13 @@ ht-degree: 47%
 
    ![](../assets/journey5.png)
 
-1. 새 이벤트를 만들려면 **[!UICONTROL Add]**&#x200B;를 클릭합니다. 화면 오른쪽에 이벤트 구성 창이 열립니다. 이벤트의 이름을 입력합니다. 설명을 추가할 수도 있습니다.
+1. 새 이벤트를 만들려면 **[!UICONTROL Add]**&#x200B;를 클릭합니다. 그러면 화면 오른쪽에 이벤트 구성 창이 열립니다. 이벤트의 이름을 입력합니다. 설명을 추가할 수도 있습니다.
 
    ![](../assets/journey6.png)
 
    >[!NOTE]
    >
-   >공백이나 특수 문자는 사용하지 말고 이름은 30자까지만 입력하십시오.
+   >공백이나 특수 문자는 사용하지 마십시오. 이름은 30자까지만 입력하십시오.
 
 1. **[!UICONTROL Event ID type]** 필드에서 사용할 이벤트 유형을 선택합니다.
 
@@ -66,7 +66,7 @@ ht-degree: 47%
 
 1. 네임스페이스를 추가합니다. 이 단계는 원하는 경우에만 수행하면 되지만, 네임스페이스를 추가하면 실시간 고객 프로필 서비스에 저장된 정보를 활용할 수 있습니다. 이 정보에 따라 이벤트의 키 유형이 정의됩니다. [이 페이지](../event/selecting-the-namespace.md)를 참조하십시오.
 1. 키를 정의합니다. 페이로드 필드에서 필드를 선택하거나 공식을 정의하여 이벤트와 연관된 사용자를 지정합니다. 이 키는 네임스페이스를 선택하면 자동으로 설정되지만 편집할 수 있습니다. 네임스페이스에 해당하는 키는 [!DNL Journey Orchestration]에서 자동으로 선택됩니다. 예를 들어 이메일 네임스페이스를 선택하면 이메일 키가 선택됩니다. [이 페이지](../event/defining-the-event-key.md)를 참조하십시오.
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
    ![](../assets/journey7.png)
 

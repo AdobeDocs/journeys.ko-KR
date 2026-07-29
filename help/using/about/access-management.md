@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 88%
+source-wordcount: '846'
+ht-degree: 80%
 
 ---
 
@@ -34,29 +34,29 @@ Admin Console에 액세스할 수 있는 관리자가 관리할 수 있습니다
 [!DNL Journey Orchestration]에 액세스할 수 있는 사용자의 자격은 다음과 같습니다.
 
 * [!DNL Journey Orchestration] 권한과 연관된 [!DNL Journey Orchestration] **[!UICONTROL product profile]**&#x200B;에 속해 있어야 합니다.
-* [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**&#x200B;에 속해 있어야 합니다. 갖고 있어야 하는 필수 권한은 없습니다. [!DNL Journey Orchestration] 인터페이스에서 플랫폼 세그먼트를 만들고 편집하려면 사용자에게 **[!UICONTROL profile management]** 권한이 있어야 합니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko#adobe-admin-console)를 참조하십시오.
+* [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**&#x200B;에 속해 있어야 합니다. 갖고 있어야 하는 필수 권한은 없습니다. [!DNL Journey Orchestration] 인터페이스에서 플랫폼 세그먼트를 만들고 편집하려면 사용자에게 **[!UICONTROL profile management]** 권한이 있어야 합니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console)를 참조하십시오.
 
 Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에게 할당할 수 있습니다.
 
 * **[!UICONTROL Limited Access User]**: 여정 및 보고서에 대한 읽기 전용 액세스 권한을 가진 사용자. 이 제품 프로필에는 다음과 같은 권한이 포함됩니다.
-   * 여정 읽기
-   * 보고서 읽기
+  * 여정 읽기
+  * 보고서 읽기
 
 * **[!UICONTROL Administrators]**: 관리 메뉴에 대한 액세스 권한을 가지고 있으며 여정, 이벤트 및 보고서를 관리할 수 있는 사용자. 이 제품 프로필에는 다음과 같은 권한이 포함됩니다.
-   * 여정 관리
-   * 여정 게시
-   * 이벤트, 데이터 소스 및 작업 관리
-   * 보고서 관리
+  * 여정 관리
+  * 여정 게시
+  * 이벤트, 데이터 소스 및 작업 관리
+  * 보고서 관리
 
   >[!NOTE]
   >
   >**[!UICONTROL Administrators]**&#x200B;는 Adobe Campaign Standard에서 트랜잭션 메시지(또는 메시지 템플릿)를 작성, 편집, 게시할 수 있는 유일한 제품 프로필입니다. Adobe Campaign Standard을 사용하여 여정에서 메시지를 보내는 경우에 이 제품 프로필이 필요합니다. Admin Console에서 이름을 바꾸면 안 됩니다.
 
 * **[!UICONTROL Standard User]**: 여정 관리와 같은 기본적인 액세스 권한을 가진 사용자. 이 제품 프로필에는 다음과 같은 권한이 포함됩니다.
-   * 여정 관리
-   * 여정 게시
-   * 보고서 관리
-   * 이벤트, 데이터 소스 및 작업 읽기
+  * 여정 관리
+  * 여정 게시
+  * 보고서 관리
+  * 이벤트, 데이터 소스 및 작업 읽기
 
 기본 프로필이 사용자를 관리하기에 충분하지 않은 경우 제품 프로필을 직접 만들 수도 있습니다.
 다음과 같은 특정 기본 권한을 할당할 수 있도록 사용자는 항상 제품 프로필에 연결되어 있어야 합니다.
@@ -148,9 +148,9 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 ## 샌드박스 사용 {#sandboxes}
 
 [!DNL Journey Orchestration]에서는 인스턴스를 샌드박스라는 분리된 가상 환경으로 분할할 수 있습니다.
-샌드박스는 Admin Console에서 제품 프로필을 통해 할당됩니다. 샌드박스를 할당하는 방법에 대한 자세한 내용은 이 [섹션](../about/access-management.md#create-product-profile)을 참조하십시오.
+샌드박스는 Admin Console에서 제품 프로필을 통해 할당됩니다. 샌드박스를 할당하는 방법에 대한 자세한 내용은 이 [섹션](../about/access-management.md#create-product-profile)을 참조하세요.
 
-[!DNL Journey Orchestration] (은)는 해당 조직을 위해 만들어진 Adobe Experience Platform 샌드박스를 반영합니다.
+[!DNL Journey Orchestration]은(는) 해당 조직에 대해 만들어진 Adobe Experience Platform 샌드박스를 반영합니다.
 Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. 자세한 단계는 [샌드박스 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko-KR)를 참조하십시오.
 
 화면의 왼쪽 상단에 샌드박스 전환기 컨트롤이 있습니다. 한 샌드박스에서 다른 샌드박스로 전환하려면 전환기에서 현재 활성 샌드박스를 클릭하고 드롭다운 목록에서 다른 샌드박스를 선택하십시오.

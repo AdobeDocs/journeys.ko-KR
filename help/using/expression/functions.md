@@ -8,7 +8,7 @@ level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '231'
 ht-degree: 77%
 
 ---
@@ -54,20 +54,20 @@ ht-degree: 77%
 | 전환 | [toDuration](../functions/functiontoduration.md) |
 | 전환 | [toInteger](../functions/functiontointeger.md) |
 | 전환 | [toString](../functions/functiontostring.md) |
-| Date | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
-| Date | [inLastDays](../functions/functioninlastdays.md) |
-| Date | [inLastHours](../functions/functioninlasthours.md) |
-| Date | [inLastMonths](../functions/functioninlastmonths.md) |
-| Date | [inLastYears](../functions/functioninlastyears.md) |
-| Date | [inNextDays](../functions/functioninnextdays.md) |
-| Date | [inNextHours](../functions/functioninnexthours.md) |
-| Date | [inNextMonths](../functions/functioninnextmonths.md) |
-| Date | [inNextYears](../functions/functioninnextyears.md) |
-| Date | [now](../functions/functionnow.md) |
-| Date | [nowWithDelta](../functions/functionnowwithdelta.md) |
-| Date | [setHours](../functions/functionsethours.md) |
-| Date | [setDays](../functions/functionsetdays.md) |
-| Date | [updateTimeZone](../functions/functionupdatetimezone.md) |
+| 일자 | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
+| 일자 | [inLastDays](../functions/functioninlastdays.md) |
+| 일자 | [inLastHours](../functions/functioninlasthours.md) |
+| 일자 | [inLastMonths](../functions/functioninlastmonths.md) |
+| 일자 | [inLastYears](../functions/functioninlastyears.md) |
+| 일자 | [inNextDays](../functions/functioninnextdays.md) |
+| 일자 | [inNextHours](../functions/functioninnexthours.md) |
+| 일자 | [inNextMonths](../functions/functioninnextmonths.md) |
+| 일자 | [inNextYears](../functions/functioninnextyears.md) |
+| 일자 | [now](../functions/functionnow.md) |
+| 일자 | [nowWithDelta](../functions/functionnowwithdelta.md) |
+| 일자 | [setHours](../functions/functionsethours.md) |
+| 일자 | [setDays](../functions/functionsetdays.md) |
+| 일자 | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | 목록 | [distinct](../functions/functiondistinct.md) |
 | 목록 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
 | 목록 | [필터](../functions/functionfilter.md) |

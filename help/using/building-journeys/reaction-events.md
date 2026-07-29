@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 2%
+source-wordcount: '475'
+ht-degree: 13%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer을 찾고 계십니까**? Journey Optimizer 설명서를 보려면 [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하십시오.
+>**Adobe Journey Optimizer를 찾고 계신가요**? [여기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target="_blank"}를 클릭하여 Journey Optimizer 설명서를 확인할 수 있습니다.
 >
 >
->_이 설명서는 Journey Optimizer으로 대체된 기존 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
+>_이 설명서는 Journey Optimizer로 대체된 이전 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 >
 >반응 이벤트는 다른 여정에서 발생하는 이메일, SMS 또는 푸시 작업을 추적할 수 없습니다.
 >
->반응 이벤트는 &quot;추적됨&quot; 유형의 링크에서 클릭을 추적합니다([페이지](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html?lang=ko#about-tracked-urls) 참조). 구독 취소 및 미러 페이지 링크는 고려되지 않습니다.
+>반응 이벤트는 &quot;추적됨&quot; 유형의 링크에서 클릭을 추적합니다([페이지](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls) 참조). 구독 취소 및 미러 페이지 링크는 고려되지 않습니다.
 
 >[!IMPORTANT]
 >

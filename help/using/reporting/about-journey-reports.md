@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '776'
 ht-degree: 7%
 
 ---
@@ -70,7 +70,8 @@ ht-degree: 7%
 
 ## 여정 요약 템플릿 {#ootb-template}
 
-보고서는 기본 제공 템플릿과 사용자 정의 보고서의 두 가지 범주로 나뉩니다.기본 제공 템플릿 **[!UICONTROL Journey summary]**&#x200B;을(를) 통해 가장 중요한 추적 데이터를 명확하게 볼 수 있습니다.
+보고서는 기본 제공 템플릿과 사용자 정의 보고서의 두 가지 범주로 나뉩니다.
+기본 제공 템플릿 **[!UICONTROL Journey summary]**&#x200B;을(를) 통해 가장 중요한 추적 데이터를 명확하게 볼 수 있습니다.
 
 ![](../assets/dynamic_report_journey_8.png)
 

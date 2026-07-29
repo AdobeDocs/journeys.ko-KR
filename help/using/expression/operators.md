@@ -8,8 +8,8 @@ level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 15%
+source-wordcount: '514'
+ht-degree: 16%
 
 ---
 
@@ -44,8 +44,8 @@ ht-degree: 15%
 ## 중요 정보{#important-notes}
 
 * 곱셈(`*`)을 사용할 때는 두 연산 필드의 형식이 같아야 합니다(정수 또는 십진수). 예 :
-   * 다음 예제는 올바릅니다. `3.0 * 4.0`
-   * `3 * 4.0`에 오류가 발생합니다.
+  * 다음 예제는 올바릅니다. `3.0 * 4.0`
+  * `3 * 4.0`에 오류가 발생합니다.
 
 ## 논리적  {#logical}
 
@@ -467,7 +467,7 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 "a" + "b" + "c" + 1234 -- returns "abc1234".
 ```
 
-## Date {#date}
+## 일자 {#date}
 
 ### +
 

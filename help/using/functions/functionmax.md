@@ -85,7 +85,7 @@ ht-degree: 7%
 
 정수 반환.
 
-## 예
+## 예시
 
 `max(@{BarBeacon.inventory},5)`
 

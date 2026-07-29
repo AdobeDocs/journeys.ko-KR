@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 9%
+source-wordcount: '642'
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 9%
 >_이 설명서는 Journey Optimizer로 대체된 이전 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
-고급 표현식 편집기에서 이벤트 및 데이터 소스 범주 아래에 **여정 속성** 범주가 있습니다. 이 카테고리에는 지정된 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 이는 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정에서 시스템이 검색한 정보입니다.
+고급 표현식 편집기에서 이벤트 및 데이터 소스 범주 아래에 **여정 속성** 범주가 있습니다. 이 카테고리에는 지정된 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정 시스템에서 검색한 정보입니다.
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ ht-degree: 9%
 | | organizationId | 조직 식별자 | 브랜드 조직 |
 | | sandboxName | 샌드박스 이름 | 샌드박스 이름 |
 | ID | profileId | 프로필 ID 식별자 | 여정 내 프로필 식별자 |
-| | 네임스페이스 | 프로필 ID 네임스페이스 | 여정 내 프로필의 네임스페이스(예: ECID) |
+| | namespace | 프로필 ID 네임스페이스 | 여정 내 프로필의 네임스페이스(예: ECID) |
 | 현재 노드 | currentNodeId | 현재 노드 식별자 | 현재 활동의 식별자(노드) |
 | | currentNodeName | 현재 노드 이름 | 현재 활동의 이름(노드) |
 | 이전 노드 | previousNodeId | 이전 노드 식별자 | 이전 활동의 식별자(노드) |

@@ -25,7 +25,7 @@ ht-degree: 20%
 
 `length(<parameters>)`
 
-## 매개변수
+## 매개 변수
 
 * 문자열
 

@@ -27,7 +27,7 @@ ht-degree: 8%
 
 ## 매개변수
 
-| 매개변수 | 유형 | 설명 |
+| 매개 변수 | 유형 | 설명 |
 |-----------|------------------|------------------|
 | listToprocess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly 또는 listObject | 정렬할 목록입니다. listObject의 경우 필드 참조여야 합니다. |
 | numberOfItems | 정수 | 해당 목록에서 반환할 항목 수. |
