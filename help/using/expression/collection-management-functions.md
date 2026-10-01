@@ -6,13 +6,11 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
+source-git-commit: c80acc261853108edccb40d120c8fe16023770e8
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '610'
 ht-degree: 3%
-
 ---
-
 # 컬렉션 관리 기능 {#collection-management-functions}
 
 표현식 언어에서는 컬렉션을 쿼리하기 위한 함수 집합도 소개합니다.
@@ -171,9 +169,10 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]**&#x200B;은(는) 이벤트 컬렉션 및 **currentDataPackField**&#x200B;을 조작할 때만 사용할 수 있습니다.
->데이터 소스 컬렉션을 조작할 때. **[!UICONTROL all]**, **[!UICONTROL first]** 및 **[!UICONTROL last]**&#x200B;을(를) 사용하여 컬렉션을 처리할 때 컬렉션의 각 요소에서 하나씩 we>루프를 실행합니다. **[!UICONTROL currentEventField]** 및 **currentDataPackField**
->은(는) 루프가 적용되는 요소에 해당합니다.
+>**[!UICONTROL currentEventField]**&#x200B;은(는) 이벤트 컬렉션 및 **currentDataPackField를 조작할 때만 사용할 수 있습니다.**
+>데이터 소스 컬렉션을 조작할 때. **[!UICONTROL all]**, **[!UICONTROL first]** 및 **[!UICONTROL last]**(으)로 컬렉션을 처리할 때
+>컬렉션의 각 요소를 하나씩 반복합니다. **[!UICONTROL currentEventField]** 및 **currentDataPackField**
+>루핑되는 요소에 해당합니다.
 
 **함수 &quot;first(`<condition>`)&quot; 및 &quot;last(`<condition>`)&quot;**
 
@@ -244,6 +243,6 @@ _aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.
 ```
 
 ```json
- #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
+#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
 currentDataPackField.eventType == "commerce.productListAdds").productListItems.last(currentDataPackField.priceTotal >= 150).name}
 ```
