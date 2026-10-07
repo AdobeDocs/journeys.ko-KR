@@ -3,13 +3,14 @@ title: Adobe Journey Optimizer으로 업그레이드
 description: Adobe Journey Optimizer으로 업그레이드하는 방법 알아보기
 hide: true
 exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
-source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 2%
-
 ---
-
 # Journey Orchestration 환경을 Adobe Journey Optimizer으로 업그레이드{#ugrade-ajo}
 
 ## Adobe Journey Optimizer란?

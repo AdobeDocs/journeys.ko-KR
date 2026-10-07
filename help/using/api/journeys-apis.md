@@ -7,13 +7,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 86%
-
+source-wordcount: '925'
+ht-degree: 83%
 ---
-
 # 여정 API 사용 시작
 
 
@@ -54,7 +64,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->데이터 소스에서 해당 데이터 소스에 사용한 것과 다른 엔드포인트를 사용하는 사용자 정의 인증을 사용하는 경우에는 Adobe 문의를 통해 해당 엔드포인트도 허용 목록에 추가해야 합니다.
+>데이터 소스에서 해당 데이터 소스에 사용한 것과 다른 엔드포인트를 사용하는 사용자 정의 인증을 사용하는 경우에는 Adobe에 문의하여 해당 엔드포인트도 허용 목록에 추가해야 합니다.
 
 **사용자 정의 작업**&#x200B;을 구성할 때는 외부 API의 용량을 평가해야 합니다. 예를 들어 Journey Optimizer가 초당 1000개의 호출을 보내는데 시스템은 초당 100개의 호출만 지원할 수 있는 경우 시스템이 포화되지 않도록 상한 설정이나 스로틀링 구성을 정의해야 합니다. [작업을 구성하는 방법 알아보기](../action/action.md)
 
@@ -73,7 +83,10 @@ ht-degree: 86%
 >
 >액세스 토큰을 생성하기 위한 JWT 메서드가 더 이상 사용되지 않습니다. 모든 새 통합은 [OAuth 서버 간 인증 방법](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ko#select-oauth-server-to-server)을 사용하여 만들어야 합니다. 또한 Adobe 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다.
 >
->다음 중요한 설명서를 읽어 보십시오.>[JWT에서 OAuth로의 응용 프로그램에 대한 마이그레이션 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),>[OAuth가 있는 새 응용 프로그램과 이전 응용 프로그램에 대한 구현 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),>[OAuth 서버 간 자격 증명 메서드를 사용할 때의 이점](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+>다음 중요 설명서를 참조하십시오.
+>[JWT에서 OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)&#x200B;(으)로 애플리케이션에 대한 마이그레이션 안내서,
+>[OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)을(를) 사용하는 새 응용 프로그램과 이전 응용 프로그램에 대한 구현 안내서,
+>[OAuth 서버 간 자격 증명 메서드 &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)을(를) 사용할 때의 이점
 
 서비스 간 Adobe I/O API 세션을 안전하게 구성하기 위해, Adobe 서비스에 대한 모든 요청의 인증 헤더에 아래 정보를 포함해야 합니다.
 

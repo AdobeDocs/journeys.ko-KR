@@ -6,13 +6,23 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 83%
-
+source-wordcount: '601'
+ht-degree: 88%
 ---
-
 # 고급 표현식 편집기 정보 {#concept_uyj_trt_52b}
 
 
@@ -24,8 +34,8 @@ ht-degree: 83%
 >_이 설명서는 Journey Optimizer로 대체된 이전 Journey Orchestration 자료를 참조합니다. Journey Orchestration 또는 Journey Optimizer 액세스에 대한 질문이 있는 경우 계정 팀에 문의하십시오._
 
 
-고급 표현식 편집기를 사용하여 인터페이스의 다양한 화면에서 고급 표현식을 작성합니다. 예를 들어 여정을 구성 및 사용할 때와 데이터 소스 조건을 정의할 때 표현식을 작성할 수 있습니다.
-특정 데이터 조작이 필요한 작업 매개 변수를 정의해야 할 때마다 사용할 수도 있습니다. 이벤트에서 가져온 데이터 또는 데이터 소스에서 검색한 추가 정보를 활용할 수 있습니다. 여정에서 상황에 맞는 이벤트 필드 목록이 표시되며, 이 목록은 여정에 추가된 이벤트에 따라 달라집니다.
+고급 표현식 편집기를 사용하여 다양한 인터페이스 화면에서 고급 표현식을 작성합니다. 예를 들어 여정을 구성 및 사용할 때와 데이터 소스 조건을 정의할 때 표현식을 작성할 수 있습니다.
+특정 데이터 조작이 필요한 액션 매개 변수를 정의해야 할 때마다 고급 표현식 편집기를 사용할 수도 있습니다. 이벤트로부터 얻은 데이터 또는 데이터 소스에서 검색된 추가 정보를 활용할 수 있습니다. 여정에서는 상황에 맞는 이벤트 필드 목록이 표시되며, 이 목록은 여정에 추가된 이벤트에 따라 달라집니다.
 
 고급 표현식 편집기는 값을 조작하고 필요에 맞는 표현식을 정의할 수 있는 함수 및 연산자를 기본 제공합니다. 고급 표현식 편집기를 사용하면 외부 데이터 소스 매개 변수의 값을 정의하고, 맵 필드와 컬렉션(예: 경험 이벤트)을 조작할 수도 있습니다.
 
@@ -84,7 +94,7 @@ _고급 표현식 편집기 인터페이스_
 
 **고급 표현식 편집기를 사용하여 조건을 작성할 때의 매개 변수 필요성**
 
-매개 변수를 호출해야 하는 외부 데이터 소스에서 필드를 선택하는 경우([이 페이지](../datasource/external-data-sources.md) 참조). 예를 들어 날씨 관련 데이터 소스에서 자주 사용되는 매개 변수는 &quot;city&quot;입니다. 따라서 이 city 매개 변수를 가져올 위치를 선택해야 합니다. 매개 변수에 함수를 적용하여 형식 변경 또는 연결을 수행할 수도 있습니다.
+매개 변수를 호출해야 하는 외부 데이터 소스에서 필드를 선택하는 경우([이 페이지](../datasource/external-data-sources.md) 참조). 예를 들어 날씨 관련 데이터 소스에서 자주 사용되는 매개 변수는 &quot;city&quot;입니다. 따라서 이 city 매개 변수를 가져올 위치를 선택해야 합니다. 매개변수에 함수를 적용하여 형식 변경 또는 연결을 수행할 수도 있습니다.
 
 ![](../assets/journeyuc2_19.png)
 

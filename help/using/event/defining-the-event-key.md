@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 18%
-
+source-wordcount: '445'
+ht-degree: 16%
 ---
-
 # 이벤트 키 정의 {#concept_ond_hqt_52b}
 
 
@@ -44,7 +54,7 @@ CRM ID 또는 이메일 주소와 같은 다른 키를 사용해야 하는 경�
 
    ![](../assets/journey20.png)
 
-이벤트가 수신되면, 키의 값은 시스템이 이벤트와 연관된 인물을 식별하도록 허용할 것이다. 네임스페이스와 연결되어([이 페이지](../event/selecting-the-namespace.md) 참조), 키를 사용하여 Adobe Experience Platform에서 쿼리를 수행할 수 있습니다. [이 페이지](../building-journeys/about-orchestration-activities.md)를 참조하세요.
+이벤트가 수신되면, 키의 값은 시스템이 이벤트와 연관된 인물을 식별하도록 허용할 것이다. 네임스페이스와 연결되어([이 페이지](../event/selecting-the-namespace.md) 참조), 키를 사용하여 Adobe Experience Platform에서 쿼리를 수행할 수 있습니다. [이 페이지](../building-journeys/about-orchestration-activities.md)를 참조하십시오.
 또한 이 키는 개인이 여정 내에 있는지 확인하는 데도 사용됩니다. 실제로, 한 사람은 같은 여정에서 두 개의 다른 장소에 있을 수 없다. 따라서 시스템은 동일한 키(예: 키 CRMID=3224)가 동일한 여정의 다른 위치에 있는 것을 허용하지 않습니다.
 
 추가 조작을 수행하려면 고급 식 함수(**[!UICONTROL Advanced mode]**)에 액세스할 수도 있습니다. 이러한 함수를 사용하면 필드의 일부(예: 첫 번째 문자 10개)만 고려하여 필드 연결을 수행하는 등 형식 변경과 같은 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있습니다. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오.

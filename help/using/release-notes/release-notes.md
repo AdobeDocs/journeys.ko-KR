@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '4593'
-ht-degree: 96%
-
+source-wordcount: '4770'
+ht-degree: 100%
 ---
-
 # 릴리스 정보 {#release-notes}
 
 >[!CAUTION]
@@ -59,7 +69,7 @@ ht-degree: 96%
 
 ### 개선 사항 {#aug-2023-improvements}
 
-* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 Private Beta로 사용할 수 있습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=ko){target="_blank"}를 참조하십시오.
+* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 비공개 베타로 사용할 수 있습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ## 2023년 4월 릴리스 {#apr-rn-2023}
 
@@ -69,7 +79,7 @@ ht-degree: 96%
 * 이제 사용자 정의 작업에서 정적 또는 동적 쿼리 매개 변수를 정의할 수 있습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=ko#url-configuration){target="_blank"}를 참조하십시오.
 * 여정을 통해 제공하는 경험의 증가량을 관리할 수 있는 새로운 가드레일:
   * 여정의 성능과 가독성, QA, 문제 해결을 위해 노드 수를 50개 이하로 제한하는 것이 좋습니다. 활동 수는 여정 캔버스의 왼쪽 위 섹션에 표시됩니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko#journeys-guardrails-journeys){target="_blank"}를 참조하십시오
-  * 여정을 개발하고 시작한 뒤 한 번에 100개의 실시간 여정을 실행하는 마일스톤에 도달하면 알림을 보내 드리겠습니다. 기획에 한 번에 100개가 넘는 여정이 필요한 경우 알림을 확인한 뒤 지원 티켓을 개설해 주시면 Adobe가 도와 드리겠습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko#journeys-guardrails-journeys){target="_blank"}를 참조하십시오
+  * 여정을 개발하고 시작한 뒤 한 번에 100개의 실시간 여정을 실행하는 마일스톤에 도달하면 알림을 보내 드리겠습니다. 한 번에 100개가 넘는 여정이 필요한 경우 알림을 확인한 뒤 지원 티켓을 개설해 주시면 Adobe가 도와 드리겠습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko#journeys-guardrails-journeys){target="_blank"}를 참조하십시오
 
 ## 2023년 3월 릴리스 {#mar-2023}
 
@@ -78,14 +88,14 @@ ht-degree: 96%
 * 새로운 **Throttling API**&#x200B;를 통해 초당 전송 이벤트 수에 제한을 설정하여 외부 시스템 또는 API에서 급격한 트래픽 스파이크가 발생하는 것을 방지할 수 있습니다. 설정한 제한에 도달하면 그 뒤의 API 호출은 수신되는 순서로 모두 큐에 올려 가능한 한 빨리 처리합니다. 이 기능은 모든 샌드박스를 통틀어 하나의 스로틀링 구성만 지원합니다. [자세히 알아보기](../api/throttling.md)
 * 여정 캔버스가 보다 간단하고 개선된 사용자 경험을 제공하도록 향상되었습니다. 캔버스에서 각 경로의 끝에 있던 빈 자리 표시자를 제거했습니다. 이제 활동을 추가하려면 간단히 경로 끝에 끌어다 놓기만 하면 됩니다.
 * 이제 여정 캔버스의 **종료** 태그가 자동으로 이전 활동의 이름으로 설정되지 않습니다. 필요한 경우 사용자가 수동으로 사용자 정의 레이블을 추가할 수 있습니다.
-* 여정 속성의 기본 시간 제한 및 오류 지속 시간을 5초에서 30초로 변경했습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=ko#timeout){target="_blank"}를 참조하십시오.
+* 여정 속성의 기본 시간 제한 및 오류 지속 시간이 5초에서 30초로 변경되었습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=ko#timeout){target="_blank"}를 참조하십시오.
 * 테스트 모드에 인터페이스를 통해 보낸 이벤트만 수신하도록 하는 가드레일을 추가했습니다. 외부 도구를 통해 보낸 이벤트는 고려하지 않습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=ko-KR){target="_blank"}를 참조하십시오.
 
 ## 2023년 2월 릴리스 {#feb-2023}
 
 ### 개선 사항 {#feb-2023-improvements}
 
-* 여정 속성에 **재입장 대기 시간** 필드가 추가되었습니다. 이 필드에서는 단일 여정(이벤트 또는 세그먼트 선별로 시작)에서 프로필이 다시 여정에 들어오려면 기다려야 하는 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=ko#entrance){target="_blank"}를 참조하십시오.
+* 여정 속성에 **재입장 대기 시간** 필드가 추가되었습니다. 이 필드에서는 단일 여정(이벤트 또는 세그먼트 선별로 시작)에서 프로필이 다시 여정에 들어오려면 기다려야 하는 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정이 실수로 여러 번 트리거되는 것을 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=ko#entrance){target="_blank"}를 참조하십시오.
 * **여정 시작 및 종료 일자**&#x200B;를 개선했습니다. 이제 시작 일자를 지정하지 않은 경우 게시할 때 자동으로 추가됩니다. 이렇게 하면 해당 일자가 되었을 때 프로필이 자동으로 종료됩니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=ko#dates){target="_blank"}를 참조하십시오.
 
 ## 2023년 1월 릴리스 {#jan-2023-release}
@@ -109,8 +119,8 @@ ht-degree: 96%
 <tbody>
 <tr>
 <td>
-<p>Journey Orchestration이 이제 DULE(데이터 사용 라벨링 및 적용) 거버넌스 프레임워크를 통해 Adobe Experience Platform 거버넌스 정책을 활용할 수 있습니다. 이 방법으로 사용자 정의 작업 시 중요한 정보가 있는 필드를 서드파티 시스템으로 내보내는 것을 방지할 수 있습니다. 시스템이 사용자 지정 작업 매개 변수에서 제한된 필드를 식별하면 여정을 게시하지 못하게 하는 오류가 표시됩니다.</p>
-<p>DULE(데이터 사용 레이블 및 적용) 사용은 현재 선택한 고객으로 제한되며, 향후 릴리스의 모든 환경에 배포될 예정입니다.</p>
+<p>Journey Orchestration이 이제 DULE(데이터 사용 라벨링 및 적용) 거버넌스 프레임워크를 통해 Adobe Experience Platform 거버넌스 정책을 활용하여 사용자 정의 작업을 통해 민감한 필드가 제3자 시스템으로 내보내지는 것을 방지할 수 있습니다. 시스템이 사용자 지정 작업 매개 변수에서 제한된 필드를 식별하면 여정을 게시하지 못하게 하는 오류가 표시됩니다.</p>
+<p>DULE(데이터 사용 레이블 및 적용) 사용은 현재 선택된 고객으로 제한되며, 향후 릴리스에서 모든 환경에 배포될 예정입니다.</p>
 <p>자세한 내용은 Journey Optimizer <a href="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/action-privacy.html?lang=ko">설명서</a>를 참조하십시오.
 </td>
 </tr>
@@ -123,13 +133,13 @@ ht-degree: 96%
 
 ### 기타 변경 사항{#sept-2022-other}
 
-* 성능을 향상시키기 위해 [세그먼트 선별] 활동으로 시작하는 여정에서는 더 이상 [경험 이벤트] 필드 그룹을 사용할 수 없습니다. 이 변경 사항은 새로운 여정에만 적용됩니다. 기존 동작은 현재 동작을 유지합니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko#expression-editor){target="_blank"}를 참조하십시오.
+* 성능을 향상시키기 위해 [세그먼트 선별] 활동으로 시작하는 여정에서는 더 이상 [경험 이벤트] 필드 그룹을 사용할 수 없습니다. 이 변경 사항은 새로운 여정에만 적용됩니다. 기존 항목은 현재 동작을 유지합니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ko#expression-editor){target="_blank"}를 참조하십시오.
 
 ### 개선 사항
 
 * **여정 종료** - 여정 캔버스에서 **종료** 활동이 팔레트에서 제거되었습니다. 이제 종료 태그가 각 경로 끝에 기본적으로 추가되므로 제거할 수 없습니다. 이 개선 사항을 통해 고객이 여정에서 드롭된 위치를 여정 전문가의 작업 없이 더 잘 보고할 수 있습니다. Journey Optimizer [설명서](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html?lang=ko){target="_blank"}를 참조하십시오.
 
-* 이제 여정 속성에서 **프로필 시간대** 옵션이 기본적으로 선택되지 않습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=ko#timezone-from-profiles){target="_blank"}
+* 이제 여정 속성에서 **프로필 시간대** 옵션이 기본적으로 선택되지 않습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=ko#timezone-from-profiles){target="_blank"}.
 
 ## 2022년 5월 릴리스 {#may-2022-release}
 
@@ -148,7 +158,7 @@ ht-degree: 96%
 
 ### 개선 사항
 
-* 성능을 최적화하고 오래된 리소스의 사용을 방지하기 위해 1주일 동안 트리거되지 않은 테스트 모드의 모든 여정이 이제 초안 상태로 다시 전환니다. [자세히 보기](../building-journeys/testing-the-journey.md#important_notes)
+* 성능을 최적화하고 오래된 리소스의 사용을 방지하기 위해 1주일 동안 트리거되지 않은 테스트 모드의 모든 여정이 이제 초안 상태로 다시 전환됩니다. [자세히 보기](../building-journeys/testing-the-journey.md#important_notes)
 
 ## 2022년 1월 릴리스 {#january-2022-release}
 
@@ -162,7 +172,7 @@ ht-degree: 96%
 ### 개선 사항
 
 * **표현식 편집기** - 이제 고급 사용자는 여정 지도 작업에 함수를 사용할 수 있습니다. [자세히 알아보기](../expression/field-references.md)
-* **접근성** - 접근성을 개선했습니다. 이제 Journey Orchestration은 접근성 측면에서 완전히 규정을 준수합니다.
+* **접근성** - 접근성을 개선했습니다. 이제 Journey Orchestration은 접근성 기준을 완전히 준수합니다.
 * **컬렉션** - 이제 하위 개체가 포함된 개체 배열이 지원됩니다. [자세히 보기](../usecase/collections.md)
 * **모니터링** - 실시간 여정 및 테스트 모드에 대한 단계 이벤트를 개선했습니다. 프로필 내보내기 작업과 관련하여 [새 필드](../building-journeys/sharing-field-list.md#serviceevents)를 추가했습니다. 더 나은 사용자 경험을 위해 이제 단계 이벤트 필드가 Journey Orchestration의 여정 단계 이벤트 스키마에서 다른 카테고리로 구성됩니다. 이전 단계 이벤트 필드는 [stepEvents](../building-journeys/sharing-legacy-fields.md) 카테고리에서 계속 사용할 수 있습니다.
 
@@ -191,7 +201,7 @@ ht-degree: 96%
 * 단계 이벤트를 프로비전하는 동안 시스템에서 생성한 스키마 및 데이터 세트가 이제 읽기 전용 모드로 변경됩니다. 이를 통해 중요한 스키마를 실수로 수정하는 것을 방지할 수 있습니다. [자세히 알아보기](../building-journeys/sharing-overview.md)
 * **대기** 활동에 레이블을 지정하면 캔버스에 명확하게 표시됩니다. 이 레이블은 보고 및 테스트 모드 로그에서 수행할 작업을 정확하게 확인하는 데에도 사용됩니다. [자세히 알아보기](../building-journeys/using-the-journey-designer.md)
 * 검색 사용 시 **이벤트** 및 **작업** 카테고리로 요소를 필터링하여 이벤트 및 작업을 보다 신속하게 찾을 수 있습니다. 오케스트레이션 활동은 더 이상 필터링되지 않습니다. [자세히 알아보기](../building-journeys/using-the-journey-designer.md)
-* 이제 규칙 기반으로 이벤트 ID 조건을 정의할 때 문자열 유형 필드에 &quot;포함&quot; 연산자를 사용할 수 있습니다. [자세히 알아보기](../event/about-creating.md)
+* 이제 규칙 기반 조건에서 이벤트 ID 조건을 정의할 때 문자열 유형 필드에 &quot;포함&quot; 연산자를 사용할 수 있습니다. [자세히 알아보기](../event/about-creating.md)
 
 ## 2021년 8월 릴리스 {#august-2021-release}
 
@@ -236,7 +246,7 @@ ht-degree: 96%
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Campaign Classic 통합과의 통합을 일반적으로 사용할 수 있습니다(GA). Adobe Campaign v7 또는 v8 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다.</p>
+<p>이제 Adobe Campaign Classic 통합을 일반적으로 사용할 수 있습니다(GA). Adobe Campaign v7 또는 v8 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다.</p>
 <p>Journey Orchestration 인스턴스와 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다.</p>
 <p>자세한 내용은 <a href="../action/acc-action.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -248,7 +258,7 @@ ht-degree: 96%
 
 * 이제 외부 데이터 소스의 경우 초당 최대 15회 호출할 수 있는 상한 설정 규칙이 자동으로 정의됩니다. [자세히 보기](../about/external-systems.md#capping)
 * 이제 단순 및 고급 표현식 편집기에서 XDM 날짜 형식을 지원합니다.
-* 여정 목록 화면에 새로운 필터를 추가했습니다. 이제 **[!UICONTROL Unitary event]** 또는 **[!UICONTROL Segment qualification]** 여정 유형별로 필터링할 수 있습니다. [자세히 보기](../about/user-interface.md#section_lgm_hpz_pgb)
+* 여정 목록 화면에 새로운 필터가 추가되었습니다. 이제 **[!UICONTROL Unitary event]** 또는 **[!UICONTROL Segment qualification]** 여정 유형별로 필터링할 수 있습니다. [자세히 보기](../about/user-interface.md#section_lgm_hpz_pgb)
 * 이제 실시간 여정의 여정 속성 화면에 게시 날짜와 여정을 게시한 사용자의 이름이 표시됩니다. 이 정보는 여정의 기술 세부 사항을 복사할 때도 사용할 수 있습니다. [자세히 보기](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
 ## 2021년 4월 릴리스 {#april-2021-release}
@@ -277,7 +287,7 @@ ht-degree: 96%
 <tbody>
 <tr>
 <td>
-<p>이 새 작업 활동을 사용하면 이벤트, 데이터 소스 또는 특정 값을 사용하여 도출하는 데이터로 기존 Adobe Experience Platform 프로필을 업데이트할 수 있습니다.</p>
+<p>이 새 액션 활동을 사용하면 이벤트, 데이터 소스 또는 특정 값에서 가져온 정보로 기존 Adobe Experience Platform 프로필을 업데이트할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../building-journeys/update-profiles.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
@@ -288,7 +298,7 @@ ht-degree: 96%
 
 * 이제 이벤트를 구성할 때 XDM 유효성 검사에 필수인 필드만 기본적으로 미리 선택됩니다. 이러한 필드는 선택 취소할 수 없습니다.
 * 여정 팔레트에서 새 필터가 추가되었습니다. 기본 이벤트 및 작업 외에 가장 최근에 사용된 5건의 이벤트와 작업만 표시할 수 있습니다. 이는 각 사용자에게만 해당됩니다. 기본적으로 모든 항목이 표시됩니다. [자세히 보기](../building-journeys/using-the-journey-designer.md#palette)
-* 새 여정을 시작할 때 첫 번째 단계가 숨겨지므로 캔버스에 놓을 수 없는 요소가 이제 숨겨집니다. 이는 모든 작업, 조건 활동, 대기 및 반응과 관련되어 있습니다.
+* 새 여정을 시작할 때 캔버스에 첫 번째 단계로 놓을 수 없는 요소는 이제 숨겨집니다. 이는 모든 작업, 조건 활동, 대기 및 반응과 관련되어 있습니다.
 * 고급 표현식 편집기의 왼쪽 부분에서 함수가 이제 목록 끝에 있는 **함수** 섹션 아래에 다시 그룹화되었습니다.
 
 ## 2021년 1월 릴리스 {#january-2021-release}
@@ -297,13 +307,13 @@ ht-degree: 96%
 
 이제 단순 표현식 편집기에서 여정 속성 특성을 사용할 수 있습니다. [자세히 보기](../expression/journey-properties.md)
 
-두 개의 새 여정 속성 특성(sandboxName 및 organizationId)이 추가되었습니다. [자세히 보기](../expression/journey-properties.md)
+두 개의 새 여정 속성 특성인 sandboxName 및 organizationId가 추가되었습니다. [자세히 보기](../expression/journey-properties.md)
 
 Adobe Campaign Standard SLA에 맞추기 위해 이제 Adobe Campaign Standard 통합이 설정되는 즉시 Adobe Campaign Standard 작업에 대해 초당 13개의 호출 상한 설정 규칙이 자동으로 정의됩니다. [자세히 보기](../action/working-with-adobe-campaign.md)
 
 이제 이벤트 시간 제한 기간이 시간 제한 경로에 더 명확하게 지정됩니다. [자세히 보기](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
-고급 표현식 편집기에서 사용할 수 있는 함수 목록에 [getListItem](../functions/functiongetlistitem.md) 및 [split](../functions/functionsplit.md) 함수가 추가되었습니다. 이에 따라 문자열 계산 사용 사례에서 더 많은 가능성을 사용할 수 있습니다.
+고급 표현식 편집기에서 사용할 수 있는 함수 목록에 [getListItem](../functions/functiongetlistitem.md) 및 [split](../functions/functionsplit.md) 함수가 추가되었습니다. 이로써 문자열 계산 사용 사례에서 더 많은 가능성이 제공됩니다.
 
 ## 2020년 11월 릴리스 {#november-release}
 
@@ -316,7 +326,7 @@ Adobe Campaign Standard SLA에 맞추기 위해 이제 Adobe Campaign Standard �
 <tbody>
 <tr>
 <td>
-<p>새 작업 활동을 사용하면 한 여정에서 다른 작업 영역으로 개인을 푸시할 수 있습니다. <strong>Jump</strong> 활동을 통해 다음을 수행할 수 있습니다.
+<p>새 액션 활동을 사용하면 한 여정에서 다른 여정으로 개인을 푸시할 수 있습니다. <strong>Jump</strong> 활동을 통해 다음을 수행할 수 있습니다.
 </p>
 <ul>
 <li>여러 개로 분할하여 매우 복잡한 여정의 디자인을 간소화 </li>
@@ -337,7 +347,7 @@ Adobe Campaign Standard SLA에 맞추기 위해 이제 Adobe Campaign Standard �
 <tbody>
 <tr>
 <td>
-<p>고급 표현식 편집기에서 필드 및 함수 목록에 새 카테고리를 추가했습니다. 이는 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정에서 시스템이 검색한 정보입니다. 이렇게 하면 여정을 작성할 때 더 많은 가능성을 얻을 수 있습니다. 예를 들어 조건이나 작업에서 오류가 발생한 경우 서드파티 시스템에 경고할 수 있습니다.
+<p>고급 표현식 편집기에서 필드 및 함수 목록에 새 카테고리를 추가했습니다. 이는 여정 ID 또는 발생한 특정 오류와 같이 시스템이 라이브 여정에서 검색한 정보입니다. 이렇게 하면 여정을 구축할 때 더 많은 가능성을 얻을 수 있습니다. 예를 들어 조건이나 작업에서 오류가 발생한 경우 서드파티 시스템에 경고할 수 있습니다.
 </p>
 <p>자세한 내용은 <a href="../expression/journey-properties.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -354,7 +364,7 @@ Adobe Campaign Standard SLA에 맞추기 위해 이제 Adobe Campaign Standard �
 <tbody>
 <tr>
 <td>
-<p>이제 eventID를 사용하지 않고 이벤트를 보다 쉽게 설정하는 새로운 방법을 사용할 수 있습니다. 규칙 기반 이벤트는 조건에 따라 이벤트를 트리거해야 하는지 여부를 평가합니다. 이제 "시스템 생성"이라는 기존 메서드를 계속 사용할 수 있습니다. Alpha 프로그램을 통해 제한된 고객 집합에서 테스트한 이 기능은 이제 모든 고객이 Beta에서 사용할 수 있습니다.
+<p>이제 eventID를 사용하지 않고 이벤트를 보다 쉽게 설정하는 새로운 방법을 사용할 수 있습니다. 규칙 기반 이벤트는 조건에 따라 이벤트를 트리거해야 하는지 여부를 평가합니다. "시스템 생성"이라는 기존 방법을 계속 사용할 수 있습니다. 알파 프로그램을 통해 제한된 고객 집합에서 테스트한 이 기능은 이제 모든 고객에게 베타 버전으로 제공됩니다.
 </p>
 </td>
 </tr>
@@ -363,7 +373,7 @@ Adobe Campaign Standard SLA에 맞추기 위해 이제 Adobe Campaign Standard �
 
 ### 기타 개선 사항
 
-여정의 새 버전을 만들 때 제한 사항을 추가했습니다. 이러한 제한 사항은 여정에서 너무 많은 변경 사항을 방지하여 버전 간에 일관성을 유지합니다. [자세히 보기](../about/limitations.md#journey-versions-limitations)
+여정의 새 버전을 만들 때 제한 사항이 추가되었습니다. 이러한 제한 사항은 여정에서 지나치게 급격한 변경을 방지하여 버전 간의 일관성을 유지합니다. [자세히 보기](../about/limitations.md#journey-versions-limitations)
 
 Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세그먼트 선별** 활동을 사용할 수 없습니다. 이러한 제한은 Adobe Campaign Standard 인스턴스의 무결성을 보호합니다. 실제로, 세그먼트 선별 사용은 Campaign Standard 트랜잭션 메시지를 오버로드하게 하는 일일 메시지 전송 피크를 초래할 수 있습니다. [자세히 보기](../about/limitations.md#segment-qualification)
 
@@ -378,7 +388,7 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 <tbody>
 <tr>
 <td>
-<p>이제 여정이 특정 시간 동안에만 이벤트를 수신하도록 하기 위해 이벤트에 대한 시간 제한을 구성할 수 있습니다. 이를 위해 더 이상 이벤트 경로와 동시에 대기 활동을 추가할 필요가 없습니다.
+<p>이제 여정이 특정 시간 동안에만 이벤트를 수신하도록 하기 위해 이벤트에 대한 시간 제한을 구성할 수 있습니다. 이를 위해 더 이상 이벤트 경로와 병렬로 대기 활동을 추가할 필요가 없습니다.
 </p>
 <p>자세한 내용은 <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -425,7 +435,7 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 <p><strong>세그먼트 읽기</strong> 활동에는 다음과 같은 사항이 개선되었습니다.
 </p>
 <ul>
-<li><p>이제 세그먼트 기반 여정이 캔버스 위에 표시되어 여정의 예약 유형을 미리 알려줍니다. 이 미리 알림을 클릭하여 예약 구성 메뉴에 액세스할 수 있습니다.</p>
+<li><p>이제 세그먼트 기반 여정에서는 캔버스 위에 여정의 예약 유형을 알려 주는 미리 알림이 표시됩니다. 이 미리 알림을 클릭하여 예약 구성 메뉴에 액세스할 수 있습니다.</p>
 </li>
 <li><p>세그먼트 내보내기 진행 상태를 표시하기 위해 테스트 모드 로그의 세부 기간을 개선하였습니다.</p>
 </li>
@@ -439,7 +449,7 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 
 ### GA 업데이트{#august-ga-update}
 
-이제 세그먼트 선별 이벤트의 페이로드에는 동작(시작, 종료), 선별 타임스탬프 및 세그먼트 ID와 같은 컨텍스트 정보가 포함되어 있으며 조건 및 작업에 사용할 수 있습니다. [자세히 보기](../building-journeys/segment-qualification-events.md)
+이제 세그먼트 선별 이벤트의 페이로드에는 동작(진입, 종료), 선별 타임스탬프 및 세그먼트 ID와 같은 컨텍스트 정보가 포함되어 있으며 조건 및 작업에 사용할 수 있습니다. [자세히 보기](../building-journeys/segment-qualification-events.md)
 
 ### 알파 업데이트{#august-alpha-update}
 
@@ -479,7 +489,7 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 <p>규칙 기반 이벤트에는 다음과 같은 사항이 개선되었습니다.
 </p>
 <ul>
-<li><p>이제 모든 Adobe Analytics 행동 이벤트 데이터를 활용하여 이미 플랫폼에 스트리밍 및 캡처하고 있으므로 고객을 위한 고객 여정을 트리거하고 경험을 자동화할 수 있습니다. <a href="../event/about-analytics.md">자세히 보기</a></p>
+<li><p>이제 이미 캡처하여 플랫폼으로 스트리밍하고 있는 모든 Adobe Analytics 행동 이벤트 데이터를 활용하여 여정을 트리거하고 고객 경험을 자동화할 수 있습니다. <a href="../event/about-analytics.md">자세히 보기</a></p>
 </li>
 <li><p>이제 테스트 모드에서 규칙 기반 이벤트를 트리거할 때 이벤트 ID 조건을 직접 볼 수 있습니다. 또한 규칙 평가의 일부인 각 필드 옆에 도구 설명이 추가되었습니다. <a href="../building-journeys/testing-the-journey.md#test-rule-based">자세히 보기</a></p>
 </li>
@@ -493,7 +503,7 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 
 ## 알파 릴리스 - 2020년 7월 {#alpha-release---july-2020}
 
-알파 프로그램은 제한된 고객 세트에서 현재 테스트하는 기능을 제공합니다. 따라서 수신한 피드백을 바탕으로 제품을 개선할 수 있습니다. 모든 Journey Orchestration 고객이 이러한 기능을 사용할 수는 없습니다.
+알파 프로그램은 현재 제한된 일부 고객을 대상으로 테스트 중인 기능을 제공합니다. 따라서 수신한 피드백을 바탕으로 제품을 개선할 수 있습니다. 모든 Journey Orchestration 고객이 이러한 기능을 사용할 수는 없습니다.
 
 <table>
 <thead>
@@ -526,7 +536,7 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 <tbody>
 <tr>
 <td>
-<p>여정 트리거 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 세그먼트를 입력하도록 할 수 있습니다. 여정 시작은 한 번 또는 정기적으로 실행될 수 있습니다. 
+<p>세그먼트 트리거 활동을 사용하면 Adobe Experience Platform 세그먼트에 속하는 모든 개인이 여정에 들어갈 수 있습니다. 여정 진입은 한 번 또는 정기적으로 실행될 수 있습니다. 
 </p>
 </td>
 </tr>
@@ -542,7 +552,7 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 <tbody>
 <tr>
 <td>
-<p>경험 이벤트를 설정하는 방법을 간소화했습니다. eventID를 사용할 필요가 없는 새로운 메서드를 도입하고 있습니다. 이제 Journey Orchestration에서 이벤트를 설정할 때 규칙 기반 이벤트를 정의할 수 있습니다. <a href="../event/about-events.md">자세히 보기</a>
+<p>경험 이벤트를 설정하는 방법을 간소화했습니다. eventID를 사용할 필요가 없는 새 메서드가 도입되었습니다. 이제 Journey Orchestration에서 이벤트를 설정할 때 규칙 기반 이벤트를 정의할 수 있습니다. <a href="../event/about-events.md">자세히 보기</a>
 </p>
 </td>
 </tr>
@@ -594,10 +604,10 @@ Campaign Standard 메시지 활동을 포함하는 여정에서 더 이상 **세
 <td>
 <p>여정 디자이너 및 테스트 모드가 다음과 같이 개선되었습니다.</p>
 <ul>
-<li><p>이제 1 또는 N 여정 활동을 선택하면서 붙여넣기 활동을 한 여정에서 다른 여정로 복사할 수 있습니다. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">자세히 보기</a></p>
+<li><p>이제 1개 또는 N개의 여정 활동을 선택하여 한 여정에서 다른 여정으로 복사하여 붙여넣을 수 있습니다. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">자세히 보기</a></p>
 <img src="../assets/rn-copy-paste1.png"/>
 </li>
-<li><p>이제는 테스트 프로필이 여정에 들어가도록 만드는 이벤트를 시작한 후에 색상으로 표시되는 시각적 플로우를 통해 여정 내 진행 상황을 확인할 수 있습니다. 여정에서 오류가 발생하는 경우 오류의 세부 정보도 표시됩니다. <a href="../building-journeys/testing-the-journey.md#firing_events">자세히 보기</a></p>
+<li><p>이제 테스트 프로필이 여정에 들어가도록 이벤트를 발생시킨 후 색상으로 표시되는 시각적 플로우를 통해 여정 내 진행 상황을 확인할 수 있습니다. 여정에서 오류가 발생하는 경우 오류의 세부 정보도 표시됩니다. <a href="../building-journeys/testing-the-journey.md#firing_events">자세히 보기</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
 <li><strong>Finished</strong> 여정 상태가 해당 상태의 의미를 더 잘 반영하도록 <strong>Closed (no entrance)</strong>로 이름이 바뀌었습니다.</li>
@@ -633,7 +643,7 @@ Journey Orchestration 인터페이스를 일본어로 사용할 수 있습니다
 <li>이제는 여정 하나에서 여러 이벤트를 사용할 때 테스트 모드의 <strong>이벤트 구성</strong> 화면 내 드롭다운 목록에서 각 이벤트를 개별적으로 트리거할 수 있습니다. <a href="../building-journeys/testing-the-journey.md#firing_events">자세히 보기</a></p></li>
 <li><p>이제는 여정에서 <strong>대기</strong> 활동을 하나 이상 사용할 때 테스트 모드에서 이러한 각 활동을 진행할 시간을 정의할 수 있습니다. 기본 시간은 10초입니다. 왼쪽 아래에서 <strong>테스트의 대기 시간</strong> 매개 변수를 사용하여 이 시간을 변경할 수 있습니다. <a href="../building-journeys/testing-the-journey.md">자세히 보기</a></p><img src="../assets/rn-test.png"/>
 </li>
-<li><strong>테스트 로그</strong>에서 서드파티 시스템(데이터 원본 또는 작업)을 호출할 때 오류가 발생하면 이제 오류 코드와 오류 응답이 표시됩니다. <a href="../building-journeys/testing-the-journey.md#viewing_logs">자세히 보기</a>
+<li>이제는 서드파티 시스템(데이터 소스 또는 작업)을 호출할 때 오류가 발생하면 <strong>테스트 로그</strong>에 오류 코드와 오류 응답이 표시됩니다. <a href="../building-journeys/testing-the-journey.md#viewing_logs">자세히 보기</a>
 </li>
 </ul>
 </td>
@@ -650,11 +660,11 @@ Journey Orchestration 인터페이스를 일본어로 사용할 수 있습니다
 <tbody>
 <tr> 
 <td>
-<p>이제는 여정 속성 패널에서 중앙 집중식으로 시간대를 관리할 수 있습니다. 중앙 집중식 관리를 위해 여정 속성에 매개 변수 두 개가 추가되었습니다.</p>
+<p>이제는 여정 속성 패널에서 중앙 집중식으로 시간대를 관리할 수 있습니다. 여정 속성에 매개 변수 두 개가 추가되었습니다.</p>
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li><strong>시간대</strong> 드롭다운 목록에서 특정 시간대를 선택할 수 있습니다. 기본적으로는 브라우저의 시간대가 사용됩니다. </li>
-<li><strong>프로필 시간대</strong> 확인란을 선택하면 여정을 입력하는 사용자의 Adobe Experience Platform 프로필 시간대(사용 가능한 경우)를 사용할 수 있습니다. 이 확인란을 선택하지 않으면 드롭다운 목록에서 정의한 시간대가 사용됩니다. 이 기능은 네임스페이스가 없는 이벤트를 사용하는 여정은 호환되지 않습니다.</li>
+<li><strong>프로필 시간대</strong> 확인란을 선택하면 여정을 입력하는 사용자의 Adobe Experience Platform 프로필 시간대(사용 가능한 경우)를 사용할 수 있습니다. 그렇지 않으면 드롭다운 목록에서 정의한 시간대가 사용됩니다. 이 기능은 네임스페이스가 없는 이벤트를 사용하는 여정과 호환되지 않습니다.</li>
 </ul>
 <p>자세한 내용은 <a href="../building-journeys/changing-properties.md#timezone">속성 변경</a> 및 <a href="../building-journeys/timezone-management.md">시간대 관리</a> 섹션을 참조하십시오.</p>
 </td>
@@ -711,16 +721,16 @@ Journey Orchestration 인터페이스를 일본어로 사용할 수 있습니다
 
 * 이제는 여정, 데이터 소스, 작업, 이벤트 등의 모든 목록 화면에서 새 항목 만들기용 바로 가기(**c**)를 사용할 수 있습니다. [자세히 보기](../about/user-interface.md#section_ksq_zr1_ffb)
 
-* 이제는 정지된 여정을 **삭제**&#x200B;할 수 있습니다. 그러면 삭제한 여정을 연관된 보고서를 사용할 수 없게 됩니다.
+* 이제는 정지된 여정을 **삭제**&#x200B;할 수 있습니다. 이렇게 삭제된 여정과 연관된 보고서는 사용할 수 없습니다.
 
 * 이제 **Adobe Experience Platform 필드**(XDM 형식)를 통해 검색할 때 필드 이름과 함께 표시 이름도 표시됩니다. 이 정보는 Experience Data Model의 스키마 정의에서 검색됩니다. 사용 가능한 경우 대체 표시 이름이 나타납니다. 사용자에게 친숙한 이 설명을 통해 필드를 더 쉽게 확인할 수 있으므로 eVar 필드 사용 시에 특히 유용합니다. [자세히 보기](../about/user-interface.md#friendly-names-display)
 
 ## GA 릴리스 - 2019년 12월 {#ga-release---december-2019}
 
-이제 Journey Orchestration이 GA(일반 공급)됩니다.
+Journey Orchestration은 이제 GA(일반 공급) 상태입니다.
 
 이벤트 또는 데이터 소스에 저장된 컨텍스트 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 구축합니다.
 
-Journey Orchestration에서는 이벤트, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 활용한 실시간 오케스트레이션이 가능합니다. 이 애플리케이션은 여러 단계로 진행되는 &#39;여정&#39;를 통해 소비자의 프로필과 행동을 토대로 하여 해당 사용자에 맞는 최적의 다음 작업을 결정합니다. 즉, 다음 작업을 수행하기에 가장 적절한 시점과 해당 작업의 유형이 모두 결정됩니다. Adobe Campaign Standard 트랜잭션 메시지 기능을 통해 소비자에게 푸시 알림을 보내거나(Adobe Campaign Standard 필요), 서드파티 시스템의 알림을 보내는 등의 작업을 예로 들 수 있습니다. 이러한 결정은 규칙과 AI 점수를 기반으로 이루어집니다.
+Journey Orchestration에서는 이벤트, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 활용한 실시간 오케스트레이션이 가능합니다. 이 애플리케이션은 여러 단계로 진행되는 &#39;여정&#39;을 통해 소비자의 프로필과 행동을 토대로 해당 소비자에게 맞는 최적의 다음 작업을 결정합니다. 즉, 다음 작업을 수행하기에 가장 적절한 시점과 해당 작업의 유형이 모두 결정됩니다. Adobe Campaign Standard 트랜잭션 메시지 기능을 통해 소비자에게 푸시 알림을 보내거나(Adobe Campaign Standard 필요), 서드파티 시스템의 알림을 보내는 등의 작업을 예로 들 수 있습니다. 이러한 결정은 규칙과 AI 점수를 기반으로 이루어집니다.
 
 Journey Orchestration에 대해 [자세히 알아보십시오](../action/working-with-adobe-campaign.md).

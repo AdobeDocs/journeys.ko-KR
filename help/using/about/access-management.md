@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 80%
-
+source-wordcount: '933'
+ht-degree: 88%
 ---
-
 # 액세스 관리{#concept_rfj_wpt_52b}
 
 
@@ -133,7 +143,7 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 
    ![](../assets/do-not-localize/user_management_2.png)
 
-1. **[!UICONTROL Add user]** 아이콘을 클릭합니다.
+1. **[!UICONTROL Add user]**&#x200B;을(를) 클릭합니다.
 
    새 사용자를 사용자 그룹에 추가하여 공유 권한 집합을 세부 조정할 수도 있습니다. 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/enterprise/using/user-groups.html)를 참조하십시오.
 
@@ -148,9 +158,9 @@ Admin Console에서 다음의 기본 제품 프로필 중 하나를 사용자에
 ## 샌드박스 사용 {#sandboxes}
 
 [!DNL Journey Orchestration]에서는 인스턴스를 샌드박스라는 분리된 가상 환경으로 분할할 수 있습니다.
-샌드박스는 Admin Console에서 제품 프로필을 통해 할당됩니다. 샌드박스를 할당하는 방법에 대한 자세한 내용은 이 [섹션](../about/access-management.md#create-product-profile)을 참조하세요.
+샌드박스는 Admin Console에서 제품 프로필을 통해 할당됩니다. 샌드박스를 할당하는 방법에 대한 자세한 내용은 이 [섹션](../about/access-management.md#create-product-profile)을 참조하십시오.
 
-[!DNL Journey Orchestration]은(는) 해당 조직에 대해 만들어진 Adobe Experience Platform 샌드박스를 반영합니다.
+[!DNL Journey Orchestration] (은)는 해당 조직을 위해 만들어진 Adobe Experience Platform 샌드박스를 반영합니다.
 Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. 자세한 단계는 [샌드박스 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko-KR)를 참조하십시오.
 
 화면의 왼쪽 상단에 샌드박스 전환기 컨트롤이 있습니다. 한 샌드박스에서 다른 샌드박스로 전환하려면 전환기에서 현재 활성 샌드박스를 클릭하고 드롭다운 목록에서 다른 샌드박스를 선택하십시오.

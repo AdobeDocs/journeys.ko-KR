@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 100%
-
 ---
-
 # [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
 
@@ -28,9 +38,9 @@ ht-degree: 100%
 
 [!DNL Journey Orchestration]은(는) Adobe Experience Platform과 통합된 애플리케이션 서비스입니다.
 
-[!DNL Journey Orchestration]에서는 이벤트, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 활용한 실시간 오케스트레이션이 가능합니다. 서드파티 시스템을 사용하여 메시지를 보내는 경우에는 사용자 지정 작업을 구성할 수 있습니다. Adobe Campaign Standard가 설치되어 있다면 Adobe Campaign Standard의 [트랜잭션 메시지 기능](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko)을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.
+[!DNL Journey Orchestration]에서는 이벤트, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 활용한 실시간 오케스트레이션이 가능합니다. 서드파티 시스템을 사용하여 메시지를 보내는 경우에는 사용자 지정 액션을 구성할 수 있습니다. Adobe Campaign Standard가 설치되어 있다면 Adobe Campaign Standard의 [트랜잭션 메시지 기능](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko)을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.
 
-이벤트 구성 탭에서 **기술 사용자**&#x200B;는 여정에서 예상되는 이벤트를 구성합니다. 수신되는 이벤트 데이터는 Adobe Experience 데이터 모델(XDM)에 따라 표준화됩니다. 이벤트는 인증된 이벤트와 인증되지 않은 이벤트(예: Adobe Mobile SDK 이벤트)를 위한 수집 API 스트리밍에서 옵니다.
+이벤트 구성 탭에서 **기술 사용자**&#x200B;는 여정에서 예상되는 이벤트를 구성합니다. 수신되는 이벤트 데이터는 Adobe Experience 데이터 모델(XDM)에 따라 표준화됩니다. 이벤트는 인증된 이벤트와 인증되지 않은 이벤트(예: Adobe Mobile SDK 이벤트)를 위한 스트리밍 수집 API에서 옵니다.
 
 데이터 소스 구성 탭에서 **기술 사용자**&#x200B;는 다음을 구성합니다.
 
@@ -45,9 +55,9 @@ ht-degree: 100%
 * 이벤트 페이로드에서 오는 데이터
 * 데이터 소스에서 오는 정보: 실시간 고객 프로필 데이터 소스 또는 사용자 지정 데이터 소스
 
-분할된 조건을 사용하여 여정에 있는 사람들을 다른 방향으로 보낼 수 있습니다.
+분할 조건을 사용하여 여정에 있는 사람들을 다른 방향으로 보낼 수 있습니다.
 
-그런 다음에 작업 활동을 사용하여 서드파티 시스템을 통해 메시지를 보낼 수 있습니다. Adobe Campaign Standard가 있는 경우에는 개인화된 실시간 SMS, 푸시 알림 또는 이메일을 보내십시오.
+그런 다음에 작업 활동을 사용하여 서드파티 시스템을 통해 메시지를 보낼 수 있습니다. Adobe Campaign Standard가 있는 경우 개인화된 실시간 SMS, 푸시 알림 또는 이메일을 보낼 수 있습니다.
 
 [!DNL Journey Orchestration]은 여러 단계로 진행되므로 고급 시나리오를 만들 수 있습니다. 예를 들어 첫 번째 이벤트 및 작업 후에 다른 이벤트를 드래그할 수 있습니다. 그런 다음에 두 번째 작업을 추가하고, 잠시 기다리기 위한 대기 활동을 배치하고, 서로 다른 두 여정에 사람들을 푸시한 후에 각기 다른 메시지를 보내기 위한 분할 조건을 추가할 수 있습니다.
 
