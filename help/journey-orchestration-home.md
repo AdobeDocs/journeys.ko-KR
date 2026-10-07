@@ -7,13 +7,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: 9154a81a257f51820e71334880e58b56ec39676e
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 98%
-
+source-wordcount: '270'
+ht-degree: 100%
 ---
-
 # Journey Orchestration 안내서 {#journeys-documentation}
 
 >[!CAUTION]
@@ -25,8 +35,8 @@ ht-degree: 98%
 
 ## 시작하기
 
-* **[Journey Orchestration이란?](using/about/about-journey-orchestration.md)**<br/>
-Journey Orchestration에 대해 자세히 알아보십시오.
+* **[Journey Orchestration이란 무엇입니까?](using/about/about-journey-orchestration.md)**<br/>
+Journey Orchestration에 대해 자세히 알아봅니다.
 
 * **[첫 번째 여정 작성](using/about/get-started.md)**<br/>
 Journey Orchestration을 설정하고 첫 번째 여정을 작성하기 위한 주요 단계를 살펴봅니다.
@@ -48,7 +58,7 @@ Journey Orchestration을 설정하고 첫 번째 여정을 작성하기 위한 �
     <div>
     <a href="using/about/troubleshooting.md"><strong>문제 해결</strong></a>
     </div>
-    <em>여정 문제를 해결하는 데 사용할 수 있는 다양한 도구를 살펴보십시오.</em>
+    <em>여정 문제를 해결하는 데 사용할 수 있는 다양한 도구를 살펴봅니다.</em>
     <br>
   </td>
   <td valign="top">
@@ -58,7 +68,7 @@ Journey Orchestration을 설정하고 첫 번째 여정을 작성하기 위한 �
     <div>
     <a href="using/usecase/building-the-journey.md"><strong>사용 사례</strong></a>
     </div>
-    <em>단계별 고급 여정을 만드는 방법을 알아보십시오.</em>
+    <em>고급 여정을 만드는 방법을 단계별로 살펴봅니다.</em>
     <br>
   </td>
   <td valign="top">
@@ -68,7 +78,7 @@ Journey Orchestration을 설정하고 첫 번째 여정을 작성하기 위한 �
     <div>
     <a href="using/expression/expressionadvanced.md"><strong>고급 표현식 작성</strong></a>
     </div>
-    <em>이벤트 및 데이터 소스의 데이터를 활용하여 복잡한 표현식을 작성하는 방법을 알아보십시오. </em>
+    <em>이벤트 및 데이터 소스의 데이터를 활용하여 복잡한 표현식을 작성하는 방법을 알아봅니다. </em>
     <br>
   </td>
 </tr>

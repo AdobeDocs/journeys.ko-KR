@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 63%
-
+source-wordcount: '602'
+ht-degree: 60%
 ---
-
 # 새 이벤트 만들기 {#section_tbk_5qt_pgb}
 
 
@@ -36,7 +46,7 @@ ht-degree: 63%
 
    >[!NOTE]
    >
-   >공백이나 특수 문자는 사용하지 마십시오. 이름은 30자까지만 입력하십시오.
+   >공백이나 특수 문자는 사용하지 말고 이름은 30자까지만 입력하십시오.
 
 1. **[!UICONTROL Event ID type]** 필드에서 사용할 이벤트 유형을 선택합니다.
 
@@ -44,7 +54,7 @@ ht-degree: 63%
 
    * **규칙 기반** 이벤트: 이 유형의 이벤트는 eventID를 생성하지 않습니다. **이벤트 ID 조건** 필드에서 여정을 트리거할 관련 이벤트를 식별하는 데 시스템에서 사용할 규칙을 정의하면 됩니다. 이 규칙은 프로필의 위치 또는 프로필의 장바구니에 추가한 항목 수와 같은 이벤트 페이로드에서 사용할 수 있는 필드를 기반으로 할 수 있습니다.
 
-   * **시스템 생성** 이벤트: 이 형식에는 eventID가 필요합니다. 이 eventID 필드는 이벤트를 만들 때 자동으로 생성되며 페이로드 미리 보기에 추가됩니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 전달해야 합니다. [이 섹션](../event/previewing-the-payload.md)을 참조하십시오.
+   * **시스템 생성** 이벤트: 이 형식에는 eventID가 필요합니다. 이 eventID 필드는 이벤트를 만들 때 자동으로 생성되며 페이로드 미리 보기에 추가됩니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리보기에서 사용할 수 있는 ID를 전달해야 합니다. [이 섹션](../event/previewing-the-payload.md)을 참조하십시오.
 
    >[!NOTE]
    >
@@ -66,8 +76,8 @@ ht-degree: 63%
 
 1. 네임스페이스를 추가합니다. 이 단계는 원하는 경우에만 수행하면 되지만, 네임스페이스를 추가하면 실시간 고객 프로필 서비스에 저장된 정보를 활용할 수 있습니다. 이 정보에 따라 이벤트의 키 유형이 정의됩니다. [이 페이지](../event/selecting-the-namespace.md)를 참조하십시오.
 1. 키를 정의합니다. 페이로드 필드에서 필드를 선택하거나 공식을 정의하여 이벤트와 연관된 사용자를 지정합니다. 이 키는 네임스페이스를 선택하면 자동으로 설정되지만 편집할 수 있습니다. 네임스페이스에 해당하는 키는 [!DNL Journey Orchestration]에서 자동으로 선택됩니다. 예를 들어 이메일 네임스페이스를 선택하면 이메일 키가 선택됩니다. [이 페이지](../event/defining-the-event-key.md)를 참조하십시오.
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    ![](../assets/journey7.png)
 
-   이제 이벤트가 구성되었으며 경로에 추가할 수 있는 상태가 되었습니다. 이벤트를 수신하려면 추가 구성 단계를 수행해야 합니다. [이 페이지](../event/additional-steps-to-send-events-to-journey-orchestration.md)를 참조하십시오.
+   이제 이벤트가 구성되었으며 여정에 추가할 수 있는 상태가 되었습니다. 이벤트를 수신하려면 추가 구성 단계를 수행해야 합니다. [이 페이지](../event/additional-steps-to-send-events-to-journey-orchestration.md)를 참조하십시오.

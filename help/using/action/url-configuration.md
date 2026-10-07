@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: e7cba6c4-a231-44f9-927a-10115e7ab1dd
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 16%
-
 ---
-
 # URL 구성 {#concept_gbg_1f1_2gb}
 
 
@@ -55,7 +65,7 @@ ht-degree: 16%
 
    1. **[!UICONTROL Constant]**&#x200B;을(를) 선택한 경우 상수 값을 입력하십시오.
 
-      **[!UICONTROL Variable]**&#x200B;을(를) 선택한 경우 여정에 사용자 지정 작업을 추가할 때 이 변수를 지정합니다. [자세히 알아보기](../building-journeys/using-custom-actions.md)
+      **[!UICONTROL Variable]**&#x200B;을(를) 선택한 경우 여정에 사용자 지정 작업을 추가할 때 이 변수를 지정합니다. [자세히 알아보기](../building-journeys/using-custom-actions.md).
 
       ![](../assets/journeyurlconfiguration2.png)
 

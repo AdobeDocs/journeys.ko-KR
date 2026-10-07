@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 10%
-
 ---
-
 # [!DNL Journey Orchestration] 이벤트에 대한 ExperienceEvent 스키마 정보
 
 
@@ -79,7 +89,7 @@ Adobe Experience Platform을 사용하면 한 데이터 세트를 다른 데이�
 
 >[!NOTE]
 >
->[Experience Platform 설명서](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=ko)에서 스키마 관계에 대해 자세히 알아보세요.
+>[Experience Platform 설명서](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en)에서 스키마 관계에 대해 자세히 알아보세요.
 
 그런 다음 Journey Orchestration에서 연결된 테이블의 모든 필드를 활용할 수 있습니다.
 

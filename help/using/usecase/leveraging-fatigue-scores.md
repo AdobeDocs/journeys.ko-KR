@@ -2,13 +2,14 @@
 product: adobe campaign
 title: 피로 점수 활용
 description: 여정에서 피로도 점수를 활용하는 방법 알아보기
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 7%
-
 ---
-
 
 # 여정 AI 활용 {#concept_dsh_1ry_wfb}
 
@@ -16,7 +17,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->예측 피로도 점수 기능은 [Adobe Experience Platform 데이터 커넥터](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=ko)를 사용하는 고객에게만 제공됩니다.
+>예측 피로도 점수 기능은 [Adobe Experience Platform 데이터 커넥터](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html)를 사용하는 고객에게만 제공됩니다.
 
 ## 이벤트 구성 {#section_ptb_ws1_ffb}
 
@@ -36,7 +37,7 @@ ht-degree: 7%
 
    ![](../assets/journeyuc3_1.png)
 
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 여정 구축 {#section_uzm_pyy_wfb}
 
@@ -54,7 +55,7 @@ ht-degree: 7%
 
    ![](../assets/journeyuc3_2.png)
 
-1. 간단한 표현식 편집기를 사용하여 **[!UICONTROL fatigueLevel]** 필드(_ExperiencePlatformDataSource > JourneyAIScores > Profile > journeyAI > emailScore > fatigue_)를 찾아 오른쪽에 놓고 &quot;fatigueLevel이 &quot;Low&quot;와 같음&quot; 조건을 만듭니다. **[!UICONTROL Ok]** 아이콘을 클릭합니다.
+1. 간단한 표현식 편집기를 사용하여 **[!UICONTROL fatigueLevel]** 필드(_ExperiencePlatformDataSource > JourneyAIScores > Profile > journeyAI > emailScore > fatigue_)를 찾아 오른쪽에 놓고 &quot;fatigueLevel이 &quot;Low&quot;와 같음&quot; 조건을 만듭니다. **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
 
    ![](../assets/journeyuc3_3.png)
 

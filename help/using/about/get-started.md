@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 100%
-
 ---
-
 # 시작하기{#concept_y4b_4qt_52b}
 
 
@@ -32,7 +42,7 @@ ht-degree: 100%
 
 1. **이벤트 구성**
 
-   필요한 정보와 정보 처리 방법을 정의해야 합니다. 이 구성은 반드시 진행해야 하며, 이 단계가 필요한 경우에는 **기술 사용자**&#x200B;가 이 단계를 수행해야 합니다.
+   필요한 정보와 정보 처리 방법을 정의해야 합니다. 이 구성은 필수입니다. 이 단계가 필요한 경우에는 **기술 사용자**&#x200B;가 이 단계를 수행해야 합니다.
 
    자세한 정보는 이 [페이지](../event/about-events.md)를 참조하십시오.
 
@@ -40,7 +50,7 @@ ht-degree: 100%
 
 1. **데이터 소스 구성**
 
-   여정에 사용할 조건 등의 추가 정보를 검색하려면 시스템에 대한 연결을 정의해야 합니다. 기본 제공 Adobe Experience Platform 데이터 소스도 프로비저닝 시에 구성됩니다. 여정 내 이벤트의 데이터만 활용하는 경우에는 이 단계를 수행할 필요가 없습니다. 이 단계가 필요한 경우에는 **기술 사용자**&#x200B;가 이 단계를 수행해야 합니다.
+   여정에 사용할 조건 등의 추가 정보를 가져오려면 시스템에 대한 연결을 정의해야 합니다. 기본 제공 Adobe Experience Platform 데이터 소스도 프로비전 시에 구성됩니다. 여정 내 이벤트의 데이터만 활용하는 경우에는 이 단계를 수행할 필요가 없습니다. 이 단계가 필요한 경우에는 **기술 사용자**&#x200B;가 이 단계를 수행해야 합니다.
 
    자세한 정보는 이 [페이지](../datasource/about-data-sources.md)를 참조하십시오.
 
@@ -58,7 +68,7 @@ ht-degree: 100%
 
 1. **여정 디자인**
 
-   다양한 이벤트, 오케스트레이션 및 작업 활동을 조합하여 여러 단계로 구성된 크로스 채널 시나리오를 작성할 수 있습니다. 이 단계는 **비즈니스 사용자**&#x200B;가 수행해야 합니다.
+   다양한 이벤트, 오케스트레이션 및 액션 활동을 조합하여 여러 단계로 구성된 크로스 채널 시나리오를 작성할 수 있습니다. 이 단계는 **비즈니스 사용자**&#x200B;가 수행해야 합니다.
 
    자세한 내용은 [이 페이지](../building-journeys/journey.md)를 참조하십시오.
 
@@ -66,7 +76,7 @@ ht-degree: 100%
 
 1. **여정 테스트 및 게시**
 
-   여정을 만든 후에는 유효성을 검사하고 활성화해야 합니다. 이 단계는 **비즈니스 사용자**&#x200B;가 수행해야 합니다.
+   여정의 유효성을 검사하고 활성화해야 합니다. 이 단계는 **비즈니스 사용자**&#x200B;가 수행해야 합니다.
 
    자세한 내용은 [여정 테스트](../building-journeys/testing-the-journey.md) 및 [여정 게시](../building-journeys/publishing-the-journey.md) 페이지를 참조하십시오.
 

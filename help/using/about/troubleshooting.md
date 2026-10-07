@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 87%
-
 ---
-
 # 문제 해결{#concept_nlv_bcv_2fb}
 
 
@@ -31,7 +41,7 @@ ht-degree: 87%
 
 여정을 테스트하고 게시하기 전에 모든 활동이 올바르게 구성되었는지 확인하십시오. 시스템에서 오류가 계속 감지되면 테스트나 게시를 수행할 수 없습니다.
 
-캔버스에서 활동 자체에 경고 기호가 표시되면서 오류가 나타납니다. 커서를 느낌표 위에 놓으면 오류 메시지가 표시됩니다. 활동을 클릭하면 오류가 발생한 줄이 경고와 함께 표시됩니다. 예를 들어 필수 필드가 비어 있으면 오류가 표시됩니다.
+오류는 캔버스의 활동 자체에 표시되는 경고 기호로 나타납니다. 커서를 느낌표 위에 놓으면 오류 메시지가 표시됩니다. 활동을 클릭하면 오류가 발생한 줄이 경고와 함께 표시됩니다. 예를 들어 필수 필드가 비어 있으면 오류가 표시됩니다.
 
 ![](../assets/journey63.png)
 
@@ -41,7 +51,7 @@ ht-degree: 87%
 
 **[!UICONTROL Test]** 토글 및 **[!UICONTROL Publish]** 버튼 옆에 경고 기호가 표시될 수 있습니다. 이 경고 표시는 시스템에서 감지된 오류를 표시하며 테스트 모드가 활성화되거나 여정이 게시되는 것을 방지합니다. 대부분의 경우 시스템에서 감지된 오류는 활동에서 확인할 수 있는 오류와 연결되어 있지만, 때로는 다른 문제와 연결되어 있습니다. 그럴 경우에는 오류를 표시하고 오류 설명을 통해 문제를 파악할 수 있습니다. 문제를 파악할 수 없는 경우 세부 정보를 복사하여 관리자나 지원 팀에 보낼 수 있습니다. 테스트를 차단하는 오류와 게시를 차단하는 오류는 비슷합니다.
 
-시스템에서는 오류와 경고의 두 가지 문제를 감지합니다. 오류는 게시 및 테스트 활성화를 차단합니다. 경고는 테스트 활성화 또는 게시를 차단하지 않는 잠재적인 문제를 나타냅니다. 문제에 대한 설명 그리고 ERR_XXX_XXX 유형의 문제 로그 ID가 표시됩니다. 이 정보는 기술 지원 팀에서 문제를 파악하는 데 도움이 됩니다.
+시스템에서는 오류와 경고의 두 가지 문제를 감지합니다. 오류는 게시 및 테스트 활성화를 차단합니다. 경고는 테스트 활성화 또는 게시를 차단하지 않는 잠재적인 문제를 나타냅니다. 문제에 대한 설명과 ERR_XXX_XXX 유형의 문제 로그 ID가 표시됩니다. 이 정보는 기술 지원 팀에서 문제를 파악하는 데 도움이 됩니다.
 
 **[!UICONTROL Test]** 토글 및 **[!UICONTROL Publish]** 버튼 옆의 기호에 두 가지 색상이 표시될 수 있습니다. 오류의 경우 기호가 빨간색으로 표시됩니다. 경고의 경우 주황색으로 표시됩니다.
 
@@ -55,9 +65,9 @@ ht-degree: 87%
 
 여정의 시작점은 항상 이벤트입니다. Postman과 같은 도구를 사용하여 테스트를 수행할 수 있습니다.
 
-이러한 도구를 통해 보내는 API 호출이 올바르게 전송되었는지 여부를 확인할 수 있습니다. 오류가 반환되면 호출에 문제가 있는 것입니다. 페이로드, 헤더(특히 조직 ID) 및 대상 URL을 다시 확인하십시오. 올바른 URL이 무엇인지를 관리자에게 물어볼 수 있습니다.
+이러한 도구를 통해 보내는 API 호출이 올바르게 전송되었는지 여부를 확인할 수 있습니다. 오류가 반환되면 호출에 문제가 있는 것입니다. 페이로드, 헤더(특히 조직 ID) 및 대상 URL을 다시 확인하십시오. 어떤 URL을 호출해야 하는지 관리자에게 물어볼 수 있습니다.
 
-이벤트는 소스에서 [!DNL Journey Orchestration]으로 직접 푸시되지 않습니다. [!DNL Journey Orchestration]은(는) Adobe Experience Platform의 수집 API 스트리밍에 의존합니다. 따라서 이벤트 관련 문제가 발생하면 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ko)에서 수집 API 스트리밍 문제 해결을 참조할 수 있습니다.
+이벤트는 소스에서 [!DNL Journey Orchestration]으로 직접 푸시되지 않습니다. [!DNL Journey Orchestration]은(는) Adobe Experience Platform의 수집 API 스트리밍에 의존합니다. 따라서 이벤트 관련 문제가 발생하면 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)에서 수집 API 스트리밍 문제 해결을 참조할 수 있습니다.
 
 ## 사람들이 여정에 들어오는지 확인{#section_x4v_zzs_dgb}
 
@@ -71,7 +81,7 @@ ht-degree: 87%
 * 페이로드 미리 보기에서 페이로드를 복사하기 전에 이벤트를 저장했습니까?
 * 이벤트 페이로드에 이벤트 ID가 포함되어 있습니까?
 * 정확한 URL을 입력했습니까?
-* 이벤트 구성 창에서 페이로드 구조 미리 보기를 사용하여 수집 API 스트리밍 페이로드 구조를 따랐습니까? [이 페이지](../event/previewing-the-payload.md)를 참조하십시오.
+* 이벤트 구성 창에서 페이로드 구조 미리 보기를 사용하여 스트리밍 수집 API 페이로드 구조를 따랐습니까? [이 페이지](../event/previewing-the-payload.md)를 참조하십시오.
 * 이벤트 헤더에 올바른 키/값 쌍을 사용했습니까?
 
   ```

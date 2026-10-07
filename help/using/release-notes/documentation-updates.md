@@ -7,16 +7,26 @@ role: User
 level: Beginner
 hide: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 98%
-
+source-wordcount: '1001'
+ht-degree: 100%
 ---
-
 # 설명서 업데이트
 
-이 페이지에는 [!DNL Journey Orchestration]에 대한 설명서 업데이트가 모두 나열됩니다.
+이 페이지에는 [!DNL Journey Orchestration]의 설명서 업데이트 내용이 모두 포함되어 있습니다.
 [!DNL Journey Orchestration] [릴리스 정보](../release-notes/release-notes.md)도 확인할 수 있습니다.
 
 ## 2022년 7월 {#july-2022}
@@ -44,7 +54,7 @@ ht-degree: 98%
 * 표현식 편집기 설명서에 dateOnly 날짜 유형을 추가했습니다. [자세히 보기](../expression/data-types.md)
 * 사용자 지정 작업 캐시 지속 시간에 대해 자세한 정보를 추가했습니다. [자세히 보기](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 * 사용자 지정 작업 기본 포트에 대한 정보를 추가했습니다. [자세히 보기](../action/url-configuration.md)
-* 데이터 레이크의 여정 단계 이벤트 쿼리에 대해 많이 쓰이는 사례를 추가했습니다. [자세히 보기](../building-journeys/query-examples.md)
+* 데이터 레이크에서 여정 단계 이벤트를 쿼리하는 데 자주 사용되는 예를 추가했습니다. [자세히 보기](../building-journeys/query-examples.md)
 
 ## 2021년 8월
 
@@ -54,7 +64,7 @@ ht-degree: 98%
 
 ## 2021년 3월 {#march-2021}
 
-* Adobe Experience Platform에서 테스트 프로필을 만드는 전체 절차를 자세히 살펴보았습니다. [자세히 보기](../building-journeys/creating-test-profiles.md).
+* Adobe Experience Platform에서 테스트 프로필을 만드는 전체 절차를 자세히 설명했습니다. [자세히 보기](../building-journeys/creating-test-profiles.md).
 
 ## 2021년 1월 {#january-2021}
 
@@ -67,13 +77,13 @@ ht-degree: 98%
 ## 2020년 9월 {#september-2020}
 
 * 인터페이스 설명 섹션이 새 **모든 선택기** 메뉴를 반영하도록 업데이트했습니다. [자세히 보기](../about/user-interface.md)
-* 되풀이가 아닌 새 버전을 사용하여 세그먼트 기반 여정에 메모를 추가했습니다.
+* 반복되지 않는 세그먼트 기반 여정의 새 버전에 대한 메모가 추가되었습니다.
 
 ## 2020년 8월 {#august-2020}
 
 * 세그먼트 목록에 표시할 열을 정렬 및 선택하는 방법에 대한 정보가 추가되었습니다. [자세히 보기](../building-journeys/segment-qualification-events.md)
-* 세그먼트 이름과 ID를 선택한 후 복사하는 방법에 대한 정보가 추가되었습니다. [자세히 보기](../building-journeys/segment-qualification-events.md)
-* Experience Platform 발생이 여러 페이지 전반에서 조화롭게 되었습니다.
+* 세그먼트를 선택한 후 해당 이름과 ID를 복사하는 방법에 대한 정보가 추가되었습니다. [자세히 보기](../building-journeys/segment-qualification-events.md)
+* 여러 페이지에서 Experience Platform의 표기가 일관되게 통일되었습니다.
 
 ## 2020년 7월 {#july-2020}
 
@@ -84,7 +94,7 @@ ht-degree: 98%
 * Intelligent Services 통합에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../ai-services/ai-services-overview.md)
 * 테스트 프로필 만들기에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../building-journeys/testing-the-journey.md)
 * 여정 조건 또는 작업에서 **[!UICONTROL SegmentQualification]** 노드를 사용하는 방법에 대한 정보가 추가되었습니다. [자세히 보기](../building-journeys/segment-qualification-events.md)
-* 캠페인 트랜잭션 메시지 및 이벤트 게시에 대한 메모가 추가되었습니다. [Adobe Campaign 작업](../action/working-with-adobe-campaign.md) 및 [Adobe Campaign 작업 사용](../building-journeys/using-adobe-campaign-actions.md)을 참조하십시오.
+* Campaign 트랜잭션 메시지 및 이벤트 게시에 대한 메모가 추가되었습니다. [Adobe Campaign 작업](../action/working-with-adobe-campaign.md) 및 [Adobe Campaign 작업 사용](../building-journeys/using-adobe-campaign-actions.md)을 참조하십시오.
 * Campaign Standard 인스턴스 URL을 테스트할 때 수행되는 검사에 대한 정보가 추가되었습니다. [자세히 보기](../action/working-with-adobe-campaign.md)
 * AWS 또는 Azure 서버에서 호스팅되는 Campaign Standard 인스턴스와의 반응 이벤트 호환성에 대한 정보가 추가되었습니다. [자세히 보기](../building-journeys/reaction-events.md)
 * Campaign Standard 트랜잭션 메시징을 작업할 때 상한 설정 규칙을 설정해야 할 필요성에 대한 메모가 추가되었습니다. [자세히 보기](../action/working-with-adobe-campaign.md)
@@ -131,7 +141,7 @@ ht-degree: 98%
 
 * 인터페이스 변경 사항을 반영하여 모든 스크린샷이 업데이트되었습니다.
 * 테스트 모드 섹션이 업데이트되었습니다. [자세히 보기](../building-journeys/testing-the-journey.md)
-  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=ko).-->
+  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * 이제는 정지된 여정을 삭제할 수 있습니다. 관련 설명서 페이지가 업데이트되었습니다.
 * 이제는 여정에서 문제가 탐지되면 두 가지 색상이 표시됩니다. 오류의 경우 빨간색, 경고의 경우에는 주황색이 표시됩니다. [자세히 보기](../about/troubleshooting.md)
 * 고급 표현식 편집기 섹션이 업데이트되었습니다. [자세히 보기](../expression/expressionadvanced.md).

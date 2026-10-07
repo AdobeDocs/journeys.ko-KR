@@ -7,13 +7,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 95%
-
 ---
-
 # Throttling API로 작업하기
 
 
@@ -37,7 +47,7 @@ Throttling API를 사용하면 초당 전송되는 이벤트 수를 제한하기
 
 ## Throttling API 설명 {#description}
 
-| 방법 | 경로 | 설명 |
+| 메서드 | 경로 | 설명 |
 |---|---|---|
 | [!DNL POST] | list/throttlingConfigs | 스로틀링 구성 목록 가져오기 |
 | [!DNL POST] | /throttlingConfigs | 스로틀링 구성 만들기 |
@@ -194,11 +204,11 @@ forceDelete 매개 변수를 사용하면 API 호출 단 한 번에 구성의 �
 
 ## 런타임 수준에서 본 구성의 수명 주기 {#config}
 
-배포를 취소한 구성은 런타임 수준에서 비활성 상태로 표시되고 대기 중인 이벤트는 24시간 동안 계속 처리됩니다. 그 다음에는 해당 구성이 런타임 서비스에서 삭제됩니다.
+배포를 취소한 구성은 런타임 수준에서 비활성 상태로 표시되고 보류 중인 이벤트는 24시간 동안 계속 처리됩니다. 그 다음에는 해당 구성이 런타임 서비스에서 삭제됩니다.
 
 구성의 배포를 취소한 후에 업데이트하여 재배포할 수 있습니다. 그러면 향후 작업 실행 시 고려할 새 런타임 구성이 만들어집니다.
 
-이미 배포한 구성을 업데이트하면 새로운 값을 즉시 고려합니다. 기본 시스템 리소스는 자동으로 조정됩니다. 구성의 배포를 취소한 다음 재배포하는 것보다 적합한 방법입니다.
+이미 배포한 구성을 업데이트하면 새 값이 즉시 반영됩니다. 기반 시스템 리소스는 자동으로 조정됩니다. 구성의 배포를 취소한 다음 재배포하는 것보다 최적의 방법입니다.
 
 ## 응답 예제 {#responses}
 

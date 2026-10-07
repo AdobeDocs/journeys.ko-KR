@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 17%
-
 ---
-
 # [!DNL Journey Orchestration]에 이벤트를 보내는 추가 단계 {#concept_xrz_n1q_y2b}
 
 
@@ -101,4 +111,4 @@ ht-degree: 17%
 
 &quot;데이터&quot; 부분을 붙여넣을 위치를 쉽게 확인하려면 [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)과(와) 같은 JSON 시각화 도구를 사용할 수 있습니다.
 
-스트리밍 수집 API의 문제를 해결하려면 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ko)를 참조하세요.
+스트리밍 수집 API의 문제를 해결하려면 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)를 참조하세요.

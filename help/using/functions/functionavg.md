@@ -6,13 +6,23 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: 6c9f3a5d-20b4-4c0a-b17f-5221f5db51be
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 13%
-
 ---
-
 # avg {#avg}
 
 목록 또는 두 표현식으로 지정된 표현식 세트 중 평균 값을 반환합니다. Null 값은 무시됩니다.

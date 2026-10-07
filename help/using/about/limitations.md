@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 54%
-
+source-wordcount: '637'
+ht-degree: 60%
 ---
-
 # 제한 사항 {#limitations}
 
 
@@ -34,8 +44,8 @@ ht-degree: 54%
 
 ## 일반 작업 제한 사항
 
-* 오류가 발생하는 경우 체계적으로 세 번 다시 시도합니다. 수신된 오류 메시지에 따라 재시도 횟수를 조정할 수 없습니다. 
-* 기본 제공 **반응** 이벤트를 사용하면 기본 작업에 반응할 수 있습니다([페이지](../building-journeys/reaction-events.md) 참조). 사용자 지정 작업을 통해 전송된 메시지에 반응하려면 전용 이벤트를 구성해야 합니다. 
+* 오류가 발생하면 시스템에서 세 번 다시 시도합니다. 수신된 오류 메시지에 따라 재시도 횟수를 조정할 수 없습니다. 
+* 기본 제공 **반응** 이벤트를 사용하면 기본 작업에 반응할 수 있습니다([페이지](../building-journeys/reaction-events.md) 참조). 사용자 지정 작업을 통해 보낸 메시지에 반응하려면 전용 이벤트를 구성해야 합니다. 
 
 ## 여정 버전 제한 사항 {#journey-versions-limitations}
 
@@ -48,26 +58,22 @@ ht-degree: 54%
 
 * 처리량 제한으로 인해 **세그먼트 자격** 활동을 Adobe Campaign Standard 트랜잭션 메시지와 함께 사용할 수 없습니다. [Adobe Campaign Standard 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html)을 참조하세요. 
  
-
 ## 사용자 지정 작업 제한 사항
 
 * 사용자 정의 작업 URL은 동적 매개 변수를 지원하지 않습니다. 
 * POST 및 PUT 호출 메서드만 지원됩니다. 
-* 쿼리 매개 변수 또는 헤더의 이름은 &quot;.&quot; 또는 &quot;$&quot;로 시작할 수 없습니다. 
+* 쿼리 매개 변수 또는 헤더의 이름은 “.” 또는 &quot;$&quot;로 시작하면 안 됩니다. 
 * IP 주소는 허용되지 않습니다. 
-* 내부 Adobe 주소(.adobe.)는 허용되지 않습니다.
+* 내부 Adobe 주소(.adobe.) 허용되지 않습니다.
  
-
 ## Adobe Campaign 작업 제한 사항
 
 * Adobe Campaign Standard 트랜잭션 메시지는 주어진 인스턴스에 대해 채널 전체에서 시간당 최대 50,000개의 메시지 크기가 있습니다. [Adobe Campaign Standard 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html)을 참조하세요. 
  
-
 ## 이벤트 제한 사항
 
 * 시스템 생성 이벤트의 경우 고유한 오케스트레이션 ID를 얻으려면 먼저 고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 Journey Orchestration 내에서 구성해야 합니다. 이 오케스트레이션 ID는 Adobe Experience Platform으로 들어오는 스트리밍 페이로드에 추가되어야 합니다. 이 제한은 규칙 기반 이벤트에는 적용되지 않습니다.
  
-
 ## 데이터 소스 제한 사항
 
 * 고객 여정 내에서 외부 데이터 소스를 활용하여 실시간으로 외부 데이터를 조회할 수 있습니다. 이러한 소스는 REST API를 통해 사용할 수 있어야 하고 JSON을 지원하고 요청 볼륨을 처리할 수 있어야 합니다.

@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '1390'
 ht-degree: 92%
-
 ---
-
 # 외부 데이터 소스 {#concept_t2s_kqt_52b}
 
 
@@ -51,9 +61,9 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
    >[!NOTE]
    >
-   >공백이나 특수 문자는 사용하지 마십시오. 이름은 30자까지만 입력하십시오.
+   >공백이나 특수 문자는 사용하지 말고 이름은 30자까지만 입력하십시오.
 
-1. 원하는 경우 데이터 소스에 이벤트에 설명을 추가합니다.
+1. 데이터 소스에 설명을 추가합니다. 데이터 소스에 이벤트에 설명을 추가합니다.
 1. 외부 서비스의 URL을 추가합니다. 이 예제에서는 _https://api.adobeweather.org/weather_&#x200B;를 추가합니다.
 
    >[!CAUTION]
@@ -79,7 +89,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 * **[!UICONTROL Used in]**: 필드 그룹을 사용하는 여정 수를 표시합니다. **[!UICONTROL View journeys]** 아이콘을 클릭하여 이 필드 그룹을 사용하는 여정 목록을 표시할 수 있습니다.
 * **[!UICONTROL Method]**: POST 또는 GET 메서드를 선택합니다. 여기서는 GET 메서드를 선택합니다.
 * **[!UICONTROL Response Payload]**: **[!UICONTROL Payload]** 필드 안을 클릭하여 호출에서 반환된 페이로드의 예제를 붙여넣습니다. 이 예제에서는 날씨 API 웹 사이트의 페이로드를 사용했습니다. 필드 유형이 올바른지 확인합니다. API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 현재 전달된 페이로드를 변경하려는 경우 **[!UICONTROL Paste a new payload]**&#x200B;를 클릭하면 됩니다.
-* **[!UICONTROL Dynamic Values]**: 각 매개 변수를 쉼표로 구분하여 입력합니다. 이 예제에서는 &quot;long,lat&quot;를 입력합니다. 매개 변수 값은 실행 컨텍스트에 따라 달라지므로 여정에서 정의됩니다. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오.
+* **[!UICONTROL Dynamic Values]**: 각 매개 변수를 쉼표로 구분하여 입력합니다. 이 예제에서는 &quot;long,lat&quot;를 입력합니다. 매개변수 값은 실행 컨텍스트에 따라 달라지므로 여정에서 정의됩니다. [이 페이지](../expression/expressionadvanced.md)를 참조하십시오.
 * **[!UICONTROL Sent Payload]**: 이 예제에서는 이 필드가 표시되지 않습니다. POST 메서드를 선택해야 이 필드를 사용할 수 있습니다. 서드파티 시스템으로 전송할 페이로드를 붙여넣습니다.
 
 매개 변수가 필요한 GET 호출의 경우 **[!UICONTROL Dynamic Values]** 필드에 매개 변수를 입력하면 호출 끝에 매개 변수가 자동으로 추가됩니다. POST 호출의 경우에는 다음을 수행해야 합니다.
@@ -93,7 +103,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 ![](../assets/journey29.png)
 
-**[!UICONTROL Save]** 아이콘을 클릭합니다.
+**[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 이제 데이터 소스가 구성되었으며 여정에서 사용할 수 있는 상태가 되었습니다. 예를 들어 조건이나 이메일 개인화 등에 데이터 소스를 사용할 수 있습니다. 가령 기온이 섭씨 30도를 넘으면 특정 메시지를 보내도록 지정할 수 있습니다.
 
@@ -102,7 +112,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="사용자 정의 인증"
->abstract="사용자 정의 인증 모드는 OAuth2 등의 API 래핑 프로토콜을 호출하는 복잡한 인증에 사용됩니다. 작업은 두 단계로 실행됩니다. 첫 단계에서는 엔드포인트 호출을 수행하여 액세스 토큰을 생성합니다. 두 번째 단계에서는 작업의 HTTP 요청에 액세스 토큰을 삽입합니다."
+>abstract="사용자 정의 인증 모드는 OAuth2 등의 API 래핑 프로토콜을 호출하는 복잡한 인증에 사용됩니다. 작업은 두 단계로 실행됩니다. 첫 단계에서는 엔드포인트 호출을 수행하여 액세스 토큰을 생성합니다. 두 번째 단계에서는 액션의 HTTP 요청에 액세스 토큰을 삽입합니다."
 
 이 인증 모드는 작업의 실제 HTTP 요청에 삽입할 액세스 토큰을 검색하기 위한 복잡한 인증(대개 OAuth2 등의 API 래핑 프로토콜을 호출하는 데 사용됨)에 사용됩니다.
 
@@ -116,15 +126,15 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 이 인증을 사용할 때는 작업이 다음의 두 단계로 실행됩니다.
 
-1. 끝점을 호출하여 액세스 토큰을 생성합니다.
+1. 엔드포인트를 호출하여 액세스 토큰을 생성합니다.
 1. 올바른 방식으로 액세스 토큰을 삽입하여 REST API를 호출합니다.
 
 이 인증은 두 부분으로 구성되어 있습니다.
 
-액세스 토큰 생성을 위해 호출할 끝점의 정의:
+액세스 토큰 생성을 위해 호출할 엔드포인트의 정의:
 
-* endpoint: 끝점을 생성하는 데 사용할 URL
-* 끝점에 대한 HTTP 요청 메서드(GET 또는 POST)
+* endpoint: 엔드포인트를 생성하는 데 사용할 URL
+* 엔드포인트의 HTTP 요청 메서드(GET 또는 POST)
 * header: 필요한 경우 이 호출에서 헤더로 삽입할 키/값 쌍
 * body: 메서드가 POST인 경우 호출의 본문을 설명하는 요소. bodyParams(키/값 쌍)에 정의된 제한된 본문 구조가 지원됩니다. bodyType은 호출 본문의 형식과 인코딩을 설명합니다.
   * &#39;form&#39;: 콘텐츠 유형은 application/x-www-form-urlencoded(charset UTF-8)이며 키/값 쌍이 그대로 일련화됩니다(예: key1=value1&amp;key2=value2&amp;...).
@@ -135,8 +145,8 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 * authorizationType: 생성된 액세스 토큰을 작업의 HTTP 호출에 삽입해야 하는 방법을 정의합니다. 가능한 값은 다음과 같습니다.
 
   * bearer: _Authorization: Bearer &lt;액세스 토큰>_&#x200B;과 같이 액세스 토큰을 권한 부여 헤더에 삽입해야 함을 나타냅니다.
-  * header: 액세스 토큰을 header(tokenTarget 속성으로 정의된 헤더 이름)로 삽입해야 함을 나타냅니다. 예를 들어 tokenTarget이 myHeader이면 액세스 토큰은 _myHeader: &lt;액세스 토큰>_&#x200B;과 같이 헤더로 삽입됩니다.
-  * queryParam: access 토큰을 queryParam(tokenTarget 속성으로 정의되는 쿼리 매개 변수 이름)으로 삽입해야 함을 나타냅니다. 예를 들어 tokenTarget이 myQueryParam이면 작업 호출의 URL은 _&lt;url>?myQueryParam=&lt;액세스 토큰>_&#x200B;이 됩니다.
+  * header: 액세스 토큰을 헤더(tokenTarget 속성으로 정의된 헤더 이름)로 삽입해야 함을 나타냅니다. 예를 들어 tokenTarget이 myHeader이면 액세스 토큰은 _myHeader: &lt;액세스 토큰>_&#x200B;과 같이 헤더로 삽입됩니다.
+  * queryParam: 액세스 토큰을 queryParam(tokenTarget 속성으로 정의되는 쿼리 매개 변수 이름)으로 삽입해야 함을 나타냅니다. 예를 들어 tokenTarget이 myQueryParam이면 작업 호출의 URL은 _&lt;url>?myQueryParam=&lt;액세스 토큰>_&#x200B;이 됩니다.
 
 * tokenInResponse: 인증 호출에서 액세스 토큰을 추출하는 방법을 나타냅니다. 이 속성은 다음 중 하나일 수 있습니다.
   * &#39;response&#39;: HTTP 응답이 액세스 토큰임을 나타냅니다.
@@ -167,7 +177,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 }
 ```
 
-사용자 지정 인증 데이터 소스에 대해 토큰의 캐시 기간을 변경할 수 있습니다. 아래는 사용자 지정 인증 페이로드의 예입니다. 캐시 기간은 &quot;cacheDuration&quot; 매개 변수에서 정의됩니다. 캐시에서 생성된 토큰의 보존 기간을 지정합니다. 단위는 밀리초, 초, 분, 시간, 일, 개월, 년일 수 있습니다.
+사용자 지정 인증 데이터 소스에 대해 토큰의 캐시 지속 시간을 변경할 수 있습니다. 아래는 사용자 지정 인증 페이로드의 예입니다. 캐시 지속 시간은 &quot;cacheDuration&quot; 매개변수에서 정의됩니다. 캐시에서 생성된 토큰의 보존 기간을 지정합니다. 단위는 밀리초, 초, 분, 시간, 일, 개월, 년일 수 있습니다.
 
 ```
 "authentication": {

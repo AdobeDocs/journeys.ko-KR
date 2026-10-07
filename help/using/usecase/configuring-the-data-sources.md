@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 24%
-
 ---
-
 # 데이터 소스 구성 {#concept_vml_hdy_w2b}
 
 
@@ -47,7 +57,7 @@ ht-degree: 24%
 
    ![](../assets/journeyuc2_7.png)
 
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 호텔 예약 시스템에서도 예약자가 있는지 확인해야 합니다. **기술 사용자**&#x200B;가 이 필드를 검색하려면 두 번째 데이터 원본을 구성해야 합니다.
 
@@ -80,6 +90,6 @@ ht-degree: 24%
 
    ![](../assets/journeyuc2_11.png)
 
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    이제 데이터 소스가 구성되었으며 여정에서 사용할 수 있는 상태가 되었습니다.

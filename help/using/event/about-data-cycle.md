@@ -6,16 +6,26 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: b362589a-32b0-4dbd-8ceb-a371e1e048ac
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 79%
-
 ---
-
 # 데이터 주기 {#section_r1f_xqt_pgb}
 
-POST API 호출인 이벤트는 이벤트는 스트리밍 수집 API를 통해 Adobe Experience Platform으로 전송됩니다. 트랜잭션 메시징 API를 통해 전송되는 이벤트의 URL 대상은 &quot;인렛&quot;입니다. 이벤트의 페이로드는 XDM 형식을 따릅니다.
+이벤트는 POST API 호출입니다. 이벤트는 스트리밍 수집 API를 통해 Adobe Experience Platform으로 전송됩니다. 트랜잭션 메시징 API를 통해 전송되는 이벤트의 URL 대상은 &quot;인렛&quot;입니다. 이벤트의 페이로드는 XDM 형식을 따릅니다.
 
 페이로드의 헤더에는 스트리밍 수집 API의 작동에 필요한 정보가, 이벤트 ID와 페이로드 본분의 일부분에는 [!DNL Journey Orchestration]의 작동에 필요한 정보가 포함되어 있습니다. 그리고 본문에는 경로에 사용할 정보(예: 쇼핑을 중단한 카트의 금액)가 포함되어 있습니다. 스트리밍 수집에는 인증/미인증의 두 가지 모드가 있습니다. 스트리밍 수집 API에 대한 자세한 내용은 [이 링크](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko)를 참조하십시오.
 
